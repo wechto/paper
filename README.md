@@ -1,4 +1,4 @@
-# aha-five 
+# FIVELAUSEVEN 
 
 :fire: :collision: :anger: :exclamation: :cyclone: :ocean: :sweat_drops: :droplet: :turtle: :frog: :snake: :bug: :ram: :sheep: :rabbit2: :goat: :whale: :whale2: :fish: :dolphin: :rose: :maple_leaf: :fallen_leaf: :mushroom: :beer: :beers: :airplane: :fountain: :bullettrain_front: :rocket: :rowboat: :speedboat: 
 
@@ -194,7 +194,9 @@
 
   :ear:[Synthesizing Programs for Images using Reinforced Adversarial Learning](https://arxiv.org/pdf/1804.01118.pdf) :no_mouth: RL render RENDERS  ​
 
-  :ear: [Neural Task Graphs: Generalizing to Unseen Tasks from a Single Video Demonstration](https://arxiv.org/pdf/1807.03480.pdf) 
+  :ear: [Neural Task Graphs: Generalizing to Unseen Tasks from a Single Video Demonstration](https://arxiv.org/pdf/1807.03480.pdf) :fire: :+1:  ​ ​
+
+   The NTG networks consist of a generator that produces the conjugate task graph as the intermediate representation, and an execution engine that executes the graph by localizing node and deciding the edge transition in the task graph based on the current visual observation. 
 
 + Acquiring Diverse Robot Skills via Maximum Entropy Deep Reinforcement Learning [Tuomas Haarnoja, UCB]  https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-176.pdf :fire: :boom: :sweat_drops: :sweat_drops: 
 
@@ -416,7 +418,7 @@
 
 ### Blogs & Corp. & Legends 
 
-[OpenAI Spinning Up](https://spinningup.openai.com/en/latest/), [OpenAI Blog](https://openai.com/blog/), [DeepMind](https://deepmind.com/blog?category=research), [BAIR](https://bair.berkeley.edu/blog/), 
+[OpenAI Spinning Up](https://spinningup.openai.com/en/latest/), [OpenAI Blog](https://openai.com/blog/), [OpenAI Baselines](https://github.com/openai/baselines), [DeepMind](https://deepmind.com/blog?category=research), [BAIR](https://bair.berkeley.edu/blog/), 
 
 [Lil'Log](https://lilianweng.github.io/lil-log/), [Andrej Karpathy blog](http://karpathy.github.io/), 
 
