@@ -234,7 +234,11 @@
 
   :ear: [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/pdf/1805.00909.pdf) :boom: :boom: :volcano: :volcano:  ​
 
-  
+  **Graphic model for control as inference** (Decision Making Problem and Terminology; The Graphical Model; Policy search as Probabilistic Inference; Which Objective does This Inference Procedure Optimize;  Alternative Model Formulations);    
+
+  Variation Inference and Stochastic Dynamic(Maximium RL with Fixed Dynamics; Connection to Structured VI);     
+
+  Approximate Inference with Function Approximation(Maximum Entropy PG; Maxium Entropy AC Algorithms) 
 
 + **Bisimulation**: Representation learning for control based on bisimulation does not depend on reconstruction, but aims to group states based on their behavioral similarity in MDP.  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html#bisimulation) :sweat_drops: 
 
