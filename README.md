@@ -43,6 +43,8 @@
 
   :ear: [Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions](https://arxiv.org/pdf/1901.01753.pdf)  ​​ [Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions](https://arxiv.org/pdf/2003.08536.pdf) :no_mouth:  ​
 
+  :ear: [The Viable System Model - Stafford Beer](https://www.businessballs.com/strategy-innovation/viable-system-model-stafford-beer/)  
+
 + INTRINSIC MOTIVATION AND AUTOMATIC CURRICULA VIA ASYMMETRIC SELF-PLAY https://arxiv.org/pdf/1703.05407.pdf [起飞 ASP] :fire: :fire: :+1: 
 
 + Keeping Your Distance: Solving Sparse Reward Tasks Using Self-Balancing Shaped Rewards https://papers.nips.cc/paper/9225-keeping-your-distance-solving-sparse-reward-tasks-using-self-balancing-shaped-rewards.pdf [ASP] :fire: :volcano: 
@@ -228,6 +230,12 @@
 
   :ear: [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :confused: :-1: 
 
++ Control as Inference 
+
+  :ear: [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/pdf/1805.00909.pdf) :fire: :boom: :volcano: :volcano:  ​
+
+  
+
 + **Bisimulation**: Representation learning for control based on bisimulation does not depend on reconstruction, but aims to group states based on their behavioral similarity in MDP.  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html#bisimulation) :sweat_drops: 
 
   :ear: Equivalence Notions and Model Minimization in Markov Decision Processes http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.2493&rep=rep1&type=pdf : refers to an equivalence relation between two states with similar long-term behavior. :confused:  
@@ -317,7 +325,7 @@
 
   :ear: https://lilianweng.github.io/lil-log/2019/05/05/domain-randomization.html :sweat_drops: 
 
-+ Generalization 
++ Transfer: Generalization & Adaption 
 
   :ear: [Automatic Data Augmentation for Generalization in Deep Reinforcement Learning](https://arxiv.org/pdf/2006.12862.pdf)  :punch: :+1:  ​  ​ ​
 
@@ -328,6 +336,18 @@
   :ear: [Fast Adaptation to New Environments via Policy-Dynamics Value Functions](https://arxiv.org/pdf/2007.02879.pdf) :fire: :boom: :+1:  ​ 
 
   PD-VF explicitly estimates the cumulative reward in a space of policies and environments. 
+
+  :ear: [Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers](https://arxiv.org/pdf/2006.13916.pdf) :fire: :boom: :volcano: :droplet:  ​
+
+  The main contribution of this work is an algorithm for domain adaptation to dynamics changes in RL, based on the idea of compensating for **differences in dynamics** by modifying the reward function. This algorithm does not need to estimate transition probabilities, but rather modifies the reward function using a pair of classifiers. 
+
+  **Related work is good!** :+1: 
+
+  general domain adaption (DA) =  importance weighting + domain-agnostic features 
+
+  DA in RL =  system identification + domain randomization + observation adaptation :+1: 
+
+  formulates control as a problem of probabilistic inference :droplet: 
 
 + [Exploration Strategies in Deep Reinforcement Learning](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html) [[chinese]](https://mp.weixin.qq.com/s/FX-1IlIaFDLaQEVFN813jA) :sweat_drops: :fire: :fire:  :boom:   
 
@@ -363,9 +383,11 @@
 
 + Offline RL 
 
-  [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/pdf/2005.01643.pdf) 
+  [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/pdf/2005.01643.pdf) :sweat_drops:  ​
 
-  https://danieltakeshi.github.io/2020/06/28/offline-rl/ 
+  https://danieltakeshi.github.io/2020/06/28/offline-rl/ :sweat_drops: 
+
+  https://ai.googleblog.com/2020/08/tackling-open-challenges-in-offline.html :sweat_drops: 
 
 + Pareto Multi-Task Learning https://arxiv.org/pdf/1912.12854.pdf :boom: :boom: :fire: 
 
