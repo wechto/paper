@@ -232,7 +232,7 @@
 
 + Control as Inference 
 
-  :ear: [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/pdf/1805.00909.pdf) :fire: :boom: :volcano: :volcano:  ​
+  :ear: [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/pdf/1805.00909.pdf) :boom: :boom: :volcano: :volcano:  ​
 
   
 
