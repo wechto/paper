@@ -295,6 +295,10 @@
 
   [On Learning Invariant Representation for Domain Adaptation](https://arxiv.org/pdf/1901.09453.pdf) :fire: :boom: :sweat_drops: 
 
+  [GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://arxiv.org/pdf/1804.10745.pdf) :fire: :volcano: :volcano:  ​ ​ ​
+
+  In contrast, in our setting, we wish to avoid any such explicit domain representation, **appealing instead to the power of deep networks to discover implicit features**. We also argue that even if such such overfitting could be avoided, we do not necessarily want to wipe out domain signals, if it helps in-domain test instances. 
+
 + Distritutional RL [Hao Liang, CUHK](https://rlseminar.github.io/2019/03/11/hao.html)  [slide](https://rlseminar.github.io/static/files/RL_seminars2019-0311hao_distributional_final.pdf) :sweat_drops: :sweat_drops:  ​ ​
 
   :ear: C51: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/pdf/1707.06887.pdf) :sweat_drops:  ​
