@@ -413,17 +413,17 @@
 
   
 
-:volcano: IRL
+:volcano: IRL 
 
 + [Inverse RL & Apprenticeship Learning](https://thegradient.pub/learning-from-humans-what-is-inverse-reinforcement-learning/#:~:text=Inverse%20reinforcement%20learning%20(IRL)%2C,the%20task%20of%20autonomous%20driving.), PPT-levine([1](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/f17docs/lecture_12_irl.pdf):+1: [2](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa12/slides/inverseRL.pdf)), Medium([1](https://towardsdatascience.com/inverse-reinforcement-learning-6453b7cdc90d) [2](https://medium.com/@jonathan_hui/rl-inverse-reinforcement-learning-56c739acfb5a)), 
 
-  :ear: [Apprenticeship Learning via Inverse Reinforcement Learning](http://people.eecs.berkeley.edu/~russell/classes/cs294/s11/readings/Abbeel+Ng:2004.pdf) 
+  :ear: [Apprenticeship Learning via Inverse Reinforcement Learning](http://people.eecs.berkeley.edu/~russell/classes/cs294/s11/readings/Abbeel+Ng:2004.pdf) :+1:   [Maximum Entropy Inverse Reinforcement Learning](https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf) 
 
-  :ear: [Maximum Margin Planning](http://martin.zinkevich.org/publications/maximummarginplanning.pdf) 
+  :ear:  [Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization](scholar.google.com/scholar?scilib=1&hl=en&as_sdt=0,5) :fire:  [Maximum Entropy Deep Inverse Reinforcement Learning](https://arxiv.org/pdf/1507.04888.pdf)  
 
-  :ear: [Maximum Entropy Inverse Reinforcement Learning](https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf) 
+  :fire: [Generative Adversarial Imitation Learning](https://arxiv.org/pdf/1606.03476.pdf) :fire: :volcano: :boom: :sweat_drops:  ​
 
-  :ear: [Bayesian Inverse Reinforcement Learning](https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-416.pdf) 
+  IRL is a dual of an occupancy measure matching problem; The induced optimal policy is the primal optimum. 
 
   :ear: [UNDERSTANDING THE RELATION BETWEEN MAXIMUM-ENTROPY INVERSE REINFORCEMENT LEARNING AND BEHAVIOUR CLONING](https://openreview.net/pdf?id=rkeXrIIt_4) 
 
@@ -470,7 +470,7 @@
 
 [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/), [OpenAI Blog](https://openai.com/blog/), [OpenAI Baselines](https://github.com/openai/baselines), [DeepMind](https://deepmind.com/blog?category=research), [BAIR](https://bair.berkeley.edu/blog/), 
 
-[Lil'Log](https://lilianweng.github.io/lil-log/), [Andrej Karpathy blog](http://karpathy.github.io/), [The Gradient](https://thegradient.pub/), [RAIL - course - RL](http://rail.eecs.berkeley.edu/deeprlcourse-fa19/), 
+[Lil'Log](https://lilianweng.github.io/lil-log/), [Andrej Karpathy blog](http://karpathy.github.io/), [The Gradient](https://thegradient.pub/), [RAIL - course - RL](http://rail.eecs.berkeley.edu/deeprlcourse-fa19/), [RAIL -  cs285](https://www.youtube.com/playlist?list=PL_iWQOsE6TfURIIhCrlt-wj9ByIVpbfGc), 
 
 [covariant](http://covariant.ai/),  
 
