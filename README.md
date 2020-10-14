@@ -341,7 +341,7 @@
 
   :ear: https://lilianweng.github.io/lil-log/2019/05/05/domain-randomization.html :sweat_drops: 
 
-+ Transfer: Generalization & Adaption 
++ Transfer: Generalization & Adaption & **Dynamic** 
 
   :ear: [Automatic Data Augmentation for Generalization in Deep Reinforcement Learning](https://arxiv.org/pdf/2006.12862.pdf)  :punch: :+1:  ​  ​ ​
 
@@ -359,11 +359,15 @@
 
   **Related work is good!** :+1: 
 
-  general domain adaption (DA) =  importance weighting + domain-agnostic features 
+  + general domain adaption (DA) =  importance weighting + domain-agnostic features 
 
-  DA in RL =  system identification + domain randomization + observation adaptation :+1: 
+  + DA in RL =  system identification + domain randomization + observation adaptation :+1: 
 
-  formulates control as a problem of probabilistic inference :droplet: 
+  + formulates control as a problem of probabilistic inference :droplet: 
+
+   
+
+  
 
 + [Exploration Strategies in Deep Reinforcement Learning](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html) [[chinese]](https://mp.weixin.qq.com/s/FX-1IlIaFDLaQEVFN813jA) :sweat_drops: :fire: :fire:  :boom:   
 
@@ -497,6 +501,8 @@
 [covariant](http://covariant.ai/),  
 
 UCB: [Tuomas Haarnoja](https://scholar.google.com/citations?hl=en&user=VT7peyEAAAAJ),  [Pieter Abbeel](https://scholar.google.com/citations?user=vtwH6GkAAAAJ&hl=en&oi=sra), [Sergey Levine](https://scholar.google.com/citations?user=8R35rCwAAAAJ&hl=en),  [Abhishek Gupta ](https://people.eecs.berkeley.edu/~abhigupta/), [Coline Devin](https://people.eecs.berkeley.edu/~coline/), [YuXuan (Andrew) Liu](https://yuxuanliu.com/), [Rein Houthooft](https://scholar.google.com/citations?user=HBztuGIAAAAJ&hl=en), 
+
+CMU: [Benjamin Eysenbach](https://scholar.google.com/citations?hl=en&user=DRnOvU8AAAAJ&view_op=list_works&sortby=pubdate), 
 
 Standord: [Chelsea Finn](https://scholar.google.com/citations?user=vfPE6hgAAAAJ&hl=en), 
 
