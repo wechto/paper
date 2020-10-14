@@ -240,6 +240,10 @@
 
   Approximate Inference with Function Approximation(Maximum Entropy PG; Maxium Entropy AC Algorithms) 
 
+  :ear: [On Stochastic Optimal Control and Reinforcement Learning by Approximate Inference](http://www.roboticsproceedings.org/rss08/p45.pdf) :sweat_drops:  ​
+
+  emphasizes that MaxEnt RL can be viewed as minimizing an KL divergence. 
+
 + **Bisimulation**: Representation learning for control based on bisimulation does not depend on reconstruction, but aims to group states based on their behavioral similarity in MDP.  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html#bisimulation) :sweat_drops: 
 
   :ear: Equivalence Notions and Model Minimization in Markov Decision Processes http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.2493&rep=rep1&type=pdf : refers to an equivalence relation between two states with similar long-term behavior. :confused:  
@@ -439,7 +443,13 @@
 
   :ear: [Disagreement-Regularized Imitation Learning](https://openreview.net/forum?id=rkgbYyHtwB) 
 
-+ 
++ Goal-relabeling & Self-imitation 
+
+  :ear: [Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement](https://arxiv.org/pdf/2002.11089v1.pdf) 
+
+  MaxEnt RL and MaxEnt inverse RL optimize **the same multi-task RL objective** with respect to trajectories and tasks, respectively. 
+
+  
 
 
 
