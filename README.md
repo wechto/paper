@@ -409,7 +409,7 @@
 
   https://ai.googleblog.com/2020/08/tackling-open-challenges-in-offline.html :sweat_drops: 
 
-+ Pareto Multi-Task Learning https://arxiv.org/pdf/1912.12854.pdf :boom: :boom: :fire: 
++ Pareto Multi-Task Learning https://arxiv.org/pdf/1912.12854.pdf :boom: :boom: :fire: :droplet: 
 
   we proposed a novel Pareto Multi-Task Learning (Pareto MTL) algorithm to generate a set of well-distributed Pareto solutions with different trade-offs among tasks for a given multi-task learning (MTL) problem. 
 
