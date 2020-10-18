@@ -246,7 +246,7 @@
 
   :ear: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  ​
   
-  :ear: [Iterative Inference Models](http://bayesiandeeplearning.org/2017/papers/9.pdf) 
+  :ear: [Iterative Inference Models](http://bayesiandeeplearning.org/2017/papers/9.pdf)  [Iterative Amortized Inference](http://proceedings.mlr.press/v80/marino18a/marino18a.pdf)  
   
   Latent Variable Models & Variational Inference &  Variational Expectation Maximization (EM) &  Inference Models 
 
@@ -463,6 +463,10 @@
 
   MaxEnt RL and MaxEnt inverse RL optimize **the same multi-task RL objective** with respect to trajectories and tasks, respectively. 
 
+  :ear: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)  [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)  
+  
+  
+  
   
 
 
@@ -494,7 +498,7 @@
 + [f-GAN](https://kexue.fm/archives/5977), [GAN-OP](https://zhuanlan.zhihu.com/p/50488424), [ODE: GAN](https://zhuanlan.zhihu.com/p/65953336), 
 + [Wasserstein Distance](Wasserstein Distance), [Statistical Aspects of Wasserstein Distances](https://arxiv.org/pdf/1806.05500.pdf), [Optimal Transport and Wasserstein Distance](http://www.stat.cmu.edu/~larry/=sml/Opt.pdf), 
 + [MARKOV-LIPSCHITZ DEEP LEARNING](https://arxiv.org/pdf/2006.08256.pdf), 
-+ [Hindsight](https://zhuanlan.zhihu.com/p/191639584),  [Rainbow](https://arxiv.org/pdf/1710.02298.pdf) :sweat_drops: ,  ​
++ [Rainbow](https://arxiv.org/pdf/1710.02298.pdf) :sweat_drops: ,  ​
 
 
 
