@@ -245,6 +245,10 @@
   emphasizes that MaxEnt RL can be viewed as minimizing an KL divergence. 
 
   :ear: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  ​
+  
+  :ear: [Iterative Inference Models](http://bayesiandeeplearning.org/2017/papers/9.pdf) 
+  
+  Latent Variable Models & Variational Inference &  Variational Expectation Maximization (EM) &  Inference Models 
 
 
 
@@ -254,7 +258,7 @@
 
   :ear: Equivalence Notions and Model Minimization in Markov Decision Processes http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.2493&rep=rep1&type=pdf : refers to an equivalence relation between two states with similar long-term behavior. :confused:  
 
-  BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION
+  BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION 
   PROCESSES.  https://www.cs.mcgill.ca/~prakash/Pubs/siamFP11.pdf 
 
   :ear: DeepMDP: Learning Continuous Latent Space Models for Representation Learning https://arxiv.org/pdf/1906.02736.pdf simplifies high-dimensional observations in RL tasks and learns a latent space model via minimizing two losses: **prediction of rewards** and **prediction of the distribution over next latent states**. :mega: :milky_way: :confused: :boom: :bomb: :boom: 
