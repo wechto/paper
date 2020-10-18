@@ -463,7 +463,7 @@
 
   MaxEnt RL and MaxEnt inverse RL optimize **the same multi-task RL objective** with respect to trajectories and tasks, respectively. 
 
-  :ear: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)  [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)  
+  :ear: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)  [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)  [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)  [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)  [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)  
   
   
   
