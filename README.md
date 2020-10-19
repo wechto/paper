@@ -429,6 +429,18 @@
 
   :ear: [Auto-Encoding Variational Bayes](https://www.ics.uci.edu/~welling/publications/papers/AEVB_ICLR14.pdf) :+1:  ​
 
++ supervised RL
+
+  :ear: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: iclr2020  iclr2021 
+
+  an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
+
+  :ear:  [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) 
+
+  conditioning on the reward rather than a goal state [see related work]. 
+
++ 
+
   
 
 :volcano: IRL 
@@ -463,7 +475,7 @@
 
   MaxEnt RL and MaxEnt inverse RL optimize **the same multi-task RL objective** with respect to trajectories and tasks, respectively. 
 
-  :ear: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)  [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)  [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)  [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)  [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)  
+  :ear: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)    [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)    [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)    [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)    [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)    
   
   
   
