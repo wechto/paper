@@ -411,6 +411,12 @@
 
   a selfsupervised reinforcement learning agent that tackles both these challenges through a new approach to self-supervised exploration and fast adaptation to new tasks, which need not be known during exploration.  **unlike prior methods which retrospectively compute the novelty of observations after the agent has already reached them**, our agent acts efficiently by leveraging planning to seek out expected future novelty.  
 
+  :ear: [Efficient Exploration via State Marginal Matching](https://arxiv.org/pdf/1906.05274.pdf) :fire: :volcano:  ​ ​
+
+  our work unifies prior exploration methods as performing approximate distribution matching, and explains how state distribution matching can be performed properly 
+
+  
+
 + Offline RL 
 
   [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/pdf/2005.01643.pdf) :sweat_drops:  ​
