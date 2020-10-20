@@ -230,6 +230,8 @@
 
   :ear: [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :confused: :-1: 
 
+  :ear: 
+
 + Control as Inference 
 
   :ear: [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/pdf/1805.00909.pdf) :boom: :boom: :volcano: :volcano:  ​
@@ -447,7 +449,9 @@
 
   combines the strengths of planning and reinforcement learning 
 
-+ 
++ training RL 
+
+  :ear: [Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning](https://arxiv.org/pdf/1711.06782.pdf) :no_mouth:  ​
 
   
 
