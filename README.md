@@ -200,6 +200,12 @@
 
    The NTG networks consist of a generator that produces the conjugate task graph as the intermediate representation, and an execution engine that executes the graph by localizing node and deciding the edge transition in the task graph based on the current visual observation. 
 
+  :ear: [Reinforcement Learning with Competitive Ensembles of Information-Constrained Primitives](https://arxiv.org/pdf/1906.10667.pdf) :fire: :volcano:  ​
+
+  each primitive chooses how much information it needs about the current state to make a decision and the primitive that requests the most information about the current state acts in the world. 
+
+  
+
 + Acquiring Diverse Robot Skills via Maximum Entropy Deep Reinforcement Learning [Tuomas Haarnoja, UCB]  https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-176.pdf :fire: :boom: :sweat_drops: :sweat_drops: 
 
 
