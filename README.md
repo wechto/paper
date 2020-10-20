@@ -411,7 +411,7 @@
 
   a selfsupervised reinforcement learning agent that tackles both these challenges through a new approach to self-supervised exploration and fast adaptation to new tasks, which need not be known during exploration.  **unlike prior methods which retrospectively compute the novelty of observations after the agent has already reached them**, our agent acts efficiently by leveraging planning to seek out expected future novelty.  
 
-  :ear: [Efficient Exploration via State Marginal Matching](https://arxiv.org/pdf/1906.05274.pdf) :fire: :volcano:  ​ ​
+  :ear: [Efficient Exploration via State Marginal Matching](https://arxiv.org/pdf/1906.05274.pdf) :fire: :volcano: :droplet:  ​
 
   our work unifies prior exploration methods as performing approximate distribution matching, and explains how state distribution matching can be performed properly 
 
@@ -435,15 +435,17 @@
 
   :ear: [Auto-Encoding Variational Bayes](https://www.ics.uci.edu/~welling/publications/papers/AEVB_ICLR14.pdf) :+1:  ​
 
-+ supervised RL
++ supervised RL & goal-conditioned policy 
 
   :ear: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: iclr2020  iclr2021 
 
   an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
 
-  :ear:  [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) 
+  :ear: [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) :+1: :fire: conditioning on the reward rather than goal state [related work]
 
-  conditioning on the reward rather than a goal state [see related work]. 
+  :ear: [Search on the Replay Buffer: Bridging Planning and Reinforcement Learning](https://arxiv.org/pdf/1906.05253.pdf) :fire: :+1:  ​ ​
+
+  combines the strengths of planning and reinforcement learning 
 
 + 
 
