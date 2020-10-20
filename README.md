@@ -383,7 +383,9 @@
 
   + formulates control as a problem of probabilistic inference :droplet: 
 
-   
+   :ear: [Disentangled Skill Embeddings for Reinforcement Learning](https://arxiv.org/pdf/1906.09223.pdf) :fire: :volcano: :boom: :boom:  ​ ​ ​ ​ 
+
+  We have developed a multi-task framework from a variational inference perspective that is able to learn latent spaces that generalize to unseen tasks where the dynamics and reward can change independently. 
 
   
 
