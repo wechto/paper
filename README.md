@@ -387,7 +387,13 @@
 
   We have developed a multi-task framework from a variational inference perspective that is able to learn latent spaces that generalize to unseen tasks where the dynamics and reward can change independently. 
 
-  :ear: [**Transfer Learning in Deep Reinforcement Learning: A Survey**](https://arxiv.org/pdf/2009.07888.pdf)  :sweat_drops:  ​
+  :ear: [**Transfer Learning in Deep Reinforcement Learning: A Survey**](https://arxiv.org/pdf/2009.07888.pdf)  :sweat_drops: :sweat_drops:  ​
+
+  :ear: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: 
+
+  adapt the source policy to learn to solve a target task with significant **transition differences** and uncertainties.  
+
+   ​
 
   
 
@@ -426,6 +432,14 @@
   :ear: [Efficient Exploration via State Marginal Matching](https://arxiv.org/pdf/1906.05274.pdf) :fire: :volcano: :droplet:  ​
 
   our work unifies prior exploration methods as performing approximate distribution matching, and explains how state distribution matching can be performed properly 
+
+  :ear: hard exploration 
+
+  ​	[Provably efficient RL with Rich Observations via Latent State Decoding](https://arxiv.org/pdf/1901.09018.pdf) :confused:  ​
+
+  ​	[Provably Efficient Exploration for RL with Unsupervised Learning](https://arxiv.org/pdf/2003.06898.pdf) :confused:  ​
+
+  
 
   
 
