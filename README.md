@@ -202,9 +202,11 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
    The NTG networks consist of a generator that produces the conjugate task graph as the intermediate representation, and an execution engine that executes the graph by localizing node and deciding the edge transition in the task graph based on the current visual observation. 
 
-  :ear: [Reinforcement Learning with Competitive Ensembles of Information-Constrained Primitives](https://arxiv.org/pdf/1906.10667.pdf) :fire: :volcano:  ​
+  :ear: [Reinforcement Learning with Competitive Ensembles of Information-Constrained Primitives](https://openreview.net/pdf?id=ryxgJTEYDr) :fire: :volcano:  
 
   each primitive chooses how much information it needs about the current state to make a decision and the primitive that requests the most information about the current state acts in the world. 
+
+  :ear: [COMPOSING TASK-AGNOSTIC POLICIES WITH DEEP REINFORCEMENT LEARNING](https://openreview.net/pdf?id=H1ezFREtwH) :+1:  ​
 
   
 
@@ -363,7 +365,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :ear: https://lilianweng.github.io/lil-log/2019/05/05/domain-randomization.html :sweat_drops: 
 
-  :ear: [THE INGREDIENTS OF REAL-WORLD ROBOTIC REINFORCEMENT LEARNING](https://arxiv.org/pdf/2004.12570.pdf) 
+  :ear: [THE INGREDIENTS OF REAL-WORLD ROBOTIC REINFORCEMENT LEARNING](https://arxiv.org/pdf/2004.12570.pdf) :no_mouth:  ​
 
   
 
@@ -487,9 +489,19 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   combines the strengths of planning and reinforcement learning 
 
+  :ear: [DYNAMICAL DISTANCE LEARNING FOR SEMI-SUPERVISED AND UNSUPERVISED SKILL DISCOVERY](https://arxiv.org/pdf/1907.08225.pdf) 
+
+  dynamical distances: a measure of the expected number of time steps to reach a given goal state from any other states 
+
+  
+
 + training RL 
 
   :ear: [Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning](https://arxiv.org/pdf/1711.06782.pdf) :no_mouth:  ​
+
++ reasoning
+
+  :ear: [CAUSAL DISCOVERY WITH REINFORCEMENT LEARNING](https://arxiv.org/pdf/1906.04477.pdf) :no_mouth:  ​
 
   
 
