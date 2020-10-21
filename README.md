@@ -6,9 +6,11 @@
 
 
 
+unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL regu.; inference; bisimulation; MI; CL; DRL; DR; sim2real; transfer (DA, DG; dynamics); exploration; off-line; supervised; IRL; training; MARL;  
 
 
-### Empo. & ASP 
+
+### Emp. & ASP 
 
 :partly_sunny: :full_moon: :shell: :seedling: :evergreen_tree: :mushroom: :leaves: :sunflower: :cactus: :bouquet: :herb: :palm_tree: :four_leaf_clover: :deciduous_tree: :rose: :chestnut: :bamboo: :ear_of_rice: :palm_tree: :maple_leaf: :paw_prints: :new_moon: :first_quarter_moon: :waning_gibbous_moon: :waning_crescent_moon: :full_moon: :milky_way: :globe_with_meridians: :earth_americas: :volcano: :jack_o_lantern: 
 
@@ -59,7 +61,7 @@
 
 
 
-### Meta 
+### Meta-RL 
 
  :frog: :tiger: :snail: :snake: :camel: :tiger: :turtle: :bird: :ant: :koala: :dog: :beetle: :chicken: :rat: :ox: :cow2: :whale: :fish: :dolphin: :whale2: :cat2: :blowfish: :dragon: :dragon_face: :goat: :octopus: :ant: :turtle: :crocodile: :baby_chick: 
 
@@ -337,7 +339,9 @@
 
   :ear: online learning; regret :sweat_drops:  ​
 
-+ Active Domain Randomization http://proceedings.mlr.press/v100/mehta20a/mehta20a.pdf :fire: :boom: :fire: 
++ DR (Domain Randomization) & sim2real 
+
+  :ear: Active Domain Randomization http://proceedings.mlr.press/v100/mehta20a/mehta20a.pdf :fire: :boom: :fire: 
 
   Our method looks for the most **informative environment variations** within the given randomization ranges by **leveraging the discrepancies of policy rollouts in randomized and reference environment instances**. We find that training more frequently on these instances leads to better overall agent generalization. 
 
@@ -359,7 +363,11 @@
 
   :ear: https://lilianweng.github.io/lil-log/2019/05/05/domain-randomization.html :sweat_drops: 
 
-+ Transfer: Generalization & Adaption & **Dynamic** 
+  :ear: [THE INGREDIENTS OF REAL-WORLD ROBOTIC REINFORCEMENT LEARNING](https://arxiv.org/pdf/2004.12570.pdf) 
+
+  
+
++ **Transfer**: Generalization & Adaption & **Dynamic** 
 
   :ear: [Automatic Data Augmentation for Generalization in Deep Reinforcement Learning](https://arxiv.org/pdf/2006.12862.pdf)  :punch: :+1:  ​  ​ ​
 
@@ -389,9 +397,15 @@
 
   :ear: [**Transfer Learning in Deep Reinforcement Learning: A Survey**](https://arxiv.org/pdf/2009.07888.pdf)  :sweat_drops: :sweat_drops:  ​
 
-  :ear: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: 
+  :ear: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: :+1: :+1:  ​ ​
 
   adapt the source policy to learn to solve a target task with significant **transition differences** and uncertainties.  
+
+  :ear: [SINGLE EPISODE POLICY TRANSFER IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/1910.07719.pdf) :fire: :+1:  ​ ​
+
+  Our key idea of optimized probing for accelerated latent variable inference is to train a dedicated probe policy πϕ(a|s) to generate a dataset D of short trajectories at the beginning of all training episodes, such that the VAE’s performance on D is optimized. 
+
+  
 
    ​
 
