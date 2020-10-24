@@ -57,7 +57,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + INTRINSIC MOTIVATION AND AUTOMATIC CURRICULA VIA ASYMMETRIC SELF-PLAY https://arxiv.org/pdf/1703.05407.pdf [起飞 ASP] :fire: :fire: :+1: 
 
-+ Keeping Your Distance: Solving Sparse Reward Tasks Using Self-Balancing Shaped Rewards https://papers.nips.cc/paper/9225-keeping-your-distance-solving-sparse-reward-tasks-using-self-balancing-shaped-rewards.pdf [ASP] :fire: :volcano: 
++ Keeping Your Distance: Solving Sparse Reward Tasks Using Self-Balancing Shaped Rewards https://papers.nips.cc/paper/9225-keeping-your-distance-solving-sparse-reward-tasks-using-self-balancing-shaped-rewards.pdf [ASP] :fire: :volcano: :+1: 
 
   Our method introduces an auxiliary distance-based reward based on pairs of rollouts to encourage diverse exploration. This approach effectively prevents learning dynamics from stabilizing around local optima induced by the naive distance-to-goal reward shaping and enables policies to efficiently solve sparse reward tasks. 
 
@@ -260,7 +260,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :ear: 
 
-+ Control as Inference 
++ **Control as Inference** 
 
   :ear: [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/pdf/1805.00909.pdf) :boom: :boom: :volcano: :volcano:  ​
 
@@ -285,6 +285,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   :ear: [Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model](https://arxiv.org/pdf/1907.00953.pdf) :volcano: :boom:  ​ ​
   
   The main contribution of this work is a novel and principled approach that integrates learning stochastic sequential models and RL into a single method, performing RL in the model’s learned latent space. By **formalizing the problem as a control as inference problem within a POMDP**, we show that variational inference leads to the objective of our SLAC algorithm. 
+  
+  :ear: [On the Design of Variational RL Algorithms](https://joelouismarino.github.io/files/papers/2019/variational_rl/neurips_workshop_paper.pdf) :+1: :+1:  Good **design choices**. :sweat_drops:  ​
+  
+  Identify several settings that have not yet been fully explored, and we discuss general directions for improving these algorithms: VI details; (non-)Parametric; Uniform/Learned Prior. 
   
    ​
 
@@ -647,4 +651,6 @@ PKU: [Zongqing Lu](https://scholar.google.com/citations?user=k3IFtTYAAAAJ&hl=en)
 NJU: [Yang Yu](https://scholar.google.com/citations?user=PG2lDSwAAAAJ&hl=en), 
 
 TJU: [Jianye Hao](https://scholar.google.com/citations?user=FCJVUYgAAAAJ&hl=en), 
+
+OTHERS: [Alexander Trott](https://scholar.google.com/citations?hl=en&user=rB4bvV0AAAAJ&view_op=list_works&sortby=pubdate), 
 
