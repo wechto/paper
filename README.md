@@ -6,7 +6,7 @@
 
 
 
-unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL regu.; inference; bisimulation; MI; CL; DRL; DR; sim2real; transfer (DA, DG; dynamics); exploration; off-line; supervised; IRL; training; MARL;  
+unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL regu.; inference; bisimulation; MI; CL; DRL; DR; sim2real; transfer (DA, DG; dynamics); exploration; off-line; supervised; IRL; model-based;  training; MARL;  
 
 
 
@@ -437,6 +437,8 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   Our key idea of optimized probing for accelerated latent variable inference is to train a dedicated probe policy πϕ(a|s) to generate a dataset D of short trajectories at the beginning of all training episodes, such that the VAE’s performance on D is optimized. 
 
+  :ear: [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/pdf/2008.12595.pdf) :sweat_drops: :sweat_drops:  ​ ​
+
   
 
    ​
@@ -529,13 +531,43 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   using the context-conditioned generative model to set goals that are appropriate to the current scene. 
 
-  
+  :ear: [Reverse Curriculum Generation for Reinforcement Learning](https://arxiv.org/pdf/1707.05300.pdf) :+1: :fire:  ​ 
+
+  **Finding the optimal start-state distribution**. Our method automatically generates a curriculum of start states that adapts to the agent’s performance, leading to efficient training on goal-oriented tasks. 
 
   
 
-+ training RL 
+   ​ ​
+
+  
+
+  
+
++ Model-based RL 
+
+  :ear: [Learning Latent Dynamics for Planning from Pixels](http://proceedings.mlr.press/v97/hafner19a/hafner19a.pdf) ​​ :sweat_drops: :sweat_drops:  ​
+
+  :ear: [DREAM TO CONTROL: LEARNING BEHAVIORS BY LATENT IMAGINATION](https://arxiv.org/pdf/1912.01603.pdf) :sweat_drops:  ​
+
+  :ear: [Model-based Policy Optimization with Unsupervised Model Adaptation](https://arxiv.org/pdf/2010.09546.pdf) 
+
+  
+
++ Training RL & Just Fast & Embedding? 
 
   :ear: [Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning](https://arxiv.org/pdf/1711.06782.pdf) :no_mouth:  ​
+
+  :ear: [Predictive Information Accelerates Learning in RL](https://arxiv.org/pdf/2007.12401.pdf) :+1:  ​
+
+  We train Soft Actor-Critic (SAC) agents from pixels with an auxiliary task that learns a compressed representation of the predictive information of the RL environment dynamics using a contrastive version of the Conditional Entropy Bottleneck (CEB) objective. 
+
+  :ear: [Speeding up Reinforcement Learning with Learned Models](https://upcommons.upc.edu/bitstream/handle/2117/175740/143210.pdf) :sweat_drops:  ​
+
+  :ear: [DYNAMICS-AWARE EMBEDDINGS](https://arxiv.org/pdf/1908.09357.pdf) :+1:  ​
+
+  A forward prediction objective for simultaneously learning embeddings of states and action sequences. 
+
+  
 
 + reasoning 
 
@@ -640,11 +672,11 @@ Caltech: [Joseph Marino](https://joelouismarino.github.io/), [Yisong Yue](https:
 
 DeepMind: [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), [Yee Whye Teh](https://scholar.google.com/citations?user=y-nUzMwAAAAJ&hl=en) [[Homepage]](https://www.stats.ox.ac.uk/~teh/), [Alexandre Galashov](https://scholar.google.com/citations?user=kIpoNtcAAAAJ&hl=en&oi=sra), [Leonard Hasenclever](https://leonard-hasenclever.github.io/) [[GS]](https://scholar.google.com/citations?user=dD-3S4QAAAAJ&hl=en&oi=sra), [Siddhant M. Jayakumar](https://scholar.google.com/citations?user=rJUAY8QAAAAJ&hl=en&oi=sra), Zhongwen Xu, 
 
-Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAAAJ&view_op=list_works&sortby=pubdate), 
+Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAAAJ&view_op=list_works&sortby=pubdate), [Danijar Hafner](https://scholar.google.de/citations?hl=en&user=VINmGpYAAAAJ&view_op=list_works&sortby=pubdate) [[Homepage]](https://danijar.com/), 
 
 OpenAI: 
 
-THU:  [Chongjie Zhang](https://scholar.google.com/citations?user=LjxqXycAAAAJ&hl=en) [Homepage](http://people.iiis.tsinghua.edu.cn/~zhang/), [Yi Wu](https://scholar.google.com/citations?hl=en&user=dusV5HMAAAAJ&view_op=list_works&sortby=pubdate), [Mingsheng Long](https://scholar.google.com/citations?user=_MjXpXkAAAAJ) [Homepage](http://ise.thss.tsinghua.edu.cn/~mlong/), 
+THU:  [Chongjie Zhang](https://scholar.google.com/citations?user=LjxqXycAAAAJ&hl=en) [[Homepage]](http://people.iiis.tsinghua.edu.cn/~zhang/), [Yi Wu](https://scholar.google.com/citations?hl=en&user=dusV5HMAAAAJ&view_op=list_works&sortby=pubdate), [Mingsheng Long](https://scholar.google.com/citations?user=_MjXpXkAAAAJ) [[Homepage]](http://ise.thss.tsinghua.edu.cn/~mlong/), 
 
 PKU: [Zongqing Lu](https://scholar.google.com/citations?user=k3IFtTYAAAAJ&hl=en), 
 
