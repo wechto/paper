@@ -439,7 +439,11 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :ear: [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/pdf/2008.12595.pdf) :sweat_drops: :sweat_drops:  ​ ​
 
-  
+  :ear: [Dynamics Generalization via Information Bottleneck in Deep Reinforcement Learning](https://arxiv.org/pdf/2008.00614.pdf)​ :fire:  ​ ​
+
+  In particular, we show that the poor generalization in unseen tasks is due to the **DNNs memorizing environment observations**, rather than extracting the relevant information for a task. To prevent this, we impose communication constraints as an information bottleneck between the agent and the environment. 
+
+  :ear: 
 
    ​
 
@@ -666,7 +670,7 @@ Standord: [Chelsea Finn](https://scholar.google.com/citations?user=vfPE6hgAAAAJ&
 
 NYU: [Rob Fergus](https://scholar.google.com/citations?user=GgQ9GEkAAAAJ&hl=en&oi=sra), 
 
-MIT: [Bhairav Mehta](https://scholar.google.com/citations?hl=en&user=uPtOmHcAAAAJ),  
+MIT: [Bhairav Mehta](https://scholar.google.com/citations?hl=en&user=uPtOmHcAAAAJ),  [Leslie Kaelbling](https://scholar.google.com/citations?hl=en&user=IcasIiwAAAAJ&view_op=list_works&sortby=pubdate), [Joseph J. Lim](https://scholar.google.com/citations?hl=zh-CN&user=jTnQTBoAAAAJ&view_op=list_works&sortby=pubdate), 
 
 Caltech: [Joseph Marino](https://joelouismarino.github.io/), [Yisong Yue](https://scholar.google.com/citations?hl=en&user=tEk4qo8AAAAJ&view_op=list_works&sortby=pubdate) [Homepage](http://www.yisongyue.com/about.php), 
 
