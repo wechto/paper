@@ -6,7 +6,7 @@
 
 
 
-unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL regu.; inference; bisimulation; MI; CL; DRL; DR; sim2real; transfer (DA, DG; dynamics); exploration; off-line; supervised; IRL; model-based;  training; MARL;  
+unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL regu.; inference; bisimulation; MI; CL; DRL; DR; sim2real; transfer (DA, DG; dynamics); exploration; off-line; supervised; IRL; self-paced; Curriculum; model-based;  training; MARL;  
 
 
 
@@ -499,8 +499,6 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   
 
-  
-
 + Offline RL 
 
   [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/pdf/2005.01643.pdf) :sweat_drops:  ​
@@ -509,11 +507,17 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   https://ai.googleblog.com/2020/08/tackling-open-challenges-in-offline.html :sweat_drops: 
 
-+ Pareto Multi-Task Learning https://arxiv.org/pdf/1912.12854.pdf :boom: :boom: :fire: :droplet: 
++ Pareto 
+
+  :ear: [Pareto Multi-Task Learning](https://arxiv.org/pdf/1912.12854.pdf) :boom: :boom: :fire: :droplet: 
 
   we proposed a novel Pareto Multi-Task Learning (Pareto MTL) algorithm to generate a set of well-distributed Pareto solutions with different trade-offs among tasks for a given multi-task learning (MTL) problem. 
 
   :ear: [Efficient Continuous Pareto Exploration in Multi-Task Learning](https://arxiv.org/pdf/2006.16434.pdf) [zhihu](https://zhuanlan.zhihu.com/p/159000150) :boom: :fire: :+1:  ​ ​ ​
+
+  :ear: [Prediction-Guided Multi-Objective Reinforcement Learning for Continuous Robot Control](https://proceedings.icml.cc/static/paper_files/icml/2020/1114-Paper.pdf) :sweat_drops:  ​
+
+  
 
 + BNN
 
@@ -547,7 +551,19 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   
 
-   ​ ​
++ self-paced & curriculum RL 
+
+  :ear: [Self-Paced Contextual Reinforcement Learning](https://arxiv.org/pdf/1910.02826.pdf) :volcano: :sweat_drops:  ​ ​
+
+  We introduce a novel relative entropy reinforcement learning algorithm that gives the agent the freedom to control the intermediate task distribution, allowing for its gradual progression towards the target context distribution.  
+
+  :ear: [Self-Paced Deep Reinforcement Learning](https://arxiv.org/pdf/2004.11812.pdf) :volcano: :sweat_drops:  ​ ​
+
+  In this paper, we propose an answer by interpreting the curriculum generation as an inference problem, where distributions over tasks are progressively learned to approach the target task. This approach leads to an automatic curriculum generation, whose pace is controlled by the agent, with solid theoretical motivation and easily integrated with deep RL algorithms. 
+
+  :ear:[Learning with AMIGO: Adversarially Motivated Intrinsic Goals](https://arxiv.org/pdf/2006.12122.pdf) :+1:   [Lil'Log-Curriculum](https://lilianweng.github.io/lil-log/2020/01/29/curriculum-for-reinforcement-learning.html) :+1:  ​
+
+  **related work (curriculum) is quite good!**   (Intrinsic motivation + Curriculum learning) 
 
   
 
