@@ -685,6 +685,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   Part of the challenge is that IRL is an ill-defined problem, since there are many optimal policies that can explain a set of demonstrations, and many rewards that can explain an optimal policy. The maximum entropy (MaxEnt) IRL framework introduced by Ziebart et al. (2008) handles the former ambiguity, but the latter ambiguity means that IRL algorithms have difficulty distinguishing **the true reward functions from those shaped by the environment dynamics** (THE REWARD AMBIGUITY PROBLEM).  -- **DISENTANGLING REWARDS FROM DYNAMICS.** 
 
+  :ear: [ADVERSARIAL IMITATION VIA VARIATIONAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/1809.06404.pdf) :+1: :fire: :droplet: 
+
+  Our method simultaneously learns empowerment through variational information maximization along with the reward and policy under the adversarial learning formulation.  
+
   :ear: [A Divergence Minimization Perspective on Imitation Learning Methods](https://arxiv.org/pdf/1911.02256.pdf) :sweat_drops:  ​
 
   Imitation Learning, State-Marginal Matching 
@@ -743,6 +747,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   EOI learns a probabilistic classifier that predicts a probability distribution over agents given their observation and gives each agent an intrinsic reward of being correctly predicted by the classifier. 
 
+  :ear: [A Maximum Mutual Information Framework for Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2006.02732.pdf) :+1: :droplet:  ​ ​
+  
+  introducing a latent variable to induce nonzero mutual information between actions. 
+  
    ​ ​ ​
   
 
