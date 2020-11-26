@@ -49,27 +49,31 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   In the real world, natural forces and other agents already **offer unending novelty**. The second law of thermodynamics stipulates **ever-increasing entropy**, and therefore perpetual novelty, without even requiring any active intervention. 
 
-  :ear: [Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions](https://arxiv.org/pdf/1901.01753.pdf)  ​​ [Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions](https://arxiv.org/pdf/2003.08536.pdf) :no_mouth:  ​
+  :curly_loop: [Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions](https://arxiv.org/pdf/1901.01753.pdf)  ​​ [Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions](https://arxiv.org/pdf/2003.08536.pdf) :no_mouth:  ​
 
-  :ear: [The Viable System Model - Stafford Beer](https://www.businessballs.com/strategy-innovation/viable-system-model-stafford-beer/)  
+  :curly_loop: [The Viable System Model - Stafford Beer](https://www.businessballs.com/strategy-innovation/viable-system-model-stafford-beer/)  
 
-  :ear: [Reinforcement Learning Generalization with Surprise Minimization](https://arxiv.org/pdf/2004.12399.pdf) :no_mouth:  ​
-
-
+  :curly_loop: [Reinforcement Learning Generalization with Surprise Minimization](https://arxiv.org/pdf/2004.12399.pdf) :no_mouth:  ​
 
 
 
-+ INTRINSIC MOTIVATION AND AUTOMATIC CURRICULA VIA ASYMMETRIC SELF-PLAY https://arxiv.org/pdf/1703.05407.pdf [起飞 ASP] :fire: :fire: :+1: 
++ ASP: ASYMMETRIC SELF-PLAY 
 
-+ Keeping Your Distance: Solving Sparse Reward Tasks Using Self-Balancing Shaped Rewards https://papers.nips.cc/paper/9225-keeping-your-distance-solving-sparse-reward-tasks-using-self-balancing-shaped-rewards.pdf [ASP] :fire: :volcano: :+1: 
+  :curly_loop: INTRINSIC MOTIVATION AND AUTOMATIC CURRICULA VIA ASYMMETRIC SELF-PLAY https://arxiv.org/pdf/1703.05407.pdf [起飞 ASP] :fire: :fire: :+1: 
+
+  :curly_loop: [Keeping Your Distance: Solving Sparse Reward Tasks Using Self-Balancing Shaped Rewards](https://papers.nips.cc/paper/9225-keeping-your-distance-solving-sparse-reward-tasks-using-self-balancing-shaped-rewards.pdf) [ASP] :fire: :volcano: :+1: 
 
   Our method introduces an auxiliary distance-based reward based on pairs of rollouts to encourage diverse exploration. This approach effectively prevents learning dynamics from stabilizing around local optima induced by the naive distance-to-goal reward shaping and enables policies to efficiently solve sparse reward tasks. 
 
-+ Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm https://arxiv.org/pdf/1712.01815.pdf  :droplet: 
+  :curly_loop: [Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm](https://arxiv.org/pdf/1712.01815.pdf)  :droplet: 
 
-+ Learning Goal Embeddings via Self-Play for Hierarchical Reinforcement Learning https://arxiv.org/pdf/1811.09083.pdf [ASP] :fire: :+1: 
+  :curly_loop: [Learning Goal Embeddings via Self-Play for Hierarchical Reinforcement Learning](https://arxiv.org/pdf/1811.09083.pdf) [ASP] :fire: :+1: 
 
-+ Generating Automatic Curricula via Self-Supervised Active Domain Randomization https://arxiv.org/pdf/2002.07911.pdf [ASP] 
+  :curly_loop: [Generating Automatic Curricula via Self-Supervised Active Domain Randomization](https://arxiv.org/pdf/2002.07911.pdf) [ASP] 
+
+  :curly_loop:[ASYMMETRIC SELF-PLAY FOR AUTOMATIC GOAL DISCOVERY IN ROBOTIC MANIPULATION](https://openreview.net/pdf?id=hu2aMLzOxC) :no_mouth:  [ASP] 
+
+  
 
 
 
@@ -89,25 +93,25 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + Zhongwen Xu (DeepMind) 
 
-  :ear: [Discovering Reinforcement Learning Algorithms](https://arxiv.org/pdf/2007.08794.pdf)   Attempte to discover the full update rule :+1: ​
+  :curly_loop: [Discovering Reinforcement Learning Algorithms](https://arxiv.org/pdf/2007.08794.pdf)   Attempte to discover the full update rule :+1: ​
 
-  :ear: [What Can Learned Intrinsic Rewards Capture?](https://arxiv.org/pdf/1912.05500.pdf)   How/What value function/policy network :+1:  
+  :curly_loop: [What Can Learned Intrinsic Rewards Capture?](https://arxiv.org/pdf/1912.05500.pdf)   How/What value function/policy network :+1:  
 
   ​	lifetime return:A finite sequence of agent-environment interactions until the end of training defined by an agentdesigner, which can consist of multiple episodes. 
 
-  :ear: [Discovery of Useful Questions as Auxiliary Tasks](http://papers.nips.cc/paper/9129-discovery-of-useful-questions-as-auxiliary-tasks.pdf) :confused: 
+  :curly_loop: [Discovery of Useful Questions as Auxiliary Tasks](http://papers.nips.cc/paper/9129-discovery-of-useful-questions-as-auxiliary-tasks.pdf) :confused: 
 
   ​	Related work is good! (Prior work on auxiliary tasks in RL + GVF) :fire:  :+1:    
 
-  :ear: [Meta-Gradient Reinforcement Learning](http://papers.nips.cc/paper/7507-meta-gradient-reinforcement-learning.pdf)  discount factor + bootstrapped factor :sweat_drops:  ​
+  :curly_loop: [Meta-Gradient Reinforcement Learning](http://papers.nips.cc/paper/7507-meta-gradient-reinforcement-learning.pdf)  discount factor + bootstrapped factor :sweat_drops:  ​
 
 + Unsupervised Meta-Learning for Reinforcement Learning https://arxiv.org/pdf/1806.04640.pdf [Abhishek Gupta, Benjamin Eysenbach, Chelsea Finn, Sergey Levine] :confused: :wink: 
 
   Meta-RL shifts the human burden from algorithm to task design. In contrast, our work deals with the RL setting, where the environment dynamics provides a rich inductive bias that our meta-learner can exploit. 
 
-  :ear: [UNSUPERVISED LEARNING VIA META-LEARNING](https://arxiv.org/pdf/1810.02334.pdf)  :wink:  ​We construct tasks from unlabeled data in an automatic way and run meta-learning over the constructed tasks. 
+  :curly_loop: [UNSUPERVISED LEARNING VIA META-LEARNING](https://arxiv.org/pdf/1810.02334.pdf)  :wink:  ​We construct tasks from unlabeled data in an automatic way and run meta-learning over the constructed tasks. 
 
-  :ear: [Unsupervised Curricula for Visual Meta-Reinforcement Learning](https://arxiv.org/pdf/1912.04226.pdf)  [Allan Jabriα; Kyle Hsu] :+1: :droplet: :volcano: :fire: 
+  :curly_loop: [Unsupervised Curricula for Visual Meta-Reinforcement Learning](https://arxiv.org/pdf/1912.04226.pdf)  [Allan Jabriα; Kyle Hsu] :+1: :droplet: :volcano: :fire: 
 
   Yet, the aforementioned relation between skill acquisition and meta-learning suggests that they should not be treated separately. 
 
@@ -121,17 +125,17 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + latent models
 
-  :ear: [MELD: Meta-Reinforcement Learning from Images via Latent State Models](https://arxiv.org/pdf/2010.13957.pdf) :+1: :+1:  ​ ​
+  :curly_loop: [MELD: Meta-Reinforcement Learning from Images via Latent State Models](https://arxiv.org/pdf/2010.13957.pdf) :+1: :+1:  ​ ​
 
   we leverage the perspective of meta-learning as task inference to show that latent state models can also perform meta-learning given an appropriately defined observation space. 
 
-  :ear: [Explore then Execute: Adapting without Rewards via Factorized Meta-Reinforcement Learning](https://arxiv.org/pdf/2008.02790.pdf) :+1: :+1: 
+  :curly_loop: [Explore then Execute: Adapting without Rewards via Factorized Meta-Reinforcement Learning](https://arxiv.org/pdf/2008.02790.pdf) :+1: :+1: 
 
   based on identifying key information in the environment, independent of how this information will exactly be used solve the task. By decoupling exploration from task execution, DREAM explores and consequently adapts to new environments, requiring no reward signal when the task is specified via an instruction.  
 
 + model identification and experience relabeling (MIER) 
 
-  :ear: [Meta-Reinforcement Learning Robust to Distributional Shift via Model Identification and Experience Relabeling](https://arxiv.org/pdf/2006.07178.pdf) :+1: :fire:  ​ ​
+  :curly_loop: [Meta-Reinforcement Learning Robust to Distributional Shift via Model Identification and Experience Relabeling](https://arxiv.org/pdf/2006.07178.pdf) :+1: :fire:  ​ ​
 
   Our method is based on a simple insight: we recognize that dynamics models can be adapted efficiently and consistently with off-policy data, more easily than policies and value functions. These dynamics models can then be used to continue training policies and value functions for out-of-distribution tasks without using meta-reinforcement learning at all, by generating synthetic experience for the new task. 
 
@@ -141,7 +145,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + SUB-POLICY ADAPTATION FOR HIERARCHICAL REINFORCEMENT LEARNING https://arxiv.org/pdf/1906.05862.pdf :-1:  
 
-  :ear: [STOCHASTIC NEURAL NETWORKS FOR HIERARCHICAL REINFORCEMENT LEARNING](https://arxiv.org/pdf/1704.03012.pdf)  
+  :curly_loop: [STOCHASTIC NEURAL NETWORKS FOR HIERARCHICAL REINFORCEMENT LEARNING](https://arxiv.org/pdf/1704.03012.pdf)  
 
 + HIERARCHICAL RL USING AN ENSEMBLE OF PROPRIOCEPTIVE PERIODIC POLICIES https://openreview.net/pdf?id=SJz1x20cFQ :-1: 
 
@@ -164,15 +168,15 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   + sub-optimal 
   + stochasticity: 2-armed bandit problem 
 
-  *improving exploration with stein variational gradient* :collision: :boom: :collision: 
+  *improving exploration with stein variational gradient* : : : 
 
   One approach to achieve better exploration in challenging cases like above is to simultaneously learn **multiple diverse policies** and enforce them to explore different parts of the high dimensional space.
 
-  :ear: Self-Imitation Learning ICML2018 https://arxiv.org/pdf/1806.05635.pdf 
+  :curly_loop: Self-Imitation Learning ICML2018 https://arxiv.org/pdf/1806.05635.pdf 
 
   interpreted as **cross entropy loss** (i.e., classification loss for discrete action) with sample weights proportional to the gap between the return and the agent’s value estimate 
 
-  :ear:  Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016 https://arxiv.org/pdf/1608.04471.pdf 
+  :curly_loop:  Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016 https://arxiv.org/pdf/1608.04471.pdf 
 
 + EPISODIC CURIOSITY THROUGH REACHABILITY [reward design] 
 
@@ -180,65 +184,65 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + Combing Skills & **KL regularized expected reward objective** 
 
-  :ear: [INFOBOT: TRANSFER AND EXPLORATION VIA THE INFORMATION BOTTLENECK](https://arxiv.org/pdf/1901.10902.pdf) :fire: :boom:  ​ ​
+  :curly_loop: [INFOBOT: TRANSFER AND EXPLORATION VIA THE INFORMATION BOTTLENECK](https://arxiv.org/pdf/1901.10902.pdf) :fire: :boom:  ​ ​
 
   By training a goal-conditioned policy with an information bottleneck, we can identify decision states by examining where the model actually leverages the goal state. 
 
-  :ear: [the option keyboard Combing Skills in Reinforcement Learning](https://papers.nips.cc/paper/9463-the-option-keyboard-combining-skills-in-reinforcement-learning.pdf)  
+  :curly_loop: [the option keyboard Combing Skills in Reinforcement Learning](https://papers.nips.cc/paper/9463-the-option-keyboard-combining-skills-in-reinforcement-learning.pdf)  
 
   We argue that a more robust way of combining skills is to do so directly in **the goal space**, using pseudo-rewards or cumulants. If we associate each skill with a cumulant, we can combine the former by manipulating the latter. This allows us to go beyond the direct prescription of behaviors, working instead in the space of intentions. :confused: 
 
   Others: 1. in the space of policies -- over actions; 2. manipulating the corresponding parameters. 
 
-  :ear: [Scaling simulation-to-real transfer by learning composable robot skills](https://arxiv.org/pdf/1809.10253.pdf) :fire: :+1: :boom: 
+  :curly_loop: [Scaling simulation-to-real transfer by learning composable robot skills](https://arxiv.org/pdf/1809.10253.pdf) :fire: :+1: :boom: 
 
   we first use simulation to jointly learn a policy for a set of low-level skills, and a **“skill embedding”** parameterization which can be used to compose them. 
 
-  :ear: [LEARNING AN EMBEDDING SPACE FOR TRANSFERABLE ROBOT SKILLS](https://openreview.net/pdf?id=rk07ZXZRb) :fire: :+1: :boom:  ​
+  :curly_loop: [LEARNING AN EMBEDDING SPACE FOR TRANSFERABLE ROBOT SKILLS](https://openreview.net/pdf?id=rk07ZXZRb) :fire: :+1: :boom:  ​
 
   our method is able to learn the skill embedding distributions, which enables interpolation between different skills as well as discovering the number of distinct skills necessary to accomplish a set of tasks. 
 
-  :ear: [CoMic: Complementary Task Learning & Mimicry for Reusable Skills](https://proceedings.icml.cc/static/paper_files/icml/2020/5013-Paper.pdf) :fire: :boom:  ​ ​
+  :curly_loop: [CoMic: Complementary Task Learning & Mimicry for Reusable Skills](https://proceedings.icml.cc/static/paper_files/icml/2020/5013-Paper.pdf) :fire: :boom:  ​ ​
 
    We study the problem of learning reusable humanoid skills by imitating motion capture data and joint training with complementary tasks. **Related work is good!** 
 
-  :ear: [Learning to combine primitive skills: A step towards versatile robotic manipulation](https://arxiv.org/pdf/1908.00722.pdf) :+1:  ​
+  :curly_loop: [Learning to combine primitive skills: A step towards versatile robotic manipulation](https://arxiv.org/pdf/1908.00722.pdf) :+1:  ​
 
   RL(high-level) + IM (low-level) 
 
-  :ear: [COMPOSABLE SEMI-PARAMETRIC MODELLING FOR LONG-RANGE MOTION GENERATION](https://openreview.net/pdf?id=rkl44TEtwH) :+1:  ​
+  :curly_loop: [COMPOSABLE SEMI-PARAMETRIC MODELLING FOR LONG-RANGE MOTION GENERATION](https://openreview.net/pdf?id=rkl44TEtwH) :+1:  ​
 
   Our proposed method learns to model the motion of human by combining the complementary strengths of both non-parametric techniques and parametric ones. Good EXPERIMENTS! 
 
-  :ear: [LEARNING TO COORDINATE MANIPULATION SKILLS VIA SKILL BEHAVIOR DIVERSIFICATION](https://openreview.net/pdf?id=ryxB2lBtvH) :fire: :+1:  ​ ​
+  :curly_loop: [LEARNING TO COORDINATE MANIPULATION SKILLS VIA SKILL BEHAVIOR DIVERSIFICATION](https://openreview.net/pdf?id=ryxB2lBtvH) :fire: :+1:  ​ ​
 
   Our method consists of two parts: (1) acquiring primitive skills with diverse behaviors by mutual information maximization, and (2) learning a meta policy that selects a skill for each end-effector and coordinates the chosen skills by controlling the behavior of each skill. **Related work is good!** 
 
-  :ear: [Information asymmetry in KL-regularized RL](https://arxiv.org/pdf/1905.01240.pdf) :fire: :boom: :+1:  ​ ​ ​
+  :curly_loop: [Information asymmetry in KL-regularized RL](https://arxiv.org/pdf/1905.01240.pdf) :fire: :boom: :+1:  ​ ​ ​
 
   In this work we study the possibility of leveraging such repeated structure to speed up and regularize learning. We start from the **KL regularized expected reward objective** which introduces an additional component, a default policy. Instead of relying on a fixed default policy, we learn it from data. But crucially, we **restrict the amount of information the default policy receives**, forcing it to learn reusable behaviours that help the policy learn faster. 
 
-  :ear: [Exploiting Hierarchy for Learning and Transfer in KL-regularized RL](https://arxiv.org/pdf/1903.07438.pdf) :+1: :boom: :fire: :droplet:   
+  :curly_loop: [Exploiting Hierarchy for Learning and Transfer in KL-regularized RL](https://arxiv.org/pdf/1903.07438.pdf) :+1: :boom: :fire: :droplet:   
 
   The KL-regularized expected reward objective constitutes a convenient tool to this end. It introduces an additional component, a default or prior behavior, which can be learned alongside the policy and as such partially transforms the reinforcement learning problem into one of behavior modelling. **In this work we consider the implications of this framework in case where both the policy and default behavior are augmented with latent variables.** We discuss how the resulting hierarchical structures can be exploited to implement different inductive biases and how the resulting modular structures can be exploited for transfer. Good Writing / Related-work!  :+1:  
 
-  :ear: [CompILE: Compositional Imitation Learning and Execution](http://proceedings.mlr.press/v97/kipf19a/kipf19a.pdf) :no_mouth:  ​
+  :curly_loop: [CompILE: Compositional Imitation Learning and Execution](http://proceedings.mlr.press/v97/kipf19a/kipf19a.pdf) :no_mouth:  ​
 
   CompILE can successfully discover sub-tasks and their boundaries in an imitation learning setting. 
 
-  :ear: [Strategic Attentive Writer for Learning Macro-Actions](http://papers.nips.cc/paper/6414-strategic-attentive-writer-for-learning-macro-actions.pdf) :no_mouth:  ​
+  :curly_loop: [Strategic Attentive Writer for Learning Macro-Actions](http://papers.nips.cc/paper/6414-strategic-attentive-writer-for-learning-macro-actions.pdf) :no_mouth:  ​
 
-  :ear:[Synthesizing Programs for Images using Reinforced Adversarial Learning](https://arxiv.org/pdf/1804.01118.pdf) :no_mouth: RL render RENDERS  ​
+  :curly_loop:[Synthesizing Programs for Images using Reinforced Adversarial Learning](https://arxiv.org/pdf/1804.01118.pdf) :no_mouth: RL render RENDERS  ​
 
-  :ear: [Neural Task Graphs: Generalizing to Unseen Tasks from a Single Video Demonstration](https://arxiv.org/pdf/1807.03480.pdf) :fire: :+1:  ​ ​
+  :curly_loop: [Neural Task Graphs: Generalizing to Unseen Tasks from a Single Video Demonstration](https://arxiv.org/pdf/1807.03480.pdf) :fire: :+1:  ​ ​
 
    The NTG networks consist of a generator that produces the conjugate task graph as the intermediate representation, and an execution engine that executes the graph by localizing node and deciding the edge transition in the task graph based on the current visual observation. 
 
-  :ear: [Reinforcement Learning with Competitive Ensembles of Information-Constrained Primitives](https://openreview.net/pdf?id=ryxgJTEYDr) :fire: :volcano:  
+  :curly_loop: [Reinforcement Learning with Competitive Ensembles of Information-Constrained Primitives](https://openreview.net/pdf?id=ryxgJTEYDr) :fire: :volcano:  
 
   each primitive chooses how much information it needs about the current state to make a decision and the primitive that requests the most information about the current state acts in the world. 
 
-  :ear: [COMPOSING TASK-AGNOSTIC POLICIES WITH DEEP REINFORCEMENT LEARNING](https://openreview.net/pdf?id=H1ezFREtwH) :+1:  ​
+  :curly_loop: [COMPOSING TASK-AGNOSTIC POLICIES WITH DEEP REINFORCEMENT LEARNING](https://openreview.net/pdf?id=H1ezFREtwH) :+1:  ​
 
   
 
@@ -274,21 +278,21 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + SurVAE **Flows**: Surjections to Bridge the Gap between VAEs and Flows [Max Welling] https://arxiv.org/pdf/2007.02731.pdf 
 
-  :ear: [Normalizing Flows: An Introduction and Review of Current Methods](https://arxiv.org/pdf/1908.09257.pdf)  :+1: ; Citing:  [Normalizing Flows for Probabilistic Modeling and Inference](https://arxiv.org/pdf/1912.02762.pdf) :+1: :boom: :boom: :boom: ; [lil-log: Flow-based Deep Generative Models](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html) ; [Jianlin Su: f-VAES](https://zhuanlan.zhihu.com/p/45090025) :sweat_drops: ; [Deep generative models](https://deepgenerativemodels.github.io/notes/) :sweat_drops:  [Another slide](https://drive.google.com/file/d/1SGGWQR_FCHzsg-_aYzCjgHypXNesl6ML/view);  
+  :curly_loop: [Normalizing Flows: An Introduction and Review of Current Methods](https://arxiv.org/pdf/1908.09257.pdf)  :+1: ; Citing:  [Normalizing Flows for Probabilistic Modeling and Inference](https://arxiv.org/pdf/1912.02762.pdf) :+1: :boom: :boom: :boom: ; [lil-log: Flow-based Deep Generative Models](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html) ; [Jianlin Su: f-VAES](https://zhuanlan.zhihu.com/p/45090025) :sweat_drops: ; [Deep generative models](https://deepgenerativemodels.github.io/notes/) :sweat_drops:  [Another slide](https://drive.google.com/file/d/1SGGWQR_FCHzsg-_aYzCjgHypXNesl6ML/view);  
 
-  :ear: [Deep Kernel Density Estimation](https://zhuanlan.zhihu.com/p/73426787) (Maximum Likelihood, Neural Density Estimation (Auto Regressive Models + Normalizing Flows), Score Matching ([MRF](http://signal.ee.psu.edu/mrf.pdf)), Kernel Exponential Family ([RKHS](http://songcy.net/posts/story-of-basis-and-kernel-part-2/)), Deep Kernel);  
+  :curly_loop: [Deep Kernel Density Estimation](https://zhuanlan.zhihu.com/p/73426787) (Maximum Likelihood, Neural Density Estimation (Auto Regressive Models + Normalizing Flows), Score Matching ([MRF](http://signal.ee.psu.edu/mrf.pdf)), Kernel Exponential Family ([RKHS](http://songcy.net/posts/story-of-basis-and-kernel-part-2/)), Deep Kernel);  
 
-  :ear: 
+  :curly_loop: 
 
 + Self-Supervised Learning  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html) :sweat_drops: ; 
 
-  :ear: [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :confused: :-1: 
+  :curly_loop: [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :confused: :-1: 
 
-  :ear: 
+  :curly_loop: 
 
 + **Control as Inference** 
 
-  :ear: [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/pdf/1805.00909.pdf) :boom: :boom: :volcano: :volcano:  ​
+  :curly_loop: [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/pdf/1805.00909.pdf) :boom: :boom: :volcano: :volcano:  ​
 
   **Graphic model for control as inference** (Decision Making Problem and Terminology; The Graphical Model; Policy search as Probabilistic Inference; Which Objective does This Inference Procedure Optimize;  Alternative Model Formulations);    
 
@@ -296,76 +300,80 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   Approximate Inference with Function Approximation(Maximum Entropy PG; Maxium Entropy AC Algorithms) 
 
-  :ear: [On Stochastic Optimal Control and Reinforcement Learning by Approximate Inference](http://www.roboticsproceedings.org/rss08/p45.pdf) :sweat_drops:  ​
+  :curly_loop: [On Stochastic Optimal Control and Reinforcement Learning by Approximate Inference](http://www.roboticsproceedings.org/rss08/p45.pdf) :sweat_drops:  ​
 
   emphasizes that MaxEnt RL can be viewed as minimizing an KL divergence. 
 
-  :ear: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  ​
+  :curly_loop: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  ​
   
-  :ear: [Iterative Inference Models](http://bayesiandeeplearning.org/2017/papers/9.pdf)  [Iterative Amortized Inference](http://proceedings.mlr.press/v80/marino18a/marino18a.pdf)  :+1: :+1:  ​ ​
+  :curly_loop: [Iterative Inference Models](http://bayesiandeeplearning.org/2017/papers/9.pdf)  [Iterative Amortized Inference](http://proceedings.mlr.press/v80/marino18a/marino18a.pdf)  :+1: :+1:  ​ ​
   
   Latent Variable Models & Variational Inference &  Variational Expectation Maximization (EM) &  Inference Models 
   
-  :ear: [MAKING SENSE OF REINFORCEMENT LEARNING AND PROBABILISTIC INFERENCE](https://arxiv.org/pdf/2001.00805.pdf) :question: 
+  :curly_loop: [MAKING SENSE OF REINFORCEMENT LEARNING AND PROBABILISTIC INFERENCE](https://arxiv.org/pdf/2001.00805.pdf) :question: 
   
-  :ear: [Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model](https://arxiv.org/pdf/1907.00953.pdf) :volcano: :boom:  ​ ​
+  :curly_loop: [Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model](https://arxiv.org/pdf/1907.00953.pdf) :volcano: :boom:  ​ ​
   
   The main contribution of this work is a novel and principled approach that integrates learning stochastic sequential models and RL into a single method, performing RL in the model’s learned latent space. By **formalizing the problem as a control as inference problem within a POMDP**, we show that variational inference leads to the objective of our SLAC algorithm. 
   
-  :ear: [On the Design of Variational RL Algorithms](https://joelouismarino.github.io/files/papers/2019/variational_rl/neurips_workshop_paper.pdf) :+1: :+1: :fire: ​ Good **design choices**. :sweat_drops:  ​
+  :curly_loop: [On the Design of Variational RL Algorithms](https://joelouismarino.github.io/files/papers/2019/variational_rl/neurips_workshop_paper.pdf) :+1: :+1: :fire: ​ Good **design choices**. :sweat_drops:  ​
   
   Identify several settings that have not yet been fully explored, and we discuss general directions for improving these algorithms: VI details; (non-)Parametric; Uniform/Learned Prior. 
   
-  :ear: [VIREL: A Variational Inference Framework for Reinforcement Learning](http://papers.nips.cc/paper/8934-virel-a-variational-inference-framework-for-reinforcement-learning.pdf) :confused:  ​
+  :curly_loop: [VIREL: A Variational Inference Framework for Reinforcement Learning](http://papers.nips.cc/paper/8934-virel-a-variational-inference-framework-for-reinforcement-learning.pdf) :confused:  ​
   
   existing inference frameworks and their algorithms pose significant challenges for learning optimal policies, for example, the lack of mode capturing behaviour in pseudo-likelihood methods, difficulties learning deterministic policies in maximum entropy RL based approaches, and a lack of analysis when function approximators are used. 
   
-  :ear: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://openreview.net/pdf?id=S1ANxQW0b) :+1: :fire:  :droplet:  ​
+  :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://openreview.net/pdf?id=S1ANxQW0b) :+1: :fire:  :droplet:  ​
   
   MPO based on coordinate ascent on a relativeentropy objective. We show that several existing methods can directly be related to our derivation. 
   
    
 
-
+: : : : : : 
 
 
 
 + **Bisimulation**: Representation learning for control based on bisimulation does not depend on reconstruction, but aims to group states based on their behavioral similarity in MDP.  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html#bisimulation) :sweat_drops: 
 
-  :ear: Equivalence Notions and Model Minimization in Markov Decision Processes http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.2493&rep=rep1&type=pdf : refers to an equivalence relation between two states with similar long-term behavior. :confused:  
+  :curly_loop: Equivalence Notions and Model Minimization in Markov Decision Processes http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.2493&rep=rep1&type=pdf : refers to an equivalence relation between two states with similar long-term behavior. :confused:  
 
   BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION 
   PROCESSES.  https://www.cs.mcgill.ca/~prakash/Pubs/siamFP11.pdf 
 
-  :ear: DeepMDP: Learning Continuous Latent Space Models for Representation Learning https://arxiv.org/pdf/1906.02736.pdf simplifies high-dimensional observations in RL tasks and learns a latent space model via minimizing two losses: **prediction of rewards** and **prediction of the distribution over next latent states**. :mega: :milky_way: :confused: :boom: :bomb: :boom: 
+  :curly_loop: DeepMDP: Learning Continuous Latent Space Models for Representation Learning https://arxiv.org/pdf/1906.02736.pdf simplifies high-dimensional observations in RL tasks and learns a latent space model via minimizing two losses: **prediction of rewards** and **prediction of the distribution over next latent states**. :mega: :milky_way: :confused: :boom: :bomb: :boom: 
 
-  :ear: [DBC](https://zhuanlan.zhihu.com/p/157534599): Learning Invariant Representations for Reinforcement Learning without Reconstruction https://arxiv.org/pdf/2006.10742.pdf  :boom: :boom: :boom: 
+  :curly_loop: [DBC](https://zhuanlan.zhihu.com/p/157534599): Learning Invariant Representations for Reinforcement Learning without Reconstruction https://arxiv.org/pdf/2006.10742.pdf  :boom: :boom: :boom: 
 
-  :ear: LEARNING INVARIANT FEATURE SPACES TO TRANSFER SKILLS WITH REINFORCEMENT LEARNING https://arxiv.org/pdf/1703.02949.pdf :fire: :+1: 
+  :curly_loop: LEARNING INVARIANT FEATURE SPACES TO TRANSFER SKILLS WITH REINFORCEMENT LEARNING https://arxiv.org/pdf/1703.02949.pdf :fire: :+1: 
 
   differ in state-space, action-space, and dynamics. 
 
    Our method uses the skills that were learned by both agents to train **invariant feature spaces** that can then be used to transfer other skills from one agent to another. 
 
-  :ear: [UIUC: CS 598 Statistical Reinforcement Learning (S19) ](http://nanjiang.cs.illinois.edu/cs598/) NanJiang :+1::eagle: :eagle: 
+  :curly_loop: [UIUC: CS 598 Statistical Reinforcement Learning (S19) ](http://nanjiang.cs.illinois.edu/cs598/) NanJiang :+1::eagle: :eagle: 
+
+  :curly_loop: [CONTRASTIVE BEHAVIORAL SIMILARITY EMBEDDINGS FOR GENERALIZATION IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=qda7-sVg84) :boom: :sweat_drops:  ​ ​
+
+
 
 + **mutual information**: 
 
-  :ear: [MINE: Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) :+1::droplet: ​ :fire: 
+  :curly_loop: [MINE: Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) :+1::droplet: ​ :fire: 
 
-  :ear: [Deep InfoMax: LEARNING DEEP REPRESENTATIONS BY MUTUAL INFORMATION ESTIMATION AND MAXIMIZATION](https://arxiv.org/pdf/1808.06670.pdf) :+1::droplet: ​  
+  :curly_loop: [Deep InfoMax: LEARNING DEEP REPRESENTATIONS BY MUTUAL INFORMATION ESTIMATION AND MAXIMIZATION](https://arxiv.org/pdf/1808.06670.pdf) :+1::droplet: ​  
 
-  :ear: [ON MUTUAL INFORMATION MAXIMIZATION FOR REPRESENTATION LEARNING](https://arxiv.org/pdf/1907.13625.pdf) :sweat_drops: :+1:  ​ 
+  :curly_loop: [ON MUTUAL INFORMATION MAXIMIZATION FOR REPRESENTATION LEARNING](https://arxiv.org/pdf/1907.13625.pdf) :sweat_drops: :+1:  ​ 
 
-  :ear: [Deep Reinforcement and InfoMax Learning](Deep Reinforcement and InfoMax Learning) :sweat_drops: :+1: :confused: :droplet: 
+  :curly_loop: [Deep Reinforcement and InfoMax Learning](Deep Reinforcement and InfoMax Learning) :sweat_drops: :+1: :confused: :droplet: 
 
   Our work is based on the hypothesis that a model-free agent whose **representations are predictive of properties of future states** (beyond expected rewards) will be more capable of solving and adapting to new RL problems, and in a way, incorporate aspects of model-based learning. 
 
-  :ear: [Unpacking Information Bottlenecks: Unifying Information-Theoretic Objectives in Deep Learning](https://arxiv.org/pdf/2003.12537.pdf) :volcano: 
+  :curly_loop: [Unpacking Information Bottlenecks: Unifying Information-Theoretic Objectives in Deep Learning](https://arxiv.org/pdf/2003.12537.pdf) :volcano: 
 
   
 
-  :ear: OUYANG: 
+  :curly_loop: OUYANG: 
 
   [小王爱迁移](https://zhuanlan.zhihu.com/p/27336930), 
 
@@ -395,25 +403,25 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   [In Search of Lost Domain Generalization](https://arxiv.org/pdf/2007.01434.pdf) :no_mouth:  ​
 
-  :ear: [DIRL: Domain-Invariant Representation Learning for Sim-to-Real Transfer](https://arxiv.org/pdf/2011.07589.pdf) :sweat_drops:  ​
+  :curly_loop: [DIRL: Domain-Invariant Representation Learning for Sim-to-Real Transfer](https://arxiv.org/pdf/2011.07589.pdf) :sweat_drops:  ​
 
   
 
 + Distritutional RL [Hao Liang, CUHK](https://rlseminar.github.io/2019/03/11/hao.html)  [slide](https://rlseminar.github.io/static/files/RL_seminars2019-0311hao_distributional_final.pdf) :sweat_drops: :sweat_drops:  ​ ​
 
-  :ear: C51: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/pdf/1707.06887.pdf) :sweat_drops:  ​
+  :curly_loop: C51: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/pdf/1707.06887.pdf) :sweat_drops:  ​
 
   
 
 + Continual Learning 
 
-  :ear: [Continual Learning with Deep Generative Replay](https://papers.nips.cc/paper/6892-continual-learning-with-deep-generative-replay.pdf)  :droplet: :no_mouth:  
+  :curly_loop: [Continual Learning with Deep Generative Replay](https://papers.nips.cc/paper/6892-continual-learning-with-deep-generative-replay.pdf)  :droplet: :no_mouth:  
 
-  :ear: online learning; regret :sweat_drops:  ​
+  :curly_loop: online learning; regret :sweat_drops:  ​
 
 + DR (Domain Randomization) & sim2real 
 
-  :ear: Active Domain Randomization http://proceedings.mlr.press/v100/mehta20a/mehta20a.pdf :fire: :boom: :fire: 
+  :curly_loop: Active Domain Randomization http://proceedings.mlr.press/v100/mehta20a/mehta20a.pdf :fire: :boom: :fire: 
 
   Our method looks for the most **informative environment variations** within the given randomization ranges by **leveraging the discrepancies of policy rollouts in randomized and reference environment instances**. We find that training more frequently on these instances leads to better overall agent generalization. 
 
@@ -421,31 +429,31 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   Bhairav Mehta [On Learning and Generalization in Unstructured Task Spaces](https://bhairavmehta95.github.io/static/thesis.pdf) :sweat_drops: :sweat_drops:   
 
-  :ear: [VADRA: Visual Adversarial Domain Randomization and Augmentation](https://arxiv.org/pdf/1812.00491.pdf) :fire: :+1:  generative + learner 
+  :curly_loop: [VADRA: Visual Adversarial Domain Randomization and Augmentation](https://arxiv.org/pdf/1812.00491.pdf) :fire: :+1:  generative + learner 
 
-  :ear: [Which Training Methods for GANs do actually Converge?](https://arxiv.org/pdf/1801.04406.pdf)  :+1: :droplet:   [ODE: GAN](https://zhuanlan.zhihu.com/p/65953336) 
+  :curly_loop: [Which Training Methods for GANs do actually Converge?](https://arxiv.org/pdf/1801.04406.pdf)  :+1: :droplet:   [ODE: GAN](https://zhuanlan.zhihu.com/p/65953336) 
 
-  :ear: [Robust Adversarial Reinforcement Learning](https://arxiv.org/pdf/1703.02702.pdf) :no_mouth:  ​
+  :curly_loop: [Robust Adversarial Reinforcement Learning](https://arxiv.org/pdf/1703.02702.pdf) :no_mouth:  ​
 
   Our proposed method, Robust Adversarial Reinforcement Learning (RARL), jointly trains a pair of agents, a protagonist and an adversary, where the protagonist learns to fulfil the original task goals while being robust to the disruptions generated by its adversary. 
 
-  :ear: [Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience](https://arxiv.org/pdf/1810.05687.pdf) :no_mouth:  ​
+  :curly_loop: [Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience](https://arxiv.org/pdf/1810.05687.pdf) :no_mouth:  ​
 
-  :ear: [POLICY TRANSFER WITH STRATEGY OPTIMIZATION](https://arxiv.org/pdf/1810.05751.pdf) :no_mouth:  ​ 
+  :curly_loop: [POLICY TRANSFER WITH STRATEGY OPTIMIZATION](https://arxiv.org/pdf/1810.05751.pdf) :no_mouth:  ​ 
 
-  :ear: https://lilianweng.github.io/lil-log/2019/05/05/domain-randomization.html :sweat_drops: 
+  :curly_loop: https://lilianweng.github.io/lil-log/2019/05/05/domain-randomization.html :sweat_drops: 
 
-  :ear: [THE INGREDIENTS OF REAL-WORLD ROBOTIC REINFORCEMENT LEARNING](https://arxiv.org/pdf/2004.12570.pdf) :no_mouth:  ​
+  :curly_loop: [THE INGREDIENTS OF REAL-WORLD ROBOTIC REINFORCEMENT LEARNING](https://arxiv.org/pdf/2004.12570.pdf) :no_mouth:  ​
 
-  :ear: [ROBUST REINFORCEMENT LEARNING ON STATE OBSERVATIONS WITH LEARNED OPTIMAL ADVERSARY](https://openreview.net/pdf?id=sCZbhBvqQaU) :+1: 
+  :curly_loop: [ROBUST REINFORCEMENT LEARNING ON STATE OBSERVATIONS WITH LEARNED OPTIMAL ADVERSARY](https://openreview.net/pdf?id=sCZbhBvqQaU) :+1: 
 
   To enhance the robustness of an agent, we propose a framework of alternating training with learned adversaries (ATLA), which trains an adversary online together with the agent using policy gradient following the optimal adversarial attack framework.  
 
-  :ear: [SELF-SUPERVISED POLICY ADAPTATION DURING DEPLOYMENT](https://openreview.net/pdf?id=o_V-MjyyGV_) :+1: :fire:  
+  :curly_loop: [SELF-SUPERVISED POLICY ADAPTATION DURING DEPLOYMENT](https://openreview.net/pdf?id=o_V-MjyyGV_) :+1: :fire:  
 
   Our work explores the use of self-supervision to allow the policy to continue training after deployment without using any rewards. 
 
-  :ear: [DATA-EFFICIENT REINFORCEMENT LEARNING WITH SELF-PREDICTIVE REPRESENTATIONS](https://openreview.net/pdf?id=uCQfPZwRaUu) :no_mouth: 
+  :curly_loop: [DATA-EFFICIENT REINFORCEMENT LEARNING WITH SELF-PREDICTIVE REPRESENTATIONS](https://openreview.net/pdf?id=uCQfPZwRaUu) :no_mouth: 
 
    ​
 
@@ -463,17 +471,17 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + **Transfer**: Generalization & Adaption & **Dynamics** 
 
-  :ear: [Automatic Data Augmentation for Generalization in Deep Reinforcement Learning](https://arxiv.org/pdf/2006.12862.pdf)  :punch: :+1:  ​  ​ ​
+  :curly_loop: [Automatic Data Augmentation for Generalization in Deep Reinforcement Learning](https://arxiv.org/pdf/2006.12862.pdf)  :punch: :+1:  ​  ​ ​
 
   Across different visual inputs (with the same semantics), dynamics, or other environment structures 
 
-  :ear: [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf) :+1: 
+  :curly_loop: [Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2004.13649.pdf) :+1: 
 
-  :ear: [Fast Adaptation to New Environments via Policy-Dynamics Value Functions](https://arxiv.org/pdf/2007.02879.pdf) :fire: :boom: :+1:  ​ 
+  :curly_loop: [Fast Adaptation to New Environments via Policy-Dynamics Value Functions](https://arxiv.org/pdf/2007.02879.pdf) :fire: :boom: :+1:  ​ 
 
   PD-VF explicitly estimates the cumulative reward in a space of policies and environments. 
 
-  :ear: [Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers](https://openreview.net/pdf?id=eqBwg3AcIAK) :fire: :boom: :volcano: :droplet:  
+  :curly_loop: [Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers](https://openreview.net/pdf?id=eqBwg3AcIAK) :fire: :boom: :volcano: :droplet:  
 
   The main contribution of this work is an algorithm for domain adaptation to dynamics changes in RL, based on the idea of compensating for **differences in dynamics** by modifying the reward function. This algorithm does not need to estimate transition probabilities, but rather modifies the reward function using a pair of classifiers. 
 
@@ -485,47 +493,47 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   + formulates control as a problem of probabilistic inference :droplet: 
 
-   :ear: [Disentangled Skill Embeddings for Reinforcement Learning](https://arxiv.org/pdf/1906.09223.pdf) :fire: :volcano: :boom: :boom:  ​ ​ ​ ​ 
+   :curly_loop: [Disentangled Skill Embeddings for Reinforcement Learning](https://arxiv.org/pdf/1906.09223.pdf) :fire: :volcano: :boom: :boom:  ​ ​ ​ ​ 
 
   We have developed a multi-task framework from a variational inference perspective that is able to learn latent spaces that generalize to unseen tasks where the dynamics and reward can change independently. 
 
-  :ear: [**Transfer Learning in Deep Reinforcement Learning: A Survey**](https://arxiv.org/pdf/2009.07888.pdf)  :sweat_drops: :sweat_drops:  ​
+  :curly_loop: [**Transfer Learning in Deep Reinforcement Learning: A Survey**](https://arxiv.org/pdf/2009.07888.pdf)  :sweat_drops: :sweat_drops:  ​
 
-  :ear: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: :+1:  ​
+  :curly_loop: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: :+1:  ​
 
   adapt the source policy to learn to solve a target task with significant **transition differences** and uncertainties.  
 
-  :ear: [SINGLE EPISODE POLICY TRANSFER IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/1910.07719.pdf) :fire: :+1:  ​ ​
+  :curly_loop: [SINGLE EPISODE POLICY TRANSFER IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/1910.07719.pdf) :fire: :+1:  ​ ​
 
   Our key idea of optimized probing for accelerated latent variable inference is to train a dedicated probe policy πϕ(a|s) to generate a dataset D of short trajectories at the beginning of all training episodes, such that the VAE’s performance on D is optimized. 
 
-  :ear: [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/pdf/2008.12595.pdf) :sweat_drops: :sweat_drops:  ​ ​
+  :curly_loop: [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/pdf/2008.12595.pdf) :sweat_drops: :sweat_drops:  ​ ​
 
-  :ear: [Dynamics Generalization via Information Bottleneck in Deep Reinforcement Learning](https://arxiv.org/pdf/2008.00614.pdf)​ :fire:  ​ ​
+  :curly_loop: [Dynamics Generalization via Information Bottleneck in Deep Reinforcement Learning](https://arxiv.org/pdf/2008.00614.pdf)​ :fire:  ​ ​
 
   In particular, we show that the poor generalization in unseen tasks is due to the **DNNs memorizing environment observations**, rather than extracting the relevant information for a task. To prevent this, we impose communication constraints as an information bottleneck between the agent and the environment. 
 
-  :ear: [UNIVERSAL AGENT FOR DISENTANGLING ENVIRONMENTS AND TASKS](https://openreview.net/pdf?id=B1mvVm-C-) :fire: :volcano: 
+  :curly_loop: [UNIVERSAL AGENT FOR DISENTANGLING ENVIRONMENTS AND TASKS](https://openreview.net/pdf?id=B1mvVm-C-) :fire: :volcano: 
 
   The environment-specific unit handles how to move from one state to the target state; and the task-specific unit plans for the next target state given a specific task.  
 
-  :ear: [Decoupling Dynamics and Reward for Transfer Learning](https://arxiv.org/pdf/1804.10689.pdf) :+1: 
+  :curly_loop: [Decoupling Dynamics and Reward for Transfer Learning](https://arxiv.org/pdf/1804.10689.pdf) :+1: 
 
   We separate learning the task representation, the forward dynamics, the inverse dynamics and the reward function of the domain.  
 
-  :ear: [Neural Dynamic Policies for End-to-End Sensorimotor Learning](https://biases-invariances-generalization.github.io/pdf/big_15.pdf) :fire: :volcano: 
+  :curly_loop: [Neural Dynamic Policies for End-to-End Sensorimotor Learning](https://biases-invariances-generalization.github.io/pdf/big_15.pdf) :fire: :volcano: 
 
   We propose Neural Dynamic Policies (NDPs) that make predictions in trajectory distribution space as opposed to raw control spaces. [see Abstract!] **Similar in spirit to UNIVERSAL AGENT.** 
 
-  :ear: [Accelerating Reinforcement Learning with Learned Skill Priors](https://arxiv.org/pdf/2010.11944.pdf) :+1: :fire: 
+  :curly_loop: [Accelerating Reinforcement Learning with Learned Skill Priors](https://arxiv.org/pdf/2010.11944.pdf) :+1: :fire: 
 
   We propose a deep latent variable model that jointly learns an embedding space of skills and the skill prior from offline agent experience. We then extend common maximumentropy RL approaches to use **skill priors to guide downstream learning**.    
 
-  :ear: [Mutual Alignment Transfer Learning](https://arxiv.org/pdf/1707.07907.pdf) :+1: :fire: 
+  :curly_loop: [Mutual Alignment Transfer Learning](https://arxiv.org/pdf/1707.07907.pdf) :+1: :fire: 
 
   The developed approach harnesses auxiliary rewards to guide the exploration for the real world agent based on the proficiency of the agent in simulation and vice versa. 
 
-  :ear: [LEARNING CROSS-DOMAIN CORRESPONDENCE FOR CONTROL WITH DYNAMICS CYCLE-CONSISTENCY](https://openreview.net/pdf?id=QIRlze3I6hX) :+1: :+1: :fire: 
+  :curly_loop: [LEARNING CROSS-DOMAIN CORRESPONDENCE FOR CONTROL WITH DYNAMICS CYCLE-CONSISTENCY](https://openreview.net/pdf?id=QIRlze3I6hX) :+1: :+1: :fire: 
 
   In this paper, we propose to learn correspondence across such domains emphasizing on differing modalities (vision and internal state), physics parameters (mass and friction), and morphologies (number of limbs). Importantly, correspondences are learned using unpaired and randomly collected data from the two domains. We propose **dynamics cycles** that align dynamic robotic behavior across two domains using a cycle consistency constraint. 
 
@@ -543,41 +551,41 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + [Exploration Strategies in Deep Reinforcement Learning](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html) [[chinese]](https://mp.weixin.qq.com/s/FX-1IlIaFDLaQEVFN813jA) :sweat_drops: :fire: :fire:  :boom:   
 
-  :ear: [VIME: Variational Information Maximizing Exploration](https://arxiv.org/pdf/1605.09674.pdf) :+1: :punch: :droplet:  ​ ​BNN 
+  :curly_loop: [VIME: Variational Information Maximizing Exploration](https://arxiv.org/pdf/1605.09674.pdf) :+1: :punch: :droplet:  ​ ​BNN 
 
    the agent should take actions that maximize the reduction in uncertainty about the dynamics.
 
-  :ear:  [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :+1: 
+  :curly_loop:  [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :+1: 
 
   an ensemble of dynamics models and incentivize the agent to explore such that the disagreement of those ensembles is maximized. 
 
-  :ear: [DORA THE EXPLORER: DIRECTED OUTREACHING REINFORCEMENT ACTION-SELECTION](https://arxiv.org/pdf/1804.04012.pdf) :fire: :+1: :droplet: 
+  :curly_loop: [DORA THE EXPLORER: DIRECTED OUTREACHING REINFORCEMENT ACTION-SELECTION](https://arxiv.org/pdf/1804.04012.pdf) :fire: :+1: :droplet: 
 
   We propose **E-values**, a generalization of counters that can be used to evaluate the propagating exploratory value over state-action trajectories.  [The Hebrew University of Jerusalem] :+1: 
 
-  :ear: [EXPLORATION BY RANDOM NETWORK DISTILLATION](https://arxiv.org/pdf/1810.12894.pdf) :fire: :+1: [medium](https://medium.com/data-from-the-trenches/curiosity-driven-learning-through-random-network-distillation-488ffd8e5938)  :+1:  ​
+  :curly_loop: [EXPLORATION BY RANDOM NETWORK DISTILLATION](https://arxiv.org/pdf/1810.12894.pdf) :fire: :+1: [medium](https://medium.com/data-from-the-trenches/curiosity-driven-learning-through-random-network-distillation-488ffd8e5938)  :+1:  ​
 
   based on random network distillation (**RND**) bonus 
 
-  :ear: [Randomized Prior Functions for Deep Reinforcement Learning](https://arxiv.org/pdf/1806.03335.pdf) :fire: :boom: :sweat_drops:  ​ ​ ​
+  :curly_loop: [Randomized Prior Functions for Deep Reinforcement Learning](https://arxiv.org/pdf/1806.03335.pdf) :fire: :boom: :sweat_drops:  ​ ​ ​
 
-  :ear: [Large-Scale Study of Curiosity-Driven Learning](https://arxiv.org/pdf/1808.04355.pdf) :+1:  ​ 
+  :curly_loop: [Large-Scale Study of Curiosity-Driven Learning](https://arxiv.org/pdf/1808.04355.pdf) :+1:  ​ 
 
-  :ear: [NEVER GIVE UP: LEARNING DIRECTED EXPLORATION STRATEGIES](https://arxiv.org/pdf/2002.06038.pdf)  :punch: :+1: 
+  :curly_loop: [NEVER GIVE UP: LEARNING DIRECTED EXPLORATION STRATEGIES](https://arxiv.org/pdf/2002.06038.pdf)  :punch: :+1: 
 
   episodic memorybased intrinsic reward using k-nearest neighbors;   self-supervised inverse dynamics model; Universal Value Function Approximators; different degrees of exploration/exploitation;  distributed RL; 
 
-  :ear: [Self-Imitation Learning via TrajectoryConditioned Policy for Hard-Exploration Tasks](https://arxiv.org/pdf/1907.10247.pdf) :sweat_drops:  ​
+  :curly_loop: [Self-Imitation Learning via TrajectoryConditioned Policy for Hard-Exploration Tasks](https://arxiv.org/pdf/1907.10247.pdf) :sweat_drops:  ​
 
-  :ear: [Planning to Explore via Self-Supervised World Models](https://arxiv.org/pdf/2005.05960.pdf)  :fire: :fire: :+1:  ​ ​ ​Experiment is good!  
+  :curly_loop: [Planning to Explore via Self-Supervised World Models](https://arxiv.org/pdf/2005.05960.pdf)  :fire: :fire: :+1:  ​ ​ ​Experiment is good!  
 
   a selfsupervised reinforcement learning agent that tackles both these challenges through a new approach to self-supervised exploration and fast adaptation to new tasks, which need not be known during exploration.  **unlike prior methods which retrospectively compute the novelty of observations after the agent has already reached them**, our agent acts efficiently by leveraging planning to seek out expected future novelty.  
 
-  :ear: [Efficient Exploration via State Marginal Matching](https://arxiv.org/pdf/1906.05274.pdf) :fire: :volcano: :droplet:  :boom:  ​
+  :curly_loop: [Efficient Exploration via State Marginal Matching](https://arxiv.org/pdf/1906.05274.pdf) :fire: :volcano: :droplet:  :boom:  ​
 
   our work unifies prior exploration methods as performing approximate distribution matching, and explains how state distribution matching can be performed properly 
 
-  :ear: hard exploration 
+  :curly_loop: hard exploration 
 
   ​	[Provably efficient RL with Rich Observations via Latent State Decoding](https://arxiv.org/pdf/1901.09018.pdf) :confused:  ​
 
@@ -597,51 +605,51 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + Pareto 
 
-  :ear: [Pareto Multi-Task Learning](https://arxiv.org/pdf/1912.12854.pdf) :boom: :boom: :fire: :droplet: 
+  :curly_loop: [Pareto Multi-Task Learning](https://arxiv.org/pdf/1912.12854.pdf) :boom: :boom: :fire: :droplet: 
 
   we proposed a novel Pareto Multi-Task Learning (Pareto MTL) algorithm to generate a set of well-distributed Pareto solutions with different trade-offs among tasks for a given multi-task learning (MTL) problem. 
 
-  :ear: [Efficient Continuous Pareto Exploration in Multi-Task Learning](https://arxiv.org/pdf/2006.16434.pdf) [zhihu](https://zhuanlan.zhihu.com/p/159000150) :boom: :fire: :+1:  ​ ​ ​
+  :curly_loop: [Efficient Continuous Pareto Exploration in Multi-Task Learning](https://arxiv.org/pdf/2006.16434.pdf) [zhihu](https://zhuanlan.zhihu.com/p/159000150) :boom: :fire: :+1:  ​ ​ ​
 
-  :ear: [Prediction-Guided Multi-Objective Reinforcement Learning for Continuous Robot Control](https://proceedings.icml.cc/static/paper_files/icml/2020/1114-Paper.pdf) :sweat_drops:  ​
+  :curly_loop: [Prediction-Guided Multi-Objective Reinforcement Learning for Continuous Robot Control](https://proceedings.icml.cc/static/paper_files/icml/2020/1114-Paper.pdf) :sweat_drops:  ​
 
   
 
 + BNN 
 
-  :ear: [Auto-Encoding Variational Bayes](https://www.ics.uci.edu/~welling/publications/papers/AEVB_ICLR14.pdf) :+1:  ​
+  :curly_loop: [Auto-Encoding Variational Bayes](https://www.ics.uci.edu/~welling/publications/papers/AEVB_ICLR14.pdf) :+1:  ​
 
 + supervised RL & goal-conditioned policy 
 
-  :ear: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: iclr2020  iclr2021 
+  :curly_loop: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: iclr2020  iclr2021 
 
   an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
 
-  :ear: [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) :+1: :fire: conditioning on the reward rather than goal state 
+  :curly_loop: [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) :+1: :fire: conditioning on the reward rather than goal state 
 
   Non-expert trajectories collected from suboptimal policies can be viewed as optimal supervision, not for maximizing the reward, but for matching the reward of the given trajectory. 
 
-  :ear: [Search on the Replay Buffer: Bridging Planning and Reinforcement Learning](https://arxiv.org/pdf/1906.05253.pdf) :fire: :+1:  ​ ​
+  :curly_loop: [Search on the Replay Buffer: Bridging Planning and Reinforcement Learning](https://arxiv.org/pdf/1906.05253.pdf) :fire: :+1:  ​ ​
 
   combines the strengths of planning and reinforcement learning 
 
-  :ear: [DYNAMICAL DISTANCE LEARNING FOR SEMI-SUPERVISED AND UNSUPERVISED SKILL DISCOVERY](https://arxiv.org/pdf/1907.08225.pdf) 
+  :curly_loop: [DYNAMICAL DISTANCE LEARNING FOR SEMI-SUPERVISED AND UNSUPERVISED SKILL DISCOVERY](https://arxiv.org/pdf/1907.08225.pdf) 
 
   dynamical distances: a measure of the expected number of time steps to reach a given goal state from any other states 
 
-  :ear: [Contextual Imagined Goals for Self-Supervised Robotic Learning](http://proceedings.mlr.press/v100/nair20a/nair20a.pdf) :+1: ​​  ​ ​
+  :curly_loop: [Contextual Imagined Goals for Self-Supervised Robotic Learning](http://proceedings.mlr.press/v100/nair20a/nair20a.pdf) :+1: ​​  ​ ​
 
   using the context-conditioned generative model to set goals that are appropriate to the current scene. 
 
-  :ear: [Reverse Curriculum Generation for Reinforcement Learning](https://arxiv.org/pdf/1707.05300.pdf) :+1: :fire:  ​ 
+  :curly_loop: [Reverse Curriculum Generation for Reinforcement Learning](https://arxiv.org/pdf/1707.05300.pdf) :+1: :fire:  ​ 
 
   **Finding the optimal start-state distribution**. Our method automatically generates a curriculum of start states that adapts to the agent’s performance, leading to efficient training on goal-oriented tasks. 
 
-  :ear: [Goal-Aware Prediction: Learning to Model What Matters](https://proceedings.icml.cc/static/paper_files/icml/2020/2981-Paper.pdf) :+1: :fire: :boom: Introduction is good! 
+  :curly_loop: [Goal-Aware Prediction: Learning to Model What Matters](https://proceedings.icml.cc/static/paper_files/icml/2020/2981-Paper.pdf) :+1: :fire: :boom: Introduction is good! 
 
   we propose to direct prediction towards task relevant information, enabling the model to be aware of the current task and **encouraging it to only model relevant quantities of the state space**, resulting in **a learning objective that more closely matches the downstream task**.  
 
-  :ear: [C-LEARNING: LEARNING TO ACHIEVE GOALS VIA RECURSIVE CLASSIFICATION](https://arxiv.org/pdf/2011.08909.pdf) :+1: :sweat_drops: 
+  :curly_loop: [C-LEARNING: LEARNING TO ACHIEVE GOALS VIA RECURSIVE CLASSIFICATION](https://arxiv.org/pdf/2011.08909.pdf) :+1: :sweat_drops: 
 
   This Q-function is not useful for predicting or controlling the future state distribution. Fundamentally, this problem arises because the relationship between the reward function, the Q function, and the future state distribution in prior work remains unclear.   
 
@@ -653,15 +661,15 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + self-paced & curriculum RL 
 
-  :ear: [Self-Paced Contextual Reinforcement Learning](https://arxiv.org/pdf/1910.02826.pdf) :volcano: :sweat_drops:  ​ ​
+  :curly_loop: [Self-Paced Contextual Reinforcement Learning](https://arxiv.org/pdf/1910.02826.pdf) :volcano: :sweat_drops:  ​ ​
 
   We introduce a novel relative entropy reinforcement learning algorithm that gives the agent the freedom to control the intermediate task distribution, allowing for its gradual progression towards the target context distribution.  
 
-  :ear: [Self-Paced Deep Reinforcement Learning](https://arxiv.org/pdf/2004.11812.pdf) :volcano: :sweat_drops:  ​ ​
+  :curly_loop: [Self-Paced Deep Reinforcement Learning](https://arxiv.org/pdf/2004.11812.pdf) :volcano: :sweat_drops:  ​ ​
 
   In this paper, we propose an answer by interpreting the curriculum generation as an inference problem, where distributions over tasks are progressively learned to approach the target task. This approach leads to an automatic curriculum generation, whose pace is controlled by the agent, with solid theoretical motivation and easily integrated with deep RL algorithms. 
 
-  :ear:[Learning with AMIGO: Adversarially Motivated Intrinsic Goals](https://arxiv.org/pdf/2006.12122.pdf) :+1:   [Lil'Log-Curriculum](https://lilianweng.github.io/lil-log/2020/01/29/curriculum-for-reinforcement-learning.html) :+1:  ​
+  :curly_loop:[Learning with AMIGO: Adversarially Motivated Intrinsic Goals](https://arxiv.org/pdf/2006.12122.pdf) :+1:   [Lil'Log-Curriculum](https://lilianweng.github.io/lil-log/2020/01/29/curriculum-for-reinforcement-learning.html) :+1:  ​
 
   **related work (curriculum) is quite good!**   (Intrinsic motivation + Curriculum learning) 
 
@@ -671,23 +679,23 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + Model-based RL & world models 
 
-  :ear: [Learning Latent Dynamics for Planning from Pixels](http://proceedings.mlr.press/v97/hafner19a/hafner19a.pdf) ​​ :sweat_drops: :sweat_drops:  ​
+  :curly_loop: [Learning Latent Dynamics for Planning from Pixels](http://proceedings.mlr.press/v97/hafner19a/hafner19a.pdf) ​​ :sweat_drops: :sweat_drops:  ​
 
-  :ear: [DREAM TO CONTROL: LEARNING BEHAVIORS BY LATENT IMAGINATION](https://arxiv.org/pdf/1912.01603.pdf) :sweat_drops:  ​
+  :curly_loop: [DREAM TO CONTROL: LEARNING BEHAVIORS BY LATENT IMAGINATION](https://arxiv.org/pdf/1912.01603.pdf) :sweat_drops:  ​
 
-  :ear: [Model-based Policy Optimization with Unsupervised Model Adaptation](https://arxiv.org/pdf/2010.09546.pdf) 
+  :curly_loop: [Model-based Policy Optimization with Unsupervised Model Adaptation](https://arxiv.org/pdf/2010.09546.pdf) 
 
-  :ear: [CONTRASTIVE LEARNING OF STRUCTURED WORLD MODELS](https://arxiv.org/pdf/1911.12247.pdf) :fire: :volcano:  ​ ​
+  :curly_loop: [CONTRASTIVE LEARNING OF STRUCTURED WORLD MODELS](https://arxiv.org/pdf/1911.12247.pdf) :fire: :volcano:  ​ ​
 
-  :ear: [Learning Predictive Models From Observation and Interaction](https://arxiv.org/pdf/1912.12773.pdf) :fire:  ​related work is good! 
+  :curly_loop: [Learning Predictive Models From Observation and Interaction](https://arxiv.org/pdf/1912.12773.pdf) :fire:  ​related work is good! 
 
   By combining interaction and observation data, our model is able to learn to generate predictions for complex tasks and new environments without costly expert demonstrations.  
 
-  :ear: [medium](https://jonathan-hui.medium.com/rl-model-based-reinforcement-learning-3c2b6f0aa323)   [Tutorial on Model-Based Methods in Reinforcement Learning (icml2020)](https://sites.google.com/view/mbrl-tutorial)  :sweat_drops:  ​
+  :curly_loop: [medium](https://jonathan-hui.medium.com/rl-model-based-reinforcement-learning-3c2b6f0aa323)   [Tutorial on Model-Based Methods in Reinforcement Learning (icml2020)](https://sites.google.com/view/mbrl-tutorial)  :sweat_drops:  ​
 
   [rail](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/f17docs/lecture_9_model_based_rl.pdf)  [Model-Based Reinforcement Learning: Theory and Practice](https://bair.berkeley.edu/blog/2019/12/12/mbpo/) :sweat_drops: ​​  ​ ​
 
-  :ear: [What can I do here? A Theory of Affordances in Reinforcement Learning](https://arxiv.org/pdf/2006.15085.pdf) :+1: :droplet:  ​ ​
+  :curly_loop: [What can I do here? A Theory of Affordances in Reinforcement Learning](https://arxiv.org/pdf/2006.15085.pdf) :+1: :droplet:  ​ ​
 
   “affordances” to describe the fact that certain states enable an agent to do certain actions, in the context of embodied agents. In this paper, we develop a theory of affordances for agents who learn and plan in Markov Decision Processes. 
 
@@ -697,23 +705,23 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + Training RL & Just Fast & Embedding? 
 
-  :ear: [Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning](https://arxiv.org/pdf/1711.06782.pdf) :no_mouth:  ​
+  :curly_loop: [Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning](https://arxiv.org/pdf/1711.06782.pdf) :no_mouth:  ​
 
-  :ear: [Predictive Information Accelerates Learning in RL](https://arxiv.org/pdf/2007.12401.pdf) :+1:  ​
+  :curly_loop: [Predictive Information Accelerates Learning in RL](https://arxiv.org/pdf/2007.12401.pdf) :+1:  ​
 
   We train Soft Actor-Critic (SAC) agents from pixels with an auxiliary task that learns a compressed representation of the predictive information of the RL environment dynamics using a contrastive version of the Conditional Entropy Bottleneck (CEB) objective. 
 
-  :ear: [Speeding up Reinforcement Learning with Learned Models](https://upcommons.upc.edu/bitstream/handle/2117/175740/143210.pdf) :sweat_drops:  ​
+  :curly_loop: [Speeding up Reinforcement Learning with Learned Models](https://upcommons.upc.edu/bitstream/handle/2117/175740/143210.pdf) :sweat_drops:  ​
 
-  :ear: [DYNAMICS-AWARE EMBEDDINGS](https://arxiv.org/pdf/1908.09357.pdf) :+1:  ​
+  :curly_loop: [DYNAMICS-AWARE EMBEDDINGS](https://arxiv.org/pdf/1908.09357.pdf) :+1:  ​
 
   A forward prediction objective for simultaneously learning embeddings of states and action sequences. 
 
-  :ear: [DIVIDE-AND-CONQUER REINFORCEMENT LEARNING](https://arxiv.org/pdf/1711.09874.pdf) :+1: 
+  :curly_loop: [DIVIDE-AND-CONQUER REINFORCEMENT LEARNING](https://arxiv.org/pdf/1711.09874.pdf) :+1: 
 
   we develop a novel algorithm that instead partitions the initial state space into “slices”, and optimizes an ensemble of policies, each on a different slice. 
 
-  :ear:  [Continual Learning of Control Primitives: Skill Discovery via Reset-Games](https://arxiv.org/pdf/2011.05286.pdf) :+1: :fire:  
+  :curly_loop:  [Continual Learning of Control Primitives: Skill Discovery via Reset-Games](https://arxiv.org/pdf/2011.05286.pdf) :+1: :fire:  
 
   We do this by exploiting the insight that the need to “reset" an agent to a broad set of initial states for a learning task provides a natural setting to learn a diverse set of “reset-skills".  
 
@@ -723,7 +731,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + reasoning 
 
-  :ear: [CAUSAL DISCOVERY WITH REINFORCEMENT LEARNING](https://arxiv.org/pdf/1906.04477.pdf) :no_mouth:  ​
+  :curly_loop: [CAUSAL DISCOVERY WITH REINFORCEMENT LEARNING](https://arxiv.org/pdf/1906.04477.pdf) :no_mouth:  ​
 
   
 
@@ -731,43 +739,49 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + [Inverse RL & Apprenticeship Learning](https://thegradient.pub/learning-from-humans-what-is-inverse-reinforcement-learning/#:~:text=Inverse%20reinforcement%20learning%20(IRL)%2C,the%20task%20of%20autonomous%20driving.), PPT-levine([1](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/f17docs/lecture_12_irl.pdf):+1: [2](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa12/slides/inverseRL.pdf)), Medium([1](https://towardsdatascience.com/inverse-reinforcement-learning-6453b7cdc90d) [2](https://medium.com/@jonathan_hui/rl-inverse-reinforcement-learning-56c739acfb5a)), 
 
-  :ear: [Apprenticeship Learning via Inverse Reinforcement Learning](http://people.eecs.berkeley.edu/~russell/classes/cs294/s11/readings/Abbeel+Ng:2004.pdf) :+1:   [Maximum Entropy Inverse Reinforcement Learning](https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf)   [Maximum Entropy Deep Inverse Reinforcement Learning](https://arxiv.org/pdf/1507.04888.pdf)   
+  :curly_loop: [Apprenticeship Learning via Inverse Reinforcement Learning](http://people.eecs.berkeley.edu/~russell/classes/cs294/s11/readings/Abbeel+Ng:2004.pdf) :+1:   [Maximum Entropy Inverse Reinforcement Learning](https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf)   [Maximum Entropy Deep Inverse Reinforcement Learning](https://arxiv.org/pdf/1507.04888.pdf)   
 
-  :ear:  [Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization](https://arxiv.org/pdf/1603.00448.pdf) :fire: :+1:  
+  :curly_loop:  [Guided Cost Learning: Deep Inverse Optimal Control via Policy Optimization](https://arxiv.org/pdf/1603.00448.pdf) :fire: :+1:  
 
-  :ear: [A Connection Between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models](https://arxiv.org/pdf/1611.03852.pdf) :volcano: :sweat_drops: :sweat_drops:   [zhihu](https://zhuanlan.zhihu.com/p/72691529) :+1:  ​
+  :curly_loop: [A Connection Between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models](https://arxiv.org/pdf/1611.03852.pdf) :volcano: :sweat_drops: :sweat_drops:   [zhihu](https://zhuanlan.zhihu.com/p/72691529) :+1:  ​
 
-  :ear: [Generative Adversarial Imitation Learning](https://arxiv.org/pdf/1606.03476.pdf) :fire: :volcano: :boom: :sweat_drops:  [zhihu](https://zhuanlan.zhihu.com/p/60327435) :droplet:  ​
+  :curly_loop: [Generative Adversarial Imitation Learning](https://arxiv.org/pdf/1606.03476.pdf) :fire: :volcano: :boom: :sweat_drops:  [zhihu](https://zhuanlan.zhihu.com/p/60327435) :droplet:  ​
 
   IRL is a dual of an occupancy measure matching problem; The induced optimal policy is the primal optimum. 
 
-  :ear: [LEARNING ROBUST REWARDS WITH ADVERSARIAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/1710.11248.pdf) :fire::volcano: :boom: :sweat_drops: 
+  :curly_loop: [LEARNING ROBUST REWARDS WITH ADVERSARIAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/1710.11248.pdf) :fire::volcano: :boom: :sweat_drops: 
 
   Part of the challenge is that IRL is an ill-defined problem, since there are many optimal policies that can explain a set of demonstrations, and many rewards that can explain an optimal policy. The maximum entropy (MaxEnt) IRL framework introduced by Ziebart et al. (2008) handles the former ambiguity, but the latter ambiguity means that IRL algorithms have difficulty distinguishing **the true reward functions from those shaped by the environment dynamics** (THE REWARD AMBIGUITY PROBLEM).  -- **DISENTANGLING REWARDS FROM DYNAMICS.** 
 
-  :ear: [ADVERSARIAL IMITATION VIA VARIATIONAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/1809.06404.pdf) :+1: :fire: :droplet: 
+  :curly_loop: [ADVERSARIAL IMITATION VIA VARIATIONAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/1809.06404.pdf) :+1: :fire: :droplet: 
 
   Our method simultaneously learns empowerment through variational information maximization along with the reward and policy under the adversarial learning formulation.  
 
-  :ear: [A Divergence Minimization Perspective on Imitation Learning Methods](https://arxiv.org/pdf/1911.02256.pdf) :sweat_drops:  ​
+  :curly_loop: [A Divergence Minimization Perspective on Imitation Learning Methods](https://arxiv.org/pdf/1911.02256.pdf) :sweat_drops:  ​
 
   Imitation Learning, State-Marginal Matching 
 
-  :ear: [UNDERSTANDING THE RELATION BETWEEN MAXIMUM-ENTROPY INVERSE REINFORCEMENT LEARNING AND BEHAVIOUR CLONING](https://openreview.net/pdf?id=rkeXrIIt_4) 
+  :curly_loop: [UNDERSTANDING THE RELATION BETWEEN MAXIMUM-ENTROPY INVERSE REINFORCEMENT LEARNING AND BEHAVIOUR CLONING](https://openreview.net/pdf?id=rkeXrIIt_4) 
 
-  :ear: [Disagreement-Regularized Imitation Learning](https://openreview.net/forum?id=rkgbYyHtwB) 
+  :curly_loop: [Disagreement-Regularized Imitation Learning](https://openreview.net/forum?id=rkgbYyHtwB) 
 
-  :ear: [LEARNING TO UNDERSTAND GOAL SPECIFICATIONS BY MODELLING REWARD](https://openreview.net/pdf?id=H1xsSjC9Ym) :+1: :+1:  ​
+  :curly_loop: [LEARNING TO UNDERSTAND GOAL SPECIFICATIONS BY MODELLING REWARD](https://openreview.net/pdf?id=H1xsSjC9Ym) :+1: :+1:  ​
 
   A framework within which instruction-conditional RL agents are trained using rewards obtained not from the environment, but from reward models which are jointly trained from expert examples. 
 
-  :ear: [Intrinsic Reward Driven Imitation Learning via Generative Model](https://arxiv.org/pdf/2006.15061.pdf) :+1: :fire: 
+  :curly_loop: [Intrinsic Reward Driven Imitation Learning via Generative Model](https://arxiv.org/pdf/2006.15061.pdf) :+1: :fire: 
 
   Combines a backward action encoding and a forward dynamics model into one generative solution. Moreover, our model generates a family of intrinsic rewards, enabling the imitation agent to do samplingbased self-supervised exploration in the environment.  Outperform the expert.  
 
+  :curly_loop: [REGULARIZED INVERSE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=HgLO8yalfwc) :sweat_drops: 
+
+  
+
+   ​
+
 + Adding Noise
 
-  :ear: [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
+  :curly_loop: [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
 
   Recent attempts to learn from sub-optimal demonstration leverage pairwise rankings and following the Luce-Shepard rule. However, we show these approaches make incorrect assumptions and thus suffer from brittle, degraded performance. We overcome these limitations in developing a novel approach that **bootstraps off suboptimal demonstrations to synthesize optimality-parameterized data** to train an idealized reward function.  
 
@@ -775,25 +789,25 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + Goal-relabeling & Self-imitation 
 
-  :ear: [Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement](https://arxiv.org/pdf/2002.11089v1.pdf) 
+  :curly_loop: [Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement](https://arxiv.org/pdf/2002.11089v1.pdf) 
 
   MaxEnt RL and MaxEnt inverse RL optimize **the same multi-task RL objective** with respect to trajectories and tasks, respectively. 
 
-  :ear: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)    [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)    [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)    [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)    [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)    
+  :curly_loop: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)    [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)    [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)    [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)    [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)    
   
-  :ear: [Exploration via Hindsight Goal Generation](http://papers.nips.cc/paper/9502-exploration-via-hindsight-goal-generation.pdf) :+1:  :fire:  ​
+  :curly_loop: [Exploration via Hindsight Goal Generation](http://papers.nips.cc/paper/9502-exploration-via-hindsight-goal-generation.pdf) :+1:  :fire:  ​
   
   a novel algorithmic framework that generates valuable hindsight goals which are easy for an agent to achieve in the short term and are also potential for guiding the agent to reach the actual goal in the long term.  
   
 + Imitation Learning (See Upper) 
 
-  :ear: [To Follow or not to Follow: Selective Imitation Learning from Observations](https://arxiv.org/pdf/1912.07670.pdf) :+1:  ​
+  :curly_loop: [To Follow or not to Follow: Selective Imitation Learning from Observations](https://arxiv.org/pdf/1912.07670.pdf) :+1:  ​
 
   imitating every step in the demonstration often becomes infeasible when the learner and its environment are different from the demonstration. 
 
 + reward function
 
-  :ear: [QUANTIFYING DIFFERENCES IN REWARD FUNCTIONS](https://openreview.net/pdf?id=LwEQnp6CYev) :volcano: :sweat_drops:  ​ ​
+  :curly_loop: [QUANTIFYING DIFFERENCES IN REWARD FUNCTIONS](https://openreview.net/pdf?id=LwEQnp6CYev) :volcano: :sweat_drops:  ​ ​
 
   we introduce the Equivalent-Policy Invariant Comparison (EPIC) distance to quantify the difference between two reward functions directly, **without training a policy**. We prove EPIC is invariant on an equivalence class of reward functions that always induce the same optimal policy. 
 
@@ -809,21 +823,21 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + INTRINSIC REWARD 
 
-  :ear: [Hierarchical Cooperative Multi-Agent Reinforcement Learning with Skill Discovery](https://arxiv.org/pdf/1912.03558.pdf) :fire: :+1:  ​ ​
+  :curly_loop: [Hierarchical Cooperative Multi-Agent Reinforcement Learning with Skill Discovery](https://arxiv.org/pdf/1912.03558.pdf) :fire: :+1:  ​ ​
 
   The set of low-level skills emerges from an intrinsic reward that solely promotes the decodability of latent skill variables from the trajectory of a low-level skill, without the need for hand-crafted rewards for each skill.  
 
-  :ear: [The Emergence of Individuality in Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2006.05842.pdf) :fire: :fire: :+1: 
+  :curly_loop: [The Emergence of Individuality in Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2006.05842.pdf) :fire: :fire: :+1: 
 
   EOI learns a probabilistic classifier that predicts a probability distribution over agents given their observation and gives each agent an intrinsic reward of being correctly predicted by the classifier. 
 
-  :ear: [A Maximum Mutual Information Framework for Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2006.02732.pdf) :+1: :droplet:  ​ ​
+  :curly_loop: [A Maximum Mutual Information Framework for Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2006.02732.pdf) :+1: :droplet:  ​ ​
   
   introducing a latent variable to induce nonzero mutual information between actions. 
   
 + Learning Latent Representations
 
-  :ear: [Learning Latent Representations to Influence Multi-Agent Interaction](https://arxiv.org/pdf/2011.06619.pdf) :+1:  ​
+  :curly_loop: [Learning Latent Representations to Influence Multi-Agent Interaction](https://arxiv.org/pdf/2011.06619.pdf) :+1:  ​
 
   We propose a reinforcement learningbased framework for learning latent representations of an agent’s policy, where the ego agent identifies the relationship between its behavior and the other agent’s future strategy. The ego agent then leverages these latent dynamics to influence the other agent, purposely guiding them towards policies suitable for co-adaptation. 
 
@@ -833,7 +847,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + Density constrained
 
-  :ear: [DENSITY CONSTRAINED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=jMc7DlflrMC) :+1:  ​
+  :curly_loop: [DENSITY CONSTRAINED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=jMc7DlflrMC) :+1:  ​
 
   We prove the duality between the density function and Q function in CRL and use it to develop an effective primal-dual algorithm to solve density constrained reinforcement learning problems. 
 
@@ -892,7 +906,7 @@ MIT: [Bhairav Mehta](https://scholar.google.com/citations?hl=en&user=uPtOmHcAAAA
 
 Caltech: [Joseph Marino](https://joelouismarino.github.io/), [Yisong Yue](https://scholar.google.com/citations?hl=en&user=tEk4qo8AAAAJ&view_op=list_works&sortby=pubdate) [Homepage](http://www.yisongyue.com/about.php), 
 
-DeepMind: [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), [Yee Whye Teh](https://scholar.google.com/citations?user=y-nUzMwAAAAJ&hl=en) [[Homepage]](https://www.stats.ox.ac.uk/~teh/), [Alexandre Galashov](https://scholar.google.com/citations?user=kIpoNtcAAAAJ&hl=en&oi=sra), [Leonard Hasenclever](https://leonard-hasenclever.github.io/) [[GS]](https://scholar.google.com/citations?user=dD-3S4QAAAAJ&hl=en&oi=sra), [Siddhant M. Jayakumar](https://scholar.google.com/citations?user=rJUAY8QAAAAJ&hl=en&oi=sra), Zhongwen Xu, [Markus Wulfmeier](https://scholar.google.de/citations?hl=en&user=YCO3WQsAAAAJ&view_op=list_works&sortby=pubdate) [[HomePage]](https://markusrw.github.io/), 
+DeepMind: [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), [Yee Whye Teh](https://scholar.google.com/citations?user=y-nUzMwAAAAJ&hl=en) [[Homepage]](https://www.stats.ox.ac.uk/~teh/), [Alexandre Galashov](https://scholar.google.com/citations?user=kIpoNtcAAAAJ&hl=en&oi=sra), [Leonard Hasenclever](https://leonard-hasenclever.github.io/) [[GS]](https://scholar.google.com/citations?user=dD-3S4QAAAAJ&hl=en&oi=sra), [Siddhant M. Jayakumar](https://scholar.google.com/citations?user=rJUAY8QAAAAJ&hl=en&oi=sra), [Zhongwen Xu](https://scholar.google.com/citations?hl=en&user=T4xuHn8AAAAJ&view_op=list_works&sortby=pubdate), [Markus Wulfmeier](https://scholar.google.de/citations?hl=en&user=YCO3WQsAAAAJ&view_op=list_works&sortby=pubdate) [[HomePage]](https://markusrw.github.io/), [Wojciech Zaremba](https://scholar.google.com/citations?hl=en&user=XCZpOcAAAAAJ&view_op=list_works&sortby=pubdate), 
 
 Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAAAJ&view_op=list_works&sortby=pubdate), [Danijar Hafner](https://scholar.google.de/citations?hl=en&user=VINmGpYAAAAJ&view_op=list_works&sortby=pubdate) [[Homepage]](https://danijar.com/), 
 
