@@ -184,7 +184,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   interpreted as **cross entropy loss** (i.e., classification loss for discrete action) with sample weights proportional to the gap between the return and the agent’s value estimate 
 
-  :curly_loop:  Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016 https://arxiv.org/pdf/1608.04471.pdf 
+  :curly_loop:  [Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016](https://arxiv.org/pdf/1608.04471.pdf) 
 
 + EPISODIC CURIOSITY THROUGH REACHABILITY [reward design] 
 
@@ -352,37 +352,43 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :curly_loop: Equivalence Notions and Model Minimization in Markov Decision Processes http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.2493&rep=rep1&type=pdf : refers to an equivalence relation between two states with similar long-term behavior. :confused:  
   
-
-BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION 
-  PROCESSES.  https://www.cs.mcgill.ca/~prakash/Pubs/siamFP11.pdf 
-
+  [BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION PROCESSES](https://www.cs.mcgill.ca/~prakash/Pubs/siamFP11.pdf) 
+  
   :curly_loop: DeepMDP: Learning Continuous Latent Space Models for Representation Learning https://arxiv.org/pdf/1906.02736.pdf simplifies high-dimensional observations in RL tasks and learns a latent space model via minimizing two losses: **prediction of rewards** and **prediction of the distribution over next latent states**. :mega: :milky_way: :confused: :boom: :bomb: :boom: 
-
+  
   :curly_loop: [DBC](https://zhuanlan.zhihu.com/p/157534599): Learning Invariant Representations for Reinforcement Learning without Reconstruction https://arxiv.org/pdf/2006.10742.pdf  :boom: :boom: :boom: 
-
+  
   :curly_loop: LEARNING INVARIANT FEATURE SPACES TO TRANSFER SKILLS WITH REINFORCEMENT LEARNING https://arxiv.org/pdf/1703.02949.pdf :fire: :+1: 
-
+  
   differ in state-space, action-space, and dynamics. 
-
-   Our method uses the skills that were learned by both agents to train **invariant feature spaces** that can then be used to transfer other skills from one agent to another. 
-
+  
+  Our method uses the skills that were learned by both agents to train **invariant feature spaces** that can then be used to transfer other skills from one agent to another. 
+  
   :curly_loop: [UIUC: CS 598 Statistical Reinforcement Learning (S19) ](http://nanjiang.cs.illinois.edu/cs598/) NanJiang :+1::eagle: :eagle: 
-
-  :curly_loop: [CONTRASTIVE BEHAVIORAL SIMILARITY EMBEDDINGS FOR GENERALIZATION IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=qda7-sVg84) :boom: :sweat_drops:  ​ ​
-
+  
+  :curly_loop: [CONTRASTIVE BEHAVIORAL SIMILARITY EMBEDDINGS FOR GENERALIZATION IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=qda7-sVg84) :boom: :sweat_drops:  ​ 
+  
   :hourglass:  :diamond_shape_with_a_dot_inside:  :diamond_shape_with_a_dot_inside:  :hourglass: 
-
+  
   :curly_loop: [CURL: Contrastive Unsupervised Representations for Reinforcement Learning](https://arxiv.org/pdf/2004.04136.pdf) :fire: :volcano: :droplet:  ​ ​
-
+  
   :curly_loop: [Time-contrastive networks: Self-supervised learning from video](https://arxiv.org/pdf/1704.06888.pdf) :fire:  ​
-
+  
   :curly_loop: [Data-Efficient Reinforcement Learning with Self-Predictive Representations](https://arxiv.org/pdf/2007.05929.pdf) :fire: ​  ​ ​
+  
+  :curly_loop: [EMI: Exploration with Mutual Information](https://arxiv.org/pdf/1810.01176.pdf) :+1: 
+  
+  We propose EMI, which is an exploration method that constructs embedding representation of states and actions that does not rely on generative decoding of the full observation but extracts predictive signals that can be used to guide exploration based on forward prediction in the representation space. 
+  
+  
+  
+   ​
 
 
 
 + **mutual information**: 
 
-  :curly_loop: [MINE: Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) :+1::droplet: ​ :fire: 
+  :curly_loop: [MINE: Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) :+1::droplet:  :fire:     [f-gan & mine](https://zhuanlan.zhihu.com/p/151256189) :sweat_drops: 
 
   :curly_loop: [Deep InfoMax: LEARNING DEEP REPRESENTATIONS BY MUTUAL INFORMATION ESTIMATION AND MAXIMIZATION](https://arxiv.org/pdf/1808.06670.pdf) :+1::droplet: ​  
 
@@ -546,17 +552,9 @@ BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION
 
   In this paper, we propose to learn correspondence across such domains emphasizing on differing modalities (vision and internal state), physics parameters (mass and friction), and morphologies (number of limbs). Importantly, correspondences are learned using unpaired and randomly collected data from the two domains. We propose **dynamics cycles** that align dynamic robotic behavior across two domains using a cycle consistency constraint. 
 
-   ​ ​ ​
+  
 
    ​ ​
-
-   ​ ​ 
-
-  
-
-   ​
-
-  
 
 + [Exploration Strategies in Deep Reinforcement Learning](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html) [[chinese]](https://mp.weixin.qq.com/s/FX-1IlIaFDLaQEVFN813jA) :sweat_drops: :fire: :fire:  :boom:   
 
@@ -662,6 +660,12 @@ BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION
 
   This Q-function is not useful for predicting or controlling the future state distribution. Fundamentally, this problem arises because the relationship between the reward function, the Q function, and the future state distribution in prior work remains unclear.   
 
+  :curly_loop: [LEARNING TO UNDERSTAND GOAL SPECIFICATIONS BY MODELLING REWARD](https://openreview.net/pdf?id=H1xsSjC9Ym) :+1: :+1:  ​
+
+  *ADVERSARIAL GOAL-INDUCED LEARNING FROM EXAMPLES* 
+
+  A framework within which instruction-conditional RL agents are trained using rewards obtained not from the environment, but from reward models which are jointly trained from expert examples. 
+
   
 
    ​ ​ ​
@@ -742,6 +746,10 @@ BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION
 
   DOPE is designed to measure the performance of **OPE** methods by 1) evaluating on challenging control tasks with properties known to be difficult for OPE methods, but which occur in real-world scenarios, 2) evaluating across a range of policies with different values, to directly measure performance on policy evaluation, ranking and selection, and 3) evaluating in ideal and adversarial settings in terms of dataset coverage and support. 
 
+  :curly_loop: [Trajectory-Based Off-Policy Deep Reinforcement Learning](https://arxiv.org/pdf/1905.05710.pdf) :+1: :fire: :droplet:  ​
+
+  Incorporation of previous rollouts via importance sampling greatly improves data-efficiency, whilst stochastic optimization schemes facilitate the escape from local optima. 
+
   
 
   
@@ -786,10 +794,6 @@ BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION
 
   :curly_loop: [Disagreement-Regularized Imitation Learning](https://openreview.net/forum?id=rkgbYyHtwB) 
 
-  :curly_loop: [LEARNING TO UNDERSTAND GOAL SPECIFICATIONS BY MODELLING REWARD](https://openreview.net/pdf?id=H1xsSjC9Ym) :+1: :+1:  ​
-
-  A framework within which instruction-conditional RL agents are trained using rewards obtained not from the environment, but from reward models which are jointly trained from expert examples. 
-
   :curly_loop: [Intrinsic Reward Driven Imitation Learning via Generative Model](https://arxiv.org/pdf/2006.15061.pdf) :+1: :fire: 
 
   Combines a backward action encoding and a forward dynamics model into one generative solution. Moreover, our model generates a family of intrinsic rewards, enabling the imitation agent to do samplingbased self-supervised exploration in the environment.  Outperform the expert.  
@@ -822,13 +826,17 @@ BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION
   
   a novel algorithmic framework that generates valuable hindsight goals which are easy for an agent to achieve in the short term and are also potential for guiding the agent to reach the actual goal in the long term.  
   
+  :curly_loop: [CURIOUS: Intrinsically Motivated Modular Multi-Goal Reinforcement Learning](https://arxiv.org/pdf/1810.06284.pdf) :+1:  ​
+  
+  This paper proposes CURIOUS, an algorithm that leverages 1) a modular Universal Value Function Approximator with hindsight learning to achieve a diversity of goals of different kinds within a unique policy and 2) an automated curriculum learning mechanism that biases the attention of the agent towards goals maximizing the absolute learning progress.  
+  
 + Imitation Learning (See Upper) 
 
   :curly_loop: [To Follow or not to Follow: Selective Imitation Learning from Observations](https://arxiv.org/pdf/1912.07670.pdf) :+1:  ​
 
   imitating every step in the demonstration often becomes infeasible when the learner and its environment are different from the demonstration. 
 
-+ reward function
++ reward function 
 
   :curly_loop: [QUANTIFYING DIFFERENCES IN REWARD FUNCTIONS](https://openreview.net/pdf?id=LwEQnp6CYev) :volcano: :sweat_drops:  ​ ​
 
@@ -946,6 +954,8 @@ PKU: [Zongqing Lu](https://scholar.google.com/citations?user=k3IFtTYAAAAJ&hl=en)
 NJU: [Yang Yu](https://scholar.google.com/citations?user=PG2lDSwAAAAJ&hl=en), 
 
 TJU: [Jianye Hao](https://scholar.google.com/citations?user=FCJVUYgAAAAJ&hl=en), 
+
+HIT: [PR&IS research center](http://pr-ai.hit.edu.cn/main.htm), 
 
 OTHERS: [Alexander Trott](https://scholar.google.com/citations?hl=en&user=rB4bvV0AAAAJ&view_op=list_works&sortby=pubdate), 
 
