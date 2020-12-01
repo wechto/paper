@@ -196,6 +196,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   By training a goal-conditioned policy with an information bottleneck, we can identify decision states by examining where the model actually leverages the goal state. 
 
+  :curly_loop: [THE VARIATIONAL BANDWIDTH BOTTLENECK: STOCHASTIC EVALUATION ON AN INFORMATION BUDGET](https://arxiv.org/pdf/2004.11935.pdf) :fire: :boom: :volcano:  
+
+  we propose the variational bandwidth bottleneck, which decides for each example on the estimated value of the privileged information before seeing it, i.e., only based on the standard input, and then accordingly chooses stochastically, whether to access the privileged input or not. 
+
   :curly_loop: [the option keyboard Combing Skills in Reinforcement Learning](https://papers.nips.cc/paper/9463-the-option-keyboard-combining-skills-in-reinforcement-learning.pdf)  
 
   We argue that a more robust way of combining skills is to do so directly in **the goal space**, using pseudo-rewards or cumulants. If we associate each skill with a cumulant, we can combine the former by manipulating the latter. This allows us to go beyond the direct prescription of behaviors, working instead in the space of intentions. :confused: 
@@ -342,11 +346,14 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 
 
-+ **Bisimulation**: Representation learning for control based on bisimulation does not depend on reconstruction, but aims to group states based on their behavioral similarity in MDP.  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html#bisimulation) :sweat_drops: 
++ **Bisimulation** & :hourglass: :diamond_shape_with_a_dot_inside: :diamond_shape_with_a_dot_inside: :hourglass: Representation learning. 
+
+  Representation learning for control based on bisimulation does not depend on reconstruction, but aims to group states based on their behavioral similarity in MDP.  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html#bisimulation) :sweat_drops: 
 
   :curly_loop: Equivalence Notions and Model Minimization in Markov Decision Processes http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.2493&rep=rep1&type=pdf : refers to an equivalence relation between two states with similar long-term behavior. :confused:  
+  
 
-  BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION 
+BISIMULATION METRICS FOR CONTINUOUS MARKOV DECISION 
   PROCESSES.  https://www.cs.mcgill.ca/~prakash/Pubs/siamFP11.pdf 
 
   :curly_loop: DeepMDP: Learning Continuous Latent Space Models for Representation Learning https://arxiv.org/pdf/1906.02736.pdf simplifies high-dimensional observations in RL tasks and learns a latent space model via minimizing two losses: **prediction of rewards** and **prediction of the distribution over next latent states**. :mega: :milky_way: :confused: :boom: :bomb: :boom: 
@@ -362,6 +369,14 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   :curly_loop: [UIUC: CS 598 Statistical Reinforcement Learning (S19) ](http://nanjiang.cs.illinois.edu/cs598/) NanJiang :+1::eagle: :eagle: 
 
   :curly_loop: [CONTRASTIVE BEHAVIORAL SIMILARITY EMBEDDINGS FOR GENERALIZATION IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=qda7-sVg84) :boom: :sweat_drops:  ​ ​
+
+  :hourglass:  :diamond_shape_with_a_dot_inside:  :diamond_shape_with_a_dot_inside:  :hourglass: 
+
+  :curly_loop: [CURL: Contrastive Unsupervised Representations for Reinforcement Learning](https://arxiv.org/pdf/2004.04136.pdf) :fire: :volcano: :droplet:  ​ ​
+
+  :curly_loop: [Time-contrastive networks: Self-supervised learning from video](https://arxiv.org/pdf/1704.06888.pdf) :fire:  ​
+
+  :curly_loop: [Data-Efficient Reinforcement Learning with Self-Predictive Representations](https://arxiv.org/pdf/2007.05929.pdf) :fire: ​  ​ ​
 
 
 
@@ -381,35 +396,35 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   
 
-  :curly_loop: OUYANG: 
+  :o: :o: UYANG: 
 
   [小王爱迁移](https://zhuanlan.zhihu.com/p/27336930), 
 
-  [Self-Supervised Representation Learning From Multi-Domain Data](Self-Supervised Representation Learning From Multi-Domain Data), :fire: :+1: :+1: 
+  :curly_loop: ​[Self-Supervised Representation Learning From Multi-Domain Data](Self-Supervised Representation Learning From Multi-Domain Data), :fire: :+1: :+1: 
 
   The proposed mutual information constraints encourage neural network to extract common invariant information across domains and to preserve peculiar information of each domain simultaneously. We adopt tractable **upper and lower bounds of mutual information** to make the proposed constraints solvable. 
 
-  [Unsupervised Domain Adaptation via Regularized Conditional Alignment](https://openaccess.thecvf.com/content_ICCV_2019/papers/Cicek_Unsupervised_Domain_Adaptation_via_Regularized_Conditional_Alignment_ICCV_2019_paper.pdf), :fire: :+1:  ​
+  :curly_loop: ​[Unsupervised Domain Adaptation via Regularized Conditional Alignment](https://openaccess.thecvf.com/content_ICCV_2019/papers/Cicek_Unsupervised_Domain_Adaptation_via_Regularized_Conditional_Alignment_ICCV_2019_paper.pdf), :fire: :+1:  
 
    Joint alignment ensures that not only the marginal distributions of the domains are aligned, but the labels as well. 
 
-  [Domain Adaptation with Conditional Distribution Matching and Generalized Label Shift](https://arxiv.org/pdf/2003.04475.pdf), :fire: :boom: :boom: :sweat_drops:  ​ ​ ​
+  :curly_loop: ​[Domain Adaptation with Conditional Distribution Matching and Generalized Label Shift](https://arxiv.org/pdf/2003.04475.pdf), :fire: :boom: :boom: :sweat_drops:    
 
   In this paper, we extend a recent upper-bound on the performance of adversarial domain adaptation to multi-class classification and more general discriminators. We then propose **generalized label shift (GLS)** as a way to improve robustness against mismatched label distributions. GLS states that, conditioned on the label, **there exists a representation of the input that is invariant between the source and target domains**. 
 
-  [Learning to Learn with Variational Information Bottleneck for Domain Generalization](https://arxiv.org/pdf/2007.07645.pdf), 
+  :curly_loop: ​[Learning to Learn with Variational Information Bottleneck for Domain Generalization](https://arxiv.org/pdf/2007.07645.pdf), 
 
   Through episodic training, MetaVIB learns to gradually narrow domain gaps to establish domain-invariant representations, while simultaneously maximizing prediction accuracy. 
 
-  [Deep Domain Generalization via Conditional Invariant Adversarial Networks](https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Ya_Li_Deep_Domain_Generalization_ECCV_2018_paper.pdf), :+1: ​​  ​ ​
+  :curly_loop: ​[Deep Domain Generalization via Conditional Invariant Adversarial Networks](https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Ya_Li_Deep_Domain_Generalization_ECCV_2018_paper.pdf), :+1:    
 
-  [On Learning Invariant Representation for Domain Adaptation](https://arxiv.org/pdf/1901.09453.pdf) :fire: :boom: :sweat_drops: 
+  :curly_loop: ​[On Learning Invariant Representation for Domain Adaptation](https://arxiv.org/pdf/1901.09453.pdf) :fire: :boom: :sweat_drops: 
 
-  [GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://arxiv.org/pdf/1804.10745.pdf) :fire: :volcano: :volcano:  ​ ​ ​
+  :curly_loop: ​[GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://arxiv.org/pdf/1804.10745.pdf) :fire: :volcano: :volcano:    
 
   In contrast, in our setting, we wish to avoid any such explicit domain representation, **appealing instead to the power of deep networks to discover implicit features**. We also argue that even if such such overfitting could be avoided, we do not necessarily want to wipe out domain signals, if it helps in-domain test instances. 
 
-  [In Search of Lost Domain Generalization](https://arxiv.org/pdf/2007.01434.pdf) :no_mouth:  ​
+  :curly_loop: ​[In Search of Lost Domain Generalization](https://arxiv.org/pdf/2007.01434.pdf) :no_mouth:  
 
   :curly_loop: [DIRL: Domain-Invariant Representation Learning for Sim-to-Real Transfer](https://arxiv.org/pdf/2011.07589.pdf) :sweat_drops:  ​
 
@@ -461,21 +476,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   Our work explores the use of self-supervision to allow the policy to continue training after deployment without using any rewards. 
 
-  :curly_loop: [DATA-EFFICIENT REINFORCEMENT LEARNING WITH SELF-PREDICTIVE REPRESENTATIONS](https://openreview.net/pdf?id=uCQfPZwRaUu) :no_mouth: 
-
    ​
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
 
 + **Transfer**: Generalization & Adaption & **Dynamics** 
 
@@ -736,6 +737,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   :curly_loop: [DIFFERENTIABLE TRUST REGION LAYERS FOR DEEP REINFORCEMENT LEARNING](https://openreview.net/pdf?id=qYZD-AO1Vn) :+1: :droplet: 
 
   We derive trust region projections based on the Kullback-Leibler divergence, the Wasserstein L2 distance, and the Frobenius norm for Gaussian distributions. Related work is good! 
+
+  :curly_loop: [BENCHMARKS FOR DEEP OFF-POLICY EVALUATION](https://openreview.net/pdf?id=kWSeGEeHvF8)  :+1: :fire: :droplet: 
+
+  DOPE is designed to measure the performance of **OPE** methods by 1) evaluating on challenging control tasks with properties known to be difficult for OPE methods, but which occur in real-world scenarios, 2) evaluating across a range of policies with different values, to directly measure performance on policy evaluation, ranking and selection, and 3) evaluating in ideal and adversarial settings in terms of dataset coverage and support. 
 
   
 
