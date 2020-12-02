@@ -41,7 +41,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + A survey on intrinsic motivation in reinforcement learning https://arxiv.org/abs/1908.06976 :milky_way: :fist_oncoming: :fist_oncoming: :fire: :fire: :sweat_drops: :droplet: :droplet: 
 
-+ Efficient Exploration via State Marginal Matching https://arxiv.org/pdf/1906.05274.pdf 
++ Efficient Exploration via State Marginal Matching https://arxiv.org/pdf/1906.05274.pdf :volcano: 
 
 + Empowerment: A Universal Agent-Centric Measure of Control https://uhra.herts.ac.uk/bitstream/handle/2299/1114/901241.pdf?sequence=1&isAllowed=y 
 
@@ -380,11 +380,9 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   
   We propose EMI, which is an exploration method that constructs embedding representation of states and actions that does not rely on generative decoding of the full observation but extracts predictive signals that can be used to guide exploration based on forward prediction in the representation space. 
   
-  
+  :curly_loop: 
   
    ​
-
-
 
 + **mutual information**: 
 
@@ -399,8 +397,6 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   Our work is based on the hypothesis that a model-free agent whose **representations are predictive of properties of future states** (beyond expected rewards) will be more capable of solving and adapting to new RL problems, and in a way, incorporate aspects of model-based learning. 
 
   :curly_loop: [Unpacking Information Bottlenecks: Unifying Information-Theoretic Objectives in Deep Learning](https://arxiv.org/pdf/2003.12537.pdf) :volcano: 
-
-  
 
   :o: :o: UYANG: 
 
@@ -433,6 +429,14 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   :curly_loop: ​[In Search of Lost Domain Generalization](https://arxiv.org/pdf/2007.01434.pdf) :no_mouth:  
 
   :curly_loop: [DIRL: Domain-Invariant Representation Learning for Sim-to-Real Transfer](https://arxiv.org/pdf/2011.07589.pdf) :sweat_drops:  ​
+
+  :o: :o: self-supervised learning 
+
+  :curly_loop: [Bootstrap Your Own Latent A New Approach to Self-Supervised Learning](https://arxiv.org/pdf/2006.07733.pdf) :fire: :volcano: 
+
+  Related work is good!  ​ ​
+
+  
 
   
 
@@ -551,6 +555,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   :curly_loop: [LEARNING CROSS-DOMAIN CORRESPONDENCE FOR CONTROL WITH DYNAMICS CYCLE-CONSISTENCY](https://openreview.net/pdf?id=QIRlze3I6hX) :+1: :+1: :fire: 
 
   In this paper, we propose to learn correspondence across such domains emphasizing on differing modalities (vision and internal state), physics parameters (mass and friction), and morphologies (number of limbs). Importantly, correspondences are learned using unpaired and randomly collected data from the two domains. We propose **dynamics cycles** that align dynamic robotic behavior across two domains using a cycle consistency constraint. 
+
+  :curly_loop: [Improving Generalization in Reinforcement Learning with Mixture Regularization](https://arxiv.org/pdf/2010.10814.pdf) :+1: 
+
+  these approaches only locally perturb the observations regardless of the training environments, showing limited effectiveness on enhancing the data diversity and the generalization performance. 
 
   
 
@@ -802,11 +810,9 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :curly_loop: [Variational Inverse Control with Events: A General Framework for Data-Driven Reward Definition](https://proceedings.neurips.cc/paper/2018/file/c9319967c038f9b923068dabdf60cfe3-Paper.pdf) :volcano: variational inverse control with events (**VICE**), which generalizes inverse reinforcement learning methods  :volcano: :droplet:  ​ ​
 
-  
-
    ​
 
-+ Adding Noise
++ Adding Noise 
 
   :curly_loop: [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
 
