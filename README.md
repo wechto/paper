@@ -328,7 +328,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   
   The main contribution of this work is a novel and principled approach that integrates learning stochastic sequential models and RL into a single method, performing RL in the model’s learned latent space. By **formalizing the problem as a control as inference problem within a POMDP**, we show that variational inference leads to the objective of our SLAC algorithm. 
   
-  :curly_loop: [On the Design of Variational RL Algorithms](https://joelouismarino.github.io/files/papers/2019/variational_rl/neurips_workshop_paper.pdf) :+1: :+1: :fire: ​ Good **design choices**. :sweat_drops:  ​
+  :curly_loop: [On the Design of Variational RL Algorithms](https://joelouismarino.github.io/files/papers/2019/variational_rl/neurips_workshop_paper.pdf) :+1: :+1: :fire: ​ Good **design choices**. :sweat_drops:  :ghost:  ​
   
   Identify several settings that have not yet been fully explored, and we discuss general directions for improving these algorithms: VI details; (non-)Parametric; Uniform/Learned Prior. 
   
@@ -339,10 +339,16 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://openreview.net/pdf?id=S1ANxQW0b) :+1: :fire:  :droplet:  ​
   
   MPO based on coordinate ascent on a relativeentropy objective. We show that several existing methods can directly be related to our derivation. 
-  
+
+
+
++ 
+
++ [Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf) :boom: :volcano: :ghost: [design] :sweat_drops:  ​
+
++ 
+
    
-
-
 
 
 
@@ -668,7 +674,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :curly_loop: [C-LEARNING: LEARNING TO ACHIEVE GOALS VIA RECURSIVE CLASSIFICATION](https://arxiv.org/pdf/2011.08909.pdf) :+1: :sweat_drops: 
 
-  This Q-function is not useful for predicting or controlling the future state distribution. Fundamentally, this problem arises because the relationship between the reward function, the Q function, and the future state distribution in prior work remains unclear.   
+  This Q-function is not useful for predicting or controlling the future state distribution. Fundamentally, this problem arises because the relationship between the reward function, the Q function, and the future state distribution in prior work remains unclear.  :ghost: [DIAYN?] 
 
   :curly_loop: [LEARNING TO UNDERSTAND GOAL SPECIFICATIONS BY MODELLING REWARD](https://openreview.net/pdf?id=H1xsSjC9Ym) :+1: :+1:  ​
 
