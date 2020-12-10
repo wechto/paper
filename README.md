@@ -276,7 +276,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 ### Galaxy 
 
-​	:milky_way: :snowflake: :cyclone: :ocean: :volcano: :earth_africa: :earth_americas: :earth_asia: :book: :dart: :ghost: :lemon: :headphones: :pushpin: :artificial_satellite: :satellite: :rocket: :stars: :sunrise_over_mountains: :triangular_flag_on_post: :beer: :tea: :date: :golf: :hourglass: :camera: :pager: :balloon: :trophy: :apple: :rice: ​
+​	:milky_way: :snowflake: :cyclone: :ocean: :volcano: :earth_africa: :earth_americas: :earth_asia: :book: :dart: :gem: :lemon: :headphones: :pushpin: :artificial_satellite: :satellite: :rocket: :stars: :sunrise_over_mountains: :triangular_flag_on_post: :beer: :tea: :date: :golf: :hourglass: :camera: :pager: :balloon: :trophy: :apple: :rice: ​
 
 + Deep Reinforcement Learning amidst Lifelong Non-Stationarity https://arxiv.org/pdf/2006.10701.pdf 
 
@@ -344,7 +344,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + 
 
-+ [Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf) :boom: :volcano: :ghost: [design] :sweat_drops:  ​
++ [Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf) :boom: :volcano: :ghost: [the art of design] :sweat_drops:  ​
 
 + 
 
@@ -806,6 +806,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   Imitation Learning, State-Marginal Matching 
 
+  :curly_loop: [f-IRL: Inverse Reinforcement Learning via State Marginal Matching](https://arxiv.org/pdf/2011.04709.pdf) :sweat_drops: 
+
+   ​ 
+
   :curly_loop: [UNDERSTANDING THE RELATION BETWEEN MAXIMUM-ENTROPY INVERSE REINFORCEMENT LEARNING AND BEHAVIOUR CLONING](https://openreview.net/pdf?id=rkeXrIIt_4) 
 
   :curly_loop: [Disagreement-Regularized Imitation Learning](https://openreview.net/forum?id=rkgbYyHtwB) 
@@ -836,7 +840,13 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   learning the grounded action transformation can be seen as an IfO problem; GARAT: learn an action transformation policy for transfer learning with dynamics mismatch. 
 
-   ​
+  :curly_loop: [STATE ALIGNMENT-BASED IMITATION LEARNING](https://openreview.net/pdf?id=rylrdxHFDr) :+1: 
+
+  Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. 
+
+  :curly_loop: [Strictly Batch Imitation Learning by Energy-based Distribution Matching](https://proceedings.neurips.cc//paper/2020/file/524f141e189d2a00968c3d48cadd4159-Paper.pdf) 
+
+  
 
    ​
 
@@ -979,6 +989,8 @@ Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAA
 
 Montreal: [Anirudh Goyal](https://scholar.google.com/citations?hl=en&user=krrh6OUAAAAJ&view_op=list_works&sortby=pubdate) [Homepage](https://anirudh9119.github.io/), 
 
+Toronto: [Jimmy Ba](https://scholar.google.com/citations?hl=en&user=ymzxRhAAAAAJ&view_op=list_works&sortby=pubdate); 
+
 OpenAI: 
 
 THU:  [Chongjie Zhang](https://scholar.google.com/citations?user=LjxqXycAAAAJ&hl=en) [[Homepage]](http://people.iiis.tsinghua.edu.cn/~zhang/), [Yi Wu](https://scholar.google.com/citations?hl=en&user=dusV5HMAAAAJ&view_op=list_works&sortby=pubdate), [Mingsheng Long](https://scholar.google.com/citations?user=_MjXpXkAAAAJ) [[Homepage]](http://ise.thss.tsinghua.edu.cn/~mlong/), 
@@ -991,5 +1003,5 @@ TJU: [Jianye Hao](https://scholar.google.com/citations?user=FCJVUYgAAAAJ&hl=en),
 
 HIT: [PR&IS research center](http://pr-ai.hit.edu.cn/main.htm), 
 
-OTHERS: [Alexander Trott](https://scholar.google.com/citations?hl=en&user=rB4bvV0AAAAJ&view_op=list_works&sortby=pubdate), 
+Salesforce : [Alexander Trott](https://scholar.google.com/citations?hl=en&user=rB4bvV0AAAAJ&view_op=list_works&sortby=pubdate), 
 
