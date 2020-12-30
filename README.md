@@ -688,6 +688,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   A framework within which instruction-conditional RL agents are trained using rewards obtained not from the environment, but from reward models which are jointly trained from expert examples. 
 
+  :curly_loop: [Intrinsically Motivated Goal-Conditioned Reinforcement Learning: a Short Survey](https://arxiv.org/pdf/2012.09830.pdf) :volcano: :volcano: :droplet: 
+
+  This paper proposes a typology of these methods **[intrinsically motivated processes (IMP) (knowledge-based IMG + competence-based IMP); goal-conditioned RL agents]** at the intersection of deep rl and developmental approaches, surveys recent approaches and discusses future avenues.    
+
   
 
    ​ ​ ​
