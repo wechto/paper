@@ -416,6 +416,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :curly_loop: [Unpacking Information Bottlenecks: Unifying Information-Theoretic Objectives in Deep Learning](https://arxiv.org/pdf/2003.12537.pdf) :volcano: 
 
+  New: Unpacking Information Bottlenecks: Surrogate Objectives for Deep Learning 
+
+  :curly_loop: [Opening the black box of Deep Neural Networ ksvia Information](https://arxiv.org/pdf/1703.00810.pdf) 
+
   :o: :o: UYANG: 
 
   [小王爱迁移](https://zhuanlan.zhihu.com/p/27336930), 
@@ -534,7 +538,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   We have developed a multi-task framework from a variational inference perspective that is able to learn latent spaces that generalize to unseen tasks where the dynamics and reward can change independently. 
 
-  :curly_loop: [**Transfer Learning in Deep Reinforcement Learning: A Survey**](https://arxiv.org/pdf/2009.07888.pdf)  :sweat_drops: :sweat_drops:  ​
+  : [**Transfer Learning in Deep Reinforcement Learning: A Survey**](https://arxiv.org/pdf/2009.07888.pdf)  : :  ​
 
   :curly_loop: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: :+1:  ​
 
@@ -577,6 +581,18 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   :curly_loop: [Improving Generalization in Reinforcement Learning with Mixture Regularization](https://arxiv.org/pdf/2010.10814.pdf) :+1: 
 
   these approaches only locally perturb the observations regardless of the training environments, showing limited effectiveness on enhancing the data diversity and the generalization performance. 
+
+  :o: :o: :o: **Out-of-Distribution Generalization**  [Modularity--->Generalization](https://zhuanlan.zhihu.com/p/137082457) 
+
+  :curly_loop: [Invariant Risk Minimization](https://arxiv.org/pdf/1907.02893.pdf) Introduction is good! :+1: :fire:   [slide](https://bayesgroup.github.io/bmml_sem/2019/Kodryan_Invariant%20Risk%20Minimization.pdf) 
+
+  To learn invariances across environments, find a data representation such that the optimal classifier on top of that representation matches for all environments. 
+
+  : [Out-of-Distribution Generalization via Risk Extrapolation](https://arxiv.org/pdf/2003.00688.pdf) 
+
+  : [OUT-OF-DISTRIBUTION GENERALIZATION ANALYSIS VIA INFLUENCE FUNCTION](https://arxiv.org/pdf/2101.08521.pdf) 
+
+  
 
   
 
