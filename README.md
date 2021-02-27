@@ -398,6 +398,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   The model achieves the alignment between the latent codes via learning shared dynamics for different environments and matching marginal distributions of latent codes. 
 
+  :curly_loop: [RETURN-BASED CONTRASTIVE REPRESENTATION LEARNING FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2102.10960.pdf) 
+
+  Related work: AUXILIARY TASK + ABSTRACTION. 
+
   
 
    ​
@@ -584,7 +588,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :o: :o: :o: **Out-of-Distribution Generalization**  [Modularity--->Generalization](https://zhuanlan.zhihu.com/p/137082457) 
 
-  :curly_loop: [Invariant Risk Minimization](https://arxiv.org/pdf/1907.02893.pdf) Introduction is good! :+1: :fire: :boom: ​  [slide](https://bayesgroup.github.io/bmml_sem/2019/Kodryan_Invariant%20Risk%20Minimization.pdf) 
+  :curly_loop: [Invariant Risk Minimization](https://arxiv.org/pdf/1907.02893.pdf) Introduction is good! :+1: :fire: :boom:   [slide](https://bayesgroup.github.io/bmml_sem/2019/Kodryan_Invariant%20Risk%20Minimization.pdf) [information theoretic view](https://www.inference.vc/invariant-risk-minimization/) 
 
   To learn invariances across environments, find a data representation such that the optimal classifier on top of that representation matches for all environments. 
 
