@@ -398,9 +398,9 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   The model achieves the alignment between the latent codes via learning shared dynamics for different environments and matching marginal distributions of latent codes. 
 
-  :curly_loop: [RETURN-BASED CONTRASTIVE REPRESENTATION LEARNING FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2102.10960.pdf) 
+  :curly_loop: [RETURN-BASED CONTRASTIVE REPRESENTATION LEARNING FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2102.10960.pdf) :+1: :fire: 
 
-  Related work: AUXILIARY TASK + ABSTRACTION. 
+  Our auxiliary loss is theoretically justified to learn representations that capture the structure of a new form of state-action abstraction, under which state-action pairs with similar return distributions are aggregated together. *Related work: AUXILIARY TASK + ABSTRACTION.*  
 
   
 
