@@ -402,6 +402,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   Our auxiliary loss is theoretically justified to learn representations that capture the structure of a new form of state-action abstraction, under which state-action pairs with similar return distributions are aggregated together. *Related work: AUXILIARY TASK + ABSTRACTION.*  
 
+  :curly_loop: [Representation Matters: Offline Pretraining for Sequential Decision Making](https://arxiv.org/pdf/2102.05815.pdf) :+1: 
+
+   ​
+
   
 
    ​
