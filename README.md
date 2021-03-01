@@ -668,13 +668,21 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 + Offline RL 
 
-  [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/pdf/2005.01643.pdf) :sweat_drops:  :boom: :boom:  ​ :droplet:  ​
+  :curly_loop: [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/pdf/2005.01643.pdf)​  :boom: :boom:  ​ :droplet:  ​
 
   Offline RL with dynamic programming: distributional shift; policy contraints; uncertaninty estimation; conservative Q-learning and Pessimistic Value-functon; 
 
   https://danieltakeshi.github.io/2020/06/28/offline-rl/ :sweat_drops: 
 
   https://ai.googleblog.com/2020/08/tackling-open-challenges-in-offline.html :sweat_drops: 
+
+  :curly_loop: [OPAL: OFFLINE PRIMITIVE DISCOVERY FOR ACCELERATING OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.13611.pdf) :boom:  when presented with offline data composed of a variety of behaviors, an effective way to leverage this data is to extract a continuous space of recurring and temporally extended primitive behaviors before using these primitives for downstream task learning. OFFLINE unsupervised RL. 
+
+  
+
+
+
+
 
 + Pareto 
 
