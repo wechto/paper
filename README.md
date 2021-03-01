@@ -1033,7 +1033,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 + Gaussian Precess, Kernel Method, [EM](https://zhuanlan.zhihu.com/p/54823479), [Conditional Neural Process](https://zhuanlan.zhihu.com/p/142260457), [Neural Process](https://zhuanlan.zhihu.com/p/70226367),  (Deep Mind, ICML2018) :+1: ​
 + [Ising model](https://zhuanlan.zhihu.com/p/163706800), Gibbs distribution, 
 + [f-GAN](https://kexue.fm/archives/5977), [GAN-OP](https://zhuanlan.zhihu.com/p/50488424), [ODE: GAN](https://zhuanlan.zhihu.com/p/65953336), 
-+ [Wasserstein Distance](Wasserstein Distance), [Statistical Aspects of Wasserstein Distances](https://arxiv.org/pdf/1806.05500.pdf), [Optimal Transport and Wasserstein Distance](http://www.stat.cmu.edu/~larry/=sml/Opt.pdf), 
++ [Wasserstein Distance](Wasserstein Distance), [Statistical Aspects of Wasserstein Distances](https://arxiv.org/pdf/1806.05500.pdf), [Optimal Transport and Wasserstein Distance](http://www.stat.cmu.edu/~larry/=sml/Opt.pdf), [metrics for gan](An empirical study on evaluation metrics of generative adversarial networks), [MMD: Maximum Mean Discrepancy](https://www.zhihu.com/question/288185961), 
 + [MARKOV-LIPSCHITZ DEEP LEARNING](https://arxiv.org/pdf/2006.08256.pdf), 
 + [Rainbow](https://arxiv.org/pdf/1710.02298.pdf) :sweat_drops: ,  ​
 
@@ -1052,6 +1052,8 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 [covariant](http://covariant.ai/),  
 
 UCB: [Tuomas Haarnoja](https://scholar.google.com/citations?hl=en&user=VT7peyEAAAAJ),  [Pieter Abbeel](https://scholar.google.com/citations?user=vtwH6GkAAAAJ&hl=en&oi=sra), [Sergey Levine](https://scholar.google.com/citations?user=8R35rCwAAAAJ&hl=en),  [Abhishek Gupta ](https://people.eecs.berkeley.edu/~abhigupta/), [Coline Devin](https://people.eecs.berkeley.edu/~coline/), [YuXuan (Andrew) Liu](https://yuxuanliu.com/), [Rein Houthooft](https://scholar.google.com/citations?user=HBztuGIAAAAJ&hl=en), [Glen Berseth](https://scholar.google.com/citations?hl=en&user=-WZcuuwAAAAJ&view_op=list_works&sortby=pubdate), 
+
+UCSD: [Xiaolong Wang](https://scholar.google.com.sg/citations?hl=en&user=Y8O9N_0AAAAJ&sortby=pubdate&view_op=list_works&citft=1&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F79NyYa7yONVJDI6gta02XaqE24ZGaLjgMRYiKHJ-wf2Sb4Y-ZqHrtaAGQPSWWphueUEd9d5l47a06Z1sWq91OSww8miQ), 
 
 CMU: [Benjamin Eysenbach](https://scholar.google.com/citations?hl=en&user=DRnOvU8AAAAJ&view_op=list_works&sortby=pubdate), 
 
