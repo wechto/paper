@@ -10,7 +10,13 @@
 
 
 
-unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL regu.; inference; bisimulation; MI; CL; DRL; DR; sim2real; transfer (DA, DG; dynamics); exploration; off-line; supervised; IRL; self-paced; Curriculum; model-based;  training; MARL;  
+Inner Anchor: 
+
+unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL regu.; inference; bisimulation; MI; CL; DRL; <a href="#anchor-DR">DR</a>; <a href="#anchor-sim2real">sim2real</a>; <a href="#anchor-transfer">transfer: DA DG dynamics</a>; <a href="#anchor-exploration">exploration</a>; <a href="#anchor-offline">offline</a>; supervised; IRL; self-paced; Curriculum; model-based;  training; MARL;  
+
+
+
+
 
 
 
@@ -488,6 +494,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :curly_loop: online learning; regret :sweat_drops:  ​
 
+  
+
+  <a name="anchor-DR"></a>  <a name="anchor-sim2real"></a>  
+
 + DR (Domain Randomization) & sim2real 
 
   :curly_loop: Active Domain Randomization http://proceedings.mlr.press/v100/mehta20a/mehta20a.pdf :fire: :boom: :fire: 
@@ -523,6 +533,8 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   Our work explores the use of self-supervision to allow the policy to continue training after deployment without using any rewards. 
 
    ​
+
+  <a name="anchor-transfer"></a>  
 
 + **Transfer**: Generalization & Adaption & **Dynamics** 
 
@@ -596,6 +608,8 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   these approaches only locally perturb the observations regardless of the training environments, showing limited effectiveness on enhancing the data diversity and the generalization performance. 
 
+   <a name="anchor-ood"></a> 
+
   :o: :o: :o: **Out-of-Distribution (OOD) Generalization**  [Modularity--->Generalization](https://zhuanlan.zhihu.com/p/137082457) 
 
   :curly_loop: [Invariant Risk Minimization](https://arxiv.org/pdf/1907.02893.pdf) Introduction is good! :+1: :fire: :boom:   [slide](https://bayesgroup.github.io/bmml_sem/2019/Kodryan_Invariant%20Risk%20Minimization.pdf) [information theoretic view](https://www.inference.vc/invariant-risk-minimization/) 
@@ -630,11 +644,13 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   
 
-+ Causual inference and do-calculate [see more in OOD] 
++ Causual inference  [see more in <a href="#anchor-ood">OOD</a>] 
 
   :curly_loop: 
 
   
+
+   <a name="anchor-exploration"></a> 
 
 + [Exploration Strategies in Deep Reinforcement Learning](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html) [[chinese]](https://mp.weixin.qq.com/s/FX-1IlIaFDLaQEVFN813jA) :sweat_drops: :fire: :fire:  :boom:   
 
@@ -680,7 +696,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   
 
-  
+  <a name="anchor-offline "></a> 
 
 + Offline RL 
 
