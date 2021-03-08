@@ -12,7 +12,9 @@
 
 Inner Anchor: 
 
-unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL regu.; inference; bisimulation; MI; CL; DRL; <a href="#anchor-DR">DR</a>; <a href="#anchor-sim2real">sim2real</a>; <a href="#anchor-transfer">transfer: DA DG dynamics</a>; <a href="#anchor-exploration">exploration</a>; <a href="#anchor-offline">offline</a>; supervised; IRL; self-paced; Curriculum; model-based;  training; MARL;  
+unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL regu.; inference; bisimulation; MI; CL; DRL; <a href="#anchor-DR">DR</a>; <a href="#anchor-sim2real">sim2real</a>; <a href="#anchor-transfer">transfer: DA DG dynamics</a>; <a href="#anchor-causual">causual inference</a>; <a href="#anchor-exploration">exploration</a>; <a href="#anchor-offline">offline</a>; supervised; IRL; self-paced; Curriculum; model-based;  training; MARL;  
+
+
 
 
 
@@ -414,6 +416,14 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   test time training  [TTT](https://arxiv.org/pdf/1909.13231.pdf)         Our work explores the use of self-supervision to allow the policy to continue training after deployment without using any rewards. 
 
+  :curly_loop: [What Makes for Good Views for Contrastive Learning?](https://arxiv.org/pdf/2005.10243.pdf) :+1:  :fire: :boom: :volcano: 
+
+  we should reduce the mutual information (MI) between views while keeping task-relevant information intact. 
+
+  :curly_loop: [SELF-SUPERVISED LEARNING FROM A MULTI-VIEW PERSPECTIVE](https://arxiv.org/pdf/2006.05576.pdf) :+1: :fire:  ​ ​
+
+  Demystifying Self-Supervised Learning: An Information-Theoretical Framework. 
+
    ​
 
   
@@ -496,7 +506,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   
 
-  <a name="anchor-DR"></a>  <a name="anchor-sim2real"></a>  
+<a name="anchor-DR"></a>  <a name="anchor-sim2real"></a>  
 
 + DR (Domain Randomization) & sim2real 
 
@@ -534,7 +544,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
    ​
 
-  <a name="anchor-transfer"></a>  
+<a name="anchor-transfer"></a>  
 
 + **Transfer**: Generalization & Adaption & **Dynamics** 
 
@@ -638,19 +648,31 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
     when measuring the change in test prediction or test loss, influence is additive. 
 
-  :o: causual inference and do-calculate 
+  :o: do-calculate ---> causual inference (Interventions) ---> counterfactuals 
 
-  see [inFERENCe's blog](https://www.inference.vc/causal-inference-3-counterfactuals/) :+1: :fire: :boom:  ​ ​
+  see [inFERENCe's blog](https://www.inference.vc/causal-inference-3-counterfactuals/) :+1: :fire: :boom:   the intervention conditional p(y|do(X=x^))p(y|do(X=x^)) is the average of counterfactuals over the obserevable population.  
 
-  
 
-+ Causual inference  [see more in <a href="#anchor-ood">OOD</a>] 
+
+<a name="anchor-causual"></a>  
+
++ Causual inference  [ see more in <a href="#anchor-ood">OOD</a> & [inFERENCe's blog](https://www.inference.vc/causal-inference-3-counterfactuals/) ] 
 
   :curly_loop: 
 
-  
++ reasoning 
 
-   <a name="anchor-exploration"></a> 
+  :curly_loop: [CAUSAL DISCOVERY WITH REINFORCEMENT LEARNING](https://arxiv.org/pdf/1906.04477.pdf) :no_mouth:  ​
+
+  :curly_loop: [DEEP REINFORCEMENT LEARNING WITH CAUSALITYBASED INTRINSIC REWARD](https://openreview.net/pdf?id=30I4Azqc_oP) :+1: 
+
+  The proposed algorithm learns a graph to encode the environmental structure by calculating Average Causal Effect (ACE) between different categories of entities, and an intrinsic reward is given to encourage the agent to interact more with entities belonging to top-ranked categories, which significantly boosts policy learning. 
+
+
+
+
+
+ <a name="anchor-exploration"></a> 
 
 + [Exploration Strategies in Deep Reinforcement Learning](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html) [[chinese]](https://mp.weixin.qq.com/s/FX-1IlIaFDLaQEVFN813jA) :sweat_drops: :fire: :fire:  :boom:   
 
@@ -696,7 +718,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   
 
-  <a name="anchor-offline "></a> 
+<a name="anchor-offline "></a> 
 
 + Offline RL 
 
@@ -707,6 +729,8 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   https://danieltakeshi.github.io/2020/06/28/offline-rl/ :sweat_drops: 
 
   https://ai.googleblog.com/2020/08/tackling-open-challenges-in-offline.html :sweat_drops: 
+
+  https://sites.google.com/view/offlinerltutorial-neurips2020/home :sweat_drops: 
 
   :curly_loop: [OPAL: OFFLINE PRIMITIVE DISCOVERY FOR ACCELERATING OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.13611.pdf) :boom:  when presented with offline data composed of a variety of behaviors, an effective way to leverage this data is to extract a continuous space of recurring and temporally extended primitive behaviors before using these primitives for downstream task learning. OFFLINE unsupervised RL. 
 
@@ -872,14 +896,6 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   
 
-+ reasoning 
-
-  :curly_loop: [CAUSAL DISCOVERY WITH REINFORCEMENT LEARNING](https://arxiv.org/pdf/1906.04477.pdf) :no_mouth:  ​
-
-  :curly_loop: [DEEP REINFORCEMENT LEARNING WITH CAUSALITYBASED INTRINSIC REWARD](https://openreview.net/pdf?id=30I4Azqc_oP) :+1: 
-  
-  The proposed algorithm learns a graph to encode the environmental structure by calculating Average Causal Effect (ACE) between different categories of entities, and an intrinsic reward is given to encourage the agent to interact more with entities belonging to top-ranked categories, which significantly boosts policy learning. 
-  
   
 
 :volcano: IRL 
@@ -1064,6 +1080,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 + [Wasserstein Distance](Wasserstein Distance), [Statistical Aspects of Wasserstein Distances](https://arxiv.org/pdf/1806.05500.pdf), [Optimal Transport and Wasserstein Distance](http://www.stat.cmu.edu/~larry/=sml/Opt.pdf), [Metrics for GAN](An empirical study on evaluation metrics of generative adversarial networks), [Metrics for GAN zhihu](https://zhuanlan.zhihu.com/p/99375611), [MMD: Maximum Mean Discrepancy](https://www.zhihu.com/question/288185961), 
 + [MARKOV-LIPSCHITZ DEEP LEARNING](https://arxiv.org/pdf/2006.08256.pdf), 
 + [Rainbow](https://arxiv.org/pdf/1710.02298.pdf) :sweat_drops: ,  ​
++ [VC dimensition](https://zhuanlan.zhihu.com/p/41109051), 
 
 
 
