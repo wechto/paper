@@ -1081,6 +1081,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 + [MARKOV-LIPSCHITZ DEEP LEARNING](https://arxiv.org/pdf/2006.08256.pdf), 
 + [Rainbow](https://arxiv.org/pdf/1710.02298.pdf) :sweat_drops: ,  ​
 + [VC dimensition](https://zhuanlan.zhihu.com/p/41109051), 
++ [BALD](Bayesian Active Learning for Classification and Preference Learning), 
 
 
 
