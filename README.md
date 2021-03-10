@@ -576,6 +576,8 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :curly_loop: [**Transfer Learning in Deep Reinforcement Learning: A Survey**](https://arxiv.org/pdf/2009.07888.pdf)  :sweat_drops:  ​
 
+  Evaluation metrics: Mastery and Generalization. 
+
   :curly_loop: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: :+1:  ​
 
   adapt the source policy to learn to solve a target task with significant **transition differences** and uncertainties.  
@@ -649,7 +651,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
     when measuring the change in test prediction or test loss, influence is additive. 
 
   :o: do-calculate ---> causual inference (Interventions) ---> counterfactuals 
-
+  
   see [inFERENCe's blog](https://www.inference.vc/causal-inference-3-counterfactuals/) :+1: :fire: :boom:   the intervention conditional p(y|do(X=x^))p(y|do(X=x^)) is the average of counterfactuals over the obserevable population.  
 
 
@@ -1081,7 +1083,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 + [MARKOV-LIPSCHITZ DEEP LEARNING](https://arxiv.org/pdf/2006.08256.pdf), 
 + [Rainbow](https://arxiv.org/pdf/1710.02298.pdf) :sweat_drops: ,  ​
 + [VC dimensition](https://zhuanlan.zhihu.com/p/41109051), 
-+ [BALD](Bayesian Active Learning for Classification and Preference Learning), 
++ [BALD](https://arxiv.org/pdf/1112.5745.pdf), 
 
 
 
