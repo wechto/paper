@@ -1,4 +1,4 @@
-# FIVELAUSEVEN 
+# Representation TransferFIVELAUSEVEN 
 
 **https://github.com/liuinn/paper** 
 
@@ -578,7 +578,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   Evaluation metrics: Mastery and Generalization. 
 
-  TRANSFER LEARNING APPROACHES: Reward Shaping; Learning from Demonstrations; Policy Transfer; 
+  TRANSFER LEARNING APPROACHES: Reward Shaping; Learning from Demonstrations; Policy Transfer (Transfer Learning via Policy Distillation, Transfer Learning via Policy Reuse); Inter-Task Mapping; Representation Transfer(Reusing Representations, Disentangling Representations); 
 
   :o: reward shaping
 
@@ -820,9 +820,15 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   This paper proposes a typology of these methods **[intrinsically motivated processes (IMP) (knowledge-based IMG + competence-based IMP); goal-conditioned RL agents]** at the intersection of deep rl and developmental approaches, surveys recent approaches and discusses future avenues.    
 
-  SEE: Language as a Cognitive Tool to Imagine Goals in Curiosity-Driven Exploration 
+  SEE: Language as a Cognitive Tool to Imagine Goals in Curiosity-Driven Exploration  
 
   :curly_loop: [Self-supervised Learning of Distance Functions for Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/1907.02998.pdf) 
+
+  :curly_loop: [PARROT: DATA-DRIVEN BEHAVIORAL PRIORS FOR REINFORCEMENT LEARNING](https://openreview.net/pdf?id=Ysuv-WOFeKR) :+1: 
+
+  We propose a method for pre-training behavioral priors that can capture complex input-output relationships observed in successful trials from a wide range of previously seen tasks. 
+
+   ​
 
   
 
