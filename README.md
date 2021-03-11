@@ -1,4 +1,4 @@
-# Representation TransferFIVELAUSEVEN 
+# FIVELAUSEVEN 
 
 **https://github.com/liuinn/paper** 
 
@@ -12,15 +12,17 @@
 
 Inner Anchor: 
 
-unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL regu.; inference; bisimulation; MI; CL; DRL; <a href="#anchor-DR">DR</a>; <a href="#anchor-sim2real">sim2real</a>; <a href="#anchor-transfer">transfer: DA DG dynamics</a>; <a href="#anchor-causual">causual inference</a>; <a href="#anchor-exploration">exploration</a>; <a href="#anchor-offline">offline</a>; supervised; IRL; self-paced; Curriculum; model-based;  training; MARL;  
+unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor-asp">(A)SP</a>; <a href="#anchor-metarl">meta-RL</a>; <a href="#anchor-HRL">HRL</a>; <a href="#anchor-comskills">combing skills</a>; <a href="#anchor-klreg">KL reg</a>.; <a href="#anchor-inference">inference</a>; <a href="#anchor-bisimulation">bisimulation</a>; <a href="#anchor-MI">MI</a>; <a href="#anchor-cl">CL</a>; <a href="#anchor-disrl">Dis RL</a>; <a href="#anchor-DR">DR</a>; <a href="#anchor-sim2real">sim2real</a>; <a href="#anchor-transfer">transfer: DA DG dynamics</a>; <a href="#anchor-causual">causual</a>; <a href="#anchor-exploration">exploration</a>; <a href="#anchor-offline">offline</a>; <a href="#anchor-pareto">Pareto</a>; <a href="#anchor-supervised">supervised</a>; <a href="#anchor-irl">IRL</a>; <a href="#anchor-selfpaced">self-paced</a>; <a href="#anchor-curriculum">Curriculum</a>; <a href="#anchor-modelbasedrl">model-based</a>;  <a href="#anchor-trainingrl">training RL</a>; <a href="#anchor-marl">MARL</a>;  <a href="#anchor-constrainedrl">constrained RL</a>; 
+
+
+
+<a href="#anchor-unsuprl">URL</a>
 
 
 
 
 
-
-
-
+<a name="anchor-emp"></a>  
 
 ### Emp. & ASP 
 
@@ -67,6 +69,8 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 
 
+<a name="anchor-asp"></a>  
+
 + ASP: ASYMMETRIC SELF-PLAY 
 
   :curly_loop: INTRINSIC MOTIVATION AND AUTOMATIC CURRICULA VIA ASYMMETRIC SELF-PLAY https://arxiv.org/pdf/1703.05407.pdf [起飞 ASP] :fire: :fire: :+1: 
@@ -88,6 +92,8 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   We introduce IMAGINE, an intrinsically motivated deep reinforcement learning architecture that models this ability. Such imaginative agents, like children, benefit from the guidance of a social peer who provides language descriptions. To take advantage of goal imagination, agents must be able to leverage these descriptions to interpret their imagined out-of-distribution goals. 
 
 
+
+<a name="anchor-metarl"></a>  
 
 ### Meta-RL 
 
@@ -153,6 +159,8 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
 
 
+<a name="anchor-HRL"></a>  
+
 ### HRL 
 
 + SUB-POLICY ADAPTATION FOR HIERARCHICAL REINFORCEMENT LEARNING https://arxiv.org/pdf/1906.05862.pdf :-1:  
@@ -201,6 +209,10 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 + EPISODIC CURIOSITY THROUGH REACHABILITY [reward design] 
 
   In particular, inspired by curious behaviour in animals, observing something novel could be rewarded with a bonus. Such bonus is summed up with the real task reward — making it possible for RL algorithms to learn from the combined reward. We propose a new curiosity method which uses episodic memory to form the novelty bonus. :droplet: **To determine the bonus, the current observation is compared with the observations in memory.** Crucially, the comparison is done based on how many environment steps it takes to reach the current observation from those in memory — which incorporates rich information about environment dynamics. This allows us to overcome the known “couch-potato” issues of prior work — when the agent finds a way to instantly gratify itself by exploiting actions which lead to hardly predictable consequences. 
+
+
+
+<a name="anchor-comskills"></a>   <a name="anchor-klreg"></a>  
 
 + Combing Skills & **KL regularized expected reward objective** 
 
@@ -268,6 +280,12 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   :curly_loop: [COMPOSING TASK-AGNOSTIC POLICIES WITH DEEP REINFORCEMENT LEARNING](https://openreview.net/pdf?id=H1ezFREtwH) :+1:  ​
 
+  :curly_loop: [DISCOVERING A SET OF POLICIES FOR THE WORST CASE REWARD](https://openreview.net/pdf?id=PUkhWz65dy5) :+1: 
+
+  the problem we are solving can be seen as the definition and discovery of lower-level policies that will lead to a robust hierarchical agent. 
+
+   ​
+
   
 
 + Acquiring Diverse Robot Skills via Maximum Entropy Deep Reinforcement Learning [Tuomas Haarnoja, UCB]  https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-176.pdf :fire: :boom: :sweat_drops: :sweat_drops: 
@@ -313,6 +331,8 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
   :curly_loop: [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :confused: :-1: 
 
   :curly_loop: 
+
+<a name="anchor-inference"></a>   
 
 + **Control as Inference** 
 
@@ -362,7 +382,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
    
 
-
+<a name="anchor-bisimulation"></a>     
 
 + **Bisimulation** & :hourglass: :diamond_shape_with_a_dot_inside:  Representation learning. :diamond_shape_with_a_dot_inside: :hourglass: 
 
@@ -426,9 +446,7 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
    ​
 
-  
-
-   ​
+<a name="anchor-MI"></a>     
 
 + **mutual information**: 
 
@@ -488,15 +506,18 @@ unsupervised/self-supservised; Emp. ; (A)SP; meta-RL; HRL; combing skills; KL re
 
   Related work is good!  ​ ​
 
-  
 
-  
+
+
+<a name="anchor-disrl"></a>   
 
 + Distritutional RL [Hao Liang, CUHK](https://rlseminar.github.io/2019/03/11/hao.html)  [slide](https://rlseminar.github.io/static/files/RL_seminars2019-0311hao_distributional_final.pdf) :sweat_drops: :sweat_drops:  ​ ​
 
   :curly_loop: C51: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/pdf/1707.06887.pdf) :sweat_drops:  ​
 
   
+
+<a name="anchor-cl"></a>   
 
 + Continual Learning 
 
@@ -714,13 +735,13 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   :curly_loop: [NEVER GIVE UP: LEARNING DIRECTED EXPLORATION STRATEGIES](https://arxiv.org/pdf/2002.06038.pdf)  :punch: :+1: 
 
-  episodic memorybased intrinsic reward using k-nearest neighbors;   self-supervised inverse dynamics model; Universal Value Function Approximators; different degrees of exploration/exploitation;  distributed RL; 
+  episodic memory based intrinsic reward using k-nearest neighbors;   self-supervised inverse dynamics model; Universal Value Function Approximators; different degrees of exploration/exploitation;  distributed RL; 
 
   :curly_loop: [Self-Imitation Learning via TrajectoryConditioned Policy for Hard-Exploration Tasks](https://arxiv.org/pdf/1907.10247.pdf) :sweat_drops:  ​
 
   :curly_loop: [Planning to Explore via Self-Supervised World Models](https://arxiv.org/pdf/2005.05960.pdf)  :fire: :fire: :+1:  ​ ​ ​Experiment is good!  
 
-  a selfsupervised reinforcement learning agent that tackles both these challenges through a new approach to self-supervised exploration and fast adaptation to new tasks, which need not be known during exploration.  **unlike prior methods which retrospectively compute the novelty of observations after the agent has already reached them**, our agent acts efficiently by leveraging planning to seek out expected future novelty.  
+  a self supervised reinforcement learning agent that tackles both these challenges through a new approach to self-supervised exploration and fast adaptation to new tasks, which need not be known during exploration.  **unlike prior methods which retrospectively compute the novelty of observations after the agent has already reached them**, our agent acts efficiently by leveraging planning to seek out expected future novelty.  
 
   :curly_loop: [Efficient Exploration via State Marginal Matching](https://arxiv.org/pdf/1906.05274.pdf) :fire: :volcano: :droplet:  :boom:  ​
 
@@ -740,7 +761,7 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   :curly_loop: [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/pdf/2005.01643.pdf)​  :boom: :boom:  ​ :droplet:  ​
 
-  Offline RL with dynamic programming: distributional shift; policy contraints; uncertaninty estimation; conservative Q-learning and Pessimistic Value-functon; 
+  Offline RL with dynamic programming: distributional shift; policy constraints; uncertainty estimation; conservative Q-learning and Pessimistic Value-function; 
 
   https://danieltakeshi.github.io/2020/06/28/offline-rl/ :sweat_drops: 
 
@@ -758,7 +779,7 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
 
 
-
+<a name="anchor-pareto"></a>
 
 + Pareto 
 
@@ -775,6 +796,10 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 + BNN 
 
   :curly_loop: [Auto-Encoding Variational Bayes](https://www.ics.uci.edu/~welling/publications/papers/AEVB_ICLR14.pdf) :+1:  ​
+
+  
+
+<a name="anchor-supervised"></a>
 
 + supervised RL & goal-conditioned policy 
 
@@ -834,7 +859,10 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
    ​ ​ ​
 
-  
+
+
+
+<a name="anchor-selfpaced"></a>   <a name="anchor-curriculum"></a> 
 
 + self-paced & curriculum RL 
 
@@ -852,7 +880,8 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   
 
-  
+
+<a name="anchor-modelbasedrl"></a>  
 
 + Model-based RL & world models 
 
@@ -878,7 +907,8 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   
 
-  
+
+<a name="anchor-trainingrl"></a>  
 
 + Training RL & Just Fast & Embedding? 
 
@@ -918,7 +948,8 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   
 
-  
+
+<a name="anchor-irl"></a>   
 
 :volcano: IRL 
 
@@ -1034,7 +1065,7 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   
 
-
+<a name="anchor-marl"></a>   
 
 :volcano: MARL 
 
@@ -1065,6 +1096,8 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 + communicative partially-observable stochastic game (Comm-POSG) 
 
 
+
+<a name="anchor-constrainedrl"></a>  
 
 :o: Constrained RL
 
