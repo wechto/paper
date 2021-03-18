@@ -792,7 +792,11 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   conservative Q-learning (CQL), which aims to address these limitations by learning a conservative Q-function such that the expected value of a policy under this Q-function lower-bounds its true value. 
 
-+ 
++ [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :+1: :volcano:  :boom: 
+
+  
+
++   ​
 
 
 
@@ -924,10 +928,20 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   “affordances” to describe the fact that certain states enable an agent to do certain actions, in the context of embodied agents. In this paper, we develop a theory of affordances for agents who learn and plan in Markov Decision Processes. 
 
+  :curly_loop: [When to Trust Your Model: Model-Based Policy Optimization](https://arxiv.org/pdf/1906.08253.pdf) :fire: :volcano: :droplet: 
+
+   we study the role of model usage in policy optimization both theoretically and empirically. 
+
+  :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :fire:  :volcano: :boom: 
+  
+  we propose a novel concept of deployment efficiency, measuring the number of distinct data-collection policies that are used during policy learning. 
+  
+   ​ ​ ​
+  
   :o: dynamic distance learning   <a name="anchor-modelbasedddl"></a>  
-
+  
   :curly_loop: [MODEL-BASED VISUAL PLANNING WITH SELF-SUPERVISED FUNCTIONAL DISTANCES](https://openreview.net/pdf?id=UcoXdfrORC) :+1: 
-
+  
    We present a self-supervised method for model-based visual goal reaching, which uses both a visual dynamics model as well as a dynamical distance function learned using model-free rl. Related work! 
 
 
@@ -1178,6 +1192,7 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 ### Others 
 
 + Gaussian Precess, Kernel Method, [EM](https://zhuanlan.zhihu.com/p/54823479), [Conditional Neural Process](https://zhuanlan.zhihu.com/p/142260457), [Neural Process](https://zhuanlan.zhihu.com/p/70226367),  (Deep Mind, ICML2018) :+1: ​
++ [Total variation distance](http://people.csail.mit.edu/jayadev/teaching/ece6980f16/scribing/26-aug-16.pdf), 
 + [Ising model](https://zhuanlan.zhihu.com/p/163706800), Gibbs distribution, [VAEBM](https://openreview.net/pdf?id=5m3SEczOV8L), 
 + [f-GAN](https://kexue.fm/archives/5977), [GAN-OP](https://zhuanlan.zhihu.com/p/50488424), [ODE: GAN](https://zhuanlan.zhihu.com/p/65953336), 
 + [Wasserstein Distance](Wasserstein Distance), [Statistical Aspects of Wasserstein Distances](https://arxiv.org/pdf/1806.05500.pdf), [Optimal Transport and Wasserstein Distance](http://www.stat.cmu.edu/~larry/=sml/Opt.pdf), [Metrics for GAN](An empirical study on evaluation metrics of generative adversarial networks), [Metrics for GAN zhihu](https://zhuanlan.zhihu.com/p/99375611), [MMD: Maximum Mean Discrepancy](https://www.zhihu.com/question/288185961), 
