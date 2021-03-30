@@ -794,11 +794,13 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   conservative Q-learning (CQL), which aims to address these limitations by learning a conservative Q-function such that the expected value of a policy under this Q-function lower-bounds its true value. 
 
-+ [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :+1: :volcano:  :boom: 
+  :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :+1: :volcano:  :boom: 
+
+  :curly_loop: [BENCHMARKS FOR DEEP OFF-POLICY EVALUATION](https://openreview.net/pdf?id=kWSeGEeHvF8) :+1: 
 
   
 
-+   
++    ​
 
 
 
@@ -937,15 +939,21 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :fire:  :volcano: :boom: 
   
-  we propose a novel concept of deployment efficiency, measuring the number of distinct data-collection policies that are used during policy learning. 
-  
-   ​ ​ ​
+  we propose a novel concept of deployment efficiency, measuring the number of distinct data-collection policies that are used during policy learning.  ​
   
   :o: dynamic distance learning   <a name="anchor-modelbasedddl"></a>  
   
   :curly_loop: [MODEL-BASED VISUAL PLANNING WITH SELF-SUPERVISED FUNCTIONAL DISTANCES](https://openreview.net/pdf?id=UcoXdfrORC) :+1: 
   
    We present a self-supervised method for model-based visual goal reaching, which uses both a visual dynamics model as well as a dynamical distance function learned using model-free rl. Related work! 
+  
+  :o: model-based offline 
+  
+  :curly_loop: [Representation Balancing MDPs for Off-Policy Policy Evaluation](https://arxiv.org/pdf/1805.09044.pdf) 
+  
+  :curly_loop: [REPRESENTATION BALANCING OFFLINE MODEL-BASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=QpNz8r_Ri2Y) 
+  
+  
 
 
 
@@ -1181,6 +1189,8 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
   :curly_loop: [MODELING THE SECOND PLAYER IN DISTRIBUTIONALLY ROBUST OPTIMIZATION](https://openreview.net/pdf?id=ZDnzZrTqU9N) :+1: :fire:  ​ ​
 
   we argue instead for the use of neural generative models to characterize the worst-case distribution, allowing for more flexible and problem-specific selection of *the uncertainty set*. 
+  
+  :curly_loop: [Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning](https://arxiv.org/pdf/1908.08729.pdf) 
 
 
 
