@@ -1,4 +1,4 @@
-# s (Fujimoto et al., 2018; Kumar et al., 2019)FIVELAUSEVEN 
+# FIVE  
 
 **https://github.com/liuinn/paper** 
 
