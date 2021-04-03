@@ -16,7 +16,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 
 
-<a href="#anchor-unsuprl">URL</a>
+<a href="#anchor-unsuprl">URL</a> 
 
 
 
@@ -810,13 +810,13 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   :curly_loop: [Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction](https://arxiv.org/pdf/1906.00949.pdf) :fire: :boom: :droplet:  ​
 
-  We identify bootstrapping error as a key source of instability in current methods. Bootstrapping error is due to bootstrapping from actions that lie outside of the training data distribution, and it accumulates via the Bellman backup operator. 
+  We identify bootstrapping error as a key source of instability in current methods. Bootstrapping error is due to bootstrapping from actions that lie outside of the training data distribution, and it accumulates via the Bellman backup operator.  
 
 +    
 
 
 
-<a name="anchor-pareto"></a>
+<a name="anchor-pareto"></a> 
 
 + Pareto 
 
@@ -1042,9 +1042,7 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   :curly_loop: [Offline Imitation Learning with a Misspecified Simulator](https://proceedings.neurips.cc/paper/2020/file/60cb558c40e4f18479664069d9642d5a-Paper.pdf) :+1:  ​
 
-  learn pi in the condition of a few expert demonstrations and a simulator with misspecified dynamics.
-
-  
+  learn pi in the condition of a few expert demonstrations and a simulator with misspecified dynamics. 
 
   
 
@@ -1079,16 +1077,22 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
   :curly_loop: [An Imitation from Observation Approach to Transfer Learning with Dynamics Mismatch](https://papers.nips.cc/paper/2020/file/28f248e9279ac845995c4e9f8af35c2b-Paper.pdf) :+1: :fire:
 
   learning the grounded action transformation can be seen as an IfO problem; GARAT: learn an action transformation policy for transfer learning with dynamics mismatch. 
-  
-  :curly_loop: [STATE ALIGNMENT-BASED IMITATION LEARNING](https://openreview.net/pdf?id=rylrdxHFDr) :+1: 
 
-  Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. 
+  :curly_loop: [STATE ALIGNMENT-BASED IMITATION LEARNING](https://openreview.net/pdf?id=rylrdxHFDr) :+1: 
   
+  Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. 
+
   :curly_loop: [Strictly Batch Imitation Learning by Energy-based Distribution Matching](https://proceedings.neurips.cc//paper/2020/file/524f141e189d2a00968c3d48cadd4159-Paper.pdf) :fire: :boom: :sweat_drops:  ​
   
    ​By identifying parameterizations of the (discriminative) model of a policy
   with the (generative) energy function for state distributions, EDM yields a simple
   but effective solution that equivalently minimizes a divergence between the occupancy measure for the demonstrator and a model thereof for the imitator. 
+  
+  :curly_loop: [SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/pdf/1905.11108.pdf) :+1: :fire: 
+  
+   ​ 
+  
+  :curly_loop: [IMITATION LEARNING VIA OFF-POLICY DISTRIBUTION MATCHING](https://arxiv.org/pdf/1912.05032.pdf) 
   
   
 
