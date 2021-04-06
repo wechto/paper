@@ -896,6 +896,10 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
    :ghost: see model-based <a href="#anchor-modelbasedddl">ddl</a>  
 
+  :curly_loop: [LEARNING WHAT TO DO BY SIMULATING THE PAST](https://openreview.net/pdf?id=kBVJ2NtiY-) :+1:  ​
+  
+  we propose the Deep Reward Learning by Simulating the Past (Deep RLSP) algorithm. 
+  
   
   
    ​ ​ ​
@@ -947,13 +951,17 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   “affordances” to describe the fact that certain states enable an agent to do certain actions, in the context of embodied agents. In this paper, we develop a theory of affordances for agents who learn and plan in Markov Decision Processes. 
 
-  :curly_loop: [When to Trust Your Model: Model-Based Policy Optimization](https://arxiv.org/pdf/1906.08253.pdf) :fire: :volcano: :droplet: 
+  :curly_loop: [When to Trust Your Model: Model-Based Policy Optimization](https://arxiv.org/pdf/1906.08253.pdf) :fire: :volcano: :droplet: :boom:  ​
 
    we study the role of model usage in policy optimization both theoretically and empirically. 
 
   :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :fire:  :volcano: :boom: 
   
   we propose a novel concept of deployment efficiency, measuring the number of distinct data-collection policies that are used during policy learning.  ​
+  
+  :curly_loop: [CONTROL-AWARE REPRESENTATIONS FOR MODELBASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=dgd4EJqsbW5) :sweat_drops: 
+  
+  
   
   :o: dynamic distance learning   <a name="anchor-modelbasedddl"></a>  
   
@@ -1014,6 +1022,10 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
   :curly_loop: [DualDICE: Behavior-Agnostic Estimation of Discounted Stationary Distribution Corrections](https://arxiv.org/pdf/1906.04733.pdf) :fire: :volcano: :boom: 
   
   Off-Policy Policy Evaluation --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
+  
+  :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
+  
+  Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. 
   
   
   
@@ -1276,7 +1288,7 @@ UCB: [Tuomas Haarnoja](https://scholar.google.com/citations?hl=en&user=VT7peyEAA
 
 UCSD: [Xiaolong Wang](https://scholar.google.com.sg/citations?hl=en&user=Y8O9N_0AAAAJ&sortby=pubdate&view_op=list_works&citft=1&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F79NyYa7yONVJDI6gta02XaqE24ZGaLjgMRYiKHJ-wf2Sb4Y-ZqHrtaAGQPSWWphueUEd9d5l47a06Z1sWq91OSww8miQ), 
 
-CMU: [Benjamin Eysenbach](https://scholar.google.com/citations?hl=en&user=DRnOvU8AAAAJ&view_op=list_works&sortby=pubdate), 
+CMU: [Benjamin Eysenbach](https://scholar.google.com/citations?hl=en&user=DRnOvU8AAAAJ&view_op=list_works&sortby=pubdate), [Ruslan Salakhutdinov](https://scholar.google.com/citations?hl=en&user=ITZ1e7MAAAAJ&view_op=list_works&sortby=pubdate), 
 
 Standord: [Chelsea Finn](https://scholar.google.com/citations?user=vfPE6hgAAAAJ&hl=en), 
 
