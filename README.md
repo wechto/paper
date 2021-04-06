@@ -870,9 +870,11 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   we propose to direct prediction towards task relevant information, enabling the model to be aware of the current task and **encouraging it to only model relevant quantities of the state space**, resulting in **a learning objective that more closely matches the downstream task**.  
 
-  :curly_loop: [C-LEARNING: LEARNING TO ACHIEVE GOALS VIA RECURSIVE CLASSIFICATION](https://arxiv.org/pdf/2011.08909.pdf) :+1: :sweat_drops: 
+  :curly_loop: [C-LEARNING: LEARNING TO ACHIEVE GOALS VIA RECURSIVE CLASSIFICATION](https://arxiv.org/pdf/2011.08909.pdf) :+1: :sweat_drops: :volcano: :boom:  ​ ​
 
   This Q-function is not useful for predicting or controlling the future state distribution. Fundamentally, this problem arises because the relationship between the reward function, the Q function, and the future state distribution in prior work remains unclear.  :ghost: [DIAYN?] 
+
+  on-policy ---> off-policy ---> goal-conditioned. 
 
   :curly_loop: [LEARNING TO UNDERSTAND GOAL SPECIFICATIONS BY MODELLING REWARD](https://openreview.net/pdf?id=H1xsSjC9Ym) :+1: :+1:  ​
 
@@ -895,7 +897,7 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
    :ghost: see model-based <a href="#anchor-modelbasedddl">ddl</a>  
 
   
-
+  
    ​ ​ ​
 
 
@@ -1012,6 +1014,8 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
   :curly_loop: [DualDICE: Behavior-Agnostic Estimation of Discounted Stationary Distribution Corrections](https://arxiv.org/pdf/1906.04733.pdf) :fire: :volcano: :boom: 
   
   Off-Policy Policy Evaluation --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
+  
+  
   
   
   
