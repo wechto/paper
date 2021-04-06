@@ -1009,6 +1009,10 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
   
   we derive a method based on recursive classification that eschews auxiliary reward functions and instead directly learns a value function from transitions and successful outcomes. 
   
+  :curly_loop: [DualDICE: Behavior-Agnostic Estimation of Discounted Stationary Distribution Corrections](https://arxiv.org/pdf/1906.04733.pdf) :fire: :volcano: :boom: 
+  
+  Off-Policy Policy Evaluation --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
+  
   
   
   
