@@ -1027,12 +1027,13 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
   
   Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. 
   
+  :curly_loop: [Reinforcement Learning without Ground-Truth State](https://arxiv.org/pdf/1905.07866.pdf) :+1:
+  
+  relabeling the original goal with the achieved goal to obtain positive rewards  
   
   
   
   
-  
-
 
 
 
