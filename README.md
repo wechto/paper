@@ -686,6 +686,8 @@ REx can be viewed as encouraging robustness over affine combinations of training
 
 if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and high accuracy over E_test, it should have good OOD accuracy. 
 
+:curly_loop: [EMPIRICAL OR INVARIANT RISK MINIMIZATION? A SAMPLE COMPLEXITY PERSPECTIVE](https://openreview.net/pdf?id=jrA5GAccy_) :droplet:  ​
+
 :o: influence function 
 
 + :curly_loop: [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/pdf/1703.04730.pdf) :fire: :droplet:   
@@ -772,6 +774,8 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   ​	[Provably Efficient Exploration for RL with Unsupervised Learning](https://arxiv.org/pdf/2003.06898.pdf) :confused:  ​
 
+  :curly_loop: [Learning latent state representation for speeding up exploration](https://arxiv.org/pdf/1905.12621.pdf) 
+  
   
 
 <a name="anchor-offline "></a> 
@@ -1013,7 +1017,7 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   :curly_loop: [Trajectory-Based Off-Policy Deep Reinforcement Learning](https://arxiv.org/pdf/1905.05710.pdf) :+1: :fire: :droplet:  ​
 
-  Incorporation of previous rollouts via importance sampling greatly improves data-efficiency, whilst stochastic optimization schemes facilitate the escape from local optima. 
+  Incorporation of previous rollouts via importance sampling greatly improves data-efficiency, whilst stochastic optimization schemes facilitate the escape from local optima.  
 
   :curly_loop: [Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classification](https://arxiv.org/pdf/2103.12656.pdf) :volcano: :boom: 
   
@@ -1242,6 +1246,8 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
   we argue instead for the use of neural generative models to characterize the worst-case distribution, allowing for more flexible and problem-specific selection of *the uncertainty set*. 
   
   :curly_loop: [Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning](https://arxiv.org/pdf/1908.08729.pdf) 
+
+
 
 
 
