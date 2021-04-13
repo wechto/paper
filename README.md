@@ -774,7 +774,9 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   ​	[Provably Efficient Exploration for RL with Unsupervised Learning](https://arxiv.org/pdf/2003.06898.pdf) :confused:  ​
 
-  :curly_loop: [Learning latent state representation for speeding up exploration](https://arxiv.org/pdf/1905.12621.pdf) 
+  :curly_loop: [Learning latent state representation for speeding up exploration](https://arxiv.org/pdf/1905.12621.pdf) :+1:
+  
+  Prior experience on separate but related tasks help learn representations of the state which are effective at predicting instantaneous rewards. 
   
   
 
