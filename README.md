@@ -12,7 +12,7 @@
 
 Inner Anchor: 
 
-unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor-asp">(A)SP</a>; <a href="#anchor-metarl">meta-RL</a>; <a href="#anchor-HRL">HRL</a>; <a href="#anchor-comskills">combing skills</a>; <a href="#anchor-klreg">KL reg</a>.; <a href="#anchor-inference">inference</a>; <a href="#anchor-bisimulation">bisimulation</a>; <a href="#anchor-MI">MI</a>; <a href="#anchor-cl">CL</a>; <a href="#anchor-disrl">Dis RL</a>; <a href="#anchor-DR">DR</a>; <a href="#anchor-sim2real">sim2real</a>; <a href="#anchor-transfer">transfer</a>(DA, DG, dynamics); <a href="#anchor-causual">causual</a>; <a href="#anchor-exploration">exploration</a>; <a href="#anchor-offline">offline</a>; <a href="#anchor-pareto">Pareto</a>; <a href="#anchor-supervised">supervised</a>; <a href="#anchor-goalcon">Goal con</a>; <a href="#anchor-irl">IRL</a>; <a href="#anchor-selfpaced">self-paced</a>; <a href="#anchor-curriculum">Curriculum</a>; <a href="#anchor-modelbasedrl">model-based</a>;  <a href="#anchor-trainingrl">training RL</a>; <a href="#anchor-marl">MARL</a>;  <a href="#anchor-constrainedrl">constrained RL</a>; <a href="#anchor-optimization">optimization</a>(CD, DRO); 
+unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor-asp">(A)SP</a>; <a href="#anchor-metarl">meta-RL</a>; <a href="#anchor-HRL">HRL</a>; <a href="#anchor-comskills">combing skills</a>; <a href="#anchor-klreg">KL reg</a>.; <a href="#anchor-inference">inference</a>; <a href="#anchor-bisimulation">bisimulation</a>; <a href="#anchor-MI">MI</a>; <a href="#anchor-cl">CL</a>; <a href="#anchor-disrl">Dis RL</a>; <a href="#anchor-DR">DR</a>; <a href="#anchor-sim2real">sim2real</a>; <a href="#anchor-transfer">transfer</a>(DA, DG, dynamics); <a href="#anchor-causual">causual</a>; <a href="#anchor-exploration">exploration</a>; <a href="#anchor-offline">offline</a>; <a href="#anchor-pareto">Pareto</a>; <a href="#anchor-supervised">supervised</a>; <a href="#anchor-goalcon">Goal con</a>; <a href="#anchor-irl">IRL</a>; <a href="#anchor-selfpaced">self-paced</a>; <a href="#anchor-curriculum">Curriculum</a>; <a href="#anchor-modelbasedrl">model-based</a>;  <a href="#anchor-trainingrl">training RL</a>; <a href="#anchor-marl">MARL</a>;  <a href="#anchor-constrainedrl">constrained RL</a>; <a href="#anchor-optimization">optimization</a>(CD, DRO, Trustworthy); 
 
 
 
@@ -839,6 +839,10 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 + BNN 
 
   :curly_loop: [Auto-Encoding Variational Bayes](https://www.ics.uci.edu/~welling/publications/papers/AEVB_ICLR14.pdf) :+1:  ​
+  
+  :curly_loop: [Unlabelled Data Improves Bayesian Uncertainty Calibration under Covariate Shift](http://proceedings.mlr.press/v119/chan20a/chan20a.pdf)  :+1: :fire: 
+  
+  we develop an approximate Bayesian inference scheme based on posterior regularisation, wherein unlabelled target data are used as “pseudo-labels” of model confidence that are used to regularise the model’s loss on labelled source data. 
 
 
 
@@ -1037,7 +1041,9 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
   
   relabeling the original goal with the achieved goal to obtain positive rewards  
   
+  :curly_loop: [Ecological Reinforcement Learning](https://arxiv.org/pdf/2006.12478.pdf) :+1: 
   
+   ​
   
   
 
@@ -1248,6 +1254,9 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
   we argue instead for the use of neural generative models to characterize the worst-case distribution, allowing for more flexible and problem-specific selection of *the uncertainty set*. 
   
   :curly_loop: [Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning](https://arxiv.org/pdf/1908.08729.pdf) 
+  
+  
+  
 
 
 
