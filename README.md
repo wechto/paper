@@ -688,6 +688,12 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
 :curly_loop: [EMPIRICAL OR INVARIANT RISK MINIMIZATION? A SAMPLE COMPLEXITY PERSPECTIVE](https://openreview.net/pdf?id=jrA5GAccy_) :droplet:  ​
 
+:curly_loop: [Invariant Rationalization](http://proceedings.mlr.press/v119/chang20c/chang20c.pdf) :+1: :fire:  :boom: 
+
+MMI can be problematic because it picks up spurious correlations between the input features and the output. Instead, we introduce a game-theoretic invariant rationalization criterion where the rationales are constrained to enable the same predictor to be optimal across different environments.  
+
+ ​ ​
+
 :o: influence function 
 
 + :curly_loop: [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/pdf/1703.04730.pdf) :fire: :droplet:   
@@ -1253,10 +1259,13 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
   we argue instead for the use of neural generative models to characterize the worst-case distribution, allowing for more flexible and problem-specific selection of *the uncertainty set*. 
   
-  :curly_loop: [Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning](https://arxiv.org/pdf/1908.08729.pdf) 
-  
-  
-  
+  :curly_loop: [Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning](https://arxiv.org/pdf/1908.08729.pdf)
+
++ others
+
+  :curly_loop: [Structured Prediction with Partial Labelling through the Infimum Loss](http://proceedings.mlr.press/v119/cabannnes20a/cabannnes20a.pdf) :+1: :droplet:  ​ ​
+
+
 
 
 
@@ -1265,11 +1274,11 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 
 ### Conference 
 
-* ICML2020 
+* ICML2020 [Paers](https://icml.cc/virtual/2020/papers.html?filter=keywords) 
 
   [Inductive Biases, Invariances and Generalization in RL](https://biases-invariances-generalization.github.io/papers.html) [VIDEO](https://www.youtube.com/watch?v=e3EJzOyJZE4&ab_channel=Mila-QuebecArtificialIntelligenceInstitute) 
 
-* Others 
+* O 
 
   [2020 Virtual Conference on Reinforcement Learning for Real Life](https://sites.google.com/view/rl4reallife/home) 
 
