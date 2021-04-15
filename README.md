@@ -447,6 +447,24 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
   policy similarity metric (PSM) for measuring behavioral similarity between states. PSM assigns high similarity to states for which the optimal policies in those states as well as in future states are similar. 
 
+  :curly_loop: [Invariant Causal Prediction for Block MDPs](http://proceedings.mlr.press/v119/zhang20t/zhang20t.pdf) :sweat_drops:  
+  
+  State Abstractions and Bisimulation; Causal Inference Using Invariant Prediction; 
+  
+  :curly_loop: [CAUSAL INFERENCE Q-NETWORK: TOWARD RESILIENT REINFORCEMENT LEARNING](https://arxiv.org/pdf/2102.09677.pdf) :+1: 
+  
+  In this paper, we consider a resilient DRL framework with observational interferences. 
+  
+  :curly_loop: [Decoupling Value and Policy for Generalization in Reinforcement Learning](https://arxiv.org/pdf/2102.10330.pdf) :+1: :fire:  ​
+  
+  Invariant Decoupled Advantage ActorCritic. First, IDAAC decouples the optimization of the policy and value function, using separate networks to model them. Second, it introduces an auxiliary loss which encourages the representation to be invariant to task-irrelevant properties of the environment. 
+  
+  
+  
+   ​
+  
+  
+  
   
 
  ​
@@ -691,6 +709,8 @@ if a learnt model fθˆ manage to simultaneously achieve small Vγˆ|θˆ and hi
 :curly_loop: [Invariant Rationalization](http://proceedings.mlr.press/v119/chang20c/chang20c.pdf) :+1: :fire:  :boom: 
 
 MMI can be problematic because it picks up spurious correlations between the input features and the output. Instead, we introduce a game-theoretic invariant rationalization criterion where the rationales are constrained to enable the same predictor to be optimal across different environments.  
+
+:curly_loop: [Invariant Risk Minimization Games ](http://proceedings.mlr.press/v119/ahuja20a/ahuja20a.pdf) :droplet:  ​
 
  ​ ​
 
@@ -1048,6 +1068,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
   relabeling the original goal with the achieved goal to obtain positive rewards  
   
   :curly_loop: [Ecological Reinforcement Learning](https://arxiv.org/pdf/2006.12478.pdf) :+1: 
+  
+  
+  
+  
   
    ​
   
