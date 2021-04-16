@@ -616,6 +616,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   **Related work is good!** :+1: 
 
   + general domain adaption (DA) =  importance weighting + domain-agnostic features 
+  
 + DA in RL =  system identification + domain randomization + observation adaptation :+1: 
   + formulates control as a problem of probabilistic inference :droplet: 
 
@@ -637,13 +638,27 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   
   TRANSFER LEARNING APPROACHES: Reward Shaping; Learning from Demonstrations; Policy Transfer (Transfer Learning via Policy Distillation, Transfer Learning via Policy Reuse); Inter-Task Mapping; Representation Transfer(Reusing Representations, Disentangling Representations); 
   
+  :curly_loop: [Provably Efficient Model-based Policy Adaptation](https://arxiv.org/pdf/2006.08051.pdf) :+1: :fire: :volcano: :droplet: 
+  
+  We prove that the approach learns policies in the target environment that can recover trajectories from the source environment, and establish the rate of convergence in general settings. 
+  
   :o: reward shaping
   
   + :curly_loop: [Useful Policy Invariant Shaping from Arbitrary Advice](https://arxiv.org/pdf/2011.01297.pdf) :+1:  ​
   
-+ :curly_loop: 
++ Action 
   
-
+:curly_loop: [Generalization to New Actions in Reinforcement Learning](https://arxiv.org/pdf/2011.01928.pdf) :+1: 
+  
+  We propose a two-stage framework where the agent first infers action representations from action information acquired separately from the task. A policy flexible to varying action sets is then trained with generalization objectives. 
+  
+  
+  
+  
+  
+   ​
+  
+  
   
 
 :curly_loop: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: :+1:  ​
@@ -1069,6 +1084,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [Ecological Reinforcement Learning](https://arxiv.org/pdf/2006.12478.pdf) :+1: 
   
+  :curly_loop: [Control Frequency Adaptation via Action Persistence in Batch Reinforcement Learning](https://icml.cc/virtual/2020/poster/6146) :+1:   ​
+  
+  :curly_loop: [Taylor Expansion Policy Optimization](http://proceedings.mlr.press/v119/tang20d/tang20d.pdf) :+1: :boom: :volcano: :droplet:  ​
+  
+  a policy optimization formalism that generalizes prior work (e.g., TRPO) as a firstorder special case. We also show that Taylor expansions intimately relate to off-policy evaluation. 
+  
   
   
   
@@ -1356,6 +1377,8 @@ Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAA
 Montreal: [Anirudh Goyal](https://scholar.google.com/citations?hl=en&user=krrh6OUAAAAJ&view_op=list_works&sortby=pubdate) [Homepage](https://anirudh9119.github.io/), 
 
 Toronto: [Jimmy Ba](https://scholar.google.com/citations?hl=en&user=ymzxRhAAAAAJ&view_op=list_works&sortby=pubdate); 
+
+Columbia: [Yunhao (Robin) Tang](https://robintyh1.github.io/), 
 
 OpenAI: 
 
