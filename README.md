@@ -1,4 +1,4 @@
-# FIVE  
+# FIVE  - _ -  
 
 **https://github.com/liuinn/paper** 
 
@@ -648,18 +648,19 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   
 + Action 
   
+
 :curly_loop: [Generalization to New Actions in Reinforcement Learning](https://arxiv.org/pdf/2011.01928.pdf) :+1: 
-  
+
   We propose a two-stage framework where the agent first infers action representations from action information acquired separately from the task. A policy flexible to varying action sets is then trained with generalization objectives. 
+
   
+
   
-  
-  
-  
+
    ​
+
   
-  
-  
+
 
 :curly_loop: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: :+1:  ​
 
@@ -1072,7 +1073,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [DualDICE: Behavior-Agnostic Estimation of Discounted Stationary Distribution Corrections](https://arxiv.org/pdf/1906.04733.pdf) :fire: :volcano: :boom: 
   
-  Off-Policy Policy Evaluation --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
+  Off-Policy Policy Evaluation (OPE) --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
   
   :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
   
@@ -1190,7 +1191,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [IMITATION LEARNING VIA OFF-POLICY DISTRIBUTION MATCHING](https://arxiv.org/pdf/1912.05032.pdf) :+1: :fire: :boom:  :volcano:  ​
   
-  These prior distribution matching approaches possess two limitations (On-policy; Separate RL optimization).  ---> OFF-POLICY FORMULATION OF THE KL-DIVERGENCE. ---> VALUEDICE: IMITATION LEARNING WITH IMPLICIT REWARDS. 
+  These prior distribution matching approaches possess two limitations (On-policy; Separate RL optimization).  ---> OFF-POLICY FORMULATION OF THE KL-DIVERGENCE. ---> VALUEDICE: IMITATION LEARNING WITH IMPLICIT REWARDS. (OPE) 
   
   
 
@@ -1309,6 +1310,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
 + others
 
   :curly_loop: [Structured Prediction with Partial Labelling through the Infimum Loss](http://proceedings.mlr.press/v119/cabannnes20a/cabannnes20a.pdf) :+1: :droplet:  ​ ​
+  
+  :curly_loop: [Bridging the Gap Between f-GANs and Wasserstein GANs](https://arxiv.org/pdf/1910.09779.pdf) :+1:  ​
 
 
 
