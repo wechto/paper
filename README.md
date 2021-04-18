@@ -1311,7 +1311,11 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   :curly_loop: [Structured Prediction with Partial Labelling through the Infimum Loss](http://proceedings.mlr.press/v119/cabannnes20a/cabannnes20a.pdf) :+1: :droplet:  ​ ​
   
-  :curly_loop: [Bridging the Gap Between f-GANs and Wasserstein GANs](https://arxiv.org/pdf/1910.09779.pdf) :+1:  ​
+  :curly_loop: [Bridging the Gap Between f-GANs and Wasserstein GANs](https://arxiv.org/pdf/1910.09779.pdf) :+1: :fire:  :volcano: :boom: 
+  
+  we propose an new training objective where we additionally optimize over a set of importance weights over the generated samples. By suitably constraining the feasible set of importance weights, we obtain a family of objectives which includes and generalizes the original f-GAN and WGAN objectives. 
+  
+   ​ ​
 
 
 
