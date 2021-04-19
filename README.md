@@ -587,6 +587,8 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
   :curly_loop: [POLICY TRANSFER WITH STRATEGY OPTIMIZATION](https://arxiv.org/pdf/1810.05751.pdf) :no_mouth:  ​ 
 
+  The key idea that, instead of learning a single policy in the simulation, we simultaneously learn a family of policies that exhibit different behaviors. When tested in the target environment, we directly search for the best policy in the family based on the task performance, without the need to identify the dynamic parameters. 
+
   :curly_loop: https://lilianweng.github.io/lil-log/2019/05/05/domain-randomization.html :sweat_drops: 
 
   :curly_loop: [THE INGREDIENTS OF REAL-WORLD ROBOTIC REINFORCEMENT LEARNING](https://arxiv.org/pdf/2004.12570.pdf) :no_mouth:  ​
@@ -598,7 +600,11 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   :curly_loop: [SELF-SUPERVISED POLICY ADAPTATION DURING DEPLOYMENT](https://openreview.net/pdf?id=o_V-MjyyGV_) :+1: :fire:  
 
   Our work explores the use of self-supervision to allow the policy to continue training after deployment without using any rewards. 
-
+  
+  :curly_loop: [SimGAN: Hybrid Simulator Identification for Domain Adaptation via Adversarial Reinforcement Learning](https://arxiv.org/pdf/2101.06005.pdf) :+1: 
+  
+  identifying a hybrid physics simulator to match the simulated \tau to the ones from the target domain, using a learned discriminative loss to address the limitations associated with manual loss design. Our hybrid simulator combines nns and traditional physics simulaton to balance expressiveness and generalizability, and alleviates the need for a carefully selected parameter set in System ID. 
+  
    ​
 
 <a name="anchor-transfer"></a>  
@@ -1204,6 +1210,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [IMITATION LEARNING VIA OFF-POLICY DISTRIBUTION MATCHING](https://arxiv.org/pdf/1912.05032.pdf) :+1: :fire: :boom:  :volcano:  ​
   
   These prior distribution matching approaches possess two limitations (On-policy; Separate RL optimization).  ---> OFF-POLICY FORMULATION OF THE KL-DIVERGENCE. ---> VALUEDICE: IMITATION LEARNING WITH IMPLICIT REWARDS. (OPE) 
+  
+  :curly_loop: [Off-Policy Imitation Learning from Observations](https://arxiv.org/pdf/2102.13185.pdf) :volcano: :sweat_drops:  ​ ​
+  
+  OPOLO (Off POlicy Learning from Observations)! 
   
   
 
