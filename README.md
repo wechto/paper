@@ -1013,6 +1013,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [CONTROL-AWARE REPRESENTATIONS FOR MODELBASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=dgd4EJqsbW5) :sweat_drops: 
   
+  :curly_loop: [Context-aware Dynamics Model for Generalization in Model-Based Reinforcement Learning](https://arxiv.org/pdf/2005.06800.pdf) :+1: :fire:  ​ ​
+  
+   The intuition is that the true context of the underlying MDP can be captured from recent experiences. 
+  
+  
+  
   
   
   :o: dynamic distance learning   <a name="anchor-modelbasedddl"></a>  
