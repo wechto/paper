@@ -999,7 +999,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   [rail](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/f17docs/lecture_9_model_based_rl.pdf)  [Model-Based Reinforcement Learning: Theory and Practice](https://bair.berkeley.edu/blog/2019/12/12/mbpo/) :sweat_drops: ​​  ​ ​
 
-  :curly_loop: [What can I do here? A Theory of Affordances in Reinforcement Learning](https://arxiv.org/pdf/2006.15085.pdf) :+1: :droplet:  ​ ​
+  :curly_loop: [What can I do here? A Theory of Affordances in Reinforcement Learning](http://proceedings.mlr.press/v119/khetarpal20a/khetarpal20a.pdf) :+1: :droplet:   
 
   “affordances” to describe the fact that certain states enable an agent to do certain actions, in the context of embodied agents. In this paper, we develop a theory of affordances for agents who learn and plan in Markov Decision Processes. 
 
