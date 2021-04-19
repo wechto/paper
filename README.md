@@ -545,6 +545,8 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 + Distritutional RL [Hao Liang, CUHK](https://rlseminar.github.io/2019/03/11/hao.html)  [slide](https://rlseminar.github.io/static/files/RL_seminars2019-0311hao_distributional_final.pdf) :sweat_drops: :sweat_drops:  ​ ​
 
   :curly_loop: C51: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/pdf/1707.06887.pdf) :sweat_drops:  ​
+  
+  :curly_loop: [CS598 - Statistical rl - NanJiang](https://www.bilibili.com/video/av929950486) :sweat_drops: ​
 
 
 
@@ -1028,6 +1030,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Context-aware Dynamics Model for Generalization in Model-Based Reinforcement Learning](https://arxiv.org/pdf/2005.06800.pdf) :+1: :fire:  ​ ​
   
    The intuition is that the true context of the underlying MDP can be captured from recent experiences. 
+  
+  :curly_loop: [Optimism is All You Need: Model-Based Imitation Learning From Observation Alone](https://arxiv.org/pdf/2102.10769.pdf) :sweat_drops:  ​
   
   
   
