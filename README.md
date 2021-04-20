@@ -1187,15 +1187,17 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   the discriminator may either simply **use the embodiment or dynamics to infer whether it is evaluating expert behavior**, and as a consequence fails to provide a meaningful reward signal. we condition our policy on a learned dynamics embedding and we employ a domain-adversarial loss to learn a dynamics-invariant discriminator.   
 
-  :curly_loop: [Generative Adversarial Imitation from Observation](https://arxiv.org/pdf/1807.06158.pdf) :sweat_drops:  ​
+  :curly_loop: [Generative Adversarial Imitation from Observation](https://arxiv.org/pdf/1807.06158.pdf) :sweat_drops: :+1: :fire: :volcano:  ​ ​ ​
+
+  From a high-level perspective, in imitation from observation, the goal is to enable the agent to extract what the task is by observing some state sequences.  GAIfO 
 
   :curly_loop: [An Imitation from Observation Approach to Transfer Learning with Dynamics Mismatch](https://papers.nips.cc/paper/2020/file/28f248e9279ac845995c4e9f8af35c2b-Paper.pdf) :+1: :fire: :volcano:  ​
-
-  learning the grounded action transformation can be seen as an IfO problem; GARAT: learn an action transformation policy for transfer learning with dynamics mismatch.     we focus on the paradigm of simulator grounding, which modifies the source environment’s dynamics to more closely match the target environment dynamics using a relatively small amount of target environment data. 
   
-  :curly_loop: [STATE ALIGNMENT-BASED IMITATION LEARNING](https://openreview.net/pdf?id=rylrdxHFDr) :+1: 
+  learning the grounded action transformation can be seen as an IfO problem; GARAT: learn an action transformation policy for transfer learning with dynamics mismatch.     we focus on the paradigm of simulator grounding, which modifies the source environment’s dynamics to more closely match the target environment dynamics using a relatively small amount of target environment data. 
 
-  Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. 
+  :curly_loop: [STATE ALIGNMENT-BASED IMITATION LEARNING](https://openreview.net/pdf?id=rylrdxHFDr) :+1: :fire:  ​
+  
+  Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. ifo 
   
   :curly_loop: [Strictly Batch Imitation Learning by Energy-based Distribution Matching](https://proceedings.neurips.cc//paper/2020/file/524f141e189d2a00968c3d48cadd4159-Paper.pdf) :fire: :boom: :sweat_drops:  ​
   
@@ -1214,6 +1216,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [IMITATION LEARNING VIA OFF-POLICY DISTRIBUTION MATCHING](https://arxiv.org/pdf/1912.05032.pdf) :+1: :fire: :boom:  :volcano:  ​
   
   These prior distribution matching approaches possess two limitations (On-policy; Separate RL optimization).  ---> OFF-POLICY FORMULATION OF THE KL-DIVERGENCE. ---> VALUEDICE: IMITATION LEARNING WITH IMPLICIT REWARDS. (OPE) 
+  
+  :curly_loop: [Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement](https://papers.nips.cc/paper/2019/file/ed3d2c21991e3bef5e069713af9fa6ca-Paper.pdf) 
   
   :curly_loop: [Off-Policy Imitation Learning from Observations](https://arxiv.org/pdf/2102.13185.pdf) :volcano: :sweat_drops:  ​ ​
   
@@ -1337,9 +1341,11 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   :curly_loop: [Structured Prediction with Partial Labelling through the Infimum Loss](http://proceedings.mlr.press/v119/cabannnes20a/cabannnes20a.pdf) :+1: :droplet:  ​ ​
   
-  :curly_loop: [Bridging the Gap Between f-GANs and Wasserstein GANs](https://arxiv.org/pdf/1910.09779.pdf) :+1: :fire:  :volcano: :boom: 
+  :curly_loop: [Bridging the Gap Between f-GANs and Wasserstein GANs](https://arxiv.org/pdf/1910.09779.pdf) :+1: :fire:  :volcano: ​​ 
   
   we propose an new training objective where we additionally optimize over a set of importance weights over the generated samples. By suitably constraining the feasible set of importance weights, we obtain a family of objectives which includes and generalizes the original f-GAN and WGAN objectives. 
+  
+  :curly_loop: [f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization](https://papers.nips.cc/paper/2016/file/cedebb6e872f539bef8c3f919874e9d7-Paper.pdf) :+1: :fire:  ​ ​
   
    ​ ​
 
