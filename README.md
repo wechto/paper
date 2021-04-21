@@ -1083,7 +1083,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   :curly_loop: [BENCHMARKS FOR DEEP OFF-POLICY EVALUATION](https://openreview.net/pdf?id=kWSeGEeHvF8)  :+1: :fire: :droplet: 
 
-  DOPE is designed to measure the performance of **OPE** methods by 1) evaluating on challenging control tasks with properties known to be difficult for OPE methods, but which occur in real-world scenarios, 2) evaluating across a range of policies with different values, to directly measure performance on policy evaluation, ranking and selection, and 3) evaluating in ideal and adversarial settings in terms of dataset coverage and support. 
+  DOPE is designed to measure the performance of **OPE** methods by 1) evaluating on challenging control tasks with properties known to be difficult for OPE methods, but which occur in real-world scenarios, 2) evaluating across a range of policies with different values, to directly measure performance on policy evaluation, ranking and selection, and 3) evaluating in ideal and adversarial settings in terms of dataset coverage and support.  
 
   :curly_loop: [Trajectory-Based Off-Policy Deep Reinforcement Learning](https://arxiv.org/pdf/1905.05710.pdf) :+1: :fire: :droplet:  ​
 
@@ -1097,13 +1097,13 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   Off-Policy Policy Evaluation (OPE) --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
   
-  :curly_loop: [AlgaeDICE: Policy Gradient from Arbitrary Experience](https://arxiv.org/pdf/1912.02074.pdf) 
+  :curly_loop: [AlgaeDICE: Policy Gradient from Arbitrary Experience](https://arxiv.org/pdf/1912.02074.pdf) :+1: :volcano: :droplet:  ​ ​ ​
   
+  We introduce a new formulation of max-return optimization that allows the problem to be re-expressed by an expectation over an arbitrary behavior-agnostic and off-policy data distribution. ALgorithm for policy Gradient from Arbitrary Experience via DICE (AlgaeDICE). 
   
+  :curly_loop: [GENDICE: GENERALIZED OFFLINE ESTIMATION OF STATIONARY VALUES](https://arxiv.org/pdf/2002.09072.pdf) :+1: :fire: :fire: ​​ ​ ​
   
-  :curly_loop: [GENDICE: GENERALIZED OFFLINE ESTIMATION OF STATIONARY VALUES](https://arxiv.org/pdf/2002.09072.pdf) 
-  
-  
+  Our approach is based on estimating a ratio that corrects for the discrepancy between the stationary and empirical distributions, derived from fundamental properties of the stationary distribution, and exploiting constraint reformulations based on variational divergence minimization. 
   
   :curly_loop: [GradientDICE: Rethinking Generalized Offline Estimation of Stationary Values](http://proceedings.mlr.press/v119/zhang20r/zhang20r.pdf) 
   
@@ -1425,7 +1425,7 @@ Caltech: [Joseph Marino](https://joelouismarino.github.io/), [Yisong Yue](https:
 
 DeepMind: [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), [Yee Whye Teh](https://scholar.google.com/citations?user=y-nUzMwAAAAJ&hl=en) [[Homepage]](https://www.stats.ox.ac.uk/~teh/), [Alexandre Galashov](https://scholar.google.com/citations?user=kIpoNtcAAAAJ&hl=en&oi=sra), [Leonard Hasenclever](https://leonard-hasenclever.github.io/) [[GS]](https://scholar.google.com/citations?user=dD-3S4QAAAAJ&hl=en&oi=sra), [Siddhant M. Jayakumar](https://scholar.google.com/citations?user=rJUAY8QAAAAJ&hl=en&oi=sra), [Zhongwen Xu](https://scholar.google.com/citations?hl=en&user=T4xuHn8AAAAJ&view_op=list_works&sortby=pubdate), [Markus Wulfmeier](https://scholar.google.de/citations?hl=en&user=YCO3WQsAAAAJ&view_op=list_works&sortby=pubdate) [[HomePage]](https://markusrw.github.io/), [Wojciech Zaremba](https://scholar.google.com/citations?hl=en&user=XCZpOcAAAAAJ&view_op=list_works&sortby=pubdate), 
 
-Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAAAJ&view_op=list_works&sortby=pubdate), [Danijar Hafner](https://scholar.google.de/citations?hl=en&user=VINmGpYAAAAJ&view_op=list_works&sortby=pubdate) [[Homepage]](https://danijar.com/), 
+Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAAAJ&view_op=list_works&sortby=pubdate), [Danijar Hafner](https://scholar.google.de/citations?hl=en&user=VINmGpYAAAAJ&view_op=list_works&sortby=pubdate) [[Homepage]](https://danijar.com/), [Ofir Nachum](https://scholar.google.com/citations?hl=en&user=C-ZlBWMAAAAJ&sortby=pubdate&view_op=list_works&citft=1&citft=3&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F6bB1Pjv8yoTSFnbtB3GJE8dXTxX4wK1GnOvBUvWhOt8ZBNxojCh223i5_AvQ347yNG-MLSVENT3s-8UCe4DIDgvLNNG8kvQNxMjH7_VCrX6-P0FVQ), [Yinlam Chow](https://scholar.google.com/citations?hl=en&user=BFlpS-8AAAAJ&sortby=pubdate&view_op=list_works&citft=1&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F7Ht8XHXMlvXRq2vMXdWh8tAT298ToP-ONtMyacd1uEqMWgiWBqT9SRimdl-c-xcemDY324kkrnfR9nfDbaq8sso-KZ0A), 
 
 Montreal: [Anirudh Goyal](https://scholar.google.com/citations?hl=en&user=krrh6OUAAAAJ&view_op=list_works&sortby=pubdate) [Homepage](https://anirudh9119.github.io/), 
 
