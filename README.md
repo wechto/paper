@@ -1055,7 +1055,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 <a name="anchor-trainingrl"></a>  
 
-+ Training RL & Just Fast & Embedding? 
++ Training RL & Just Fast & Embedding? & OPE(DICE) 
 
   :curly_loop: [Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning](https://arxiv.org/pdf/1711.06782.pdf) :no_mouth:  ​
 
@@ -1097,11 +1097,23 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   Off-Policy Policy Evaluation (OPE) --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
   
+  :curly_loop: [AlgaeDICE: Policy Gradient from Arbitrary Experience](https://arxiv.org/pdf/1912.02074.pdf) 
+  
+  
+  
+  :curly_loop: [GENDICE: GENERALIZED OFFLINE ESTIMATION OF STATIONARY VALUES](https://arxiv.org/pdf/2002.09072.pdf) 
+  
+  
+  
+  :curly_loop: [GradientDICE: Rethinking Generalized Offline Estimation of Stationary Values](http://proceedings.mlr.press/v119/zhang20r/zhang20r.pdf) 
+  
+  
+  
   :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
   
   Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. 
   
-  :curly_loop: [Reinforcement Learning without Ground-Truth State](https://arxiv.org/pdf/1905.07866.pdf) :+1:
+  :curly_loop: [Reinforcement Learning without Ground-Truth State](https://arxiv.org/pdf/1905.07866.pdf) :+1: 
   
   relabeling the original goal with the achieved goal to obtain positive rewards  
   
@@ -1221,9 +1233,9 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   the gap between LfD and LfO actually lies in the disagreement of inverse dynamics models between the imitator and the expert, if following the modeling approach of GAIL.  ifo  IDDM 
   
-  :curly_loop: [Off-Policy Imitation Learning from Observations](https://arxiv.org/pdf/2102.13185.pdf) :volcano: :sweat_drops:  ​ ​
+  :curly_loop: [Off-Policy Imitation Learning from Observations](https://arxiv.org/pdf/2102.13185.pdf) :volcano: :sweat_drops: :fire:  :boom:  ​
   
-  OPOLO (Off POlicy Learning from Observations)! 
+  OPOLO (Off POlicy Learning from Observations)!  ifo // lfo  // ope // mode-covering (Forward Distribution Matching) // mode-seeking // dice // LfD // LfO 
   
   
 
