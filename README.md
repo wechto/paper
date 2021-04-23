@@ -852,10 +852,6 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   :curly_loop: [OPAL: OFFLINE PRIMITIVE DISCOVERY FOR ACCELERATING OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.13611.pdf) :boom:  when presented with offline data composed of a variety of behaviors, an effective way to leverage this data is to extract a continuous space of recurring and temporally extended primitive behaviors before using these primitives for downstream task learning. OFFLINE unsupervised RL. 
 
-  :curly_loop: [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2006.04779.pdf) :+1: :fire: :volcano: :sweat_drops:  ​ ​
-
-  conservative Q-learning (CQL), which aims to address these limitations by learning a conservative Q-function such that the expected value of a policy under this Q-function lower-bounds its true value. 
-
   :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :+1: :volcano:  :boom: 
 
   :curly_loop: [BENCHMARKS FOR DEEP OFF-POLICY EVALUATION](https://openreview.net/pdf?id=kWSeGEeHvF8) :+1: 
@@ -873,6 +869,18 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction](https://arxiv.org/pdf/1906.00949.pdf) :fire: :boom: :droplet:  ​
 
   We identify bootstrapping error as a key source of instability in current methods. Bootstrapping error is due to bootstrapping from actions that lie outside of the training data distribution, and it accumulates via the Bellman backup operator.  
+
+  :curly_loop: [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2006.04779.pdf) :+1: :fire: :volcano: :sweat_drops:  ​ ​
+
+  conservative Q-learning (CQL), which aims to address these limitations by learning a conservative Q-function such that the expected value of a policy under this Q-function lower-bounds its true value. 
+
+  :curly_loop: [S4RL: Surprisingly Simple Self-Supervision for Offline Reinforcement Learning](https://arxiv.org/pdf/2103.06326.pdf) :no_mouth: 
+
+   utilizes data augmentations from states to learn value functions that are better at generalizing and extrapolating when deployed in the environment. 
+
+  
+
+   ​
 
 +    
 
@@ -1105,9 +1113,17 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   Our approach is based on estimating a ratio that corrects for the discrepancy between the stationary and empirical distributions, derived from fundamental properties of the stationary distribution, and exploiting constraint reformulations based on variational divergence minimization. 
   
-  :curly_loop: [GradientDICE: Rethinking Generalized Offline Estimation of Stationary Values](http://proceedings.mlr.press/v119/zhang20r/zhang20r.pdf) 
+  :curly_loop: [GradientDICE: Rethinking Generalized Offline Estimation of Stationary Values](http://proceedings.mlr.press/v119/zhang20r/zhang20r.pdf) :confused:  ​
   
+  :curly_loop: [Breaking the Curse of Horizon: Infinite-Horizon Off-Policy Estimation](https://papers.nips.cc/paper/2018/file/dda04f9d634145a9c68d5dfe53b21272-Paper.pdf) :+1: :fire: :droplet:  ​
   
+  The key idea is to apply importance sampling on the average visitation distribution of single steps of state-action pairs, instead of the much higher dimensional distribution of whole trajectories.   
+  
+  :curly_loop: [Off-Policy Evaluation via the Regularized Lagrangian](https://arxiv.org/pdf/2007.03438.pdf) :fire: :confused: :droplet:  ​
+  
+  we unify these estimators (DICE) as regularized Lagrangians of the same linear program. 
+  
+  :curly_loop: [Minimax Weight and Q-Function Learning for Off-Policy Evaluation](http://proceedings.mlr.press/v119/uehara20a/uehara20a.pdf) :fire: :droplet:  ​ ​
   
   :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
   
@@ -1124,6 +1140,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Taylor Expansion Policy Optimization](http://proceedings.mlr.press/v119/tang20d/tang20d.pdf) :+1: :boom: :volcano: :droplet:  ​
   
   a policy optimization formalism that generalizes prior work (e.g., TRPO) as a firstorder special case. We also show that Taylor expansions intimately relate to off-policy evaluation. 
+  
+  
   
   
   
@@ -1213,9 +1231,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [Strictly Batch Imitation Learning by Energy-based Distribution Matching](https://proceedings.neurips.cc//paper/2020/file/524f141e189d2a00968c3d48cadd4159-Paper.pdf) :fire: :boom: :sweat_drops:  ​
   
-   ​By identifying parameterizations of the (discriminative) model of a policy
-  with the (generative) energy function for state distributions, EDM yields a simple
-  but effective solution that equivalently minimizes a divergence between the occupancy measure for the demonstrator and a model thereof for the imitator. 
+   ​By identifying parameterizations of the (discriminative) model of a policy with the (generative) energy function for state distributions, EDM yields a simple but effective solution that equivalently minimizes a divergence between the occupancy measure for the demonstrator and a model thereof for the imitator. 
   
   :curly_loop: [SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/pdf/1905.11108.pdf) :+1: :fire: :volcano:  ​
   
@@ -1423,9 +1439,9 @@ MIT: [Bhairav Mehta](https://scholar.google.com/citations?hl=en&user=uPtOmHcAAAA
 
 Caltech: [Joseph Marino](https://joelouismarino.github.io/), [Yisong Yue](https://scholar.google.com/citations?hl=en&user=tEk4qo8AAAAJ&view_op=list_works&sortby=pubdate) [Homepage](http://www.yisongyue.com/about.php), 
 
-DeepMind: [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), [Yee Whye Teh](https://scholar.google.com/citations?user=y-nUzMwAAAAJ&hl=en) [[Homepage]](https://www.stats.ox.ac.uk/~teh/), [Alexandre Galashov](https://scholar.google.com/citations?user=kIpoNtcAAAAJ&hl=en&oi=sra), [Leonard Hasenclever](https://leonard-hasenclever.github.io/) [[GS]](https://scholar.google.com/citations?user=dD-3S4QAAAAJ&hl=en&oi=sra), [Siddhant M. Jayakumar](https://scholar.google.com/citations?user=rJUAY8QAAAAJ&hl=en&oi=sra), [Zhongwen Xu](https://scholar.google.com/citations?hl=en&user=T4xuHn8AAAAJ&view_op=list_works&sortby=pubdate), [Markus Wulfmeier](https://scholar.google.de/citations?hl=en&user=YCO3WQsAAAAJ&view_op=list_works&sortby=pubdate) [[HomePage]](https://markusrw.github.io/), [Wojciech Zaremba](https://scholar.google.com/citations?hl=en&user=XCZpOcAAAAAJ&view_op=list_works&sortby=pubdate), 
+DeepMind: [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), [Yee Whye Teh](https://scholar.google.com/citations?user=y-nUzMwAAAAJ&hl=en) [[Homepage]](https://www.stats.ox.ac.uk/~teh/), [Alexandre Galashov](https://scholar.google.com/citations?user=kIpoNtcAAAAJ&hl=en&oi=sra), [Leonard Hasenclever](https://leonard-hasenclever.github.io/) [[GS]](https://scholar.google.com/citations?user=dD-3S4QAAAAJ&hl=en&oi=sra), [Siddhant M. Jayakumar](https://scholar.google.com/citations?user=rJUAY8QAAAAJ&hl=en&oi=sra), [Zhongwen Xu](https://scholar.google.com/citations?hl=en&user=T4xuHn8AAAAJ&view_op=list_works&sortby=pubdate), [Markus Wulfmeier](https://scholar.google.de/citations?hl=en&user=YCO3WQsAAAAJ&view_op=list_works&sortby=pubdate) [[HomePage]](https://markusrw.github.io/), [Wojciech Zaremba](https://scholar.google.com/citations?hl=en&user=XCZpOcAAAAAJ&view_op=list_works&sortby=pubdate), [Aviral Kumar](https://scholar.google.ca/citations?hl=en&user=zBUwaGkAAAAJ&sortby=pubdate&view_op=list_works&citft=1&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F5E6ErpTneaGZx0cFbO3J7y-pEg7TpQXU2LTHXXoDUX79vsrOzPiGg55PiqYlz0GVVk5kJT8orQHvsGwW5WF7RSg-9ryv5Xo-L0rpHKJOuBiuL-dfE), 
 
-Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAAAJ&view_op=list_works&sortby=pubdate), [Danijar Hafner](https://scholar.google.de/citations?hl=en&user=VINmGpYAAAAJ&view_op=list_works&sortby=pubdate) [[Homepage]](https://danijar.com/), [Ofir Nachum](https://scholar.google.com/citations?hl=en&user=C-ZlBWMAAAAJ&sortby=pubdate&view_op=list_works&citft=1&citft=3&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F6bB1Pjv8yoTSFnbtB3GJE8dXTxX4wK1GnOvBUvWhOt8ZBNxojCh223i5_AvQ347yNG-MLSVENT3s-8UCe4DIDgvLNNG8kvQNxMjH7_VCrX6-P0FVQ), [Yinlam Chow](https://scholar.google.com/citations?hl=en&user=BFlpS-8AAAAJ&sortby=pubdate&view_op=list_works&citft=1&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F7Ht8XHXMlvXRq2vMXdWh8tAT298ToP-ONtMyacd1uEqMWgiWBqT9SRimdl-c-xcemDY324kkrnfR9nfDbaq8sso-KZ0A), 
+Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAAAJ&view_op=list_works&sortby=pubdate), [Danijar Hafner](https://scholar.google.de/citations?hl=en&user=VINmGpYAAAAJ&view_op=list_works&sortby=pubdate) [[Homepage]](https://danijar.com/), [Ofir Nachum](https://scholar.google.com/citations?hl=en&user=C-ZlBWMAAAAJ&sortby=pubdate&view_op=list_works&citft=1&citft=3&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F6bB1Pjv8yoTSFnbtB3GJE8dXTxX4wK1GnOvBUvWhOt8ZBNxojCh223i5_AvQ347yNG-MLSVENT3s-8UCe4DIDgvLNNG8kvQNxMjH7_VCrX6-P0FVQ), [Yinlam Chow](https://scholar.google.com/citations?hl=en&user=BFlpS-8AAAAJ&sortby=pubdate&view_op=list_works&citft=1&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F7Ht8XHXMlvXRq2vMXdWh8tAT298ToP-ONtMyacd1uEqMWgiWBqT9SRimdl-c-xcemDY324kkrnfR9nfDbaq8sso-KZ0A), [Shixiang Shane Gu](https://scholar.google.com/citations?hl=en&user=B8wslVsAAAAJ&view_op=list_works&sortby=pubdate), 
 
 Montreal: [Anirudh Goyal](https://scholar.google.com/citations?hl=en&user=krrh6OUAAAAJ&view_op=list_works&sortby=pubdate) [Homepage](https://anirudh9119.github.io/), 
 
