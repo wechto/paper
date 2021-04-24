@@ -1131,6 +1131,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   we derive the minimax value intervals by slightly altering the derivation of two recent methods [1], one of “weight-learning” style (Sec. 4.1) and one of “value-learning” style (Sec. 4.2), and show that under certain conditions, they merge into a single unified value interval whose validity only relies on either Q or W being well-specified (Sec. 4.3).  
   
+  :curly_loop: [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/pdf/2001.01866.pdf) 
+  
   :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
   
   Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. 
