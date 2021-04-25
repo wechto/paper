@@ -1133,6 +1133,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/pdf/2001.01866.pdf) 
   
+  Policy Evaluation: LP form of Q ---> policy evaluation via largrangian ---> change the problem before applying duality (constant function, f-divergence, fenchel-rockafellar duality); Policy Optimization: 
+  
   :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
   
   Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. 
@@ -1410,6 +1412,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 ### Others 
 
 + Gaussian Precess, Kernel Method, [EM](https://zhuanlan.zhihu.com/p/54823479), [Conditional Neural Process](https://zhuanlan.zhihu.com/p/142260457), [Neural Process](https://zhuanlan.zhihu.com/p/70226367),  (Deep Mind, ICML2018) :+1: ​
++ [Weak Duality](https://people.eecs.berkeley.edu/~elghaoui/Teaching/EE227A/lecture7.pdf), 
 + [Total variation distance](http://people.csail.mit.edu/jayadev/teaching/ece6980f16/scribing/26-aug-16.pdf), 
 + [Ising model](https://zhuanlan.zhihu.com/p/163706800), Gibbs distribution, [VAEBM](https://openreview.net/pdf?id=5m3SEczOV8L), 
 + [f-GAN](https://kexue.fm/archives/5977), [GAN-OP](https://zhuanlan.zhihu.com/p/50488424), [ODE: GAN](https://zhuanlan.zhihu.com/p/65953336), 
