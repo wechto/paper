@@ -1131,9 +1131,9 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   we derive the minimax value intervals by slightly altering the derivation of two recent methods [1], one of “weight-learning” style (Sec. 4.1) and one of “value-learning” style (Sec. 4.2), and show that under certain conditions, they merge into a single unified value interval whose validity only relies on either Q or W being well-specified (Sec. 4.3).  
   
-  :curly_loop: [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/pdf/2001.01866.pdf) 
+  :curly_loop: [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/pdf/2001.01866.pdf) :fire: :volcano: :droplet:  ​ ​ ​
   
-  *Policy Evaluation*: LP form of Q ---> policy evaluation via largrangian ---> change the problem before applying duality (constant function, f-divergence, fenchel-rockafellar duality);  *Policy Optimization*: policy gradient ---> offline policy gradient via the lagrangian ---> fenchel-rockafellar duality for the regularized optimization (regularization with the kl-d) ---> imitation learning;  *RL with the LP form of V*: 
+  *Policy Evaluation*: LP form of Q ---> policy evaluation via largrangian ---> change the problem before applying duality (constant function, f-divergence, fenchel-rockafellar duality);  *Policy Optimization*: policy gradient ---> offline policy gradient via the lagrangian ---> fenchel-rockafellar duality for the regularized optimization (regularization with the kl-d) ---> imitation learning;  *RL with the LP form of V*: max-likelihood policy learning ---> policy evaluation with the V-lp; *Undiscounted Settings*
   
   :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
   
