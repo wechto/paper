@@ -878,6 +878,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
    utilizes data augmentations from states to learn value functions that are better at generalizing and extrapolating when deployed in the environment. 
 
+  :curly_loop: [Actionable Models: Unsupervised Offline Reinforcement Learning of Robotic Skills](https://arxiv.org/pdf/2104.07749.pdf) :+1: :fire: :boom: 
+
+  learning a functional understanding of the environment by learning to reach any goal state in a given dataset. We employ goal-conditioned Qlearning with hindsight relabeling and develop several techniques that enable training in a particularly challenging offline setting. 
+
   
 
    ​
