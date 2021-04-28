@@ -988,11 +988,15 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   two phase approach that learns a disentangled representation, and then uses it to guide exploration, propose goals, and inform a distance metric. 
   
+  :curly_loop: [Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classification](https://arxiv.org/pdf/2103.12656.pdf) :volcano: :boom: 
   
+  we derive a method based on recursive classification that eschews auxiliary reward functions and instead directly learns a value function from transitions and successful outcomes. 
   
-   ​
+  :curly_loop: [Outcome-Driven Reinforcement Learning via Variational Inference](https://arxiv.org/pdf/2104.10190.pdf) :+1: :fire: :droplet: 
   
-   ​
+  by framing the problem of achieving desired outcomes as variational inference, we can derive an off-policy RL algorithm, a reward function learnable from environment interactions, and a novel Bellman backup that contains a state–action dependent dynamic discount factor for the reward and bootstrap. 
+  
+   ​ ​ ​
   
   
 
@@ -1115,10 +1119,6 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   Incorporation of previous rollouts via importance sampling greatly improves data-efficiency, whilst stochastic optimization schemes facilitate the escape from local optima.  
 
-  :curly_loop: [Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classification](https://arxiv.org/pdf/2103.12656.pdf) :volcano: :boom: 
-  
-  we derive a method based on recursive classification that eschews auxiliary reward functions and instead directly learns a value function from transitions and successful outcomes. 
-  
   :curly_loop: [DualDICE: Behavior-Agnostic Estimation of Discounted Stationary Distribution Corrections](https://arxiv.org/pdf/1906.04733.pdf) :fire: :volcano: :boom: 
   
   Off-Policy Policy Evaluation (OPE) --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
@@ -1168,6 +1168,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Taylor Expansion Policy Optimization](http://proceedings.mlr.press/v119/tang20d/tang20d.pdf) :+1: :boom: :volcano: :droplet:  ​
   
   a policy optimization formalism that generalizes prior work (e.g., TRPO) as a firstorder special case. We also show that Taylor expansions intimately relate to off-policy evaluation. 
+  
+  :curly_loop: [Policy Information Capacity: Information-Theoretic Measure for Task Complexity in Deep Reinforcement Learning](https://arxiv.org/pdf/2103.12726.pdf) :+1:  ​
+  
+  Policy Information Capacity: Information-Theoretic Measure for Task Complexity in Deep Reinforcement Learning. 
   
   
   
