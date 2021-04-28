@@ -177,7 +177,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
   we maximize the mutual information between the latent variables and the state changes. 
   
-+ learning representation
++ learning representation 
 
   :curly_loop: [LEARNING SUBGOAL REPRESENTATIONS WITH SLOW DYNAMICS](https://openreview.net/pdf?id=wxRwhSdORKG) :+1: :droplet: :fire: ​​  ​ ​
 
@@ -542,7 +542,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 <a name="anchor-disrl"></a>   
 
-+ Distritutional RL [Hao Liang, CUHK](https://rlseminar.github.io/2019/03/11/hao.html)  [slide](https://rlseminar.github.io/static/files/RL_seminars2019-0311hao_distributional_final.pdf) :sweat_drops: :sweat_drops:  ​ ​
++ Distributional RL [Hao Liang, CUHK](https://rlseminar.github.io/2019/03/11/hao.html)  [slide](https://rlseminar.github.io/static/files/RL_seminars2019-0311hao_distributional_final.pdf) :sweat_drops: :sweat_drops:  ​ ​
 
   :curly_loop: C51: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/pdf/1707.06887.pdf) :sweat_drops:  ​
   
@@ -781,6 +781,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [DEEP REINFORCEMENT LEARNING WITH CAUSALITYBASED INTRINSIC REWARD](https://openreview.net/pdf?id=30I4Azqc_oP) :+1: 
 
   The proposed algorithm learns a graph to encode the environmental structure by calculating Average Causal Effect (ACE) between different categories of entities, and an intrinsic reward is given to encourage the agent to interact more with entities belonging to top-ranked categories, which significantly boosts policy learning. 
+  
+  :curly_loop: [Causal Confusion in Imitation Learning](https://arxiv.org/pdf/1905.11979.pdf) :+1: :droplet: 
+  
+  propose a solution to combat it through targeted interventions—either environment interaction or expert queries—to determine the correct causal model. 
 
 
 
@@ -884,6 +888,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   
 
+  
+
    ​
 
 +    
@@ -977,6 +983,14 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [LEARNING WHAT TO DO BY SIMULATING THE PAST](https://openreview.net/pdf?id=kBVJ2NtiY-) :+1:  ​
   
   we propose the Deep Reward Learning by Simulating the Past (Deep RLSP) algorithm. 
+  
+  :curly_loop: [Weakly-Supervised Reinforcement Learning for Controllable Behavior](https://arxiv.org/pdf/2004.02860.pdf) :+1: 
+  
+  two phase approach that learns a disentangled representation, and then uses it to guide exploration, propose goals, and inform a distance metric. 
+  
+  
+  
+   ​
   
    ​
   
@@ -1191,9 +1205,9 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   Our method simultaneously learns empowerment through variational information maximization along with the reward and policy under the adversarial learning formulation.  
 
-  :curly_loop: [A Divergence Minimization Perspective on Imitation Learning Methods](https://arxiv.org/pdf/1911.02256.pdf) :sweat_drops:  ​
+  :curly_loop: [A Divergence Minimization Perspective on Imitation Learning Methods](http://proceedings.mlr.press/v100/ghasemipour20a/ghasemipour20a.pdf) :sweat_drops: :+1: :volcano:  ​ ​
 
-  Imitation Learning, State-Marginal Matching 
+  State-Marginal Matching. we present a unified probabilistic perspective on IL algorithms based on divergence minimization. 
 
   :curly_loop: [f-IRL: Inverse Reinforcement Learning via State Marginal Matching](https://arxiv.org/pdf/2011.04709.pdf) :sweat_drops: 
 
