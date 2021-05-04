@@ -1409,6 +1409,14 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization](https://papers.nips.cc/paper/2016/file/cedebb6e872f539bef8c3f919874e9d7-Paper.pdf) :+1: :fire:  ​ ​
   
+  :curly_loop: [On Symmetric Losses for Learning from Corrupted Labels](https://arxiv.org/pdf/1901.09314.pdf) :fire: :droplet: 
+  
+   using a symmetric loss is advantageous in the balanced error rate (BER) minimization and area under the receiver operating characteristic curve (AUC) maximization from corrupted labels. 
+  
+  :curly_loop: [A Symmetric Loss Perspective of Reliable Machine Learning](https://arxiv.org/pdf/2101.01366.pdf)
+  
+   ​ ​
+  
    ​ ​
 
 
