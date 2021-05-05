@@ -1381,7 +1381,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   :curly_loop: [Training Products of Experts by Minimizing Contrastive Divergence](http://www.cs.toronto.edu/~fritz/absps/tr00-004.pdf) :fire: :+1:    [Notes](https://www.robots.ox.ac.uk/~ojw/files/NotesOnCD.pdf) :+1:  ​
 
-  C: contrastive = perceivable difference(s)
+  C: contrastive = perceivable difference(s) 
 
   D: divergence = general trend of such differences (over epochs)
 
@@ -1397,9 +1397,17 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   we argue instead for the use of neural generative models to characterize the worst-case distribution, allowing for more flexible and problem-specific selection of *the uncertainty set*. 
   
-  :curly_loop: [Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning](https://arxiv.org/pdf/1908.08729.pdf)
+  :curly_loop: [Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning](https://arxiv.org/pdf/1908.08729.pdf) 
 
-+ others
++ Distribution shift; Robust; 
+
+  :curly_loop: [Rethinking Importance Weighting for Deep Learning under Distribution Shift](https://arxiv.org/pdf/2006.04662.pdf) :confused:  ​
+
+  :curly_loop: [Variational Inference based on Robust Divergences](http://proceedings.mlr.press/v84/futami18a/futami18a.pdf) :+1: :droplet: 
+
+  Maximum Likelihood Estimation and Its Robust Variants. density power divergence; the β-divergence. γ-divergence; 
+
++ others 
 
   :curly_loop: [Structured Prediction with Partial Labelling through the Infimum Loss](http://proceedings.mlr.press/v119/cabannnes20a/cabannnes20a.pdf) :+1: :droplet:  ​ ​
   
@@ -1413,7 +1421,9 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
    using a symmetric loss is advantageous in the balanced error rate (BER) minimization and area under the receiver operating characteristic curve (AUC) maximization from corrupted labels. 
   
-  :curly_loop: [A Symmetric Loss Perspective of Reliable Machine Learning](https://arxiv.org/pdf/2101.01366.pdf)
+  :curly_loop: [A Symmetric Loss Perspective of Reliable Machine Learning](https://arxiv.org/pdf/2101.01366.pdf) :+1: :droplet: :fire: ​
+  
+  a symmetric loss can yield robust classification from corrupted labels in balanced error rate (BER) minimization and area under the receiver operating characteristic curve (AUC) maximization. 
   
    ​ ​
   
