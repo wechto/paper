@@ -996,6 +996,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   by framing the problem of achieving desired outcomes as variational inference, we can derive an off-policy RL algorithm, a reward function learnable from environment interactions, and a novel Bellman backup that contains a state–action dependent dynamic discount factor for the reward and bootstrap. 
   
+  :curly_loop: [Discovering Diverse Solutions in Deep Reinforcement Learning](https://arxiv.org/pdf/2103.07084.pdf) :+1:  ​
+  
+  learn infinitely many solutions by training a policy conditioned on a continuous or discrete low-dimensional latent variable. 
+  
    ​ ​ ​
   
   
@@ -1294,6 +1298,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Robust Imitation Learning from Noisy Demonstrations](https://arxiv.org/pdf/2010.10181.pdf) :fire:  :volcano: 
   
   In this paper, we first theoretically show that robust imitation learning can be achieved by optimizing a classification risk with a symmetric loss. Based on this theoretical finding, we then propose a new imitation learning method that optimizes the classification risk by effectively combining pseudo-labeling with co-training. 
+  
+  :curly_loop: [Imitation Learning from Imperfect Demonstration](http://proceedings.mlr.press/v97/wu19a/wu19a.pdf) :fire: :volcano: :+1:  ​
+  
+  a novel approach that utilizes confidence scores, which describe the quality of demonstrations. two-step importance weighting imitation learning (2IWIL) and generative adversarial imitation learning with imperfect demonstration and confidence (IC-GAIL), based on the idea of reweighting. 
+  
+   ​
 
 
 
