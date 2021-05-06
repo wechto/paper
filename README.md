@@ -145,7 +145,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
   feature representations and relation measure. 
 
-+ latent models
++ latent models 
 
   :curly_loop: [MELD: Meta-Reinforcement Learning from Images via Latent State Models](https://arxiv.org/pdf/2010.13957.pdf) :+1: :+1:  ​ ​
 
@@ -838,6 +838,22 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   Prior experience on separate but related tasks help learn representations of the state which are effective at predicting instantaneous rewards. 
   
+  :curly_loop: [Self-Imitation Learning](http://proceedings.mlr.press/v80/oh18b/oh18b.pdf) [reward shaping] :+1: :fire:  
+  
+  exploiting past good experiences can indirectly drive deep exploration.  we consider exploiting what the agent has experienced, but has not yet learned. Related work: Exploration; Episodic control; Experience replay; Experience replay for actor-critic; Connection between policy gradient and Q-learning; Learning from imperfect demonstrations.  
+  
+  :curly_loop: [Generative Adversarial Self-Imitation Learning](https://arxiv.org/pdf/1812.00950.pdf)  [reward shaping] :fire: ​
+  
+  GASIL focuses on reproducing past good trajectories, which can potentially make long-term credit assignment easier when rewards are sparse and delayed. 
+  
+  :curly_loop: [Diversity Actor-Critic: Sample-Aware Entropy Regularization for Sample-Efficient Exploration](https://arxiv.org/pdf/2006.01419.pdf) :fire: :droplet: 
+  
+  To take advantage of the previous sample distribution from the replay buffer for sample-efficient exploration, we propose sample-aware entropy regularization which maximizes the entropy of weighted sum of the policy action distribution and the sample action distribution from the replay buf. 
+  
+  
+  
+   ​
+  
   
 
 <a name="anchor-offline "></a> 
@@ -1227,6 +1243,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   
 
+  
+
    ​ 
 
   :curly_loop: [UNDERSTANDING THE RELATION BETWEEN MAXIMUM-ENTROPY INVERSE REINFORCEMENT LEARNING AND BEHAVIOUR CLONING](https://openreview.net/pdf?id=rkeXrIIt_4) 
@@ -1258,35 +1276,35 @@ MMI can be problematic because it picks up spurious correlations between the inp
   From a high-level perspective, in imitation from observation, the goal is to enable the agent to extract what the task is by observing some state sequences.  GAIfO 
 
   :curly_loop: [An Imitation from Observation Approach to Transfer Learning with Dynamics Mismatch](https://papers.nips.cc/paper/2020/file/28f248e9279ac845995c4e9f8af35c2b-Paper.pdf) :+1: :fire: :volcano:  ​
-  
+
   learning the grounded action transformation can be seen as an IfO problem; GARAT: learn an action transformation policy for transfer learning with dynamics mismatch.     we focus on the paradigm of simulator grounding, which modifies the source environment’s dynamics to more closely match the target environment dynamics using a relatively small amount of target environment data. 
 
   :curly_loop: [STATE ALIGNMENT-BASED IMITATION LEARNING](https://openreview.net/pdf?id=rylrdxHFDr) :+1: :fire:  ​
-  
+
   Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. ifo 
-  
+
   :curly_loop: [Strictly Batch Imitation Learning by Energy-based Distribution Matching](https://proceedings.neurips.cc//paper/2020/file/524f141e189d2a00968c3d48cadd4159-Paper.pdf) :fire: :boom: :sweat_drops:  ​
-  
+
    ​By identifying parameterizations of the (discriminative) model of a policy with the (generative) energy function for state distributions, EDM yields a simple but effective solution that equivalently minimizes a divergence between the occupancy measure for the demonstrator and a model thereof for the imitator. 
-  
+
   :curly_loop: [SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/pdf/1905.11108.pdf) :+1: :fire: :volcano:  ​
-  
+
   SQIL is equivalent to a variant of behavioral cloning (BC) that uses regularization to overcome state distribution shift. 
-  
+
   :curly_loop: [Boosted and Reward-regularized Classification for Apprenticeship Learning](https://www.cristal.univ-lille.fr/~pietquin/pdf/AAMAS_2014_BPMGOP.pdf) :fire:  ​ ​
-  
+
   MultiClass Classification and the Large Margin Approach. 
-  
+
   :curly_loop: [IMITATION LEARNING VIA OFF-POLICY DISTRIBUTION MATCHING](https://arxiv.org/pdf/1912.05032.pdf) :+1: :fire: :boom:  :volcano:  ​
-  
+
   These prior distribution matching approaches possess two limitations (On-policy; Separate RL optimization).  ---> OFF-POLICY FORMULATION OF THE KL-DIVERGENCE. ---> VALUEDICE: IMITATION LEARNING WITH IMPLICIT REWARDS. (OPE) 
-  
+
   :curly_loop: [Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement](https://papers.nips.cc/paper/2019/file/ed3d2c21991e3bef5e069713af9fa6ca-Paper.pdf) :+1: :fire: :boom:  ​
-  
+
   the gap between LfD and LfO actually lies in the disagreement of inverse dynamics models between the imitator and the expert, if following the modeling approach of GAIL.  ifo  IDDM 
-  
+
   :curly_loop: [Off-Policy Imitation Learning from Observations](https://arxiv.org/pdf/2102.13185.pdf) :volcano: :sweat_drops: :fire:  :boom:  ​
-  
+
   OPOLO (Off POlicy Learning from Observations)!  ifo // lfo  // ope // mode-covering (Forward Distribution Matching) // mode-seeking // dice // LfD // LfO  ​
 
 + Adding Noise 
@@ -1323,6 +1341,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [CURIOUS: Intrinsically Motivated Modular Multi-Goal Reinforcement Learning](https://arxiv.org/pdf/1810.06284.pdf) :+1:  ​
   
   This paper proposes CURIOUS, an algorithm that leverages 1) a modular Universal Value Function Approximator with hindsight learning to achieve a diversity of goals of different kinds within a unique policy and 2) an automated curriculum learning mechanism that biases the attention of the agent towards goals maximizing the absolute learning progress.  
+  
+  :curly_loop: [Hindsight Generative Adversarial Imitation Learning](https://arxiv.org/pdf/1903.07854.pdf) :fire: 
+  
+  achieving imitation learning satisfying no need of demonstrations.  [see self-imitation learning] 
+  
+   ​
   
 + Imitation Learning (See Upper) 
 
@@ -1435,7 +1459,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   a symmetric loss can yield robust classification from corrupted labels in balanced error rate (BER) minimization and area under the receiver operating characteristic curve (AUC) maximization. 
   
-   ​ ​
+   ​
   
    ​ ​
 
