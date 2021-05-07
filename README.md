@@ -838,7 +838,13 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   We view each policy as a state-action visitation distribution and formulate policy optimization as a divergence minimization problem. We show that with Jensen-Shannon divergence, this divergence minimization problem can be reduced into a policy-gradient algorithm with shaped rewards learned from experience replays.  One approach to achieve better exploration in challenging cases like above is to simultaneously learn *multiple diverse policies* and enforce them to explore different parts of the high dimensional space.
   
-  :curly_loop:  [Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016](https://arxiv.org/pdf/1608.04471.pdf) 
+  :curly_loop: [Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016](https://arxiv.org/pdf/1608.04471.pdf) 
+  
+  :curly_loop: [ADVERSARIALLY GUIDED ACTOR-CRITIC](https://arxiv.org/pdf/2102.04376.pdf) :+1: :fire: :fire: 
+  
+  While the adversary mimics the actor by minimizing the KL-divergence between their respective action distributions, the actor, in addition to learning to solve the task, tries to differentiate itself from the adversary predictions. 
+  
+   ​ ​ ​
   
   
   
@@ -1449,6 +1455,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   a symmetric loss can yield robust classification from corrupted labels in balanced error rate (BER) minimization and area under the receiver operating characteristic curve (AUC) maximization. 
   
+  :curly_loop: [Connecting Generative Adversarial Networks and Actor-Critic Methods](https://arxiv.org/pdf/1610.01945.pdf) :+1:  ​
+  
+  GANs can be seen as a modified actor-critic method with blind actors (stateless) in stateless MDPs. 
+  
    ​
   
    ​ ​
@@ -1460,7 +1470,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 
 
-### Conference 
+### Conference  
 
 * ICML2020 [Paers](https://icml.cc/virtual/2020/papers.html?filter=keywords) 
 
