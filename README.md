@@ -192,23 +192,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 + Latent Space Policies for Hierarchical Reinforcement Learning 2018 https://arxiv.org/pdf/1804.02808.pdf  
 
-+ LEARNING SELF-IMITATING DIVERSE POLICIES ICLR2019 https://arxiv.org/pdf/1805.10309.pdf :+1: 
-
-  Although the policy π(a|s) is given as a conditional distribution, its behavior is better characterized by the corresponding state-action visitation distribution ρπ(s, a), which wraps the MDP dynamics and fully decides the expected return via η(π) = Eρπ [r(s, a)]. Therefore, distance metrics on a policy π should be defined with respect to the visitation distribution ρπ. 
-
-  + replay memory may be not useful 
-  + sub-optimal 
-  + stochasticity: 2-armed bandit problem 
-
-  *improving exploration with stein variational gradient* : : : 
-
-  One approach to achieve better exploration in challenging cases like above is to simultaneously learn **multiple diverse policies** and enforce them to explore different parts of the high dimensional space.
-
-  :curly_loop: Self-Imitation Learning ICML2018 https://arxiv.org/pdf/1806.05635.pdf 
-
-  interpreted as **cross entropy loss** (i.e., classification loss for discrete action) with sample weights proportional to the gap between the return and the agent’s value estimate 
-
-  :curly_loop:  [Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016](https://arxiv.org/pdf/1608.04471.pdf) 
++ 
 
 + EPISODIC CURIOSITY THROUGH REACHABILITY [reward design] 
 
@@ -849,6 +833,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Diversity Actor-Critic: Sample-Aware Entropy Regularization for Sample-Efficient Exploration](https://arxiv.org/pdf/2006.01419.pdf) :fire: :droplet: 
   
   To take advantage of the previous sample distribution from the replay buffer for sample-efficient exploration, we propose sample-aware entropy regularization which maximizes the entropy of weighted sum of the policy action distribution and the sample action distribution from the replay buf. 
+  
+  :curly_loop: [LEARNING SELF-IMITATING DIVERSE POLICIES](https://arxiv.org/pdf/1805.10309.pdf) :+1: :fire: :fire:  ​
+  
+  We view each policy as a state-action visitation distribution and formulate policy optimization as a divergence minimization problem. We show that with Jensen-Shannon divergence, this divergence minimization problem can be reduced into a policy-gradient algorithm with shaped rewards learned from experience replays.  One approach to achieve better exploration in challenging cases like above is to simultaneously learn *multiple diverse policies* and enforce them to explore different parts of the high dimensional space.
+  
+  :curly_loop:  [Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016](https://arxiv.org/pdf/1608.04471.pdf) 
   
   
   
