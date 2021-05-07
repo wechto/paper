@@ -1317,6 +1317,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   a novel approach that utilizes confidence scores, which describe the quality of demonstrations. two-step importance weighting imitation learning (2IWIL) and generative adversarial imitation learning with imperfect demonstration and confidence (IC-GAIL), based on the idea of reweighting. 
   
+  :curly_loop: [Variational Imitation Learning with Diverse-quality Demonstrations](http://proceedings.mlr.press/v119/tangkaratt20a/tangkaratt20a.pdf) :fire: :droplet: 
+  
+  We show that simple quality-estimation approaches might fail due to compounding error, and fix this issue by jointly estimating both the quality and reward using a variational approach. 
+  
+   ​ ​
+  
    ​
 
 
