@@ -845,7 +845,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [LEARNING SELF-IMITATING DIVERSE POLICIES](https://arxiv.org/pdf/1805.10309.pdf) :+1: :fire: :fire:  ​
   
-  We view each policy as a state-action visitation distribution and formulate policy optimization as a divergence minimization problem. We show that with Jensen-Shannon divergence, this divergence minimization problem can be reduced into a policy-gradient algorithm with shaped rewards learned from experience replays.  One approach to achieve better exploration in challenging cases like above is to simultaneously learn *multiple diverse policies* and enforce them to explore different parts of the high dimensional space. 
+  We view each policy as a state-action visitation distribution and formulate policy optimization as a divergence minimization problem. We show that with Jensen-Shannon divergence, this divergence minimization problem can be reduced into a policy-gradient algorithm with shaped rewards learned from experience replays.  One approach to achieve better exploration in challenging cases like above is to simultaneously learn *multiple diverse policies* and enforce them to explore different parts of the high dimensional space.  
   
   :curly_loop: [Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016](https://arxiv.org/pdf/1608.04471.pdf) 
   
