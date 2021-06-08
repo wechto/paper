@@ -334,8 +334,6 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
   emphasizes that MaxEnt RL can be viewed as minimizing an KL divergence. 
 
-  :curly_loop: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  ​
-  
   :curly_loop: [Iterative Inference Models](http://bayesiandeeplearning.org/2017/papers/9.pdf)  [Iterative Amortized Inference](http://proceedings.mlr.press/v80/marino18a/marino18a.pdf)  :+1: :+1:  ​ ​
   
   Latent Variable Models & Variational Inference &  Variational Expectation Maximization (EM) &  Inference Models 
@@ -447,7 +445,17 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   
   Invariant Decoupled Advantage ActorCritic. First, IDAAC decouples the optimization of the policy and value function, using separate networks to model them. Second, it introduces an auxiliary loss which encourages the representation to be invariant to task-irrelevant properties of the environment. 
   
-  :curly_loop: 
+  :curly_loop: [Robust Deep Reinforcement Learning against Adversarial Perturbations on State Obs](https://arxiv.org/pdf/2003.08938.pdf) :fire: :volcano: :droplet:  ​ ​
+  
+  We propose the state-adversarial Markov decision process (SA-MDP) to study the fundamental properties of this problem, and develop a theoretically principled policy regularization which can be applied to a large family of DRL algorithms. 
+  
+  :curly_loop: [ROBUST REINFORCEMENT LEARNING ON STATE OBSERVATIONS WITH LEARNED OPTIMAL ADVERSARY](https://arxiv.org/pdf/2101.08452.pdf)  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -548,7 +556,6 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 
 
-
 <a name="anchor-DR"></a>  <a name="anchor-sim2real"></a>  
 
 + DR (Domain Randomization) & sim2real 
@@ -591,6 +598,8 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   
   identifying a hybrid physics simulator to match the simulated \tau to the ones from the target domain, using a learned discriminative loss to address the limitations associated with manual loss design. Our hybrid simulator combines nns and traditional physics simulaton to balance expressiveness and generalizability, and alleviates the need for a carefully selected parameter set in System ID. 
   
+  
+  
    ​
 
 <a name="anchor-transfer"></a>  
@@ -614,7 +623,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   **Related work is good!** :+1: 
 
   + general domain adaption (DA) =  importance weighting + domain-agnostic features 
-  
+
 + DA in RL =  system identification + domain randomization + observation adaptation :+1: 
   + formulates control as a problem of probabilistic inference :droplet: 
 
@@ -844,6 +853,22 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   While the adversary mimics the actor by minimizing the KL-divergence between their respective action distributions, the actor, in addition to learning to solve the task, tries to differentiate itself from the adversary predictions. 
   
+  :curly_loop: [Diversity-Driven Exploration Strategy for Deep Reinforcement Learning](https://arxiv.org/pdf/1802.04564.pdf) :+1: :fire:  ​ ​
+  
+  adding a distance measure regularization to the loss function, 
+  
+  :curly_loop: [Provably Efficient Maximum Entropy Exploration](https://arxiv.org/pdf/1812.02690.pdf) :confused:  ​
+  
+  :curly_loop: [Reward-Free Exploration for Reinforcement Learning](http://proceedings.mlr.press/v119/jin20d/jin20d.pdf) :+1: :fire: :boom: 
+  
+  *How can we efficiently explore an environment without using any reward information?*  In the exploration phase, the agent first collects trajectories from an MDP M without a pre-specified reward function. After exploration, it is tasked with computing near-optimal policies under for M for a collection of given reward functions. 
+  
+  :curly_loop: [Rethinking Exploration for Sample-Efficient Policy Learning](https://arxiv.org/pdf/2101.09458.pdf) 
+  
+  
+  
+   ​ ​ ​
+  
    ​ ​ ​
   
   
@@ -897,6 +922,14 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Actionable Models: Unsupervised Offline Reinforcement Learning of Robotic Skills](https://arxiv.org/pdf/2104.07749.pdf) :+1: :fire: :boom: 
 
   learning a functional understanding of the environment by learning to reach any goal state in a given dataset. We employ goal-conditioned Qlearning with hindsight relabeling and develop several techniques that enable training in a particularly challenging offline setting. 
+
+  :curly_loop: [Behavior Regularized Offline Reinforcement Learning](https://arxiv.org/pdf/1911.11361.pdf) :fire:  :boom: :+1: 
+
+  we introduce a general framework, behavior regularized actor critic (BRAC), to empirically evaluate recently proposed methods as well as a number of simple baselines across a variety of offline continuous control tasks. 
+
+  
+
+   ​ ​
 
   
 
@@ -1169,6 +1202,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   *Policy Evaluation*: LP form of Q ---> policy evaluation via largrangian ---> change the problem before applying duality (constant function, f-divergence, fenchel-rockafellar duality);  *Policy Optimization*: policy gradient ---> offline policy gradient via the lagrangian ---> fenchel-rockafellar duality for the regularized optimization (regularization with the kl-d) ---> imitation learning;  *RL with the LP form of V*: max-likelihood policy learning ---> policy evaluation with the V-lp; *Undiscounted Settings* 
   
+  :curly_loop: [A Unified View of Entropy-Regularized Markov Decision Processes](https://arxiv.org/pdf/1705.07798.pdf) :fire: :droplet:  ​
+  
+  using the conditional entropy of the joint state-action distributions as regularization yields a dual optimization problem closely resembling the Bellman optimality equations 
+  
+  
+  
   :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
   
   Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. 
@@ -1188,6 +1227,20 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Policy Information Capacity: Information-Theoretic Measure for Task Complexity in Deep Reinforcement Learning](https://arxiv.org/pdf/2103.12726.pdf) :+1:  ​
   
   Policy Information Capacity: Information-Theoretic Measure for Task Complexity in Deep Reinforcement Learning. 
+  
+  :curly_loop: [Deep Reinforcement Learning with Robust and Smooth Policy](http://proceedings.mlr.press/v119/shen20b/shen20b.pdf) :+1:  
+  
+  the policy is trained with smoothness-inducing regularization. Such regularization effectively constrains the search space, and enforces smoothness in the learned policy. 
+  
+  :curly_loop: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  
+  
+  :curly_loop: [Regularized Policies are Reward Robust](http://proceedings.mlr.press/v130/husain21a/husain21a.pdf) :fire: :droplet:  ​
+  
+  we find that the optimal policy found by a regularized objective is precisely an optimal policy of a reinforcement learning problem under a worst-case adversarial reward. 
+  
+  :curly_loop: [Reinforcement Learning as One Big Sequence Modeling Problem](https://people.eecs.berkeley.edu/~janner/trajectory-transformer/files/trajectory-transformer.pdf) :+1: :fire: :droplet:  ​ ​ ​
+  
+  Addressing RL as a sequence modeling problem significantly simplifies a range of design decisions: we no longer require separate behavior policy constraints, as is common in prior work on offline model-free RL, and we no longer require ensembles or other epistemic uncertainty estimators, as is common in prior work on model-based RL. 
   
   
   
