@@ -865,6 +865,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [Rethinking Exploration for Sample-Efficient Policy Learning](https://arxiv.org/pdf/2101.09458.pdf) 
   
+  BBE: bias with finite samples, slow adaptation to decaying bonuses, and lack of optimism on unseen transitions ---> UFO, produces policies that are Unbiased with finite samples, Fast-adapting as the exploration bonus changes, and Optimistic with respect to new transitions. 
+  
+  
+  
+  
+  
   
   
   
