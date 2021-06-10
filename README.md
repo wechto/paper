@@ -1122,6 +1122,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [Optimism is All You Need: Model-Based Imitation Learning From Observation Alone](https://arxiv.org/pdf/2102.10769.pdf) :sweat_drops:  ​
   
+  :curly_loop: [PlanGAN: Model-based Planning With Sparse Rewards and Multiple Goals](https://proceedings.neurips.cc/paper/2020/file/6101903146e4bbf4999c449d78441606-Paper.pdf) :+1: 
+  
+  train an ensemble of conditional generative models (GANs) to generate plausible trajectories that lead the agent from its current state towards a specified goal. We then combine these imagined trajectories into a novel planning algorithm in order to achieve the desired goal as efficiently as possible. 
+  
+   ​
+  
   
   
   
