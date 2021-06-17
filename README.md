@@ -1258,8 +1258,6 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   Addressing RL as a sequence modeling problem significantly simplifies a range of design decisions: we no longer require separate behavior policy constraints, as is common in prior work on offline model-free RL, and we no longer require ensembles or other epistemic uncertainty estimators, as is common in prior work on model-based RL. 
   
-  :curly_loop: [Constrained Policy Optimization](https://arxiv.org/pdf/1705.10528.pdf) 
-  
   :curly_loop: [On-Policy Deep Reinforcement Learning for the Average-Reward Criterion](https://arxiv.org/pdf/2106.07329.pdf) :+1: :fire: 
   
   By addressing the average-reward criterion directly, we then derive a novel bound which depends on the average divergence between the two policies and Kemeny’s constant. 
@@ -1268,7 +1266,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   Firstly, we develop a unified trust region theory with discounted and average criteria. With the average criterion, a novel performance bound within the trust region is derived with the Perturbation Analysis (PA) theory. Secondly, we propose a practical algorithm named Average Policy Optimization (APO), which improves the value estimation with a novel technique named Average Value Constraint. 
   
-  :curly_loop: 
+  :curly_loop: [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) 
   
    ​
   
@@ -1485,6 +1483,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
 <a name="anchor-constrainedrl"></a>  
 
 :o: Constrained RL
+
+:curly_loop: [Constrained Policy Optimization](https://arxiv.org/pdf/1705.10528.pdf) 
 
 + Density constrained
 
