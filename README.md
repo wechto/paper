@@ -1266,7 +1266,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   Firstly, we develop a unified trust region theory with discounted and average criteria. With the average criterion, a novel performance bound within the trust region is derived with the Perturbation Analysis (PA) theory. Secondly, we propose a practical algorithm named Average Policy Optimization (APO), which improves the value estimation with a novel technique named Average Value Constraint. 
   
-  :curly_loop: [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) 
+  :curly_loop: [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) :+1:  :fire: :boom:  ​ ​
   
    ​
   
@@ -1484,7 +1484,11 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 :o: Constrained RL
 
-:curly_loop: [Constrained Policy Optimization](https://arxiv.org/pdf/1705.10528.pdf) 
+:curly_loop: [Constrained Policy Optimization](https://arxiv.org/pdf/1705.10528.pdf) :+1:  :fire:  
+
+We propose Constrained Policy Optimization (CPO), the first general-purpose policy search algorithm for constrained reinforcement learning with guarantees for near-constraint satisfaction at each iteration. 
+
+
 
 + Density constrained
 
