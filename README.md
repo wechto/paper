@@ -1,6 +1,4 @@
-# FIVE  - _ -  
-
-**https://github.com/liuinn/paper**  
+# Reading List    - _ -  
 
 
 
@@ -1268,6 +1266,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) :+1:  :fire: :boom:  ​ ​
   
+  :curly_loop: [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/pdf/1604.06778.pdf) :+1: :fire:  ​ ​
+  
    ​
   
    ​ ​
@@ -1488,6 +1488,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 We propose Constrained Policy Optimization (CPO), the first general-purpose policy search algorithm for constrained reinforcement learning with guarantees for near-constraint satisfaction at each iteration. 
 
+:curly_loop: [Reward Constrained Policy Optimization](https://arxiv.org/pdf/1805.11074.pdf) :+1: :fire:  ​ ​
+
+we present a novel multi-timescale approach for constrained policy optimization, called ‘Reward Constrained Policy Optimization’ (RCPO), which uses an alternative penalty signal to guide the policy towards a constraint satisfying one. 
+
+:curly_loop: [PROJECTION-BASED CONSTRAINED POLICY OPTIMIZATION](https://arxiv.org/pdf/2010.03152.pdf) 
+
 
 
 + Density constrained
@@ -1508,7 +1514,7 @@ We propose Constrained Policy Optimization (CPO), the first general-purpose poli
 
   C: contrastive = perceivable difference(s) 
 
-  D: divergence = general trend of such differences (over epochs)
+  D: divergence = general trend of such differences (over epochs) 
 
   :curly_loop: [A Contrastive Divergence for Combining Variational Inference and MCMC](https://arxiv.org/pdf/1905.04062.pdf) :droplet:  ​
 
