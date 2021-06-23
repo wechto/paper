@@ -449,17 +449,17 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   
   :curly_loop: [ROBUST REINFORCEMENT LEARNING ON STATE OBSERVATIONS WITH LEARNED OPTIMAL ADVERSARY](https://arxiv.org/pdf/2101.08452.pdf)  
   
+  :curly_loop: [Loss is its own Reward: Self-Supervision for Reinforcement Learning](https://arxiv.org/pdf/1612.07307.pdf)  :+1:  :boom:  ​
   
+   To augment reward, we consider a range of selfsupervised tasks that incorporate states, actions, and successors to provide auxiliary losses. 
   
+  :curly_loop: [Unsupervised Learning of Visual 3D Keypoints for Control](https://arxiv.org/pdf/2106.07643.pdf) :+1: :boom: 
   
+  motivation: most of these representations, whether structured or unstructured are learned in a 2D space even though the control tasks are usually performed in a 3D environment. 
   
+  :curly_loop: [Which Mutual-Information Representation Learning Objectives are Sufficient for Control?](https://arxiv.org/pdf/2106.07278.pdf) :+1: :boom: :volcano: 
   
-  
-  
-  
-   ​
-  
-  
+  we formalize the sufficiency of a state representation for learning and representing the optimal policy, and study several popular mutual-information based objectives through this lens.  ​
   
   
 
@@ -855,15 +855,17 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   adding a distance measure regularization to the loss function, 
   
-  :curly_loop: [Provably Efficient Maximum Entropy Exploration](https://arxiv.org/pdf/1812.02690.pdf) :confused:  ​
+  :curly_loop: [Provably Efficient Maximum Entropy Exploration](https://arxiv.org/pdf/1812.02690.pdf) :confused:  
   
   :curly_loop: [Reward-Free Exploration for Reinforcement Learning](http://proceedings.mlr.press/v119/jin20d/jin20d.pdf) :+1: :fire: :boom: 
   
   *How can we efficiently explore an environment without using any reward information?*  In the exploration phase, the agent first collects trajectories from an MDP M without a pre-specified reward function. After exploration, it is tasked with computing near-optimal policies under for M for a collection of given reward functions. 
   
-  :curly_loop: [Rethinking Exploration for Sample-Efficient Policy Learning](https://arxiv.org/pdf/2101.09458.pdf) 
+  :curly_loop: [Rethinking Exploration for Sample-Efficient Policy Learning](https://arxiv.org/pdf/2101.09458.pdf) :+1:  ​
   
   BBE: bias with finite samples, slow adaptation to decaying bonuses, and lack of optimism on unseen transitions ---> UFO, produces policies that are Unbiased with finite samples, Fast-adapting as the exploration bonus changes, and Optimistic with respect to new transitions. 
+  
+  :curly_loop: [Provably Efficient Exploration in Policy Optimization](http://proceedings.mlr.press/v119/cai20d/cai20d.pdf) 
   
   
   
@@ -1122,7 +1124,13 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [PlanGAN: Model-based Planning With Sparse Rewards and Multiple Goals](https://proceedings.neurips.cc/paper/2020/file/6101903146e4bbf4999c449d78441606-Paper.pdf) :+1: 
   
-  train an ensemble of conditional generative models (GANs) to generate plausible trajectories that lead the agent from its current state towards a specified goal. We then combine these imagined trajectories into a novel planning algorithm in order to achieve the desired goal as efficiently as possible. 
+  train an ensemble of conditional generative models (GANs) to generate plausible trajectories that lead the agent from its current state towards a specified goal. We then combine these imagined trajectories into a novel planning algorithm in order to achieve the desired goal as efficiently as possible.  
+  
+  :curly_loop: [MODEL-ENSEMBLE TRUST-REGION POLICY OPTIMIZATION](https://arxiv.org/pdf/1802.10592.pdf) :+1:  
+  
+  we propose to use an ensemble of models to maintain the model uncertainty and regularize the learning process. 
+  
+  
   
    ​
   
@@ -1267,6 +1275,18 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) :+1:  :fire: :boom:  ​ ​
   
   :curly_loop: [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/pdf/1604.06778.pdf) :+1: :fire:  ​ ​
+  
+  :curly_loop: [P3O: Policy-on Policy-off Policy Optimization](http://proceedings.mlr.press/v115/fakoor20a/fakoor20a.pdf) :fire: 
+  
+  This paper develops a simple alg. named P3O that interleaves offpolicy updates with on-policy updates. 
+  
+  
+  
+   ​ ​
+  
+  
+  
+   ​
   
    ​
   
@@ -1492,7 +1512,9 @@ We propose Constrained Policy Optimization (CPO), the first general-purpose poli
 
 we present a novel multi-timescale approach for constrained policy optimization, called ‘Reward Constrained Policy Optimization’ (RCPO), which uses an alternative penalty signal to guide the policy towards a constraint satisfying one. 
 
-:curly_loop: [PROJECTION-BASED CONSTRAINED POLICY OPTIMIZATION](https://arxiv.org/pdf/2010.03152.pdf) 
+:curly_loop: [PROJECTION-BASED CONSTRAINED POLICY OPTIMIZATION](https://arxiv.org/pdf/2010.03152.pdf) :+1: :fire:  ​ ​
+
+the first step performs a local reward improvement update, while the second step reconciles any constraint violation by projecting the policy back onto the constraint set. 
 
 
 
