@@ -869,7 +869,9 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   BBE: bias with finite samples, slow adaptation to decaying bonuses, and lack of optimism on unseen transitions ---> UFO, produces policies that are Unbiased with finite samples, Fast-adapting as the exploration bonus changes, and Optimistic with respect to new transitions. 
   
-  :curly_loop: [Provably Efficient Exploration in Policy Optimization](http://proceedings.mlr.press/v119/cai20d/cai20d.pdf) 
+  :curly_loop: [Provably Efficient Exploration in Policy Optimization](http://proceedings.mlr.press/v119/cai20d/cai20d.pdf) :confused: 
+  
+   design a provably efficient policy optimization algorithm that incorporates exploration. 
   
   
   
@@ -940,6 +942,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Behavior Regularized Offline Reinforcement Learning](https://arxiv.org/pdf/1911.11361.pdf) :fire:  :boom: :+1: 
 
   we introduce a general framework, behavior regularized actor critic (BRAC), to empirically evaluate recently proposed methods as well as a number of simple baselines across a variety of offline continuous control tasks. 
+
+  :curly_loop: [Information-Theoretic Considerations in Batch Reinforcement Learning](http://proceedings.mlr.press/v97/chen19e/chen19e.pdf) 
 
   
 
@@ -1231,6 +1235,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [A Unified View of Entropy-Regularized Markov Decision Processes](https://arxiv.org/pdf/1705.07798.pdf) :fire: :droplet:  ​
   
   using the conditional entropy of the joint state-action distributions as regularization yields a dual optimization problem closely resembling the Bellman optimality equations 
+  
+  :curly_loop: [A Theory of Regularized Markov Decision Processes](https://arxiv.org/pdf/1901.11275.pdf) :+1::volcano: :boom: :droplet:    
+  
+  We have introduced a general theory of regularized MDPs, where the usual Bellman evaluation operator is modified by either a fixed convex function or a Bregman divergence between consecutive policies. We shown how many (variations of) existing algorithms could be derived from this general algorithmic scheme, and also analyzed and discussed the related propagation of errors. 
   
   
   
