@@ -1621,7 +1621,7 @@ the first step performs a local reward improvement update, while the second step
 ### Others 
 
 + Gaussian Precess, Kernel Method, [EM](https://zhuanlan.zhihu.com/p/54823479), [Conditional Neural Process](https://zhuanlan.zhihu.com/p/142260457), [Neural Process](https://zhuanlan.zhihu.com/p/70226367),  (Deep Mind, ICML2018) :+1: ​
-+ [Weak Duality](https://people.eecs.berkeley.edu/~elghaoui/Teaching/EE227A/lecture7.pdf), 
++ [Weak Duality](https://people.eecs.berkeley.edu/~elghaoui/Teaching/EE227A/lecture7.pdf), [Fenchel-Legendre Duality](https://zhuanlan.zhihu.com/p/34236792), [Convex-Optimization](https://glooow1024.github.io/categories/Convex-Optimization/), 
 + [Total variation distance](http://people.csail.mit.edu/jayadev/teaching/ece6980f16/scribing/26-aug-16.pdf), 
 + [Ising model](https://zhuanlan.zhihu.com/p/163706800), Gibbs distribution, [VAEBM](https://openreview.net/pdf?id=5m3SEczOV8L), 
 + [f-GAN](https://kexue.fm/archives/5977), [GAN-OP](https://zhuanlan.zhihu.com/p/50488424), [ODE: GAN](https://zhuanlan.zhihu.com/p/65953336), 
