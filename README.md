@@ -465,6 +465,10 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   
   We provide a unified treatment of state abstraction for Markov decision processes. We study five particular abstraction schemes. 
   
+  :curly_loop: [Learning State Abstractions for Transfer in Continuous Control](https://arxiv.org/pdf/2002.05518.pdf) :fire:  ​
+  
+  Our main contribution is a learning algorithm that abstracts a continuous state-space into a discrete one. We transfer this learned representation to unseen problems to enable effective learning. 
+  
   
 
  ​
@@ -1516,7 +1520,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 :o: Constrained RL
 
-:curly_loop: [Constrained Policy Optimization](https://arxiv.org/pdf/1705.10528.pdf) :+1:  :fire:  
+:curly_loop: [Constrained Policy Optimization](https://arxiv.org/pdf/1705.10528.pdf) :+1:  :fire:  :fire:  ​
 
 We propose Constrained Policy Optimization (CPO), the first general-purpose policy search algorithm for constrained reinforcement learning with guarantees for near-constraint satisfaction at each iteration. 
 
@@ -1527,6 +1531,12 @@ we present a novel multi-timescale approach for constrained policy optimization,
 :curly_loop: [PROJECTION-BASED CONSTRAINED POLICY OPTIMIZATION](https://arxiv.org/pdf/2010.03152.pdf) :+1: :fire:  ​ ​
 
 the first step performs a local reward improvement update, while the second step reconciles any constraint violation by projecting the policy back onto the constraint set. 
+
+:curly_loop: [First Order Constrained Optimization in Policy Space](https://proceedings.neurips.cc//paper/2020/file/af5d5ef24881f3c3049a7b9bfe74d58b-Paper.pdf) :fire: :+1:  
+
+Using data generated from the current policy, FOCOPS first finds the optimal update policy by solving a constrained optimization problem in the nonparameterized policy space. FOCOPS then projects the update policy back into the parametric policy space. 
+
+ ​
 
 
 
@@ -1599,21 +1609,6 @@ the first step performs a local reward improvement update, while the second step
    ​ ​
 
 
-
-
-
-
-
-
-### Conference  
-
-* ICML2020 [Paers](https://icml.cc/virtual/2020/papers.html?filter=keywords) 
-
-  [Inductive Biases, Invariances and Generalization in RL](https://biases-invariances-generalization.github.io/papers.html) [VIDEO](https://www.youtube.com/watch?v=e3EJzOyJZE4&ab_channel=Mila-QuebecArtificialIntelligenceInstitute) 
-
-* O 
-
-  [2020 Virtual Conference on Reinforcement Learning for Real Life](https://sites.google.com/view/rl4reallife/home) 
 
 
 
