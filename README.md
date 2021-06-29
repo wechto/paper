@@ -537,6 +537,10 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   :curly_loop: C51: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/pdf/1707.06887.pdf) :sweat_drops:  ​
   
   :curly_loop: [CS598 - Statistical rl - NanJiang](https://www.bilibili.com/video/av929950486) :sweat_drops: ​
+  
+  :curly_loop: [Information-Theoretic Considerations in Batch Reinforcement Learning](http://proceedings.mlr.press/v97/chen19e/chen19e.pdf) :volcano: :confused: :sweat_drops:   
+  
+   
 
 
 
@@ -939,7 +943,9 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   we introduce a general framework, behavior regularized actor critic (BRAC), to empirically evaluate recently proposed methods as well as a number of simple baselines across a variety of offline continuous control tasks. 
 
-  :curly_loop: [Information-Theoretic Considerations in Batch Reinforcement Learning](http://proceedings.mlr.press/v97/chen19e/chen19e.pdf) 
+  
+
+  
 
   
 
@@ -1512,7 +1518,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 :o: Constrained RL
 
-:curly_loop: [Constrained Policy Optimization](https://arxiv.org/pdf/1705.10528.pdf) :+1:  :fire:  :fire:  ​
+:curly_loop: [Constrained Policy Optimization](https://arxiv.org/pdf/1705.10528.pdf) :+1:  :fire:  :fire:  :volcano:  ​
 
 We propose Constrained Policy Optimization (CPO), the first general-purpose policy search algorithm for constrained reinforcement learning with guarantees for near-constraint satisfaction at each iteration. 
 
@@ -1527,6 +1533,16 @@ the first step performs a local reward improvement update, while the second step
 :curly_loop: [First Order Constrained Optimization in Policy Space](https://proceedings.neurips.cc//paper/2020/file/af5d5ef24881f3c3049a7b9bfe74d58b-Paper.pdf) :fire: :+1:  
 
 Using data generated from the current policy, FOCOPS first finds the optimal update policy by solving a constrained optimization problem in the nonparameterized policy space. FOCOPS then projects the update policy back into the parametric policy space. 
+
+:curly_loop: [Reinforcement Learning with Convex Constraints](https://arxiv.org/pdf/1906.09323.pdf) :fire: :volcano: :droplet:
+
+we propose an algorithmic scheme that can handle a wide class of constraints in RL tasks, specifically, any constraints that require expected values of some vector measurements (such as the use of an action) to lie in a convex set.  
+
+:curly_loop: [Batch Policy Learning under Constraints](https://arxiv.org/pdf/1903.08738.pdf) :volcano: :droplet:  ​ ​
+
+propose a flexible meta-algorithm that admits any batch reinforcement learning and online learning procedure as subroutines. 
+
+ ​
 
  ​
 
@@ -1609,6 +1625,7 @@ Using data generated from the current policy, FOCOPS first finds the optimal upd
 
 + Gaussian Precess, Kernel Method, [EM](https://zhuanlan.zhihu.com/p/54823479), [Conditional Neural Process](https://zhuanlan.zhihu.com/p/142260457), [Neural Process](https://zhuanlan.zhihu.com/p/70226367),  (Deep Mind, ICML2018) :+1: ​
 + [Weak Duality](https://people.eecs.berkeley.edu/~elghaoui/Teaching/EE227A/lecture7.pdf), [Fenchel-Legendre Duality](https://zhuanlan.zhihu.com/p/34236792), [Convex-Optimization](https://glooow1024.github.io/categories/Convex-Optimization/), 
++ [Online Convex Optimization](https://zhuanlan.zhihu.com/p/346763047), 
 + [Total variation distance](http://people.csail.mit.edu/jayadev/teaching/ece6980f16/scribing/26-aug-16.pdf), 
 + [Ising model](https://zhuanlan.zhihu.com/p/163706800), Gibbs distribution, [VAEBM](https://openreview.net/pdf?id=5m3SEczOV8L), 
 + [f-GAN](https://kexue.fm/archives/5977), [GAN-OP](https://zhuanlan.zhihu.com/p/50488424), [ODE: GAN](https://zhuanlan.zhihu.com/p/65953336), 
