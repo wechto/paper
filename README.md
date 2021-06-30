@@ -1234,13 +1234,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   *Policy Evaluation*: LP form of Q ---> policy evaluation via largrangian ---> change the problem before applying duality (constant function, f-divergence, fenchel-rockafellar duality);  *Policy Optimization*: policy gradient ---> offline policy gradient via the lagrangian ---> fenchel-rockafellar duality for the regularized optimization (regularization with the kl-d) ---> imitation learning;  *RL with the LP form of V*: max-likelihood policy learning ---> policy evaluation with the V-lp; *Undiscounted Settings* 
   
-  :curly_loop: [A Unified View of Entropy-Regularized Markov Decision Processes](https://arxiv.org/pdf/1705.07798.pdf) :fire: :droplet:  ​
   
-  using the conditional entropy of the joint state-action distributions as regularization yields a dual optimization problem closely resembling the Bellman optimality equations 
-  
-  :curly_loop: [A Theory of Regularized Markov Decision Processes](https://arxiv.org/pdf/1901.11275.pdf) :+1::volcano: :boom: :droplet:    
-  
-  We have introduced a general theory of regularized MDPs, where the usual Bellman evaluation operator is modified by either a fixed convex function or a Bregman divergence between consecutive policies. We shown how many (variations of) existing algorithms could be derived from this general algorithmic scheme, and also analyzed and discussed the related propagation of errors. 
   
   
   
@@ -1353,6 +1347,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Offline Imitation Learning with a Misspecified Simulator](https://proceedings.neurips.cc/paper/2020/file/60cb558c40e4f18479664069d9642d5a-Paper.pdf) :+1:  ​
 
   learn pi in the condition of a few expert demonstrations and a simulator with misspecified dynamics. 
+
+  :curly_loop: [Inverse Constrained Reinforcement Learning](https://arxiv.org/pdf/2011.09999.pdf) :fire:  :boom:  
+
+  The main task (“do this”) is often quite easy to encode in the form of a simple nominal reward function. In this work, we focus on learning the constraint part (“do not do that”) from provided expert demonstrations and using it in conjunction with the nominal reward function to train RL agents. 
+
+  
 
   
 
@@ -1516,7 +1516,15 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 <a name="anchor-constrainedrl"></a>  
 
-:o: Constrained RL
+:o: Constrained RL 
+
+:curly_loop: [A Unified View of Entropy-Regularized Markov Decision Processes](https://arxiv.org/pdf/1705.07798.pdf) :fire: :droplet:  ​
+
+using the conditional entropy of the joint state-action distributions as regularization yields a dual optimization problem closely resembling the Bellman optimality equations 
+
+:curly_loop: [A Theory of Regularized Markov Decision Processes](https://arxiv.org/pdf/1901.11275.pdf) :+1::volcano: :boom: :droplet:    
+
+We have introduced a general theory of regularized MDPs, where the usual Bellman evaluation operator is modified by either a fixed convex function or a Bregman divergence between consecutive policies. We shown how many (variations of) existing algorithms could be derived from this general algorithmic scheme, and also analyzed and discussed the related propagation of errors. 
 
 :curly_loop: [Constrained Policy Optimization](https://arxiv.org/pdf/1705.10528.pdf) :+1:  :fire:  :fire:  :volcano:  ​
 
@@ -1541,6 +1549,12 @@ we propose an algorithmic scheme that can handle a wide class of constraints in 
 :curly_loop: [Batch Policy Learning under Constraints](https://arxiv.org/pdf/1903.08738.pdf) :volcano: :droplet:  ​ ​
 
 propose a flexible meta-algorithm that admits any batch reinforcement learning and online learning procedure as subroutines. 
+
+:curly_loop: [A Primal-Dual Approach to Constrained Markov Decision Processes](https://arxiv.org/pdf/2101.10895.pdf) :volcano: :droplet:  
+
+ ​
+
+
 
  ​
 
