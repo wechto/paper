@@ -1286,7 +1286,15 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [P3O: Policy-on Policy-off Policy Optimization](http://proceedings.mlr.press/v115/fakoor20a/fakoor20a.pdf) :fire: 
   
-  This paper develops a simple alg. named P3O that interleaves offpolicy updates with on-policy updates. 
+  This paper develops a simple alg. named P3O that interleaves offpolicy updates with on-policy updates.  
+  
+  
+  
+  
+  
+  
+  
+   ​ ​ ​
   
   
   
@@ -1552,7 +1560,9 @@ propose a flexible meta-algorithm that admits any batch reinforcement learning a
 
 :curly_loop: [A Primal-Dual Approach to Constrained Markov Decision Processes](https://arxiv.org/pdf/2101.10895.pdf) :volcano: :droplet:  
 
- ​
+ :curly_loop: [Reward is enough for convex MDPs](https://arxiv.org/pdf/2106.00661.pdf) :fire: :volcano: :boom: :droplet:  ​
+
+It is easy to see that Convex MDPs in which goals are expressed as convex functions of stationary distributions cannot, in general, be formulated in this manner (maximising a cumulative reward).  
 
 
 
