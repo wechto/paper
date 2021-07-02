@@ -1065,7 +1065,9 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   learn infinitely many solutions by training a policy conditioned on a continuous or discrete low-dimensional latent variable. 
   
-   ​ ​ ​
+  :curly_loop: [Goal-Conditioned Reinforcement Learning with Imagined Subgoals](https://arxiv.org/pdf/2107.00541.pdf) :+1: :fire: :volcano:  ​ ​ ​
+  
+  This high-level policy predicts intermediate states halfway to the goal using the value function as a reachability metric. We don’t require the policy to reach these subgoals explicitly. Instead, we use them to define a prior policy, and incorporate this prior into a KL-constrained pi scheme to speed up and reg. 
   
   
 
