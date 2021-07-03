@@ -1070,6 +1070,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   This high-level policy predicts intermediate states halfway to the goal using the value function as a reachability metric. We don’t require the policy to reach these subgoals explicitly. Instead, we use them to define a prior policy, and incorporate this prior into a KL-constrained pi scheme to speed up and reg. 
   
   
+  
+  
+  
+  
+  
+  
 
 
 
@@ -1650,7 +1656,7 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
 ### Others 
 
 + Gaussian Precess, Kernel Method, [EM](https://zhuanlan.zhihu.com/p/54823479), [Conditional Neural Process](https://zhuanlan.zhihu.com/p/142260457), [Neural Process](https://zhuanlan.zhihu.com/p/70226367),  (Deep Mind, ICML2018) :+1: ​
-+ [Weak Duality](https://people.eecs.berkeley.edu/~elghaoui/Teaching/EE227A/lecture7.pdf), [Fenchel-Legendre Duality](https://zhuanlan.zhihu.com/p/34236792), [Convex-Optimization](https://glooow1024.github.io/categories/Convex-Optimization/), 
++ [Weak Duality](https://people.eecs.berkeley.edu/~elghaoui/Teaching/EE227A/lecture7.pdf), [Fenchel-Legendre Duality](https://zhuanlan.zhihu.com/p/34236792), [Convex-Optimization](https://glooow1024.github.io/categories/Convex-Optimization/), [Convex-Optimization - bilibili](https://www.bilibili.com/video/BV1Jt411p7jE?p=19&spm_id_from=pageDriver); 
 + [Online Convex Optimization](https://zhuanlan.zhihu.com/p/346763047), 
 + [Total variation distance](http://people.csail.mit.edu/jayadev/teaching/ece6980f16/scribing/26-aug-16.pdf), 
 + [Ising model](https://zhuanlan.zhihu.com/p/163706800), Gibbs distribution, [VAEBM](https://openreview.net/pdf?id=5m3SEczOV8L), 
