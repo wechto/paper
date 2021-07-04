@@ -1,4 +1,4 @@
-# Reading List    - _ -  
+# Reading List 
 
 
 
