@@ -1481,6 +1481,16 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   achieving imitation learning satisfying no need of demonstrations.  [see self-imitation learning] 
   
+  :curly_loop: [MHER: Model-based Hindsight Experience Replay](https://arxiv.org/pdf/2107.00306.pdf) :+1: 
+  
+  Replacing original goals with virtual goals generated from interaction with a trained dynamics model. 
+  
+  :curly_loop: [Policy Continuation with Hindsight Inverse Dynamics](https://papers.nips.cc/paper/2019/file/3891b14b5d8cce2fdd8dcdb4ded28f6d-Paper.pdf) :+1: :fire:  ​ ​
+  
+  
+  
+   ​
+  
    ​
   
 + Imitation Learning (See Upper) 
