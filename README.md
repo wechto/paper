@@ -943,6 +943,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   we introduce a general framework, behavior regularized actor critic (BRAC), to empirically evaluate recently proposed methods as well as a number of simple baselines across a variety of offline continuous control tasks. 
 
+  :curly_loop: [Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](https://arxiv.org/pdf/2107.00591.pdf) 
+
   
 
   
