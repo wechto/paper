@@ -1487,6 +1487,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [Policy Continuation with Hindsight Inverse Dynamics](https://papers.nips.cc/paper/2019/file/3891b14b5d8cce2fdd8dcdb4ded28f6d-Paper.pdf) :+1: :fire:  ​ ​
   
+  This approach learns from Hindsight Inverse Dynamics based on Hindsight Experience Replay.  
+  
   
   
    ​
