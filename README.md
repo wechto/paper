@@ -943,7 +943,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   we introduce a general framework, behavior regularized actor critic (BRAC), to empirically evaluate recently proposed methods as well as a number of simple baselines across a variety of offline continuous control tasks. 
 
-  :curly_loop: [Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](https://arxiv.org/pdf/2107.00591.pdf) :+1:  ​
+  :curly_loop: [Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](https://arxiv.org/pdf/2107.00591.pdf) :no_mouth:  
 
   we observe that state-action distribution shift may lead to severe bootstrap error during fine-tuning, which destroys the good initial policy obtained via offline RL. 
 
@@ -1659,6 +1659,12 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
   :curly_loop: [Connecting Generative Adversarial Networks and Actor-Critic Methods](https://arxiv.org/pdf/1610.01945.pdf) :+1:  ​
   
   GANs can be seen as a modified actor-critic method with blind actors (stateless) in stateless MDPs. 
+  
+  :curly_loop: [An Image is Worth More Than a Thousand Words: Towards Disentanglement in the Wild](https://arxiv.org/pdf/2106.15610.pdf) :+1: :volcano:  
+  
+  we propose a method for disentangling a set of factors which are only partially labeled, as well as separating the complementary set of residual factors that are never explicitly specified. 
+  
+   ​
   
    ​
   
