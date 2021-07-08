@@ -49,10 +49,14 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
   In the real world, natural forces and other agents already **offer unending novelty**. The second law of thermodynamics stipulates **ever-increasing entropy**, and therefore perpetual novelty, without even requiring any active intervention. 
 
+  :curly_loop: [Unsupervised Skill Discovery with Bottleneck Option Learning](https://arxiv.org/pdf/2106.14305.pdf) :+1: :fire:  
+
+  On top of the linearization of environments that promotes more various and distant state transitions, IBOL enables the discovery of diverse skills. 
+
   :curly_loop: [Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions](https://arxiv.org/pdf/1901.01753.pdf)  ​​ [Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions](https://arxiv.org/pdf/2003.08536.pdf) :no_mouth:  ​
-
+  
   :curly_loop: [The Viable System Model - Stafford Beer](https://www.businessballs.com/strategy-innovation/viable-system-model-stafford-beer/)  
-
+  
   :curly_loop: [Reinforcement Learning Generalization with Surprise Minimization](https://arxiv.org/pdf/2004.12399.pdf) :no_mouth:  ​
   
   :curly_loop: [TERRAIN RL SIMULATOR](https://arxiv.org/pdf/1804.06424.pdf)   [Github](https://github.com/UBCMOCCA/TerrainRLSim)   
@@ -439,6 +443,10 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   
   We propose the state-adversarial Markov decision process (SA-MDP) to study the fundamental properties of this problem, and develop a theoretically principled policy regularization which can be applied to a large family of DRL algorithms. 
   
+  :curly_loop: [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/pdf/2106.15860.pdf) :sweat_drops:  ​
+  
+  
+  
   :curly_loop: [ROBUST REINFORCEMENT LEARNING ON STATE OBSERVATIONS WITH LEARNED OPTIMAL ADVERSARY](https://arxiv.org/pdf/2101.08452.pdf)  
   
   :curly_loop: [Loss is its own Reward: Self-Supervision for Reinforcement Learning](https://arxiv.org/pdf/1612.07307.pdf)  :+1:  :boom:  ​
@@ -661,6 +669,12 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 :curly_loop: [Generalization to New Actions in Reinforcement Learning](https://arxiv.org/pdf/2011.01928.pdf) :+1: 
 
   We propose a two-stage framework where the agent first infers action representations from action information acquired separately from the task. A policy flexible to varying action sets is then trained with generalization objectives. 
+
+:curly_loop: [Policy Transfer across Visual and Dynamics Domain Gaps via Iterative Grounding](https://arxiv.org/pdf/2107.00339.pdf) :+1: :fire:  
+
+alternates between (1) directly minimizing both visual and dynamics domain gaps by grounding the source env in the target env domains, and (2) training a policy on the grounded source env. 
+
+ ​
 
   
 
@@ -1510,7 +1524,6 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [QUANTIFYING DIFFERENCES IN REWARD FUNCTIONS](https://openreview.net/pdf?id=LwEQnp6CYev) :volcano: :sweat_drops:  ​ ​
 
   we introduce the Equivalent-Policy Invariant Comparison (EPIC) distance to quantify the difference between two reward functions directly, **without training a policy**. We prove EPIC is invariant on an equivalence class of reward functions that always induce the same optimal policy. 
-
 
 
 
