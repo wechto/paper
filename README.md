@@ -393,6 +393,10 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
   :curly_loop: [Data-Efficient Reinforcement Learning with Self-Predictive Representations](https://arxiv.org/pdf/2007.05929.pdf) :fire: ​  ​ ​
 
+  :curly_loop: [Intrinsically Motivated Self-supervised Learning in Reinforcement Learning](https://arxiv.org/pdf/2106.13970.pdf) :+1: :fire:  ​
+
+  employ self-supervised loss as an intrinsic reward, called Intrinsically Motivated Self-Supervised learning in Reinforcement learning (IM-SSR). *Decomposition and Interpretation of Contrastive Loss.*  
+
   :curly_loop: [EMI: Exploration with Mutual Information](https://arxiv.org/pdf/1810.01176.pdf) :+1: 
 
   We propose EMI, which is an exploration method that constructs embedding representation of states and actions that does not rely on generative decoding of the full observation but extracts predictive signals that can be used to guide exploration based on forward prediction in the representation space. 
@@ -420,9 +424,9 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   we should reduce the mutual information (MI) between views while keeping task-relevant information intact. 
 
   :curly_loop: [SELF-SUPERVISED LEARNING FROM A MULTI-VIEW PERSPECTIVE](https://arxiv.org/pdf/2006.05576.pdf) :+1: :fire:  ​ ​
-
+  
   Demystifying Self-Supervised Learning: An Information-Theoretical Framework. 
-
+  
   :curly_loop:[CONTRASTIVE BEHAVIORAL SIMILARITY EMBEDDINGS FOR GENERALIZATION IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=qda7-sVg84) :+1: :+1: 
   
   policy similarity metric (PSM) for measuring behavioral similarity between states. PSM assigns high similarity to states for which the optimal policies in those states as well as in future states are similar. 
