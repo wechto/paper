@@ -278,6 +278,8 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
   It should not aim for states where it has the most control according to its current abilities, but for states where it expects it will achieve the most control after learning. 
 
+  
+  
    ​ ​
 
 
@@ -1091,6 +1093,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   This high-level policy predicts intermediate states halfway to the goal using the value function as a reachability metric. We don’t require the policy to reach these subgoals explicitly. Instead, we use them to define a prior policy, and incorporate this prior into a KL-constrained pi scheme to speed up and reg. 
   
+  :curly_loop: [Discovering Generalizable Skills via Automated Generation of Diverse Tasks](https://arxiv.org/pdf/2106.13935.pdf) :no_mouth: 
+  
+  As opposed to prior work on unsupervised discovery of skills which incentivizes the skills to produce different outcomes in the same environment, our method pairs each skill with a unique task produced by a trainable task generator. Procedural content generation (PCG). 
+  
+   ​
+  
   
   
   
@@ -1437,6 +1445,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Strictly Batch Imitation Learning by Energy-based Distribution Matching](https://proceedings.neurips.cc//paper/2020/file/524f141e189d2a00968c3d48cadd4159-Paper.pdf) :fire: :boom: :sweat_drops:  ​
 
    ​By identifying parameterizations of the (discriminative) model of a policy with the (generative) energy function for state distributions, EDM yields a simple but effective solution that equivalently minimizes a divergence between the occupancy measure for the demonstrator and a model thereof for the imitator. 
+
+  :curly_loop: [IQ-Learn: Inverse soft-Q Learning for Imitation](https://arxiv.org/pdf/2106.12142.pdf) :+1: :fire: :volcano: :droplet: 
+
+  We introduce a method for dynamics-aware IL which avoids adversarial training by learning a single Q-function, implicitly representing both reward and policy.  
 
   :curly_loop: [SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/pdf/1905.11108.pdf) :+1: :fire: :volcano:  ​
 
