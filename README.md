@@ -1304,6 +1304,14 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   :curly_loop: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  
   
+  :curly_loop: [Maximum Entropy RL (Provably) Solves Some Robust RL Problems](https://arxiv.org/pdf/2103.06257.pdf) 
+  
+  
+  
+  
+  
+  
+  
   :curly_loop: [Regularized Policies are Reward Robust](http://proceedings.mlr.press/v130/husain21a/husain21a.pdf) :fire: :droplet:  ​
   
   we find that the optimal policy found by a regularized objective is precisely an optimal policy of a reinforcement learning problem under a worst-case adversarial reward. 
@@ -1619,19 +1627,15 @@ propose a flexible meta-algorithm that admits any batch reinforcement learning a
 
 It is easy to see that Convex MDPs in which goals are expressed as convex functions of stationary distributions cannot, in general, be formulated in this manner (maximising a cumulative reward).  
 
-
-
- ​
-
- ​
-
-
+ ​ ​
 
 + Density constrained
 
-  :curly_loop: [DENSITY CONSTRAINED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=jMc7DlflrMC) :+1:  ​
+  :curly_loop: [DENSITY CONSTRAINED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=jMc7DlflrMC) :+1:  :volcano:  ​
 
   We prove the duality between the density function and Q function in CRL and use it to develop an effective primal-dual algorithm to solve density constrained reinforcement learning problems. 
+
+
 
 
 
