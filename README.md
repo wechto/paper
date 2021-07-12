@@ -278,6 +278,8 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
   It should not aim for states where it has the most control according to its current abilities, but for states where it expects it will achieve the most control after learning. 
 
+  :curly_loop:  [Ensemble and Auxiliary Tasks for Data-Efficient Deep Reinforcement Learning](https://arxiv.org/pdf/2107.01904.pdf) 
+  
   
   
    ​ ​
