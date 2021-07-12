@@ -278,7 +278,9 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
   It should not aim for states where it has the most control according to its current abilities, but for states where it expects it will achieve the most control after learning. 
 
-  :curly_loop:  [Ensemble and Auxiliary Tasks for Data-Efficient Deep Reinforcement Learning](https://arxiv.org/pdf/2107.01904.pdf) 
+  :curly_loop:  [Ensemble and Auxiliary Tasks for Data-Efficient Deep Reinforcement Learning](https://arxiv.org/pdf/2107.01904.pdf) :no_mouth:  ​
+  
+   we study the effects of ensemble and auxiliary tasks when combined with the deep Q-learning alg. 
   
   
   
@@ -476,6 +478,8 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   :curly_loop: [Learning State Abstractions for Transfer in Continuous Control](https://arxiv.org/pdf/2002.05518.pdf) :fire:  ​
   
   Our main contribution is a learning algorithm that abstracts a continuous state-space into a discrete one. We transfer this learned representation to unseen problems to enable effective learning. 
+  
+  :curly_loop: [Multi-Modal Mutual Information (MuMMI) Training for Robust Self-Supervised Deep Reinforcement Learning](https://arxiv.org/pdf/2107.02339.pdf) 
   
   
 
