@@ -479,7 +479,11 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   
   Our main contribution is a learning algorithm that abstracts a continuous state-space into a discrete one. We transfer this learned representation to unseen problems to enable effective learning. 
   
-  :curly_loop: [Multi-Modal Mutual Information (MuMMI) Training for Robust Self-Supervised Deep Reinforcement Learning](https://arxiv.org/pdf/2107.02339.pdf) 
+  :curly_loop: [Multi-Modal Mutual Information (MuMMI) Training for Robust Self-Supervised Deep Reinforcement Learning](https://arxiv.org/pdf/2107.02339.pdf) :+1:  :fire:  
+  
+  we contribute a new multi-modal deep latent state-space model, trained using a mutual information lower-bound. 
+  
+  
   
   
 
@@ -738,6 +742,10 @@ In this paper, we propose to learn correspondence across such domains emphasizin
 :curly_loop: [Improving Generalization in Reinforcement Learning with Mixture Regularization](https://arxiv.org/pdf/2010.10814.pdf) :+1: 
 
 these approaches only locally perturb the observations regardless of the training environments, showing limited effectiveness on enhancing the data diversity and the generalization performance. 
+
+:curly_loop: [AdaRL: What, Where, and How to Adapt in Transfer Reinforcement Learning](https://arxiv.org/pdf/2107.02729.pdf) :fire:  :droplet: 
+
+ we characterize a minimal set of representations, including both domain-specific factors and domain-shared state representations, that suffice for reliable and low-cost transfer. 
 
  <a name="anchor-ood"></a> 
 
@@ -1185,6 +1193,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [MODEL-ENSEMBLE TRUST-REGION POLICY OPTIMIZATION](https://arxiv.org/pdf/1802.10592.pdf) :+1:  
   
   we propose to use an ensemble of models to maintain the model uncertainty and regularize the learning process. 
+  
+  :curly_loop: [Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation](https://arxiv.org/pdf/2107.01825.pdf) :no_mouth: 
+  
+  MEEE, a model-ensemble method that consists of optimistic exploration and weighted exploitation.  
   
   
   
