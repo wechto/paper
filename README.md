@@ -352,7 +352,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   
   existing inference frameworks and their algorithms pose significant challenges for learning optimal policies, for example, the lack of mode capturing behaviour in pseudo-likelihood methods, difficulties learning deterministic policies in maximum entropy RL based approaches, and a lack of analysis when function approximators are used. 
   
-  :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://openreview.net/pdf?id=S1ANxQW0b) :+1: :fire:  :droplet:  ​
+  :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://openreview.net/pdf?id=S1ANxQW0b) :+1: :fire:  :droplet:  :volcano:  ​
   
   MPO based on coordinate ascent on a relativeentropy objective. We show that several existing methods can directly be related to our derivation. 
 
@@ -1309,6 +1309,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/pdf/2001.01866.pdf) :fire: :volcano: :droplet:  ​ ​ ​
   
   *Policy Evaluation*: LP form of Q ---> policy evaluation via largrangian ---> change the problem before applying duality (constant function, f-divergence, fenchel-rockafellar duality);  *Policy Optimization*: policy gradient ---> offline policy gradient via the lagrangian ---> fenchel-rockafellar duality for the regularized optimization (regularization with the kl-d) ---> imitation learning;  *RL with the LP form of V*: max-likelihood policy learning ---> policy evaluation with the V-lp; *Undiscounted Settings* 
+  
+  :curly_loop: [ADVANTAGE-WEIGHTED REGRESSION: SIMPLE AND SCALABLE OFF-POLICY REINFORCEMENT LEARNING](https://arxiv.org/pdf/1910.00177.pdf) :+1: :fire:  :boom: 
+  
+  Our proposed approach, which we refer to as advantage-weighted regression (AWR), consists of two standard supervised learning steps: one to regress onto target values for a value function, and another to regress onto weighted target actions for the policy. 
+  
+   ​ ​
   
   
   
