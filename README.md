@@ -981,6 +981,18 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   we observe that state-action distribution shift may lead to severe bootstrap error during fine-tuning, which destroys the good initial policy obtained via offline RL. 
 
+  :curly_loop: [Offline Meta-Reinforcement Learning with Online Self-Supervision](https://arxiv.org/pdf/2107.03974.pdf) :+1: :fire: 
+
+  Unlike the online setting, the adaptation and exploration strategies cannot effectively adapt to each other, resulting in poor performance. we propose a hybrid offline meta-RL algorithm, which uses offline data with rewards to meta-train an adaptive policy, and then collects additional unsupervised online data, without any ground truth reward labels, to bridge this distribution shift problem. 
+
+  :curly_loop: [AWAC: Accelerating Online Reinforcement Learning with Offline Datasets](https://arxiv.org/pdf/2006.09359.pdf) :+1: :fire: :volcano: 
+
+   ​ ​ ​
+
+  
+
+   ​ ​
+
   
 
   
