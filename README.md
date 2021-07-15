@@ -1320,6 +1320,22 @@ MMI can be problematic because it picks up spurious correlations between the inp
   
   Our proposed approach, which we refer to as advantage-weighted regression (AWR), consists of two standard supervised learning steps: one to regress onto target values for a value function, and another to regress onto weighted target actions for the policy. 
   
+  :curly_loop: [Overcoming Exploration in Reinforcement Learning with Demonstrations](https://arxiv.org/pdf/1709.10089.pdf) :fire: 
+  
+  We present a system to utilize demonstrations along with reinforcement learning to solve complicated multi-step tasks. Q-Filter. BC. 
+  
+  :curly_loop: [Fitted Q-iteration by Advantage Weighted Regression](https://papers.nips.cc/paper/2008/file/f79921bbae40a577928b76d2fc3edc2a-Paper.pdf) :+1:  :fire:  :fire:  ​
+  
+  we show that by using a soft-greedy action selection the policy improvement step used in FQI can be simplified to an inexpensive advantage weighted regression. <--- greedy action selection in continuous. 
+  
+  :curly_loop: [Q-Value Weighted Regression: Reinforcement Learning with Limited Data](https://arxiv.org/pdf/2102.06782.pdf) :fire:  :volcano: 
+  
+  QWR: We replace the value function critic of AWR with a Q-value function.  AWR --> QWR. 
+  
+   ​
+  
+   ​
+  
    ​ ​
   
   
@@ -1456,6 +1472,14 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   The main task (“do this”) is often quite easy to encode in the form of a simple nominal reward function. In this work, we focus on learning the constraint part (“do not do that”) from provided expert demonstrations and using it in conjunction with the nominal reward function to train RL agents. 
 
+  :curly_loop: [Exponentially Weighted Imitation Learning for Batched Historical Data](https://ai.tencent.com/ailab/media/publications/exponentially-weighted-imitation.pdf) :+1: :fire: :volcano:  ​ ​
+
+  we propose a monotonic advantage reweighted imitation learning strategy that is applicable to problems with complex nonlinear function approximation and works well with hybrid (discrete and continuous) action space. 
+
+  :curly_loop: [BAIL: Best-Action Imitation Learning for Batch Deep Reinforcement Learning](https://arxiv.org/pdf/1910.12179.pdf) 
+
+  
+
   
 
   
@@ -1545,10 +1569,12 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Variational Imitation Learning with Diverse-quality Demonstrations](http://proceedings.mlr.press/v119/tangkaratt20a/tangkaratt20a.pdf) :fire: :droplet: 
   
   We show that simple quality-estimation approaches might fail due to compounding error, and fix this issue by jointly estimating both the quality and reward using a variational approach. 
-  
-   ​ ​
-  
-   ​
+
+
+
+ ​ ​
+
+ ​
 
 
 
