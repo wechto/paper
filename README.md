@@ -985,11 +985,17 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   Unlike the online setting, the adaptation and exploration strategies cannot effectively adapt to each other, resulting in poor performance. we propose a hybrid offline meta-RL algorithm, which uses offline data with rewards to meta-train an adaptive policy, and then collects additional unsupervised online data, without any ground truth reward labels, to bridge this distribution shift problem. 
 
-  :curly_loop: [Offline Meta-Reinforcement Learning with Advantage Weighting](http://proceedings.mlr.press/v139/mitchell21a/mitchell21a.pdf) 
+  :curly_loop: [Offline Meta-Reinforcement Learning with Advantage Weighting](http://proceedings.mlr.press/v139/mitchell21a/mitchell21a.pdf) :fire:  ​
 
   :curly_loop: [AWAC: Accelerating Online Reinforcement Learning with Offline Datasets](https://arxiv.org/pdf/2006.09359.pdf) :+1: :fire: :volcano: 
 
   we systematically analyze why this problem (offline + online) is so challenging, and propose an algorithm that combines sampleefficient dynamic programming with maximum likelihood policy updates, providing a simple and effective framework that is able to leverage large amounts of offline data and then quickly perform online fine-tuning of RL policies. 
+
+  :curly_loop: [Critic Regularized Regression](https://arxiv.org/pdf/2006.15134.pdf) :+1: :fire: :volcano:  ​ ​
+
+  CRR: Our alg. can be seen as a form of filtered behavioral cloning where data is selected based on information contained in the policy’s Q-fun. we do not rely on observed returns for adv. estimation. 
+
+  
 
   
 
