@@ -44,6 +44,10 @@ TOC
 
 
 
+
+
+
+
 <a name="anchor-emp"></a>  
 
 ## Emp. & ASP 
@@ -1260,11 +1264,11 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   we introduce the Equivalent-Policy Invariant Comparison (EPIC) distance to quantify the difference between two reward functions directly, **without training a policy**. We prove EPIC is invariant on an equivalence class of reward functions that always induce the same optimal policy. 
 
+ 
 
+ 
 
-
-
-
+ 
 
 <a name="anchor-modelbasedrl"></a>  
 
