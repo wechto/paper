@@ -117,7 +117,10 @@ TOC
   
   We introduce IMAGINE, an intrinsically motivated deep reinforcement learning architecture that models this ability. Such imaginative agents, like children, benefit from the guidance of a social peer who provides language descriptions. To take advantage of goal imagination, agents must be able to leverage these descriptions to interpret their imagined out-of-distribution goals. 
   
-  
+
+
+
+
 
 
 
@@ -207,9 +210,12 @@ TOC
 
   :curly_loop: [LEARNING SUBGOAL REPRESENTATIONS WITH SLOW DYNAMICS](https://openreview.net/pdf?id=wxRwhSdORKG) :+1: :droplet: :fire: ​​  ​ ​
 
-  Observing that the high-level agent operates at an abstract temporal scale, we propose a slowness objective to effectively learn the subgoal representation (i.e., the high-level action space). We provide a theoretical grounding for the slowness objective. 
+  Observing that the high-level agent operates at an abstract temporal scale, we propose a slowness objective to effectively learn the subgoal representation (i.e., the high-level action space). We provide a theoretical grounding for the slowness objective.  ​
 
-   ​ ​
+
+
+
+
 
 
 
@@ -312,8 +318,6 @@ TOC
   
    we study the effects of ensemble and auxiliary tasks when combined with the deep Q-learning alg. 
   
-  
-  
    ​ ​
 
 
@@ -364,6 +368,10 @@ TOC
 
 + 
 + [Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf) :boom: :volcano: :ghost: [the art of design] :sweat_drops:  ​
+
+
+
+
 
 
 
@@ -776,6 +784,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 
 
+
+
 <a name="anchor-irl"></a>   
 
 ## IRL 
@@ -990,6 +1000,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 
 
+
+
 <a name="anchor-exploration"></a> 
 
  ## Exploration
@@ -1079,6 +1091,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Provably Efficient Exploration in Policy Optimization](http://proceedings.mlr.press/v119/cai20d/cai20d.pdf) :confused: 
 
    design a provably efficient policy optimization algorithm that incorporates exploration. 
+
+
 
 
 
@@ -1250,6 +1264,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 
 
+
+
 <a name="anchor-modelbasedrl"></a>  
 
 ## Model-based RL & world models 
@@ -1317,6 +1333,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [REPRESENTATION BALANCING OFFLINE MODEL-BASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=QpNz8r_Ri2Y) :droplet:  ​
 
   
+
+
 
 
 
@@ -1504,6 +1522,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 
 
+
+
+
+
 <a name="anchor-constrainedrl"></a>  
 
 ## Constrained RL 
@@ -1613,6 +1635,8 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
 
 
 
+
+
 <a name="anchor-optimization"></a>  
 
 ## Optimization 
@@ -1671,11 +1695,14 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
   
   :curly_loop: [An Image is Worth More Than a Thousand Words: Towards Disentanglement in the Wild](https://arxiv.org/pdf/2106.15610.pdf) :+1: :volcano:  
   
-  we propose a method for disentangling a set of factors which are only partially labeled, as well as separating the complementary set of residual factors that are never explicitly specified. 
+  we propose a method for disentangling a set of factors which are only partially labeled, as well as separating the complementary set of residual factors that are never explicitly specified.  ​
   
-   ​
-  
-  
+
+
+
+
+
+
 
 ## Galaxy  None 
 
@@ -1730,6 +1757,8 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
   we develop an approximate Bayesian inference scheme based on posterior regularisation, wherein unlabelled target data are used as “pseudo-labels” of model confidence that are used to regularise the model’s loss on labelled source data. 
 
   :curly_loop: [Understanding Uncertainty in Bayesian Deep Learning](https://arxiv.org/pdf/2106.13055.pdf) :sweat_drops:  ​
+
+
 
 
 
