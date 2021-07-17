@@ -19,14 +19,14 @@ TOC
   - [HRL](#hrl)
   - [SKILLS](#skills)
   - [Control as Inference](#control-as-inference)
-  - [State abstraction &  Representation learning](#state-abstraction---representation-learning)
+  - [State Abstraction &  Representation Learning](#state-abstraction---representation-learning)
   - [Mutual Information](#mutual-information)
   - [DR (Domain Randomization) & sim2real](#dr-domain-randomization--sim2real)
   - [Transfer: Generalization & Adaption (Dynamics)](#transfer-generalization--adaption-dynamics)
   - [IRL](#irl)
   - [Offline RL](#offline-rl)
   - [Exploration](#exploration)
-  - [Causual inference](#causual-inference)
+  - [Causal Inference](#causal-inference)
   - [Supervised RL & Goal-conditioned Policy](#supervised-rl--goal-conditioned-policy)
   - [Goal-relabeling & Self-imitation](#goal-relabeling--self-imitation)
   - [Model-based RL & world models](#model-based-rl--world-models)
@@ -381,7 +381,7 @@ TOC
 
 <a name="anchor-state-abstraction"></a>     
 
-## State abstraction &  Representation learning 
+## State Abstraction &  Representation Learning 
 
   Representation learning for control based on bisimulation does not depend on reconstruction, but aims to group states based on their behavioral similarity in MDP.  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html#bisimulation) :sweat_drops: 
 
@@ -1104,9 +1104,9 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 <a name="anchor-causual"></a>  
 
-## Causual inference
+## Causal Inference
 
-+ Causual inference  [ see more in <a href="#anchor-ood">OOD</a> & [inFERENCe's blog](https://www.inference.vc/causal-inference-3-counterfactuals/) ] 
++ Causal inference  [ see more in <a href="#anchor-ood">OOD</a> & [inFERENCe's blog](https://www.inference.vc/causal-inference-3-counterfactuals/) ] 
 
   :curly_loop: 
 
@@ -1264,11 +1264,11 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   we introduce the Equivalent-Policy Invariant Comparison (EPIC) distance to quantify the difference between two reward functions directly, **without training a policy**. We prove EPIC is invariant on an equivalence class of reward functions that always induce the same optimal policy. 
 
- 
 
- 
 
- 
+
+
+
 
 <a name="anchor-modelbasedrl"></a>  
 
@@ -1708,7 +1708,7 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
 
 
 
-## Galaxy  None 
+## Galaxy  Forest  
 
 ​	:milky_way: :snowflake: :cyclone: :ocean: :volcano: :earth_africa: :earth_americas: :earth_asia: :book: :dart: :gem: :lemon: :headphones: :pushpin: :artificial_satellite: :satellite: :rocket: :stars: :sunrise_over_mountains: :triangular_flag_on_post: :beer: :tea: :date: :golf: :hourglass: :camera: :pager: :balloon: :trophy: :apple: :rice: ​
 
