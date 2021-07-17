@@ -10,7 +10,37 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 
 
-[TOC]
+TOC 
+
+
+- [READING LIST](#reading-list)
+  - [Emp. & ASP](#emp--asp)
+  - [Meta-RL](#meta-rl)
+  - [HRL](#hrl)
+  - [SKILLS](#skills)
+  - [Control as Inference](#control-as-inference)
+  - [State abstraction &  Representation learning](#state-abstraction---representation-learning)
+  - [Mutual Information](#mutual-information)
+  - [DR (Domain Randomization) & sim2real](#dr-domain-randomization--sim2real)
+  - [Transfer: Generalization & Adaption (Dynamics)](#transfer-generalization--adaption-dynamics)
+  - [IRL](#irl)
+  - [Offline RL](#offline-rl)
+  - [Exploration](#exploration)
+  - [Causual inference](#causual-inference)
+  - [Supervised RL & Goal-conditioned Policy](#supervised-rl--goal-conditioned-policy)
+  - [Goal-relabeling & Self-imitation](#goal-relabeling--self-imitation)
+  - [Model-based RL & world models](#model-based-rl--world-models)
+  - [Training RL & Just Fast & Embedding? & OPE(DICE)](#training-rl--just-fast--embedding--opedice)
+  - [MARL](#marl)
+  - [Constrained RL](#constrained-rl)
+  - [Distributional RL](#distributional-rl)
+  - [Continual Learning](#continual-learning)
+  - [Self-paced & Curriculum RL](#self-paced--curriculum-rl)
+  - [Optimization](#optimization)
+  - [Galaxy  None](#galaxy--none)
+  - [Aha](#aha)
+    - [Alpha](#alpha)
+    - [Blog & Corp. & Legend](#blog--corp--legend)
 
 
 
