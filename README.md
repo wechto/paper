@@ -626,6 +626,8 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   
   
   
+  
+  
    ​
 
 <a name="anchor-transfer"></a>  
@@ -689,6 +691,12 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 :curly_loop: [Policy Transfer across Visual and Dynamics Domain Gaps via Iterative Grounding](https://arxiv.org/pdf/2107.00339.pdf) :+1: :fire:  
 
 alternates between (1) directly minimizing both visual and dynamics domain gaps by grounding the source env in the target env domains, and (2) training a policy on the grounded source env. 
+
+:curly_loop: [Learning Agile Robotic Locomotion Skills by Imitating Animals](https://arxiv.org/pdf/2004.00784.pdf) :+1: :fire: :fire:  
+
+We show that by leveraging reference motion data, a single learning-based approach is able to automatically synthesize controllers for a diverse repertoire behaviors for legged robots. By incorporating sample efficient domain adaptation techniques into the training process, our system is able to learn adaptive policies in simulation that can then be quickly adapted for real-world deployment. 
+
+ ​ ​
 
  ​
 
@@ -994,6 +1002,14 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Critic Regularized Regression](https://arxiv.org/pdf/2006.15134.pdf) :+1: :fire: :volcano:  ​ ​
 
   CRR: Our alg. can be seen as a form of filtered behavioral cloning where data is selected based on information contained in the policy’s Q-fun. we do not rely on observed returns for adv. estimation. 
+
+  :curly_loop: [Exponentially Weighted Imitation Learning for Batched Historical Data](https://ai.tencent.com/ailab/media/publications/exponentially-weighted-imitation.pdf) :+1: :fire: :volcano:  ​ ​
+
+  we propose a monotonic advantage reweighted imitation learning strategy that is applicable to problems with complex nonlinear function approximation and works well with hybrid (discrete and continuous) action space. 
+
+  :curly_loop: [BAIL: Best-Action Imitation Learning for Batch Deep Reinforcement Learning](https://arxiv.org/pdf/1910.12179.pdf) 
+
+  :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) 
 
   
 
@@ -1472,11 +1488,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   The main task (“do this”) is often quite easy to encode in the form of a simple nominal reward function. In this work, we focus on learning the constraint part (“do not do that”) from provided expert demonstrations and using it in conjunction with the nominal reward function to train RL agents. 
 
-  :curly_loop: [Exponentially Weighted Imitation Learning for Batched Historical Data](https://ai.tencent.com/ailab/media/publications/exponentially-weighted-imitation.pdf) :+1: :fire: :volcano:  ​ ​
-
-  we propose a monotonic advantage reweighted imitation learning strategy that is applicable to problems with complex nonlinear function approximation and works well with hybrid (discrete and continuous) action space. 
-
-  :curly_loop: [BAIL: Best-Action Imitation Learning for Batch Deep Reinforcement Learning](https://arxiv.org/pdf/1910.12179.pdf) 
+  
 
   
 
