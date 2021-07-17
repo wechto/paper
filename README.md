@@ -692,9 +692,15 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 alternates between (1) directly minimizing both visual and dynamics domain gaps by grounding the source env in the target env domains, and (2) training a policy on the grounded source env. 
 
-:curly_loop: [Learning Agile Robotic Locomotion Skills by Imitating Animals](https://arxiv.org/pdf/2004.00784.pdf) :+1: :fire: :fire:  
+:curly_loop: [Learning Agile Robotic Locomotion Skills by Imitating Animals](https://arxiv.org/pdf/2004.00784.pdf) :+1: :fire: :volcano:  ​
 
 We show that by leveraging reference motion data, a single learning-based approach is able to automatically synthesize controllers for a diverse repertoire behaviors for legged robots. By incorporating sample efficient domain adaptation techniques into the training process, our system is able to learn adaptive policies in simulation that can then be quickly adapted for real-world deployment. 
+
+:curly_loop: [RMA: Rapid Motor Adaptation for Legged Robots](https://arxiv.org/pdf/2107.04034.pdf) :+1: 
+
+The robot achieves this high success rate despite never having seen unstable or sinking ground, obstructive vegetation or stairs during training. All deployment results are with the same policy without any simulation calibration, or real-world fine-tuning. 
+
+ ​
 
  ​ ​
 
