@@ -1,6 +1,4 @@
-# Reading List 
-
-
+# READING LIST 
 
 :fire: :collision: :anger: :exclamation: :cyclone: :ocean: :sweat_drops: :droplet: :turtle: :frog: :snake: :bug: :ram: :sheep: :rabbit2: :goat: :whale: :whale2: :fish: :dolphin: :rose: :maple_leaf: :fallen_leaf: :mushroom: :beer: :beers: :airplane: :fountain: :bullettrain_front: :rocket: :rowboat: :speedboat: 
 
@@ -8,13 +6,17 @@
 
 
 
-unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor-asp">(A)SP</a>; <a href="#anchor-metarl">meta-RL</a>; <a href="#anchor-HRL">HRL</a>; <a href="#anchor-comskills">combing skills</a>; <a href="#anchor-klreg">KL reg</a>.; <a href="#anchor-inference">inference</a>; <a href="#anchor-state-abstraction">State abstraction</a>; <a href="#anchor-MI">MI</a>; <a href="#anchor-cl">CL</a>; <a href="#anchor-disrl">Dis RL</a>; <a href="#anchor-DR">DR</a>; <a href="#anchor-sim2real">sim2real</a>; <a href="#anchor-transfer">transfer</a>(DA, DG, dynamics); <a href="#anchor-causual">causual</a>; <a href="#anchor-exploration">exploration</a>; <a href="#anchor-offline">offline</a>; <a href="#anchor-pareto">Pareto</a>; <a href="#anchor-supervised">supervised</a>; <a href="#anchor-goalcon">Goal con</a>; <a href="#anchor-irl">IRL</a>; <a href="#anchor-selfpaced">self-paced</a>; <a href="#anchor-curriculum">Curriculum</a>; <a href="#anchor-modelbasedrl">model-based</a>;  <a href="#anchor-trainingrl">training RL</a>; <a href="#anchor-marl">MARL</a>;  <a href="#anchor-constrainedrl">constrained RL</a>; <a href="#anchor-optimization">optimization</a>(CD, DRO, Trustworthy); 
+unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor-asp">(A)SP</a>; <a href="#anchor-metarl">meta-RL</a>; <a href="#anchor-HRL">HRL</a>; <a href="#anchor-comskills">combing skills</a>; <a href="#anchor-klreg">KL reg</a>.; <a href="#anchor-inference">inference</a>; <a href="#anchor-state-abstraction">State abstraction</a>; <a href="#anchor-MI">MI</a>; <a href="#anchor-DR">DR</a>; <a href="#anchor-sim2real">sim2real</a>; <a href="#anchor-transfer">transfer</a>(DA, DG, dynamics); <a href="#anchor-causual">causual</a>; <a href="#anchor-exploration">exploration</a>; <a href="#anchor-offline">offline</a>; <a href="#anchor-pareto">Pareto</a>; <a href="#anchor-supervised">supervised</a>; <a href="#anchor-goalcon">Goal con</a>; <a href="#anchor-irl">IRL</a>; <a href="#anchor-modelbasedrl">model-based</a>;  <a href="#anchor-trainingrl">training RL</a>; <a href="#anchor-marl">MARL</a>;  <a href="#anchor-constrainedrl">constrained RL</a>; <a href="#anchor-cl">CL</a>; <a href="#anchor-disrl">Dis RL</a>; <a href="#anchor-selfpaced">self-paced</a>; <a href="#anchor-curriculum">Curriculum</a>; <a href="#anchor-optimization">optimization</a>(CD, DRO, Trustworthy); 
+
+
+
+[TOC]
 
 
 
 <a name="anchor-emp"></a>  
 
-### Emp. & ASP 
+## Emp. & ASP 
 
 :partly_sunny: :full_moon: :shell: :seedling: :evergreen_tree: :mushroom: :leaves: :sunflower: :cactus: :bouquet: :herb: :palm_tree: :four_leaf_clover: :deciduous_tree: :rose: :chestnut: :bamboo: :ear_of_rice: :palm_tree: :maple_leaf: :paw_prints: :new_moon: :first_quarter_moon: :waning_gibbous_moon: :waning_crescent_moon: :full_moon: :milky_way: :globe_with_meridians: :earth_americas: :volcano: :jack_o_lantern: 
 
@@ -91,7 +93,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 <a name="anchor-metarl"></a>  
 
-### Meta-RL 
+## Meta-RL 
 
  :frog: :tiger: :snail: :snake: :camel: :tiger: :turtle: :bird: :ant: :koala: :dog: :beetle: :chicken: :rat: :ox: :cow2: :whale: :fish: :dolphin: :whale2: :cat2: :blowfish: :dragon: :dragon_face: :goat: :octopus: :ant: :turtle: :crocodile: :baby_chick: 
 
@@ -159,7 +161,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 <a name="anchor-HRL"></a>  
 
-### HRL 
+## HRL 
 
 + SUB-POLICY ADAPTATION FOR HIERARCHICAL REINFORCEMENT LEARNING https://arxiv.org/pdf/1906.05862.pdf :-1:  
 
@@ -182,11 +184,9 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 
 
-### CITING D... 
+## SKILLS 
 
-+ Latent Space Policies for Hierarchical Reinforcement Learning 2018 https://arxiv.org/pdf/1804.02808.pdf  
-
-+ 
++ [Latent Space Policies for Hierarchical Reinforcement Learning 2018](https://arxiv.org/pdf/1804.02808.pdf ) 
 
 + EPISODIC CURIOSITY THROUGH REACHABILITY [reward design] 
 
@@ -288,39 +288,13 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 
 
-### Galaxy 
 
-​	:milky_way: :snowflake: :cyclone: :ocean: :volcano: :earth_africa: :earth_americas: :earth_asia: :book: :dart: :gem: :lemon: :headphones: :pushpin: :artificial_satellite: :satellite: :rocket: :stars: :sunrise_over_mountains: :triangular_flag_on_post: :beer: :tea: :date: :golf: :hourglass: :camera: :pager: :balloon: :trophy: :apple: :rice: ​
-
-+ Deep Reinforcement Learning amidst Lifelong Non-Stationarity https://arxiv.org/pdf/2006.10701.pdf 
-
-+ Learning Robot Skills with Temporal Variational Inference https://arxiv.org/pdf/2006.16232.pdf 
-
-+ Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design https://arxiv.org/pdf/0912.3995.pdf [icml2020 test of time award] :confused: :question: 
-
-+ On Learning Sets of Symmetric Elements https://arxiv.org/pdf/2002.08599.pdf [icml2020 outstanding paper awards] :confused: :question: 
-
-+ Non-delusional Q-learning and Value Iteration https://papers.nips.cc/paper/8200-non-delusional-q-learning-and-value-iteration.pdf [NeurIPS2018 Best Paper Award] 
-
-+ SurVAE **Flows**: Surjections to Bridge the Gap between VAEs and Flows [Max Welling] https://arxiv.org/pdf/2007.02731.pdf 
-
-  :curly_loop: [Normalizing Flows: An Introduction and Review of Current Methods](https://arxiv.org/pdf/1908.09257.pdf)  :+1: ; Citing:  [Normalizing Flows for Probabilistic Modeling and Inference](https://arxiv.org/pdf/1912.02762.pdf) :+1: :boom: :boom: :boom: ; [lil-log: Flow-based Deep Generative Models](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html) ; [Jianlin Su: f-VAES](https://zhuanlan.zhihu.com/p/45090025) :sweat_drops: ; [Deep generative models](https://deepgenerativemodels.github.io/notes/) :sweat_drops:  [Another slide](https://drive.google.com/file/d/1SGGWQR_FCHzsg-_aYzCjgHypXNesl6ML/view);  
-
-  :curly_loop: [Deep Kernel Density Estimation](https://zhuanlan.zhihu.com/p/73426787) (Maximum Likelihood, Neural Density Estimation (Auto Regressive Models + Normalizing Flows), Score Matching ([MRF](http://signal.ee.psu.edu/mrf.pdf)), Kernel Exponential Family ([RKHS](http://songcy.net/posts/story-of-basis-and-kernel-part-2/)), Deep Kernel);  
-
-  :curly_loop: 
-
-+ Self-Supervised Learning  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html) :sweat_drops: ; 
-
-  :curly_loop: [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :confused: :-1: 
-
-  :curly_loop: 
 
 
 
 <a name="anchor-inference"></a>   
 
-+ **Control as Inference** 
+## Control as Inference 
 
   :curly_loop: [Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review](https://arxiv.org/pdf/1805.00909.pdf) :boom: :boom: :volcano: :volcano:  ​
 
@@ -335,25 +309,25 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   emphasizes that MaxEnt RL can be viewed as minimizing an KL divergence. 
 
   :curly_loop: [Iterative Inference Models](http://bayesiandeeplearning.org/2017/papers/9.pdf)  [Iterative Amortized Inference](http://proceedings.mlr.press/v80/marino18a/marino18a.pdf)  :+1: :+1:  ​ ​
-  
+
   Latent Variable Models & Variational Inference &  Variational Expectation Maximization (EM) &  Inference Models 
-  
+
   :curly_loop: [MAKING SENSE OF REINFORCEMENT LEARNING AND PROBABILISTIC INFERENCE](https://arxiv.org/pdf/2001.00805.pdf) :question: :sweat_drops:  ​
-  
+
   :curly_loop: [Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model](https://arxiv.org/pdf/1907.00953.pdf) :volcano: :boom:  ​ ​
-  
+
   The main contribution of this work is a novel and principled approach that integrates learning stochastic sequential models and RL into a single method, performing RL in the model’s learned latent space. By **formalizing the problem as a control as inference problem within a POMDP**, we show that variational inference leads to the objective of our SLAC algorithm. 
-  
+
   :curly_loop: [On the Design of Variational RL Algorithms](https://joelouismarino.github.io/files/papers/2019/variational_rl/neurips_workshop_paper.pdf) :+1: :+1: :fire: ​ Good **design choices**. :sweat_drops:  :ghost:  ​
-  
+
   Identify several settings that have not yet been fully explored, and we discuss general directions for improving these algorithms: VI details; (non-)Parametric; Uniform/Learned Prior. 
-  
+
   :curly_loop: [VIREL: A Variational Inference Framework for Reinforcement Learning](http://papers.nips.cc/paper/8934-virel-a-variational-inference-framework-for-reinforcement-learning.pdf) :confused:  ​
-  
+
   existing inference frameworks and their algorithms pose significant challenges for learning optimal policies, for example, the lack of mode capturing behaviour in pseudo-likelihood methods, difficulties learning deterministic policies in maximum entropy RL based approaches, and a lack of analysis when function approximators are used. 
-  
+
   :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://openreview.net/pdf?id=S1ANxQW0b) :+1: :fire:  :droplet:  :volcano:  ​
-  
+
   MPO based on coordinate ascent on a relativeentropy objective. We show that several existing methods can directly be related to our derivation. 
 
 
@@ -365,7 +339,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 <a name="anchor-state-abstraction"></a>     
 
-+ **State abstraction** & :hourglass: :diamond_shape_with_a_dot_inside:  Representation learning. :diamond_shape_with_a_dot_inside: :hourglass: 
+## State abstraction &  Representation learning 
 
   Representation learning for control based on bisimulation does not depend on reconstruction, but aims to group states based on their behavioral similarity in MDP.  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html#bisimulation) :sweat_drops: 
 
@@ -430,68 +404,68 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   we should reduce the mutual information (MI) between views while keeping task-relevant information intact. 
 
   :curly_loop: [SELF-SUPERVISED LEARNING FROM A MULTI-VIEW PERSPECTIVE](https://arxiv.org/pdf/2006.05576.pdf) :+1: :fire:  ​ ​
-  
+
   Demystifying Self-Supervised Learning: An Information-Theoretical Framework. 
-  
+
   :curly_loop:[CONTRASTIVE BEHAVIORAL SIMILARITY EMBEDDINGS FOR GENERALIZATION IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=qda7-sVg84) :+1: :+1: 
-  
+
   policy similarity metric (PSM) for measuring behavioral similarity between states. PSM assigns high similarity to states for which the optimal policies in those states as well as in future states are similar. 
-  
+
   :curly_loop: [Invariant Causal Prediction for Block MDPs](http://proceedings.mlr.press/v119/zhang20t/zhang20t.pdf) :sweat_drops:  
-  
+
   State Abstractions and Bisimulation; Causal Inference Using Invariant Prediction; 
-  
+
   :curly_loop: [CAUSAL INFERENCE Q-NETWORK: TOWARD RESILIENT REINFORCEMENT LEARNING](https://arxiv.org/pdf/2102.09677.pdf) :+1: 
-  
+
   In this paper, we consider a resilient DRL framework with observational interferences. 
-  
+
   :curly_loop: [Decoupling Value and Policy for Generalization in Reinforcement Learning](https://arxiv.org/pdf/2102.10330.pdf) :+1: :fire:  ​
-  
+
   Invariant Decoupled Advantage ActorCritic. First, IDAAC decouples the optimization of the policy and value function, using separate networks to model them. Second, it introduces an auxiliary loss which encourages the representation to be invariant to task-irrelevant properties of the environment. 
-  
+
   :curly_loop: [Robust Deep Reinforcement Learning against Adversarial Perturbations on State Obs](https://arxiv.org/pdf/2003.08938.pdf) :fire: :volcano: :droplet:  ​ ​
-  
+
   We propose the state-adversarial Markov decision process (SA-MDP) to study the fundamental properties of this problem, and develop a theoretically principled policy regularization which can be applied to a large family of DRL algorithms. 
-  
+
   :curly_loop: [Understanding Adversarial Attacks on Observations in Deep Reinforcement Learning](https://arxiv.org/pdf/2106.15860.pdf) :sweat_drops:  ​
+
   
-  
-  
+
   :curly_loop: [ROBUST REINFORCEMENT LEARNING ON STATE OBSERVATIONS WITH LEARNED OPTIMAL ADVERSARY](https://arxiv.org/pdf/2101.08452.pdf)  
-  
+
   :curly_loop: [Loss is its own Reward: Self-Supervision for Reinforcement Learning](https://arxiv.org/pdf/1612.07307.pdf)  :+1:  :boom:  ​
-  
+
    To augment reward, we consider a range of selfsupervised tasks that incorporate states, actions, and successors to provide auxiliary losses. 
-  
+
   :curly_loop: [Unsupervised Learning of Visual 3D Keypoints for Control](https://arxiv.org/pdf/2106.07643.pdf) :+1: :boom: 
-  
+
   motivation: most of these representations, whether structured or unstructured are learned in a 2D space even though the control tasks are usually performed in a 3D environment. 
-  
+
   :curly_loop: [Which Mutual-Information Representation Learning Objectives are Sufficient for Control?](https://arxiv.org/pdf/2106.07278.pdf) :+1: :boom: :volcano: 
-  
+
   we formalize the sufficiency of a state representation for learning and representing the optimal policy, and study several popular mutual-information based objectives through this lens.  ​
-  
+
   :curly_loop: [Towards a Unified Theory of State Abstraction for MDPs](http://rbr.cs.umass.edu/aimath06/proceedings/P21.pdf) :+1: :fire::volcano: :droplet:  ​ ​ ​
-  
+
   We provide a unified treatment of state abstraction for Markov decision processes. We study five particular abstraction schemes. 
-  
+
   :curly_loop: [Learning State Abstractions for Transfer in Continuous Control](https://arxiv.org/pdf/2002.05518.pdf) :fire:  ​
-  
+
   Our main contribution is a learning algorithm that abstracts a continuous state-space into a discrete one. We transfer this learned representation to unseen problems to enable effective learning. 
-  
+
   :curly_loop: [Multi-Modal Mutual Information (MuMMI) Training for Robust Self-Supervised Deep Reinforcement Learning](https://arxiv.org/pdf/2107.02339.pdf) :+1:  :fire:  
-  
+
   we contribute a new multi-modal deep latent state-space model, trained using a mutual information lower-bound. 
+
   
-  
-  
+
   
 
  ​
 
 <a name="anchor-MI"></a>     
 
-+ **mutual information**: 
+## Mutual Information  
 
   :curly_loop: [MINE: Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) :+1::droplet:  :fire:     [f-gan & mine](https://zhuanlan.zhihu.com/p/151256189) :sweat_drops: 
 
@@ -554,37 +528,10 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 
 
-<a name="anchor-disrl"></a>   
-
-+ Distributional RL [Hao Liang, CUHK](https://rlseminar.github.io/2019/03/11/hao.html)  [slide](https://rlseminar.github.io/static/files/RL_seminars2019-0311hao_distributional_final.pdf) :sweat_drops: :sweat_drops:  ​ ​
-
-  :curly_loop: C51: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/pdf/1707.06887.pdf) :sweat_drops:  ​
-  
-  :curly_loop: [CS598 - Statistical rl - NanJiang](https://www.bilibili.com/video/av929950486) :sweat_drops: ​
-  
-  :curly_loop: [Information-Theoretic Considerations in Batch Reinforcement Learning](http://proceedings.mlr.press/v97/chen19e/chen19e.pdf) :volcano: :confused: :sweat_drops:   
-  
-   
-
-
-
-
-
-<a name="anchor-cl"></a>   
-
-+ Continual Learning 
-
-  :curly_loop: [Continual Learning with Deep Generative Replay](https://papers.nips.cc/paper/6892-continual-learning-with-deep-generative-replay.pdf)  :droplet: :no_mouth:  
-
-  :curly_loop: online learning; regret :sweat_drops:  ​
-
-
-
-
 
 <a name="anchor-DR"></a>  <a name="anchor-sim2real"></a>  
 
-+ DR (Domain Randomization) & sim2real 
+## DR (Domain Randomization) & sim2real 
 
   :curly_loop: Active Domain Randomization http://proceedings.mlr.press/v100/mehta20a/mehta20a.pdf :fire: :boom: :fire: 
 
@@ -619,20 +566,20 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
   :curly_loop: [SELF-SUPERVISED POLICY ADAPTATION DURING DEPLOYMENT](https://openreview.net/pdf?id=o_V-MjyyGV_) :+1: :fire:  
 
   Our work explores the use of self-supervision to allow the policy to continue training after deployment without using any rewards. 
-  
+
   :curly_loop: [SimGAN: Hybrid Simulator Identification for Domain Adaptation via Adversarial Reinforcement Learning](https://arxiv.org/pdf/2101.06005.pdf) :+1: 
-  
+
   identifying a hybrid physics simulator to match the simulated \tau to the ones from the target domain, using a learned discriminative loss to address the limitations associated with manual loss design. Our hybrid simulator combines nns and traditional physics simulaton to balance expressiveness and generalizability, and alleviates the need for a carefully selected parameter set in System ID. 
+
   
+
   
-  
-  
-  
+
    ​
 
 <a name="anchor-transfer"></a>  
 
-+ **Transfer**: Generalization & Adaption & **Dynamics** 
+## Transfer: Generalization & Adaption (Dynamics) 
 
   :curly_loop: [Automatic Data Augmentation for Generalization in Deep Reinforcement Learning](https://arxiv.org/pdf/2006.12862.pdf)  :punch: :+1:  ​  ​ ​
 
@@ -698,17 +645,7 @@ We show that by leveraging reference motion data, a single learning-based approa
 
 :curly_loop: [RMA: Rapid Motor Adaptation for Legged Robots](https://arxiv.org/pdf/2107.04034.pdf) :+1: 
 
-The robot achieves this high success rate despite never having seen unstable or sinking ground, obstructive vegetation or stairs during training. All deployment results are with the same policy without any simulation calibration, or real-world fine-tuning. 
-
- ​
-
- ​ ​
-
- ​
-
-  
-
-  
+The robot achieves this high success rate despite never having seen unstable or sinking ground, obstructive vegetation or stairs during training. All deployment results are with the same policy without any simulation calibration, or real-world fine-tuning.  ​ ​ ​
 
    ​
 
@@ -809,654 +746,9 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 
 
-
-
-<a name="anchor-causual"></a>  
-
-+ Causual inference  [ see more in <a href="#anchor-ood">OOD</a> & [inFERENCe's blog](https://www.inference.vc/causal-inference-3-counterfactuals/) ] 
-
-  :curly_loop: 
-
-+ reasoning 
-
-  :curly_loop: [CAUSAL DISCOVERY WITH REINFORCEMENT LEARNING](https://arxiv.org/pdf/1906.04477.pdf) :no_mouth:  ​
-
-  :curly_loop: [DEEP REINFORCEMENT LEARNING WITH CAUSALITYBASED INTRINSIC REWARD](https://openreview.net/pdf?id=30I4Azqc_oP) :+1: 
-
-  The proposed algorithm learns a graph to encode the environmental structure by calculating Average Causal Effect (ACE) between different categories of entities, and an intrinsic reward is given to encourage the agent to interact more with entities belonging to top-ranked categories, which significantly boosts policy learning. 
-  
-  :curly_loop: [Causal Confusion in Imitation Learning](https://arxiv.org/pdf/1905.11979.pdf) :+1: :droplet: 
-  
-  propose a solution to combat it through targeted interventions—either environment interaction or expert queries—to determine the correct causal model. 
-
-
-
-
-
- <a name="anchor-exploration"></a> 
-
-+ [Exploration Strategies in Deep Reinforcement Learning](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html) [[chinese]](https://mp.weixin.qq.com/s/FX-1IlIaFDLaQEVFN813jA) :sweat_drops: :fire: :fire:  :boom:   
-
-  :curly_loop: [VIME: Variational Information Maximizing Exploration](https://arxiv.org/pdf/1605.09674.pdf) :+1: :punch: :droplet:  ​ ​BNN 
-
-   the agent should take actions that maximize the reduction in uncertainty about the dynamics.
-
-  :curly_loop:  [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :+1: 
-
-  an ensemble of dynamics models and incentivize the agent to explore such that the disagreement of those ensembles is maximized. 
-
-  :curly_loop: [DORA THE EXPLORER: DIRECTED OUTREACHING REINFORCEMENT ACTION-SELECTION](https://arxiv.org/pdf/1804.04012.pdf) :fire: :+1: :droplet: 
-
-  We propose **E-values**, a generalization of counters that can be used to evaluate the propagating exploratory value over state-action trajectories.  [The Hebrew University of Jerusalem] :+1: 
-
-  :curly_loop: [EXPLORATION BY RANDOM NETWORK DISTILLATION](https://arxiv.org/pdf/1810.12894.pdf) :fire: :+1: [medium](https://medium.com/data-from-the-trenches/curiosity-driven-learning-through-random-network-distillation-488ffd8e5938)  :+1:  ​
-
-  based on random network distillation (**RND**) bonus 
-
-  :curly_loop: [Randomized Prior Functions for Deep Reinforcement Learning](https://arxiv.org/pdf/1806.03335.pdf) :fire: :boom: :sweat_drops:  ​ ​ ​
-
-  :curly_loop: [Large-Scale Study of Curiosity-Driven Learning](https://arxiv.org/pdf/1808.04355.pdf) :+1:  ​ 
-
-  :curly_loop: [NEVER GIVE UP: LEARNING DIRECTED EXPLORATION STRATEGIES](https://arxiv.org/pdf/2002.06038.pdf)  :punch: :+1: 
-
-  episodic memory based intrinsic reward using k-nearest neighbors;   self-supervised inverse dynamics model; Universal Value Function Approximators; different degrees of exploration/exploitation;  distributed RL; 
-
-  :curly_loop: [Self-Imitation Learning via TrajectoryConditioned Policy for Hard-Exploration Tasks](https://arxiv.org/pdf/1907.10247.pdf) :sweat_drops:  ​
-
-  :curly_loop: [Planning to Explore via Self-Supervised World Models](https://arxiv.org/pdf/2005.05960.pdf)  :fire: :fire: :+1:  ​ ​ ​Experiment is good!  
-
-  a self supervised reinforcement learning agent that tackles both these challenges through a new approach to self-supervised exploration and fast adaptation to new tasks, which need not be known during exploration.  **unlike prior methods which retrospectively compute the novelty of observations after the agent has already reached them**, our agent acts efficiently by leveraging planning to seek out expected future novelty.  
-
-  :curly_loop: [Efficient Exploration via State Marginal Matching](https://arxiv.org/pdf/1906.05274.pdf) :fire: :volcano: :droplet:  :boom:  ​
-
-  our work unifies prior exploration methods as performing approximate distribution matching, and explains how state distribution matching can be performed properly 
-
-  :curly_loop: hard exploration 
-
-  ​	[Provably efficient RL with Rich Observations via Latent State Decoding](https://arxiv.org/pdf/1901.09018.pdf) :confused:  ​
-
-  ​	[Provably Efficient Exploration for RL with Unsupervised Learning](https://arxiv.org/pdf/2003.06898.pdf) :confused:  ​
-
-  :curly_loop: [Learning latent state representation for speeding up exploration](https://arxiv.org/pdf/1905.12621.pdf) :+1:
-  
-  Prior experience on separate but related tasks help learn representations of the state which are effective at predicting instantaneous rewards. 
-  
-  :curly_loop: [Self-Imitation Learning](http://proceedings.mlr.press/v80/oh18b/oh18b.pdf) [reward shaping] :+1: :fire:  
-  
-  exploiting past good experiences can indirectly drive deep exploration.  we consider exploiting what the agent has experienced, but has not yet learned. Related work: Exploration; Episodic control; Experience replay; Experience replay for actor-critic; Connection between policy gradient and Q-learning; Learning from imperfect demonstrations.  
-  
-  :curly_loop: [Generative Adversarial Self-Imitation Learning](https://arxiv.org/pdf/1812.00950.pdf)  [reward shaping] :fire: ​
-  
-  GASIL focuses on reproducing past good trajectories, which can potentially make long-term credit assignment easier when rewards are sparse and delayed. 
-  
-  :curly_loop: [Diversity Actor-Critic: Sample-Aware Entropy Regularization for Sample-Efficient Exploration](https://arxiv.org/pdf/2006.01419.pdf) :fire: :droplet: 
-  
-  To take advantage of the previous sample distribution from the replay buffer for sample-efficient exploration, we propose sample-aware entropy regularization which maximizes the entropy of weighted sum of the policy action distribution and the sample action distribution from the replay buf. 
-  
-  :curly_loop: [LEARNING SELF-IMITATING DIVERSE POLICIES](https://arxiv.org/pdf/1805.10309.pdf) :+1: :fire: :fire:  ​
-  
-  We view each policy as a state-action visitation distribution and formulate policy optimization as a divergence minimization problem. We show that with Jensen-Shannon divergence, this divergence minimization problem can be reduced into a policy-gradient algorithm with shaped rewards learned from experience replays.  One approach to achieve better exploration in challenging cases like above is to simultaneously learn *multiple diverse policies* and enforce them to explore different parts of the high dimensional space.  
-  
-  :curly_loop: [Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016](https://arxiv.org/pdf/1608.04471.pdf) 
-  
-  :curly_loop: [ADVERSARIALLY GUIDED ACTOR-CRITIC](https://arxiv.org/pdf/2102.04376.pdf) :+1: :fire: :fire: 
-  
-  While the adversary mimics the actor by minimizing the KL-divergence between their respective action distributions, the actor, in addition to learning to solve the task, tries to differentiate itself from the adversary predictions. 
-  
-  :curly_loop: [Diversity-Driven Exploration Strategy for Deep Reinforcement Learning](https://arxiv.org/pdf/1802.04564.pdf) :+1: :fire:  ​ ​
-  
-  adding a distance measure regularization to the loss function, 
-  
-  :curly_loop: [Provably Efficient Maximum Entropy Exploration](https://arxiv.org/pdf/1812.02690.pdf) :confused:  
-  
-  :curly_loop: [Reward-Free Exploration for Reinforcement Learning](http://proceedings.mlr.press/v119/jin20d/jin20d.pdf) :+1: :fire: :boom: 
-  
-  *How can we efficiently explore an environment without using any reward information?*  In the exploration phase, the agent first collects trajectories from an MDP M without a pre-specified reward function. After exploration, it is tasked with computing near-optimal policies under for M for a collection of given reward functions. 
-  
-  :curly_loop: [Rethinking Exploration for Sample-Efficient Policy Learning](https://arxiv.org/pdf/2101.09458.pdf) :+1:  ​
-  
-  BBE: bias with finite samples, slow adaptation to decaying bonuses, and lack of optimism on unseen transitions ---> UFO, produces policies that are Unbiased with finite samples, Fast-adapting as the exploration bonus changes, and Optimistic with respect to new transitions. 
-  
-  :curly_loop: [Provably Efficient Exploration in Policy Optimization](http://proceedings.mlr.press/v119/cai20d/cai20d.pdf) :confused: 
-  
-   design a provably efficient policy optimization algorithm that incorporates exploration. 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-   ​ ​ ​
-  
-   ​ ​ ​
-  
-  
-  
-   ​
-  
-  
-
-<a name="anchor-offline "></a> 
-
-+ Offline RL 
-
-  :curly_loop: [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/pdf/2005.01643.pdf)​  :boom: :boom:  ​ :droplet:  ​
-
-  Offline RL with dynamic programming: distributional shift; policy constraints; uncertainty estimation; conservative Q-learning and Pessimistic Value-function; 
-
-  https://danieltakeshi.github.io/2020/06/28/offline-rl/ :sweat_drops: 
-
-  https://ai.googleblog.com/2020/08/tackling-open-challenges-in-offline.html :sweat_drops: 
-
-  https://sites.google.com/view/offlinerltutorial-neurips2020/home :sweat_drops: 
-
-  :curly_loop: [OPAL: OFFLINE PRIMITIVE DISCOVERY FOR ACCELERATING OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.13611.pdf) :boom:  when presented with offline data composed of a variety of behaviors, an effective way to leverage this data is to extract a continuous space of recurring and temporally extended primitive behaviors before using these primitives for downstream task learning. OFFLINE unsupervised RL. 
-
-  :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :+1: :volcano:  :boom: 
-
-  :curly_loop: [BENCHMARKS FOR DEEP OFF-POLICY EVALUATION](https://openreview.net/pdf?id=kWSeGEeHvF8) :+1: 
-
-  :curly_loop: [KEEP DOING WHAT WORKED: BEHAVIOR MODELLING PRIORS FOR OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2002.08396.pdf) :+1: :fire: :boom: 
-
-  It admits the use of data generated by arbitrary behavior policies and uses a learned prior – the advantage-weighted behavior model (ABM) – to bias the RL policy towards actions that have previously been executed and are likely to be successful on the new task.    
-
-  extrapolation or bootstrapping errors:  (Fujimoto et al., 2018; Kumar et al., 2019) 
-
-  :curly_loop: [Off-Policy Deep Reinforcement Learning without Exploration](https://arxiv.org/pdf/1812.02900.pdf) :fire: :boom: :volcano:  ​ ​ ​
-
-  We introduce a novel class of off-policy algorithms, batch-constrained reinforcement learning, which restricts the action space in order to force the agent towards behaving close to on-policy with respect to a subset of the given data. 
-
-  :curly_loop: [Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction](https://arxiv.org/pdf/1906.00949.pdf) :fire: :boom: :droplet:  ​
-
-  We identify bootstrapping error as a key source of instability in current methods. Bootstrapping error is due to bootstrapping from actions that lie outside of the training data distribution, and it accumulates via the Bellman backup operator.  
-
-  :curly_loop: [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2006.04779.pdf) :+1: :fire: :volcano: :sweat_drops:  ​ ​
-
-  conservative Q-learning (CQL), which aims to address these limitations by learning a conservative Q-function such that the expected value of a policy under this Q-function lower-bounds its true value. 
-
-  :curly_loop: [S4RL: Surprisingly Simple Self-Supervision for Offline Reinforcement Learning](https://arxiv.org/pdf/2103.06326.pdf) :no_mouth: 
-
-   utilizes data augmentations from states to learn value functions that are better at generalizing and extrapolating when deployed in the environment. 
-
-  :curly_loop: [Actionable Models: Unsupervised Offline Reinforcement Learning of Robotic Skills](https://arxiv.org/pdf/2104.07749.pdf) :+1: :fire: :boom: 
-
-  learning a functional understanding of the environment by learning to reach any goal state in a given dataset. We employ goal-conditioned Qlearning with hindsight relabeling and develop several techniques that enable training in a particularly challenging offline setting. 
-
-  :curly_loop: [Behavior Regularized Offline Reinforcement Learning](https://arxiv.org/pdf/1911.11361.pdf) :fire:  :boom: :+1: 
-
-  we introduce a general framework, behavior regularized actor critic (BRAC), to empirically evaluate recently proposed methods as well as a number of simple baselines across a variety of offline continuous control tasks. 
-
-  :curly_loop: [Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](https://arxiv.org/pdf/2107.00591.pdf) :no_mouth:  
-
-  we observe that state-action distribution shift may lead to severe bootstrap error during fine-tuning, which destroys the good initial policy obtained via offline RL. 
-
-  :curly_loop: [Offline Meta-Reinforcement Learning with Online Self-Supervision](https://arxiv.org/pdf/2107.03974.pdf) :+1: :fire: 
-
-  Unlike the online setting, the adaptation and exploration strategies cannot effectively adapt to each other, resulting in poor performance. we propose a hybrid offline meta-RL algorithm, which uses offline data with rewards to meta-train an adaptive policy, and then collects additional unsupervised online data, without any ground truth reward labels, to bridge this distribution shift problem. 
-
-  :curly_loop: [Offline Meta-Reinforcement Learning with Advantage Weighting](http://proceedings.mlr.press/v139/mitchell21a/mitchell21a.pdf) :fire:  ​
-
-  :curly_loop: [AWAC: Accelerating Online Reinforcement Learning with Offline Datasets](https://arxiv.org/pdf/2006.09359.pdf) :+1: :fire: :volcano: 
-
-  we systematically analyze why this problem (offline + online) is so challenging, and propose an algorithm that combines sampleefficient dynamic programming with maximum likelihood policy updates, providing a simple and effective framework that is able to leverage large amounts of offline data and then quickly perform online fine-tuning of RL policies. 
-
-  :curly_loop: [Critic Regularized Regression](https://arxiv.org/pdf/2006.15134.pdf) :+1: :fire: :volcano:  ​ ​
-
-  CRR: Our alg. can be seen as a form of filtered behavioral cloning where data is selected based on information contained in the policy’s Q-fun. we do not rely on observed returns for adv. estimation. 
-
-  :curly_loop: [Exponentially Weighted Imitation Learning for Batched Historical Data](https://ai.tencent.com/ailab/media/publications/exponentially-weighted-imitation.pdf) :+1: :fire: :volcano:  ​ ​
-
-  we propose a monotonic advantage reweighted imitation learning strategy that is applicable to problems with complex nonlinear function approximation and works well with hybrid (discrete and continuous) action space. 
-
-  :curly_loop: [BAIL: Best-Action Imitation Learning for Batch Deep Reinforcement Learning](https://arxiv.org/pdf/1910.12179.pdf) 
-
-  :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) 
-
-  
-
-  
-
-   ​ ​ ​
-
-  
-
-   ​ ​
-
-  
-
-  
-
-  
-
-   ​ ​
-
-  
-
-  
-
-   ​
-
-+    
-
-
-
-<a name="anchor-pareto"></a> 
-
-+ Pareto 
-
-  :curly_loop: [Pareto Multi-Task Learning](https://arxiv.org/pdf/1912.12854.pdf) :boom: :boom: :fire: :droplet: 
-
-  we proposed a novel Pareto Multi-Task Learning (Pareto MTL) algorithm to generate a set of well-distributed Pareto solutions with different trade-offs among tasks for a given multi-task learning (MTL) problem. 
-
-  :curly_loop: [Efficient Continuous Pareto Exploration in Multi-Task Learning](https://arxiv.org/pdf/2006.16434.pdf) [zhihu](https://zhuanlan.zhihu.com/p/159000150) :boom: :fire: :+1:  ​ ​ ​
-
-  :curly_loop: [Prediction-Guided Multi-Objective Reinforcement Learning for Continuous Robot Control](https://proceedings.icml.cc/static/paper_files/icml/2020/1114-Paper.pdf) :sweat_drops:  ​
-
-  
-
-+ BNN 
-
-  :curly_loop: [Auto-Encoding Variational Bayes](https://www.ics.uci.edu/~welling/publications/papers/AEVB_ICLR14.pdf) :+1:  ​
-  
-  :curly_loop: [Unlabelled Data Improves Bayesian Uncertainty Calibration under Covariate Shift](http://proceedings.mlr.press/v119/chan20a/chan20a.pdf)  :+1: :fire: 
-  
-  we develop an approximate Bayesian inference scheme based on posterior regularisation, wherein unlabelled target data are used as “pseudo-labels” of model confidence that are used to regularise the model’s loss on labelled source data. 
-  
-  :curly_loop: [Understanding Uncertainty in Bayesian Deep Learning](https://arxiv.org/pdf/2106.13055.pdf) :sweat_drops:  ​
-
-
-
-
-
-<a name="anchor-supervised"></a>  <a name="anchor-goalcon"></a>  
-
-+ supervised RL & goal-conditioned policy 
-
-  :curly_loop: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: iclr2020  iclr2021 
-
-  an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
-
-  :curly_loop: [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) :+1: :fire: conditioning on the reward rather than goal state 
-
-  Non-expert trajectories collected from suboptimal policies can be viewed as optimal supervision, not for maximizing the reward, but for matching the reward of the given trajectory. 
-
-  :curly_loop: [Search on the Replay Buffer: Bridging Planning and Reinforcement Learning](https://arxiv.org/pdf/1906.05253.pdf) :fire: :+1:  ​ ​
-
-  combines the strengths of planning and reinforcement learning 
-
-  :curly_loop: [DYNAMICAL DISTANCE LEARNING FOR SEMI-SUPERVISED AND UNSUPERVISED SKILL DISCOVERY](https://arxiv.org/pdf/1907.08225.pdf) 
-
-  dynamical distances: a measure of the expected number of time steps to reach a given goal state from any other states 
-
-  :curly_loop: [Contextual Imagined Goals for Self-Supervised Robotic Learning](http://proceedings.mlr.press/v100/nair20a/nair20a.pdf) :+1: ​​  ​ ​
-
-  using the context-conditioned generative model to set goals that are appropriate to the current scene. 
-
-  :curly_loop: [Reverse Curriculum Generation for Reinforcement Learning](https://arxiv.org/pdf/1707.05300.pdf) :+1: :fire:  ​ 
-
-  **Finding the optimal start-state distribution**. Our method automatically generates a curriculum of start states that adapts to the agent’s performance, leading to efficient training on goal-oriented tasks. 
-
-  :curly_loop: [Goal-Aware Prediction: Learning to Model What Matters](https://proceedings.icml.cc/static/paper_files/icml/2020/2981-Paper.pdf) :+1: :fire: :boom: Introduction is good! 
-
-  we propose to direct prediction towards task relevant information, enabling the model to be aware of the current task and **encouraging it to only model relevant quantities of the state space**, resulting in **a learning objective that more closely matches the downstream task**.  
-
-  :curly_loop: [C-LEARNING: LEARNING TO ACHIEVE GOALS VIA RECURSIVE CLASSIFICATION](https://openreview.net/pdf?id=tc5qisoB-C) :+1: :sweat_drops: :volcano: :boom:   
-
-  This Q-function is not useful for predicting or controlling the future state distribution. Fundamentally, this problem arises because the relationship between the reward function, the Q function, and the future state distribution in prior work remains unclear.  :ghost: [DIAYN?] 
-
-  on-policy ---> off-policy ---> goal-conditioned. 
-
-  :curly_loop: [LEARNING TO UNDERSTAND GOAL SPECIFICATIONS BY MODELLING REWARD](https://openreview.net/pdf?id=H1xsSjC9Ym) :+1: :+1:  ​
-
-  *ADVERSARIAL GOAL-INDUCED LEARNING FROM EXAMPLES* 
-
-  A framework within which instruction-conditional RL agents are trained using rewards obtained not from the environment, but from reward models which are jointly trained from expert examples. 
-
-  :curly_loop: [Intrinsically Motivated Goal-Conditioned Reinforcement Learning: a Short Survey](https://arxiv.org/pdf/2012.09830.pdf) :volcano: :volcano: :droplet: 
-
-  This paper proposes a typology of these methods **[intrinsically motivated processes (IMP) (knowledge-based IMG + competence-based IMP); goal-conditioned RL agents]** at the intersection of deep rl and developmental approaches, surveys recent approaches and discusses future avenues.    
-
-  SEE: Language as a Cognitive Tool to Imagine Goals in Curiosity-Driven Exploration  
-
-  :curly_loop: [Self-supervised Learning of Distance Functions for Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/1907.02998.pdf) 
-
-  :curly_loop: [PARROT: DATA-DRIVEN BEHAVIORAL PRIORS FOR REINFORCEMENT LEARNING](https://openreview.net/pdf?id=Ysuv-WOFeKR) :+1: 
-
-  We propose a method for pre-training behavioral priors that can capture complex input-output relationships observed in successful trials from a wide range of previously seen tasks. 
-
-   :ghost: see model-based <a href="#anchor-modelbasedddl">ddl</a>  
-
-  :curly_loop: [LEARNING WHAT TO DO BY SIMULATING THE PAST](https://openreview.net/pdf?id=kBVJ2NtiY-) :+1:  ​
-  
-  we propose the Deep Reward Learning by Simulating the Past (Deep RLSP) algorithm. 
-  
-  :curly_loop: [Weakly-Supervised Reinforcement Learning for Controllable Behavior](https://arxiv.org/pdf/2004.02860.pdf) :+1: 
-  
-  two phase approach that learns a disentangled representation, and then uses it to guide exploration, propose goals, and inform a distance metric. 
-  
-  :curly_loop: [Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classification](https://arxiv.org/pdf/2103.12656.pdf) :volcano: :boom: 
-  
-  we derive a method based on recursive classification that eschews auxiliary reward functions and instead directly learns a value function from transitions and successful outcomes. 
-  
-  :curly_loop: [Outcome-Driven Reinforcement Learning via Variational Inference](https://arxiv.org/pdf/2104.10190.pdf) :+1: :fire: :droplet: 
-  
-  by framing the problem of achieving desired outcomes as variational inference, we can derive an off-policy RL algorithm, a reward function learnable from environment interactions, and a novel Bellman backup that contains a state–action dependent dynamic discount factor for the reward and bootstrap. 
-  
-  :curly_loop: [Discovering Diverse Solutions in Deep Reinforcement Learning](https://arxiv.org/pdf/2103.07084.pdf) :+1:  ​
-  
-  learn infinitely many solutions by training a policy conditioned on a continuous or discrete low-dimensional latent variable. 
-  
-  :curly_loop: [Goal-Conditioned Reinforcement Learning with Imagined Subgoals](https://arxiv.org/pdf/2107.00541.pdf) :+1: :fire: :volcano:  ​ ​ ​
-  
-  This high-level policy predicts intermediate states halfway to the goal using the value function as a reachability metric. We don’t require the policy to reach these subgoals explicitly. Instead, we use them to define a prior policy, and incorporate this prior into a KL-constrained pi scheme to speed up and reg. 
-  
-  :curly_loop: [Discovering Generalizable Skills via Automated Generation of Diverse Tasks](https://arxiv.org/pdf/2106.13935.pdf) :no_mouth: 
-  
-  As opposed to prior work on unsupervised discovery of skills which incentivizes the skills to produce different outcomes in the same environment, our method pairs each skill with a unique task produced by a trainable task generator. Procedural content generation (PCG). 
-  
-   ​
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
-<a name="anchor-selfpaced"></a>   <a name="anchor-curriculum"></a> 
-
-+ self-paced & curriculum RL 
-
-  :curly_loop: [Self-Paced Contextual Reinforcement Learning](https://arxiv.org/pdf/1910.02826.pdf) :volcano: :sweat_drops:  ​ ​
-
-  We introduce a novel relative entropy reinforcement learning algorithm that gives the agent the freedom to control the intermediate task distribution, allowing for its gradual progression towards the target context distribution.  
-
-  :curly_loop: [Self-Paced Deep Reinforcement Learning](https://arxiv.org/pdf/2004.11812.pdf) :volcano: :sweat_drops:  ​ ​
-
-  In this paper, we propose an answer by interpreting the curriculum generation as an inference problem, where distributions over tasks are progressively learned to approach the target task. This approach leads to an automatic curriculum generation, whose pace is controlled by the agent, with solid theoretical motivation and easily integrated with deep RL algorithms. 
-
-  :curly_loop:[Learning with AMIGO: Adversarially Motivated Intrinsic Goals](https://arxiv.org/pdf/2006.12122.pdf) :+1:   [Lil'Log-Curriculum](https://lilianweng.github.io/lil-log/2020/01/29/curriculum-for-reinforcement-learning.html) :+1:  ​
-
-  **related work (curriculum) is quite good!**   (Intrinsic motivation + Curriculum learning) 
-
-
-
-
-
-<a name="anchor-modelbasedrl"></a>  
-
-+ Model-based RL & world models 
-
-  :curly_loop: [Learning Latent Dynamics for Planning from Pixels](http://proceedings.mlr.press/v97/hafner19a/hafner19a.pdf) ​​ :sweat_drops: :sweat_drops:  ​
-
-  :curly_loop: [DREAM TO CONTROL: LEARNING BEHAVIORS BY LATENT IMAGINATION](https://arxiv.org/pdf/1912.01603.pdf) :sweat_drops:  ​
-
-  :curly_loop: [Model-based Policy Optimization with Unsupervised Model Adaptation](https://arxiv.org/pdf/2010.09546.pdf) 
-
-  :curly_loop: [CONTRASTIVE LEARNING OF STRUCTURED WORLD MODELS](https://arxiv.org/pdf/1911.12247.pdf) :fire: :volcano:  ​ ​
-
-  :curly_loop: [Learning Predictive Models From Observation and Interaction](https://arxiv.org/pdf/1912.12773.pdf) :fire:  ​related work is good! 
-
-  By combining interaction and observation data, our model is able to learn to generate predictions for complex tasks and new environments without costly expert demonstrations.  
-
-  :curly_loop: [medium](https://jonathan-hui.medium.com/rl-model-based-reinforcement-learning-3c2b6f0aa323)   [Tutorial on Model-Based Methods in Reinforcement Learning (icml2020)](https://sites.google.com/view/mbrl-tutorial)  :sweat_drops:  ​
-
-  [rail](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/f17docs/lecture_9_model_based_rl.pdf)  [Model-Based Reinforcement Learning: Theory and Practice](https://bair.berkeley.edu/blog/2019/12/12/mbpo/) :sweat_drops: ​​  ​ ​
-
-  :curly_loop: [What can I do here? A Theory of Affordances in Reinforcement Learning](http://proceedings.mlr.press/v119/khetarpal20a/khetarpal20a.pdf) :+1: :droplet:   
-
-  “affordances” to describe the fact that certain states enable an agent to do certain actions, in the context of embodied agents. In this paper, we develop a theory of affordances for agents who learn and plan in Markov Decision Processes. 
-
-  :curly_loop: [When to Trust Your Model: Model-Based Policy Optimization](https://arxiv.org/pdf/1906.08253.pdf) :fire: :volcano: :droplet: :boom:  ​
-
-   we study the role of model usage in policy optimization both theoretically and empirically. 
-
-  :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :fire:  :volcano: :boom: 
-  
-  we propose a novel concept of deployment efficiency, measuring the number of distinct data-collection policies that are used during policy learning.  ​
-  
-  :curly_loop: [CONTROL-AWARE REPRESENTATIONS FOR MODELBASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=dgd4EJqsbW5) :sweat_drops: 
-  
-  :curly_loop: [Context-aware Dynamics Model for Generalization in Model-Based Reinforcement Learning](https://arxiv.org/pdf/2005.06800.pdf) :+1: :fire:  ​ ​
-  
-   The intuition is that the true context of the underlying MDP can be captured from recent experiences. 
-  
-  :curly_loop: [Optimism is All You Need: Model-Based Imitation Learning From Observation Alone](https://arxiv.org/pdf/2102.10769.pdf) :sweat_drops:  ​
-  
-  :curly_loop: [PlanGAN: Model-based Planning With Sparse Rewards and Multiple Goals](https://proceedings.neurips.cc/paper/2020/file/6101903146e4bbf4999c449d78441606-Paper.pdf) :+1: 
-  
-  train an ensemble of conditional generative models (GANs) to generate plausible trajectories that lead the agent from its current state towards a specified goal. We then combine these imagined trajectories into a novel planning algorithm in order to achieve the desired goal as efficiently as possible.  
-  
-  :curly_loop: [MODEL-ENSEMBLE TRUST-REGION POLICY OPTIMIZATION](https://arxiv.org/pdf/1802.10592.pdf) :+1:  
-  
-  we propose to use an ensemble of models to maintain the model uncertainty and regularize the learning process. 
-  
-  :curly_loop: [Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation](https://arxiv.org/pdf/2107.01825.pdf) :no_mouth: 
-  
-  MEEE, a model-ensemble method that consists of optimistic exploration and weighted exploitation.  
-  
-  
-  
-   ​
-  
-  
-  
-  
-  
-  :o: dynamic distance learning   <a name="anchor-modelbasedddl"></a>  
-  
-  :curly_loop: [MODEL-BASED VISUAL PLANNING WITH SELF-SUPERVISED FUNCTIONAL DISTANCES](https://openreview.net/pdf?id=UcoXdfrORC) :+1: 
-  
-   We present a self-supervised method for model-based visual goal reaching, which uses both a visual dynamics model as well as a dynamical distance function learned using model-free rl. Related work! 
-  
-  :o: model-based offline 
-  
-  :curly_loop: [Representation Balancing MDPs for Off-Policy Policy Evaluation](https://arxiv.org/pdf/1805.09044.pdf) :droplet:  ​
-  
-  :curly_loop: [REPRESENTATION BALANCING OFFLINE MODEL-BASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=QpNz8r_Ri2Y) :droplet:  ​
-  
-  
-
-
-
-<a name="anchor-trainingrl"></a>  
-
-+ Training RL & Just Fast & Embedding? & OPE(DICE) 
-
-  :curly_loop: [Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning](https://arxiv.org/pdf/1711.06782.pdf) :no_mouth:  ​
-
-  :curly_loop: [Predictive Information Accelerates Learning in RL](https://arxiv.org/pdf/2007.12401.pdf) :+1:  ​
-
-  We train Soft Actor-Critic (SAC) agents from pixels with an auxiliary task that learns a compressed representation of the predictive information of the RL environment dynamics using a contrastive version of the Conditional Entropy Bottleneck (CEB) objective. 
-
-  :curly_loop: [Speeding up Reinforcement Learning with Learned Models](https://upcommons.upc.edu/bitstream/handle/2117/175740/143210.pdf) :sweat_drops:  ​
-
-  :curly_loop: [DYNAMICS-AWARE EMBEDDINGS](https://arxiv.org/pdf/1908.09357.pdf) :+1:  ​
-
-  A forward prediction objective for simultaneously learning embeddings of states and action sequences. 
-
-  :curly_loop: [DIVIDE-AND-CONQUER REINFORCEMENT LEARNING](https://arxiv.org/pdf/1711.09874.pdf) :+1: 
-
-  we develop a novel algorithm that instead partitions the initial state space into “slices”, and optimizes an ensemble of policies, each on a different slice. 
-
-  :curly_loop:  [Continual Learning of Control Primitives: Skill Discovery via Reset-Games](https://arxiv.org/pdf/2011.05286.pdf) :+1: :fire:  
-
-  We do this by exploiting the insight that the need to “reset" an agent to a broad set of initial states for a learning task provides a natural setting to learn a diverse set of “reset-skills".  
-
-  :curly_loop: [DIFFERENTIABLE TRUST REGION LAYERS FOR DEEP REINFORCEMENT LEARNING](https://openreview.net/pdf?id=qYZD-AO1Vn) :+1: :droplet: 
-
-  We derive trust region projections based on the Kullback-Leibler divergence, the Wasserstein L2 distance, and the Frobenius norm for Gaussian distributions. Related work is good! 
-
-  :curly_loop: [BENCHMARKS FOR DEEP OFF-POLICY EVALUATION](https://openreview.net/pdf?id=kWSeGEeHvF8)  :+1: :fire: :droplet: 
-
-  DOPE is designed to measure the performance of **OPE** methods by 1) evaluating on challenging control tasks with properties known to be difficult for OPE methods, but which occur in real-world scenarios, 2) evaluating across a range of policies with different values, to directly measure performance on policy evaluation, ranking and selection, and 3) evaluating in ideal and adversarial settings in terms of dataset coverage and support.  
-
-  :curly_loop: [Trajectory-Based Off-Policy Deep Reinforcement Learning](https://arxiv.org/pdf/1905.05710.pdf) :+1: :fire: :droplet:  ​
-
-  Incorporation of previous rollouts via importance sampling greatly improves data-efficiency, whilst stochastic optimization schemes facilitate the escape from local optima.  
-
-  :curly_loop: [DualDICE: Behavior-Agnostic Estimation of Discounted Stationary Distribution Corrections](https://arxiv.org/pdf/1906.04733.pdf) :fire: :volcano: :boom: 
-  
-  Off-Policy Policy Evaluation (OPE) --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
-  
-  :curly_loop: [AlgaeDICE: Policy Gradient from Arbitrary Experience](https://arxiv.org/pdf/1912.02074.pdf) :+1: :volcano: :droplet:  ​ ​ ​
-  
-  We introduce a new formulation of max-return optimization that allows the problem to be re-expressed by an expectation over an arbitrary behavior-agnostic and off-policy data distribution. ALgorithm for policy Gradient from Arbitrary Experience via DICE (AlgaeDICE). 
-  
-  :curly_loop: [GENDICE: GENERALIZED OFFLINE ESTIMATION OF STATIONARY VALUES](https://arxiv.org/pdf/2002.09072.pdf) :+1: :fire: :fire: ​​ ​ ​
-  
-  Our approach is based on estimating a ratio that corrects for the discrepancy between the stationary and empirical distributions, derived from fundamental properties of the stationary distribution, and exploiting constraint reformulations based on variational divergence minimization. 
-  
-  :curly_loop: [GradientDICE: Rethinking Generalized Offline Estimation of Stationary Values](http://proceedings.mlr.press/v119/zhang20r/zhang20r.pdf) :confused:  ​
-  
-  :curly_loop: [Breaking the Curse of Horizon: Infinite-Horizon Off-Policy Estimation](https://papers.nips.cc/paper/2018/file/dda04f9d634145a9c68d5dfe53b21272-Paper.pdf) :+1: :fire: :droplet:  ​
-  
-  The key idea is to apply importance sampling on the average visitation distribution of single steps of state-action pairs, instead of the much higher dimensional distribution of whole trajectories.   
-  
-  :curly_loop: [Off-Policy Evaluation via the Regularized Lagrangian](https://arxiv.org/pdf/2007.03438.pdf) :fire: :confused: :droplet:  ​
-  
-  we unify these estimators (DICE) as regularized Lagrangians of the same linear program. 
-  
-  :curly_loop: [Minimax Weight and Q-Function Learning for Off-Policy Evaluation](http://proceedings.mlr.press/v119/uehara20a/uehara20a.pdf) :fire: :droplet:  ​ ​
-  
-  Minimax Weight Learning (MWL); Minimax Q-Function Learning. Doubly Robust Extension and Sample Complexity of MWL & MQL. 
-  
-  :curly_loop: [Minimax Value Interval for Off-Policy Evaluation and Policy Optimization](https://arxiv.org/pdf/2002.02081.pdf) :+1: :fire: :volcano: :droplet: 
-  
-  we derive the minimax value intervals by slightly altering the derivation of two recent methods [1], one of “weight-learning” style (Sec. 4.1) and one of “value-learning” style (Sec. 4.2), and show that under certain conditions, they merge into a single unified value interval whose validity only relies on either Q or W being well-specified (Sec. 4.3).  
-  
-  :curly_loop: [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/pdf/2001.01866.pdf) :fire: :volcano: :droplet:  ​ ​ ​
-  
-  *Policy Evaluation*: LP form of Q ---> policy evaluation via largrangian ---> change the problem before applying duality (constant function, f-divergence, fenchel-rockafellar duality);  *Policy Optimization*: policy gradient ---> offline policy gradient via the lagrangian ---> fenchel-rockafellar duality for the regularized optimization (regularization with the kl-d) ---> imitation learning;  *RL with the LP form of V*: max-likelihood policy learning ---> policy evaluation with the V-lp; *Undiscounted Settings* 
-  
-  :curly_loop: [ADVANTAGE-WEIGHTED REGRESSION: SIMPLE AND SCALABLE OFF-POLICY REINFORCEMENT LEARNING](https://arxiv.org/pdf/1910.00177.pdf) :+1: :fire:  :boom: 
-  
-  Our proposed approach, which we refer to as advantage-weighted regression (AWR), consists of two standard supervised learning steps: one to regress onto target values for a value function, and another to regress onto weighted target actions for the policy. 
-  
-  :curly_loop: [Overcoming Exploration in Reinforcement Learning with Demonstrations](https://arxiv.org/pdf/1709.10089.pdf) :fire: 
-  
-  We present a system to utilize demonstrations along with reinforcement learning to solve complicated multi-step tasks. Q-Filter. BC. 
-  
-  :curly_loop: [Fitted Q-iteration by Advantage Weighted Regression](https://papers.nips.cc/paper/2008/file/f79921bbae40a577928b76d2fc3edc2a-Paper.pdf) :+1:  :fire:  :fire:  ​
-  
-  we show that by using a soft-greedy action selection the policy improvement step used in FQI can be simplified to an inexpensive advantage weighted regression. <--- greedy action selection in continuous. 
-  
-  :curly_loop: [Q-Value Weighted Regression: Reinforcement Learning with Limited Data](https://arxiv.org/pdf/2102.06782.pdf) :fire:  :volcano: 
-  
-  QWR: We replace the value function critic of AWR with a Q-value function.  AWR --> QWR. 
-  
-   ​
-  
-   ​
-  
-   ​ ​
-  
-  
-  
-  
-  
-  :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
-  
-  Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. 
-  
-  :curly_loop: [Reinforcement Learning without Ground-Truth State](https://arxiv.org/pdf/1905.07866.pdf) :+1: 
-  
-  relabeling the original goal with the achieved goal to obtain positive rewards  
-  
-  :curly_loop: [Ecological Reinforcement Learning](https://arxiv.org/pdf/2006.12478.pdf) :+1: 
-  
-  :curly_loop: [Control Frequency Adaptation via Action Persistence in Batch Reinforcement Learning](https://icml.cc/virtual/2020/poster/6146) :+1:   ​
-  
-  :curly_loop: [Taylor Expansion Policy Optimization](http://proceedings.mlr.press/v119/tang20d/tang20d.pdf) :+1: :boom: :volcano: :droplet:  ​
-  
-  a policy optimization formalism that generalizes prior work (e.g., TRPO) as a firstorder special case. We also show that Taylor expansions intimately relate to off-policy evaluation. 
-  
-  :curly_loop: [Policy Information Capacity: Information-Theoretic Measure for Task Complexity in Deep Reinforcement Learning](https://arxiv.org/pdf/2103.12726.pdf) :+1:  ​
-  
-  Policy Information Capacity: Information-Theoretic Measure for Task Complexity in Deep Reinforcement Learning. 
-  
-  :curly_loop: [Deep Reinforcement Learning with Robust and Smooth Policy](http://proceedings.mlr.press/v119/shen20b/shen20b.pdf) :+1:  
-  
-  the policy is trained with smoothness-inducing regularization. Such regularization effectively constrains the search space, and enforces smoothness in the learned policy. 
-  
-  :curly_loop: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  
-  
-  :curly_loop: [Maximum Entropy RL (Provably) Solves Some Robust RL Problems](https://arxiv.org/pdf/2103.06257.pdf) 
-  
-  
-  
-  
-  
-  
-  
-  :curly_loop: [Regularized Policies are Reward Robust](http://proceedings.mlr.press/v130/husain21a/husain21a.pdf) :fire: :droplet:  ​
-  
-  we find that the optimal policy found by a regularized objective is precisely an optimal policy of a reinforcement learning problem under a worst-case adversarial reward. 
-  
-  :curly_loop: [Reinforcement Learning as One Big Sequence Modeling Problem](https://people.eecs.berkeley.edu/~janner/trajectory-transformer/files/trajectory-transformer.pdf) :+1: :fire: :droplet:  ​ ​ ​
-  
-  Addressing RL as a sequence modeling problem significantly simplifies a range of design decisions: we no longer require separate behavior policy constraints, as is common in prior work on offline model-free RL, and we no longer require ensembles or other epistemic uncertainty estimators, as is common in prior work on model-based RL. 
-  
-  :curly_loop: [On-Policy Deep Reinforcement Learning for the Average-Reward Criterion](https://arxiv.org/pdf/2106.07329.pdf) :+1: :fire: 
-  
-  By addressing the average-reward criterion directly, we then derive a novel bound which depends on the average divergence between the two policies and Kemeny’s constant. 
-  
-  :curly_loop: [Average-Reward Reinforcement Learning with Trust Region Methods](https://arxiv.org/pdf/2106.03442.pdf) :+1:  :fire: 
-  
-  Firstly, we develop a unified trust region theory with discounted and average criteria. With the average criterion, a novel performance bound within the trust region is derived with the Perturbation Analysis (PA) theory. Secondly, we propose a practical algorithm named Average Policy Optimization (APO), which improves the value estimation with a novel technique named Average Value Constraint. 
-  
-  :curly_loop: [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) :+1:  :fire: :boom:  ​ ​
-  
-  :curly_loop: [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/pdf/1604.06778.pdf) :+1: :fire:  ​ ​
-  
-  :curly_loop: [P3O: Policy-on Policy-off Policy Optimization](http://proceedings.mlr.press/v115/fakoor20a/fakoor20a.pdf) :fire: 
-  
-  This paper develops a simple alg. named P3O that interleaves offpolicy updates with on-policy updates.  
-  
-  
-  
-  
-  
-  
-  
-   ​ ​ ​
-  
-  
-  
-   ​ ​
-  
-  
-  
-   ​
-  
-   ​
-  
-   ​ ​
-  
-  
-  
-  
-  
-  
-  
-   ​
-  
-  
-
-
-
 <a name="anchor-irl"></a>   
 
-:volcano: IRL 
+## IRL 
 
 + [Inverse RL & Apprenticeship Learning](https://thegradient.pub/learning-from-humans-what-is-inverse-reinforcement-learning/#:~:text=Inverse%20reinforcement%20learning%20(IRL)%2C,the%20task%20of%20autonomous%20driving.), PPT-levine([1](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/f17docs/lecture_12_irl.pdf):+1: [2](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa12/slides/inverseRL.pdf)), Medium([1](https://towardsdatascience.com/inverse-reinforcement-learning-6453b7cdc90d) [2](https://medium.com/@jonathan_hui/rl-inverse-reinforcement-learning-56c739acfb5a)), 
 
@@ -1493,12 +785,6 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Inverse Constrained Reinforcement Learning](https://arxiv.org/pdf/2011.09999.pdf) :fire:  :boom:  
 
   The main task (“do this”) is often quite easy to encode in the form of a simple nominal reward function. In this work, we focus on learning the constraint part (“do not do that”) from provided expert demonstrations and using it in conjunction with the nominal reward function to train RL agents. 
-
-  
-
-  
-
-  
 
   
 
@@ -1575,62 +861,349 @@ MMI can be problematic because it picks up spurious correlations between the inp
   :curly_loop: [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
 
   Recent attempts to learn from sub-optimal demonstration leverage pairwise rankings and following the Luce-Shepard rule. However, we show these approaches make incorrect assumptions and thus suffer from brittle, degraded performance. We overcome these limitations in developing a novel approach that **bootstraps off suboptimal demonstrations to synthesize optimality-parameterized data** to train an idealized reward function.  
-  
+
   :curly_loop: [Robust Imitation Learning from Noisy Demonstrations](https://arxiv.org/pdf/2010.10181.pdf) :fire:  :volcano: 
-  
+
   In this paper, we first theoretically show that robust imitation learning can be achieved by optimizing a classification risk with a symmetric loss. Based on this theoretical finding, we then propose a new imitation learning method that optimizes the classification risk by effectively combining pseudo-labeling with co-training. 
-  
+
   :curly_loop: [Imitation Learning from Imperfect Demonstration](http://proceedings.mlr.press/v97/wu19a/wu19a.pdf) :fire: :volcano: :+1:  ​
-  
+
   a novel approach that utilizes confidence scores, which describe the quality of demonstrations. two-step importance weighting imitation learning (2IWIL) and generative adversarial imitation learning with imperfect demonstration and confidence (IC-GAIL), based on the idea of reweighting. 
-  
+
   :curly_loop: [Variational Imitation Learning with Diverse-quality Demonstrations](http://proceedings.mlr.press/v119/tangkaratt20a/tangkaratt20a.pdf) :fire: :droplet: 
-  
+
   We show that simple quality-estimation approaches might fail due to compounding error, and fix this issue by jointly estimating both the quality and reward using a variational approach. 
 
 
 
- ​ ​
+
+
+
+
+<a name="anchor-offline "></a> 
+
+## Offline RL 
+
+  :curly_loop: [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/pdf/2005.01643.pdf)​  :boom: :boom:  ​ :droplet:  ​
+
+  Offline RL with dynamic programming: distributional shift; policy constraints; uncertainty estimation; conservative Q-learning and Pessimistic Value-function; 
+
+  https://danieltakeshi.github.io/2020/06/28/offline-rl/ :sweat_drops: 
+
+  https://ai.googleblog.com/2020/08/tackling-open-challenges-in-offline.html :sweat_drops: 
+
+  https://sites.google.com/view/offlinerltutorial-neurips2020/home :sweat_drops: 
+
+  :curly_loop: [OPAL: OFFLINE PRIMITIVE DISCOVERY FOR ACCELERATING OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.13611.pdf) :boom:  when presented with offline data composed of a variety of behaviors, an effective way to leverage this data is to extract a continuous space of recurring and temporally extended primitive behaviors before using these primitives for downstream task learning. OFFLINE unsupervised RL. 
+
+  :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :+1: :volcano:  :boom: 
+
+  :curly_loop: [BENCHMARKS FOR DEEP OFF-POLICY EVALUATION](https://openreview.net/pdf?id=kWSeGEeHvF8) :+1: 
+
+  :curly_loop: [KEEP DOING WHAT WORKED: BEHAVIOR MODELLING PRIORS FOR OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2002.08396.pdf) :+1: :fire: :boom: 
+
+  It admits the use of data generated by arbitrary behavior policies and uses a learned prior – the advantage-weighted behavior model (ABM) – to bias the RL policy towards actions that have previously been executed and are likely to be successful on the new task.    
+
+  extrapolation or bootstrapping errors:  (Fujimoto et al., 2018; Kumar et al., 2019) 
+
+  :curly_loop: [Off-Policy Deep Reinforcement Learning without Exploration](https://arxiv.org/pdf/1812.02900.pdf) :fire: :boom: :volcano:  ​ ​ ​
+
+  We introduce a novel class of off-policy algorithms, batch-constrained reinforcement learning, which restricts the action space in order to force the agent towards behaving close to on-policy with respect to a subset of the given data. 
+
+  :curly_loop: [Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction](https://arxiv.org/pdf/1906.00949.pdf) :fire: :boom: :droplet:  ​
+
+  We identify bootstrapping error as a key source of instability in current methods. Bootstrapping error is due to bootstrapping from actions that lie outside of the training data distribution, and it accumulates via the Bellman backup operator.  
+
+  :curly_loop: [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2006.04779.pdf) :+1: :fire: :volcano: :sweat_drops:  ​ ​
+
+  conservative Q-learning (CQL), which aims to address these limitations by learning a conservative Q-function such that the expected value of a policy under this Q-function lower-bounds its true value. 
+
+  :curly_loop: [S4RL: Surprisingly Simple Self-Supervision for Offline Reinforcement Learning](https://arxiv.org/pdf/2103.06326.pdf) :no_mouth: 
+
+   utilizes data augmentations from states to learn value functions that are better at generalizing and extrapolating when deployed in the environment. 
+
+  :curly_loop: [Actionable Models: Unsupervised Offline Reinforcement Learning of Robotic Skills](https://arxiv.org/pdf/2104.07749.pdf) :+1: :fire: :boom: 
+
+  learning a functional understanding of the environment by learning to reach any goal state in a given dataset. We employ goal-conditioned Qlearning with hindsight relabeling and develop several techniques that enable training in a particularly challenging offline setting. 
+
+  :curly_loop: [Behavior Regularized Offline Reinforcement Learning](https://arxiv.org/pdf/1911.11361.pdf) :fire:  :boom: :+1: 
+
+  we introduce a general framework, behavior regularized actor critic (BRAC), to empirically evaluate recently proposed methods as well as a number of simple baselines across a variety of offline continuous control tasks. 
+
+  :curly_loop: [Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](https://arxiv.org/pdf/2107.00591.pdf) :no_mouth:  
+
+  we observe that state-action distribution shift may lead to severe bootstrap error during fine-tuning, which destroys the good initial policy obtained via offline RL. 
+
+  :curly_loop: [Offline Meta-Reinforcement Learning with Online Self-Supervision](https://arxiv.org/pdf/2107.03974.pdf) :+1: :fire: 
+
+  Unlike the online setting, the adaptation and exploration strategies cannot effectively adapt to each other, resulting in poor performance. we propose a hybrid offline meta-RL algorithm, which uses offline data with rewards to meta-train an adaptive policy, and then collects additional unsupervised online data, without any ground truth reward labels, to bridge this distribution shift problem. 
+
+  :curly_loop: [Offline Meta-Reinforcement Learning with Advantage Weighting](http://proceedings.mlr.press/v139/mitchell21a/mitchell21a.pdf) :fire:  ​
+
+  :curly_loop: [AWAC: Accelerating Online Reinforcement Learning with Offline Datasets](https://arxiv.org/pdf/2006.09359.pdf) :+1: :fire: :volcano: 
+
+  we systematically analyze why this problem (offline + online) is so challenging, and propose an algorithm that combines sampleefficient dynamic programming with maximum likelihood policy updates, providing a simple and effective framework that is able to leverage large amounts of offline data and then quickly perform online fine-tuning of RL policies. 
+
+  :curly_loop: [Critic Regularized Regression](https://arxiv.org/pdf/2006.15134.pdf) :+1: :fire: :volcano:  ​ ​
+
+  CRR: Our alg. can be seen as a form of filtered behavioral cloning where data is selected based on information contained in the policy’s Q-fun. we do not rely on observed returns for adv. estimation. 
+
+  :curly_loop: [Exponentially Weighted Imitation Learning for Batched Historical Data](https://ai.tencent.com/ailab/media/publications/exponentially-weighted-imitation.pdf) :+1: :fire: :volcano:  ​ ​
+
+  we propose a monotonic advantage reweighted imitation learning strategy that is applicable to problems with complex nonlinear function approximation and works well with hybrid (discrete and continuous) action space. 
+
+  :curly_loop: [BAIL: Best-Action Imitation Learning for Batch Deep Reinforcement Learning](https://arxiv.org/pdf/1910.12179.pdf) 
+
+  :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) 
+
+
+
+
+
+<a name="anchor-exploration"></a> 
+
+ ## Exploration
+
++ [Exploration Strategies in Deep Reinforcement Learning](https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html) [[chinese]](https://mp.weixin.qq.com/s/FX-1IlIaFDLaQEVFN813jA) :sweat_drops: :fire: :fire:  :boom:   
+
+  :curly_loop: [VIME: Variational Information Maximizing Exploration](https://arxiv.org/pdf/1605.09674.pdf) :+1: :punch: :droplet:  ​ ​BNN 
+
+   the agent should take actions that maximize the reduction in uncertainty about the dynamics.
+
+  :curly_loop:  [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :+1: 
+
+  an ensemble of dynamics models and incentivize the agent to explore such that the disagreement of those ensembles is maximized. 
+
+  :curly_loop: [DORA THE EXPLORER: DIRECTED OUTREACHING REINFORCEMENT ACTION-SELECTION](https://arxiv.org/pdf/1804.04012.pdf) :fire: :+1: :droplet: 
+
+  We propose **E-values**, a generalization of counters that can be used to evaluate the propagating exploratory value over state-action trajectories.  [The Hebrew University of Jerusalem] :+1: 
+
+  :curly_loop: [EXPLORATION BY RANDOM NETWORK DISTILLATION](https://arxiv.org/pdf/1810.12894.pdf) :fire: :+1: [medium](https://medium.com/data-from-the-trenches/curiosity-driven-learning-through-random-network-distillation-488ffd8e5938)  :+1:  ​
+
+  based on random network distillation (**RND**) bonus 
+
+  :curly_loop: [Randomized Prior Functions for Deep Reinforcement Learning](https://arxiv.org/pdf/1806.03335.pdf) :fire: :boom: :sweat_drops:  ​ ​ ​
+
+  :curly_loop: [Large-Scale Study of Curiosity-Driven Learning](https://arxiv.org/pdf/1808.04355.pdf) :+1:  ​ 
+
+  :curly_loop: [NEVER GIVE UP: LEARNING DIRECTED EXPLORATION STRATEGIES](https://arxiv.org/pdf/2002.06038.pdf)  :punch: :+1: 
+
+  episodic memory based intrinsic reward using k-nearest neighbors;   self-supervised inverse dynamics model; Universal Value Function Approximators; different degrees of exploration/exploitation;  distributed RL; 
+
+  :curly_loop: [Self-Imitation Learning via TrajectoryConditioned Policy for Hard-Exploration Tasks](https://arxiv.org/pdf/1907.10247.pdf) :sweat_drops:  ​
+
+  :curly_loop: [Planning to Explore via Self-Supervised World Models](https://arxiv.org/pdf/2005.05960.pdf)  :fire: :fire: :+1:  ​ ​ ​Experiment is good!  
+
+  a self supervised reinforcement learning agent that tackles both these challenges through a new approach to self-supervised exploration and fast adaptation to new tasks, which need not be known during exploration.  **unlike prior methods which retrospectively compute the novelty of observations after the agent has already reached them**, our agent acts efficiently by leveraging planning to seek out expected future novelty.  
+
+  :curly_loop: [Efficient Exploration via State Marginal Matching](https://arxiv.org/pdf/1906.05274.pdf) :fire: :volcano: :droplet:  :boom:  ​
+
+  our work unifies prior exploration methods as performing approximate distribution matching, and explains how state distribution matching can be performed properly 
+
+  :curly_loop: hard exploration 
+
+  ​	[Provably efficient RL with Rich Observations via Latent State Decoding](https://arxiv.org/pdf/1901.09018.pdf) :confused:  ​
+
+  ​	[Provably Efficient Exploration for RL with Unsupervised Learning](https://arxiv.org/pdf/2003.06898.pdf) :confused:  ​
+
+  :curly_loop: [Learning latent state representation for speeding up exploration](https://arxiv.org/pdf/1905.12621.pdf) :+1:
+
+  Prior experience on separate but related tasks help learn representations of the state which are effective at predicting instantaneous rewards. 
+
+  :curly_loop: [Self-Imitation Learning](http://proceedings.mlr.press/v80/oh18b/oh18b.pdf) [reward shaping] :+1: :fire:  
+
+  exploiting past good experiences can indirectly drive deep exploration.  we consider exploiting what the agent has experienced, but has not yet learned. Related work: Exploration; Episodic control; Experience replay; Experience replay for actor-critic; Connection between policy gradient and Q-learning; Learning from imperfect demonstrations.  
+
+  :curly_loop: [Generative Adversarial Self-Imitation Learning](https://arxiv.org/pdf/1812.00950.pdf)  [reward shaping] :fire: ​
+
+  GASIL focuses on reproducing past good trajectories, which can potentially make long-term credit assignment easier when rewards are sparse and delayed. 
+
+  :curly_loop: [Diversity Actor-Critic: Sample-Aware Entropy Regularization for Sample-Efficient Exploration](https://arxiv.org/pdf/2006.01419.pdf) :fire: :droplet: 
+
+  To take advantage of the previous sample distribution from the replay buffer for sample-efficient exploration, we propose sample-aware entropy regularization which maximizes the entropy of weighted sum of the policy action distribution and the sample action distribution from the replay buf. 
+
+  :curly_loop: [LEARNING SELF-IMITATING DIVERSE POLICIES](https://arxiv.org/pdf/1805.10309.pdf) :+1: :fire: :fire:  ​
+
+  We view each policy as a state-action visitation distribution and formulate policy optimization as a divergence minimization problem. We show that with Jensen-Shannon divergence, this divergence minimization problem can be reduced into a policy-gradient algorithm with shaped rewards learned from experience replays.  One approach to achieve better exploration in challenging cases like above is to simultaneously learn *multiple diverse policies* and enforce them to explore different parts of the high dimensional space.  
+
+  :curly_loop: [Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm 2016](https://arxiv.org/pdf/1608.04471.pdf) 
+
+  :curly_loop: [ADVERSARIALLY GUIDED ACTOR-CRITIC](https://arxiv.org/pdf/2102.04376.pdf) :+1: :fire: :fire: 
+
+  While the adversary mimics the actor by minimizing the KL-divergence between their respective action distributions, the actor, in addition to learning to solve the task, tries to differentiate itself from the adversary predictions. 
+
+  :curly_loop: [Diversity-Driven Exploration Strategy for Deep Reinforcement Learning](https://arxiv.org/pdf/1802.04564.pdf) :+1: :fire:  ​ ​
+
+  adding a distance measure regularization to the loss function, 
+
+  :curly_loop: [Provably Efficient Maximum Entropy Exploration](https://arxiv.org/pdf/1812.02690.pdf) :confused:  
+
+  :curly_loop: [Reward-Free Exploration for Reinforcement Learning](http://proceedings.mlr.press/v119/jin20d/jin20d.pdf) :+1: :fire: :boom: 
+
+  *How can we efficiently explore an environment without using any reward information?*  In the exploration phase, the agent first collects trajectories from an MDP M without a pre-specified reward function. After exploration, it is tasked with computing near-optimal policies under for M for a collection of given reward functions. 
+
+  :curly_loop: [Rethinking Exploration for Sample-Efficient Policy Learning](https://arxiv.org/pdf/2101.09458.pdf) :+1:  ​
+
+  BBE: bias with finite samples, slow adaptation to decaying bonuses, and lack of optimism on unseen transitions ---> UFO, produces policies that are Unbiased with finite samples, Fast-adapting as the exploration bonus changes, and Optimistic with respect to new transitions. 
+
+  :curly_loop: [Provably Efficient Exploration in Policy Optimization](http://proceedings.mlr.press/v119/cai20d/cai20d.pdf) :confused: 
+
+   design a provably efficient policy optimization algorithm that incorporates exploration. 
+
+
+
+
+
+<a name="anchor-causual"></a>  
+
+## Causual inference
+
++ Causual inference  [ see more in <a href="#anchor-ood">OOD</a> & [inFERENCe's blog](https://www.inference.vc/causal-inference-3-counterfactuals/) ] 
+
+  :curly_loop: 
+
++ reasoning 
+
+  :curly_loop: [CAUSAL DISCOVERY WITH REINFORCEMENT LEARNING](https://arxiv.org/pdf/1906.04477.pdf) :no_mouth:  ​
+
+  :curly_loop: [DEEP REINFORCEMENT LEARNING WITH CAUSALITYBASED INTRINSIC REWARD](https://openreview.net/pdf?id=30I4Azqc_oP) :+1: 
+
+  The proposed algorithm learns a graph to encode the environmental structure by calculating Average Causal Effect (ACE) between different categories of entities, and an intrinsic reward is given to encourage the agent to interact more with entities belonging to top-ranked categories, which significantly boosts policy learning. 
+  
+  :curly_loop: [Causal Confusion in Imitation Learning](https://arxiv.org/pdf/1905.11979.pdf) :+1: :droplet: 
+  
+  propose a solution to combat it through targeted interventions—either environment interaction or expert queries—to determine the correct causal model. 
+
+
 
  ​
 
 
 
+<a name="anchor-supervised"></a>  <a name="anchor-goalcon"></a>  
 
-+ Goal-relabeling & Self-imitation 
+## Supervised RL & Goal-conditioned Policy 
+
+  :curly_loop: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: iclr2020  iclr2021 
+
+  an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
+
+  :curly_loop: [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) :+1: :fire: conditioning on the reward rather than goal state 
+
+  Non-expert trajectories collected from suboptimal policies can be viewed as optimal supervision, not for maximizing the reward, but for matching the reward of the given trajectory. 
+
+  :curly_loop: [Search on the Replay Buffer: Bridging Planning and Reinforcement Learning](https://arxiv.org/pdf/1906.05253.pdf) :fire: :+1:  ​ ​
+
+  combines the strengths of planning and reinforcement learning 
+
+  :curly_loop: [DYNAMICAL DISTANCE LEARNING FOR SEMI-SUPERVISED AND UNSUPERVISED SKILL DISCOVERY](https://arxiv.org/pdf/1907.08225.pdf) 
+
+  dynamical distances: a measure of the expected number of time steps to reach a given goal state from any other states 
+
+  :curly_loop: [Contextual Imagined Goals for Self-Supervised Robotic Learning](http://proceedings.mlr.press/v100/nair20a/nair20a.pdf) :+1: ​​  ​ ​
+
+  using the context-conditioned generative model to set goals that are appropriate to the current scene. 
+
+  :curly_loop: [Reverse Curriculum Generation for Reinforcement Learning](https://arxiv.org/pdf/1707.05300.pdf) :+1: :fire:  ​ 
+
+  **Finding the optimal start-state distribution**. Our method automatically generates a curriculum of start states that adapts to the agent’s performance, leading to efficient training on goal-oriented tasks. 
+
+  :curly_loop: [Goal-Aware Prediction: Learning to Model What Matters](https://proceedings.icml.cc/static/paper_files/icml/2020/2981-Paper.pdf) :+1: :fire: :boom: Introduction is good! 
+
+  we propose to direct prediction towards task relevant information, enabling the model to be aware of the current task and **encouraging it to only model relevant quantities of the state space**, resulting in **a learning objective that more closely matches the downstream task**.  
+
+  :curly_loop: [C-LEARNING: LEARNING TO ACHIEVE GOALS VIA RECURSIVE CLASSIFICATION](https://openreview.net/pdf?id=tc5qisoB-C) :+1: :sweat_drops: :volcano: :boom:   
+
+  This Q-function is not useful for predicting or controlling the future state distribution. Fundamentally, this problem arises because the relationship between the reward function, the Q function, and the future state distribution in prior work remains unclear.  :ghost: [DIAYN?] 
+
+  on-policy ---> off-policy ---> goal-conditioned. 
+
+  :curly_loop: [LEARNING TO UNDERSTAND GOAL SPECIFICATIONS BY MODELLING REWARD](https://openreview.net/pdf?id=H1xsSjC9Ym) :+1: :+1:  ​
+
+  *ADVERSARIAL GOAL-INDUCED LEARNING FROM EXAMPLES* 
+
+  A framework within which instruction-conditional RL agents are trained using rewards obtained not from the environment, but from reward models which are jointly trained from expert examples. 
+
+  :curly_loop: [Intrinsically Motivated Goal-Conditioned Reinforcement Learning: a Short Survey](https://arxiv.org/pdf/2012.09830.pdf) :volcano: :volcano: :droplet: 
+
+  This paper proposes a typology of these methods **[intrinsically motivated processes (IMP) (knowledge-based IMG + competence-based IMP); goal-conditioned RL agents]** at the intersection of deep rl and developmental approaches, surveys recent approaches and discusses future avenues.    
+
+  SEE: Language as a Cognitive Tool to Imagine Goals in Curiosity-Driven Exploration  
+
+  :curly_loop: [Self-supervised Learning of Distance Functions for Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/1907.02998.pdf) 
+
+  :curly_loop: [PARROT: DATA-DRIVEN BEHAVIORAL PRIORS FOR REINFORCEMENT LEARNING](https://openreview.net/pdf?id=Ysuv-WOFeKR) :+1: 
+
+  We propose a method for pre-training behavioral priors that can capture complex input-output relationships observed in successful trials from a wide range of previously seen tasks. 
+
+   :ghost: see model-based <a href="#anchor-modelbasedddl">ddl</a>  
+
+  :curly_loop: [LEARNING WHAT TO DO BY SIMULATING THE PAST](https://openreview.net/pdf?id=kBVJ2NtiY-) :+1:  ​
+
+  we propose the Deep Reward Learning by Simulating the Past (Deep RLSP) algorithm. 
+
+  :curly_loop: [Weakly-Supervised Reinforcement Learning for Controllable Behavior](https://arxiv.org/pdf/2004.02860.pdf) :+1: 
+
+  two phase approach that learns a disentangled representation, and then uses it to guide exploration, propose goals, and inform a distance metric. 
+
+  :curly_loop: [Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classification](https://arxiv.org/pdf/2103.12656.pdf) :volcano: :boom: 
+
+  we derive a method based on recursive classification that eschews auxiliary reward functions and instead directly learns a value function from transitions and successful outcomes. 
+
+  :curly_loop: [Outcome-Driven Reinforcement Learning via Variational Inference](https://arxiv.org/pdf/2104.10190.pdf) :+1: :fire: :droplet: 
+
+  by framing the problem of achieving desired outcomes as variational inference, we can derive an off-policy RL algorithm, a reward function learnable from environment interactions, and a novel Bellman backup that contains a state–action dependent dynamic discount factor for the reward and bootstrap. 
+
+  :curly_loop: [Discovering Diverse Solutions in Deep Reinforcement Learning](https://arxiv.org/pdf/2103.07084.pdf) :+1:  ​
+
+  learn infinitely many solutions by training a policy conditioned on a continuous or discrete low-dimensional latent variable. 
+
+  :curly_loop: [Goal-Conditioned Reinforcement Learning with Imagined Subgoals](https://arxiv.org/pdf/2107.00541.pdf) :+1: :fire: :volcano:  ​ ​ ​
+
+  This high-level policy predicts intermediate states halfway to the goal using the value function as a reachability metric. We don’t require the policy to reach these subgoals explicitly. Instead, we use them to define a prior policy, and incorporate this prior into a KL-constrained pi scheme to speed up and reg. 
+
+  :curly_loop: [Discovering Generalizable Skills via Automated Generation of Diverse Tasks](https://arxiv.org/pdf/2106.13935.pdf) :no_mouth: 
+
+  As opposed to prior work on unsupervised discovery of skills which incentivizes the skills to produce different outcomes in the same environment, our method pairs each skill with a unique task produced by a trainable task generator. Procedural content generation (PCG). 
+
+   ​
+
+  
+
+  
+
+## Goal-relabeling & Self-imitation 
 
   :curly_loop: [Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement](https://arxiv.org/pdf/2002.11089v1.pdf) 
 
   MaxEnt RL and MaxEnt inverse RL optimize **the same multi-task RL objective** with respect to trajectories and tasks, respectively. 
 
   :curly_loop: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)    [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)    [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)    [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)    [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)    
-  
+
   :curly_loop: [Exploration via Hindsight Goal Generation](http://papers.nips.cc/paper/9502-exploration-via-hindsight-goal-generation.pdf) :+1:  :fire:  ​
-  
+
   a novel algorithmic framework that generates valuable hindsight goals which are easy for an agent to achieve in the short term and are also potential for guiding the agent to reach the actual goal in the long term.  
-  
+
   :curly_loop: [CURIOUS: Intrinsically Motivated Modular Multi-Goal Reinforcement Learning](https://arxiv.org/pdf/1810.06284.pdf) :+1:  ​
-  
+
   This paper proposes CURIOUS, an algorithm that leverages 1) a modular Universal Value Function Approximator with hindsight learning to achieve a diversity of goals of different kinds within a unique policy and 2) an automated curriculum learning mechanism that biases the attention of the agent towards goals maximizing the absolute learning progress.  
-  
+
   :curly_loop: [Hindsight Generative Adversarial Imitation Learning](https://arxiv.org/pdf/1903.07854.pdf) :fire: 
-  
+
   achieving imitation learning satisfying no need of demonstrations.  [see self-imitation learning] 
-  
+
   :curly_loop: [MHER: Model-based Hindsight Experience Replay](https://arxiv.org/pdf/2107.00306.pdf) :+1: 
-  
+
   Replacing original goals with virtual goals generated from interaction with a trained dynamics model. 
-  
+
   :curly_loop: [Policy Continuation with Hindsight Inverse Dynamics](https://papers.nips.cc/paper/2019/file/3891b14b5d8cce2fdd8dcdb4ded28f6d-Paper.pdf) :+1: :fire:  ​ ​
-  
+
   This approach learns from Hindsight Inverse Dynamics based on Hindsight Experience Replay.  
+
   
-  
-  
+
    ​
-  
-   ​
-  
+
 + Imitation Learning (See Upper) 
 
   :curly_loop: [To Follow or not to Follow: Selective Imitation Learning from Observations](https://arxiv.org/pdf/1912.07670.pdf) :+1:  ​
@@ -1645,9 +1218,233 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 
 
+
+
+<a name="anchor-modelbasedrl"></a>  
+
+## Model-based RL & world models 
+
+  :curly_loop: [Learning Latent Dynamics for Planning from Pixels](http://proceedings.mlr.press/v97/hafner19a/hafner19a.pdf) ​​ :sweat_drops: :sweat_drops:  ​
+
+  :curly_loop: [DREAM TO CONTROL: LEARNING BEHAVIORS BY LATENT IMAGINATION](https://arxiv.org/pdf/1912.01603.pdf) :sweat_drops:  ​
+
+  :curly_loop: [Model-based Policy Optimization with Unsupervised Model Adaptation](https://arxiv.org/pdf/2010.09546.pdf) 
+
+  :curly_loop: [CONTRASTIVE LEARNING OF STRUCTURED WORLD MODELS](https://arxiv.org/pdf/1911.12247.pdf) :fire: :volcano:  ​ ​
+
+  :curly_loop: [Learning Predictive Models From Observation and Interaction](https://arxiv.org/pdf/1912.12773.pdf) :fire:  ​related work is good! 
+
+  By combining interaction and observation data, our model is able to learn to generate predictions for complex tasks and new environments without costly expert demonstrations.  
+
+  :curly_loop: [medium](https://jonathan-hui.medium.com/rl-model-based-reinforcement-learning-3c2b6f0aa323)   [Tutorial on Model-Based Methods in Reinforcement Learning (icml2020)](https://sites.google.com/view/mbrl-tutorial)  :sweat_drops:  ​
+
+  [rail](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/f17docs/lecture_9_model_based_rl.pdf)  [Model-Based Reinforcement Learning: Theory and Practice](https://bair.berkeley.edu/blog/2019/12/12/mbpo/) :sweat_drops: ​​  ​ ​
+
+  :curly_loop: [What can I do here? A Theory of Affordances in Reinforcement Learning](http://proceedings.mlr.press/v119/khetarpal20a/khetarpal20a.pdf) :+1: :droplet:   
+
+  “affordances” to describe the fact that certain states enable an agent to do certain actions, in the context of embodied agents. In this paper, we develop a theory of affordances for agents who learn and plan in Markov Decision Processes. 
+
+  :curly_loop: [When to Trust Your Model: Model-Based Policy Optimization](https://arxiv.org/pdf/1906.08253.pdf) :fire: :volcano: :droplet: :boom:  ​
+
+   we study the role of model usage in policy optimization both theoretically and empirically. 
+
+  :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :fire:  :volcano: :boom: 
+
+  we propose a novel concept of deployment efficiency, measuring the number of distinct data-collection policies that are used during policy learning.  ​
+
+  :curly_loop: [CONTROL-AWARE REPRESENTATIONS FOR MODELBASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=dgd4EJqsbW5) :sweat_drops: 
+
+  :curly_loop: [Context-aware Dynamics Model for Generalization in Model-Based Reinforcement Learning](https://arxiv.org/pdf/2005.06800.pdf) :+1: :fire:  ​ ​
+
+   The intuition is that the true context of the underlying MDP can be captured from recent experiences. 
+
+  :curly_loop: [Optimism is All You Need: Model-Based Imitation Learning From Observation Alone](https://arxiv.org/pdf/2102.10769.pdf) :sweat_drops:  ​
+
+  :curly_loop: [PlanGAN: Model-based Planning With Sparse Rewards and Multiple Goals](https://proceedings.neurips.cc/paper/2020/file/6101903146e4bbf4999c449d78441606-Paper.pdf) :+1: 
+
+  train an ensemble of conditional generative models (GANs) to generate plausible trajectories that lead the agent from its current state towards a specified goal. We then combine these imagined trajectories into a novel planning algorithm in order to achieve the desired goal as efficiently as possible.  
+
+  :curly_loop: [MODEL-ENSEMBLE TRUST-REGION POLICY OPTIMIZATION](https://arxiv.org/pdf/1802.10592.pdf) :+1:  
+
+  we propose to use an ensemble of models to maintain the model uncertainty and regularize the learning process. 
+
+  :curly_loop: [Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation](https://arxiv.org/pdf/2107.01825.pdf) :no_mouth: 
+
+  MEEE, a model-ensemble method that consists of optimistic exploration and weighted exploitation.  
+
+  
+
+  :o: dynamic distance learning   <a name="anchor-modelbasedddl"></a>  
+
+  :curly_loop: [MODEL-BASED VISUAL PLANNING WITH SELF-SUPERVISED FUNCTIONAL DISTANCES](https://openreview.net/pdf?id=UcoXdfrORC) :+1: 
+
+   We present a self-supervised method for model-based visual goal reaching, which uses both a visual dynamics model as well as a dynamical distance function learned using model-free rl. Related work! 
+
+  :o: model-based offline 
+
+  :curly_loop: [Representation Balancing MDPs for Off-Policy Policy Evaluation](https://arxiv.org/pdf/1805.09044.pdf) :droplet:  ​
+
+  :curly_loop: [REPRESENTATION BALANCING OFFLINE MODEL-BASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=QpNz8r_Ri2Y) :droplet:  ​
+
+  
+
+
+
+<a name="anchor-trainingrl"></a>  
+
+## Training RL & Just Fast & Embedding? & OPE(DICE) 
+
+  :curly_loop: [Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning](https://arxiv.org/pdf/1711.06782.pdf) :no_mouth:  ​
+
+  :curly_loop: [Predictive Information Accelerates Learning in RL](https://arxiv.org/pdf/2007.12401.pdf) :+1:  ​
+
+  We train Soft Actor-Critic (SAC) agents from pixels with an auxiliary task that learns a compressed representation of the predictive information of the RL environment dynamics using a contrastive version of the Conditional Entropy Bottleneck (CEB) objective. 
+
+  :curly_loop: [Speeding up Reinforcement Learning with Learned Models](https://upcommons.upc.edu/bitstream/handle/2117/175740/143210.pdf) :sweat_drops:  ​
+
+  :curly_loop: [DYNAMICS-AWARE EMBEDDINGS](https://arxiv.org/pdf/1908.09357.pdf) :+1:  ​
+
+  A forward prediction objective for simultaneously learning embeddings of states and action sequences. 
+
+  :curly_loop: [DIVIDE-AND-CONQUER REINFORCEMENT LEARNING](https://arxiv.org/pdf/1711.09874.pdf) :+1: 
+
+  we develop a novel algorithm that instead partitions the initial state space into “slices”, and optimizes an ensemble of policies, each on a different slice. 
+
+  :curly_loop:  [Continual Learning of Control Primitives: Skill Discovery via Reset-Games](https://arxiv.org/pdf/2011.05286.pdf) :+1: :fire:  
+
+  We do this by exploiting the insight that the need to “reset" an agent to a broad set of initial states for a learning task provides a natural setting to learn a diverse set of “reset-skills".  
+
+  :curly_loop: [DIFFERENTIABLE TRUST REGION LAYERS FOR DEEP REINFORCEMENT LEARNING](https://openreview.net/pdf?id=qYZD-AO1Vn) :+1: :droplet: 
+
+  We derive trust region projections based on the Kullback-Leibler divergence, the Wasserstein L2 distance, and the Frobenius norm for Gaussian distributions. Related work is good! 
+
+  :curly_loop: [BENCHMARKS FOR DEEP OFF-POLICY EVALUATION](https://openreview.net/pdf?id=kWSeGEeHvF8)  :+1: :fire: :droplet: 
+
+  DOPE is designed to measure the performance of **OPE** methods by 1) evaluating on challenging control tasks with properties known to be difficult for OPE methods, but which occur in real-world scenarios, 2) evaluating across a range of policies with different values, to directly measure performance on policy evaluation, ranking and selection, and 3) evaluating in ideal and adversarial settings in terms of dataset coverage and support.  
+
+  :curly_loop: [Trajectory-Based Off-Policy Deep Reinforcement Learning](https://arxiv.org/pdf/1905.05710.pdf) :+1: :fire: :droplet:  ​
+
+  Incorporation of previous rollouts via importance sampling greatly improves data-efficiency, whilst stochastic optimization schemes facilitate the escape from local optima.  
+
+  :curly_loop: [DualDICE: Behavior-Agnostic Estimation of Discounted Stationary Distribution Corrections](https://arxiv.org/pdf/1906.04733.pdf) :fire: :volcano: :boom: 
+
+  Off-Policy Policy Evaluation (OPE) --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
+
+  :curly_loop: [AlgaeDICE: Policy Gradient from Arbitrary Experience](https://arxiv.org/pdf/1912.02074.pdf) :+1: :volcano: :droplet:  ​ ​ ​
+
+  We introduce a new formulation of max-return optimization that allows the problem to be re-expressed by an expectation over an arbitrary behavior-agnostic and off-policy data distribution. ALgorithm for policy Gradient from Arbitrary Experience via DICE (AlgaeDICE). 
+
+  :curly_loop: [GENDICE: GENERALIZED OFFLINE ESTIMATION OF STATIONARY VALUES](https://arxiv.org/pdf/2002.09072.pdf) :+1: :fire: :fire: ​​ ​ ​
+
+  Our approach is based on estimating a ratio that corrects for the discrepancy between the stationary and empirical distributions, derived from fundamental properties of the stationary distribution, and exploiting constraint reformulations based on variational divergence minimization. 
+
+  :curly_loop: [GradientDICE: Rethinking Generalized Offline Estimation of Stationary Values](http://proceedings.mlr.press/v119/zhang20r/zhang20r.pdf) :confused:  ​
+
+  :curly_loop: [Breaking the Curse of Horizon: Infinite-Horizon Off-Policy Estimation](https://papers.nips.cc/paper/2018/file/dda04f9d634145a9c68d5dfe53b21272-Paper.pdf) :+1: :fire: :droplet:  ​
+
+  The key idea is to apply importance sampling on the average visitation distribution of single steps of state-action pairs, instead of the much higher dimensional distribution of whole trajectories.   
+
+  :curly_loop: [Off-Policy Evaluation via the Regularized Lagrangian](https://arxiv.org/pdf/2007.03438.pdf) :fire: :confused: :droplet:  ​
+
+  we unify these estimators (DICE) as regularized Lagrangians of the same linear program. 
+
+  :curly_loop: [Minimax Weight and Q-Function Learning for Off-Policy Evaluation](http://proceedings.mlr.press/v119/uehara20a/uehara20a.pdf) :fire: :droplet:  ​ ​
+
+  Minimax Weight Learning (MWL); Minimax Q-Function Learning. Doubly Robust Extension and Sample Complexity of MWL & MQL. 
+
+  :curly_loop: [Minimax Value Interval for Off-Policy Evaluation and Policy Optimization](https://arxiv.org/pdf/2002.02081.pdf) :+1: :fire: :volcano: :droplet: 
+
+  we derive the minimax value intervals by slightly altering the derivation of two recent methods [1], one of “weight-learning” style (Sec. 4.1) and one of “value-learning” style (Sec. 4.2), and show that under certain conditions, they merge into a single unified value interval whose validity only relies on either Q or W being well-specified (Sec. 4.3).  
+
+  :curly_loop: [Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/pdf/2001.01866.pdf) :fire: :volcano: :droplet:  ​ ​ ​
+
+  *Policy Evaluation*: LP form of Q ---> policy evaluation via largrangian ---> change the problem before applying duality (constant function, f-divergence, fenchel-rockafellar duality);  *Policy Optimization*: policy gradient ---> offline policy gradient via the lagrangian ---> fenchel-rockafellar duality for the regularized optimization (regularization with the kl-d) ---> imitation learning;  *RL with the LP form of V*: max-likelihood policy learning ---> policy evaluation with the V-lp; *Undiscounted Settings* 
+
+  :curly_loop: [ADVANTAGE-WEIGHTED REGRESSION: SIMPLE AND SCALABLE OFF-POLICY REINFORCEMENT LEARNING](https://arxiv.org/pdf/1910.00177.pdf) :+1: :fire:  :boom: 
+
+  Our proposed approach, which we refer to as advantage-weighted regression (AWR), consists of two standard supervised learning steps: one to regress onto target values for a value function, and another to regress onto weighted target actions for the policy. 
+
+  :curly_loop: [Overcoming Exploration in Reinforcement Learning with Demonstrations](https://arxiv.org/pdf/1709.10089.pdf) :fire: 
+
+  We present a system to utilize demonstrations along with reinforcement learning to solve complicated multi-step tasks. Q-Filter. BC. 
+
+  :curly_loop: [Fitted Q-iteration by Advantage Weighted Regression](https://papers.nips.cc/paper/2008/file/f79921bbae40a577928b76d2fc3edc2a-Paper.pdf) :+1:  :fire:  :fire:  ​
+
+  we show that by using a soft-greedy action selection the policy improvement step used in FQI can be simplified to an inexpensive advantage weighted regression. <--- greedy action selection in continuous. 
+
+  :curly_loop: [Q-Value Weighted Regression: Reinforcement Learning with Limited Data](https://arxiv.org/pdf/2102.06782.pdf) :fire:  :volcano: 
+
+  QWR: We replace the value function critic of AWR with a Q-value function.  AWR --> QWR. 
+
+   ​
+
+
+
+  :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
+
+  Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. 
+
+  :curly_loop: [Reinforcement Learning without Ground-Truth State](https://arxiv.org/pdf/1905.07866.pdf) :+1: 
+
+  relabeling the original goal with the achieved goal to obtain positive rewards  
+
+  :curly_loop: [Ecological Reinforcement Learning](https://arxiv.org/pdf/2006.12478.pdf) :+1: 
+
+  :curly_loop: [Control Frequency Adaptation via Action Persistence in Batch Reinforcement Learning](https://icml.cc/virtual/2020/poster/6146) :+1:   ​
+
+  :curly_loop: [Taylor Expansion Policy Optimization](http://proceedings.mlr.press/v119/tang20d/tang20d.pdf) :+1: :boom: :volcano: :droplet:  ​
+
+  a policy optimization formalism that generalizes prior work (e.g., TRPO) as a firstorder special case. We also show that Taylor expansions intimately relate to off-policy evaluation. 
+
+  :curly_loop: [Policy Information Capacity: Information-Theoretic Measure for Task Complexity in Deep Reinforcement Learning](https://arxiv.org/pdf/2103.12726.pdf) :+1:  ​
+
+  Policy Information Capacity: Information-Theoretic Measure for Task Complexity in Deep Reinforcement Learning. 
+
+  :curly_loop: [Deep Reinforcement Learning with Robust and Smooth Policy](http://proceedings.mlr.press/v119/shen20b/shen20b.pdf) :+1:  
+
+  the policy is trained with smoothness-inducing regularization. Such regularization effectively constrains the search space, and enforces smoothness in the learned policy. 
+
+  :curly_loop: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  
+
+  :curly_loop: [Maximum Entropy RL (Provably) Solves Some Robust RL Problems](https://arxiv.org/pdf/2103.06257.pdf) 
+
+  
+
+  
+
+  :curly_loop: [Regularized Policies are Reward Robust](http://proceedings.mlr.press/v130/husain21a/husain21a.pdf) :fire: :droplet:  ​
+
+  we find that the optimal policy found by a regularized objective is precisely an optimal policy of a reinforcement learning problem under a worst-case adversarial reward. 
+
+  :curly_loop: [Reinforcement Learning as One Big Sequence Modeling Problem](https://people.eecs.berkeley.edu/~janner/trajectory-transformer/files/trajectory-transformer.pdf) :+1: :fire: :droplet:  ​ ​ ​
+
+  Addressing RL as a sequence modeling problem significantly simplifies a range of design decisions: we no longer require separate behavior policy constraints, as is common in prior work on offline model-free RL, and we no longer require ensembles or other epistemic uncertainty estimators, as is common in prior work on model-based RL. 
+
+  :curly_loop: [On-Policy Deep Reinforcement Learning for the Average-Reward Criterion](https://arxiv.org/pdf/2106.07329.pdf) :+1: :fire: 
+
+  By addressing the average-reward criterion directly, we then derive a novel bound which depends on the average divergence between the two policies and Kemeny’s constant. 
+
+  :curly_loop: [Average-Reward Reinforcement Learning with Trust Region Methods](https://arxiv.org/pdf/2106.03442.pdf) :+1:  :fire: 
+
+  Firstly, we develop a unified trust region theory with discounted and average criteria. With the average criterion, a novel performance bound within the trust region is derived with the Perturbation Analysis (PA) theory. Secondly, we propose a practical algorithm named Average Policy Optimization (APO), which improves the value estimation with a novel technique named Average Value Constraint. 
+
+  :curly_loop: [Trust Region Policy Optimization](https://arxiv.org/pdf/1502.05477.pdf) :+1:  :fire: :boom:  ​ ​
+
+  :curly_loop: [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/pdf/1604.06778.pdf) :+1: :fire:  ​ ​
+
+  :curly_loop: [P3O: Policy-on Policy-off Policy Optimization](http://proceedings.mlr.press/v115/fakoor20a/fakoor20a.pdf) :fire: 
+
+  This paper develops a simple alg. named P3O that interleaves offpolicy updates with on-policy updates.  
+
+  
+
+  
+
+
+
 <a name="anchor-marl"></a>   
 
-:volcano: MARL 
+## MARL 
 
 + MARL https://cloud.tencent.com/developer/article/1618396 
 
@@ -1679,7 +1476,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 <a name="anchor-constrainedrl"></a>  
 
-:o: Constrained RL 
+## Constrained RL 
 
 :curly_loop: [A Unified View of Entropy-Regularized Markov Decision Processes](https://arxiv.org/pdf/1705.07798.pdf) :fire: :droplet:  ​
 
@@ -1731,9 +1528,64 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
 
 
 
+  
+
+
+<a name="anchor-disrl"></a>   
+
+## Distributional RL 
+
++ Distributional RL [Hao Liang, CUHK](https://rlseminar.github.io/2019/03/11/hao.html)  [slide](https://rlseminar.github.io/static/files/RL_seminars2019-0311hao_distributional_final.pdf) :sweat_drops: :sweat_drops:  ​ ​
+
+  :curly_loop: C51: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/pdf/1707.06887.pdf) :sweat_drops:  ​
+
+  :curly_loop: [CS598 - Statistical rl - NanJiang](https://www.bilibili.com/video/av929950486) :sweat_drops: ​
+
+  :curly_loop: [Information-Theoretic Considerations in Batch Reinforcement Learning](http://proceedings.mlr.press/v97/chen19e/chen19e.pdf) :volcano: :confused: :sweat_drops:   
+
+   
+
+
+
+
+
+<a name="anchor-cl"></a>   
+
+## Continual Learning 
+
+  :curly_loop: [Continual Learning with Deep Generative Replay](https://papers.nips.cc/paper/6892-continual-learning-with-deep-generative-replay.pdf)  :droplet: :no_mouth:  
+
+  :curly_loop: online learning; regret :sweat_drops:  ​
+
+
+
+  
+
+
+
+<a name="anchor-selfpaced"></a>   <a name="anchor-curriculum"></a> 
+
+## Self-paced & Curriculum RL 
+
+  :curly_loop: [Self-Paced Contextual Reinforcement Learning](https://arxiv.org/pdf/1910.02826.pdf) :volcano: :sweat_drops:  ​ ​
+
+  We introduce a novel relative entropy reinforcement learning algorithm that gives the agent the freedom to control the intermediate task distribution, allowing for its gradual progression towards the target context distribution.  
+
+  :curly_loop: [Self-Paced Deep Reinforcement Learning](https://arxiv.org/pdf/2004.11812.pdf) :volcano: :sweat_drops:  ​ ​
+
+  In this paper, we propose an answer by interpreting the curriculum generation as an inference problem, where distributions over tasks are progressively learned to approach the target task. This approach leads to an automatic curriculum generation, whose pace is controlled by the agent, with solid theoretical motivation and easily integrated with deep RL algorithms. 
+
+  :curly_loop:[Learning with AMIGO: Adversarially Motivated Intrinsic Goals](https://arxiv.org/pdf/2006.12122.pdf) :+1:   [Lil'Log-Curriculum](https://lilianweng.github.io/lil-log/2020/01/29/curriculum-for-reinforcement-learning.html) :+1:  ​
+
+  **related work (curriculum) is quite good!**   (Intrinsic motivation + Curriculum learning) 
+
+
+
+
+
 <a name="anchor-optimization"></a>  
 
-:o: Optimization 
+## Optimization 
 
 + Contrastive Divergence (CD) 
 
@@ -1793,16 +1645,68 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
   
    ​
   
-   ​
   
-   ​ ​
+
+## Galaxy  None 
+
+​	:milky_way: :snowflake: :cyclone: :ocean: :volcano: :earth_africa: :earth_americas: :earth_asia: :book: :dart: :gem: :lemon: :headphones: :pushpin: :artificial_satellite: :satellite: :rocket: :stars: :sunrise_over_mountains: :triangular_flag_on_post: :beer: :tea: :date: :golf: :hourglass: :camera: :pager: :balloon: :trophy: :apple: :rice: ​
+
++ Deep Reinforcement Learning amidst Lifelong Non-Stationarity https://arxiv.org/pdf/2006.10701.pdf 
+
++ Learning Robot Skills with Temporal Variational Inference https://arxiv.org/pdf/2006.16232.pdf 
+
++ Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design https://arxiv.org/pdf/0912.3995.pdf [icml2020 test of time award] :confused: :question: 
+
++ On Learning Sets of Symmetric Elements https://arxiv.org/pdf/2002.08599.pdf [icml2020 outstanding paper awards] :confused: :question: 
+
++ Non-delusional Q-learning and Value Iteration https://papers.nips.cc/paper/8200-non-delusional-q-learning-and-value-iteration.pdf [NeurIPS2018 Best Paper Award] 
+
++ SurVAE **Flows**: Surjections to Bridge the Gap between VAEs and Flows [Max Welling] https://arxiv.org/pdf/2007.02731.pdf 
+
+  :curly_loop: [Normalizing Flows: An Introduction and Review of Current Methods](https://arxiv.org/pdf/1908.09257.pdf)  :+1: ; Citing:  [Normalizing Flows for Probabilistic Modeling and Inference](https://arxiv.org/pdf/1912.02762.pdf) :+1: :boom: :boom: :boom: ; [lil-log: Flow-based Deep Generative Models](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html) ; [Jianlin Su: f-VAES](https://zhuanlan.zhihu.com/p/45090025) :sweat_drops: ; [Deep generative models](https://deepgenerativemodels.github.io/notes/) :sweat_drops:  [Another slide](https://drive.google.com/file/d/1SGGWQR_FCHzsg-_aYzCjgHypXNesl6ML/view);  
+
+  :curly_loop: [Deep Kernel Density Estimation](https://zhuanlan.zhihu.com/p/73426787) (Maximum Likelihood, Neural Density Estimation (Auto Regressive Models + Normalizing Flows), Score Matching ([MRF](http://signal.ee.psu.edu/mrf.pdf)), Kernel Exponential Family ([RKHS](http://songcy.net/posts/story-of-basis-and-kernel-part-2/)), Deep Kernel);  
+
+  :curly_loop: 
+
++ Self-Supervised Learning  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html) :sweat_drops: ; 
+
+  :curly_loop: [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :confused: :-1: 
+
+  :curly_loop: 
+
+
+
+<a name="anchor-pareto"></a> 
+
++ Pareto 
+
+  :curly_loop: [Pareto Multi-Task Learning](https://arxiv.org/pdf/1912.12854.pdf) :boom: :boom: :fire: :droplet: 
+
+  we proposed a novel Pareto Multi-Task Learning (Pareto MTL) algorithm to generate a set of well-distributed Pareto solutions with different trade-offs among tasks for a given multi-task learning (MTL) problem. 
+
+  :curly_loop: [Efficient Continuous Pareto Exploration in Multi-Task Learning](https://arxiv.org/pdf/2006.16434.pdf) [zhihu](https://zhuanlan.zhihu.com/p/159000150) :boom: :fire: :+1:  ​ ​ ​
+
+  :curly_loop: [Prediction-Guided Multi-Objective Reinforcement Learning for Continuous Robot Control](https://proceedings.icml.cc/static/paper_files/icml/2020/1114-Paper.pdf) :sweat_drops:  ​
+
+
+
++ BNN 
+
+  :curly_loop: [Auto-Encoding Variational Bayes](https://www.ics.uci.edu/~welling/publications/papers/AEVB_ICLR14.pdf) :+1:  ​
+
+  :curly_loop: [Unlabelled Data Improves Bayesian Uncertainty Calibration under Covariate Shift](http://proceedings.mlr.press/v119/chan20a/chan20a.pdf)  :+1: :fire: 
+
+  we develop an approximate Bayesian inference scheme based on posterior regularisation, wherein unlabelled target data are used as “pseudo-labels” of model confidence that are used to regularise the model’s loss on labelled source data. 
+
+  :curly_loop: [Understanding Uncertainty in Bayesian Deep Learning](https://arxiv.org/pdf/2106.13055.pdf) :sweat_drops:  ​
 
 
 
 
 
-
-### Others 
+## Aha   
+### Alpha 
 
 + Gaussian Precess, Kernel Method, [EM](https://zhuanlan.zhihu.com/p/54823479), [Conditional Neural Process](https://zhuanlan.zhihu.com/p/142260457), [Neural Process](https://zhuanlan.zhihu.com/p/70226367),  (Deep Mind, ICML2018) :+1: ​
 + [Weak Duality](https://people.eecs.berkeley.edu/~elghaoui/Teaching/EE227A/lecture7.pdf), [Fenchel-Legendre Duality](https://zhuanlan.zhihu.com/p/34236792), [Convex-Optimization](https://glooow1024.github.io/categories/Convex-Optimization/), [Convex-Optimization - bilibili](https://www.bilibili.com/video/BV1Jt411p7jE?p=20&spm_id_from=pageDriver),  
@@ -1822,7 +1726,7 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
 
 ---
 
-### Blogs & Corp. & Legends 
+### Blog & Corp. & Legend 
 
 [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/), [OpenAI Blog](https://openai.com/blog/), [OpenAI Baselines](https://github.com/openai/baselines), [DeepMind](https://deepmind.com/blog?category=research), [BAIR](https://bair.berkeley.edu/blog/), [Stanford AI Lab](https://ai.stanford.edu/blog/), 
 
