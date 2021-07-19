@@ -687,7 +687,7 @@ We show that by leveraging reference motion data, a single learning-based approa
 
 :curly_loop: [RMA: Rapid Motor Adaptation for Legged Robots](https://arxiv.org/pdf/2107.04034.pdf) :+1: 
 
-The robot achieves this high success rate despite never having seen unstable or sinking ground, obstructive vegetation or stairs during training. All deployment results are with the same policy without any simulation calibration, or real-world fine-tuning.  ​ ​ ​
+The robot achieves this high success rate despite never having seen unstable or sinking ground, obstructive vegetation or stairs during training. All deployment results are with the same policy without any simulation calibration, or real-world fine-tuning.  ​ ​ ​ 
 
    ​
 
@@ -952,11 +952,11 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
   :curly_loop: [Off-Policy Deep Reinforcement Learning without Exploration](https://arxiv.org/pdf/1812.02900.pdf) :fire: :boom: :volcano:  ​ ​ ​
 
-  We introduce a novel class of off-policy algorithms, batch-constrained reinforcement learning, which restricts the action space in order to force the agent towards behaving close to on-policy with respect to a subset of the given data. 
+  BCQ: We introduce a novel class of off-policy algorithms, batch-constrained reinforcement learning, which restricts the action space in order to force the agent towards behaving close to on-policy with respect to a subset of the given data. 
 
   :curly_loop: [Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction](https://arxiv.org/pdf/1906.00949.pdf) :fire: :boom: :droplet:  ​
 
-  We identify bootstrapping error as a key source of instability in current methods. Bootstrapping error is due to bootstrapping from actions that lie outside of the training data distribution, and it accumulates via the Bellman backup operator.  
+BEAR: We identify bootstrapping error as a key source of instability in current methods. Bootstrapping error is due to bootstrapping from actions that lie outside of the training data distribution, and it accumulates via the Bellman backup operator.  
 
   :curly_loop: [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2006.04779.pdf) :+1: :fire: :volcano: :sweat_drops:  ​ ​
 
@@ -997,6 +997,8 @@ MMI can be problematic because it picks up spurious correlations between the inp
   we propose a monotonic advantage reweighted imitation learning strategy that is applicable to problems with complex nonlinear function approximation and works well with hybrid (discrete and continuous) action space. 
 
   :curly_loop: [BAIL: Best-Action Imitation Learning for Batch Deep Reinforcement Learning](https://arxiv.org/pdf/1910.12179.pdf) 
+
+ BAIL learns a V function, uses the V function to select actions it believes to be high-performing, and then uses those actions to train a policy network using imitation learning. 
 
   :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) 
 
