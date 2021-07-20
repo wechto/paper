@@ -996,11 +996,15 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
   we propose a monotonic advantage reweighted imitation learning strategy that is applicable to problems with complex nonlinear function approximation and works well with hybrid (discrete and continuous) action space. 
 
-  :curly_loop: [BAIL: Best-Action Imitation Learning for Batch Deep Reinforcement Learning](https://arxiv.org/pdf/1910.12179.pdf) 
+  :curly_loop: [BAIL: Best-Action Imitation Learning for Batch Deep Reinforcement Learning](https://arxiv.org/pdf/1910.12179.pdf) :+1:  :volcano:  ​
 
  BAIL learns a V function, uses the V function to select actions it believes to be high-performing, and then uses those actions to train a policy network using imitation learning. 
 
   :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) 
+
+:curly_loop: [A Minimalist Approach to Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06860.pdf) :+1: :fire: :volcano:  ​ ​ ​
+
+ We find that we can match the performance of state-of-the-art offline RL algorithms by simply adding a behavior cloning term to the policy update of an online RL algorithm and normalizing the data. 
 
 
 
