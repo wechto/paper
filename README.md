@@ -10,7 +10,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 
 
-TOC 
+TOC
 
 
 - [READING LIST](#reading-list)
@@ -689,6 +689,8 @@ We show that by leveraging reference motion data, a single learning-based approa
 
 The robot achieves this high success rate despite never having seen unstable or sinking ground, obstructive vegetation or stairs during training. All deployment results are with the same policy without any simulation calibration, or real-world fine-tuning.  ​ ​ ​ 
 
+
+
    ​
 
   
@@ -986,7 +988,7 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
   :curly_loop: [AWAC: Accelerating Online Reinforcement Learning with Offline Datasets](https://arxiv.org/pdf/2006.09359.pdf) :+1: :fire: :volcano: 
 
-  we systematically analyze why this problem (offline + online) is so challenging, and propose an algorithm that combines sampleefficient dynamic programming with maximum likelihood policy updates, providing a simple and effective framework that is able to leverage large amounts of offline data and then quickly perform online fine-tuning of RL policies. 
+  we systematically analyze why this problem (offline + online) is so challenging, and propose an algorithm that combines sample efficient dynamic programming with maximum likelihood policy updates, providing a simple and effective framework that is able to leverage large amounts of offline data and then quickly perform online fine-tuning of RL policies. 
 
   :curly_loop: [Critic Regularized Regression](https://arxiv.org/pdf/2006.15134.pdf) :+1: :fire: :volcano:  ​ ​
 
@@ -1312,7 +1314,11 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
   :curly_loop: [Context-aware Dynamics Model for Generalization in Model-Based Reinforcement Learning](https://arxiv.org/pdf/2005.06800.pdf) :+1: :fire:  ​ ​
 
-   The intuition is that the true context of the underlying MDP can be captured from recent experiences. 
+   The intuition is that the true context of the underlying MDP can be captured from recent experiences. learning a global model that can generalize across different dynamics is a challenging task. To tackle this problem, we decompose the task of learning a global dynamics model into two stages: (a) learning a context latent vector that captures the local dynamics, then (b) predicting the next state conditioned on it
+
+:curly_loop: [Trajectory-wise Multiple Choice Learning for Dynamics Generalization in Reinforcement Learning](https://arxiv.org/pdf/2010.13303.pdf) :+1:  ​
+
+The main idea is updating the most accurate prediction head to specialize each head in certain environments with similar dynamics, i.e., clustering environments.
 
   :curly_loop: [Optimism is All You Need: Model-Based Imitation Learning From Observation Alone](https://arxiv.org/pdf/2102.10769.pdf) :sweat_drops:  ​
 
@@ -1327,6 +1333,8 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
   :curly_loop: [Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation](https://arxiv.org/pdf/2107.01825.pdf) :no_mouth: 
 
   MEEE, a model-ensemble method that consists of optimistic exploration and weighted exploitation.  
+
+
 
   
 
