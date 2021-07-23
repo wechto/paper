@@ -1008,6 +1008,10 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
  We find that we can match the performance of state-of-the-art offline RL algorithms by simply adding a behavior cloning term to the policy update of an online RL algorithm and normalizing the data. 
 
+:curly_loop: [POPO: Pessimistic Offline Policy Optimization](https://arxiv.org/pdf/2012.13682.pdf) :confused:  ​
+
+Distributional value functions. 
+
 
 
 
@@ -1501,6 +1505,16 @@ The main idea is updating the most accurate prediction head to specialize each h
   :curly_loop: [P3O: Policy-on Policy-off Policy Optimization](http://proceedings.mlr.press/v115/fakoor20a/fakoor20a.pdf) :fire: 
 
   This paper develops a simple alg. named P3O that interleaves offpolicy updates with on-policy updates.  
+
+
+
+:curly_loop: [Zeroth-Order Supervised Policy Improvement](https://arxiv.org/pdf/2006.06600.pdf) :fire: 
+
+The policy learning of ZOSPI has two steps: 1), it samples actions and evaluates those actions with a learned value estimator, and 2) it learns to perform the action with the highest value through supervised learning.  
+
+
+
+
 
   
 
