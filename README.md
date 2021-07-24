@@ -1508,9 +1508,19 @@ The main idea is updating the most accurate prediction head to specialize each h
 
 
 
-:curly_loop: [Zeroth-Order Supervised Policy Improvement](https://arxiv.org/pdf/2006.06600.pdf) :fire: 
+:curly_loop: [Zeroth-Order Supervised Policy Improvement](https://arxiv.org/pdf/2006.06600.pdf) :fire: :fire:  ​
 
 The policy learning of ZOSPI has two steps: 1), it samples actions and evaluates those actions with a learned value estimator, and 2) it learns to perform the action with the highest value through supervised learning.  
+
+
+
+:curly_loop: [SAMPLE EFFICIENT ACTOR-CRITIC WITH EXPERIENCE REPLAY](https://arxiv.org/pdf/1611.01224.pdf) :+1: :fire:   
+
+including truncated importance sampling with bias correction, stochastic dueling network architectures, and a new trust region policy optimization. 
+
+:curly_loop: [Safe and efficient off-policy reinforcement learning](https://arxiv.org/pdf/1606.02647.pdf) 
+
+
 
 
 
