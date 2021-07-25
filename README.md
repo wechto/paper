@@ -1518,7 +1518,15 @@ The policy learning of ZOSPI has two steps: 1), it samples actions and evaluates
 
 including truncated importance sampling with bias correction, stochastic dueling network architectures, and a new trust region policy optimization. 
 
-:curly_loop: [Safe and efficient off-policy reinforcement learning](https://arxiv.org/pdf/1606.02647.pdf) 
+:curly_loop: [Safe and efficient off-policy reinforcement learning](https://arxiv.org/pdf/1606.02647.pdf) :fire: :droplet:  ​ ​
+
+Retrace(λ); low variance, safe, efficient, 
+
+:curly_loop: [Relative Entropy Regularized Policy Iteration](https://arxiv.org/pdf/1812.02256.pdf) :fire: :fire: 
+
+The algorithm alternates between Q-value estimation, local policy improvement and parametric policy fitting; hard constraints control the rate of change of the policy. And a decoupled update for mean and covarinace of a Gaussian policy avoids premature convergence. 
+
+ ​
 
 
 
