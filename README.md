@@ -689,6 +689,10 @@ We show that by leveraging reference motion data, a single learning-based approa
 
 The robot achieves this high success rate despite never having seen unstable or sinking ground, obstructive vegetation or stairs during training. All deployment results are with the same policy without any simulation calibration, or real-world fine-tuning.  ​ ​ ​ 
 
+:curly_loop: [Why Generalization in RL is Difficult: Epistemic POMDPs and Implicit Partial Observability](https://arxiv.org/pdf/2107.06277.pdf) :fire: 
+
+we recast the problem of generalization in RL as solving the induced partially observed Markov decision process, which we call the epistemic POMDP. 
+
 
 
    ​
@@ -1525,6 +1529,10 @@ Retrace(λ); low variance, safe, efficient,
 :curly_loop: [Relative Entropy Regularized Policy Iteration](https://arxiv.org/pdf/1812.02256.pdf) :fire: :fire: 
 
 The algorithm alternates between Q-value estimation, local policy improvement and parametric policy fitting; hard constraints control the rate of change of the policy. And a decoupled update for mean and covarinace of a Gaussian policy avoids premature convergence. 
+
+:curly_loop:  [Q-Learning for Continuous Actions with Cross-Entropy Guided Policies](https://arxiv.org/pdf/1903.10605.pdf) :+1: 
+
+ Our approach trains the Q-function using iterative sampling with the Cross-Entropy Method (CEM), while training a policy network to imitate CEM’s sampling behavior. 
 
  ​
 
