@@ -322,6 +322,10 @@ TOC
   
    we study the effects of ensemble and auxiliary tasks when combined with the deep Q-learning alg. 
   
+  :curly_loop: [Unsupervised Skill-Discovery and Skill-Learning in Minecraft](https://arxiv.org/pdf/2107.08398.pdf) :no_mouth:  ​
+  
+  :curly_loop: [Variational Empowerment as Representation Learning for Goal-Based Reinforcement Learning](http://proceedings.mlr.press/v139/choi21b/choi21b.pdf) :droplet:  ​
+  
    ​ ​
 
 
@@ -1006,7 +1010,7 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
  BAIL learns a V function, uses the V function to select actions it believes to be high-performing, and then uses those actions to train a policy network using imitation learning. 
 
-  :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) 
+  :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) :droplet:  ​
 
 :curly_loop: [A Minimalist Approach to Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06860.pdf) :+1: :fire: :volcano:  ​ ​ ​
 
@@ -1015,6 +1019,10 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 :curly_loop: [POPO: Pessimistic Offline Policy Optimization](https://arxiv.org/pdf/2012.13682.pdf) :confused:  ​
 
 Distributional value functions. 
+
+:curly_loop: [Offline Reinforcement Learning as Anti-Exploration](https://arxiv.org/pdf/2106.06431.pdf) 
+
+:curly_loop: [MOPO: Model-based Offline Policy Optimization](https://arxiv.org/pdf/2005.13239.pdf) 
 
 
 
@@ -1229,6 +1237,10 @@ Distributional value functions.
   :curly_loop: [Discovering Generalizable Skills via Automated Generation of Diverse Tasks](https://arxiv.org/pdf/2106.13935.pdf) :no_mouth: 
 
   As opposed to prior work on unsupervised discovery of skills which incentivizes the skills to produce different outcomes in the same environment, our method pairs each skill with a unique task produced by a trainable task generator. Procedural content generation (PCG). 
+
+:curly_loop: [Unbiased Methods for Multi-Goal RL](https://arxiv.org/pdf/2106.08863.pdf) :confused:  :+1: :droplet:  
+
+  First, we vindicate HER by proving that it is actually unbiased in deterministic environments, such as many optimal control settings. Next, for stochastic environments in continuous spaces, we tackle sparse rewards by directly taking the infinitely sparse reward limit. 
 
    ​
 
