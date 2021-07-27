@@ -370,7 +370,7 @@ TOC
 
   :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://openreview.net/pdf?id=S1ANxQW0b) :+1: :fire:  :droplet:  :volcano:  ​
 
-  MPO based on coordinate ascent on a relativeentropy objective. We show that several existing methods can directly be related to our derivation. 
+  MPO based on coordinate ascent on a relative entropy objective. We show that several existing methods can directly be related to our derivation. 
 
 
 
@@ -1020,7 +1020,9 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
 Distributional value functions. 
 
-:curly_loop: [Offline Reinforcement Learning as Anti-Exploration](https://arxiv.org/pdf/2106.06431.pdf) 
+:curly_loop: [Offline Reinforcement Learning as Anti-Exploration](https://arxiv.org/pdf/2106.06431.pdf) :+1: :fire:  ​ 
+
+The core idea is to subtract a prediction-based exploration bonus from the reward, instead of adding it for exploration.  
 
 :curly_loop: [MOPO: Model-based Offline Policy Optimization](https://arxiv.org/pdf/2005.13239.pdf) 
 
@@ -1493,6 +1495,20 @@ The main idea is updating the most accurate prediction head to specialize each h
   :curly_loop: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  
 
   :curly_loop: [Maximum Entropy RL (Provably) Solves Some Robust RL Problems](https://arxiv.org/pdf/2103.06257.pdf) 
+
+:curly_loop: [Munchausen Reinforcement Learning](https://arxiv.org/pdf/2007.14430.pdf) :+1: ​ :fire:  :volcano: :droplet: 
+
+Yet, another estimate could be leveraged to bootstrap RL: the current policy. Our core contribution stands in a very simple idea: adding the scaled log-policy to the immediate reward. 
+
+:curly_loop: [Leverage the Average: an Analysis of KL Regularization in Reinforcement Learning](https://arxiv.org/pdf/2003.14089.pdf) :+1: :fire: :volcano: :boom: :boom: :droplet:  ​
+
+Convex Conjugacy for KL and Entropy Regularization;  1) Mirror Descent MPI: SAC, Soft Q-learning; Softmax DQN, mellowmax policy, TRPO, MPO, DPP, CVI:droplet:;  2) Dual Averaging MPI:droplet::  
+
+
+
+
+
+ ​ ​
 
   
 
