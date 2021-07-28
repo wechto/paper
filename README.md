@@ -1024,7 +1024,9 @@ Distributional value functions.
 
 The core idea is to subtract a prediction-based exploration bonus from the reward, instead of adding it for exploration.  
 
-:curly_loop: [MOPO: Model-based Offline Policy Optimization](https://arxiv.org/pdf/2005.13239.pdf) :+1:  :fire: :volcano: 
+:curly_loop: [MOPO: Model-based Offline Policy Optimization](https://arxiv.org/pdf/2005.13239.pdf) :+1:  :fire: :volcano: :boom:  
+
+we propose to modify the existing model-based RL methods by applying them with rewards artificially penalized by the uncertainty of the dynamics. We theoretically show that the algorithm maximizes a lower bound of the policy’s return under the true MDP. We also characterize the trade-off between the gain and risk of leaving the support of the batch data. 
 
  ​ ​
 
