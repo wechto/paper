@@ -1024,7 +1024,9 @@ Distributional value functions.
 
 The core idea is to subtract a prediction-based exploration bonus from the reward, instead of adding it for exploration.  
 
-:curly_loop: [MOPO: Model-based Offline Policy Optimization](https://arxiv.org/pdf/2005.13239.pdf) 
+:curly_loop: [MOPO: Model-based Offline Policy Optimization](https://arxiv.org/pdf/2005.13239.pdf) :+1:  :fire: :volcano: 
+
+ ​ ​
 
 
 
@@ -1681,6 +1683,8 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
 
   :curly_loop: [Information-Theoretic Considerations in Batch Reinforcement Learning](http://proceedings.mlr.press/v97/chen19e/chen19e.pdf) :volcano: :confused: :sweat_drops:   
 
+  :curly_loop: [Implicit Quantile Networks for Distributional Reinforcement Learning](https://arxiv.org/pdf/1806.06923.pdf) :sweat_drops:  ​
+  
    
 
 
