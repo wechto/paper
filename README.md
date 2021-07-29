@@ -368,7 +368,7 @@ TOC
 
   existing inference frameworks and their algorithms pose significant challenges for learning optimal policies, for example, the lack of mode capturing behaviour in pseudo-likelihood methods, difficulties learning deterministic policies in maximum entropy RL based approaches, and a lack of analysis when function approximators are used. 
 
-  :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://openreview.net/pdf?id=S1ANxQW0b) :+1: :fire:  :droplet:  :volcano:  ​
+  :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://arxiv.org/pdf/1806.06920.pdf) :+1: :fire:  :droplet:  :volcano:  
 
   MPO based on coordinate ascent on a relative entropy objective. We show that several existing methods can directly be related to our derivation. 
 
@@ -1359,6 +1359,8 @@ The main idea is updating the most accurate prediction head to specialize each h
   :curly_loop: [Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation](https://arxiv.org/pdf/2107.01825.pdf) :no_mouth: 
 
   MEEE, a model-ensemble method that consists of optimistic exploration and weighted exploitation.  
+
+:curly_loop: [ALGORITHMIC FRAMEWORK FOR MODEL-BASED DEEP REINFORCEMENT LEARNING WITH THEORETICAL GUARANTEES](https://arxiv.org/pdf/1807.03858.pdf) :+1:  ​
 
 
 
