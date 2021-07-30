@@ -256,7 +256,7 @@ TOC
 
   we first use simulation to jointly learn a policy for a set of low-level skills, and a **“skill embedding”** parameterization which can be used to compose them. 
 
-  :curly_loop: [LEARNING AN EMBEDDING SPACE FOR TRANSFERABLE ROBOT SKILLS](https://openreview.net/pdf?id=rk07ZXZRb) :fire: :+1: :boom:  ​
+  : [LEARNING AN EMBEDDING SPACE FOR TRANSFERABLE ROBOT SKILLS](https://openreview.net/pdf?id=rk07ZXZRb) : : :  ​
 
   our method is able to learn the skill embedding distributions, which enables interpolation between different skills as well as discovering the number of distinct skills necessary to accomplish a set of tasks. 
 
@@ -368,7 +368,7 @@ TOC
 
   existing inference frameworks and their algorithms pose significant challenges for learning optimal policies, for example, the lack of mode capturing behaviour in pseudo-likelihood methods, difficulties learning deterministic policies in maximum entropy RL based approaches, and a lack of analysis when function approximators are used. 
 
-  :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://arxiv.org/pdf/1806.06920.pdf) :+1: :fire:  :droplet:  :volcano:  
+  : [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://arxiv.org/pdf/1806.06920.pdf) : :  :  :  
 
   MPO based on coordinate ascent on a relative entropy objective. We show that several existing methods can directly be related to our derivation.  
 
@@ -376,7 +376,13 @@ TOC
 
 adapts Maximum a Posteriori Policy Optimization to the on-policy setting. 
 
+:curly_loop: [SOFT Q-LEARNING WITH MUTUAL-INFORMATION REGULARIZATION](https://openreview.net/pdf?id=HyEtjoCqFX) :+1: :fire: :volcano: 
 
+In this paper, we propose a theoretically motivated framework that dynamically weights the importance of actions by using the mutual information. In particular, we express the RL problem as an inference problem where the prior probability distribution over actions is subject to optimization. 
+
+
+
+ ​
 
 
 
