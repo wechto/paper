@@ -370,7 +370,13 @@ TOC
 
   :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://arxiv.org/pdf/1806.06920.pdf) :+1: :fire:  :droplet:  :volcano:  
 
-  MPO based on coordinate ascent on a relative entropy objective. We show that several existing methods can directly be related to our derivation. 
+  MPO based on coordinate ascent on a relative entropy objective. We show that several existing methods can directly be related to our derivation.  
+
+: [V-MPO: ON-POLICY MAXIMUM A POSTERIORI POLICY OPTIMIZATION FOR DISCRETE AND CONTINUOUS CONTROL](https://arxiv.org/pdf/1909.12238.pdf) : : :  ​ ​ ​
+
+adapts Maximum a Posteriori Policy Optimization to the on-policy setting. 
+
+
 
 
 
@@ -1360,7 +1366,9 @@ The main idea is updating the most accurate prediction head to specialize each h
 
   MEEE, a model-ensemble method that consists of optimistic exploration and weighted exploitation.  
 
-:curly_loop: [ALGORITHMIC FRAMEWORK FOR MODEL-BASED DEEP REINFORCEMENT LEARNING WITH THEORETICAL GUARANTEES](https://arxiv.org/pdf/1807.03858.pdf) :+1:  ​
+:curly_loop: [ALGORITHMIC FRAMEWORK FOR MODEL-BASED DEEP REINFORCEMENT LEARNING WITH THEORETICAL GUARANTEES](https://arxiv.org/pdf/1807.03858.pdf) :+1:  :volcano: :droplet: 
+
+SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone improvement to a local maximum of the expected reward. The meta-algorithm iteratively builds a lower bound of the expected reward based on the estimated dynamical model and sample trajectories, and then maximizes the lower bound jointly over the policy and the model. 
 
 
 
@@ -1456,7 +1464,7 @@ The main idea is updating the most accurate prediction head to specialize each h
 
   :curly_loop: [ADVANTAGE-WEIGHTED REGRESSION: SIMPLE AND SCALABLE OFF-POLICY REINFORCEMENT LEARNING](https://arxiv.org/pdf/1910.00177.pdf) :+1: :fire:  :boom: 
 
-  Our proposed approach, which we refer to as advantage-weighted regression (AWR), consists of two standard supervised learning steps: one to regress onto target values for a value function, and another to regress onto weighted target actions for the policy. 
+  Our proposed approach, which we refer to as advantage-weighted regression (AWR), consists of two standard supervised learning steps: one to regress onto target values for a value function, and another to regress onto weighted target actions for the policy.  [see MPO] 
 
   :curly_loop: [Overcoming Exploration in Reinforcement Learning with Demonstrations](https://arxiv.org/pdf/1709.10089.pdf) :fire: 
 
@@ -1562,11 +1570,19 @@ Retrace(λ); low variance, safe, efficient,
 
 :curly_loop: [Relative Entropy Regularized Policy Iteration](https://arxiv.org/pdf/1812.02256.pdf) :fire: :fire: 
 
-The algorithm alternates between Q-value estimation, local policy improvement and parametric policy fitting; hard constraints control the rate of change of the policy. And a decoupled update for mean and covarinace of a Gaussian policy avoids premature convergence. 
+The algorithm alternates between Q-value estimation, local policy improvement and parametric policy fitting; hard constraints control the rate of change of the policy. And a decoupled update for mean and covarinace of a Gaussian policy avoids premature convergence.  [see MPO] 
 
 :curly_loop:  [Q-Learning for Continuous Actions with Cross-Entropy Guided Policies](https://arxiv.org/pdf/1903.10605.pdf) :+1: 
 
  Our approach trains the Q-function using iterative sampling with the Cross-Entropy Method (CEM), while training a policy network to imitate CEM’s sampling behavior. 
+
+:curly_loop: [SUPERVISED POLICY UPDATE FOR DEEP REINFORCEMENT LEARNING](https://arxiv.org/pdf/1805.11706.pdf) :+1: :fire: :fire:  ​ ​ ​
+
+FORWARD AGGREGATE AND DISAGGREGATE KL CONSTRAINTS; BACKWARD KL CONSTRAINT; L CONSTRAINT; 
+
+ ​ ​
+
+
 
  ​
 
@@ -1574,7 +1590,7 @@ The algorithm alternates between Q-value estimation, local policy improvement an
 
 
 
-
+ 
 
   
 
