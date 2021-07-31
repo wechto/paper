@@ -368,11 +368,11 @@ TOC
 
   existing inference frameworks and their algorithms pose significant challenges for learning optimal policies, for example, the lack of mode capturing behaviour in pseudo-likelihood methods, difficulties learning deterministic policies in maximum entropy RL based approaches, and a lack of analysis when function approximators are used. 
 
-  : [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://arxiv.org/pdf/1806.06920.pdf) : :  :  :  
+  :curly_loop: [MAXIMUM A POSTERIORI POLICY OPTIMISATION](https://arxiv.org/pdf/1806.06920.pdf) :fire: :+1:  :boom:  
 
   MPO based on coordinate ascent on a relative entropy objective. We show that several existing methods can directly be related to our derivation.  
 
-: [V-MPO: ON-POLICY MAXIMUM A POSTERIORI POLICY OPTIMIZATION FOR DISCRETE AND CONTINUOUS CONTROL](https://arxiv.org/pdf/1909.12238.pdf) : : :  ​ ​ ​
+:curly_loop: [V-MPO: ON-POLICY MAXIMUM A POSTERIORI POLICY OPTIMIZATION FOR DISCRETE AND CONTINUOUS CONTROL](https://arxiv.org/pdf/1909.12238.pdf) :+1: :fire: :volcano: :boom:  ​ ​ ​ ​
 
 adapts Maximum a Posteriori Policy Optimization to the on-policy setting. 
 
@@ -387,7 +387,7 @@ In this paper, we propose a theoretically motivated framework that dynamically w
 
 
 + 
-+ [Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf) :boom: :volcano: :ghost: [the art of design] :sweat_drops:  ​
++ [Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf) :boom: :volcano: ​ :ghost: [the art of design] :sweat_drops:  ​
 
 
 
