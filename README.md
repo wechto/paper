@@ -1058,7 +1058,15 @@ R-BVE uses a ranking regularisation term that favours actions in the dataset tha
 
 Gaussian process over policy values; Kernel; Active offline policy selection with Bayesian optimization.  We proposed a BO solution that integrates OPE estimates with evaluations obtained by interacting with env. 
 
-:curly_loop: [Offline Policy Selection under Uncertainty](https://arxiv.org/pdf/2012.06919.pdf) 
+:curly_loop: [Offline Policy Selection under Uncertainty](https://arxiv.org/pdf/2012.06919.pdf) :sweat_drops:  ​
+
+:curly_loop: [Offline Learning from Demonstrations and Unlabeled Experience](https://arxiv.org/pdf/2011.13885.pdf) :no_mouth: :+1:  ​
+
+We proposed offline reinforced imitation learning (ORIL) to enable learning from both demonstrations and a large unlabeled set of experiences without reward annotations.  
+
+ ​
+
+
 
 
 
