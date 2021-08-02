@@ -1044,6 +1044,8 @@ we propose to modify the existing model-based RL methods by applying them with r
 
 This framework consists of two steps: (a) learning a pessimistic MDP (P-MDP) using the offline dataset; (b) learning a near-optimal policy in this P-MDP. 
 
+:curly_loop: [THE IMPORTANCE OF PESSIMISM IN FIXED-DATASET POLICY OPTIMIZATION](https://arxiv.org/pdf/2009.06799.pdf) 
+
 
 
 
@@ -1063,6 +1065,18 @@ Gaussian process over policy values; Kernel; Active offline policy selection wit
 :curly_loop: [Offline Learning from Demonstrations and Unlabeled Experience](https://arxiv.org/pdf/2011.13885.pdf) :no_mouth: :+1:  ​
 
 We proposed offline reinforced imitation learning (ORIL) to enable learning from both demonstrations and a large unlabeled set of experiences without reward annotations.  
+
+:curly_loop: [Offline Preference-Based Apprenticeship Learning](https://arxiv.org/pdf/2107.09251.pdf) :+1:  ​
+
+OPAL: Given a database consisting of trajectories without reward labels, we query an expert for preference labels over trajectory segments from the database, learn a reward function from preferences, and then perform offline RL using rewards provided by the learned reward function. 
+
+:curly_loop: [Semi-supervised reward learning for offline reinforcement learning](https://arxiv.org/pdf/2012.06899.pdf) :no_mouth:  ​
+
+We train a reward function on a pre-recorded dataset, use it to label the data and do offline RL. 
+
+:curly_loop: [Offline Inverse Reinforcement Learning](https://arxiv.org/pdf/2106.05068.pdf) 
+
+
 
  ​
 
