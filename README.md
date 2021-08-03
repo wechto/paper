@@ -1044,7 +1044,7 @@ we propose to modify the existing model-based RL methods by applying them with r
 
 This framework consists of two steps: (a) learning a pessimistic MDP (P-MDP) using the offline dataset; (b) learning a near-optimal policy in this P-MDP. 
 
-:curly_loop: [THE IMPORTANCE OF PESSIMISM IN FIXED-DATASET POLICY OPTIMIZATION](https://arxiv.org/pdf/2009.06799.pdf) 
+
 
 
 
@@ -1638,7 +1638,9 @@ FORWARD AGGREGATE AND DISAGGREGATE KL CONSTRAINTS; BACKWARD KL CONSTRAINT; L CON
 
 
 
- ​
+ :curly_loop: [THE IMPORTANCE OF PESSIMISM IN FIXED-DATASET POLICY OPTIMIZATION](https://arxiv.org/pdf/2009.06799.pdf)  :volcano: :boom:  :ghost:  :sweat_drops:  ​
+
+Algs can follow the pessimism principle, which states that we should choose the policy which acts optimally in the worst possible world. We show why pessimistic algorithms can achieve good performance even when the dataset is not informative of every policy, and derive families of algorithms which follow this principle. 
 
 
 
