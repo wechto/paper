@@ -1044,6 +1044,14 @@ we propose to modify the existing model-based RL methods by applying them with r
 
 This framework consists of two steps: (a) learning a pessimistic MDP (P-MDP) using the offline dataset; (b) learning a near-optimal policy in this P-MDP. 
 
+:curly_loop: [COMBO: Conservative Offline Model-Based Policy Optimization](https://arxiv.org/pdf/2102.08363.pdf) :fire: :volcano: :boom:   ​ ​ ​
+
+This results in a conservative estimate of the value function for out-of-support state-action tuples, without requiring explicit uncertainty estimation. 
+
+:curly_loop: [Behavioral Priors and Dynamics Models: Improving Performance and Domain Transfer in Offline RL](https://arxiv.org/pdf/2106.09119.pdf)  :volcano:
+
+MABE: By adaptive behavioral prior, we mean a policy that approximates the behavior in the offline dataset while giving more importance to trajectories with high rewards.  
+
 
 
 
@@ -1075,6 +1083,22 @@ OPAL: Given a database consisting of trajectories without reward labels, we quer
 We train a reward function on a pre-recorded dataset, use it to label the data and do offline RL. 
 
 :curly_loop: [Offline Inverse Reinforcement Learning](https://arxiv.org/pdf/2106.05068.pdf) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
