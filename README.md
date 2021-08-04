@@ -964,6 +964,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 To enhance generalization in the offline setting, we present Random Ensemble Mixture (REM), a robust Q-learning algorithm that enforces optimal Bellman consistency on random convex combinations of multiple Q-value estimates. 
 
+:curly_loop: [Safe Policy Improvement with Baseline Bootstrapping](https://arxiv.org/pdf/1712.06924.pdf) :+1:  :fire: :volcano: 
+
+Our approach, called SPI with Baseline Bootstrapping (SPIBB), is inspired by the *knows-what-it-knows* paradigm: it bootstraps the trained policy with the baseline when the uncertainty is high.   
+
   :curly_loop: [OPAL: OFFLINE PRIMITIVE DISCOVERY FOR ACCELERATING OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.13611.pdf) :boom:  when presented with offline data composed of a variety of behaviors, an effective way to leverage this data is to extract a continuous space of recurring and temporally extended primitive behaviors before using these primitives for downstream task learning. OFFLINE unsupervised RL. 
 
   :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :+1: :volcano:  :boom: 
@@ -1246,7 +1250,7 @@ We train a reward function on a pre-recorded dataset, use it to label the data a
 
 ## Supervised RL & Goal-conditioned Policy 
 
-  :curly_loop: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: iclr2020  iclr2021 
+  :curly_loop: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: 
 
   an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
 
@@ -1760,13 +1764,17 @@ propose a flexible meta-algorithm that admits any batch reinforcement learning a
 
 It is easy to see that Convex MDPs in which goals are expressed as convex functions of stationary distributions cannot, in general, be formulated in this manner (maximising a cumulative reward).  
 
- ​ ​
+:curly_loop: [DENSITY CONSTRAINED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=jMc7DlflrMC) :+1:  :volcano:  ​
 
-+ Density constrained
+We prove the duality between the density function and Q function in CRL and use it to develop an effective primal-dual algorithm to solve density constrained reinforcement learning problems.  
 
-  :curly_loop: [DENSITY CONSTRAINED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=jMc7DlflrMC) :+1:  :volcano:  ​
 
-  We prove the duality between the density function and Q function in CRL and use it to develop an effective primal-dual algorithm to solve density constrained reinforcement learning problems. 
+
+
+
+:curly_loop: [Safe Policy Improvement by Minimizing Robust Baseline Regret](https://arxiv.org/pdf/1607.03842.pdf)  [see more in <a href="#anchor-offline">offline_rl</a>] 
+
+:curly_loop: [Safe Policy Improvement with Soft Baseline Bootstrapping](https://arxiv.org/pdf/1907.05079.pdf) 
 
 
 
