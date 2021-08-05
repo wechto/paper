@@ -1250,7 +1250,7 @@ We train a reward function on a pre-recorded dataset, use it to label the data a
 
 ## Supervised RL & Goal-conditioned Policy 
 
-  :curly_loop: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: 
+  :curly_loop: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: :+1:  ​
 
   an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
 
@@ -1673,6 +1673,16 @@ FORWARD AGGREGATE AND DISAGGREGATE KL CONSTRAINTS; BACKWARD KL CONSTRAINT; L CON
  :curly_loop: [THE IMPORTANCE OF PESSIMISM IN FIXED-DATASET POLICY OPTIMIZATION](https://arxiv.org/pdf/2009.06799.pdf)  :volcano: :boom:  :ghost:  :sweat_drops:  ​
 
 Algs can follow the pessimism principle, which states that we should choose the policy which acts optimally in the worst possible world. We show why pessimistic algorithms can achieve good performance even when the dataset is not informative of every policy, and derive families of algorithms which follow this principle. 
+
+:curly_loop: [Bridging the Gap Between Value and Policy Based Reinforcement Learning](https://arxiv.org/pdf/1702.08892.pdf) :fire: :boom:  
+
+we develop a new RL algorithm, Path Consistency Learning (PCL), that minimizes a notion of soft consistency error along multi-step action sequences extracted from both on- and off-policy traces. 
+
+ ​
+
+
+
+
 
 
 
