@@ -10,7 +10,7 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 
 
-TOC
+TOC 
 
 
 - [READING LIST](#reading-list)
@@ -1674,9 +1674,13 @@ FORWARD AGGREGATE AND DISAGGREGATE KL CONSTRAINTS; BACKWARD KL CONSTRAINT; L CON
 
 Algs can follow the pessimism principle, which states that we should choose the policy which acts optimally in the worst possible world. We show why pessimistic algorithms can achieve good performance even when the dataset is not informative of every policy, and derive families of algorithms which follow this principle. 
 
-:curly_loop: [Bridging the Gap Between Value and Policy Based Reinforcement Learning](https://arxiv.org/pdf/1702.08892.pdf) :fire: :boom:  
+:curly_loop: [Bridging the Gap Between Value and Policy Based Reinforcement Learning](https://arxiv.org/pdf/1702.08892.pdf) :fire: :boom:  :volcano:  ​
 
 we develop a new RL algorithm, Path Consistency Learning (PCL), that minimizes a notion of soft consistency error along multi-step action sequences extracted from both on- and off-policy traces. 
+
+:curly_loop: [Equivalence Between Policy Gradients and Soft Q-Learning](https://arxiv.org/pdf/1704.06440.pdf) 
+
+:curly_loop: [Minimax Model Learning](http://proceedings.mlr.press/v130/voloshin21a/voloshin21a.pdf) 
 
  ​
 
