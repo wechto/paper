@@ -1060,6 +1060,8 @@ This results in a conservative estimate of the value function for out-of-support
 
 MABE: By adaptive behavioral prior, we mean a policy that approximates the behavior in the offline dataset while giving more importance to trajectories with high rewards.  
 
+:curly_loop: [Offline Reinforcement Learning with Fisher Divergence Critic Regularization](http://proceedings.mlr.press/v139/kostrikov21a/kostrikov21a.pdf) 
+
 
 
 
