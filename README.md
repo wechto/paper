@@ -1098,9 +1098,19 @@ We train a reward function on a pre-recorded dataset, use it to label the data a
 
 :curly_loop: [Offline Inverse Reinforcement Learning](https://arxiv.org/pdf/2106.05068.pdf) 
 
-:curly_loop:  [Augmented World Models Facilitate Zero-Shot Dynamics Generalization From a Single Offline Environment](https://arxiv.org/pdf/2104.05632.pdf) 
+:curly_loop:  [Augmented World Models Facilitate Zero-Shot Dynamics Generalization From a Single Offline Environment](https://arxiv.org/pdf/2104.05632.pdf) :+1: :fire: :volcano: 
+
+We augment a learned dynamics model with simple transformations that seek to capture potential changes in physical properties of the robot, leading to more robust policies. 
+
+:curly_loop: [Scaling data-driven robotics with reward sketching and batch reinforcement learning](https://arxiv.org/pdf/1909.12200.pdf) 
 
  ​
+
+ ​
+
+
+
+
 
 
 
@@ -1195,6 +1205,8 @@ We train a reward function on a pre-recorded dataset, use it to label the data a
   :curly_loop: [Provably Efficient Exploration in Policy Optimization](http://proceedings.mlr.press/v119/cai20d/cai20d.pdf) :confused: 
 
    design a provably efficient policy optimization algorithm that incorporates exploration. 
+  
+  
 
 
 
@@ -1436,6 +1448,14 @@ SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone impro
 
 
 
+:curly_loop: [Model-Advantage Optimization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.14080.pdf) 
+
+
+
+
+
+
+
   
 
   :o: dynamic distance learning   <a name="anchor-modelbasedddl"></a>  
@@ -1594,6 +1614,8 @@ Convex Conjugacy for KL and Entropy Regularization;  1) Mirror Descent MPI: SAC,
 
 we propose a two-step understanding of value estimation from the perspective of future prediction, through decomposing the value function into a reward-independent future dynamics part and a policy-independent trajectory return part. 
 
+:curly_loop: [DisCor: Corrective Feedback in Reinforcement Learning via Distribution Correction](https://arxiv.org/pdf/2003.07305.pdf) 
+
  ​
 
 
@@ -1658,9 +1680,17 @@ The algorithm alternates between Q-value estimation, local policy improvement an
 
 FORWARD AGGREGATE AND DISAGGREGATE KL CONSTRAINTS; BACKWARD KL CONSTRAINT; L CONSTRAINT; 
 
- ​ ​
+:curly_loop: [Maximizing Ensemble Diversity in Deep Q-Learning](https://arxiv.org/pdf/2006.13823.pdf) :no_mouth:  
+
+Reducing overestimation bias by increasing representation dissimilarity in ensemble based deep q-learning. 
 
 
+
+
+
+
+
+ ​
 
  :curly_loop: [THE IMPORTANCE OF PESSIMISM IN FIXED-DATASET POLICY OPTIMIZATION](https://arxiv.org/pdf/2009.06799.pdf)  :volcano: :boom:  :ghost:  :sweat_drops:  ​
 
