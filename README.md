@@ -808,7 +808,11 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 
 
+:curly_loop: [Soft-Robust Actor-Critic Policy-Gradient](https://arxiv.org/pdf/1803.04848.pdf) 
 
+Robust RL has shown that by considering the worst case scenario, robust policies can be overly conservative. Soft-Robust Actor Critic (SR-AC) learns an optimal policy with respect to a distribution over an uncertainty set and stays robust to model uncertainty but avoids the conservativeness of robust strategies. 
+
+ 
 
 
 
@@ -1064,9 +1068,13 @@ MABE: By adaptive behavioral prior, we mean a policy that approximates the behav
 
 We propose using a gradient penalty regularizer for the offset term and demonstrate its equivalence to Fisher divergence regularization, suggesting connections to the score matching and generative energy-based model literature. 
 
- ​ ​
+:curly_loop: [OFFLINE MODEL-BASED OPTIMIZATION VIA NORMALIZED MAXIMUM LIKELIHOOD ESTIMATION](https://arxiv.org/pdf/2102.07970.pdf) :volcano: :droplet: 
 
+we consider data-driven optimization problems where one must maximize a function given only queries at a fixed set of points. provides a principled approach to handling uncertainty and out-of-distribution inputs.
 
+:curly_loop: [Uncertainty Weighted Actor-Critic for Offline Reinforcement Learning](https://arxiv.org/pdf/2105.08140.pdf) :+1: :fire:  ​ ​
+
+UNCERTAINTY WEIGHTED OFFLINE REINFORCEMENT LEARNING: an algorithm that detects OOD state-action pairs and down-weights their contribution in the training objectives accordingly. 
 
 
 
@@ -1448,7 +1456,11 @@ SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone impro
 
 
 
-:curly_loop: [Model-Advantage Optimization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.14080.pdf) 
+:curly_loop: [Model-Advantage Optimization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.14080.pdf) :+1: :fire: :volcano: 
+
+we propose a novel value-aware objective that is an upper bound on the absolute performance difference of a policy across two models.  
+
+ ​ ​ ​
 
 
 
@@ -1561,6 +1573,10 @@ SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone impro
   :curly_loop: [Q-Value Weighted Regression: Reinforcement Learning with Limited Data](https://arxiv.org/pdf/2102.06782.pdf) :fire:  :volcano: 
 
   QWR: We replace the value function critic of AWR with a Q-value function.  AWR --> QWR. 
+
+:curly_loop: [SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning](http://proceedings.mlr.press/v139/lee21g/lee21g.pdf) :fire:  ​
+
+SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman backups, which re-weight target Q-values based on uncertainty estimates from a Q-ensemble, and (b) an inference method that selects actions using the highest upper-confidence bounds for efficient exploration. 
 
    ​
 
