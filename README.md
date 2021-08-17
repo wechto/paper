@@ -515,6 +515,8 @@ In this paper, we propose a theoretically motivated framework that dynamically w
 
   we contribute a new multi-modal deep latent state-space model, trained using a mutual information lower-bound. 
 
+:curly_loop: [LEARNING ACTIONABLE REPRESENTATIONS WITH GOAL-CONDITIONED POLICIES](https://arxiv.org/pdf/1811.07819.pdf) 
+
   
 
   
@@ -1256,9 +1258,9 @@ We augment a learned dynamics model with simple transformations that seek to cap
 
   an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
 
-  :curly_loop: [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) :+1: :fire: conditioning on the reward rather than goal state 
+  :curly_loop: [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) :+1: :fire: :volcano:  ​
 
-  Non-expert trajectories collected from suboptimal policies can be viewed as optimal supervision, not for maximizing the reward, but for matching the reward of the given trajectory. 
+  Non-expert trajectories collected from suboptimal policies can be viewed as optimal supervision, not for maximizing the reward, but for matching the reward of the given trajectory.  Any experience collected by an agent can be used as optimal supervision when conditioned on the quality of a policy. 
 
   :curly_loop: [Search on the Replay Buffer: Bridging Planning and Reinforcement Learning](https://arxiv.org/pdf/1906.05253.pdf) :fire: :+1:  ​ ​
 
@@ -1337,6 +1339,16 @@ We augment a learned dynamics model with simple transformations that seek to cap
 :curly_loop: [Unbiased Methods for Multi-Goal RL](https://arxiv.org/pdf/2106.08863.pdf) :confused:  :+1: :droplet:  
 
   First, we vindicate HER by proving that it is actually unbiased in deterministic environments, such as many optimal control settings. Next, for stochastic environments in continuous spaces, we tackle sparse rewards by directly taking the infinitely sparse reward limit. 
+
+
+
+:curly_loop: [DisCo RL: Distribution-Conditioned Reinforcement Learning for General-Purpose Policies](https://arxiv.org/pdf/2104.11707.pdf) :fire:  
+
+Contextual policies provide this capability in principle, but the representation of the context determines the degree of generalization and expressivity. Categorical contexts preclude generalization to entirely new tasks. Goal-conditioned policies may enable some generalization, but cannot capture all tasks that might be desired. 
+
+:curly_loop: [LEARNING ACTIONABLE REPRESENTATIONS WITH GOAL-CONDITIONED POLICIES](https://arxiv.org/pdf/1811.07819.pdf) 
+
+
 
    ​
 
@@ -1561,6 +1573,10 @@ we propose a novel value-aware objective that is an upper bound on the absolute 
   :curly_loop: [ADVANTAGE-WEIGHTED REGRESSION: SIMPLE AND SCALABLE OFF-POLICY REINFORCEMENT LEARNING](https://arxiv.org/pdf/1910.00177.pdf) :+1: :fire:  :boom: 
 
   Our proposed approach, which we refer to as advantage-weighted regression (AWR), consists of two standard supervised learning steps: one to regress onto target values for a value function, and another to regress onto weighted target actions for the policy.  [see MPO] 
+
+:curly_loop: [Relative Entropy Policy Search](https://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/viewFile/1851/2264) :fire: ​
+
+REPS:  it allows an exact policy update and may use data generated while following an unknown policy to generate a new, better policy. 
 
   :curly_loop: [Overcoming Exploration in Reinforcement Learning with Demonstrations](https://arxiv.org/pdf/1709.10089.pdf) :fire: 
 
