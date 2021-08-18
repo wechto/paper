@@ -515,7 +515,9 @@ In this paper, we propose a theoretically motivated framework that dynamically w
 
   we contribute a new multi-modal deep latent state-space model, trained using a mutual information lower-bound. 
 
-:curly_loop: [LEARNING ACTIONABLE REPRESENTATIONS WITH GOAL-CONDITIONED POLICIES](https://arxiv.org/pdf/1811.07819.pdf) 
+:curly_loop: [LEARNING ACTIONABLE REPRESENTATIONS WITH GOAL-CONDITIONED POLICIES](https://arxiv.org/pdf/1811.07819.pdf) :+1: :volcano:  ​ ​
+
+Aim to capture those factors of variation that are important for decision making – that are “actionable.” These representations are aware of the dynamics of the environment, and capture only the elements of the observation that are necessary for decision making rather than all factors of variation. 
 
   
 
@@ -810,7 +812,7 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 
 
-:curly_loop: [Soft-Robust Actor-Critic Policy-Gradient](https://arxiv.org/pdf/1803.04848.pdf) 
+:curly_loop: [Soft-Robust Actor-Critic Policy-Gradient](https://arxiv.org/pdf/1803.04848.pdf) :confused:  ​
 
 Robust RL has shown that by considering the worst case scenario, robust policies can be overly conservative. Soft-Robust Actor Critic (SR-AC) learns an optimal policy with respect to a distribution over an uncertainty set and stays robust to model uncertainty but avoids the conservativeness of robust strategies. 
 
@@ -945,6 +947,14 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   :curly_loop: [Variational Imitation Learning with Diverse-quality Demonstrations](http://proceedings.mlr.press/v119/tangkaratt20a/tangkaratt20a.pdf) :fire: :droplet: 
 
   We show that simple quality-estimation approaches might fail due to compounding error, and fix this issue by jointly estimating both the quality and reward using a variational approach. 
+  
++ Meta IRL
+
+  :curly_loop: [Meta-Inverse Reinforcement Learning with Probabilistic Context Variables](https://arxiv.org/pdf/1909.09314.pdf) 
+
+
+
+
 
 
 
