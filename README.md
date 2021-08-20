@@ -2038,7 +2038,9 @@ We prove the duality between the density function and Q function in CRL and use 
 
   we develop an approximate Bayesian inference scheme based on posterior regularisation, wherein unlabelled target data are used as “pseudo-labels” of model confidence that are used to regularise the model’s loss on labelled source data. 
 
-  :curly_loop: [Understanding Uncertainty in Bayesian Deep Learning](https://arxiv.org/pdf/2106.13055.pdf) :sweat_drops:  ​
+  :curly_loop: [Understanding Uncertainty in Bayesian Deep Learning](https://arxiv.org/pdf/2106.13055.pdf) :sweat_drops:         
+
+
 
 
 
