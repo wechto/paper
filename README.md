@@ -1122,6 +1122,8 @@ We train a reward function on a pre-recorded dataset, use it to label the data a
 
 We augment a learned dynamics model with simple transformations that seek to capture potential changes in physical properties of the robot, leading to more robust policies. 
 
+:curly_loop: [GOAL-CONDITIONED BATCH REINFORCEMENT LEARNING FOR ROTATION INVARIANT LOCOMOTION](https://arxiv.org/pdf/2004.08356.pdf) :no_mouth: 
+
 :curly_loop: [Scaling data-driven robotics with reward sketching and batch reinforcement learning](https://arxiv.org/pdf/1909.12200.pdf) 
 
  ​
@@ -1356,13 +1358,17 @@ We augment a learned dynamics model with simple transformations that seek to cap
 
 Contextual policies provide this capability in principle, but the representation of the context determines the degree of generalization and expressivity. Categorical contexts preclude generalization to entirely new tasks. Goal-conditioned policies may enable some generalization, but cannot capture all tasks that might be desired. 
 
-:curly_loop: [LEARNING ACTIONABLE REPRESENTATIONS WITH GOAL-CONDITIONED POLICIES](https://arxiv.org/pdf/1811.07819.pdf) 
+:curly_loop: [Demonstration-Conditioned Reinforcement Learning for Few-Shot Imitation](http://proceedings.mlr.press/v139/dance21a/dance21a.pdf) :fire:  
+
+Given a training set consisting of demonstrations, reward functions and transition distributions for multiple tasks, the idea is to define a policy that takes demonstrations and current state as inputs, and to train this policy to maximize the average of the cumulative reward over the set of training tasks. 
+
+:curly_loop: [C-LEARNING: HORIZON-AWARE CUMULATIVE ACCESSIBILITY ESTIMATION](https://arxiv.org/pdf/2011.12363.pdf) :confused: :droplet:
+
+we introduce the concept of cumulative accessibility functions, which measure the reachability of a goal from a given state within a specified horizon.  
 
 
 
-   ​
 
-  
 
   
 
@@ -1476,13 +1482,31 @@ The main idea is updating the most accurate prediction head to specialize each h
 
 SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone improvement to a local maximum of the expected reward. The meta-algorithm iteratively builds a lower bound of the expected reward based on the estimated dynamical model and sample trajectories, and then maximizes the lower bound jointly over the policy and the model. 
 
+:curly_loop: [Model-Based Value Expansion for Efficient Model-Free Reinforcement Learning](https://arxiv.org/pdf/1803.00101.pdf) 
 
 
-:curly_loop: [Model-Advantage Optimization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.14080.pdf) :+1: :fire: :volcano: 
+
+:curly_loop: [Value-Aware Loss Function for Model-based Reinforcement Learning](http://proceedings.mlr.press/v54/farahmand17a/farahmand17a.pdf) :volcano: :boom:  
+
+Estimating a generative model that minimizes a probabilistic loss, such as the log-loss, is an overkill because it does not take into account the underlying structure of decision problem and the RL algorithm that intends to solve it. We introduce a loss function that takes the structure of the value function into account. 
+
+:curly_loop: [Iterative Value-Aware Model Learning](https://papers.nips.cc/paper/2018/file/7a2347d96752880e3d58d72e9813cc14-Paper.pdf)  
+
+:curly_loop: [Model-Advantage Optimization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.14080.pdf) :+1: :fire: :volcano: :droplet:      
 
 we propose a novel value-aware objective that is an upper bound on the absolute performance difference of a policy across two models.  
 
- ​ ​ ​
+:curly_loop: [Minimax Model Learning](http://proceedings.mlr.press/v130/voloshin21a/voloshin21a.pdf) :volcano:  :droplet:  
+
+our approach allows for greater robustness under model misspecification or distribution shift induced by learning/evaluating policies that are distinct from the data-generating policy. 
+
+
+
+
+
+
+
+
 
 
 
@@ -2097,7 +2121,7 @@ Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAA
 
 Montreal: [Anirudh Goyal](https://scholar.google.com/citations?hl=en&user=krrh6OUAAAAJ&view_op=list_works&sortby=pubdate) [Homepage](https://anirudh9119.github.io/), 
 
-Toronto: [Jimmy Ba](https://scholar.google.com/citations?hl=en&user=ymzxRhAAAAAJ&view_op=list_works&sortby=pubdate); 
+Toronto: [Jimmy Ba](https://scholar.google.com/citations?hl=en&user=ymzxRhAAAAAJ&view_op=list_works&sortby=pubdate); [Amir-massoud Farahmand](https://scholar.google.com/citations?hl=zh-CN&user=G5SAV7gAAAAJ&view_op=list_works&sortby=pubdate); 
 
 Columbia: [Yunhao (Robin) Tang](https://robintyh1.github.io/), 
 
