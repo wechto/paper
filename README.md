@@ -1486,11 +1486,13 @@ SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone impro
 
 
 
-:curly_loop: [Value-Aware Loss Function for Model-based Reinforcement Learning](http://proceedings.mlr.press/v54/farahmand17a/farahmand17a.pdf) :volcano: :boom:  
+:curly_loop: [Value-Aware Loss Function for Model-based Reinforcement Learning](http://proceedings.mlr.press/v54/farahmand17a/farahmand17a.pdf) :volcano: 
 
 Estimating a generative model that minimizes a probabilistic loss, such as the log-loss, is an overkill because it does not take into account the underlying structure of decision problem and the RL algorithm that intends to solve it. We introduce a loss function that takes the structure of the value function into account. 
 
-:curly_loop: [Iterative Value-Aware Model Learning](https://papers.nips.cc/paper/2018/file/7a2347d96752880e3d58d72e9813cc14-Paper.pdf)  
+:curly_loop: [Iterative Value-Aware Model Learning](https://proceedings.neurips.cc/paper/2018/file/7a2347d96752880e3d58d72e9813cc14-Paper.pdf)  :volcano: :boom:  
+
+Iterative VAML, that benefits from the structure of how the planning is performed (i.e., through approximate value iteration) to devise a simpler optimization problem. 
 
 :curly_loop: [Model-Advantage Optimization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.14080.pdf) :+1: :fire: :volcano: :droplet:      
 
