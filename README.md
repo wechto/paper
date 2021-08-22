@@ -1494,6 +1494,14 @@ Estimating a generative model that minimizes a probabilistic loss, such as the l
 
 Iterative VAML, that benefits from the structure of how the planning is performed (i.e., through approximate value iteration) to devise a simpler optimization problem. 
 
+:curly_loop: [Configurable Markov Decision Processes](https://arxiv.org/pdf/1806.05415.pdf#:~:text=A%20Configurable%20Markov%20Decision%20Process,the%20model%20and%20policy%20spaces.) 
+
+
+
+:curly_loop: [Bridging Worlds in Reinforcement Learning with Model-Advantage](https://openreview.net/pdf?id=XBRYX4c_xFQ) 
+
+
+
 :curly_loop: [Model-Advantage Optimization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.14080.pdf) :+1: :fire: :volcano: :droplet:      
 
 we propose a novel value-aware objective that is an upper bound on the absolute performance difference of a policy across two models.  
