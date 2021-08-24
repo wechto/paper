@@ -1506,7 +1506,21 @@ we show relationships between the proposed model advantage and generalization in
 
 we propose a novel value-aware objective that is an upper bound on the absolute performance difference of a policy across two models.  
 
-:curly_loop: [Minimax Model Learning](http://proceedings.mlr.press/v130/voloshin21a/voloshin21a.pdf) :volcano:  :droplet:  
+:curly_loop: [Policy-Aware Model Learning for Policy Gradient Methods](https://arxiv.org/pdf/2003.00030.pdf) :fire: :volcano: 
+
+We focus on policy gradient planning algorithms and derive new loss functions for model learning that incorporate how the planner uses the model. 
+
+:curly_loop: [The Value Equivalence Principle for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2011.03506.pdf) :volcano: :droplet: 
+
+We introduced the principle of value equivalence: two models are value equivalent with respect to a set of functions and a set of policies if they yield the same updates of the former on the latter. Value equivalence formalizes the notion that models should be tailored to their future use and provides a mechanism to incorporate such knowledge into the model learning process. 
+
+:curly_loop: [Proper Value Equivalence](https://arxiv.org/pdf/2106.10316.pdf) :sweat_drops:
+
+We start by generalizing the concept of VE to order-k counterparts defined with respect to k applications of the Bellman operator. This leads to a family of VE classes that increase in size as k → \inf. In the limit, all functions become value functions, and we have a special instantiation of VE which we call proper VE or simply PVE. 
+
+
+
+:curly_loop: [Minimax Model Learning](http://proceedings.mlr.press/v130/voloshin21a/voloshin21a.pdf) :volcano:  :droplet:  :boom: 
 
 our approach allows for greater robustness under model misspecification or distribution shift induced by learning/evaluating policies that are distinct from the data-generating policy. 
 
@@ -1760,6 +1774,10 @@ FORWARD AGGREGATE AND DISAGGREGATE KL CONSTRAINTS; BACKWARD KL CONSTRAINT; L CON
 
 Reducing overestimation bias by increasing representation dissimilarity in ensemble based deep q-learning. 
 
+:curly_loop: [Value-driven Hindsight Modelling](https://arxiv.org/pdf/2002.08329.pdf) :confused:
+
+we propose to learn what to model in a way that can directly help value prediction.  
+
 
 
 
@@ -1779,8 +1797,6 @@ we develop a new RL algorithm, Path Consistency Learning (PCL), that minimizes a
 :curly_loop: [Equivalence Between Policy Gradients and Soft Q-Learning](https://arxiv.org/pdf/1704.06440.pdf) :+1:  :droplet:  ​
 
 The soft Q-learning loss gradient can be interpreted as a policy gradient term plus a baseline-error-gradient term, corresponding to policy gradient instantiations such as A3C. 
-
-:curly_loop: [Minimax Model Learning](http://proceedings.mlr.press/v130/voloshin21a/voloshin21a.pdf) 
 
  ​
 
