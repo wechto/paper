@@ -1048,6 +1048,8 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
   :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) :droplet:  ​
 
+
+
 :curly_loop: [A Minimalist Approach to Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06860.pdf) :+1: :fire: :volcano:  ​ ​ ​
 
  We find that we can match the performance of state-of-the-art offline RL algorithms by simply adding a behavior cloning term to the policy update of an online RL algorithm and normalizing the data. 
@@ -1087,6 +1089,8 @@ we consider data-driven optimization problems where one must maximize a function
 :curly_loop: [Uncertainty Weighted Actor-Critic for Offline Reinforcement Learning](https://arxiv.org/pdf/2105.08140.pdf) :+1: :fire:  ​ ​
 
 UNCERTAINTY WEIGHTED OFFLINE REINFORCEMENT LEARNING: an algorithm that detects OOD state-action pairs and down-weights their contribution in the training objectives accordingly. 
+
+:curly_loop: [Model-based Offline Policy Optimization with Distribution Correcting Regularization](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_581.pdf) 
 
 
 
@@ -1509,6 +1513,18 @@ we propose a novel value-aware objective that is an upper bound on the absolute 
 :curly_loop: [Policy-Aware Model Learning for Policy Gradient Methods](https://arxiv.org/pdf/2003.00030.pdf) :fire: :volcano: 
 
 We focus on policy gradient planning algorithms and derive new loss functions for model learning that incorporate how the planner uses the model. 
+
+:curly_loop: [Gradient-Aware Model-Based Policy Search](https://re.public.polimi.it/retrieve/handle/11311/1145926/538872/5791-Article%20Text-9016-1-10-20200513.pdf) 
+
+Beyond Maximum Likelihood Model Estimation in Model-based Policy Search [ppt](http://www.honours-programme.deib.polimi.it/2018-1/Deliverable1/CSE_DORO_presentation.pdf) 
+
+
+
+:curly_loop: [Model-Based Reinforcement Learning with Value-Targeted Regression](http://proceedings.mlr.press/v119/ayoub20a/ayoub20a.pdf) :confused: 
+
+:curly_loop: [Decision-Aware Model Learning for Actor-Critic Methods: When Theory Does Not Meet Practice](http://proceedings.mlr.press/v137/lovatto20a/lovatto20a.pdf) :no_mouth: 
+
+we show empirically that combining Actor-Critic and value-aware model learning can be quite difficult and that naive approaches such as maximum likelihood estimation often achieve superior performance with less computational cost.  
 
 :curly_loop: [The Value Equivalence Principle for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2011.03506.pdf) :volcano: :droplet: 
 
