@@ -1048,6 +1048,14 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
   :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) :droplet:  ​
 
+:curly_loop: [MODEL-BASED OFFLINE PLANNING](https://arxiv.org/pdf/2008.05556.pdf) 
+
+MBOP:  Learning dynamics, action priors, and values; MBOP-Policy; MBOP-Trajopt. 
+
+:curly_loop: [Model-Based Offline Planning with Trajectory Pruning](https://arxiv.org/pdf/2105.07351.pdf) :+1: :fire: 
+
+MOPP: MOPP avoids over-restrictive planning while enabling offline learning by encouraging more aggressive trajectory rollout guided by the learned behavior policy, and prunes out problematic trajectories by evaluating the uncertainty of the dynamics model. 
+
 
 
 :curly_loop: [A Minimalist Approach to Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06860.pdf) :+1: :fire: :volcano:  ​ ​ ​
@@ -1514,7 +1522,7 @@ we propose a novel value-aware objective that is an upper bound on the absolute 
 
 We focus on policy gradient planning algorithms and derive new loss functions for model learning that incorporate how the planner uses the model. 
 
-:curly_loop: [Gradient-Aware Model-Based Policy Search](https://re.public.polimi.it/retrieve/handle/11311/1145926/538872/5791-Article%20Text-9016-1-10-20200513.pdf) 
+:curly_loop: [Gradient-Aware Model-Based Policy Search](https://arxiv.org/pdf/1909.04115.pdf) :fire: :volcano:  
 
 Beyond Maximum Likelihood Model Estimation in Model-based Policy Search [ppt](http://www.honours-programme.deib.polimi.it/2018-1/Deliverable1/CSE_DORO_presentation.pdf) 
 
