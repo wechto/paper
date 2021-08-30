@@ -1008,6 +1008,18 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
   conservative Q-learning (CQL), which aims to address these limitations by learning a conservative Q-function such that the expected value of a policy under this Q-function lower-bounds its true value. 
 
+:curly_loop: [Conservative Offline Distributional Reinforcement Learning](https://arxiv.org/pdf/2107.06106.pdf) 
+
+:curly_loop: [Constraints Penalized Q-Learning for Safe Offline Reinforcement Learning](https://arxiv.org/pdf/2107.09003.pdf) :+1: :fire: :volcano: 
+
+We show that naïve approaches that combine techniques from safe RL and offline RL can only learn sub-optimal solutions. We thus develop a simple yet effective algorithm, Constraints Penalized Q-Learning (CPQ), to solve the problem. 
+
+
+
+
+
+
+
   :curly_loop: [S4RL: Surprisingly Simple Self-Supervision for Offline Reinforcement Learning](https://arxiv.org/pdf/2103.06326.pdf) :no_mouth: 
 
    utilizes data augmentations from states to learn value functions that are better at generalizing and extrapolating when deployed in the environment. 
@@ -1048,7 +1060,7 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
   :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) :droplet:  ​
 
-:curly_loop: [MODEL-BASED OFFLINE PLANNING](https://arxiv.org/pdf/2008.05556.pdf) 
+:curly_loop: [MODEL-BASED OFFLINE PLANNING](https://arxiv.org/pdf/2008.05556.pdf) :fire: 
 
 MBOP:  Learning dynamics, action priors, and values; MBOP-Policy; MBOP-Trajopt. 
 
@@ -1099,6 +1111,10 @@ we consider data-driven optimization problems where one must maximize a function
 UNCERTAINTY WEIGHTED OFFLINE REINFORCEMENT LEARNING: an algorithm that detects OOD state-action pairs and down-weights their contribution in the training objectives accordingly. 
 
 :curly_loop: [Model-based Offline Policy Optimization with Distribution Correcting Regularization](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_581.pdf) 
+
+
+
+
 
 
 
@@ -1730,7 +1746,9 @@ we propose a two-step understanding of value estimation from the perspective of 
 
 :curly_loop: [DisCor: Corrective Feedback in Reinforcement Learning via Distribution Correction](https://arxiv.org/pdf/2003.07305.pdf) 
 
- ​
+:curly_loop: [Off-Policy Policy Gradient Algorithms by Constraining the State Distribution Shift](https://arxiv.org/pdf/1911.06970.pdf) :+1: 
+
+Existing off-policy gradient based methods do not correct for the state distribution mismatch, and in this work we show that instead of computing the ratio over state distributions, we can instead minimize the KL between the target and behaviour state distributions to account for the state distribution shift in off-policy learning. 
 
 
 
