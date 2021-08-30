@@ -948,6 +948,14 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   We show that simple quality-estimation approaches might fail due to compounding error, and fix this issue by jointly estimating both the quality and reward using a variational approach. 
   
+  :curly_loop: [BEHAVIORAL CLONING FROM NOISY DEMONSTRATION](https://openreview.net/pdf?id=zrT3HcsWSAt) :volcano: :sweat_drops:
+  
+  we propose an imitation learning algorithm to address the problem without any environment interactions and annotations associated with the non-optimal demonstrations. 
+  
+    
+  
+  
+  
 + Meta IRL
 
   :curly_loop: [Meta-Inverse Reinforcement Learning with Probabilistic Context Variables](https://arxiv.org/pdf/1909.09314.pdf) 
@@ -1008,11 +1016,11 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
   conservative Q-learning (CQL), which aims to address these limitations by learning a conservative Q-function such that the expected value of a policy under this Q-function lower-bounds its true value. 
 
-:curly_loop: [Conservative Offline Distributional Reinforcement Learning](https://arxiv.org/pdf/2107.06106.pdf) 
-
 :curly_loop: [Constraints Penalized Q-Learning for Safe Offline Reinforcement Learning](https://arxiv.org/pdf/2107.09003.pdf) :+1: :fire: :volcano: 
 
 We show that naïve approaches that combine techniques from safe RL and offline RL can only learn sub-optimal solutions. We thus develop a simple yet effective algorithm, Constraints Penalized Q-Learning (CPQ), to solve the problem. 
+
+:curly_loop: [Conservative Offline Distributional Reinforcement Learning](https://arxiv.org/pdf/2107.06106.pdf) :sweat_drops: 
 
 
 
@@ -1745,6 +1753,8 @@ Convex Conjugacy for KL and Entropy Regularization;  1) Mirror Descent MPI: SAC,
 we propose a two-step understanding of value estimation from the perspective of future prediction, through decomposing the value function into a reward-independent future dynamics part and a policy-independent trajectory return part. 
 
 :curly_loop: [DisCor: Corrective Feedback in Reinforcement Learning via Distribution Correction](https://arxiv.org/pdf/2003.07305.pdf) 
+
+:curly_loop: [Regret Minimization Experience Replay](https://arxiv.org/pdf/2105.07253.pdf) 
 
 :curly_loop: [Off-Policy Policy Gradient Algorithms by Constraining the State Distribution Shift](https://arxiv.org/pdf/1911.06970.pdf) :+1: 
 
