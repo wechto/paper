@@ -1078,7 +1078,9 @@ MBOP:  Learning dynamics, action priors, and values; MBOP-Policy; MBOP-Trajopt.
 
 MOPP: MOPP avoids over-restrictive planning while enabling offline learning by encouraging more aggressive trajectory rollout guided by the learned behavior policy, and prunes out problematic trajectories by evaluating the uncertainty of the dynamics model. 
 
+:curly_loop: [Model-based Offline Policy Optimization with Distribution Correcting Regularization](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_581.pdf) :+1: :volcano: 
 
+ DROP (density ratio regularized offline policy learning ) estimates the density ratio between model-rollouts distribution and offline data distribution via the DICE framework, and then regularizes the model predicted rewards with the ratio for pessimistic policy learning. 
 
 :curly_loop: [A Minimalist Approach to Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06860.pdf) :+1: :fire: :volcano:  ​ ​ ​
 
