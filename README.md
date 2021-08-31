@@ -1066,7 +1066,9 @@ We show that naïve approaches that combine techniques from safe RL and offline 
 
  BAIL learns a V function, uses the V function to select actions it believes to be high-performing, and then uses those actions to train a policy network using imitation learning. 
 
-  :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) :droplet:  ​
+  :curly_loop: [Offline RL Without Off-Policy Evaluation](https://arxiv.org/pdf/2106.08909.pdf) :droplet:  :fire: 
+
+a unified algorithmic template for offline RL algorithms as offline approximate modified policy iteration. 
 
 :curly_loop: [MODEL-BASED OFFLINE PLANNING](https://arxiv.org/pdf/2008.05556.pdf) :fire: 
 
