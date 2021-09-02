@@ -984,13 +984,13 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   https://sites.google.com/view/offlinerltutorial-neurips2020/home :sweat_drops: 
 
+:curly_loop: [D4RL: DATASETS FOR DEEP DATA-DRIVEN REINFORCEMENT LEARNING](https://arxiv.org/pdf/2004.07219.pdf) :volcano: :volcano:
+
+examples of such properties include: datasets generated via hand-designed controllers and human demonstrators, multitask datasets where an agent performs different tasks in the same environment, and datasets collected with mixtures of policies.  
+
 :curly_loop: [An Optimistic Perspective on Offline Reinforcement Learning](http://proceedings.mlr.press/v119/agarwal20c/agarwal20c.pdf) :+1:  ​
 
 To enhance generalization in the offline setting, we present Random Ensemble Mixture (REM), a robust Q-learning algorithm that enforces optimal Bellman consistency on random convex combinations of multiple Q-value estimates. 
-
-:curly_loop: [Safe Policy Improvement with Baseline Bootstrapping](https://arxiv.org/pdf/1712.06924.pdf) :+1:  :fire: :volcano: 
-
-Our approach, called SPI with Baseline Bootstrapping (SPIBB), is inspired by the *knows-what-it-knows* paradigm: it bootstraps the trained policy with the baseline when the uncertainty is high.   
 
   :curly_loop: [OPAL: OFFLINE PRIMITIVE DISCOVERY FOR ACCELERATING OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.13611.pdf) :boom:  when presented with offline data composed of a variety of behaviors, an effective way to leverage this data is to extract a continuous space of recurring and temporally extended primitive behaviors before using these primitives for downstream task learning. OFFLINE unsupervised RL. 
 
@@ -1798,6 +1798,10 @@ Existing off-policy gradient based methods do not correct for the state distribu
 
   This paper develops a simple alg. named P3O that interleaves offpolicy updates with on-policy updates.  
 
+:curly_loop: [Policy Gradients Incorporating the Future](https://arxiv.org/pdf/2108.02096.pdf) :fire:
+
+we consider the problem of incorporating information from the entire trajectory in model-free online and offline RL algorithms, enabling an agent to use information about the future to accelerate and improve its learning.  
+
 
 
 :curly_loop: [Zeroth-Order Supervised Policy Improvement](https://arxiv.org/pdf/2006.06600.pdf) :fire: :fire:  ​
@@ -1960,7 +1964,13 @@ We prove the duality between the density function and Q function in CRL and use 
 
 :curly_loop: [Safe Policy Improvement by Minimizing Robust Baseline Regret](https://arxiv.org/pdf/1607.03842.pdf)  [see more in <a href="#anchor-offline">offline_rl</a>] 
 
-:curly_loop: [Safe Policy Improvement with Soft Baseline Bootstrapping](https://arxiv.org/pdf/1907.05079.pdf) 
+:curly_loop: [Safe Policy Improvement with Baseline Bootstrapping](https://arxiv.org/pdf/1712.06924.pdf) :+1:  :fire: :volcano: 
+
+Our approach, called SPI with Baseline Bootstrapping (SPIBB), is inspired by the *knows-what-it-knows* paradigm: it bootstraps the trained policy with the baseline when the uncertainty is high.   
+
+:curly_loop: [Safe Policy Improvement with Soft Baseline Bootstrapping](https://arxiv.org/pdf/1907.05079.pdf) :+1: :fire: :volcano: 
+
+Instead of binarily classifying the state-action pairs into two sets (the uncertain and the safe-to-train-on ones), we adopt a softer strategy that controls the error in the value estimates by constraining the policy change according to the local model uncertainty. 
 
 
 
