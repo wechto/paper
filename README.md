@@ -633,6 +633,12 @@ Aim to capture those factors of variation that are important for decision making
 
   identifying a hybrid physics simulator to match the simulated \tau to the ones from the target domain, using a learned discriminative loss to address the limitations associated with manual loss design. Our hybrid simulator combines nns and traditional physics simulaton to balance expressiveness and generalizability, and alleviates the need for a carefully selected parameter set in System ID. 
 
+:curly_loop: [Generalization of Reinforcement Learning with Policy-Aware Adversarial Data Augmentation](https://arxiv.org/pdf/2106.15587.pdf) :no_mouth:
+
+our proposed method adversarially generates new trajectory data based on the policy gradient objective and aims to more effectively increase the RL agent’s generalization ability with the policy-aware data augmentation. 
+
+ 
+
   
 
   
