@@ -1026,7 +1026,11 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
 We show that naïve approaches that combine techniques from safe RL and offline RL can only learn sub-optimal solutions. We thus develop a simple yet effective algorithm, Constraints Penalized Q-Learning (CPQ), to solve the problem. 
 
-:curly_loop: [Conservative Offline Distributional Reinforcement Learning](https://arxiv.org/pdf/2107.06106.pdf) :sweat_drops: 
+:curly_loop: [Conservative Offline Distributional Reinforcement Learning](https://arxiv.org/pdf/2107.06106.pdf) :sweat_drops:
+
+:curly_loop: [OFFLINE REINFORCEMENT LEARNING HANDS-ON](https://arxiv.org/pdf/2011.14379.pdf) 
+
+:curly_loop: [Supervised Off-Policy Ranking](https://arxiv.org/pdf/2107.01360.pdf) 
 
 
 
@@ -1133,6 +1137,8 @@ UNCERTAINTY WEIGHTED OFFLINE REINFORCEMENT LEARNING: an algorithm that detects O
 :curly_loop: [EMaQ: Expected-Max Q-Learning Operator for Simple Yet Effective Offline and Online RL](http://proceedings.mlr.press/v139/ghasemipour21a/ghasemipour21a.pdf) :fire: :volcano: :droplet:
 
 By introducing the Expect-Max Q-Learning operator, we present a novel theoretical setup that takes into account the proposal distribution µ(a|s) and the number of action samples N, and hence more closely matches the resulting practical algorithm. 
+
+:curly_loop: [Continuous Doubly Constrained Batch Reinforcement Learning](https://arxiv.org/pdf/2102.09225.pdf) 
 
 
 
@@ -1859,6 +1865,8 @@ we develop a new RL algorithm, Path Consistency Learning (PCL), that minimizes a
 :curly_loop: [Equivalence Between Policy Gradients and Soft Q-Learning](https://arxiv.org/pdf/1704.06440.pdf) :+1:  :droplet:  ​
 
 The soft Q-learning loss gradient can be interpreted as a policy gradient term plus a baseline-error-gradient term, corresponding to policy gradient instantiations such as A3C. 
+
+:curly_loop: [An operator view of policy gradient methods](https://arxiv.org/pdf/2006.11266.pdf) 
 
  ​
 
