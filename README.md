@@ -521,6 +521,10 @@ In this paper, we propose a theoretically motivated framework that dynamically w
 
 Aim to capture those factors of variation that are important for decision making – that are “actionable.” These representations are aware of the dynamics of the environment, and capture only the elements of the observation that are necessary for decision making rather than all factors of variation. 
 
+:curly_loop: [Adaptive Auxiliary Task Weighting for Reinforcement Learning](https://par.nsf.gov/servlets/purl/10159738) :+1: 
+
+Dynamically combines different auxiliary tasks to speed up training for reinforcement learning: Our method is based on the idea that auxiliary tasks should provide gradient directions that, in the long term, help to decrease the loss of the main task. 
+
   
 
   
@@ -1289,6 +1293,14 @@ We augment a learned dynamics model with simple transformations that seek to cap
    design a provably efficient policy optimization algorithm that incorporates exploration. 
   
   
+  
+  :curly_loop: [A Max-Min Entropy Framework for Reinforcement Learning](https://arxiv.org/pdf/2106.10517.pdf) :volcano:  :droplet:
+  
+  The proposed max-min entropy framework aims to learn to visit states with low entropy and maximize the entropy of these low-entropy states to promote exploration.  
+  
+  :curly_loop: [Exploration in Deep Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/pdf/2109.06668.pdf) :sweat_drops: 
+  
+   
 
 
 
@@ -1448,7 +1460,7 @@ We have developed a new method of learning different data manipulation schemes w
 
   MaxEnt RL and MaxEnt inverse RL optimize **the same multi-task RL objective** with respect to trajectories and tasks, respectively. 
 
-  :curly_loop: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)    [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)    [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)    [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)    [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)    
+  :curly_loop: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)    [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)    [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)  :fire:   [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)    [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)    
 
   :curly_loop: [Exploration via Hindsight Goal Generation](http://papers.nips.cc/paper/9502-exploration-via-hindsight-goal-generation.pdf) :+1:  :fire:  ​
 
