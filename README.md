@@ -81,9 +81,9 @@ TOC
 
 + Empowerment: A Universal Agent-Centric Measure of Control https://uhra.herts.ac.uk/bitstream/handle/2299/1114/901241.pdf?sequence=1&isAllowed=y 
 
-  :curly_loop: [On Learning Intrinsic Rewards for Policy Gradient Methods](https://arxiv.org/pdf/1804.06459.pdf) 
+  :curly_loop: [On Learning Intrinsic Rewards for Policy Gradient Methods](https://arxiv.org/pdf/1804.06459.pdf) :fire: 
 
-  
+  The policy-gradient updates the policy parameters to optimize the sum of the extrinsic and intrinsic rewards, while simultaneously our method updates the intrinsic reward parameters to optimize the extrinsic rewards achieved by the policy.   
 
 + SMiRL: Surprise Minimizing Reinforcement Learning in Dynamic Environments https://openreview.net/pdf?id=cPZOyoDloxl  :fire: :boom: :volcano: :boom: :fire: :droplet: 
 
@@ -1430,11 +1430,13 @@ we introduce the concept of cumulative accessibility functions, which measure th
 
 ++DATA++ 
 
-:curly_loop: [Connecting the Dots Between MLE and RL for Sequence Prediction](https://arxiv.org/pdf/1811.09740.pdf) :+1: :fire:  
+:curly_loop: [Connecting the Dots Between MLE and RL for Sequence Prediction](https://arxiv.org/pdf/1811.09740.pdf) :+1:  
 
-We have developed a new method of learning different data manipulation schemes with the same single algorithm. Different manipulation schemes reduce to just different parameterization of the data reward function. The manipulation parameters are trained jointly with the target model parameters. (Equivalence between Data and Reward, Gradient-based Reward Learning)
+A rich set of other algorithms such as RAML, SPG, and data noising, have also been developed from different perspectives. This paper establishes a formal connection between these algorithms. We present a generalized entropy regularized policy optimization formulation, and show that the apparently distinct algorithms can all be reformulated as special instances of the framework, with the only difference being the configurations of a reward function and a couple of hyperparameters. 
 
-:curly_loop: [Learning Data Manipulation for Augmentation and Weighting](https://openreview.net/pdf?id=BylmRrHg8S) 
+:curly_loop: [Learning Data Manipulation for Augmentation and Weighting](https://openreview.net/pdf?id=BylmRrHg8S) :+1: :fire:  
+
+We have developed a new method of learning different data manipulation schemes with the same single algorithm. Different manipulation schemes reduce to just different parameterization of the data reward function. The manipulation parameters are trained jointly with the target model parameters. (*Equivalence between Data and Reward*, *Gradient-based Reward Learning*)  
 
 
 
