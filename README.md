@@ -71,9 +71,7 @@ TOC
 
   We focussed specifically on intrinsic motivation with a reward measure known as empowerment, which requires at its core the efficient computation of the mutual information. 
 
-+ 强化学习如何使用内在动机 
-
-  + Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning 
++ Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning 
 
 + A survey on intrinsic motivation in reinforcement learning https://arxiv.org/abs/1908.06976 :milky_way: :fist_oncoming: :fist_oncoming: :fire: :fire: :sweat_drops: :droplet: :droplet: 
 
@@ -1472,6 +1470,10 @@ We have developed a new method of learning different data manipulation schemes w
 
   This approach learns from Hindsight Inverse Dynamics based on Hindsight Experience Replay.  
 
+:curly_loop: [Experience Replay Optimization](https://arxiv.org/pdf/1906.08387.pdf) :+1: :fire: 
+
+Self-imitation; experience replay: we propose a novel experience replay optimization (ERO) framework which alternately updates two policies: the agent policy, and the replay policy. The agent is updated to maximize the cumulative reward based on the replayed data, while the replay policy is updated to provide the agent with the most useful experiences. 
+
   
 
    ​
@@ -2063,7 +2065,7 @@ Instead of binarily classifying the state-action pairs into two sets (the uncert
 
   :curly_loop:[Learning with AMIGO: Adversarially Motivated Intrinsic Goals](https://arxiv.org/pdf/2006.12122.pdf) :+1:   [Lil'Log-Curriculum](https://lilianweng.github.io/lil-log/2020/01/29/curriculum-for-reinforcement-learning.html) :+1:  ​
 
-  **related work (curriculum) is quite good!**   (Intrinsic motivation + Curriculum learning) 
+(Intrinsic motivation + Curriculum learning) 
 
 
 
