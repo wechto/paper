@@ -37,7 +37,7 @@ TOC
   - [Continual Learning](#continual-learning)
   - [Self-paced & Curriculum RL](#self-paced--curriculum-rl)
   - [Optimization](#optimization)
-  - [Galaxy  None](#galaxy--none)
+  - [Galaxy  None](#galaxy--forest)
   - [Aha](#aha)
     - [Alpha](#alpha)
     - [Blog & Corp. & Legend](#blog--corp--legend)
@@ -80,6 +80,10 @@ TOC
 + Efficient Exploration via State Marginal Matching https://arxiv.org/pdf/1906.05274.pdf :volcano: 
 
 + Empowerment: A Universal Agent-Centric Measure of Control https://uhra.herts.ac.uk/bitstream/handle/2299/1114/901241.pdf?sequence=1&isAllowed=y 
+
+  :curly_loop: [On Learning Intrinsic Rewards for Policy Gradient Methods](https://arxiv.org/pdf/1804.06459.pdf) 
+
+  
 
 + SMiRL: Surprise Minimizing Reinforcement Learning in Dynamic Environments https://openreview.net/pdf?id=cPZOyoDloxl  :fire: :boom: :volcano: :boom: :fire: :droplet: 
 
@@ -1060,6 +1064,8 @@ We show that naïve approaches that combine techniques from safe RL and offline 
 
   :curly_loop: [Offline Meta-Reinforcement Learning with Advantage Weighting](http://proceedings.mlr.press/v139/mitchell21a/mitchell21a.pdf) :fire:  ​
 
+Targeting the offline meta-RL setting, we propose Meta-Actor Critic with Advantage Weighting (MACAW), an optimization-based meta-learning algorithm that uses simple, supervised regression objectives for both the inner and outer loop of meta-training. 
+
   :curly_loop: [AWAC: Accelerating Online Reinforcement Learning with Offline Datasets](https://arxiv.org/pdf/2006.09359.pdf) :+1: :fire: :volcano: 
 
   we systematically analyze why this problem (offline + online) is so challenging, and propose an algorithm that combines sample efficient dynamic programming with maximum likelihood policy updates, providing a simple and effective framework that is able to leverage large amounts of offline data and then quickly perform online fine-tuning of RL policies. 
@@ -1539,6 +1545,8 @@ The main idea is updating the most accurate prediction head to specialize each h
 SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone improvement to a local maximum of the expected reward. The meta-algorithm iteratively builds a lower bound of the expected reward based on the estimated dynamical model and sample trajectories, and then maximizes the lower bound jointly over the policy and the model. 
 
 :curly_loop: [Model-Based Value Expansion for Efficient Model-Free Reinforcement Learning](https://arxiv.org/pdf/1803.00101.pdf) 
+
+:curly_loop: [Discriminator Augmented Model-Based Reinforcement Learning](https://arxiv.org/pdf/2103.12999.pdf) 
 
 
 
@@ -2147,6 +2155,18 @@ Instead of binarily classifying the state-action pairs into two sets (the uncert
   :curly_loop: [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :confused: :-1: 
 
   :curly_loop: 
+  
++ DATA
+
+  :curly_loop: [Connecting the Dots Between MLE and RL for Sequence Prediction](https://arxiv.org/pdf/1811.09740.pdf) 
+
+  :curly_loop: [Learning Data Manipulation for Augmentation and Weighting](https://openreview.net/pdf?id=BylmRrHg8S) 
+
+
+
+
+
+
 
 
 
