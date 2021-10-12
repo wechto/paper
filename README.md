@@ -1428,6 +1428,14 @@ Given a training set consisting of demonstrations, reward functions and transiti
 
 we introduce the concept of cumulative accessibility functions, which measure the reachability of a goal from a given state within a specified horizon.  
 
+++DATA++ 
+
+:curly_loop: [Connecting the Dots Between MLE and RL for Sequence Prediction](https://arxiv.org/pdf/1811.09740.pdf) :+1: :fire:  
+
+We have developed a new method of learning different data manipulation schemes with the same single algorithm. Different manipulation schemes reduce to just different parameterization of the data reward function. The manipulation parameters are trained jointly with the target model parameters. (Equivalence between Data and Reward, Gradient-based Reward Learning)
+
+:curly_loop: [Learning Data Manipulation for Augmentation and Weighting](https://openreview.net/pdf?id=BylmRrHg8S) 
+
 
 
 
@@ -2156,11 +2164,7 @@ Instead of binarily classifying the state-action pairs into two sets (the uncert
 
   :curly_loop: 
   
-+ DATA
-
-  :curly_loop: [Connecting the Dots Between MLE and RL for Sequence Prediction](https://arxiv.org/pdf/1811.09740.pdf) 
-
-  :curly_loop: [Learning Data Manipulation for Augmentation and Weighting](https://openreview.net/pdf?id=BylmRrHg8S) 
++ 
 
 
 
