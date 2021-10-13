@@ -65,7 +65,7 @@ TOC
 
   - universal & local 
 
-+ What is intrinsic motivation? A typology of computational approaches
++ What is intrinsic motivation? A typology of computational approaches 
 
 + [Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning [2015] ](https://arxiv.org/abs/1509.08731)  :+1:  ​
 
@@ -82,6 +82,10 @@ TOC
   :curly_loop: [On Learning Intrinsic Rewards for Policy Gradient Methods](https://arxiv.org/pdf/1804.06459.pdf) :fire: 
 
   The policy-gradient updates the policy parameters to optimize the sum of the extrinsic and intrinsic rewards, while simultaneously our method updates the intrinsic reward parameters to optimize the extrinsic rewards achieved by the policy.   
+
+  :curly_loop: [Adversarial Intrinsic Motivation for Reinforcement Learning](https://arxiv.org/pdf/2105.13345.pdf) :droplet: 
+
+  
 
 + SMiRL: Surprise Minimizing Reinforcement Learning in Dynamic Environments https://openreview.net/pdf?id=cPZOyoDloxl  :fire: :boom: :volcano: :boom: :fire: :droplet: 
 
@@ -146,7 +150,7 @@ TOC
 
   This paper introduces a new meta-learning approach that discovers an entire update rule which includes both ‘**what to predict**’ (e.g. value functions) and ‘**how to learn from it**’ (e.g. bootstrapping) by interacting with a set of environments. 
 
-+ Zhongwen Xu (DeepMind) 
++ Meta 
 
   :curly_loop: [Discovering Reinforcement Learning Algorithms](https://arxiv.org/pdf/2007.08794.pdf)   Attempte to discover the full update rule :+1: ​
 
@@ -159,6 +163,14 @@ TOC
   ​	Related work is good! (Prior work on auxiliary tasks in RL + GVF) :fire:  :+1:    
 
   :curly_loop: [Meta-Gradient Reinforcement Learning](http://papers.nips.cc/paper/7507-meta-gradient-reinforcement-learning.pdf)  discount factor + bootstrapped factor :sweat_drops:  ​
+
+  :curly_loop: [BEYOND EXPONENTIALLY DISCOUNTED SUM: AUTOMATIC LEARNING OF RETURN FUNCTION](https://arxiv.org/pdf/1905.11591.pdf) :no_mouth: 
+
+  We research how to modify the form of the return function to enhance the learning towards the optimal policy. We propose to use a general mathematical form for return function, and employ meta-learning to learn the optimal return function in an end-to-end manner. 
+
+   
+
+  
 
   
 
@@ -1150,6 +1162,12 @@ By introducing the Expect-Max Q-Learning operator, we present a novel theoretica
 
 
 
+:curly_loop: [Offline Reinforcement Learning with Pseudometric Learning](https://arxiv.org/pdf/2103.01948.pdf) 
+
+
+
+
+
 
 
 
@@ -1260,7 +1278,7 @@ We augment a learned dynamics model with simple transformations that seek to cap
 
   GASIL focuses on reproducing past good trajectories, which can potentially make long-term credit assignment easier when rewards are sparse and delayed. 
 
-  :curly_loop: [Diversity Actor-Critic: Sample-Aware Entropy Regularization for Sample-Efficient Exploration](https://arxiv.org/pdf/2006.01419.pdf) :fire: :droplet: 
+  :curly_loop: [Diversity Actor-Critic: Sample-Aware Entropy Regularization for Sample-Efficient Exploration](http://proceedings.mlr.press/v139/han21a/han21a.pdf) :fire: :droplet: 
 
   To take advantage of the previous sample distribution from the replay buffer for sample-efficient exploration, we propose sample-aware entropy regularization which maximizes the entropy of weighted sum of the policy action distribution and the sample action distribution from the replay buf. 
 
@@ -1485,6 +1503,12 @@ We have developed a new method of learning different data manipulation schemes w
 :curly_loop: [Experience Replay Optimization](https://arxiv.org/pdf/1906.08387.pdf) :+1: :fire: 
 
 Self-imitation; experience replay: we propose a novel experience replay optimization (ERO) framework which alternately updates two policies: the agent policy, and the replay policy. The agent is updated to maximize the cumulative reward based on the replayed data, while the replay policy is updated to provide the agent with the most useful experiences. 
+
+:curly_loop: [Memory Augmented Policy Optimization for Program Synthesis and Semantic Parsing](https://arxiv.org/pdf/1807.02322.pdf) :+1:
+
+Our key idea is to express the expected return objective as a weighted sum of two terms: an expectation over the high-reward trajectories inside a memory buffer, and a separate expectation over trajectories outside of the buffer. 
+
+ 
 
   
 
@@ -1899,6 +1923,10 @@ we develop a new RL algorithm, Path Consistency Learning (PCL), that minimizes a
 The soft Q-learning loss gradient can be interpreted as a policy gradient term plus a baseline-error-gradient term, corresponding to policy gradient instantiations such as A3C. 
 
 :curly_loop: [An operator view of policy gradient methods](https://arxiv.org/pdf/2006.11266.pdf) 
+
+:curly_loop: [MAXIMUM REWARD FORMULATION IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.03744.pdf) :droplet:
+
+We formulate an objective function to maximize the expected maximum reward along a trajectory, derive a novel functional form of the Bellman equation, introduce the corresponding Bellman operators, and provide a proof of convergence.  
 
  ​
 
