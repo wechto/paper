@@ -541,15 +541,25 @@ Dynamically combines different auxiliary tasks to speed up training for reinforc
 
 Computing and approximating bisimulation metrics in large deterministic MDPs. 
 
-:curly_loop: [Value Preserving State-Action Abstractions](http://proceedings.mlr.press/v108/abel20a/abel20a.pdf) 
+:curly_loop: [Value Preserving State-Action Abstractions](http://proceedings.mlr.press/v108/abel20a/abel20a.pdf) :confused: 
 
-:curly_loop: [Learning Markov State Abstractions for Deep Reinforcement Learning](https://arxiv.org/pdf/2106.04379.pdf) 
+We proved which state-action abstractions are guaranteed to preserve representation of high value policies. To do so, we introduced -relative options, a simple but expressive formalism for combining state abstractions with options. 
 
-:curly_loop: [Cross-Trajectory Representation Learning for Zero-Shot Generalization in RL](https://arxiv.org/pdf/2106.02193.pdf) 
+:curly_loop: [Learning Markov State Abstractions for Deep Reinforcement Learning](https://arxiv.org/pdf/2106.04379.pdf) :volcano: :confused: :droplet: 
 
-:curly_loop: [Jointly-Learned State-Action Embedding for Efficient Reinforcement Learning](https://arxiv.org/pdf/2010.04444.pdf) 
+ We introduce a novel set of conditions and prove that they are sufficient for learning a Markov abstract state representation. We then describe a practical training procedure that combines inverse model estimation and temporal contrastive learning to learn an abstraction that approximately satisfies these conditions. 
 
-  
+:curly_loop: [Cross-Trajectory Representation Learning for Zero-Shot Generalization in RL](https://arxiv.org/pdf/2106.02193.pdf) :confused: :droplet: 
+
+We posit that a superior encoder for zero-shot generalization in RL can be trained by using solely an auxiliary SSL objective if the training process encourages the encoder to map behaviorally similar observations to similar representations. 
+
+:curly_loop: [Jointly-Learned State-Action Embedding for Efficient Reinforcement Learning](https://arxiv.org/pdf/2010.04444.pdf) :no_mouth:
+
+We establish the theoretical foundations for the validity of training a rl agent using embedded states and actions. We then propose a new approach for jointly learning embeddings for states and actions that combines model-free and model-based rl. 
+
+
+
+
 
   
 
