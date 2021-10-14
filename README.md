@@ -537,6 +537,18 @@ Aim to capture those factors of variation that are important for decision making
 
 Dynamically combines different auxiliary tasks to speed up training for reinforcement learning: Our method is based on the idea that auxiliary tasks should provide gradient directions that, in the long term, help to decrease the loss of the main task. 
 
+:curly_loop: [Scalable methods for computing state similarity in deterministic Markov Decision Processes](https://arxiv.org/pdf/1911.09291.pdf) 
+
+Computing and approximating bisimulation metrics in large deterministic MDPs. 
+
+:curly_loop: [Value Preserving State-Action Abstractions](http://proceedings.mlr.press/v108/abel20a/abel20a.pdf) 
+
+:curly_loop: [Learning Markov State Abstractions for Deep Reinforcement Learning](https://arxiv.org/pdf/2106.04379.pdf) 
+
+:curly_loop: [Cross-Trajectory Representation Learning for Zero-Shot Generalization in RL](https://arxiv.org/pdf/2106.02193.pdf) 
+
+:curly_loop: [Jointly-Learned State-Action Embedding for Efficient Reinforcement Learning](https://arxiv.org/pdf/2010.04444.pdf) 
+
   
 
   
@@ -884,6 +896,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   The main task (“do this”) is often quite easy to encode in the form of a simple nominal reward function. In this work, we focus on learning the constraint part (“do not do that”) from provided expert demonstrations and using it in conjunction with the nominal reward function to train RL agents. 
 
+  :curly_loop: [PRIMAL WASSERSTEIN IMITATION LEARNING](https://arxiv.org/pdf/2006.04678.pdf) :fire: :volcano:
+
+  We present Imitation Learning as a distribution matching problem and introduce a reward function which is based on an upper bound of the Wasserstein distance between the state-action distributions of the agent and the expert.  
+
   
 
   
@@ -1162,7 +1178,9 @@ By introducing the Expect-Max Q-Learning operator, we present a novel theoretica
 
 
 
-:curly_loop: [Offline Reinforcement Learning with Pseudometric Learning](https://arxiv.org/pdf/2103.01948.pdf) 
+:curly_loop: [Offline Reinforcement Learning with Pseudometric Learning](https://arxiv.org/pdf/2103.01948.pdf) :+1: :fire: :volcano:
+
+ In the presence of function approximation, and under the assumption of limited coverage of the state-action space of the environment, it is necessary to enforce the policy to visit state-action pairs close to the support of logged transitions. In this work, we propose an iterative procedure to learn a pseudometric (closely related to bisimulation metrics) from logged transitions, and use it to define this notion of closeness.  
 
 
 
