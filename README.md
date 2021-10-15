@@ -557,6 +557,12 @@ We posit that a superior encoder for zero-shot generalization in RL can be train
 
 We establish the theoretical foundations for the validity of training a rl agent using embedded states and actions. We then propose a new approach for jointly learning embeddings for states and actions that combines model-free and model-based rl. 
 
+:curly_loop: [Metrics and continuity in reinforcement learning](https://arxiv.org/pdf/2102.01514.pdf) :volcano:
+
+We introduce a unified formalism for defining these topologies through the lens of metrics. We establish a hierarchy amongst these metrics and demonstrate their theoretical implications on the Markov Decision Process specifying the rl problem.  
+
+ 
+
 
 
 
@@ -1592,8 +1598,6 @@ Our key idea is to express the expected return objective as a weighted sum of tw
 
   we propose a novel concept of deployment efficiency, measuring the number of distinct data-collection policies that are used during policy learning.  ​
 
-  :curly_loop: [CONTROL-AWARE REPRESENTATIONS FOR MODELBASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=dgd4EJqsbW5) :sweat_drops: 
-
   :curly_loop: [Context-aware Dynamics Model for Generalization in Model-Based Reinforcement Learning](https://arxiv.org/pdf/2005.06800.pdf) :+1: :fire:  ​ ​
 
    The intuition is that the true context of the underlying MDP can be captured from recent experiences. learning a global model that can generalize across different dynamics is a challenging task. To tackle this problem, we decompose the task of learning a global dynamics model into two stages: (a) learning a context latent vector that captures the local dynamics, then (b) predicting the next state conditioned on it
@@ -1616,13 +1620,29 @@ The main idea is updating the most accurate prediction head to specialize each h
 
   MEEE, a model-ensemble method that consists of optimistic exploration and weighted exploitation.  
 
-:curly_loop: [ALGORITHMIC FRAMEWORK FOR MODEL-BASED DEEP REINFORCEMENT LEARNING WITH THEORETICAL GUARANTEES](https://arxiv.org/pdf/1807.03858.pdf) :+1:  :volcano: :droplet: 
+:curly_loop: [ALGORITHMIC FRAMEWORK FOR MODEL-BASED DEEP REINFORCEMENT LEARNING WITH THEORETICAL GUARANTEES](https://arxiv.org/pdf/1807.03858.pdf) :+1:  :volcano: :droplet: :sweat_drops: 
 
 SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone improvement to a local maximum of the expected reward. The meta-algorithm iteratively builds a lower bound of the expected reward based on the estimated dynamical model and sample trajectories, and then maximizes the lower bound jointly over the policy and the model. 
+
+
+
+
 
 :curly_loop: [Model-Based Value Expansion for Efficient Model-Free Reinforcement Learning](https://arxiv.org/pdf/1803.00101.pdf) 
 
 :curly_loop: [Discriminator Augmented Model-Based Reinforcement Learning](https://arxiv.org/pdf/2103.12999.pdf) 
+
+:curly_loop: [Variational Model-based Policy Optimization](https://arxiv.org/pdf/2006.05443.pdf) 
+
+:curly_loop: [Control-Aware Representations for Model-based Reinforcement Learning](https://arxiv.org/pdf/2006.13408.pdf) 
+
+:curly_loop: [MISMATCHED NO MORE: JOINT MODEL-POLICY OPTIMIZATION FOR MODEL-BASED RL](https://arxiv.org/pdf/2110.02758.pdf) :fire:  :fire: 
+
+We propose a single objective for jointly training the model and the policy, such that updates to either component increases a lower bound on expected return. 
+
+
+
+
 
 
 
@@ -1642,9 +1662,9 @@ In Conf-MDPs the environment dynamics can be partially modified to improve the p
 
 we show relationships between the proposed model advantage and generalization in RL — using which we provide guarantees on the gap in performance of an agent in new environments. 
 
-:curly_loop: [Model-Advantage Optimization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.14080.pdf) :+1: :fire: :volcano: :droplet:      
+:curly_loop: [Model-Advantage Optimization for Model-Based Reinforcement Learning](https://arxiv.org/pdf/2106.14080.pdf) :+1: :fire: :droplet:      
 
-we propose a novel value-aware objective that is an upper bound on the absolute performance difference of a policy across two models.  
+a novel value-aware objective that is an upper bound on the absolute performance difference of a policy across two models.  
 
 :curly_loop: [Policy-Aware Model Learning for Policy Gradient Methods](https://arxiv.org/pdf/2003.00030.pdf) :fire: :volcano: 
 
@@ -2313,7 +2333,7 @@ UCSD: [Xiaolong Wang](https://scholar.google.com.sg/citations?hl=en&user=Y8O9N_0
 
 CMU: [Benjamin Eysenbach](https://scholar.google.com/citations?hl=en&user=DRnOvU8AAAAJ&view_op=list_works&sortby=pubdate), [Ruslan Salakhutdinov](https://scholar.google.com/citations?hl=en&user=ITZ1e7MAAAAJ&view_op=list_works&sortby=pubdate), 
 
-Standord: [Chelsea Finn](https://scholar.google.com/citations?user=vfPE6hgAAAAJ&hl=en), 
+Standord: [Chelsea Finn](https://scholar.google.com/citations?user=vfPE6hgAAAAJ&hl=en), [Tengyu Ma], [Tianhe Yu], 
 
 NYU: [Rob Fergus](https://scholar.google.com/citations?user=GgQ9GEkAAAAJ&hl=en&oi=sra), 
 
@@ -2323,7 +2343,7 @@ Caltech: [Joseph Marino](https://joelouismarino.github.io/), [Yisong Yue](https:
 
 DeepMind: [David Silver](https://scholar.google.com/citations?user=-8DNE4UAAAAJ&hl=en), [Yee Whye Teh](https://scholar.google.com/citations?user=y-nUzMwAAAAJ&hl=en) [[Homepage]](https://www.stats.ox.ac.uk/~teh/), [Alexandre Galashov](https://scholar.google.com/citations?user=kIpoNtcAAAAJ&hl=en&oi=sra), [Leonard Hasenclever](https://leonard-hasenclever.github.io/) [[GS]](https://scholar.google.com/citations?user=dD-3S4QAAAAJ&hl=en&oi=sra), [Siddhant M. Jayakumar](https://scholar.google.com/citations?user=rJUAY8QAAAAJ&hl=en&oi=sra), [Zhongwen Xu](https://scholar.google.com/citations?hl=en&user=T4xuHn8AAAAJ&view_op=list_works&sortby=pubdate), [Markus Wulfmeier](https://scholar.google.de/citations?hl=en&user=YCO3WQsAAAAJ&view_op=list_works&sortby=pubdate) [[HomePage]](https://markusrw.github.io/), [Wojciech Zaremba](https://scholar.google.com/citations?hl=en&user=XCZpOcAAAAAJ&view_op=list_works&sortby=pubdate), [Aviral Kumar](https://scholar.google.ca/citations?hl=en&user=zBUwaGkAAAAJ&sortby=pubdate&view_op=list_works&citft=1&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F5E6ErpTneaGZx0cFbO3J7y-pEg7TpQXU2LTHXXoDUX79vsrOzPiGg55PiqYlz0GVVk5kJT8orQHvsGwW5WF7RSg-9ryv5Xo-L0rpHKJOuBiuL-dfE), 
 
-Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAAAJ&view_op=list_works&sortby=pubdate), [Danijar Hafner](https://scholar.google.de/citations?hl=en&user=VINmGpYAAAAJ&view_op=list_works&sortby=pubdate) [[Homepage]](https://danijar.com/), [Ofir Nachum](https://scholar.google.com/citations?hl=en&user=C-ZlBWMAAAAJ&sortby=pubdate&view_op=list_works&citft=1&citft=3&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F6bB1Pjv8yoTSFnbtB3GJE8dXTxX4wK1GnOvBUvWhOt8ZBNxojCh223i5_AvQ347yNG-MLSVENT3s-8UCe4DIDgvLNNG8kvQNxMjH7_VCrX6-P0FVQ), [Yinlam Chow](https://scholar.google.com/citations?hl=en&user=BFlpS-8AAAAJ&sortby=pubdate&view_op=list_works&citft=1&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F7Ht8XHXMlvXRq2vMXdWh8tAT298ToP-ONtMyacd1uEqMWgiWBqT9SRimdl-c-xcemDY324kkrnfR9nfDbaq8sso-KZ0A), [Shixiang Shane Gu](https://scholar.google.com/citations?hl=en&user=B8wslVsAAAAJ&view_op=list_works&sortby=pubdate), 
+Google: [Ian Fischer](https://scholar.google.com/citations?hl=en&user=Z63Zf_0AAAAJ&view_op=list_works&sortby=pubdate), [Danijar Hafner](https://scholar.google.de/citations?hl=en&user=VINmGpYAAAAJ&view_op=list_works&sortby=pubdate) [[Homepage]](https://danijar.com/), [Ofir Nachum](https://scholar.google.com/citations?hl=en&user=C-ZlBWMAAAAJ&sortby=pubdate&view_op=list_works&citft=1&citft=3&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F6bB1Pjv8yoTSFnbtB3GJE8dXTxX4wK1GnOvBUvWhOt8ZBNxojCh223i5_AvQ347yNG-MLSVENT3s-8UCe4DIDgvLNNG8kvQNxMjH7_VCrX6-P0FVQ), [Yinlam Chow](https://scholar.google.com/citations?hl=en&user=BFlpS-8AAAAJ&sortby=pubdate&view_op=list_works&citft=1&email_for_op=liujinxin%40westlake.edu.cn&gmla=AJsN-F7Ht8XHXMlvXRq2vMXdWh8tAT298ToP-ONtMyacd1uEqMWgiWBqT9SRimdl-c-xcemDY324kkrnfR9nfDbaq8sso-KZ0A), [Shixiang Shane Gu](https://scholar.google.com/citations?hl=en&user=B8wslVsAAAAJ&view_op=list_works&sortby=pubdate), [Mohammad Ghavamzadeh]
 
 Montreal: [Anirudh Goyal](https://scholar.google.com/citations?hl=en&user=krrh6OUAAAAJ&view_op=list_works&sortby=pubdate) [Homepage](https://anirudh9119.github.io/), 
 
