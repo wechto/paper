@@ -1632,13 +1632,15 @@ SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone impro
 
 :curly_loop: [Discriminator Augmented Model-Based Reinforcement Learning](https://arxiv.org/pdf/2103.12999.pdf) :+1: :volcano:  
 
-Our approach trains a discriminative model to assess the quality of sampled transitions during planning, and upweight or downweight value estimates computed from high and low quality samples, respectively. 
+Our approach trains a discriminative model to assess the quality of sampled transitions during planning, and upweight or downweight value estimates computed from high and low quality samples, respectively. We can learn biased dynamics models with advantageous properties, such as reduced value estimation variance during planning. 
 
 :curly_loop: [Variational Model-based Policy Optimization](https://arxiv.org/pdf/2006.05443.pdf) :+1: :fire:  :volcano:  :droplet:  
 
 Jointly learn and improve model and policy using a universal objective function: We propose model-based and model-free policy iteration (actor-critic) style algorithms for the E-step and show how the variational distribution learned by them can be used to optimize the M-step in a fully model-based fashion. 
 
 :curly_loop: [Control-Aware Representations for Model-based Reinforcement Learning](https://arxiv.org/pdf/2006.13408.pdf) 
+
+How to learn a representation that is amenable to the control problem at hand, and how to achieve an end-to-end framework for representation learning and control: 
 
 :curly_loop: [MISMATCHED NO MORE: JOINT MODEL-POLICY OPTIMIZATION FOR MODEL-BASED RL](https://arxiv.org/pdf/2110.02758.pdf) :fire:  :fire: 
 
