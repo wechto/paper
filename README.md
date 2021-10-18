@@ -561,6 +561,38 @@ We establish the theoretical foundations for the validity of training a rl agent
 
 We introduce a unified formalism for defining these topologies through the lens of metrics. We establish a hierarchy amongst these metrics and demonstrate their theoretical implications on the Markov Decision Process specifying the rl problem.  
 
+
+
+:curly_loop: [Control-Aware Representations for Model-based Reinforcement Learning](https://arxiv.org/pdf/2006.13408.pdf) :+1: :volcano: :boom: :boom: 
+
+CARL: How to learn a representation that is amenable to the control problem at hand, and how to achieve an end-to-end framework for representation learning and control: We first formulate a learning controllable embedding (LCE) model to learn representations that are suitable to be used by a policy iteration style algorithm in the latent space. We call this model control-aware representation learning (CARL). We derive a loss function for CARL that has close connection to the prediction, consistency, and curvature (PCC) principle for representation learning. 
+
+:curly_loop: [Embed to Control: A Locally Linear Latent Dynamics Model for Control from Raw Images](https://arxiv.org/pdf/1506.07365.pdf) 
+
+E2C: 
+
+:curly_loop: [Robust Locally-Linear Controllable Embedding](http://proceedings.mlr.press/v84/banijamali18a/banijamali18a.pdf) 
+
+RCE: 
+
+:curly_loop: [SOLAR: Deep Structured Representations for Model-Based Reinforcement Learning](https://arxiv.org/pdf/1808.09105.pdf) 
+
+SOLAR: 
+
+:curly_loop: [DREAM TO CONTROL: LEARNING BEHAVIORS BY LATENT IMAGINATION](https://arxiv.org/pdf/1912.01603.pdf) 
+
+Dreamer: 
+
+:curly_loop: [Predictive Coding for Locally-Linear Control](https://arxiv.org/pdf/2003.01086.pdf) 
+
+PC3: 
+
+:curly_loop: [PREDICTION, CONSISTENCY, CURVATURE: REPRESENTATION LEARNING FOR LOCALLY-LINEAR CONTROL](https://openreview.net/pdf?id=BJxG_0EtDS) 
+
+PCC: 
+
+
+
  
 
 
@@ -1592,7 +1624,11 @@ Our key idea is to express the expected return objective as a weighted sum of tw
 
   :curly_loop: [When to Trust Your Model: Model-Based Policy Optimization](https://arxiv.org/pdf/1906.08253.pdf) :fire: :volcano: :droplet: :boom:  ​
 
-   we study the role of model usage in policy optimization both theoretically and empirically. 
+   MBPO: we study the role of model usage in policy optimization both theoretically and empirically. 
+
+:curly_loop: [Visual Foresight: Model-based deep reinforcement learning for vision-based robotic control](https://arxiv.org/pdf/1812.00568.pdf) 
+
+
 
   :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :fire:  :volcano: :boom: 
 
@@ -1638,10 +1674,6 @@ Our approach trains a discriminative model to assess the quality of sampled tran
 
 Jointly learn and improve model and policy using a universal objective function: We propose model-based and model-free policy iteration (actor-critic) style algorithms for the E-step and show how the variational distribution learned by them can be used to optimize the M-step in a fully model-based fashion. 
 
-:curly_loop: [Control-Aware Representations for Model-based Reinforcement Learning](https://arxiv.org/pdf/2006.13408.pdf) 
-
-How to learn a representation that is amenable to the control problem at hand, and how to achieve an end-to-end framework for representation learning and control: 
-
 :curly_loop: [MISMATCHED NO MORE: JOINT MODEL-POLICY OPTIMIZATION FOR MODEL-BASED RL](https://arxiv.org/pdf/2110.02758.pdf) :fire:  :fire: 
 
 We propose a single objective for jointly training the model and the policy, such that updates to either component increases a lower bound on expected return. 
@@ -1674,7 +1706,7 @@ a novel value-aware objective that is an upper bound on the absolute performance
 
 :curly_loop: [Policy-Aware Model Learning for Policy Gradient Methods](https://arxiv.org/pdf/2003.00030.pdf) :fire: :volcano: 
 
-We focus on policy gradient planning algorithms and derive new loss functions for model learning that incorporate how the planner uses the model. 
+Decision-Aware Model Learning: We focus on policy gradient planning algorithms and derive new loss functions for model learning that incorporate how the planner uses the model. 
 
 :curly_loop: [Gradient-Aware Model-Based Policy Search](https://arxiv.org/pdf/1909.04115.pdf) :fire: :volcano:  
 
