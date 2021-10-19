@@ -571,27 +571,25 @@ CARL: How to learn a representation that is amenable to the control problem at h
 
 E2C: Embed to Control (E2C) consists of a deep generative model, belonging to the family of variational autoencoders, that learns to generate image trajectories from a latent space in which the dynamics is constrained to be locally linear. 
 
-:curly_loop: [Robust Locally-Linear Controllable Embedding](http://proceedings.mlr.press/v84/banijamali18a/banijamali18a.pdf) 
+:curly_loop: [Robust Locally-Linear Controllable Embedding](http://proceedings.mlr.press/v84/banijamali18a/banijamali18a.pdf) :fire:  
 
-RCE: 
+RCE: propose a principled variational approximation of the embedding posterior that takes the future observation into account, and thus, makes the variational approximation more robust against the noise. 
 
-:curly_loop: [SOLAR: Deep Structured Representations for Model-Based Reinforcement Learning](https://arxiv.org/pdf/1808.09105.pdf) 
+:curly_loop: [SOLAR: Deep Structured Representations for Model-Based Reinforcement Learning](https://arxiv.org/pdf/1808.09105.pdf) :no_mouth: 
 
-SOLAR: 
+SOLAR: we present a method for learning representations that are suitable for iterative model-based policy improvement. 
 
-:curly_loop: [DREAM TO CONTROL: LEARNING BEHAVIORS BY LATENT IMAGINATION](https://arxiv.org/pdf/1912.01603.pdf) 
+:curly_loop: [DREAM TO CONTROL: LEARNING BEHAVIORS BY LATENT IMAGINATION](https://arxiv.org/pdf/1912.01603.pdf) :+1: 
 
-Dreamer: 
-
-:curly_loop: [Predictive Coding for Locally-Linear Control](https://arxiv.org/pdf/2003.01086.pdf) 
-
-PC3: 
+Dreamer: (Learning long-horizon behaviors by latent imagination) predicting *both actions and state values*.  
 
 :curly_loop: [PREDICTION, CONSISTENCY, CURVATURE: REPRESENTATION LEARNING FOR LOCALLY-LINEAR CONTROL](https://openreview.net/pdf?id=BJxG_0EtDS) 
 
 PCC: 
 
+:curly_loop: [Predictive Coding for Locally-Linear Control](https://arxiv.org/pdf/2003.01086.pdf) 
 
+PC3: 
 
  
 
