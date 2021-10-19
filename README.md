@@ -1671,7 +1671,9 @@ We propose to estimate not only the Q-values but also both the transition and th
 
 We propose a robust policy optimization approach, named MRPO, for improving both the average and worst-case performance of policies. We theoretically derived a lower bound for the worst-case performance of a given policy over all environments, and formulated an optimization problem to optimize the policy and sampling distribution together, subject to constraints that bounded the update step in policy optimization and statistical distance between the worst and average case environments. 
 
- 
+:curly_loop: [Trust the Model When It Is Confident: Masked Model-based Actor-Critic](https://arxiv.org/pdf/2010.04893.pdf) 
+
+:curly_loop: [MBDP: A Model-based Approach to Achieve both Robustness and Sample Efficiency via Double Dropout Planning](https://arxiv.org/pdf/2108.01295.pdf) 
 
 
 
