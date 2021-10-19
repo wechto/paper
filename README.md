@@ -718,6 +718,8 @@ PC3: we propose a novel information-theoretic LCE approach and show theoreticall
 
 our proposed method adversarially generates new trajectory data based on the policy gradient objective and aims to more effectively increase the RL agent’s generalization ability with the policy-aware data augmentation. 
 
+:curly_loop: [Understanding Domain Randomization for Sim-to-real Transfer](https://arxiv.org/pdf/2110.03239.pdf) 
+
   
 
   
@@ -1225,9 +1227,9 @@ UNCERTAINTY WEIGHTED OFFLINE REINFORCEMENT LEARNING: an algorithm that detects O
 
 By introducing the Expect-Max Q-Learning operator, we present a novel theoretical setup that takes into account the proposal distribution µ(a|s) and the number of action samples N, and hence more closely matches the resulting practical algorithm. 
 
-:curly_loop: [OFFLINE REINFORCEMENT LEARNING WITH IMPLICIT Q-LEARNING](https://arxiv.org/pdf/2110.06169.pdf) 
+:curly_loop: [OFFLINE REINFORCEMENT LEARNING WITH IMPLICIT Q-LEARNING](https://arxiv.org/pdf/2110.06169.pdf) :+1: 
 
-
+We presented implicit Q-Learning (IQL), a general algorithm for offline RL that completely avoids any queries to values of out-of-sample actions during training while still enabling multi-step dynamic programming. 
 
 :curly_loop: [Continuous Doubly Constrained Batch Reinforcement Learning](https://arxiv.org/pdf/2102.09225.pdf) 
 
@@ -1236,18 +1238,6 @@ By introducing the Expect-Max Q-Learning operator, we present a novel theoretica
 :curly_loop: [Offline Reinforcement Learning with Pseudometric Learning](https://arxiv.org/pdf/2103.01948.pdf) :+1: :fire: :volcano:
 
  In the presence of function approximation, and under the assumption of limited coverage of the state-action space of the environment, it is necessary to enforce the policy to visit state-action pairs close to the support of logged transitions. In this work, we propose an iterative procedure to learn a pseudometric (closely related to bisimulation metrics) from logged transitions, and use it to define this notion of closeness.  
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1279,7 +1269,11 @@ We train a reward function on a pre-recorded dataset, use it to label the data a
 
 We augment a learned dynamics model with simple transformations that seek to capture potential changes in physical properties of the robot, leading to more robust policies. 
 
-:curly_loop: [GOAL-CONDITIONED BATCH REINFORCEMENT LEARNING FOR ROTATION INVARIANT LOCOMOTION](https://arxiv.org/pdf/2004.08356.pdf) :no_mouth: 
+:curly_loop: [GOAL-CONDITIONED BATCH REINFORCEMENT LEARNING FOR ROTATION INVARIANT LOCOMOTION](https://arxiv.org/pdf/2004.08356.pdf) :no_mouth:
+
+:curly_loop: [Offline Meta-Reinforcement Learning for Industrial Insertion](https://arxiv.org/pdf/2110.04276.pdf) :no_mouth: 
+
+We introduced an offline meta-RL algorithm, ODA, that can meta-learn an adaptive policy from offline data, quickly adapt based on a small number of user-provided demonstrations for a new task, and then further adapt through online finetuning. 
 
 :curly_loop: [Scaling data-driven robotics with reward sketching and batch reinforcement learning](https://arxiv.org/pdf/1909.12200.pdf) 
 
@@ -1665,9 +1659,19 @@ The main idea is updating the most accurate prediction head to specialize each h
 
   MEEE, a model-ensemble method that consists of optimistic exploration and weighted exploitation.  
 
-:curly_loop: [ALGORITHMIC FRAMEWORK FOR MODEL-BASED DEEP REINFORCEMENT LEARNING WITH THEORETICAL GUARANTEES](https://arxiv.org/pdf/1807.03858.pdf) :+1:  :volcano: :droplet: :sweat_drops: 
+:curly_loop: [ALGORITHMIC FRAMEWORK FOR MODEL-BASED DEEP REINFORCEMENT LEARNING WITH THEORETICAL GUARANTEES](https://arxiv.org/pdf/1807.03858.pdf) :+1:  :volcano: :droplet: :sweat_drops: :fire:  
 
 SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone improvement to a local maximum of the expected reward. The meta-algorithm iteratively builds a lower bound of the expected reward based on the estimated dynamical model and sample trajectories, and then maximizes the lower bound jointly over the policy and the model. 
+
+:curly_loop: [Model-Augmented Q-Learning](https://arxiv.org/pdf/2102.03866.pdf)  :no_mouth:
+
+We propose to estimate not only the Q-values but also both the transition and the reward with a shared network. We further utilize the estimated reward from the model estimators for Q-learning, which promotes interaction between the estimators.  
+
+:curly_loop: [Monotonic Robust Policy Optimization with Model Discrepancy](http://proceedings.mlr.press/v139/jiang21c/jiang21c.pdf) :+1: :volcano: :boom: 
+
+We propose a robust policy optimization approach, named MRPO, for improving both the average and worst-case performance of policies. We theoretically derived a lower bound for the worst-case performance of a given policy over all environments, and formulated an optimization problem to optimize the policy and sampling distribution together, subject to constraints that bounded the update step in policy optimization and statistical distance between the worst and average case environments. 
+
+ 
 
 
 
@@ -1686,10 +1690,6 @@ Jointly learn and improve model and policy using a universal objective function:
 :curly_loop: [MISMATCHED NO MORE: JOINT MODEL-POLICY OPTIMIZATION FOR MODEL-BASED RL](https://arxiv.org/pdf/2110.02758.pdf) :fire:  :fire: 
 
 We propose a single objective for jointly training the model and the policy, such that updates to either component increases a lower bound on expected return. 
-
-
-
-
 
 
 
@@ -1996,6 +1996,8 @@ Reducing overestimation bias by increasing representation dissimilarity in ensem
 :curly_loop: [Value-driven Hindsight Modelling](https://arxiv.org/pdf/2002.08329.pdf) :confused:
 
 we propose to learn what to model in a way that can directly help value prediction.  
+
+
 
 
 
