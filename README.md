@@ -567,9 +567,9 @@ We introduce a unified formalism for defining these topologies through the lens 
 
 CARL: How to learn a representation that is amenable to the control problem at hand, and how to achieve an end-to-end framework for representation learning and control: We first formulate a learning controllable embedding (LCE) model to learn representations that are suitable to be used by a policy iteration style algorithm in the latent space. We call this model control-aware representation learning (CARL). We derive a loss function for CARL that has close connection to the prediction, consistency, and curvature (PCC) principle for representation learning. 
 
-:curly_loop: [Embed to Control: A Locally Linear Latent Dynamics Model for Control from Raw Images](https://arxiv.org/pdf/1506.07365.pdf) 
+:curly_loop: [Embed to Control: A Locally Linear Latent Dynamics Model for Control from Raw Images](https://arxiv.org/pdf/1506.07365.pdf) :fire: 
 
-E2C: 
+E2C: Embed to Control (E2C) consists of a deep generative model, belonging to the family of variational autoencoders, that learns to generate image trajectories from a latent space in which the dynamics is constrained to be locally linear. 
 
 :curly_loop: [Robust Locally-Linear Controllable Embedding](http://proceedings.mlr.press/v84/banijamali18a/banijamali18a.pdf) 
 
@@ -1626,9 +1626,9 @@ Our key idea is to express the expected return objective as a weighted sum of tw
 
    MBPO: we study the role of model usage in policy optimization both theoretically and empirically. 
 
-:curly_loop: [Visual Foresight: Model-based deep reinforcement learning for vision-based robotic control](https://arxiv.org/pdf/1812.00568.pdf) 
+:curly_loop: [Visual Foresight: Model-based deep reinforcement learning for vision-based robotic control](https://arxiv.org/pdf/1812.00568.pdf) :+1:
 
-
+We presented an algorithm that leverages self-supervision from visual prediction to learn a deep dynamics model on images, and show how it can be embedded into a planning framework to solve a variety of robotic control tasks. 
 
   :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :fire:  :volcano: :boom: 
 
