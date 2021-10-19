@@ -588,13 +588,13 @@ SOLAR: we present a method for learning representations that are suitable for it
 
 Dreamer: (Learning long-horizon behaviors by latent imagination) predicting *both actions and state values*.  
 
-:curly_loop: [PREDICTION, CONSISTENCY, CURVATURE: REPRESENTATION LEARNING FOR LOCALLY-LINEAR CONTROL](https://openreview.net/pdf?id=BJxG_0EtDS) :+1: :volcano: 
+:curly_loop: [PREDICTION, CONSISTENCY, CURVATURE: REPRESENTATION LEARNING FOR LOCALLY-LINEAR CONTROL](https://openreview.net/pdf?id=BJxG_0EtDS) :+1: :fire: :volcano: 
 
 PCC: We propose the Prediction, Consistency, and Curvature (PCC) framework for learning a latent space that is amenable to locally-linear control (LLC) algorithms and show that the elements of PCC arise systematically from bounding the suboptimality of the solution of the LLC algorithm in the latent space. 
 
-:curly_loop: [Predictive Coding for Locally-Linear Control](https://arxiv.org/pdf/2003.01086.pdf) 
+:curly_loop: [Predictive Coding for Locally-Linear Control](https://arxiv.org/pdf/2003.01086.pdf) :fire: :volcano: 
 
-PC3: 
+PC3: we propose a novel information-theoretic LCE approach and show theoretically that explicit next-observation prediction can be replaced with predictive coding. We then use predictive coding to develop a decoder-free LCE model whose latent dynamics are amenable to locally-linear control. 
 
  
 
@@ -1225,6 +1225,10 @@ UNCERTAINTY WEIGHTED OFFLINE REINFORCEMENT LEARNING: an algorithm that detects O
 
 By introducing the Expect-Max Q-Learning operator, we present a novel theoretical setup that takes into account the proposal distribution µ(a|s) and the number of action samples N, and hence more closely matches the resulting practical algorithm. 
 
+:curly_loop: [OFFLINE REINFORCEMENT LEARNING WITH IMPLICIT Q-LEARNING](https://arxiv.org/pdf/2110.06169.pdf) 
+
+
+
 :curly_loop: [Continuous Doubly Constrained Batch Reinforcement Learning](https://arxiv.org/pdf/2102.09225.pdf) 
 
 
@@ -1232,6 +1236,8 @@ By introducing the Expect-Max Q-Learning operator, we present a novel theoretica
 :curly_loop: [Offline Reinforcement Learning with Pseudometric Learning](https://arxiv.org/pdf/2103.01948.pdf) :+1: :fire: :volcano:
 
  In the presence of function approximation, and under the assumption of limited coverage of the state-action space of the environment, it is necessary to enforce the policy to visit state-action pairs close to the support of logged transitions. In this work, we propose an iterative procedure to learn a pseudometric (closely related to bisimulation metrics) from logged transitions, and use it to define this notion of closeness.  
+
+
 
 
 
