@@ -10,6 +10,11 @@ unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor
 
 
 
+|      | Recommendation: :+1: :fire: :volcano: :boom: | To-Do (Reading) List: :droplet: :sweat_drops: |
+| ---- | -------------------------------------------- | --------------------------------------------- |
+
+
+
 TOC 
 
 
@@ -583,9 +588,9 @@ SOLAR: we present a method for learning representations that are suitable for it
 
 Dreamer: (Learning long-horizon behaviors by latent imagination) predicting *both actions and state values*.  
 
-:curly_loop: [PREDICTION, CONSISTENCY, CURVATURE: REPRESENTATION LEARNING FOR LOCALLY-LINEAR CONTROL](https://openreview.net/pdf?id=BJxG_0EtDS) 
+:curly_loop: [PREDICTION, CONSISTENCY, CURVATURE: REPRESENTATION LEARNING FOR LOCALLY-LINEAR CONTROL](https://openreview.net/pdf?id=BJxG_0EtDS) :+1: :volcano: 
 
-PCC: 
+PCC: We propose the Prediction, Consistency, and Curvature (PCC) framework for learning a latent space that is amenable to locally-linear control (LLC) algorithms and show that the elements of PCC arise systematically from bounding the suboptimality of the solution of the LLC algorithm in the latent space. 
 
 :curly_loop: [Predictive Coding for Locally-Linear Control](https://arxiv.org/pdf/2003.01086.pdf) 
 
@@ -2369,7 +2374,7 @@ UCSD: [Xiaolong Wang](https://scholar.google.com.sg/citations?hl=en&user=Y8O9N_0
 
 CMU: [Benjamin Eysenbach](https://scholar.google.com/citations?hl=en&user=DRnOvU8AAAAJ&view_op=list_works&sortby=pubdate), [Ruslan Salakhutdinov](https://scholar.google.com/citations?hl=en&user=ITZ1e7MAAAAJ&view_op=list_works&sortby=pubdate), 
 
-Standord: [Chelsea Finn](https://scholar.google.com/citations?user=vfPE6hgAAAAJ&hl=en), [Tengyu Ma], [Tianhe Yu], 
+Standord: [Chelsea Finn](https://scholar.google.com/citations?user=vfPE6hgAAAAJ&hl=en), [Tengyu Ma], [Tianhe Yu], [Rui Shu], 
 
 NYU: [Rob Fergus](https://scholar.google.com/citations?user=GgQ9GEkAAAAJ&hl=en&oi=sra), 
 
