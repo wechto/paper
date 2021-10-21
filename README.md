@@ -1050,6 +1050,12 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   OPOLO (Off POlicy Learning from Observations)!  ifo // lfo  // ope // mode-covering (Forward Distribution Matching) // mode-seeking // dice // LfD // LfO  ​
 
+
+
+:curly_loop: [Error Bounds of Imitating Policies and Environments](https://arxiv.org/pdf/2010.11876.pdf)  :volcano:  :sweat_drops:  
+
+
+
 + Adding Noise 
 
   :curly_loop: [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
@@ -1636,8 +1642,6 @@ Our key idea is to express the expected return objective as a weighted sum of tw
 
   :curly_loop: [DREAM TO CONTROL: LEARNING BEHAVIORS BY LATENT IMAGINATION](https://arxiv.org/pdf/1912.01603.pdf) :sweat_drops:  ​
 
-  :curly_loop: [Model-based Policy Optimization with Unsupervised Model Adaptation](https://arxiv.org/pdf/2010.09546.pdf) 
-
   :curly_loop: [CONTRASTIVE LEARNING OF STRUCTURED WORLD MODELS](https://arxiv.org/pdf/1911.12247.pdf) :fire: :volcano:  ​ ​
 
   :curly_loop: [Learning Predictive Models From Observation and Interaction](https://arxiv.org/pdf/1912.12773.pdf) :fire:  ​related work is good! 
@@ -1716,7 +1720,21 @@ Employing uncertainty-aware dynamics models: we propose a new algorithm called p
 
 This paper explores which uncertainties are needed for model-based reinforcement learning and argues that good uncertainties must be calibrated, i.e. their probabilities should match empirical frequencies of predicted events.   
 
-:curly_loop: [Model Embedding Model-Based Reinforcement Learning](https://arxiv.org/pdf/2006.09234.pdf) 
+:curly_loop: [Model Imitation for Model-Based Reinforcement Learning](https://arxiv.org/pdf/1909.11821.pdf) :+1: :volcano: 
+
+We propose to learn the transition model by matching the distributions of multi-step rollouts sampled from the transition model and the real ones via WGAN. We theoretically show that matching the two can minimize the difference of cumulative rewards between the real transition and the learned one. 
+
+:curly_loop: [Model-based Policy Optimization with Unsupervised Model Adaptation](https://arxiv.org/pdf/2010.09546.pdf) :fire:
+
+We derive a lower bound of the expected return, which inspires a bound maximization algorithm by aligning the simulated and real data distributions. To this end, we propose a novel model-based rl framework AMPO, which introduces unsupervised model adaptation to minimize the integral probability metric (IPM) between feature distributions from real and simulated data. 
+
+:curly_loop: [Bidirectional Model-based Policy Optimization](http://proceedings.mlr.press/v119/lai20b/lai20b.pdf) :+1: :fire: :fire: 
+
+We propose to additionally construct a backward dynamics model to reduce the reliance on accuracy in forward model predictions: Bidirectional Model-based Policy Optimization (BMPO) to utilize both the forward model and backward model to generate short branched rollouts for policy optimization.  
+
+ 
+
+
 
 
 
