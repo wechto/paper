@@ -870,6 +870,18 @@ these approaches only locally perturb the observations regardless of the trainin
 
  we characterize a minimal set of representations, including both domain-specific factors and domain-shared state representations, that suffice for reliable and low-cost transfer. 
 
+:curly_loop: [A GENERAL THEORY OF RELATIVITY IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=bi9j5yi-Vrv) :fire: :volcano:
+
+The proposed theory deeply investigates the connection between any two cumulative expected returns defined on different policies and environment dynamics: Relative Policy Optimization (RPO) updates the policy using the relative policy gradient to transfer the policy evaluated in one environment to maximize the return in another, while Relative Transition Optimization (RTO) updates the parameterized dynamics model (if there exists) using the relative transition gradient to reduce the gap between the dynamics of the two environments.  
+
+ 
+
+
+
+
+
+
+
  <a name="anchor-ood"></a> 
 
 :o: :o: :o: **Out-of-Distribution (OOD) Generalization**  [Modularity--->Generalization](https://zhuanlan.zhihu.com/p/137082457) 
@@ -1703,6 +1715,10 @@ Employing uncertainty-aware dynamics models: we propose a new algorithm called p
 :curly_loop: [Calibrated Model-Based Deep Reinforcement Learning](https://arxiv.org/pdf/1906.08312.pdf) :fire:
 
 This paper explores which uncertainties are needed for model-based reinforcement learning and argues that good uncertainties must be calibrated, i.e. their probabilities should match empirical frequencies of predicted events.   
+
+:curly_loop: [Model Embedding Model-Based Reinforcement Learning](https://arxiv.org/pdf/2006.09234.pdf) 
+
+
 
 
 
