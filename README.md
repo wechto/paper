@@ -719,9 +719,9 @@ PC3: we propose a novel information-theoretic LCE approach and show theoreticall
 
 our proposed method adversarially generates new trajectory data based on the policy gradient objective and aims to more effectively increase the RL agent’s generalization ability with the policy-aware data augmentation. 
 
-:curly_loop: [Understanding Domain Randomization for Sim-to-real Transfer](https://arxiv.org/pdf/2110.03239.pdf) 
+:curly_loop: [Understanding Domain Randomization for Sim-to-real Transfer](https://arxiv.org/pdf/2110.03239.pdf) :volcano: :droplet:
 
-
+We provide sharp bounds on the sim-to-real gap—the difference between the value of policy returned by domain randomization and the value of an optimal policy for the real world. 
 
 :white_flag:  see more robustness in model-based setting 
 
@@ -1152,7 +1152,9 @@ We show that naïve approaches that combine techniques from safe RL and offline 
 
 :curly_loop: [Supervised Off-Policy Ranking](https://arxiv.org/pdf/2107.01360.pdf) 
 
+:curly_loop: [Conservative Data Sharing for Multi-Task Offline Reinforcement Learning](https://arxiv.org/pdf/2109.08128.pdf) :fire: :volcano: :boom:  
 
+Conservative data sharing (CDS): We develop a simple technique for data-sharing in multi-task offline RL that routes data based on the improvement over the task-specific data. 
 
 
 
@@ -1271,6 +1273,10 @@ We presented implicit Q-Learning (IQL), a general algorithm for offline RL that 
 :curly_loop: [Offline Reinforcement Learning with Pseudometric Learning](https://arxiv.org/pdf/2103.01948.pdf) :+1: :fire: :volcano:
 
  In the presence of function approximation, and under the assumption of limited coverage of the state-action space of the environment, it is necessary to enforce the policy to visit state-action pairs close to the support of logged transitions. In this work, we propose an iterative procedure to learn a pseudometric (closely related to bisimulation metrics) from logged transitions, and use it to define this notion of closeness.  
+
+
+
+
 
 
 
@@ -1731,6 +1737,8 @@ We derive a lower bound of the expected return, which inspires a bound maximizat
 :curly_loop: [Bidirectional Model-based Policy Optimization](http://proceedings.mlr.press/v119/lai20b/lai20b.pdf) :+1: :fire: :fire: 
 
 We propose to additionally construct a backward dynamics model to reduce the reliance on accuracy in forward model predictions: Bidirectional Model-based Policy Optimization (BMPO) to utilize both the forward model and backward model to generate short branched rollouts for policy optimization.  
+
+
 
  
 
