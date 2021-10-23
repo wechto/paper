@@ -29,14 +29,14 @@ TOC
   - [Mutual Information](#mutual-information)
   - [DR (Domain Randomization) & sim2real](#dr-domain-randomization--sim2real)
   - [Transfer: Generalization & Adaption (Dynamics)](#transfer-generalization--adaption-dynamics)
-  - [IRL](#irl)
-  - [Offline RL](#offline-rl)
-  - [Exploration](#exploration)
-  - [Causal Inference](#causal-inference)
-  - [Supervised RL & Goal-conditioned Policy](#supervised-rl--goal-conditioned-policy)
-  - [Goal-relabeling & Self-imitation](#goal-relabeling--self-imitation)
-  - [Model-based RL & world models](#model-based-rl--world-models)
-  - [Training RL & Just Fast & Embedding? & OPE(DICE)](#training-rl--just-fast--embedding--opedice)
+  - [IRL](#irl) 
+  - [Offline RL](#offline-rl) 
+  - [Exploration](#exploration) 
+  - [Causal Inference](#causal-inference) 
+  - [Supervised RL & Goal-conditioned Policy](#supervised-rl--goal-conditioned-policy) 
+  - [Goal-relabeling & Self-imitation](#goal-relabeling--self-imitation) 
+  - [Model-based RL & world models](#model-based-rl--world-models) 
+  - [Training RL & Just Fast & Embedding? & OPE(DICE)](#training-rl--just-fast--embedding--opedice) 
   - [MARL](#marl)
   - [Constrained RL](#constrained-rl)
   - [Distributional RL](#distributional-rl)
@@ -1172,6 +1172,10 @@ Conservative data sharing (CDS): We develop a simple technique for data-sharing 
 
   we introduce a general framework, behavior regularized actor critic (BRAC), to empirically evaluate recently proposed methods as well as a number of simple baselines across a variety of offline continuous control tasks. 
 
+:curly_loop: [BRAC+: Improved Behavior Regularized Actor Critic for Offline Reinforcement Learning](https://arxiv.org/pdf/2110.00894.pdf) 
+
+BRAC+: 
+
   :curly_loop: [Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](https://arxiv.org/pdf/2107.00591.pdf) :no_mouth:  
 
   we observe that state-action distribution shift may lead to severe bootstrap error during fine-tuning, which destroys the good initial policy obtained via offline RL. 
@@ -1264,7 +1268,7 @@ By introducing the Expect-Max Q-Learning operator, we present a novel theoretica
 
 :curly_loop: [OFFLINE REINFORCEMENT LEARNING WITH IMPLICIT Q-LEARNING](https://arxiv.org/pdf/2110.06169.pdf) :+1: 
 
-We presented implicit Q-Learning (IQL), a general algorithm for offline RL that completely avoids any queries to values of out-of-sample actions during training while still enabling multi-step dynamic programming. 
+We presented implicit Q-Learning (IQL), a general algorithm for offline RL that completely avoids any queries to values of out-of-sample actions during training while still enabling multi-step dynamic programming.  Adopting Expectile regression. 
 
 :curly_loop: [Continuous Doubly Constrained Batch Reinforcement Learning](https://arxiv.org/pdf/2102.09225.pdf) 
 
@@ -1273,6 +1277,8 @@ We presented implicit Q-Learning (IQL), a general algorithm for offline RL that 
 :curly_loop: [Offline Reinforcement Learning with Pseudometric Learning](https://arxiv.org/pdf/2103.01948.pdf) :+1: :fire: :volcano:
 
  In the presence of function approximation, and under the assumption of limited coverage of the state-action space of the environment, it is necessary to enforce the policy to visit state-action pairs close to the support of logged transitions. In this work, we propose an iterative procedure to learn a pseudometric (closely related to bisimulation metrics) from logged transitions, and use it to define this notion of closeness.  
+
+:curly_loop: [Offline Reinforcement Learning with Reverse Model-based Imagination](https://arxiv.org/pdf/2110.00188.pdf) 
 
 
 
@@ -1730,7 +1736,7 @@ This paper explores which uncertainties are needed for model-based reinforcement
 
 We propose to learn the transition model by matching the distributions of multi-step rollouts sampled from the transition model and the real ones via WGAN. We theoretically show that matching the two can minimize the difference of cumulative rewards between the real transition and the learned one. 
 
-:curly_loop: [Model-based Policy Optimization with Unsupervised Model Adaptation](https://arxiv.org/pdf/2010.09546.pdf) :fire:
+:curly_loop: [Model-based Policy Optimization with Unsupervised Model Adaptation](https://arxiv.org/pdf/2010.09546.pdf) :fire: 
 
 We derive a lower bound of the expected return, which inspires a bound maximization algorithm by aligning the simulated and real data distributions. To this end, we propose a novel model-based rl framework AMPO, which introduces unsupervised model adaptation to minimize the integral probability metric (IPM) between feature distributions from real and simulated data. 
 
