@@ -1172,9 +1172,9 @@ Conservative data sharing (CDS): We develop a simple technique for data-sharing 
 
   we introduce a general framework, behavior regularized actor critic (BRAC), to empirically evaluate recently proposed methods as well as a number of simple baselines across a variety of offline continuous control tasks. 
 
-:curly_loop: [BRAC+: Improved Behavior Regularized Actor Critic for Offline Reinforcement Learning](https://arxiv.org/pdf/2110.00894.pdf) 
+:curly_loop: [BRAC+: Improved Behavior Regularized Actor Critic for Offline Reinforcement Learning](https://arxiv.org/pdf/2110.00894.pdf) :fire: 
 
-BRAC+: 
+We improved the behavior regularized offline RL by proposing a low-variance upper bound of the KL divergence estimator to reduce variance and gradient penalized policy evaluation such that the learned Q functions are guaranteed to converge. 
 
   :curly_loop: [Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](https://arxiv.org/pdf/2107.00591.pdf) :no_mouth:  
 
@@ -1282,7 +1282,9 @@ We presented implicit Q-Learning (IQL), a general algorithm for offline RL that 
 
 Reverse Offline Model-based Imagination (ROMI): We learn a reverse dynamics model in conjunction with a novel reverse policy, which can generate rollouts leading to the target goal states within the offline dataset. 
 
+:curly_loop: [Uncertainty-Based Offline Reinforcement Learning with Diversified Q-Ensemble](https://arxiv.org/pdf/2110.01548.pdf) :+1: :fire: 
 
+we propose an uncertainty-based model-free offline RL method that effectively quantifies the uncertainty of the Q-value estimates by an ensemble of Q-function networks and does not require any estimation or sampling of the data distribution. 
 
 
 
@@ -1953,6 +1955,10 @@ REPS:  it allows an exact policy update and may use data generated while followi
 :curly_loop: [SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning](http://proceedings.mlr.press/v139/lee21g/lee21g.pdf) :fire:  ​
 
 SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman backups, which re-weight target Q-values based on uncertainty estimates from a Q-ensemble, and (b) an inference method that selects actions using the highest upper-confidence bounds for efficient exploration. 
+
+:curly_loop: [Explaining Off-Policy Actor-Critic From A Bias-Variance Perspective](https://arxiv.org/pdf/2110.02421.pdf) :confused:
+
+To understand an off-policy actor-critic algorithm, we show the policy evaluation error on the expected distribution of transitions decomposes into the Bellman error, the bias from policy mismatch, and the variance from sampling.  
 
    ​
 
