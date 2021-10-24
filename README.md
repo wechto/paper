@@ -1278,7 +1278,9 @@ We presented implicit Q-Learning (IQL), a general algorithm for offline RL that 
 
  In the presence of function approximation, and under the assumption of limited coverage of the state-action space of the environment, it is necessary to enforce the policy to visit state-action pairs close to the support of logged transitions. In this work, we propose an iterative procedure to learn a pseudometric (closely related to bisimulation metrics) from logged transitions, and use it to define this notion of closeness.  
 
-:curly_loop: [Offline Reinforcement Learning with Reverse Model-based Imagination](https://arxiv.org/pdf/2110.00188.pdf) 
+:curly_loop: [Offline Reinforcement Learning with Reverse Model-based Imagination](https://arxiv.org/pdf/2110.00188.pdf) :fire: :fire: 
+
+Reverse Offline Model-based Imagination (ROMI): We learn a reverse dynamics model in conjunction with a novel reverse policy, which can generate rollouts leading to the target goal states within the offline dataset. 
 
 
 
