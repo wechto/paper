@@ -1156,6 +1156,22 @@ We show that naïve approaches that combine techniques from safe RL and offline 
 
 Conservative data sharing (CDS): We develop a simple technique for data-sharing in multi-task offline RL that routes data based on the improvement over the task-specific data. 
 
+:curly_loop: [Is Pessimism Provably Efficient for Offline RL?](http://proceedings.mlr.press/v139/jin21e/jin21e.pdf) 
+
+:curly_loop: [PESSIMISTIC BOOTSTRAPPING FOR UNCERTAINTY-DRIVEN OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=Y4cs1Z3HnqL) :+1: :fire:
+
+PBRL: We propose Pessimistic Bootstrapping for offline RL (PBRL), a purely uncertainty-driven offline algorithm without explicit policy constraints. Specifically, PBRL conducts uncertainty quantification via the disagreement of bootstrapped Q-functions, and performs pessimistic updates by penalizing the value function based on the estimated uncertainty. 
+
+:curly_loop: [UNCERTAINTY REGULARIZED POLICY LEARNING FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=rwSWaS_tGgG) :+1:
+
+ Uncertainty Regularized Policy Learning (URPL): URPL adds an uncertainty regularization term in the policy learning objective to enforce to learn a more stable policy under the offline setting. Moreover, we further use the uncertainty regularization term as a surrogate metric indicating the potential performance of a policy. 
+
+:curly_loop: [Model-Based Offline Meta-Reinforcement Learning with Regularization](https://openreview.net/pdf?id=EBn0uInJZWh) :+1: :fire: :volcano:
+
+We explore model-based offline Meta-RL with regularized Policy Optimization (MerPO), which learns a meta-model for efficient task structure inference and an informative meta-policy for safe exploration of out-of-distribution state-actions. 
+
+ 
+
 
 
 
@@ -1428,13 +1444,35 @@ We introduced an offline meta-RL algorithm, ODA, that can meta-learn an adaptive
 
    design a provably efficient policy optimization algorithm that incorporates exploration. 
   
+  :curly_loop: [Dynamic Bottleneck for Robust Self-Supervised Exploration](https://arxiv.org/pdf/2110.10735.pdf) :+1: :fire:
   
+  We propose a Dynamic Bottleneck (DB) model, which attains a dynamics-relevant representation based on the information-bottleneck principle. Based on the DB model, we further propose DB-bonus, which encourages the agent to explore state-action pairs with high information gain. 
+  
+  :curly_loop: [Principled Exploration via Optimistic Bootstrapping and Backward Induction](https://arxiv.org/pdf/2105.06022.pdf) :+1: :fire: 
+  
+  We propose a principled exploration method for DRL through Optimistic Bootstrapping and Backward Induction (OB2I). OB2I constructs a generalpurpose UCB-bonus through non-parametric bootstrap in DRL. The UCB-bonus estimates the epistemic uncertainty of state-action pairs for optimistic exploration. 
   
   :curly_loop: [A Max-Min Entropy Framework for Reinforcement Learning](https://arxiv.org/pdf/2106.10517.pdf) :volcano:  :droplet:
   
   The proposed max-min entropy framework aims to learn to visit states with low entropy and maximize the entropy of these low-entropy states to promote exploration.  
   
-  :curly_loop: [Exploration in Deep Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/pdf/2109.06668.pdf) :sweat_drops: 
+  :curly_loop: [Exploration in Deep Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/pdf/2109.06668.pdf) :sweat_drops:
+  
+  
+  
+  :curly_loop: [Better Exploration with Optimistic Actor-Critic](https://arxiv.org/pdf/1910.12807.pdf) :+1: 
+  
+  OAC: we Optimistic Actor Critic, which approximates a lower and upper confidence bound on the state-action value function. This allows us to apply the principle of optimism in the face of uncertainty to perform directed exploration using the upper bound while still using the lower bound to avoid overestimation. 
+  
+  :curly_loop: [A Unified Framework for Conservative Exploration](https://arxiv.org/pdf/2106.11692.pdf) 
+  
+  
+  
+  :curly_loop: [Reward Shifting for Optimistic Exploration and Conservative Exploitation](https://openreview.net/pdf?id=CNY9h3uyfiO) 
+  
+  
+  
+   
   
    
 
