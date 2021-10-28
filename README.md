@@ -567,6 +567,10 @@ We establish the theoretical foundations for the validity of training a rl agent
 
 We introduce a unified formalism for defining these topologies through the lens of metrics. We establish a hierarchy amongst these metrics and demonstrate their theoretical implications on the Markov Decision Process specifying the rl problem.  
 
+:curly_loop: [Environment Shaping in Reinforcement Learning using State Abstraction](https://arxiv.org/pdf/2006.13160.pdf) :sweat_drops: 
+
+
+
 
 
 :curly_loop: [Control-Aware Representations for Model-based Reinforcement Learning](https://arxiv.org/pdf/2006.13408.pdf) :+1: :volcano: :boom: :boom: 
@@ -1303,9 +1307,9 @@ Reverse Offline Model-based Imagination (ROMI): We learn a reverse dynamics mode
 
 we propose an uncertainty-based model-free offline RL method that effectively quantifies the uncertainty of the Q-value estimates by an ensemble of Q-function networks and does not require any estimation or sampling of the data distribution. 
 
-:curly_loop: [ROBUST OFFLINE REINFORCEMENT LEARNING FROM LOW-QUALITY DATA](https://openreview.net/pdf?id=uOjm_xqKEoX) 
+:curly_loop: [ROBUST OFFLINE REINFORCEMENT LEARNING FROM LOW-QUALITY DATA](https://openreview.net/pdf?id=uOjm_xqKEoX) :no_mouth:  
 
-
+AdaPT: we propose an Adaptive Policy constrainT (AdaPT) method, which allows effective exploration on out-ofdistribution actions by imposing an adaptive constraint on the learned policy. 
 
 
 
@@ -2141,6 +2145,12 @@ Reducing overestimation bias by increasing representation dissimilarity in ensem
 
 we propose to learn what to model in a way that can directly help value prediction.  
 
+:curly_loop: [Dual Policy Iteration](https://arxiv.org/pdf/1805.10755.pdf) :+1: :fire: 
+
+DPI: We present and analyze Dual Policy Iteration—a framework that alternatively computes a non-reactive policy via more advanced and systematic search, and updates a reactive policy via imitating the non-reactive one. [MPO, AWR] 
+
+
+
 
 
 
@@ -2168,6 +2178,8 @@ The soft Q-learning loss gradient can be interpreted as a policy gradient term p
 :curly_loop: [MAXIMUM REWARD FORMULATION IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.03744.pdf) :droplet:
 
 We formulate an objective function to maximize the expected maximum reward along a trajectory, derive a novel functional form of the Bellman equation, introduce the corresponding Bellman operators, and provide a proof of convergence.  
+
+
 
  ​
 
@@ -2242,6 +2254,22 @@ Yet, another estimate could be leveraged to bootstrap RL: the current policy. Ou
 :curly_loop: [Leverage the Average: an Analysis of KL Regularization in Reinforcement Learning](https://arxiv.org/pdf/2003.14089.pdf) :+1: :fire: :volcano: :boom: :boom: :droplet:  ​
 
 Convex Conjugacy for KL and Entropy Regularization;  1) Mirror Descent MPI: SAC, Soft Q-learning; Softmax DQN, mellowmax policy, TRPO, MPO, DPP, CVI:droplet:;  2) Dual Averaging MPI:droplet::  
+
+:curly_loop: [Theoretical Analysis of Efficiency and Robustness of Softmax and Gap-Increasing Operators in Reinforcement Learning](http://proceedings.mlr.press/v89/kozuno19a/kozuno19a.pdf) :+1: :droplet: 
+
+We propose and analyze conservative value iteration (CVI), which unifies value iteration, soft value iteration, advantage learning, and dynamic policy programming. 
+
+:curly_loop: [Momentum in Reinforcement Learning](http://proceedings.mlr.press/v108/vieillard20a/vieillard20a.pdf) :+1: :fire: 
+
+We derive Momentum Value Iteration (MoVI), a variation of Value iteration that incorporates this momentum idea. Our analysis shows that this allows MoVI to average errors over successive iterations. 
+
+:curly_loop: [Geometric Value Iteration: Dynamic Error-Aware KL Regularization for Reinforcement Learning](https://arxiv.org/pdf/2107.07659.pdf) :+1: :fire: :volcano: 
+
+we propose a novel algorithm, Geometric Value Iteration (GVI), that features a dynamic error-aware KL coefficient design with the aim of mitigating the impact of errors on performance. Our experiments demonstrate that GVI can effectively exploit the trade-off between learning speed and robustness over uniform averaging of a constant KL coefficient. 
+
+
+
+
 
 :curly_loop: [Constrained Policy Optimization](https://arxiv.org/pdf/1705.10528.pdf) :+1:  :fire:  :fire:  :volcano:  ​
 
