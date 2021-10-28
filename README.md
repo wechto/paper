@@ -823,8 +823,9 @@ we recast the problem of generalization in RL as solving the induced partially o
 
   
 
-
 :curly_loop: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: :+1:  ​
+
+New: [Adaptive Policy Transfer in Reinforcement Learning](https://arxiv.org/pdf/2105.04699.pdf) 
 
 adapt the source policy to learn to solve a target task with significant **transition differences** and uncertainties.  
 
@@ -1214,7 +1215,7 @@ Targeting the offline meta-RL setting, we propose Meta-Actor Critic with Advanta
 
   :curly_loop: [Exponentially Weighted Imitation Learning for Batched Historical Data](https://ai.tencent.com/ailab/media/publications/exponentially-weighted-imitation.pdf) :+1: :fire: :volcano:  ​ ​
 
-  we propose a monotonic advantage reweighted imitation learning strategy that is applicable to problems with complex nonlinear function approximation and works well with hybrid (discrete and continuous) action space. 
+  MARWIL: we propose a monotonic advantage reweighted imitation learning strategy that is applicable to problems with complex nonlinear function approximation and works well with hybrid (discrete and continuous) action space. 
 
   :curly_loop: [BAIL: Best-Action Imitation Learning for Batch Deep Reinforcement Learning](https://arxiv.org/pdf/1910.12179.pdf) :+1:  :volcano:  ​
 
@@ -1301,6 +1302,8 @@ Reverse Offline Model-based Imagination (ROMI): We learn a reverse dynamics mode
 :curly_loop: [Uncertainty-Based Offline Reinforcement Learning with Diversified Q-Ensemble](https://arxiv.org/pdf/2110.01548.pdf) :+1: :fire: 
 
 we propose an uncertainty-based model-free offline RL method that effectively quantifies the uncertainty of the Q-value estimates by an ensemble of Q-function networks and does not require any estimation or sampling of the data distribution. 
+
+:curly_loop: [ROBUST OFFLINE REINFORCEMENT LEARNING FROM LOW-QUALITY DATA](https://openreview.net/pdf?id=uOjm_xqKEoX) 
 
 
 
@@ -1472,7 +1475,11 @@ We introduced an offline meta-RL algorithm, ODA, that can meta-learn an adaptive
   
   
   
-   
+   :curly_loop: [A RISK-SENSITIVE POLICY GRADIENT METHOD](https://openreview.net/pdf?id=9rKTy4oZAQt) 
+  
+  :curly_loop: [Policy Gradient for Coherent Risk Measures](https://papers.nips.cc/paper/2015/file/024d7f84fff11dd7e8d9c510137a2381-Paper.pdf) 
+  
+  :curly_loop: [Wasserstein Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.07940.pdf) 
   
    
 
@@ -1664,11 +1671,21 @@ Self-imitation; experience replay: we propose a novel experience replay optimiza
 
 Our key idea is to express the expected return objective as a weighted sum of two terms: an expectation over the high-reward trajectories inside a memory buffer, and a separate expectation over trajectories outside of the buffer. 
 
- 
 
-  
 
-   ​
+:curly_loop: [Self-Imitation Learning via Generalized Lower Bound Q-learning](https://arxiv.org/pdf/2006.07442.pdf) :fire: 
+
+To provide a formal motivation for the potential performance gains provided by self-imitation learning, we show that n-step lower bound Q-learning achieves a trade-off between fixed point bias and contraction rate, drawing close connections to the popular uncorrected n-step Q-learning. 
+
+:curly_loop: [Understanding Multi-Step Deep Reinforcement Learning: A Systematic Study of the DQN Target](https://arxiv.org/pdf/1901.07510.pdf) :no_mouth: 
+
+we combine the n-step action-value alg. Retrace, Q-learning, Tree Backup, Sarsa, and Q(σ) with an architecture analogous to DQN. It suggests that off-policy correction is not always necessary for learning from samples from the experience replay buffer. 
+
+:curly_loop: [Adaptive Trade-Offs in Off-Policy Learning](https://arxiv.org/pdf/1910.07478.pdf) :fire: 
+
+We take a unifying view of this space of algorithms (off-policy learning algorithms ), and consider their trade-offs of three fundamental quantities: update variance, fixed-point bias, and contraction rate. 
+
+
 
 + Imitation Learning (See Upper) 
 
