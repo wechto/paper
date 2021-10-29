@@ -276,7 +276,7 @@ TOC
 
   we first use simulation to jointly learn a policy for a set of low-level skills, and a **“skill embedding”** parameterization which can be used to compose them. 
 
-  : [LEARNING AN EMBEDDING SPACE FOR TRANSFERABLE ROBOT SKILLS](https://openreview.net/pdf?id=rk07ZXZRb) : : :  ​
+  :curly_loop: [LEARNING AN EMBEDDING SPACE FOR TRANSFERABLE ROBOT SKILLS](https://openreview.net/pdf?id=rk07ZXZRb) :fire: :volcano: 
 
   our method is able to learn the skill embedding distributions, which enables interpolation between different skills as well as discovering the number of distinct skills necessary to accomplish a set of tasks. 
 
@@ -832,6 +832,10 @@ we recast the problem of generalization in RL as solving the induced partially o
 New: [Adaptive Policy Transfer in Reinforcement Learning](https://arxiv.org/pdf/2105.04699.pdf) 
 
 adapt the source policy to learn to solve a target task with significant **transition differences** and uncertainties.  
+
+:curly_loop: [Unsupervised Domain Adaptation with Dynamics Aware Rewards in Reinforcement Learning](https://arxiv.org/pdf/2110.12997.pdf) :fire: :volcano: 
+
+DARS:  We propose an unsupervised domain adaptation method to identify and acquire skills across dynamics. We introduce a KL regularized objective to encourage emergence of skills, rewarding the agent for both discovering skills and aligning its behaviors respecting dynamics shifts. 
 
 :curly_loop: [SINGLE EPISODE POLICY TRANSFER IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/1910.07719.pdf) :fire: :+1:  ​ ​
 
