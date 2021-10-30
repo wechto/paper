@@ -174,6 +174,16 @@ TOC
 
   We research how to modify the form of the return function to enhance the learning towards the optimal policy. We propose to use a general mathematical form for return function, and employ meta-learning to learn the optimal return function in an end-to-end manner. 
 
+  :curly_loop: [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](http://proceedings.mlr.press/v70/finn17a/finn17a.pdf) :fire: :volcano: :boom:
+
+  MAML:  In our approach, the parameters of the model are explicitly trained such that a small number of gradient steps with a small amount of training data from a new task will produce good generalization performance on that task. 
+
+  :curly_loop: [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](http://proceedings.mlr.press/v97/rakelly19a/rakelly19a.pdf) :fire: :fire: 
+
+  PEARL: Current methods rely heavily on on-policy experience, limiting their sample efficiency. They also lack mechanisms to reason about task uncertainty when adapting to new tasks, limiting their effectiveness on sparse reward problems. We address these challenges by developing an offpolicy meta-RL algorithm that disentangles task inference and control. 
+
+  :curly_loop: [Guided Meta-Policy Search](https://arxiv.org/pdf/1904.00956.pdf) 
+
    
 
   
@@ -821,9 +831,13 @@ The robot achieves this high success rate despite never having seen unstable or 
 
 we recast the problem of generalization in RL as solving the induced partially observed Markov decision process, which we call the epistemic POMDP. 
 
+:curly_loop: [Learning quadrupedal locomotion over challenging terrain](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/448343/1/2020_science_robotics_lee_locomotion.pdf) :fire: :volcano:
 
+ We present a novel solution to incorporating proprioceptive feedback in locomotion control and demonstrate remarkable zero-shot generalization from simulation to natural environments. 
 
-   ​
+:curly_loop: [Rma: Rapid motor adaptation for legged robots](https://arxiv.org/pdf/2107.04034.pdf) :fire: :volcano:
+
+RMA consists of two components: a base policy and an adaptation module. The combination of these components enables the robot to adapt to novel situations in fractions of a second. RMA is trained completely in simulation without using any domain knowledge like reference trajectories or predefined foot trajectory generators and is deployed on the A1 robot without any fine-tuning.  
 
   
 
@@ -1059,7 +1073,7 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   OPOLO (Off POlicy Learning from Observations)!  ifo // lfo  // ope // mode-covering (Forward Distribution Matching) // mode-seeking // dice // LfD // LfO  ​
 
-
+:curly_loop: [Reinforced Imitation Learning by Free Energy Principle](https://arxiv.org/pdf/2107.11811.pdf) :droplet: 
 
 :curly_loop: [Error Bounds of Imitating Policies and Environments](https://arxiv.org/pdf/2010.11876.pdf)  :volcano:  :sweat_drops:  
 
@@ -1810,14 +1824,6 @@ We derive a lower bound of the expected return, which inspires a bound maximizat
 :curly_loop: [Bidirectional Model-based Policy Optimization](http://proceedings.mlr.press/v119/lai20b/lai20b.pdf) :+1: :fire: :fire: 
 
 We propose to additionally construct a backward dynamics model to reduce the reliance on accuracy in forward model predictions: Bidirectional Model-based Policy Optimization (BMPO) to utilize both the forward model and backward model to generate short branched rollouts for policy optimization.  
-
-
-
- 
-
-
-
-
 
 
 
