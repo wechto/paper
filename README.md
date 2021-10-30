@@ -182,9 +182,9 @@ TOC
 
   PEARL: Current methods rely heavily on on-policy experience, limiting their sample efficiency. They also lack mechanisms to reason about task uncertainty when adapting to new tasks, limiting their effectiveness on sparse reward problems. We address these challenges by developing an offpolicy meta-RL algorithm that disentangles task inference and control. 
 
-  :curly_loop: [Guided Meta-Policy Search](https://arxiv.org/pdf/1904.00956.pdf) 
+  :curly_loop: [Guided Meta-Policy Search](https://arxiv.org/pdf/1904.00956.pdf) :+1: :fire: :volcano: 
 
-   
+  GMPS: We propose to learn a RL procedure in a federated way, where individual off-policy learners can solve the individual meta-training tasks, and then consolidate these solutions into a single meta-learner. Since the central meta-learner learns by imitating the solutions to the individual tasks, it can accommodate either the standard meta-RL problem setting, or a hybrid setting where some or all tasks are provided with example demonstrations. 
 
   
 
