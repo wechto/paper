@@ -1313,6 +1313,12 @@ We presented implicit Q-Learning (IQL), a general algorithm for offline RL that 
 
 
 
+:curly_loop: [Batch Reinforcement Learning with Hyperparameter Gradients](http://ailab.kaist.ac.kr/papers/pdfs/LLVKK2020.pdf) :+1: :fire: :volcano: :fire: 
+
+BOPAH: Unlike prior work where this trade-off is controlled by hand-tuned hyperparameters (in a generalized KL-regularized RL framework), we propose a novel batch reinforcement learning approach, batch optimization of policy and hyperparameter (BOPAH), that uses a gradient-based optimization of the hyperparameter using held-out data. 
+
+
+
 :curly_loop: [Offline Reinforcement Learning with Pseudometric Learning](https://arxiv.org/pdf/2103.01948.pdf) :+1: :fire: :volcano:
 
  In the presence of function approximation, and under the assumption of limited coverage of the state-action space of the environment, it is necessary to enforce the policy to visit state-action pairs close to the support of logged transitions. In this work, we propose an iterative procedure to learn a pseudometric (closely related to bisimulation metrics) from logged transitions, and use it to define this notion of closeness.  
