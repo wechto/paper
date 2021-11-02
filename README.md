@@ -1995,6 +1995,10 @@ our approach allows for greater robustness under model misspecification or distr
 
   we unify these estimators (DICE) as regularized Lagrangians of the same linear program. 
 
+:curly_loop: [OptiDICE: Offline Policy Optimization via Stationary Distribution Correction Estimation](https://arxiv.org/pdf/2106.10783.pdf) :+1: :volcano: 
+
+Our algorithm, OptiDICE, directly estimates the stationary distribution corrections of the optimal policy and does not rely on policy-gradients, unlike previous offline RL algorithms. 
+
   :curly_loop: [Minimax Weight and Q-Function Learning for Off-Policy Evaluation](http://proceedings.mlr.press/v119/uehara20a/uehara20a.pdf) :fire: :droplet:  ​ ​
 
   Minimax Weight Learning (MWL); Minimax Q-Function Learning. Doubly Robust Extension and Sample Complexity of MWL & MQL. 
