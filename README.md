@@ -1905,6 +1905,18 @@ our approach allows for greater robustness under model misspecification or distr
 
 
 
+:o: Zero-Order Trajectory Optimizers / Planning 
+
+:curly_loop: [Sample-efficient Cross-Entropy Method for Real-time Planning](https://arxiv.org/pdf/2008.06389.pdf) :droplet:
+
+i Cross-Entropy Method (CEM): 
+
+:curly_loop: [Extracting Strong Policies for Robotics Tasks from Zero-Order Trajectory Optimizers](https://openreview.net/pdf?id=Nc3TJqbcl3) :droplet:
+
+ Adaptive Policy EXtraction (APEX): 
+
+ 
+
 
 
 
@@ -2090,6 +2102,10 @@ we propose a two-step understanding of value estimation from the perspective of 
 :curly_loop: [Off-Policy Policy Gradient Algorithms by Constraining the State Distribution Shift](https://arxiv.org/pdf/1911.06970.pdf) :+1: 
 
 Existing off-policy gradient based methods do not correct for the state distribution mismatch, and in this work we show that instead of computing the ratio over state distributions, we can instead minimize the KL between the target and behaviour state distributions to account for the state distribution shift in off-policy learning. 
+
+:curly_loop: [Fast Efficient Hyperparameter Tuning for Policy Gradient Methods](https://openreview.net/pdf?id=r1exYESgLH) :no_mouth: 
+
+Hyperparameter Optimisation on the Fly (HOOF): The main idea is to use existing trajectories sampled by the policy grad. method to optimise a one-step improvement objective, yielding a sample and computationally efficient alg. that is easy to implement. 
 
 
 
