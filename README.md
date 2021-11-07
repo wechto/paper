@@ -1487,7 +1487,7 @@ We introduced an offline meta-RL algorithm, ODA, that can meta-learn an adaptive
   
   The proposed max-min entropy framework aims to learn to visit states with low entropy and maximize the entropy of these low-entropy states to promote exploration.  
   
-  :curly_loop: [Exploration in Deep Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/pdf/2109.06668.pdf) :sweat_drops:
+  :curly_loop: [Exploration in Deep Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/pdf/2109.06668.pdf) :sweat_drops: 
   
   
   
