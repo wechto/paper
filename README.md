@@ -1321,6 +1321,10 @@ BOPAH: Unlike prior work where this trade-off is controlled by hand-tuned hyperp
 
 We present a new offline V -learning method, EVL (expectile V -learning), and a novel offline RL framework, VEM (Value-based Episodic Memory). EVL learns the value function through the trade-offs between imitation learning and optimal value learning. VEM uses a memory-based planning scheme to enhance advantage estimation and conduct policy learning in a regression manner. 
 
+:curly_loop: [Offline Reinforcement Learning with Soft Behavior Regularization](https://arxiv.org/pdf/2110.07395.pdf) :fire: :volcano:
+
+Soft Behavior-regularized Actor Critic (SBAC): we design a new behavior regularization scheme for offline RL that enables policy improvement guarantee and state-dependent policy regularization. 
+
 
 
 
