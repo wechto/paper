@@ -773,7 +773,7 @@ We have presented two new criteria for robustness, the Probabilistic and Noisy a
 
   :curly_loop: [Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers](https://openreview.net/pdf?id=eqBwg3AcIAK) :fire: :boom: :volcano: :droplet:  
 
-  The main contribution of this work is an algorithm for domain adaptation to dynamics changes in RL, based on the idea of compensating for **differences in dynamics** by modifying the reward function. This algorithm does not need to estimate transition probabilities, but rather modifies the reward function using a pair of classifiers. 
+  DARC: The main contribution of this work is an algorithm for domain adaptation to dynamics changes in RL, based on the idea of compensating for **differences in dynamics** by modifying the reward function. This algorithm does not need to estimate transition probabilities, but rather modifies the reward function using a pair of classifiers. 
 
   **Related work is good!** :+1: 
 
@@ -782,32 +782,36 @@ We have presented two new criteria for robustness, the Probabilistic and Noisy a
 + DA in RL =  system identification + domain randomization + observation adaptation :+1: 
   + formulates control as a problem of probabilistic inference :droplet: 
 
-  :curly_loop: [Mutual Alignment Transfer Learning](https://arxiv.org/pdf/1707.07907.pdf) :+1: :fire:  ​ ​
+:curly_loop: [Unsupervised Domain Adaptation with Dynamics Aware Rewards in Reinforcement Learning](https://arxiv.org/pdf/2110.12997.pdf) :+1: :fire: :volcano: 
 
-  The developed approach harnesses auxiliary rewards to guide the exploration for the real world agent based on the proficiency of the agent in simulation and vice versa. 
+DADS: we introduce a KL regularized objective to encourage emergence of skills, rewarding the agent for both discovering skills and aligning its behaviors respecting dynamics shifts. 
 
-  :curly_loop: [SimGAN: Hybrid Simulator Identification for Domain Adaptation via Adversarial Reinforcement Learning](https://arxiv.org/pdf/2101.06005.pdf)  [real dog] :+1: :fire:  ​ ​
+:curly_loop: [Mutual Alignment Transfer Learning](https://arxiv.org/pdf/1707.07907.pdf) :+1: :fire:  ​ ​
 
-  a framework to tackle domain adaptation by identifying a hybrid physics simulator to match the simulated trajectories to the ones from the target domain, using a learned discriminative loss to address the limitations associated with manual loss design. 
+The developed approach harnesses auxiliary rewards to guide the exploration for the real world agent based on the proficiency of the agent in simulation and vice versa. 
 
-   :curly_loop: [Disentangled Skill Embeddings for Reinforcement Learning](https://arxiv.org/pdf/1906.09223.pdf) :fire: :volcano: :boom: :boom:  ​ ​ ​ ​ 
+:curly_loop: [SimGAN: Hybrid Simulator Identification for Domain Adaptation via Adversarial Reinforcement Learning](https://arxiv.org/pdf/2101.06005.pdf)  [real dog] :+1: :fire:  ​ ​
 
-  We have developed a multi-task framework from a variational inference perspective that is able to learn latent spaces that generalize to unseen tasks where the dynamics and reward can change independently. 
+a framework to tackle domain adaptation by identifying a hybrid physics simulator to match the simulated trajectories to the ones from the target domain, using a learned discriminative loss to address the limitations associated with manual loss design. 
 
-  :curly_loop: [**Transfer Learning in Deep Reinforcement Learning: A Survey**](https://arxiv.org/pdf/2009.07888.pdf)  :sweat_drops:  ​
+ :curly_loop: [Disentangled Skill Embeddings for Reinforcement Learning](https://arxiv.org/pdf/1906.09223.pdf) :fire: :volcano: :boom: :boom:  ​ ​ ​ ​ 
 
-  Evaluation metrics: Mastery and Generalization. 
-  
-  TRANSFER LEARNING APPROACHES: Reward Shaping; Learning from Demonstrations; Policy Transfer (Transfer Learning via Policy Distillation, Transfer Learning via Policy Reuse); Inter-Task Mapping; Representation Transfer(Reusing Representations, Disentangling Representations); 
-  
-  :curly_loop: [Provably Efficient Model-based Policy Adaptation](https://arxiv.org/pdf/2006.08051.pdf) :+1: :fire: :volcano: :droplet: :+1:  ​
-  
-  We prove that the approach learns policies in the target environment that can recover trajectories from the source environment, and establish the rate of convergence in general settings. 
-  
-  :o: reward shaping 
-  
-  + :curly_loop: [Useful Policy Invariant Shaping from Arbitrary Advice](https://arxiv.org/pdf/2011.01297.pdf) :+1:  ​
-  
+We have developed a multi-task framework from a variational inference perspective that is able to learn latent spaces that generalize to unseen tasks where the dynamics and reward can change independently. 
+
+:curly_loop: [**Transfer Learning in Deep Reinforcement Learning: A Survey**](https://arxiv.org/pdf/2009.07888.pdf)  :sweat_drops:  ​
+
+Evaluation metrics: Mastery and Generalization. 
+
+TRANSFER LEARNING APPROACHES: Reward Shaping; Learning from Demonstrations; Policy Transfer (Transfer Learning via Policy Distillation, Transfer Learning via Policy Reuse); Inter-Task Mapping; Representation Transfer(Reusing Representations, Disentangling Representations); 
+
+:curly_loop: [Provably Efficient Model-based Policy Adaptation](https://arxiv.org/pdf/2006.08051.pdf) :+1: :fire: :volcano: :droplet: :+1:  ​
+
+We prove that the approach learns policies in the target environment that can recover trajectories from the source environment, and establish the rate of convergence in general settings. 
+
+:o: reward shaping 
+
++ :curly_loop: [Useful Policy Invariant Shaping from Arbitrary Advice](https://arxiv.org/pdf/2011.01297.pdf) :+1:  ​
+
 + Action 
   
 
