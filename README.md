@@ -1317,6 +1317,12 @@ We presented implicit Q-Learning (IQL), a general algorithm for offline RL that 
 
 BOPAH: Unlike prior work where this trade-off is controlled by hand-tuned hyperparameters (in a generalized KL-regularized RL framework), we propose a novel batch reinforcement learning approach, batch optimization of policy and hyperparameter (BOPAH), that uses a gradient-based optimization of the hyperparameter using held-out data. 
 
+:curly_loop: [OFFLINE REINFORCEMENT LEARNING WITH VALUEBASED EPISODIC MEMORY](https://arxiv.org/pdf/2110.09796.pdf) :volcano: :droplet: 
+
+We present a new offline V -learning method, EVL (expectile V -learning), and a novel offline RL framework, VEM (Value-based Episodic Memory). EVL learns the value function through the trade-offs between imitation learning and optimal value learning. VEM uses a memory-based planning scheme to enhance advantage estimation and conduct policy learning in a regression manner. 
+
+
+
 
 
 :curly_loop: [Offline Reinforcement Learning with Pseudometric Learning](https://arxiv.org/pdf/2103.01948.pdf) :+1: :fire: :volcano:
@@ -2051,6 +2057,10 @@ SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman back
 
 To understand an off-policy actor-critic algorithm, we show the policy evaluation error on the expected distribution of transitions decomposes into the Bellman error, the bias from policy mismatch, and the variance from sampling.  
 
+
+
+
+
    ​
 
 
@@ -2144,6 +2154,10 @@ Hyperparameter Optimisation on the Fly (HOOF): The main idea is to use existing 
 :curly_loop: [Policy Gradients Incorporating the Future](https://arxiv.org/pdf/2108.02096.pdf) :fire:
 
 we consider the problem of incorporating information from the entire trajectory in model-free online and offline RL algorithms, enabling an agent to use information about the future to accelerate and improve its learning.  
+
+:curly_loop: [Generalizable Episodic Memory for Deep Reinforcement Learning](https://arxiv.org/pdf/2103.06469.pdf) :+1: :fire: 
+
+Generalizable Episodic Memory: We propose Generalizable Episodic Memory (GEM), which effectively organizes the state-action values of episodic memory in a generalizable manner and supports implicit planning on memorized trajectories. 
 
 
 
@@ -2341,6 +2355,10 @@ It is easy to see that Convex MDPs in which goals are expressed as convex functi
 
 We prove the duality between the density function and Q function in CRL and use it to develop an effective primal-dual algorithm to solve density constrained reinforcement learning problems.  
 
+:curly_loop: [Control Regularization for Reduced Variance Reinforcement Learning](http://proceedings.mlr.press/v97/cheng19a/cheng19a.pdf) :fire: :volcano: 
+
+CORERL: we regularize the behavior of the deep policy to be similar to a policy prior, i.e., we regularize in function space. We show that functional reg. yields a bias-variance trade-off, and propose an adaptive tuning strategy to optimize this trade-off.
+
 
 
 
@@ -2354,6 +2372,10 @@ Our approach, called SPI with Baseline Bootstrapping (SPIBB), is inspired by the
 :curly_loop: [Safe Policy Improvement with Soft Baseline Bootstrapping](https://arxiv.org/pdf/1907.05079.pdf) :+1: :fire: :volcano: 
 
 Instead of binarily classifying the state-action pairs into two sets (the uncertain and the safe-to-train-on ones), we adopt a softer strategy that controls the error in the value estimates by constraining the policy change according to the local model uncertainty. 
+
+:curly_loop: [Accelerating Safe Reinforcement Learning with Constraint-mismatched Baseline Policies](http://proceedings.mlr.press/v139/yang21i/yang21i.pdf) :fire: :volcano: 
+
+SPACE: We propose an iterative policy optimization algorithm that alternates between maximizing expected return on the task, minimizing distance to the baseline policy, and projecting the policy onto the constraint satisfying set. 
 
 
 
