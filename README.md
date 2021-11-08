@@ -1201,7 +1201,9 @@ PBRL: We propose Pessimistic Bootstrapping for offline RL (PBRL), a purely uncer
 
 We explore model-based offline Meta-RL with regularized Policy Optimization (MerPO), which learns a meta-model for efficient task structure inference and an informative meta-policy for safe exploration of out-of-distribution state-actions. 
 
- 
+:curly_loop: [BATCH REINFORCEMENT LEARNING THROUGH CONTINUATION METHOD](https://openreview.net/pdf?id=po-DLlBuAuz) :fire: 
+
+We propose a simple yet effective approach, soft policy iteration algorithm through continuation method to alleviate two challenges in policy optimization under batch reinforcement learning: (1) highly non-smooth objective function which is difficult to optimize (2) high variance in value estimates. 
 
 
 
@@ -2099,7 +2101,7 @@ To understand an off-policy actor-critic algorithm, we show the policy evaluatio
 
   :curly_loop: [Deep Reinforcement Learning with Robust and Smooth Policy](http://proceedings.mlr.press/v119/shen20b/shen20b.pdf) :+1:  
 
-  the policy is trained with smoothness-inducing regularization. Such regularization effectively constrains the search space, and enforces smoothness in the learned policy. 
+  Motivated by the fact that many environments with continuous state space have smooth transitions, we propose to learn a smooth policy that behaves smoothly with respect to states. We develop a new framework — Smooth Regularized Reinforcement Learning (SR2L), where the policy is trained with smoothness-inducing regularization. 
 
   :curly_loop: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  
 
@@ -2370,6 +2372,10 @@ We prove the duality between the density function and Q function in CRL and use 
 :curly_loop: [Control Regularization for Reduced Variance Reinforcement Learning](http://proceedings.mlr.press/v97/cheng19a/cheng19a.pdf) :fire: :volcano: 
 
 CORERL: we regularize the behavior of the deep policy to be similar to a policy prior, i.e., we regularize in function space. We show that functional reg. yields a bias-variance trade-off, and propose an adaptive tuning strategy to optimize this trade-off.
+
+:curly_loop: [REGULARIZATION MATTERS IN POLICY OPTIMIZATION - AN EMPIRICAL STUDY ON CONTINUOUS CONTROL](https://arxiv.org/pdf/1910.09191.pdf) :no_mouth:
+
+We present the first comprehensive study of regularization techniques with multiple policy optimization algorithms on continuous control tasks. 
 
 
 
