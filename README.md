@@ -1083,6 +1083,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
 
 
+:curly_loop: [TRAIL: NEAR-OPTIMAL IMITATION LEARNING WITH SUBOPTIMAL DATA](https://arxiv.org/pdf/2110.14770.pdf) :fire: :volcano:  
+
+TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present training objectives that use offline datasets to learn a factored transition model whose structure enables the extraction of a latent action space. Our theoretical analysis shows that the learned latent action space can boost the sample-efficiency of downstream imitation learning, effectively reducing the need for large near-optimal expert datasets through the use of auxiliary non-expert data. 
+
 + Adding Noise 
 
   :curly_loop: [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
