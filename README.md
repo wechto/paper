@@ -6,10 +6,6 @@
 
 
 
-unsupervised/self-supservised; <a href="#anchor-emp">Emp</a>. ; <a href="#anchor-asp">(A)SP</a>; <a href="#anchor-metarl">meta-RL</a>; <a href="#anchor-HRL">HRL</a>; <a href="#anchor-comskills">combing skills</a>; <a href="#anchor-klreg">KL reg</a>.; <a href="#anchor-inference">inference</a>; <a href="#anchor-state-abstraction">State abstraction</a>; <a href="#anchor-MI">MI</a>; <a href="#anchor-DR">DR</a>; <a href="#anchor-sim2real">sim2real</a>; <a href="#anchor-transfer">transfer</a>(DA, DG, dynamics); <a href="#anchor-causual">causual</a>; <a href="#anchor-exploration">exploration</a>; <a href="#anchor-offline">offline</a>; <a href="#anchor-pareto">Pareto</a>; <a href="#anchor-supervised">supervised</a>; <a href="#anchor-goalcon">Goal con</a>; <a href="#anchor-irl">IRL</a>; <a href="#anchor-modelbasedrl">model-based</a>;  <a href="#anchor-trainingrl">training RL</a>; <a href="#anchor-marl">MARL</a>;  <a href="#anchor-constrainedrl">constrained RL</a>; <a href="#anchor-cl">CL</a>; <a href="#anchor-disrl">Dis RL</a>; <a href="#anchor-selfpaced">self-paced</a>; <a href="#anchor-curriculum">Curriculum</a>; <a href="#anchor-optimization">optimization</a>(CD, DRO, Trustworthy); 
-
-
-
 Recommendation: :+1: :fire: :volcano: :boom: 
 
 To-Do (Reading) List: :droplet: :sweat_drops: 
@@ -1206,6 +1202,10 @@ We explore model-based offline Meta-RL with regularized Policy Optimization (Mer
 :curly_loop: [BATCH REINFORCEMENT LEARNING THROUGH CONTINUATION METHOD](https://openreview.net/pdf?id=po-DLlBuAuz) :fire: 
 
 We propose a simple yet effective approach, soft policy iteration algorithm through continuation method to alleviate two challenges in policy optimization under batch reinforcement learning: (1) highly non-smooth objective function which is difficult to optimize (2) high variance in value estimates. 
+
+:curly_loop: [SCORE: SPURIOUS CORRELATION REDUCTION FOR OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2110.12468.pdf) :+1: :fire: :fire: 
+
+We propose a practical and theoretically guaranteed algorithm SCORE that reduces spurious correlations by combing an uncertainty penalty into policy evaluation. We show that this is consistent with the pessimism principle studied in theory, and the proposed algorithm converges to the optimal policy with a sublinear rate under mild assumptions. 
 
 
 
