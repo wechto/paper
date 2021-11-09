@@ -1187,7 +1187,9 @@ We show that naïve approaches that combine techniques from safe RL and offline 
 
 Conservative data sharing (CDS): We develop a simple technique for data-sharing in multi-task offline RL that routes data based on the improvement over the task-specific data. 
 
-:curly_loop: [Is Pessimism Provably Efficient for Offline RL?](http://proceedings.mlr.press/v139/jin21e/jin21e.pdf) 
+:curly_loop: [Is Pessimism Provably Efficient for Offline RL?](http://proceedings.mlr.press/v139/jin21e/jin21e.pdf) :fire: :volcano: :fire: 
+
+Pessimistic value iteration algorithm (PEVI): incorporates a penalty function (pessimism) into the value iteration algorithm. The penalty function simply flips the sign of the bonus function (optimism) for promoting exploration in online RL.  We decompose the suboptimality of any policy into three sources: the spurious correlation, intrinsic uncertainty, and optimization error. 
 
 :curly_loop: [PESSIMISTIC BOOTSTRAPPING FOR UNCERTAINTY-DRIVEN OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=Y4cs1Z3HnqL) :+1: :fire:
 
