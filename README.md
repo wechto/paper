@@ -1395,6 +1395,10 @@ We introduced an offline meta-RL algorithm, ODA, that can meta-learn an adaptive
 
 :curly_loop: [Scaling data-driven robotics with reward sketching and batch reinforcement learning](https://arxiv.org/pdf/1909.12200.pdf) 
 
+:curly_loop: [OFFLINE RL WITH RESOURCE CONSTRAINED ONLINE DEPLOYMENT](https://arxiv.org/pdf/2110.03165.pdf) :+1:
+
+Resourceconstrained setting: We highlight the performance gap between policies trained using the full offline dataset and policies trained using limited features. 
+
  ​
 
  ​
