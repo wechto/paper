@@ -433,6 +433,10 @@ In this paper, we propose a theoretically motivated framework that dynamically w
 
   :curly_loop: DeepMDP: Learning Continuous Latent Space Models for Representation Learning https://arxiv.org/pdf/1906.02736.pdf simplifies high-dimensional observations in RL tasks and learns a latent space model via minimizing two losses: **prediction of rewards** and **prediction of the distribution over next latent states**. :mega: :milky_way: :confused: :boom: :bomb: :boom: 
 
+:curly_loop: [DARLA: Improving Zero-Shot Transfer in Reinforcement Learning](http://proceedings.mlr.press/v70/higgins17a/higgins17a.pdf) :fire:  
+
+We propose a new multi-stage RL agent, DARLA (DisentAngled Representation Learning Agent), which learns to see before learning to act. DARLA’s vision is based on learning a disentangled representation of the observed environment. Once DARLA can see, it is able to acquire source policies that are robust to many domain shifts - even with no access to the target domain. 
+
   :curly_loop: [DBC](https://zhuanlan.zhihu.com/p/157534599): [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf)  :boom: :boom: :boom: 
 
   :curly_loop: LEARNING INVARIANT FEATURE SPACES TO TRANSFER SKILLS WITH REINFORCEMENT LEARNING https://arxiv.org/pdf/1703.02949.pdf :fire: :+1: 
@@ -725,11 +729,11 @@ PC3: we propose a novel information-theoretic LCE approach and show theoreticall
 
   identifying a hybrid physics simulator to match the simulated \tau to the ones from the target domain, using a learned discriminative loss to address the limitations associated with manual loss design. Our hybrid simulator combines nns and traditional physics simulaton to balance expressiveness and generalizability, and alleviates the need for a carefully selected parameter set in System ID. 
 
-:curly_loop: [Generalization of Reinforcement Learning with Policy-Aware Adversarial Data Augmentation](https://arxiv.org/pdf/2106.15587.pdf) :no_mouth:
+:curly_loop: [Generalization of Reinforcement Learning with Policy-Aware Adversarial Data Augmentation](https://arxiv.org/pdf/2106.15587.pdf) :no_mouth: 
 
 our proposed method adversarially generates new trajectory data based on the policy gradient objective and aims to more effectively increase the RL agent’s generalization ability with the policy-aware data augmentation. 
 
-:curly_loop: [Understanding Domain Randomization for Sim-to-real Transfer](https://arxiv.org/pdf/2110.03239.pdf) :volcano: :droplet:
+:curly_loop: [Understanding Domain Randomization for Sim-to-real Transfer](https://openreview.net/pdf?id=T8vZHIRTrY) :volcano: :droplet:
 
 We provide sharp bounds on the sim-to-real gap—the difference between the value of policy returned by domain randomization and the value of an optimal policy for the real world. 
 
@@ -742,6 +746,16 @@ Our method provides for training of robust policies, and supports an adversarial
 :curly_loop: [Action Robust Reinforcement Learning and Applications in Continuous Control](https://arxiv.org/pdf/1901.09184.pdf) :fire: :droplet:
 
 We have presented two new criteria for robustness, the Probabilistic and Noisy action Robust MDP, related each to real world scenarios of uncertainty and discussed the theoretical differences between both approaches.  
+
+
+
+:curly_loop: [∇Sim: DIFFERENTIABLE SIMULATION FOR SYSTEM IDENTIFICATION AND VISUOMOTOR CONTROL](https://arxiv.org/pdf/2104.02646.pdf) :+1: :fire: 
+
+
+
+:curly_loop: [RISP: RENDERING-INVARIANT STATE PREDICTOR WITH DIFFERENTIABLE SIMULATION AND RENDERING FOR CROSS-DOMAIN PARAMETER ESTIMATION](https://openreview.net/forum?id=uSE03demja) :fire: :volcano:  :+1: 
+
+This work considers identifying parameters characterizing a physical system’s dynamic motion directly from a video whose rendering configurations are inaccessible. Our core idea is to train a rendering-invariant state-prediction (RISP) network that transforms image differences into state differences independent of rendering configurations. 
 
 
 
@@ -898,6 +912,8 @@ these approaches only locally perturb the observations regardless of the trainin
 The proposed theory deeply investigates the connection between any two cumulative expected returns defined on different policies and environment dynamics: Relative Policy Optimization (RPO) updates the policy using the relative policy gradient to transfer the policy evaluated in one environment to maximize the return in another, while Relative Transition Optimization (RTO) updates the parameterized dynamics model (if there exists) using the relative transition gradient to reduce the gap between the dynamics of the two environments.  
 
  
+
+:curly_loop: [Investigating Generalisation in Continuous Deep Reinforcement Learning](https://arxiv.org/pdf/1902.07015.pdf) 
 
 
 
@@ -1187,6 +1203,12 @@ Conservative data sharing (CDS): We develop a simple technique for data-sharing 
 
 Pessimistic value iteration algorithm (PEVI): incorporates a penalty function (pessimism) into the value iteration algorithm. The penalty function simply flips the sign of the bonus function (optimism) for promoting exploration in online RL.  We decompose the suboptimality of any policy into three sources: the spurious correlation, intrinsic uncertainty, and optimization error. 
 
+:curly_loop: [Corruption-Robust Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06630.pdf) 
+
+:curly_loop: [Bellman-consistent Pessimism for Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06926.pdf) 
+
+
+
 :curly_loop: [PESSIMISTIC BOOTSTRAPPING FOR UNCERTAINTY-DRIVEN OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=Y4cs1Z3HnqL) :+1: :fire:
 
 PBRL: We propose Pessimistic Bootstrapping for offline RL (PBRL), a purely uncertainty-driven offline algorithm without explicit policy constraints. Specifically, PBRL conducts uncertainty quantification via the disagreement of bootstrapped Q-functions, and performs pessimistic updates by penalizing the value function based on the estimated uncertainty. 
@@ -1395,11 +1417,13 @@ We introduced an offline meta-RL algorithm, ODA, that can meta-learn an adaptive
 
 :curly_loop: [Scaling data-driven robotics with reward sketching and batch reinforcement learning](https://arxiv.org/pdf/1909.12200.pdf) 
 
-:curly_loop: [OFFLINE RL WITH RESOURCE CONSTRAINED ONLINE DEPLOYMENT](https://arxiv.org/pdf/2110.03165.pdf) :+1:
+:curly_loop: [OFFLINE RL WITH RESOURCE CONSTRAINED ONLINE DEPLOYMENT](https://arxiv.org/pdf/2110.03165.pdf) :+1: 
 
 Resourceconstrained setting: We highlight the performance gap between policies trained using the full offline dataset and policies trained using limited features. 
 
- ​
+:curly_loop: [Reinforcement Learning from Imperfect Demonstrations](https://arxiv.org/pdf/1802.05313.pdf) :fire: 
+
+ We propose  Normalized Actor-Critic (NAC) that effectively normalizes the Q-function, reducing the Q-values of actions unseen in the demonstration data. NAC learns an initial policy network from demonstrations and refines the policy in the environment. 
 
  ​
 
@@ -2218,6 +2242,8 @@ we propose to learn what to model in a way that can directly help value predicti
 :curly_loop: [Dual Policy Iteration](https://arxiv.org/pdf/1805.10755.pdf) :+1: :fire: 
 
 DPI: We present and analyze Dual Policy Iteration—a framework that alternatively computes a non-reactive policy via more advanced and systematic search, and updates a reactive policy via imitating the non-reactive one. [MPO, AWR] 
+
+:curly_loop: [Regret Minimization for Partially Observable Deep Reinforcement Learning](http://proceedings.mlr.press/v80/jin18c/jin18c.pdf) :confused: 
 
 
 
