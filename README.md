@@ -182,7 +182,9 @@ TOC
 
   GMPS: We propose to learn a RL procedure in a federated way, where individual off-policy learners can solve the individual meta-training tasks, and then consolidate these solutions into a single meta-learner. Since the central meta-learner learns by imitating the solutions to the individual tasks, it can accommodate either the standard meta-RL problem setting, or a hybrid setting where some or all tasks are provided with example demonstrations. 
 
-  
+  :curly_loop: [Bootstrapped Meta-Learning](https://arxiv.org/pdf/2109.04504.pdf) :fire: :volcano: 
+
+  We propose an algorithm that tackles these issues by letting the metalearner teach itself. The algorithm first bootstraps a target from the meta-learner, then optimises the meta-learner by minimising the distance to that target under a chosen (pseudo-)metric. 
 
   
 
@@ -749,9 +751,7 @@ We have presented two new criteria for robustness, the Probabilistic and Noisy a
 
 
 
-:curly_loop: [∇Sim: DIFFERENTIABLE SIMULATION FOR SYSTEM IDENTIFICATION AND VISUOMOTOR CONTROL](https://arxiv.org/pdf/2104.02646.pdf) :+1: :fire: 
-
-
+:curly_loop: [∇Sim: DIFFERENTIABLE SIMULATION FOR SYSTEM IDENTIFICATION AND VISUOMOTOR CONTROL](https://arxiv.org/pdf/2104.02646.pdf) :+1: :droplet: 
 
 :curly_loop: [RISP: RENDERING-INVARIANT STATE PREDICTOR WITH DIFFERENTIABLE SIMULATION AND RENDERING FOR CROSS-DOMAIN PARAMETER ESTIMATION](https://openreview.net/forum?id=uSE03demja) :fire: :volcano:  :+1: 
 
