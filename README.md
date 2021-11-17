@@ -909,7 +909,9 @@ these approaches only locally perturb the observations regardless of the trainin
 
 :curly_loop: [A GENERAL THEORY OF RELATIVITY IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=bi9j5yi-Vrv) :fire: :volcano:
 
-The proposed theory deeply investigates the connection between any two cumulative expected returns defined on different policies and environment dynamics: Relative Policy Optimization (RPO) updates the policy using the relative policy gradient to transfer the policy evaluated in one environment to maximize the return in another, while Relative Transition Optimization (RTO) updates the parameterized dynamics model (if there exists) using the relative transition gradient to reduce the gap between the dynamics of the two environments.  
+The proposed theory deeply investigates the connection between any two cumulative expected returns defined on different policies and environment dynamics: Relative Policy Optimization (RPO) updates the policy using the relative policy gradient to transfer the policy evaluated in one environment to maximize the return in another, while Relative Transition Optimization (RTO) updates the parameterized dynamics model (if there exists) using the relative transition gradient to reduce the gap between the dynamics of 
+
+the two environments.  
 
  
 
@@ -2593,9 +2595,11 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
 
   H divergence: (H Entropy) We propose a new class of discrepancies based on the optimal loss for a decision task – two distributions are different if the optimal decision loss is higher on their mixture than on each individual distribution. By suitably choosing the decision task, this generalizes the JS divergence and the MMD family. 
 
+  :curly_loop: [RotoGrad: Gradient Homogenization in Multitask Learning](https://arxiv.org/pdf/2103.02631.pdf) :+1: :volcano: :boom: 
 
+  We introduce RotoGrad, an algorithm that tackles negative transfer as a whole: it jointly homogenizes gradient magnitudes and directions, while ensuring training convergence. The proposed strategy is to introduce additional parameterized rotation matrices, each of which modifies the shared representation before it is passed to a corresponding task-specific branch. The parameters of these rotation matrices are optimized to maximize gradient similarity between different tasks at the branch point; this optimization step is interlaced with standard updates of other network parameters to minimize total task loss. 
 
-
+  
 
 
 
