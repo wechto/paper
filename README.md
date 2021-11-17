@@ -1163,7 +1163,11 @@ To enhance generalization in the offline setting, we present Random Ensemble Mix
 
   :curly_loop: [OPAL: OFFLINE PRIMITIVE DISCOVERY FOR ACCELERATING OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.13611.pdf) :boom:  when presented with offline data composed of a variety of behaviors, an effective way to leverage this data is to extract a continuous space of recurring and temporally extended primitive behaviors before using these primitives for downstream task learning. OFFLINE unsupervised RL. 
 
-  :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :+1: :volcano:  :boom: 
+  :curly_loop: [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :+1: :volcano:  :boom:
+
+:curly_loop: [TOWARDS DEPLOYMENT-EFFICIENT REINFORCEMENT LEARNING: LOWER BOUND AND OPTIMALITY](https://openreview.net/pdf?id=ccWaPGl9Hq) :confused: 
+
+We propose such a formulation for deployment-efficient RL (DE-RL) from an “optimization with constraints” perspective: we are interested in exploring an MDP and obtaining a near-optimal policy within minimal deployment complexity, whereas in each deployment the policy can sample a large batch of data.
 
   :curly_loop: [BENCHMARKS FOR DEEP OFF-POLICY EVALUATION](https://openreview.net/pdf?id=kWSeGEeHvF8) :+1: 
 
@@ -2581,13 +2585,13 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
 
 + Self-Supervised Learning  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html) :sweat_drops: ; 
 
-  :curly_loop: [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :confused: :-1: 
+  :curly_loop: [Self-Supervised Exploration via Disagreement](https://arxiv.org/pdf/1906.04161.pdf)  :confused: 
 
   :curly_loop: 
   
-+ 
++ :curly_loop: [Comparing Distributions by Measuring Differences that Affect Decision Making](https://openreview.net/pdf?id=KB5onONJIAU) :+1: :fire: :volcano: :boom:  
 
-
+  H divergence: (H Entropy) We propose a new class of discrepancies based on the optimal loss for a decision task – two distributions are different if the optimal decision loss is higher on their mixture than on each individual distribution. By suitably choosing the decision task, this generalizes the JS divergence and the MMD family. 
 
 
 
