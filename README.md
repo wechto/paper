@@ -2599,6 +2599,22 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
 
   We introduce RotoGrad, an algorithm that tackles negative transfer as a whole: it jointly homogenizes gradient magnitudes and directions, while ensuring training convergence. The proposed strategy is to introduce additional parameterized rotation matrices, each of which modifies the shared representation before it is passed to a corresponding task-specific branch. The parameters of these rotation matrices are optimized to maximize gradient similarity between different tasks at the branch point; this optimization step is interlaced with standard updates of other network parameters to minimize total task loss. 
 
+  :curly_loop: [META DISCOVERY: LEARNING TO DISCOVER NOVEL CLASSES GIVEN VERY LIMITED DATA](https://openreview.net/pdf?id=MEpKGLsY8f) :+1: :fire: :fire: 
+  
+  [Demystifying](https://arxiv.org/pdf/2102.04002.pdf) Assumptions in Learning to Discover Novel Classes (L2DNC): find that high-level semantic features should be shared among the seen and unseen classes. CATA ( Clustering-rule-aware Task Sampler): Data have multiple views. However, there are always one view or a few views that are dominate for each instance, and these dominated views are similar with high-level semantic meaning. We propose to use dominated views to replace with clustering rules. 
+  
+  :curly_loop: [Learning Surrogate Losses](https://arxiv.org/pdf/1905.10108.pdf) :fire: 
+  
+  We learn smooth relaxation versions of the true losses by approximating them through a surrogate neural network. 
+  
+  :curly_loop: [Learning Surrogates via Deep Embedding](https://arxiv.org/pdf/2007.00799.pdf) :fire: 
+  
+  Training neural networks by minimizing learned surrogates that approximate the target evaluation metric. 
+  
+  :curly_loop: [RELATIONAL SURROGATE LOSS LEARNING](https://openreview.net/pdf?id=dZPgfwaTaXv) :fire: :volcano: 
+  
+  Instead of directly approximating the evaluation metrics as previous methods, this paper proposes a new learning method by revisiting the purpose of loss functions, which is to distinguish the performance of models. Hence, the authors aim to learn the surrogate losses by making the surrogate losses have the same discriminability as the evaluation metrics. The idea is straightforward and is easy to implement by using ranking correlation as an optimization objective. 
+  
   
 
 
