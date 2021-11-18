@@ -354,7 +354,7 @@ TOC
   
   :curly_loop: [Variational Empowerment as Representation Learning for Goal-Based Reinforcement Learning](http://proceedings.mlr.press/v139/choi21b/choi21b.pdf) :droplet:  ​
   
-   ​ ​
+  :curly_loop: [LEARNING MORE SKILLS THROUGH OPTIMISTIC EXPLORATION](https://openreview.net/pdf?id=cU8rknuhxc) 
 
 
 
@@ -2603,6 +2603,14 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   [Demystifying](https://arxiv.org/pdf/2102.04002.pdf) Assumptions in Learning to Discover Novel Classes (L2DNC): find that high-level semantic features should be shared among the seen and unseen classes. CATA ( Clustering-rule-aware Task Sampler): Data have multiple views. However, there are always one view or a few views that are dominate for each instance, and these dominated views are similar with high-level semantic meaning. We propose to use dominated views to replace with clustering rules. 
   
+  :curly_loop: [Efficiently Identifying Task Groupings for Multi-Task Learning](https://arxiv.org/pdf/2109.04617.pdf) :fire:
+  
+  Our method determines task groupings in a single run by training all tasks together and quantifying the effect to which one task’s gradient would affect another task’s loss.  
+  
+  :curly_loop: [Learning from Failure: Training Debiased Classifier from Biased Classifier](https://arxiv.org/pdf/2007.02561.pdf) :+1: :volcano: 
+  
+  Our idea is twofold; (a) we intentionally train the first network to be biased by repeatedly amplifying its “prejudice”, and (b) we debias the training of the second network by focusing on samples that go against the prejudice of the biased network in (a). 
+  
   :curly_loop: [Learning Surrogate Losses](https://arxiv.org/pdf/1905.10108.pdf) :fire: 
   
   We learn smooth relaxation versions of the true losses by approximating them through a surrogate neural network. 
@@ -2614,6 +2622,10 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   :curly_loop: [RELATIONAL SURROGATE LOSS LEARNING](https://openreview.net/pdf?id=dZPgfwaTaXv) :fire: :volcano: 
   
   Instead of directly approximating the evaluation metrics as previous methods, this paper proposes a new learning method by revisiting the purpose of loss functions, which is to distinguish the performance of models. Hence, the authors aim to learn the surrogate losses by making the surrogate losses have the same discriminability as the evaluation metrics. The idea is straightforward and is easy to implement by using ranking correlation as an optimization objective. 
+  
+  
+  
+   
   
   
 
