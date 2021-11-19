@@ -1097,6 +1097,8 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
 
 
+
+
 :curly_loop: [TRAIL: NEAR-OPTIMAL IMITATION LEARNING WITH SUBOPTIMAL DATA](https://arxiv.org/pdf/2110.14770.pdf) :fire: :volcano:  
 
 TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present training objectives that use offline datasets to learn a factored transition model whose structure enables the extraction of a latent action space. Our theoretical analysis shows that the learned latent action space can boost the sample-efficiency of downstream imitation learning, effectively reducing the need for large near-optimal expert datasets through the use of auxiliary non-expert data. 
@@ -1211,7 +1213,13 @@ Pessimistic value iteration algorithm (PEVI): incorporates a penalty function (p
 
 :curly_loop: [Corruption-Robust Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06630.pdf) 
 
-:curly_loop: [Bellman-consistent Pessimism for Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06926.pdf) 
+:curly_loop: [Bellman-consistent Pessimism for Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06926.pdf) :fire: :confused:
+
+We introduce the notion of Bellman-consistent pessimism for general function approximation: instead of calculating a point-wise lower bound for the value function, we implement pessimism at the initial state over the set of functions consistent with the Bellman equations. 
+
+:curly_loop: [Provably Good Batch Reinforcement Learning Without Great Exploration](https://arxiv.org/pdf/2007.08202.pdf) 
+
+ 
 
 
 
