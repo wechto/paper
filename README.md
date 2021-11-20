@@ -1135,6 +1135,18 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
 
 
 
++ RL From Preference 
+
+  :curly_loop: [Deep Reinforcement Learning from Human Preferences](https://arxiv.org/pdf/1706.03741.pdf) :fire:
+
+  We explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments.  
+
+  :curly_loop: [Reward learning from human preferences and demonstrations in Atari](https://arxiv.org/pdf/1811.06521.pdf) 
+
+  
+
+  
+
 
 
 
@@ -1211,7 +1223,7 @@ Conservative data sharing (CDS): We develop a simple technique for data-sharing 
 
 Pessimistic value iteration algorithm (PEVI): incorporates a penalty function (pessimism) into the value iteration algorithm. The penalty function simply flips the sign of the bonus function (optimism) for promoting exploration in online RL.  We decompose the suboptimality of any policy into three sources: the spurious correlation, intrinsic uncertainty, and optimization error. 
 
-:curly_loop: [Corruption-Robust Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06630.pdf) 
+:curly_loop: [Corruption-Robust Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06630.pdf) :confused: 
 
 :curly_loop: [Bellman-consistent Pessimism for Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06926.pdf) :fire: :confused:
 
