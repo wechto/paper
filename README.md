@@ -1135,13 +1135,33 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
 
 
 
-+ RL From Preference 
++ RL From Preferences 
 
   :curly_loop: [Deep Reinforcement Learning from Human Preferences](https://arxiv.org/pdf/1706.03741.pdf) :fire:
 
   We explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments.  
 
-  :curly_loop: [Reward learning from human preferences and demonstrations in Atari](https://arxiv.org/pdf/1811.06521.pdf) 
+  :curly_loop: [Reward learning from human preferences and demonstrations in Atari](https://arxiv.org/pdf/1811.06521.pdf) :no_mouth: 
+
+  We combine two approaches to learning from human feedback: expert demonstrations and trajectory preferences. 
+
+  :curly_loop: [PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training](http://proceedings.mlr.press/v139/lee21i/lee21i.pdf) 
+
+  :curly_loop: [Skill Preferences: Learning to Extract and Execute Robotic Skills from Human Feedback](https://arxiv.org/pdf/2108.05382.pdf) :no_mouth: 
+
+  We introduce Skill Preferences (SkiP), an algorithm that incorporates human feedback to extract skills from (noisy) offline data and utilize those skills to solve downstream tasks. 
+
+  :curly_loop: [Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation](https://papers.nips.cc/paper/2021/file/b6f8dc086b2d60c5856e4ff517060392-Paper.pdf) 
+
+  We focus on the task of learning from feedback, in which the human trainer not only gives binary evaluative "good" or "bad" feedback for queried state-action pairs, but also provides a visual explanation by annotating relevant features in images. We then propose EXPAND (EXPlanation AugmeNted feeDback) to encourage the model to encode task-relevant features. 
+
+  :curly_loop: [Offline Preference-Based Apprenticeship Learning](https://arxiv.org/pdf/2107.09251.pdf) :no_mouth: 
+
+  OPAL: Given a database consisting of trajectories without reward labels, we query an expert for preference labels over trajectory segments from the database, learn a reward function from preferences, and then perform offline RL using rewards provided by the learned reward function. 
+
+  
+
+   
 
   
 
