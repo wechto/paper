@@ -354,7 +354,13 @@ TOC
   
   :curly_loop: [Variational Empowerment as Representation Learning for Goal-Based Reinforcement Learning](http://proceedings.mlr.press/v139/choi21b/choi21b.pdf) :droplet:  ​
   
-  :curly_loop: [LEARNING MORE SKILLS THROUGH OPTIMISTIC EXPLORATION](https://openreview.net/pdf?id=cU8rknuhxc) 
+  :curly_loop: [LEARNING MORE SKILLS THROUGH OPTIMISTIC EXPLORATION](https://openreview.net/pdf?id=cU8rknuhxc) :volcano:
+  
+  DISDAIN (discriminator disagreement intrinsic reward): we derive an information gain auxiliary objective that involves training an ensemble of discriminators and rewarding the policy for their disagreement. 
+  
+  :curly_loop: [Deep Reinforcement Learning at the Edge of the Statistical Precipice](https://openreview.net/pdf?id=uqv8-U4lKBe) 
+  
+  
 
 
 
@@ -627,7 +633,11 @@ PC3: we propose a novel information-theoretic LCE approach and show theoreticall
 
 ## Mutual Information  
 
-  :curly_loop: [MINE: Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) :+1::droplet:  :fire:     [f-gan & mine](https://zhuanlan.zhihu.com/p/151256189) :sweat_drops: 
+  :curly_loop: [MINE: Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) :+1::droplet:  :fire:     [f-gan & mine](https://zhuanlan.zhihu.com/p/151256189) :sweat_drops:
+
+:curly_loop: [IMPROVING MUTUAL INFORMATION ESTIMATION WITH ANNEALED AND ENERGY-BASED BOUNDS](https://openreview.net/pdf?id=T0B9AoM_bFg) 
+
+
 
   :curly_loop: [C-MI-GAN : Estimation of Conditional Mutual Information Using MinMax Formulation](https://arxiv.org/pdf/2005.08226.pdf) :+1: :fire:  ​ ​
 
@@ -1159,12 +1169,26 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
 
   OPAL: Given a database consisting of trajectories without reward labels, we query an expert for preference labels over trajectory segments from the database, learn a reward function from preferences, and then perform offline RL using rewards provided by the learned reward function. 
 
-  
+  :curly_loop: [Deceive D: Adaptive Pseudo Augmentation for GAN Training with Limited Data](https://arxiv.org/pdf/2111.06849.pdf) :+1: :fire: :volcano: 
 
+  This paper introduces a novel strategy called Adaptive Pseudo Augmentation (APA) to encourage healthy competition between the generator and the discriminator. APA alleviates overfitting by employing the generator itself to augment the real data distribution with generated images, which deceives the discriminator adaptively. 
+
+  :curly_loop: [B-Pref: Benchmarking Preference-Based Reinforcement Learning](https://arxiv.org/pdf/2111.03026.pdf) :volcano: 
+
+  We introduce B-Pref: a benchmark specially designed for preference-based RL. 
+  
+  :curly_loop: [Batch Reinforcement Learning from Crowds](https://arxiv.org/pdf/2111.04279.pdf) :no_mouth: 
+  
+   This paper tackles a critical challenge that emerged when collecting data from non-expert humans: the noise in preferences. 
+  
+  :curly_loop: [Dueling RL: Reinforcement Learning with Trajectory Preferences](https://arxiv.org/pdf/2111.04850.pdf) 
+  
+  
+  
    
-
   
-
+  
+  
   
 
 
@@ -1249,9 +1273,9 @@ Pessimistic value iteration algorithm (PEVI): incorporates a penalty function (p
 
 We introduce the notion of Bellman-consistent pessimism for general function approximation: instead of calculating a point-wise lower bound for the value function, we implement pessimism at the initial state over the set of functions consistent with the Bellman equations. 
 
-:curly_loop: [Provably Good Batch Reinforcement Learning Without Great Exploration](https://arxiv.org/pdf/2007.08202.pdf) 
+:curly_loop: [Provably Good Batch Reinforcement Learning Without Great Exploration](https://arxiv.org/pdf/2007.08202.pdf) :fire: :fire: 
 
- 
+We show that a small modification to Bellman optimality and evaluation back-up to take a more conservative update can have much stronger guarantees. In certain settings, they can find the approximately best policy within the state-action space explored by the batch data, without requiring a priori assumptions of concentrability. 
 
 
 
