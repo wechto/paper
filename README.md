@@ -637,7 +637,7 @@ PC3: we propose a novel information-theoretic LCE approach and show theoreticall
 
 :curly_loop: [IMPROVING MUTUAL INFORMATION ESTIMATION WITH ANNEALED AND ENERGY-BASED BOUNDS](https://openreview.net/pdf?id=T0B9AoM_bFg) 
 
-
+Multi-Sample Annealed Importance Sampling (AIS): 
 
   :curly_loop: [C-MI-GAN : Estimation of Conditional Mutual Information Using MinMax Formulation](https://arxiv.org/pdf/2005.08226.pdf) :+1: :fire:  ​ ​
 
@@ -1276,6 +1276,12 @@ We introduce the notion of Bellman-consistent pessimism for general function app
 :curly_loop: [Provably Good Batch Reinforcement Learning Without Great Exploration](https://arxiv.org/pdf/2007.08202.pdf) :fire: :fire: 
 
 We show that a small modification to Bellman optimality and evaluation back-up to take a more conservative update can have much stronger guarantees. In certain settings, they can find the approximately best policy within the state-action space explored by the batch data, without requiring a priori assumptions of concentrability. 
+
+:curly_loop: [Towards Instance-Optimal Offline Reinforcement Learning with Pessimism](https://papers.nips.cc/paper/2021/file/212ab20dbdf4191cbcdcf015511783f4-Paper.pdf) 
+
+:curly_loop: [Provable Benefits of Actor-Critic Methods for Offline Reinforcement Learning](https://papers.nips.cc/paper/2021/file/713fd63d76c8a57b16fc433fb4ae718a-Paper.pdf) 
+
+Pessimistic Actor Critic for Learning without Exploration (PACLE) 
 
 
 
