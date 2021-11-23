@@ -621,9 +621,9 @@ PC3: we propose a novel information-theoretic LCE approach and show theoreticall
 
  
 
+:curly_loop: [Robust Predictable Control](https://arxiv.org/pdf/2109.03214.pdf) :fire: :volcano: :droplet: 
 
-
-
+RPC: Our objective differs from prior work by compressing sequences of observations, resulting in a method that jointly trains a policy and a model to be self-consistent. 
 
   
 
