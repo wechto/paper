@@ -1005,7 +1005,11 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   :curly_loop: [LEARNING ROBUST REWARDS WITH ADVERSARIAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/1710.11248.pdf) :fire::volcano: :boom: :sweat_drops: 
 
-  Part of the challenge is that IRL is an ill-defined problem, since there are many optimal policies that can explain a set of demonstrations, and many rewards that can explain an optimal policy. The maximum entropy (MaxEnt) IRL framework introduced by Ziebart et al. (2008) handles the former ambiguity, but the latter ambiguity means that IRL algorithms have difficulty distinguishing **the true reward functions from those shaped by the environment dynamics** (THE REWARD AMBIGUITY PROBLEM).  -- **DISENTANGLING REWARDS FROM DYNAMICS.** 
+  AIRL: Part of the challenge is that IRL is an ill-defined problem, since there are many optimal policies that can explain a set of demonstrations, and many rewards that can explain an optimal policy. The maximum entropy (MaxEnt) IRL framework introduced by Ziebart et al. (2008) handles the former ambiguity, but the latter ambiguity means that IRL algorithms have difficulty distinguishing **the true reward functions from those shaped by the environment dynamics** (THE REWARD AMBIGUITY PROBLEM).  -- **DISENTANGLING REWARDS FROM DYNAMICS.** 
+
+  :curly_loop: [OFF-POLICY ADVERSARIAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2005.01138.pdf) 
+
+  
 
   :curly_loop: [ADVERSARIAL IMITATION VIA VARIATIONAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/1809.06404.pdf) :+1: :fire: :droplet: 
 
@@ -1096,16 +1100,16 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   :curly_loop: [Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement](https://papers.nips.cc/paper/2019/file/ed3d2c21991e3bef5e069713af9fa6ca-Paper.pdf) :+1: :fire: :boom:  ​
 
   the gap between LfD and LfO actually lies in the disagreement of inverse dynamics models between the imitator and the expert, if following the modeling approach of GAIL.  ifo  IDDM 
-
+  
   :curly_loop: [Off-Policy Imitation Learning from Observations](https://arxiv.org/pdf/2102.13185.pdf) :volcano: :sweat_drops: :fire:  :boom:  ​
-
+  
   OPOLO (Off POlicy Learning from Observations)!  ifo // lfo  // ope // mode-covering (Forward Distribution Matching) // mode-seeking // dice // LfD // LfO  ​
 
 :curly_loop: [Reinforced Imitation Learning by Free Energy Principle](https://arxiv.org/pdf/2107.11811.pdf) :droplet: 
 
 :curly_loop: [Error Bounds of Imitating Policies and Environments](https://arxiv.org/pdf/2010.11876.pdf)  :volcano:  :sweat_drops:  
 
-
+:curly_loop: [What Matters for Adversarial Imitation Learning?](https://openreview.net/pdf?id=-OrwaD3bG91) 
 
 
 
@@ -1254,6 +1258,8 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 We show that naïve approaches that combine techniques from safe RL and offline RL can only learn sub-optimal solutions. We thus develop a simple yet effective algorithm, Constraints Penalized Q-Learning (CPQ), to solve the problem. 
 
 :curly_loop: [Conservative Offline Distributional Reinforcement Learning](https://arxiv.org/pdf/2107.06106.pdf) :sweat_drops:
+
+
 
 :curly_loop: [OFFLINE REINFORCEMENT LEARNING HANDS-ON](https://arxiv.org/pdf/2011.14379.pdf) 
 
@@ -1957,9 +1963,9 @@ We derive a lower bound of the expected return, which inspires a bound maximizat
 
 We propose to additionally construct a backward dynamics model to reduce the reliance on accuracy in forward model predictions: Bidirectional Model-based Policy Optimization (BMPO) to utilize both the forward model and backward model to generate short branched rollouts for policy optimization.  
 
+:curly_loop: [Self-Consistent Models and Values](https://openreview.net/pdf?id=x2rdRAx3QF) :fire:  
 
-
-
+We investigate a way of augmenting model-based RL, by additionally encouraging a learned model and value function to be jointly self-consistent. 
 
 
 
@@ -2107,6 +2113,10 @@ i Cross-Entropy Method (CEM):
 
   DOPE is designed to measure the performance of **OPE** methods by 1) evaluating on challenging control tasks with properties known to be difficult for OPE methods, but which occur in real-world scenarios, 2) evaluating across a range of policies with different values, to directly measure performance on policy evaluation, ranking and selection, and 3) evaluating in ideal and adversarial settings in terms of dataset coverage and support.  
 
+:curly_loop: [Universal Off-Policy Evaluation](https://arxiv.org/pdf/2104.12820.pdf) :confused: 
+
+We take the first steps towards a universal off-policy estimator (UnO) that estimates and bounds the entire distribution of returns, and then derives estimates and simultaneous bounds for all parameters of interest. 
+
   :curly_loop: [Trajectory-Based Off-Policy Deep Reinforcement Learning](https://arxiv.org/pdf/1905.05710.pdf) :+1: :fire: :droplet:  ​
 
   Incorporation of previous rollouts via importance sampling greatly improves data-efficiency, whilst stochastic optimization schemes facilitate the escape from local optima.  
@@ -2177,9 +2187,9 @@ SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman back
 
 To understand an off-policy actor-critic algorithm, we show the policy evaluation error on the expected distribution of transitions decomposes into the Bellman error, the bias from policy mismatch, and the variance from sampling.  
 
+:curly_loop: [SOPE: Spectrum of Off-Policy Estimators](https://openreview.net/pdf?id=Mfi0LZmFB5a) :+1: :fire: :volcano: 
 
-
-
+Combining Trajectory-Based and Density-Based Importance Sampling: We present a new perspective in off-policy evaluation connecting two popular estimators, PDIS and SIS, and show that PDIS and SIS lie as endpoints on the Spectrum of Off-Policy Estimators SOPEn which interpolates between them. 
 
    ​
 
@@ -2346,6 +2356,8 @@ we develop a new RL algorithm, Path Consistency Learning (PCL), that minimizes a
 The soft Q-learning loss gradient can be interpreted as a policy gradient term plus a baseline-error-gradient term, corresponding to policy gradient instantiations such as A3C. 
 
 :curly_loop: [An operator view of policy gradient methods](https://arxiv.org/pdf/2006.11266.pdf) 
+
+
 
 :curly_loop: [MAXIMUM REWARD FORMULATION IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.03744.pdf) :droplet:
 
