@@ -1461,6 +1461,10 @@ we propose an uncertainty-based model-free offline RL method that effectively qu
 
 AdaPT: we propose an Adaptive Policy constrainT (AdaPT) method, which allows effective exploration on out-ofdistribution actions by imposing an adaptive constraint on the learned policy. 
 
+:curly_loop: [RoMA: Robust Model Adaptation for Offline Model-based Optimization](https://openreview.net/pdf?id=VH0TRmnqUc) 
+
+
+
 
 
 :curly_loop: [Regularized Behavior Value Estimation](https://arxiv.org/pdf/2103.09575.pdf)   :+1:  :fire:  :fire: 
@@ -2191,7 +2195,11 @@ To understand an off-policy actor-critic algorithm, we show the policy evaluatio
 
 Combining Trajectory-Based and Density-Based Importance Sampling: We present a new perspective in off-policy evaluation connecting two popular estimators, PDIS and SIS, and show that PDIS and SIS lie as endpoints on the Spectrum of Off-Policy Estimators SOPEn which interpolates between them. 
 
-   ​
+:curly_loop: [Finite-Sample Analysis of Off-Policy TD-Learning via Generalized Bellman Operators](https://openreview.net/pdf?id=esCx4oejjxw) :fire: :volcano: :droplet: 
+
+Generalized Bellman Operator: Qπ (λ), Tree-Backup(λ) (henceforth denoted by TB(λ)), Retrace(λ), and Q-trace. 
+
+
 
 
 
@@ -2289,7 +2297,9 @@ we consider the problem of incorporating information from the entire trajectory 
 
 Generalizable Episodic Memory: We propose Generalizable Episodic Memory (GEM), which effectively organizes the state-action values of episodic memory in a generalizable manner and supports implicit planning on memorized trajectories. 
 
+:curly_loop: [Generalized Proximal Policy Optimization with Sample Reuse](https://openreview.net/pdf?id=in_RVSTqYxK) :+1: :fire: :volcano: 
 
+GePPO: We combine the theoretically supported stability benefits of on-policy algorithms with the sample efficiency of off-policy algorithms. We develop policy improvement guarantees that are suitable for the off-policy setting, and connect these bounds to the clipping mechanism used in Proximal Policy Optimization. 
 
 :curly_loop: [Zeroth-Order Supervised Policy Improvement](https://arxiv.org/pdf/2006.06600.pdf) :fire: :fire:  ​
 
