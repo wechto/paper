@@ -1699,7 +1699,7 @@ Resourceconstrained setting: We highlight the performance gap between policies t
 
   dynamical distances: a measure of the expected number of time steps to reach a given goal state from any other states 
 
-  :curly_loop: [Contextual Imagined Goals for Self-Supervised Robotic Learning](http://proceedings.mlr.press/v100/nair20a/nair20a.pdf) :+1: ​​  ​ ​
+  :curly_loop: [Contextual Imagined Goals for Self-Supervised Robotic Learning](http://proceedings.mlr.press/v100/nair20a/nair20a.pdf) :+1: ​​  ​ ​  
 
   using the context-conditioned generative model to set goals that are appropriate to the current scene. 
 
@@ -1997,7 +1997,7 @@ Estimating a generative model that minimizes a probabilistic loss, such as the l
 
 Iterative VAML, that benefits from the structure of how the planning is performed (i.e., through approximate value iteration) to devise a simpler optimization problem. 
 
-:curly_loop: [Configurable Markov Decision Processes](https://arxiv.org/pdf/1806.05415.pdf#:~:text=A%20Configurable%20Markov%20Decision%20Process,the%20model%20and%20policy%20spaces.) :volcano: :boom: :droplet:
+:curly_loop: [Configurable Markov Decision Processes](https://arxiv.org/pdf/1806.05415.pdf#:~:text=A%20Configurable%20Markov%20Decision%20Process,the%20model%20and%20policy%20spaces.) :volcano: :boom: :droplet: 
 
 In Conf-MDPs the environment dynamics can be partially modified to improve the performance of the learning agent.  
 
@@ -2227,9 +2227,11 @@ Generalized Bellman Operator: Qπ (λ), Tree-Backup(λ) (henceforth denoted by T
 
   Motivated by the fact that many environments with continuous state space have smooth transitions, we propose to learn a smooth policy that behaves smoothly with respect to states. We develop a new framework — Smooth Regularized Reinforcement Learning (SR2L), where the policy is trained with smoothness-inducing regularization. 
 
-  :curly_loop: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  
+  :curly_loop: [If MaxEnt RL is the Answer, What is the Question? ](https://arxiv.org/pdf/1910.01913.pdf) :+1:  :fire: :volcano: 
 
-  :curly_loop: [Maximum Entropy RL (Provably) Solves Some Robust RL Problems](https://arxiv.org/pdf/2103.06257.pdf) 
+  :curly_loop: [Maximum Entropy RL (Provably) Solves Some Robust RL Problems](https://arxiv.org/pdf/2103.06257.pdf) :fire: :volcano: 
+
+Our main contribution is a set of proofs showing that standard MaxEnt RL optimizes lower bounds on several possible robust objectives, reflecting a degree of robustness to changes in the dynamics and to certain changes in the reward. 
 
 :curly_loop: [Estimating Q(s, s') with Deep Deterministic Dynamics Gradients](https://arxiv.org/pdf/2002.09505.pdf) :+1: :fire:  
 
@@ -2365,9 +2367,9 @@ we develop a new RL algorithm, Path Consistency Learning (PCL), that minimizes a
 
 The soft Q-learning loss gradient can be interpreted as a policy gradient term plus a baseline-error-gradient term, corresponding to policy gradient instantiations such as A3C. 
 
-:curly_loop: [An operator view of policy gradient methods](https://arxiv.org/pdf/2006.11266.pdf) 
+:curly_loop: [An operator view of policy gradient methods](https://arxiv.org/pdf/2006.11266.pdf) :fire: 
 
-
+We use this framework to introduce operator-based versions of well-known policy gradient methods. 
 
 :curly_loop: [MAXIMUM REWARD FORMULATION IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.03744.pdf) :droplet:
 
