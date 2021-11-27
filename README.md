@@ -767,15 +767,15 @@ We have presented two new criteria for robustness, the Probabilistic and Noisy a
 
 This work considers identifying parameters characterizing a physical system’s dynamic motion directly from a video whose rendering configurations are inaccessible. Our core idea is to train a rendering-invariant state-prediction (RISP) network that transforms image differences into state differences independent of rendering configurations. 
 
+:curly_loop: [Sim and Real: Better Together](https://openreview.net/pdf?id=t0B9XQwRDi) :fire: :droplet: 
+
+By separating the rate of collecting samples from each environment and the rate of choosing samples for the optimization process, we were able to achieve a significant reduction in the amount of real environment samples, comparing to the common strategy of using the same rate for both collection and optimization phases. 
 
 
-  
 
-  
 
-  
 
-   ​
+  ​
 
 <a name="anchor-transfer"></a>  
 
@@ -1035,6 +1035,8 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   We present Imitation Learning as a distribution matching problem and introduce a reward function which is based on an upper bound of the Wasserstein distance between the state-action distributions of the agent and the expert.  
 
+  :curly_loop: [Robust Inverse Reinforcement Learning under Transition Dynamics Mismatch](https://arxiv.org/pdf/2007.01174.pdf) 
+
   
 
   
@@ -1098,7 +1100,7 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   These prior distribution matching approaches possess two limitations (On-policy; Separate RL optimization).  ---> OFF-POLICY FORMULATION OF THE KL-DIVERGENCE. ---> VALUEDICE: IMITATION LEARNING WITH IMPLICIT REWARDS. (OPE) 
 
   :curly_loop: [Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement](https://papers.nips.cc/paper/2019/file/ed3d2c21991e3bef5e069713af9fa6ca-Paper.pdf) :+1: :fire: :boom:  ​
-
+  
   the gap between LfD and LfO actually lies in the disagreement of inverse dynamics models between the imitator and the expert, if following the modeling approach of GAIL.  ifo  IDDM 
   
   :curly_loop: [Off-Policy Imitation Learning from Observations](https://arxiv.org/pdf/2102.13185.pdf) :volcano: :sweat_drops: :fire:  :boom:  ​
@@ -1110,6 +1112,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 :curly_loop: [Error Bounds of Imitating Policies and Environments](https://arxiv.org/pdf/2010.11876.pdf)  :volcano:  :sweat_drops:  
 
 :curly_loop: [What Matters for Adversarial Imitation Learning?](https://openreview.net/pdf?id=-OrwaD3bG91) 
+
+:curly_loop: [Distributionally Robust Imitation Learning](https://openreview.net/pdf?id=4JiZIwTnXty) :+1:  :fire: :droplet: 
+
+This paper studies Distributionally Robust Imitation Learning (DROIL) and establishes a close connection between DROIL and Maximum Entropy Inverse Reinforcement Learning. 
 
 
 
@@ -1413,7 +1419,7 @@ we consider data-driven optimization problems where one must maximize a function
 
 :curly_loop: [Uncertainty Weighted Actor-Critic for Offline Reinforcement Learning](https://arxiv.org/pdf/2105.08140.pdf) :+1: :fire:  ​ ​
 
-UNCERTAINTY WEIGHTED OFFLINE REINFORCEMENT LEARNING: an algorithm that detects OOD state-action pairs and down-weights their contribution in the training objectives accordingly. 
+UWAC: an algorithm that detects OOD state-action pairs and down-weights their contribution in the training objectives accordingly. 
 
 :curly_loop: [Model-based Offline Policy Optimization with Distribution Correcting Regularization](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_581.pdf) 
 
@@ -1427,13 +1433,17 @@ We presented implicit Q-Learning (IQL), a general algorithm for offline RL that 
 
 :curly_loop: [Continuous Doubly Constrained Batch Reinforcement Learning](https://arxiv.org/pdf/2102.09225.pdf) 
 
+:curly_loop: [Believe What You See: Implicit Constraint Approach for Offline Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2106.03400.pdf) :+1: :droplet: 
+
+ICQ: we propose a novel offline RL algorithm, named Implicit Constraint Q-learning (ICQ), which effectively alleviates the extrapolation error by only trusting the state-action pairs given in the dataset for value estimation. 
+
 
 
 :curly_loop: [Batch Reinforcement Learning with Hyperparameter Gradients](http://ailab.kaist.ac.kr/papers/pdfs/LLVKK2020.pdf) :+1: :fire: :volcano: :fire: 
 
 BOPAH: Unlike prior work where this trade-off is controlled by hand-tuned hyperparameters (in a generalized KL-regularized RL framework), we propose a novel batch reinforcement learning approach, batch optimization of policy and hyperparameter (BOPAH), that uses a gradient-based optimization of the hyperparameter using held-out data. 
 
-:curly_loop: [OFFLINE REINFORCEMENT LEARNING WITH VALUEBASED EPISODIC MEMORY](https://arxiv.org/pdf/2110.09796.pdf) :volcano: :droplet: 
+:curly_loop: [OFFLINE REINFORCEMENT LEARNING WITH VALU-EBASED EPISODIC MEMORY](https://arxiv.org/pdf/2110.09796.pdf) :volcano: :droplet: 
 
 We present a new offline V -learning method, EVL (expectile V -learning), and a novel offline RL framework, VEM (Value-based Episodic Memory). EVL learns the value function through the trade-offs between imitation learning and optimal value learning. VEM uses a memory-based planning scheme to enhance advantage estimation and conduct policy learning in a regression manner. 
 
@@ -2728,7 +2738,16 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
    :curly_loop: [Environment Inference for Invariant Learning](http://proceedings.mlr.press/v139/creager21a/creager21a.pdf) 
   
   
+  
++ GAN
 
+   :curly_loop: [A Unified View of cGANs with and without Classifiers](https://openreview.net/pdf?id=j6KoGtzPYa) :fire: :volcano: 
+
+  This submission proposes to analyze the most popular variations of conditional GANs (ACGAN, ProjGAN, ContraGAN) under a unified, energy-based, formulation (ECGAN). 
+
+  
+
+  
 
 
 <a name="anchor-pareto"></a> 
