@@ -2719,6 +2719,10 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   Instead of directly approximating the evaluation metrics as previous methods, this paper proposes a new learning method by revisiting the purpose of loss functions, which is to distinguish the performance of models. Hence, the authors aim to learn the surrogate losses by making the surrogate losses have the same discriminability as the evaluation metrics. The idea is straightforward and is easy to implement by using ranking correlation as an optimization objective. 
   
+  :curly_loop: [Iterative Teacher-Aware Learning](https://openreview.net/pdf?id=aLkuboH1SQX) :+1: :fire: :fire: 
+  
+  We propose a gradient optimization based teacher-aware learner who can incorporate teacher’s cooperative intention into the likelihood function and learn provably faster compared with the naive learning algorithms used in previous machine teaching works. 
+  
   
   
 + AAA 
@@ -2736,6 +2740,8 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   We propose a simple two-stage approach, JTT, that minimizes the loss over a reweighted dataset (second stage) where we upweight training examples that are misclassified at the end of a few steps of standard training (first stage). 
   
    :curly_loop: [Environment Inference for Invariant Learning](http://proceedings.mlr.press/v139/creager21a/creager21a.pdf) 
+  
+  
   
   
   
