@@ -178,10 +178,6 @@ TOC
 
   PEARL: Current methods rely heavily on on-policy experience, limiting their sample efficiency. They also lack mechanisms to reason about task uncertainty when adapting to new tasks, limiting their effectiveness on sparse reward problems. We address these challenges by developing an offpolicy meta-RL algorithm that disentangles task inference and control. 
 
-  :curly_loop: [Model-Based Reinforcement Learning via Meta-Policy Optimization](https://arxiv.org/pdf/1809.05214.pdf) 
-
-  MB-MPO: 
-
   :curly_loop: [Guided Meta-Policy Search](https://arxiv.org/pdf/1904.00956.pdf) :+1: :fire: :volcano: 
 
   GMPS: We propose to learn a RL procedure in a federated way, where individual off-policy learners can solve the individual meta-training tasks, and then consolidate these solutions into a single meta-learner. Since the central meta-learner learns by imitating the solutions to the individual tasks, it can accommodate either the standard meta-RL problem setting, or a hybrid setting where some or all tasks are provided with example demonstrations. 
@@ -2005,7 +2001,9 @@ Jointly learn and improve model and policy using a universal objective function:
 
 We propose a single objective for jointly training the model and the policy, such that updates to either component increases a lower bound on expected return. 
 
+:curly_loop: [Model-Based Reinforcement Learning via Meta-Policy Optimization](https://arxiv.org/pdf/1809.05214.pdf) :fire: :volcano: 
 
+MB-MPO: Using an ensemble of learned dynamic models, MB-MPO meta-learns a policy that can quickly adapt to any model in the ensemble with one policy gradient step, which foregoes the strong reliance on accurate learned dynamics models.  
 
 :curly_loop: [Value-Aware Loss Function for Model-based Reinforcement Learning](http://proceedings.mlr.press/v54/farahmand17a/farahmand17a.pdf) :volcano: 
 
