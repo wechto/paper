@@ -178,6 +178,10 @@ TOC
 
   PEARL: Current methods rely heavily on on-policy experience, limiting their sample efficiency. They also lack mechanisms to reason about task uncertainty when adapting to new tasks, limiting their effectiveness on sparse reward problems. We address these challenges by developing an offpolicy meta-RL algorithm that disentangles task inference and control. 
 
+  :curly_loop: [Model-Based Reinforcement Learning via Meta-Policy Optimization](https://arxiv.org/pdf/1809.05214.pdf) 
+
+  MB-MPO: 
+
   :curly_loop: [Guided Meta-Policy Search](https://arxiv.org/pdf/1904.00956.pdf) :+1: :fire: :volcano: 
 
   GMPS: We propose to learn a RL procedure in a federated way, where individual off-policy learners can solve the individual meta-training tasks, and then consolidate these solutions into a single meta-learner. Since the central meta-learner learns by imitating the solutions to the individual tasks, it can accommodate either the standard meta-RL problem setting, or a hybrid setting where some or all tasks are provided with example demonstrations. 
@@ -1439,7 +1443,7 @@ ICQ: we propose a novel offline RL algorithm, named Implicit Constraint Q-learni
 
 :curly_loop: [Offline Model-based Adaptable Policy Learning](https://openreview.net/pdf?id=lrdXc17jm6) :+1: :fire: :volcano: 
 
-MAPLE tries to model all possible transition dynamics in the out-of-support regions. Then an Adaptable policy is learned to be aware of each case to adapt its behavior to reach optimal performance. 
+MAPLE tries to model all possible transition dynamics in the out-of-support regions. A context encoder RNN is trained to produce latent codes given the episode history, and the encoder and policy are jointly optimized to maximize average performance across a large ensemble of pretained dynamics models. 
 
 
 
