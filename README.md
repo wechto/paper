@@ -1437,6 +1437,10 @@ We presented implicit Q-Learning (IQL), a general algorithm for offline RL that 
 
 ICQ: we propose a novel offline RL algorithm, named Implicit Constraint Q-learning (ICQ), which effectively alleviates the extrapolation error by only trusting the state-action pairs given in the dataset for value estimation. 
 
+:curly_loop: [Offline Model-based Adaptable Policy Learning](https://openreview.net/pdf?id=lrdXc17jm6) :+1: :fire: :volcano: 
+
+MAPLE tries to model all possible transition dynamics in the out-of-support regions. Then an Adaptable policy is learned to be aware of each case to adapt its behavior to reach optimal performance. 
+
 
 
 :curly_loop: [Batch Reinforcement Learning with Hyperparameter Gradients](http://ailab.kaist.ac.kr/papers/pdfs/LLVKK2020.pdf) :+1: :fire: :volcano: :fire: 
@@ -2473,7 +2477,9 @@ We derive Momentum Value Iteration (MoVI), a variation of Value iteration that i
 
 we propose a novel algorithm, Geometric Value Iteration (GVI), that features a dynamic error-aware KL coefficient design with the aim of mitigating the impact of errors on performance. Our experiments demonstrate that GVI can effectively exploit the trade-off between learning speed and robustness over uniform averaging of a constant KL coefficient. 
 
+:curly_loop: [Near Optimal Policy Optimization via REPS](https://openreview.net/pdf?id=ZEhDWKLTvt7) :volcano: :droplet: 
 
+Relative entropy policy search (REPS) 
 
 
 
