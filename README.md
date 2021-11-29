@@ -1955,7 +1955,7 @@ We focus on planning with learned dynamics models and propose to regularize it u
 
 The idea is that we want to reward familiar trajectories and penalize unfamiliar ones because the model is likely to make larger errors for the unfamiliar ones. 
 
-:curly_loop: [Bridging Imagination and Reality for Model-Based Deep Reinforcement Learning](https://arxiv.org/pdf/2010.12142.pdf)  :+1: :fire: 
+:curly_loop: [Bridging Imagination and Reality for Model-Based Deep Reinforcement Learning](https://arxiv.org/pdf/2010.12142.pdf)  :+1: :fire: :droplet: 
 
 BIRD: our basic idea is to leverage information from real trajectories to endow policy improvement on imaginations with awareness of discrepancy between imagination and reality. 
 
@@ -2245,7 +2245,9 @@ Combining Trajectory-Based and Density-Based Importance Sampling: We present a n
 
 Generalized Bellman Operator: Qπ (λ), Tree-Backup(λ) (henceforth denoted by TB(λ)), Retrace(λ), and Q-trace. 
 
+:curly_loop: [Efficient Continuous Control with Double Actors and Regularized Critics](https://arxiv.org/pdf/2106.03050.pdf) :fire: 
 
+DARC: We show that double actors help relieve overestimation bias in DDPG if built upon single critic, and underestimation bias in TD3 if built upon double critics. (they enhance the exploration ability of the agent.) 
 
 
 
