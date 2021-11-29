@@ -186,6 +186,14 @@ TOC
 
   We propose an algorithm that tackles these issues by letting the metalearner teach itself. The algorithm first bootstraps a target from the meta-learner, then optimises the meta-learner by minimising the distance to that target under a chosen (pseudo-)metric. 
 
+  :curly_loop: [Taming MAML: Efficient Unbiased Meta-Reinforcement Learning](http://proceedings.mlr.press/v97/liu19g/liu19g.pdf) :+1: :fire: 
+
+  TMAML: that adds control variates into gradient estimation via automatic differentiation. TMAML improves the quality of gradient estimation by reducing variance without introducing bias. 
+
+  :curly_loop: [NoRML: No-Reward Meta Learning](https://arxiv.org/pdf/1903.01063.pdf) :+1: 
+
+  NoRML: The key insight underlying NoRML is that we can simultaneously learn the meta-policy and the advantage function used for adapting the meta-policy, optimizing for the ability to effectively adapt to varying dynamics. 
+
   
 
 + Unsupervised Meta-Learning for Reinforcement Learning https://arxiv.org/pdf/1806.04640.pdf [Abhishek Gupta, Benjamin Eysenbach, Chelsea Finn, Sergey Levine] :confused: :wink: 
@@ -1939,6 +1947,20 @@ The main idea is updating the most accurate prediction head to specialize each h
 
   MEEE, a model-ensemble method that consists of optimistic exploration and weighted exploitation.  
 
+:curly_loop: [Regularizing Model-Based Planning with Energy-Based Models](http://proceedings.mlr.press/v100/boney20a/boney20a.pdf) :+1: :fire: 
+
+We focus on planning with learned dynamics models and propose to regularize it using energy estimates of state transitions in the environment. ---> probabilistic ensembles with trajectory sampling (PETS), DAE regularization; 
+
+:curly_loop: [Regularizing Trajectory Optimization with Denoising Autoencoders](https://arxiv.org/pdf/1903.11981.pdf) :fire: 
+
+The idea is that we want to reward familiar trajectories and penalize unfamiliar ones because the model is likely to make larger errors for the unfamiliar ones. 
+
+:curly_loop: [Bridging Imagination and Reality for Model-Based Deep Reinforcement Learning](https://arxiv.org/pdf/2010.12142.pdf)  :+1: :fire: 
+
+BIRD: our basic idea is to leverage information from real trajectories to endow policy improvement on imaginations with awareness of discrepancy between imagination and reality. 
+
+
+
 :curly_loop: [ALGORITHMIC FRAMEWORK FOR MODEL-BASED DEEP REINFORCEMENT LEARNING WITH THEORETICAL GUARANTEES](https://arxiv.org/pdf/1807.03858.pdf) :+1:  :volcano: :droplet: :sweat_drops: :fire:  
 
 SLBO:  We design a meta-algorithm with a theoretical guarantee of monotone improvement to a local maximum of the expected reward. The meta-algorithm iteratively builds a lower bound of the expected reward based on the estimated dynamical model and sample trajectories, and then maximizes the lower bound jointly over the policy and the model. 
@@ -1984,6 +2006,14 @@ We propose to additionally construct a backward dynamics model to reduce the rel
 :curly_loop: [Self-Consistent Models and Values](https://openreview.net/pdf?id=x2rdRAx3QF) :fire:  
 
 We investigate a way of augmenting model-based RL, by additionally encouraging a learned model and value function to be jointly self-consistent. 
+
+:curly_loop: [MODEL-AUGMENTED ACTOR-CRITIC: BACKPROPAGATING THROUGH PATHS](https://arxiv.org/pdf/2005.08068.pdf) :fire: :volcano: 
+
+MAAC: We exploit the fact that the learned simulator is differentiable and optimize the policy with the analytical gradient. The objective is theoretically analyzed in terms of the model and value error, and we derive a policy improvement expression with respect to those terms. 
+
+:curly_loop: [How to Learn a Useful Critic? Model-based Action-Gradient-Estimator Policy Optimization](https://arxiv.org/pdf/2004.14309.pdf) :fire: 
+
+MAGE backpropagates through the learned dynamics to compute gradient targets in temporal difference learning, leading to a critic tailored for policy improvement. 
 
 
 
