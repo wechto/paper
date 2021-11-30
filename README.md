@@ -2249,6 +2249,10 @@ Generalized Bellman Operator: Qπ (λ), Tree-Backup(λ) (henceforth denoted by T
 
 DARC: We show that double actors help relieve overestimation bias in DDPG if built upon single critic, and underestimation bias in TD3 if built upon double critics. (they enhance the exploration ability of the agent.) 
 
+:curly_loop: [A Unified Off-Policy Evaluation Approach for General Value Function](https://arxiv.org/pdf/2107.02711.pdf) :droplet: 
+
+GenTD: 
+
 
 
   :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
