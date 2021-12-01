@@ -2785,6 +2785,10 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
    :curly_loop: [Environment Inference for Invariant Learning](http://proceedings.mlr.press/v139/creager21a/creager21a.pdf) 
   
+  :curly_loop: [Robustness between the worst and average case](https://openreview.net/pdf?id=Y8YqrYeFftd) :fire: :droplet: 
+  
+  We proposed a definition of intermediate-q robustness that smooths the gap between robustness to random perturbations and adversarial robustness by generalizing these notions of robustness as functional `q norms of the loss function over the perturbation distribution. 
+  
   
   
   
