@@ -1079,6 +1079,12 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   From a high-level perspective, in imitation from observation, the goal is to enable the agent to extract what the task is by observing some state sequences.  GAIfO 
 
+  :curly_loop: [MobILE: Model-Based Imitation Learning From Observation Alone](https://openreview.net/pdf?id=_Rtm4rYnIIL) :+1: :fire: :volcano: 
+
+  Imitation Learning from Observation Alone (ILFO).  MobILE involves carefully trading off strategic exploration against imitation - this is achieved by integrating the idea of optimism in the face of uncertainty into the distribution matching imitation learning (IL) framework. 
+
+  
+
   :curly_loop: [An Imitation from Observation Approach to Transfer Learning with Dynamics Mismatch](https://papers.nips.cc/paper/2020/file/28f248e9279ac845995c4e9f8af35c2b-Paper.pdf) :+1: :fire: :volcano:  ​
 
   learning the grounded action transformation can be seen as an IfO problem; GARAT: learn an action transformation policy for transfer learning with dynamics mismatch.     we focus on the paradigm of simulator grounding, which modifies the source environment’s dynamics to more closely match the target environment dynamics using a relatively small amount of target environment data. 
@@ -1102,11 +1108,11 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   :curly_loop: [Boosted and Reward-regularized Classification for Apprenticeship Learning](https://www.cristal.univ-lille.fr/~pietquin/pdf/AAMAS_2014_BPMGOP.pdf) :fire:  ​ ​
 
   MultiClass Classification and the Large Margin Approach. 
-
+  
   :curly_loop: [IMITATION LEARNING VIA OFF-POLICY DISTRIBUTION MATCHING](https://arxiv.org/pdf/1912.05032.pdf) :+1: :fire: :boom:  :volcano:  ​
-
+  
   These prior distribution matching approaches possess two limitations (On-policy; Separate RL optimization).  ---> OFF-POLICY FORMULATION OF THE KL-DIVERGENCE. ---> VALUEDICE: IMITATION LEARNING WITH IMPLICIT REWARDS. (OPE) 
-
+  
   :curly_loop: [Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement](https://papers.nips.cc/paper/2019/file/ed3d2c21991e3bef5e069713af9fa6ca-Paper.pdf) :+1: :fire: :boom:  ​
   
   the gap between LfD and LfO actually lies in the disagreement of inverse dynamics models between the imitator and the expert, if following the modeling approach of GAIL.  ifo  IDDM 
