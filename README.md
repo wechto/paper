@@ -779,6 +779,12 @@ This work considers identifying parameters characterizing a physical system’s 
 
 By separating the rate of collecting samples from each environment and the rate of choosing samples for the optimization process, we were able to achieve a significant reduction in the amount of real environment samples, comparing to the common strategy of using the same rate for both collection and optimization phases. 
 
+:curly_loop: [Online Robust Reinforcement Learning with Model Uncertainty](https://openreview.net/pdf?id=IhiU6AJYpDs) :volcano: 
+
+We develop a sample-based approach to estimate the unknown uncertainty set, and design robust Q-learning algorithm (tabular case) and robust TDC algorithm (function approximation setting). 
+
+:curly_loop: [Robust Deep Reinforcement Learning through Adversarial Loss](https://openreview.net/pdf?id=eaAM_bdW0Q) 
+
 
 
 
@@ -927,9 +933,7 @@ these approaches only locally perturb the observations regardless of the trainin
 
 :curly_loop: [A GENERAL THEORY OF RELATIVITY IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=bi9j5yi-Vrv) :fire: :volcano:
 
-The proposed theory deeply investigates the connection between any two cumulative expected returns defined on different policies and environment dynamics: Relative Policy Optimization (RPO) updates the policy using the relative policy gradient to transfer the policy evaluated in one environment to maximize the return in another, while Relative Transition Optimization (RTO) updates the parameterized dynamics model (if there exists) using the relative transition gradient to reduce the gap between the dynamics of 
-
-the two environments.  
+The proposed theory deeply investigates the connection between any two cumulative expected returns defined on different policies and environment dynamics: Relative Policy Optimization (RPO) updates the policy using the relative policy gradient to transfer the policy evaluated in one environment to maximize the return in another, while Relative Transition Optimization (RTO) updates the parameterized dynamics model (if there exists) using the relative transition gradient to reduce the gap between the dynamics of the two environments.  
 
  
 
@@ -1279,7 +1283,7 @@ We show that naïve approaches that combine techniques from safe RL and offline 
 
 :curly_loop: [Conservative Offline Distributional Reinforcement Learning](https://arxiv.org/pdf/2107.06106.pdf) :sweat_drops:
 
-
+CODAC: 
 
 :curly_loop: [OFFLINE REINFORCEMENT LEARNING HANDS-ON](https://arxiv.org/pdf/2011.14379.pdf) 
 
@@ -1539,9 +1543,9 @@ Resourceconstrained setting: We highlight the performance gap between policies t
 
  We propose  Normalized Actor-Critic (NAC) that effectively normalizes the Q-function, reducing the Q-values of actions unseen in the demonstration data. NAC learns an initial policy network from demonstrations and refines the policy in the environment. 
 
- ​
+:curly_loop: [Curriculum Offline Imitating Learning](https://openreview.net/pdf?id=q6Kknb68dQf) :fire: 
 
-
+We propose Curriculum Offline Imitation Learning (COIL), which utilizes an experience picking strategy for imitating from adaptive neighboring policies with a higher return, and improves the current policy along curriculum stages. 
 
 
 
@@ -2261,6 +2265,8 @@ GenTD:
 
 
 
+
+
   :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
 
   Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. 
@@ -2305,7 +2311,11 @@ we propose a two-step understanding of value estimation from the perspective of 
 
 :curly_loop: [DisCor: Corrective Feedback in Reinforcement Learning via Distribution Correction](https://arxiv.org/pdf/2003.07305.pdf) 
 
-:curly_loop: [Regret Minimization Experience Replay](https://arxiv.org/pdf/2105.07253.pdf) 
+
+
+:curly_loop: [Regret Minimization Experience Replay in Off-Policy Reinforcement Learning](https://arxiv.org/pdf/2105.07253.pdf) :fire: :volcano: 
+
+ReMERN and ReMERT: We start from the regret minimization objective, and obtain an optimal prioritization strategy for Bellman update that can directly maximize the return of the policy. The theory suggests that data with higher hindsight TD error, better on-policiness and more accurate Q value should be assigned with higher weights during sampling. 
 
 :curly_loop: [Off-Policy Policy Gradient Algorithms by Constraining the State Distribution Shift](https://arxiv.org/pdf/1911.06970.pdf) :+1: 
 
@@ -2794,6 +2804,10 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   :curly_loop: [Robustness between the worst and average case](https://openreview.net/pdf?id=Y8YqrYeFftd) :fire: :droplet: 
   
   We proposed a definition of intermediate-q robustness that smooths the gap between robustness to random perturbations and adversarial robustness by generalizing these notions of robustness as functional `q norms of the loss function over the perturbation distribution. 
+  
+  :curly_loop: [Adaptive Risk Minimization: Learning to Adapt to Domain Shift](https://openreview.net/pdf?id=-zgb2v8vV_w) :+1: :fire:
+  
+  We aim to learn models that adapt at test time to domain shift using unlabeled test points. Our primary contribution is to introduce the framework of adaptive risk minimization (ARM), in which models are directly optimized for effective adaptation to shift by learning to adapt on the training domains. 
   
   
   
