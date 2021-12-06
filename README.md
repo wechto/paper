@@ -783,13 +783,13 @@ By separating the rate of collecting samples from each environment and the rate 
 
 We develop a sample-based approach to estimate the unknown uncertainty set, and design robust Q-learning algorithm (tabular case) and robust TDC algorithm (function approximation setting). 
 
-:curly_loop: [Robust Deep Reinforcement Learning through Adversarial Loss](https://openreview.net/pdf?id=eaAM_bdW0Q) 
+:curly_loop: [Robust Deep Reinforcement Learning through Adversarial Loss](https://openreview.net/pdf?id=eaAM_bdW0Q) :fire: :fire: 
+
+RADIAL-RL: Construct an strict upper bound of the perturbed standard loss; Design a regularizer to minimize overlap between output bounds of actions with large difference in outcome. 
 
 
 
-
-
-  ​
+ ​
 
 <a name="anchor-transfer"></a>  
 
@@ -1801,6 +1801,10 @@ We propose Curriculum Offline Imitation Learning (COIL), which utilizes an exper
 
   First, we vindicate HER by proving that it is actually unbiased in deterministic environments, such as many optimal control settings. Next, for stochastic environments in continuous spaces, we tackle sparse rewards by directly taking the infinitely sparse reward limit. 
 
+:curly_loop: [Goal-Aware Cross-Entropy for Multi-Target Reinforcement Learning](https://arxiv.org/pdf/2110.12985.pdf) :+1:
+
+GACE: that can be utilized in a self-supervised way using auto-labeled goal states alongside reinforcement learning. 
+
 
 
 :curly_loop: [DisCo RL: Distribution-Conditioned Reinforcement Learning for General-Purpose Policies](https://arxiv.org/pdf/2104.11707.pdf) :fire:  
@@ -2809,7 +2813,9 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   We aim to learn models that adapt at test time to domain shift using unlabeled test points. Our primary contribution is to introduce the framework of adaptive risk minimization (ARM), in which models are directly optimized for effective adaptation to shift by learning to adapt on the training domains. 
   
+  :curly_loop: [Unsupervised Learning of Compositional Energy Concepts](https://openreview.net/pdf?id=2RgFZHCrI0l) :fire: :fire: 
   
+  We propose COMET, which discovers and represents concepts as separate energy functions, enabling us to represent both global concepts as well as objects under a unified framework. COMET discovers energy functions through recomposing the input image, which we find captures independent factors without additional supervision. 
   
   
   
