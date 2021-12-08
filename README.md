@@ -2339,9 +2339,13 @@ Existing off-policy gradient based methods do not correct for the state distribu
 
 Hyperparameter Optimisation on the Fly (HOOF): The main idea is to use existing trajectories sampled by the policy grad. method to optimise a one-step improvement objective, yielding a sample and computationally efficient alg. that is easy to implement. 
 
+:curly_loop: [REWARD SHIFTING FOR OPTIMISTIC EXPLORATION AND CONSERVATIVE EXPLOITATION](https://openreview.net/pdf?id=CNY9h3uyfiO) :no_mouth: 
 
+We bring the key insight that a positive reward shifting leads to conservative exploitation, while a negative reward shifting leads to curiosity-driven exploration. 
 
+:curly_loop: [Heuristic-Guided Reinforcement Learning](https://arxiv.org/pdf/2106.02757.pdf) :fire: 
 
+HuRL: We show how heuristic-guided RL induces a much shorter-horizon subproblem that provably solves the original task. Our framework can be viewed as a horizon-based regularization for controlling bias and variance in RL under a finite interaction budget. 
 
  ​ ​
 
