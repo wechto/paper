@@ -1047,9 +1047,9 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   We present Imitation Learning as a distribution matching problem and introduce a reward function which is based on an upper bound of the Wasserstein distance between the state-action distributions of the agent and the expert.  
 
-  :curly_loop: [Robust Inverse Reinforcement Learning under Transition Dynamics Mismatch](https://arxiv.org/pdf/2007.01174.pdf) 
+  :curly_loop: [Robust Inverse Reinforcement Learning under Transition Dynamics Mismatch](https://arxiv.org/pdf/2007.01174.pdf) :fire: 
 
-  
+  We consider the Maximum Causal Entropy (MCE) IRL learner model and provide a tight upper bound on the learner’s performance degradation based on the `1-distance between the transition dynamics of the expert and the learner. 
 
   
 
@@ -1449,7 +1449,9 @@ By introducing the Expect-Max Q-Learning operator, we present a novel theoretica
 
 We presented implicit Q-Learning (IQL), a general algorithm for offline RL that completely avoids any queries to values of out-of-sample actions during training while still enabling multi-step dynamic programming.  Adopting Expectile regression. 
 
-:curly_loop: [Continuous Doubly Constrained Batch Reinforcement Learning](https://arxiv.org/pdf/2102.09225.pdf) 
+:curly_loop: [Continuous Doubly Constrained Batch Reinforcement Learning](https://arxiv.org/pdf/2102.09225.pdf) :fire: :fire: 
+
+CDC: The first regularizer combats the extra-overestimation bias in regions that are out-of-distribution. The second regularizer is designed to hedge against the adverse effects of policy updates that severly diverge from behavior policy. 
 
 :curly_loop: [Believe What You See: Implicit Constraint Approach for Offline Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2106.03400.pdf) :+1: :droplet: 
 
@@ -1663,6 +1665,10 @@ We propose Curriculum Offline Imitation Learning (COIL), which utilizes an exper
   
   OAC: we Optimistic Actor Critic, which approximates a lower and upper confidence bound on the state-action value function. This allows us to apply the principle of optimism in the face of uncertainty to perform directed exploration using the upper bound while still using the lower bound to avoid overestimation. 
   
+  :curly_loop: [Off-policy Reinforcement Learning with Optimistic Exploration and Distribution Correction](https://arxiv.org/pdf/2110.12081.pdf) :+1:
+  
+  We adapt the recently introduced DICE framework to learn a distribution correction ratio for off-policy actor-critic training. 
+  
   :curly_loop: [A Unified Framework for Conservative Exploration](https://arxiv.org/pdf/2106.11692.pdf) 
   
   
@@ -1818,6 +1824,10 @@ Given a training set consisting of demonstrations, reward functions and transiti
 :curly_loop: [C-LEARNING: HORIZON-AWARE CUMULATIVE ACCESSIBILITY ESTIMATION](https://arxiv.org/pdf/2011.12363.pdf) :confused: :droplet:
 
 we introduce the concept of cumulative accessibility functions, which measure the reachability of a goal from a given state within a specified horizon.  
+
+:curly_loop: [C-PLANNING: AN AUTOMATIC CURRICULUM FOR LEARNING GOAL-REACHING TASKS](https://arxiv.org/pdf/2110.12080.pdf) :fire: 
+
+Frame the learning of the goal-conditioned policies as expectation maximization: the E-step corresponds to planning an optimal sequence of waypoints using graph search, while the M-step aims to learn a goal-conditioned policy to reach those waypoints. 
 
 ++DATA++ 
 
@@ -2841,6 +2851,12 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   :curly_loop: [Efficient Continuous Pareto Exploration in Multi-Task Learning](https://arxiv.org/pdf/2006.16434.pdf) [zhihu](https://zhuanlan.zhihu.com/p/159000150) :boom: :fire: :+1:  ​ ​ ​
 
   :curly_loop: [Prediction-Guided Multi-Objective Reinforcement Learning for Continuous Robot Control](https://proceedings.icml.cc/static/paper_files/icml/2020/1114-Paper.pdf) :sweat_drops:  ​
+  
+  :curly_loop: [Pareto Domain Adaptation](https://openreview.net/pdf?id=frgb7FsKWs3) :volcano:
+  
+  To reach a desirable solution on the target domain, we design a surrogate loss mimicking target classification. To improve target-prediction accuracy to support the mimicking, we propose a target-prediction refining mechanism which exploits domain labels via Bayes’ theorem. 
+  
+   
 
 
 
