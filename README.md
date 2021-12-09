@@ -1163,6 +1163,12 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
   
   we propose an imitation learning algorithm to address the problem without any environment interactions and annotations associated with the non-optimal demonstrations. 
   
+  :curly_loop: [Policy Learning Using Weak Supervision](https://arxiv.org/pdf/2010.01748.pdf) :volcano: :fire: 
+  
+  PeerRL: We treat the “weak supervision” as imperfect information coming from a peer agent, and evaluate the learning agent’s policy based on a “correlated agreement” with the peer agent’s policy (instead of simple agreements).  
+  
+   
+  
     
   
   
@@ -2803,7 +2809,7 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   
   
-+ AAA 
++ AAA:  
   
   :curly_loop: [Efficiently Identifying Task Groupings for Multi-Task Learning](https://arxiv.org/pdf/2109.04617.pdf) :fire:
   
@@ -2830,6 +2836,12 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   :curly_loop: [Unsupervised Learning of Compositional Energy Concepts](https://openreview.net/pdf?id=2RgFZHCrI0l) :fire: :fire: 
   
   We propose COMET, which discovers and represents concepts as separate energy functions, enabling us to represent both global concepts as well as objects under a unified framework. COMET discovers energy functions through recomposing the input image, which we find captures independent factors without additional supervision. 
+  
+  :curly_loop: [Peer Loss Functions: Learning from Noisy Labels without Knowing Noise Rates](https://arxiv.org/pdf/1910.03231.pdf) :volcano:
+  
+  We introduce a new family of loss functions that we name as peer loss functions, which enables learning from noisy labels and does not require a priori specification of the noise rates.  
+  
+   
   
   
   
