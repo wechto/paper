@@ -2841,6 +2841,16 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   We introduce a new family of loss functions that we name as peer loss functions, which enables learning from noisy labels and does not require a priori specification of the noise rates.  
   
+  :curly_loop: [LEARNING WITH INSTANCE-DEPENDENT LABEL NOISE: A SAMPLE SIEVE APPROACH](https://arxiv.org/pdf/2010.02347.pdf) :volcano: :+1: 
+  
+  CORES2: We propose to train a classifier using a novel confidence regularization (CR) term and theoretically guarantee that, under mild assumptions, minimizing the confidence regularized cross-entropy (CE) loss on the instance-based noisy distribution is equivalent to minimizing the pure CE loss on the corresponding “unobservable” clean distribution. 
+  
+  :curly_loop: [A Second-Order Approach to Learning with Instance-Dependent Label Noise](https://arxiv.org/pdf/2012.11854.pdf) :fire: :droplet:
+  
+  We propose and study the potentials of a second-order approach that leverages the estimation of several covariance terms defined between the instance-dependent noise rates and the Bayes optimal label. We show that this set of second-order statistics successfully captures the induced imbalances. 
+  
+   
+  
    
   
   
