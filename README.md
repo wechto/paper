@@ -2837,6 +2837,10 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   We propose COMET, which discovers and represents concepts as separate energy functions, enabling us to represent both global concepts as well as objects under a unified framework. COMET discovers energy functions through recomposing the input image, which we find captures independent factors without additional supervision. 
   
+  
+  
++ Label Noise 
+  
   :curly_loop: [Peer Loss Functions: Learning from Noisy Labels without Knowing Noise Rates](https://arxiv.org/pdf/1910.03231.pdf) :volcano:
   
   We introduce a new family of loss functions that we name as peer loss functions, which enables learning from noisy labels and does not require a priori specification of the noise rates.  
@@ -2849,7 +2853,21 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   We propose and study the potentials of a second-order approach that leverages the estimation of several covariance terms defined between the instance-dependent noise rates and the Bayes optimal label. We show that this set of second-order statistics successfully captures the induced imbalances. 
   
-   
+  :curly_loop: [Does label smoothing mitigate label noise?](https://arxiv.org/pdf/2003.02819.pdf) :fire: 
+  
+  We related smoothing to one of these correction techniques, and re-interpreted it as a form of regularisation.
+  
+  :curly_loop: [Understanding Generalized Label Smoothing when Learning with Noisy Labels](https://arxiv.org/pdf/2106.04149.pdf) :volcano: 
+  
+  We unify label smoothing with either positive or negative smooth rate into a generalized label smoothing (GLS) framework. We proceed to show that there exists a phase transition behavior when finding the optimal label smoothing rate for GLS. 
+  
+  :curly_loop: [Understanding Instance-Level Label Noise: Disparate Impacts and Treatments](https://arxiv.org/pdf/2102.05336.pdf) :droplet: :fire: 
+  
+  :curly_loop: [WHEN OPTIMIZING f -DIVERGENCE IS ROBUST WITH LABEL NOISE](https://arxiv.org/pdf/2011.03687.pdf) :volcano:
+  
+  We derive a nice decoupling property for a family of f-divergence measures when label noise presents, where the divergence is shown to be a linear combination of the variational difference defined on the clean distribution and a bias term introduced due to the noise. 
+  
+  
   
    
   
