@@ -1555,6 +1555,10 @@ Resourceconstrained setting: We highlight the performance gap between policies t
 
 We propose Curriculum Offline Imitation Learning (COIL), which utilizes an experience picking strategy for imitating from adaptive neighboring policies with a higher return, and improves the current policy along curriculum stages. 
 
+:curly_loop: [Improving Zero-shot Generalization in Offline Reinforcement Learning using Generalized Similarity Functions](https://arxiv.org/pdf/2111.14629.pdf) 
+
+
+
 
 
 
@@ -1687,9 +1691,9 @@ We propose Curriculum Offline Imitation Learning (COIL), which utilizes an exper
   
   :curly_loop: [Policy Gradient for Coherent Risk Measures](https://papers.nips.cc/paper/2015/file/024d7f84fff11dd7e8d9c510137a2381-Paper.pdf) 
   
-  :curly_loop: [Wasserstein Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.07940.pdf) 
+  :curly_loop: [Wasserstein Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.07940.pdf) :+1: 
   
-   
+   By maximizing Wasserstein distance, the agents equipped with different policies may drive themselves to enter different areas of state space and keep as “far” as possible from each other to earn greater diversity. 
   
   :curly_loop: [Tactical Optimism and Pessimism for Deep Reinforcement Learning](https://arxiv.org/pdf/2102.03765.pdf) :fire: 
   
@@ -2887,7 +2891,6 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
 
   
 
-
 <a name="anchor-pareto"></a> 
 
 + Pareto 
@@ -2904,7 +2907,11 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   To reach a desirable solution on the target domain, we design a surrogate loss mimicking target classification. To improve target-prediction accuracy to support the mimicking, we propose a target-prediction refining mechanism which exploits domain labels via Bayes’ theorem. 
   
-   
+  :curly_loop: [Conflict-Averse Gradient Descent for Multi-task Learning](https://arxiv.org/pdf/2110.14048.pdf) :+1: :fire: 
+  
+   CAGrad: minimizes the average loss function, while leveraging the worst local improvement of individual tasks to regularize the algorithm trajectory. CAGrad balances the objectives automatically and still provably converges to a minimum over the average loss. 
+  
+  
 
 
 
