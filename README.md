@@ -1690,6 +1690,10 @@ We propose Curriculum Offline Imitation Learning (COIL), which utilizes an exper
   :curly_loop: [Wasserstein Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.07940.pdf) 
   
    
+  
+  :curly_loop: [Tactical Optimism and Pessimism for Deep Reinforcement Learning](https://arxiv.org/pdf/2102.03765.pdf) :fire: 
+  
+  TOP: we propose the use of an adaptive approach in which the degree of optimism or pessimism is adjusted dynamically during training. As a consequence of this approach, the optimal degree of optimism can vary across tasks and over the course of a single training run as the model improves. 
 
 
 
