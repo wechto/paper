@@ -515,6 +515,10 @@ We propose a new multi-stage RL agent, DARLA (DisentAngled Representation Learni
 
   policy similarity metric (PSM) for measuring behavioral similarity between states. PSM assigns high similarity to states for which the optimal policies in those states as well as in future states are similar. 
 
+:curly_loop: [Improving Zero-shot Generalization in Offline Reinforcement Learning using Generalized Similarity Functions](https://arxiv.org/pdf/2111.14629.pdf) :fire:
+
+We propose a new theoretically-motivated framework called Generalized Similarity Functions (GSF), which uses contrastive learning to train an offline RL agent to aggregate observations based on the similarity of their expected future behavior, where we quantify this similarity using generalized value functions.  
+
   :curly_loop: [Invariant Causal Prediction for Block MDPs](http://proceedings.mlr.press/v119/zhang20t/zhang20t.pdf) :sweat_drops:  
 
   State Abstractions and Bisimulation; Causal Inference Using Invariant Prediction; 
@@ -633,9 +637,13 @@ PC3: we propose a novel information-theoretic LCE approach and show theoreticall
 
 RPC: Our objective differs from prior work by compressing sequences of observations, resulting in a method that jointly trains a policy and a model to be self-consistent. 
 
-  
 
- ​
+
+
+
+
+
+
 
 <a name="anchor-MI"></a>     
 
@@ -1555,7 +1563,11 @@ Resourceconstrained setting: We highlight the performance gap between policies t
 
 We propose Curriculum Offline Imitation Learning (COIL), which utilizes an experience picking strategy for imitating from adaptive neighboring policies with a higher return, and improves the current policy along curriculum stages. 
 
-:curly_loop: [Improving Zero-shot Generalization in Offline Reinforcement Learning using Generalized Similarity Functions](https://arxiv.org/pdf/2111.14629.pdf) 
+:curly_loop: [Dealing with the Unknown: Pessimistic Offline Reinforcement Learning](https://arxiv.org/pdf/2111.05440.pdf) :fire: 
+
+PessORL: penalize high values at unseen states in the dataset, and to cancel the penalization at in-distribution states. 
+
+
 
 
 
