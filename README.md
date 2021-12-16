@@ -711,6 +711,18 @@ Multi-Sample Annealed Importance Sampling (AIS):
 
 
 
+:curly_loop: [Model-Based Relative Entropy Stochastic Search](http://proceedings.mlr.press/v80/arenz18a/arenz18a.pdf) 
+
+MORE: 
+
+:curly_loop: [Efficient Gradient-Free Variational Inference using Policy Search](http://proceedings.mlr.press/v80/arenz18a/arenz18a.pdf) 
+
+VIPS: Our method establishes information-geometric trust regions to ensure efficient exploration of the sampling space and stability of the GMM updates, allowing for efficient estimation of multi-variate Gaussian variational distributions. 
+
+:curly_loop: [EXPECTED INFORMATION MAXIMIZATION USING THE I-PROJECTION FOR MIXTURE DENSITY ESTIMATION](https://arxiv.org/pdf/2001.08682.pdf) :fire:
+
+EIM: we present a new algorithm called Expected Information Maximization (EIM) for computing the I-projection solely based on samples for general latent variable models. 
+
 
 
 
@@ -1259,6 +1271,10 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
 
 examples of such properties include: datasets generated via hand-designed controllers and human demonstrators, multitask datasets where an agent performs different tasks in the same environment, and datasets collected with mixtures of policies.  
 
+:curly_loop: [d3rlpy: An Offline Deep Reinforcement Learning Library](https://arxiv.org/pdf/2111.03788.pdf) :volcano:
+
+ 
+
 :curly_loop: [An Optimistic Perspective on Offline Reinforcement Learning](http://proceedings.mlr.press/v119/agarwal20c/agarwal20c.pdf) :+1:  ​
 
 To enhance generalization in the offline setting, we present Random Ensemble Mixture (REM), a robust Q-learning algorithm that enforces optimal Bellman consistency on random convex combinations of multiple Q-value estimates. 
@@ -1349,6 +1365,10 @@ We propose a simple yet effective approach, soft policy iteration algorithm thro
 
 We propose a practical and theoretically guaranteed algorithm SCORE that reduces spurious correlations by combing an uncertainty penalty into policy evaluation. We show that this is consistent with the pessimism principle studied in theory, and the proposed algorithm converges to the optimal policy with a sublinear rate under mild assumptions. 
 
+:curly_loop: [Why so pessimistic? Estimating uncertainties for offline rl through ensembles, and why their independence matters](https://offline-rl-neurips.github.io/2021/pdf/51.pdf) :+1: 
+
+our proposed MSG algorithm advocates for using independently learned ensembles, without sharing of target values, and this import design decision is supported by empirical evidence. 
+
 
 
 
@@ -1429,7 +1449,7 @@ The core idea is to subtract a prediction-based exploration bonus from the rewar
 
 we propose to modify the existing model-based RL methods by applying them with rewards artificially penalized by the uncertainty of the dynamics. We theoretically show that the algorithm maximizes a lower bound of the policy’s return under the true MDP. We also characterize the trade-off between the gain and risk of leaving the support of the batch data. 
 
-:curly_loop: [MOReL: Model-Based Offline Reinforcement Learning](https://arxiv.org/pdf/2005.05951.pdf) :volcano: :boom: :droplet: 
+:curly_loop: [MOReL: Model-Based Offline Reinforcement Learning](https://arxiv.org/pdf/2005.05951.pdf) :volcano: :boom: :droplet:  
 
 This framework consists of two steps: (a) learning a pessimistic MDP (P-MDP) using the offline dataset; (b) learning a near-optimal policy in this P-MDP. 
 
@@ -1566,6 +1586,8 @@ We propose Curriculum Offline Imitation Learning (COIL), which utilizes an exper
 :curly_loop: [Dealing with the Unknown: Pessimistic Offline Reinforcement Learning](https://arxiv.org/pdf/2111.05440.pdf) :fire: 
 
 PessORL: penalize high values at unseen states in the dataset, and to cancel the penalization at in-distribution states. 
+
+
 
 
 
@@ -2135,6 +2157,10 @@ We start by generalizing the concept of VE to order-k counterparts defined with 
 
 our approach allows for greater robustness under model misspecification or distribution shift induced by learning/evaluating policies that are distinct from the data-generating policy. 
 
+:curly_loop: [On Effective Scheduling of Model-based Reinforcement Learning](https://arxiv.org/pdf/2111.08550.pdf) :fire: 
+
+AutoMBPO: we aim to investigate how to appropriately schedule these hyperparameters, i.e., real data ratio, model training frequency, policy training iteration, and rollout length, to achieve optimal performance of Dyna-style MBRL algorithms. 
+
 
 
 :o: Zero-Order Trajectory Optimizers / Planning 
@@ -2146,20 +2172,6 @@ i Cross-Entropy Method (CEM):
 :curly_loop: [Extracting Strong Policies for Robotics Tasks from Zero-Order Trajectory Optimizers](https://openreview.net/pdf?id=Nc3TJqbcl3) :droplet:
 
  Adaptive Policy EXtraction (APEX): 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
 
   
 
