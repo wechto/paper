@@ -1179,7 +1179,7 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
 
   We show that simple quality-estimation approaches might fail due to compounding error, and fix this issue by jointly estimating both the quality and reward using a variational approach. 
   
-  :curly_loop: [BEHAVIORAL CLONING FROM NOISY DEMONSTRATION](https://openreview.net/pdf?id=zrT3HcsWSAt) :volcano: :sweat_drops:
+  :curly_loop: [BEHAVIORAL CLONING FROM NOISY DEMONSTRATION](https://openreview.net/pdf?id=zrT3HcsWSAt) :volcano: :sweat_drops: 
   
   we propose an imitation learning algorithm to address the problem without any environment interactions and annotations associated with the non-optimal demonstrations. 
   
@@ -2872,6 +2872,10 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   
 + Label Noise 
+  
+  :curly_loop: [Eliciting Informative Feedback: The Peer-Prediction Method](https://presnick.people.si.umich.edu/papers/elicit/FinalPrePub.pdf) :fire: :volcano: :boom: 
+  
+  Each rater merely reports a signal, and the system applies proper scoring rules to the implied posterior beliefs about another rater's report. 
   
   :curly_loop: [Peer Loss Functions: Learning from Noisy Labels without Knowing Noise Rates](https://arxiv.org/pdf/1910.03231.pdf) :volcano:
   
