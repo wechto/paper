@@ -2501,10 +2501,6 @@ We formulate an objective function to maximize the expected maximum reward along
 
 
 
- ​
-
-
-
 
 
 
@@ -2903,7 +2899,9 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   We derive a nice decoupling property for a family of f-divergence measures when label noise presents, where the divergence is shown to be a linear combination of the variational difference defined on the clean distribution and a bias term introduced due to the noise. 
   
+  :curly_loop: [Can Less be More? When Increasing-to-Balancing Label Noise Rates Considered Beneficial](https://arxiv.org/pdf/2107.05913.pdf) 
   
+  We are primarily inspired by three observations: 1) In contrast to reducing label noise rates, increasing the noise rates is easy to implement; 2) Increasing a certain class of instances’ label noise to balance the noise rates (increasing-to-balancing) results in an easier learning problem; 3) Increasing-to-balancing improves fairness guarantees against label bias. 
   
    
   
