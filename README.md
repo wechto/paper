@@ -2291,9 +2291,9 @@ REPS:  it allows an exact policy update and may use data generated while followi
 
   QWR: We replace the value function critic of AWR with a Q-value function.  AWR --> QWR. 
 
-:curly_loop: [SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning](http://proceedings.mlr.press/v139/lee21g/lee21g.pdf) :fire:  ​
+:curly_loop: [SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning](http://proceedings.mlr.press/v139/lee21g/lee21g.pdf) :fire:  :+1: 
 
-SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman backups, which re-weight target Q-values based on uncertainty estimates from a Q-ensemble, and (b) an inference method that selects actions using the highest upper-confidence bounds for efficient exploration. 
+SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman backups, which re-weight target Q-values based on uncertainty estimates from a Q-ensemble, and (b) an inference method that selects actions using the highest upper-confidence bounds for efficient exploration. [Rainbow]
 
 :curly_loop: [Explaining Off-Policy Actor-Critic From A Bias-Variance Perspective](https://arxiv.org/pdf/2110.02421.pdf) :confused:
 
