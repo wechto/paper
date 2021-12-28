@@ -523,6 +523,10 @@ We propose a new theoretically-motivated framework called Generalized Similarity
 
   State Abstractions and Bisimulation; Causal Inference Using Invariant Prediction; 
 
+:curly_loop: [Learning Domain Invariant Representations in Goal-conditioned Block MDPs](https://arxiv.org/pdf/2110.14248.pdf) 
+
+
+
   :curly_loop: [CAUSAL INFERENCE Q-NETWORK: TOWARD RESILIENT REINFORCEMENT LEARNING](https://arxiv.org/pdf/2102.09677.pdf) :+1: 
 
   In this paper, we consider a resilient DRL framework with observational interferences. 
@@ -722,6 +726,10 @@ VIPS: Our method establishes information-geometric trust regions to ensure effic
 :curly_loop: [EXPECTED INFORMATION MAXIMIZATION USING THE I-PROJECTION FOR MIXTURE DENSITY ESTIMATION](https://arxiv.org/pdf/2001.08682.pdf) :fire:
 
 EIM: we present a new algorithm called Expected Information Maximization (EIM) for computing the I-projection solely based on samples for general latent variable models. 
+
+:curly_loop: [An Information-theoretic Approach to Distribution Shifts](https://openreview.net/pdf?id=GrZmKDYCp6H) :droplet: 
+
+
 
 
 
@@ -959,7 +967,7 @@ The proposed theory deeply investigates the connection between any two cumulativ
 
 :curly_loop: [Investigating Generalisation in Continuous Deep Reinforcement Learning](https://arxiv.org/pdf/1902.07015.pdf) 
 
-
+:curly_loop: [Evolution Gym: A Large-Scale Benchmark for Evolving Soft Robots](https://papers.nips.cc/paper/2021/file/118921efba23fc329e6560b27861f0c2-Paper.pdf) :fire: 
 
 
 
@@ -1186,13 +1194,19 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
   :curly_loop: [Policy Learning Using Weak Supervision](https://arxiv.org/pdf/2010.01748.pdf) :volcano: :fire: 
   
   PeerRL: We treat the “weak supervision” as imperfect information coming from a peer agent, and evaluate the learning agent’s policy based on a “correlated agreement” with the peer agent’s policy (instead of simple agreements).  
-  
-   
-  
-    
-  
-  
-  
+
+ :curly_loop: [Rethinking Importance Weighting for Transfer Learning](https://arxiv.org/pdf/2112.10157.pdf) :volcano:
+
+We review recent advances based on joint and dynamic importance predictor estimation. Furthermore, we introduce a method of causal mechanism transfer that incorporates causal structure in TL. 
+
+
+
+ 
+
+
+
+
+
 + Meta IRL
 
   :curly_loop: [Meta-Inverse Reinforcement Learning with Probabilistic Context Variables](https://arxiv.org/pdf/1909.09314.pdf) 
@@ -1209,7 +1223,9 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
 
   We combine two approaches to learning from human feedback: expert demonstrations and trajectory preferences. 
 
-  :curly_loop: [PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training](http://proceedings.mlr.press/v139/lee21i/lee21i.pdf) 
+  :curly_loop: [PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training](https://arxiv.org/pdf/2106.05091.pdf) 
+
+  We present an off-policy, interactive RL algorithm that capitalizes on the strengths of both feedback and off-policy learning. 
 
   :curly_loop: [Skill Preferences: Learning to Extract and Execute Robotic Skills from Human Feedback](https://arxiv.org/pdf/2108.05382.pdf) :no_mouth: 
 
@@ -1228,7 +1244,7 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
   This paper introduces a novel strategy called Adaptive Pseudo Augmentation (APA) to encourage healthy competition between the generator and the discriminator. APA alleviates overfitting by employing the generator itself to augment the real data distribution with generated images, which deceives the discriminator adaptively. 
 
   :curly_loop: [B-Pref: Benchmarking Preference-Based Reinforcement Learning](https://arxiv.org/pdf/2111.03026.pdf) :volcano: 
-
+  
   We introduce B-Pref: a benchmark specially designed for preference-based RL. 
   
   :curly_loop: [Batch Reinforcement Learning from Crowds](https://arxiv.org/pdf/2111.04279.pdf) :no_mouth: 
@@ -2903,7 +2919,18 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   We are primarily inspired by three observations: 1) In contrast to reducing label noise rates, increasing the noise rates is easy to implement; 2) Increasing a certain class of instances’ label noise to balance the noise rates (increasing-to-balancing) results in an easier learning problem; 3) Increasing-to-balancing improves fairness guarantees against label bias. 
   
-   
+  
+  
++ Semi-supervise 
+  :curly_loop: [TEMPORAL ENSEMBLING FOR SEMI-SUPERVISED LEARNING](https://openreview.net/pdf?id=BJ6oOfqge) :fire: 
+  
+  We introduce self-ensembling, where we form a consensus prediction of the unknown labels using the outputs of the network-in-training on different epochs, and most importantly, under different regularization and input augmentation conditions. 
+  
+  :curly_loop: 
+  
+  
+  
+  
   
   
   
