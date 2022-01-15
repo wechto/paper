@@ -1659,6 +1659,8 @@ PessORL: penalize high values at unseen states in the dataset, and to cancel the
 
   ​	[Provably efficient RL with Rich Observations via Latent State Decoding](https://arxiv.org/pdf/1901.09018.pdf) :confused:  ​
 
+  Block MDP: 
+
   ​	[Provably Efficient Exploration for RL with Unsupervised Learning](https://arxiv.org/pdf/2003.06898.pdf) :confused:  ​
 
   :curly_loop: [Learning latent state representation for speeding up exploration](https://arxiv.org/pdf/1905.12621.pdf) :+1:
@@ -1702,7 +1704,7 @@ PessORL: penalize high values at unseen states in the dataset, and to cancel the
   BBE: bias with finite samples, slow adaptation to decaying bonuses, and lack of optimism on unseen transitions ---> UFO, produces policies that are Unbiased with finite samples, Fast-adapting as the exploration bonus changes, and Optimistic with respect to new transitions. 
 
   :curly_loop: [Provably Efficient Exploration in Policy Optimization](http://proceedings.mlr.press/v119/cai20d/cai20d.pdf) :confused: 
-
+  
    design a provably efficient policy optimization algorithm that incorporates exploration. 
   
   :curly_loop: [Dynamic Bottleneck for Robust Self-Supervised Exploration](https://arxiv.org/pdf/2110.10735.pdf) :+1: :fire:
@@ -2921,12 +2923,28 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   
   
-+ Semi-supervise 
++ Semi-supervise; self-training 
   :curly_loop: [TEMPORAL ENSEMBLING FOR SEMI-SUPERVISED LEARNING](https://openreview.net/pdf?id=BJ6oOfqge) :fire: 
   
   We introduce self-ensembling, where we form a consensus prediction of the unknown labels using the outputs of the network-in-training on different epochs, and most importantly, under different regularization and input augmentation conditions. 
   
-  :curly_loop: 
+  :curly_loop: [Theoretical Analysis of Self-Training with Deep Networks on Unlabeled Data](https://arxiv.org/pdf/2010.03622.pdf) :volcano: :sweat_drops:
+  
+  This work provides a unified theoretical analysis of selftraining with deep networks for semi-supervised learning, unsupervised domain adaptation, and unsupervised learning. At the core of our analysis is a simple but realistic “expansion” assumption, which states that a low-probability subset of the data must expand to a neighborhood with large probability relative to the subset. We also assume that neighborhoods of examples in different classes have minimal overlap. 
+  
+  :curly_loop: [Self-training with Noisy Student improves ImageNet classification](https://arxiv.org/pdf/1911.04252.pdf) :fire:
+  
+  The teacher produces high-quality pseudo labels by reading in clean images, while the student is required to reproduce those labels with augmented images as input. 
+  
+  :curly_loop: [Unsupervised Data Augmentation for Consistency Training](https://arxiv.org/pdf/1904.12848.pdf) :fire:
+  
+  We present a new perspective on how to effectively noise unlabeled examples and argue that the quality of noising, specifically those produced by advanced data augmentation methods, plays a crucial role in semi-supervised learning. 
+  
+  :curly_loop: [Semi-supervised Learning by Entropy Minimization](https://proceedings.neurips.cc/paper/2004/file/96f2b50b5d3613adf9c27049b2a888c7-Paper.pdf) 
+  
+  :curly_loop: [Robustness to Adversarial Perturbations in Learning from Incomplete Data](https://arxiv.org/pdf/1905.13021.pdf) 
+  
+   
   
   
   
