@@ -2936,13 +2936,31 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
   
   The teacher produces high-quality pseudo labels by reading in clean images, while the student is required to reproduce those labels with augmented images as input. 
   
-  :curly_loop: [Unsupervised Data Augmentation for Consistency Training](https://arxiv.org/pdf/1904.12848.pdf) :fire:
+  :curly_loop: [Unsupervised Data Augmentation for Consistency Training](https://arxiv.org/pdf/1904.12848.pdf) :+1:
   
   We present a new perspective on how to effectively noise unlabeled examples and argue that the quality of noising, specifically those produced by advanced data augmentation methods, plays a crucial role in semi-supervised learning. 
   
-  :curly_loop: [Semi-supervised Learning by Entropy Minimization](https://proceedings.neurips.cc/paper/2004/file/96f2b50b5d3613adf9c27049b2a888c7-Paper.pdf) 
+  :curly_loop: [Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning](https://arxiv.org/pdf/1704.03976.pdf) :volcano: 
   
-  :curly_loop: [Robustness to Adversarial Perturbations in Learning from Incomplete Data](https://arxiv.org/pdf/1905.13021.pdf) 
+  Virtual adversarial loss is defined as the robustness of the conditional label distribution around each input data point against local perturbation. Unlike adversarial training, our method defines the adversarial direction without label information and is hence applicable to semi-supervised learning. 
+  
+  :curly_loop: [Semi-supervised Learning by Entropy Minimization](https://proceedings.neurips.cc/paper/2004/file/96f2b50b5d3613adf9c27049b2a888c7-Paper.pdf) :fire: 
+  
+  :curly_loop: [Robustness to Adversarial Perturbations in Learning from Incomplete Data](https://arxiv.org/pdf/1905.13021.pdf) :volcano: :droplet: 
+  
+  We unify two major learning frameworks: Semi-Supervised Learning (SSL) and Distributionally Robust Learning (DRL). 
+  
+  :curly_loop: [SENTRY: Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content/ICCV2021/papers/Prabhu_SENTRY_Selective_Entropy_Optimization_via_Committee_Consistency_for_Unsupervised_Domain_ICCV_2021_paper.pdf) :volcano:
+  
+  A UDA algorithm that judges the reliability of a target instance based on its predictive consistency under a committee of random image transformations. 
+  
+  :curly_loop: [Deep Co-Training with Task Decomposition for Semi-Supervised Domain Adaptation](https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Deep_Co-Training_With_Task_Decomposition_for_Semi-Supervised_Domain_Adaptation_ICCV_2021_paper.pdf) 
+  
+  
+  
+  
+  
+  
   
    
   
