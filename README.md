@@ -2517,7 +2517,9 @@ We use this framework to introduce operator-based versions of well-known policy 
 
 We formulate an objective function to maximize the expected maximum reward along a trajectory, derive a novel functional form of the Bellman equation, introduce the corresponding Bellman operators, and provide a proof of convergence.  
 
+:curly_loop: [Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error](https://arxiv.org/pdf/2201.12417.pdf) :fire:
 
+The magnitude of the Bellman error is smaller for biased value functions due to cancellations caused from both sides of the Bellman equation. The relationship between Bellman error and value error is broken if the dataset is missing relevant transitions. 
 
 
 
