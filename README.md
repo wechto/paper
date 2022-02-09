@@ -1339,6 +1339,10 @@ CODAC:
 
 Conservative data sharing (CDS): We develop a simple technique for data-sharing in multi-task offline RL that routes data based on the improvement over the task-specific data. 
 
+:curly_loop: [How to Leverage Unlabeled Data in Offline Reinforcement Learning](https://arxiv.org/pdf/2202.01741.pdf) :fire: :volcano:
+
+We provide extensive theoretical and empirical analysis that illustrates how it trades off reward bias, sample complexity and distributional shift, often leading to good results. We characterize conditions under which this simple strategy is effective, and further show that extending it with a simple reweighting approach can further alleviate the bias introduced by using incorrect reward labels. 
+
 :curly_loop: [Is Pessimism Provably Efficient for Offline RL?](http://proceedings.mlr.press/v139/jin21e/jin21e.pdf) :fire: :volcano: :fire: 
 
 Pessimistic value iteration algorithm (PEVI): incorporates a penalty function (pessimism) into the value iteration algorithm. The penalty function simply flips the sign of the bonus function (optimism) for promoting exploration in online RL.  We decompose the suboptimality of any policy into three sources: the spurious correlation, intrinsic uncertainty, and optimization error. 
