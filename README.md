@@ -1607,6 +1607,10 @@ We propose Curriculum Offline Imitation Learning (COIL), which utilizes an exper
 
 PessORL: penalize high values at unseen states in the dataset, and to cancel the penalization at in-distribution states. 
 
+:curly_loop: [Adversarially Trained Actor Critic for Offline Reinforcement Learning](https://arxiv.org/pdf/2202.02446.pdf) :fire: :volcano: 
+
+We propose Adversarially Trained Actor Critic (ATAC) based on a two-player Stackelberg game framing of offline RL: A policy actor competes against an adversarially trained value critic, who finds data-consistent scenarios where the actor is inferior to the data-collection behavior policy. [robust policy improvement] 
+
 
 
 
@@ -2525,6 +2529,10 @@ We formulate an objective function to maximize the expected maximum reward along
 
 The magnitude of the Bellman error is smaller for biased value functions due to cancellations caused from both sides of the Bellman equation. The relationship between Bellman error and value error is broken if the dataset is missing relevant transitions. 
 
+:curly_loop: [LEARNING SYNTHETIC ENVIRONMENTS AND REWARD NETWORKS FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2202.02790.pdf) :+1:
+
+We use bi-level optimization to evolve SEs and RNs: the inner loop trains the RL agent, and the outer loop trains the parameters of the SE / RN via an evolution strategy.  
+
 
 
 
@@ -2642,6 +2650,10 @@ propose a flexible meta-algorithm that admits any batch reinforcement learning a
  :curly_loop: [Reward is enough for convex MDPs](https://arxiv.org/pdf/2106.00661.pdf) :fire: :volcano: :boom: :droplet:  ​
 
 It is easy to see that Convex MDPs in which goals are expressed as convex functions of stationary distributions cannot, in general, be formulated in this manner (maximising a cumulative reward).  
+
+:curly_loop: [Challenging Common Assumptions in Convex Reinforcement Learning](https://arxiv.org/pdf/2202.01511.pdf) :+1: :fire:
+
+We show that erroneously optimizing the infinite trials objective in place of the actual finite trials one, as it is usually done, can lead to a significant approximation error. 
 
 :curly_loop: [DENSITY CONSTRAINED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=jMc7DlflrMC) :+1:  :volcano:  ​
 
