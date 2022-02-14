@@ -194,6 +194,16 @@ TOC
 
   NoRML: The key insight underlying NoRML is that we can simultaneously learn the meta-policy and the advantage function used for adapting the meta-policy, optimizing for the ability to effectively adapt to varying dynamics. 
 
+  :curly_loop: [SKILL-BASED META-REINFORCEMENT LEARNING](https://openreview.net/pdf?id=jeLW-Fh9bV) :+1: :fire: 
+
+  we propose to (1) extract reusable skills and a skill prior from offline datasets, (2) meta-train a high-level policy that learns to efficiently compose learned skills into long-horizon behaviors, and (3) rapidly adapt the meta-trained policy to solve an unseen target task. 
+
+  :curly_loop: [Offline Meta Learning of Exploration](https://arxiv.org/pdf/2008.02598.pdf) :droplet:
+
+  We take a Bayesian RL (BRL) view, and seek to learn a Bayes-optimal policy from the offline data. Building on the recent VariBAD BRL approach, we develop an off-policy BRL method that learns to plan an exploration strategy based on an adaptive neural belief estimate. 
+
+  
+
   
 
 + Unsupervised Meta-Learning for Reinforcement Learning https://arxiv.org/pdf/1806.04640.pdf [Abhishek Gupta, Benjamin Eysenbach, Chelsea Finn, Sergey Levine] :confused: :wink: 
@@ -251,6 +261,14 @@ TOC
   :curly_loop: [LEARNING SUBGOAL REPRESENTATIONS WITH SLOW DYNAMICS](https://openreview.net/pdf?id=wxRwhSdORKG) :+1: :droplet: :fire: ​​  ​ ​
 
   Observing that the high-level agent operates at an abstract temporal scale, we propose a slowness objective to effectively learn the subgoal representation (i.e., the high-level action space). We provide a theoretical grounding for the slowness objective.  ​
+  
++ meta 
+
+  :curly_loop: [LEARNING TRANSFERABLE MOTOR SKILLS WITH HIERARCHICAL LATENT MIXTURE POLICIES](https://arxiv.org/pdf/2112.05062.pdf) :fire: 
+
+  our method exploits a three-level hierarchy of both discrete and continuous latent variables, to capture a set of high-level behaviours while allowing for variance in how they are executed.  
+
+  
 
 
 
@@ -1615,17 +1633,9 @@ We propose Adversarially Trained Actor Critic (ATAC) based on a two-player Stack
 
 Simply maximizing likelihood with a two-layer feedforward MLP is competitive with state-of-the-art results of substantially more complex methods based on TD learning or sequence modeling with Transformers. Carefully choosing model capacity (e.g., via regularization or architecture) and choosing which information to condition on (e.g., goals or rewards) are critical for performance. 
 
-:curly_loop: [LEARNING TRANSFERABLE MOTOR SKILLS WITH HIERARCHICAL LATENT MIXTURE POLICIES](https://arxiv.org/pdf/2112.05062.pdf) :fire: 
 
-our method exploits a three-level hierarchy of both discrete and continuous latent variables, to capture a set of high-level behaviours while allowing for variance in how they are executed.  
 
-:curly_loop: [SKILL-BASED META-REINFORCEMENT LEARNING](https://openreview.net/pdf?id=jeLW-Fh9bV) :+1: :fire: 
 
-we propose to (1) extract reusable skills and a skill prior from offline datasets, (2) meta-train a high-level policy that learns to efficiently compose learned skills into long-horizon behaviors, and (3) rapidly adapt the meta-trained policy to solve an unseen target task. 
-
-:curly_loop: [Offline Meta Learning of Exploration](https://arxiv.org/pdf/2008.02598.pdf) :droplet:
-
-We take a Bayesian RL (BRL) view, and seek to learn a Bayes-optimal policy from the offline data. Building on the recent VariBAD BRL approach, we develop an off-policy BRL method that learns to plan an exploration strategy based on an adaptive neural belief estimate. 
 
 
 
@@ -2679,6 +2689,10 @@ CORERL: we regularize the behavior of the deep policy to be similar to a policy 
 
 We present the first comprehensive study of regularization techniques with multiple policy optimization algorithms on continuous control tasks. 
 
+:curly_loop: [REINFORCEMENT LEARNING WITH SPARSE REWARDS USING GUIDANCE FROM OFFLINE DEMONSTRATION](https://arxiv.org/pdf/2202.04628.pdf) 
+
+
+
 
 
 
@@ -2696,6 +2710,8 @@ Instead of binarily classifying the state-action pairs into two sets (the uncert
 :curly_loop: [Accelerating Safe Reinforcement Learning with Constraint-mismatched Baseline Policies](http://proceedings.mlr.press/v139/yang21i/yang21i.pdf) :fire: :volcano: 
 
 SPACE: We propose an iterative policy optimization algorithm that alternates between maximizing expected return on the task, minimizing distance to the baseline policy, and projecting the policy onto the constraint satisfying set. 
+
+
 
 
 
