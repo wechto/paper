@@ -1533,6 +1533,12 @@ ICQ: we propose a novel offline RL algorithm, named Implicit Constraint Q-learni
 
 MAPLE tries to model all possible transition dynamics in the out-of-support regions. A context encoder RNN is trained to produce latent codes given the episode history, and the encoder and policy are jointly optimized to maximize average performance across a large ensemble of pretained dynamics models. 
 
+:curly_loop: [Supported Policy Optimization for Offline Reinforcement Learning](https://arxiv.org/pdf/2202.06239.pdf) :no_mouth:
+
+We present Supported Policy OpTimization (SPOT), which is directly derived from the theoretical formalization of the density based support constraint. SPOT adopts a VAEbased density estimator to explicitly model the support set of behavior policy. 
+
+
+
 
 
 :curly_loop: [Batch Reinforcement Learning with Hyperparameter Gradients](http://ailab.kaist.ac.kr/papers/pdfs/LLVKK2020.pdf) :+1: :fire: :volcano: :fire: 
@@ -1945,7 +1951,11 @@ We have developed a new method of learning different data manipulation schemes w
 
   :curly_loop: [Rewriting History with Inverse RL: Hindsight Inference for Policy Improvement](https://arxiv.org/pdf/2002.11089v1.pdf) 
 
-  MaxEnt RL and MaxEnt inverse RL optimize **the same multi-task RL objective** with respect to trajectories and tasks, respectively. 
+ HIPI: MaxEnt RL and MaxEnt inverse RL optimize **the same multi-task RL objective** with respect to trajectories and tasks, respectively. 
+
+:curly_loop: [HINDSIGHT FORESIGHT RELABELING FOR META-REINFORCEMENT LEARNING](https://arxiv.org/pdf/2109.09031.pdf) :fire: :volcano:
+
+Hindsight Foresight Relabeling (HFR): We construct a relabeling distribution using the combination of hindsight, which is used to relabel trajectories using reward functions from the training task distribution, and foresight, which takes the relabeled trajectories and computes the utility of each trajectory for each task. 
 
   :curly_loop: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)    [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)    [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)  :fire:   [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)    [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)    
 
