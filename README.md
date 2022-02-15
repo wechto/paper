@@ -2689,7 +2689,11 @@ CORERL: we regularize the behavior of the deep policy to be similar to a policy 
 
 We present the first comprehensive study of regularization techniques with multiple policy optimization algorithms on continuous control tasks. 
 
-:curly_loop: [REINFORCEMENT LEARNING WITH SPARSE REWARDS USING GUIDANCE FROM OFFLINE DEMONSTRATION](https://arxiv.org/pdf/2202.04628.pdf) 
+:curly_loop: [REINFORCEMENT LEARNING WITH SPARSE REWARDS USING GUIDANCE FROM OFFLINE DEMONSTRATION](https://arxiv.org/pdf/2202.04628.pdf) :fire: :volcano: :boom:
+
+The proposed algorithm, which we call the Learning Online with Guidance Offline (LOGO) algorithm, merges a policy improvement step with an additional policy guidance step by using the offline demonstration data. 
+
+
 
 
 
