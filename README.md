@@ -386,6 +386,12 @@ TOC
   
   :curly_loop: [Deep Reinforcement Learning at the Edge of the Statistical Precipice](https://openreview.net/pdf?id=uqv8-U4lKBe) 
   
+  :curly_loop: [LIPSCHITZ-CONSTRAINED UNSUPERVISED SKILL DISCOVERY](https://arxiv.org/pdf/2202.00914.pdf) :fire:
+  
+  We propose Lipschitz-constrained Skill Discovery (LSD), which encourages the agent to discover more diverse, dynamic, and far-reaching skills. LSD encourages the agent to prefer skills with larger traveled distances, unlike previous MI-based methods
+  
+  
+  
   
 
 
@@ -910,6 +916,10 @@ We show that by leveraging reference motion data, a single learning-based approa
 :curly_loop: [RMA: Rapid Motor Adaptation for Legged Robots](https://arxiv.org/pdf/2107.04034.pdf) :+1: 
 
 The robot achieves this high success rate despite never having seen unstable or sinking ground, obstructive vegetation or stairs during training. All deployment results are with the same policy without any simulation calibration, or real-world fine-tuning.  ​ ​ ​ 
+
+:curly_loop: [LEARNING VISION-GUIDED QUADRUPEDAL LOCOMOTION END-TO-END WITH CROSS-MODAL TRANSFORMERS](https://arxiv.org/pdf/2107.03996.pdf) :fire:
+
+LocoTransformer: We propose to address quadrupedal locomotion tasks using Reinforcement Learning (RL) with a Transformer-based model that learns to combine proprioceptive information and high-dimensional depth sensor inputs. 
 
 :curly_loop: [Why Generalization in RL is Difficult: Epistemic POMDPs and Implicit Partial Observability](https://arxiv.org/pdf/2107.06277.pdf) :fire: 
 
@@ -1956,6 +1966,10 @@ We have developed a new method of learning different data manipulation schemes w
 :curly_loop: [HINDSIGHT FORESIGHT RELABELING FOR META-REINFORCEMENT LEARNING](https://arxiv.org/pdf/2109.09031.pdf) :fire: :volcano:
 
 Hindsight Foresight Relabeling (HFR): We construct a relabeling distribution using the combination of hindsight, which is used to relabel trajectories using reward functions from the training task distribution, and foresight, which takes the relabeled trajectories and computes the utility of each trajectory for each task. 
+
+:curly_loop: [GENERALIZED DECISION TRANSFORMER FOR OFFLINE HINDSIGHT INFORMATION MATCHING](https://arxiv.org/pdf/2111.10364.pdf) :+1: :fire: 
+
+ We present Generalized Decision Transformer (GDT) for solving any HIM (hindsight information matching) problem, and show how different choices for the feature function and the anti-causal aggregator not only recover DT as a special case, but also lead to novel Categorical DT (CDT) and Bi-directional DT (BDT) for matching different statistics of the future. 
 
   :curly_loop: [Hindsight](https://zhuanlan.zhihu.com/p/191639584)    [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)    [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)  :fire:   [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)    [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)    
 
