@@ -390,6 +390,14 @@ TOC
   
   We propose Lipschitz-constrained Skill Discovery (LSD), which encourages the agent to discover more diverse, dynamic, and far-reaching skills. LSD encourages the agent to prefer skills with larger traveled distances, unlike previous MI-based methods
   
+  :curly_loop: [THE INFORMATION GEOMETRY OF UNSUPERVISED REINFORCEMENT LEARNING](https://arxiv.org/pdf/2110.02719.pdf) :volcano:
+  
+  we show that unsupervised skill discovery algorithms based on MI maximization do not learn skills that are optimal for every possible reward function. However, we show that the distribution over skills provides an optimal initialization minimizing regret against adversarially-chosen reward functions, assuming a certain type of adaptation procedure. 
+  
+  :curly_loop: [Unsupervised Reinforcement Learning in Multiple Environments](https://arxiv.org/pdf/2112.08746.pdf) :+1: 
+  
+  we foster an exploration strategy that is sensitive to the most adverse cases within the class. Hence, we cast the exploration problem as the maximization of the mean of a critical percentile of the state visitation entropy induced by the exploration strategy over the class of environments.  
+  
   
   
   
@@ -1107,6 +1115,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   We consider the Maximum Causal Entropy (MCE) IRL learner model and provide a tight upper bound on the learner’s performance degradation based on the `1-distance between the transition dynamics of the expert and the learner. 
 
+  :curly_loop: [Deterministic and Discriminative Imitation (D2-Imitation): Revisiting Adversarial Imitation for Sample Efficiency](https://arxiv.org/pdf/2112.06054.pdf) :fire: :volcano:
+
+  Deterministic and Discriminative Imitation (D2-Imitation) operates by first partitioning samples into two replay buffers and then learning a deterministic policy via off-policy reinforcement learning. 
+
   
 
    ​ 
@@ -1164,9 +1176,9 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   :curly_loop: [IQ-Learn: Inverse soft-Q Learning for Imitation](https://arxiv.org/pdf/2106.12142.pdf) :+1: :fire: :volcano: :droplet: 
 
   We introduce a method for dynamics-aware IL which avoids adversarial training by learning a single Q-function, implicitly representing both reward and policy.  
-
+  
   :curly_loop: [Boosted and Reward-regularized Classification for Apprenticeship Learning](https://www.cristal.univ-lille.fr/~pietquin/pdf/AAMAS_2014_BPMGOP.pdf) :fire:  ​ ​
-
+  
   MultiClass Classification and the Large Margin Approach. 
   
   :curly_loop: [IMITATION LEARNING VIA OFF-POLICY DISTRIBUTION MATCHING](https://arxiv.org/pdf/1912.05032.pdf) :+1: :fire: :boom:  :volcano:  ​
@@ -1180,6 +1192,16 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   :curly_loop: [Off-Policy Imitation Learning from Observations](https://arxiv.org/pdf/2102.13185.pdf) :volcano: :sweat_drops: :fire:  :boom:  ​
   
   OPOLO (Off POlicy Learning from Observations)!  ifo // lfo  // ope // mode-covering (Forward Distribution Matching) // mode-seeking // dice // LfD // LfO  ​
+  
+  :curly_loop: [Imitation Learning by State-Only Distribution Matching](https://arxiv.org/pdf/2202.04332.pdf) :fire: :fire: 
+  
+  LfO: We propose a non-adversarial learning-from-observations approach, together with an interpretable convergence and performance metric. 
+  
+  :curly_loop: [Imitation by Predicting Observations](https://arxiv.org/pdf/2107.03851.pdf) :fire: :volcano:
+  
+  LfO: FORM (“Future Observation Reward Model”) is derived from an inverse RL objective and imitates using a model of expert behavior learned by generative modelling of the expert’s observations, without needing ground truth actions.  
+  
+  
 
 :curly_loop: [Reinforced Imitation Learning by Free Energy Principle](https://arxiv.org/pdf/2107.11811.pdf) :droplet: 
 
