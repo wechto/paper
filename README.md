@@ -941,7 +941,11 @@ we recast the problem of generalization in RL as solving the induced partially o
 
 RMA consists of two components: a base policy and an adaptation module. The combination of these components enables the robot to adapt to novel situations in fractions of a second. RMA is trained completely in simulation without using any domain knowledge like reference trajectories or predefined foot trajectory generators and is deployed on the A1 robot without any fine-tuning.  
 
-  
+:curly_loop: [Learning Robust Policy against Disturbance in Transition Dynamics via State-Conservative Policy Optimization](https://arxiv.org/pdf/2112.10513.pdf) :volcano: 
+
+ State-Conservative Policy Optimization (SCPO) reduces the disturbance in transition dynamics to that in state space and then approximates it by a simple gradient-based regularizer. 
+
+
 
 :curly_loop: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: :+1:  ​
 
@@ -1119,7 +1123,9 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   Deterministic and Discriminative Imitation (D2-Imitation) operates by first partitioning samples into two replay buffers and then learning a deterministic policy via off-policy reinforcement learning. 
 
-  
+  :curly_loop: [Learning Sparse Rewarded Tasks from Sub-Optimal Demonstrations](https://arxiv.org/pdf/2004.00530.pdf) :fire: 
+
+  We propose Self-Adaptive Imitation Learning (SAIL) that can achieve (near) optimal performance given only a limited number of sub-optimal demonstrations for highly challenging sparse reward tasks.  reward = log pi_1/pi_2; 
 
    ​ 
 
@@ -1174,7 +1180,7 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   SQIL is equivalent to a variant of behavioral cloning (BC) that uses regularization to overcome state distribution shift. 
 
   :curly_loop: [IQ-Learn: Inverse soft-Q Learning for Imitation](https://arxiv.org/pdf/2106.12142.pdf) :+1: :fire: :volcano: :droplet: 
-
+  
   We introduce a method for dynamics-aware IL which avoids adversarial training by learning a single Q-function, implicitly representing both reward and policy.  
   
   :curly_loop: [Boosted and Reward-regularized Classification for Apprenticeship Learning](https://www.cristal.univ-lille.fr/~pietquin/pdf/AAMAS_2014_BPMGOP.pdf) :fire:  ​ ​
@@ -1377,7 +1383,7 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
 
 We show that naïve approaches that combine techniques from safe RL and offline RL can only learn sub-optimal solutions. We thus develop a simple yet effective algorithm, Constraints Penalized Q-Learning (CPQ), to solve the problem. 
 
-:curly_loop: [Conservative Offline Distributional Reinforcement Learning](https://arxiv.org/pdf/2107.06106.pdf) :sweat_drops:
+:curly_loop: [Conservative Offline Distributional Reinforcement Learning](https://arxiv.org/pdf/2107.06106.pdf) :sweat_drops: 
 
 CODAC: 
 
@@ -2761,7 +2767,9 @@ Instead of binarily classifying the state-action pairs into two sets (the uncert
 
 SPACE: We propose an iterative policy optimization algorithm that alternates between maximizing expected return on the task, minimizing distance to the baseline policy, and projecting the policy onto the constraint satisfying set. 
 
+:curly_loop: [Conservative and Adaptive Penalty for Model-Based Safe Reinforcement Learning](https://arxiv.org/pdf/2112.07701.pdf) :volcano: :fire: 
 
+We propose Conservative and Adaptive Penalty (CAP), a model-based safe RL framework that accounts for potential modeling errors by capturing model uncertainty and adaptively exploiting it to balance the reward and the cost objectives. 
 
 
 
