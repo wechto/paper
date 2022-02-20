@@ -1203,6 +1203,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   
   LfO: We propose a non-adversarial learning-from-observations approach, together with an interpretable convergence and performance metric. 
   
+  :curly_loop: [IMITATION LEARNING BY REINFORCEMENT LEARNING](https://openreview.net/pdf?id=1zwleytEpYx) :fire: :fire: 
+  
+  We show that, for deterministic experts, imitation learning can be done by reduction to reinforcement learning with a stationary reward. 
+  
   :curly_loop: [Imitation by Predicting Observations](https://arxiv.org/pdf/2107.03851.pdf) :fire: :volcano:
   
   LfO: FORM (“Future Observation Reward Model”) is derived from an inverse RL objective and imitates using a model of expert behavior learned by generative modelling of the expert’s observations, without needing ground truth actions.  
@@ -2029,6 +2033,10 @@ Self-imitation; experience replay: we propose a novel experience replay optimiza
 
 Our key idea is to express the expected return objective as a weighted sum of two terms: an expectation over the high-reward trajectories inside a memory buffer, and a separate expectation over trajectories outside of the buffer. 
 
+:curly_loop: [RETRIEVAL-AUGMENTED REINFORCEMENT LEARNING](https://arxiv.org/pdf/2202.08417.pdf) :+1:
+
+We augment an RL agent with a retrieval process (parameterized as a neural network) that has direct access to a dataset of experiences. The retrieval process is trained to retrieve information from the dataset that may be useful in the current context. 
+
 
 
 :curly_loop: [Self-Imitation Learning via Generalized Lower Bound Q-learning](https://arxiv.org/pdf/2006.07442.pdf) :fire: 
@@ -2455,7 +2463,11 @@ Our main contribution is a set of proofs showing that standard MaxEnt RL optimiz
 
 :curly_loop: [RANDOMIZED ENSEMBLED DOUBLE Q-LEARNING: LEARNING FAST WITHOUT A MODEL](https://arxiv.org/pdf/2101.05982.pdf) :fire: 
 
-(i) a Update-To-Data (UTD) ratio >> 1; (ii) an ensemble of Q functions; (iii) in-target minimization across a random subset of Q functions from the ensemble. 
+REDQ: (i) a Update-To-Data (UTD) ratio >> 1; (ii) an ensemble of Q functions; (iii) in-target minimization across a random subset of Q functions from the ensemble. 
+
+:curly_loop: [DROPOUT Q-FUNCTIONS FOR DOUBLY EFFICIENT REINFORCEMENT LEARNING](https://openreview.net/pdf?id=xCVJMsPv3RT) :no_mouth:
+
+To make REDQ more computationally efficient, we propose a method of improving computational efficiency called Dr.Q, which is a variant of REDQ that uses a small ensemble of dropout Q-functions. 
 
 :curly_loop: [Disentangling Dynamics and Returns: Value Function Decomposition with Future Prediction](https://arxiv.org/pdf/1905.11100.pdf) :+1:  ​
 
