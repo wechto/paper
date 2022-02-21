@@ -1451,8 +1451,6 @@ our proposed MSG algorithm advocates for using independently learned ensembles, 
 
 
 
-
-
   :curly_loop: [S4RL: Surprisingly Simple Self-Supervision for Offline Reinforcement Learning](https://arxiv.org/pdf/2103.06326.pdf) :no_mouth: 
 
    utilizes data augmentations from states to learn value functions that are better at generalizing and extrapolating when deployed in the environment. 
@@ -1578,8 +1576,6 @@ MAPLE tries to model all possible transition dynamics in the out-of-support regi
 :curly_loop: [Supported Policy Optimization for Offline Reinforcement Learning](https://arxiv.org/pdf/2202.06239.pdf) :no_mouth:
 
 We present Supported Policy OpTimization (SPOT), which is directly derived from the theoretical formalization of the density based support constraint. SPOT adopts a VAEbased density estimator to explicitly model the support set of behavior policy. 
-
-
 
 
 
@@ -2037,6 +2033,10 @@ Our key idea is to express the expected return objective as a weighted sum of tw
 
 We augment an RL agent with a retrieval process (parameterized as a neural network) that has direct access to a dataset of experiences. The retrieval process is trained to retrieve information from the dataset that may be useful in the current context. 
 
+:curly_loop: [VARIATIONAL ORACLE GUIDING FOR REINFORCEMENT LEARNING](https://openreview.net/pdf?id=pjqqxepwoMy) :fire:
+
+Variational latent oracle guiding (VLOG) : An important but under-explored aspect is how to leverage oracle observation (the information that is invisible during online decision making, but is available during offline training) to facilitate learning.  
+
 
 
 :curly_loop: [Self-Imitation Learning via Generalized Lower Bound Q-learning](https://arxiv.org/pdf/2006.07442.pdf) :fire: 
@@ -2138,6 +2138,10 @@ The idea is that we want to reward familiar trajectories and penalize unfamiliar
 :curly_loop: [Bridging Imagination and Reality for Model-Based Deep Reinforcement Learning](https://arxiv.org/pdf/2010.12142.pdf)  :+1: :fire: :droplet: 
 
 BIRD: our basic idea is to leverage information from real trajectories to endow policy improvement on imaginations with awareness of discrepancy between imagination and reality. 
+
+:curly_loop: [ON-POLICY MODEL ERRORS IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=81e1aeOt-sd) :+1:
+
+We present on-policy corrections (OPC) that combines real world data and a learned model in order to get the best of both worlds. The core idea is to exploit the real world data for on policy predictions and use the learned model only to generalize to different actions. 
 
 
 
@@ -2968,6 +2972,10 @@ We propose Conservative and Adaptive Penalty (CAP), a model-based safe RL framew
   :curly_loop: [Iterative Teacher-Aware Learning](https://openreview.net/pdf?id=aLkuboH1SQX) :+1: :fire: :fire: 
   
   We propose a gradient optimization based teacher-aware learner who can incorporate teacher’s cooperative intention into the likelihood function and learn provably faster compared with the naive learning algorithms used in previous machine teaching works. 
+  
+  :curly_loop: [MAXIMIZING ENSEMBLE DIVERSITY IN DEEP REINFORCEMENT LEARNING](https://openreview.net/pdf?id=hjd-kcpDpf2) :+1:
+  
+  We describe Maximize Ensemble Diversity in Reinforcement Learning (MED-RL), a set of regularization methods inspired from the economics and consensus optimization to improve diversity in the ensemble based deep reinforcement learning methods by encouraging inequality between the networks during training.
   
   
   
