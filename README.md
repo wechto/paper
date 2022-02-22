@@ -485,7 +485,11 @@ In this paper, we propose a theoretically motivated framework that dynamically w
 
 We propose a new multi-stage RL agent, DARLA (DisentAngled Representation Learning Agent), which learns to see before learning to act. DARLA’s vision is based on learning a disentangled representation of the observed environment. Once DARLA can see, it is able to acquire source policies that are robust to many domain shifts - even with no access to the target domain. 
 
-  :curly_loop: [DBC](https://zhuanlan.zhihu.com/p/157534599): [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf)  :boom: :boom: :boom: 
+  :curly_loop: [DBC](https://zhuanlan.zhihu.com/p/157534599): [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf)  :boom: :boom: :boom:
+
+:curly_loop: [LEARNING GENERALIZABLE REPRESENTATIONS FOR REINFORCEMENT LEARNING VIA ADAPTIVE METALEARNER OF BEHAVIORAL SIMILARITIES](https://openreview.net/pdf?id=zBOI9LFpESK)  :+1: :fire: 
+
+Meta-learner of Behavioral Similarities (AMBS): A pair of meta-learners is developed, one of which quantifies the reward similarity and the other of which quantifies dynamics similarity over the correspondingly decomposed embeddings. The meta-learners are self-learned to update the state embeddings by approximating two disjoint terms in on-policy bisimulation metric. 
 
   :curly_loop: LEARNING INVARIANT FEATURE SPACES TO TRANSFER SKILLS WITH REINFORCEMENT LEARNING https://arxiv.org/pdf/1703.02949.pdf :fire: :+1: 
 
@@ -1002,6 +1006,10 @@ these approaches only locally perturb the observations regardless of the trainin
 :curly_loop: [A GENERAL THEORY OF RELATIVITY IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=bi9j5yi-Vrv) :fire: :volcano:
 
 The proposed theory deeply investigates the connection between any two cumulative expected returns defined on different policies and environment dynamics: Relative Policy Optimization (RPO) updates the policy using the relative policy gradient to transfer the policy evaluated in one environment to maximize the return in another, while Relative Transition Optimization (RTO) updates the parameterized dynamics model (if there exists) using the relative transition gradient to reduce the gap between the dynamics of the two environments.  
+
+:curly_loop: [COPA: CERTIFYING ROBUST POLICIES FOR OFFLINE REINFORCEMENT LEARNING AGAINST POISONING ATTACKS](https://openreview.net/pdf?id=psh0oeMSBiF) :+1:
+
+We focus on certifying the robustness of offline RL in the presence of poisoning attacks, where a subset of training trajectories could be arbitrarily manipulated. We propose the first certification framework, COPA to certify the number of poisoning trajectories that can be tolerated regarding different certification criteria. 
 
  
 
@@ -1557,9 +1565,9 @@ UWAC: an algorithm that detects OOD state-action pairs and down-weights their co
 
 By introducing the Expect-Max Q-Learning operator, we present a novel theoretical setup that takes into account the proposal distribution µ(a|s) and the number of action samples N, and hence more closely matches the resulting practical algorithm. 
 
-:curly_loop: [OFFLINE REINFORCEMENT LEARNING WITH IMPLICIT Q-LEARNING](https://arxiv.org/pdf/2110.06169.pdf) :+1: 
+:curly_loop: [OFFLINE REINFORCEMENT LEARNING WITH IN-SAMPLE Q-LEARNING](https://openreview.net/pdf?id=68n2s9ZJ WF8) :fire: :fire:  
 
-We presented implicit Q-Learning (IQL), a general algorithm for offline RL that completely avoids any queries to values of out-of-sample actions during training while still enabling multi-step dynamic programming.  Adopting Expectile regression. 
+We presented implicit Q-Learning (IQL), a general algorithm for offline RL that completely avoids any queries to values of out-of-sample actions during training while still enabling multi-step dynamic programming.  Adopting Expectile regression. [old](https://arxiv.org/pdf/2110.06169.pdf) 
 
 :curly_loop: [Continuous Doubly Constrained Batch Reinforcement Learning](https://arxiv.org/pdf/2102.09225.pdf) :fire: :fire: 
 
@@ -1675,7 +1683,9 @@ We propose Adversarially Trained Actor Critic (ATAC) based on a two-player Stack
 
 :curly_loop: [RVS: WHAT IS ESSENTIAL FOR OFFLINE RL VIA SUPERVISED LEARNING?](https://arxiv.org/pdf/2112.10751.pdf) :no_mouth:
 
-Simply maximizing likelihood with a two-layer feedforward MLP is competitive with state-of-the-art results of substantially more complex methods based on TD learning or sequence modeling with Transformers. Carefully choosing model capacity (e.g., via regularization or architecture) and choosing which information to condition on (e.g., goals or rewards) are critical for performance. 
+Simply maximizing likelihood with a two-layer feedforward MLP is competitive with state-of-the-art results of substantially more complex methods based on TD learning or sequence modeling with Transformers. Carefully choosing model capacity (e.g., via regularization or architecture) and choosing which information to condition on (e.g., goals or rewards) are critical for performance.  [THE ESSENTIAL ELEMENTS OF OFFLINE RL VIA SUPERVISED LEARNING](https://openreview.net/pdf?id=S874XAIpkR-)  
+
+
 
 
 
@@ -1793,7 +1803,11 @@ Simply maximizing likelihood with a two-layer feedforward MLP is competitive wit
   
   The proposed max-min entropy framework aims to learn to visit states with low entropy and maximize the entropy of these low-entropy states to promote exploration.  
   
-  :curly_loop: [Exploration in Deep Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/pdf/2109.06668.pdf) :sweat_drops: 
+  :curly_loop: [Exploration in Deep Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/pdf/2109.06668.pdf) :sweat_drops:
+  
+  :curly_loop: [HYPERDQN: A RANDOMIZED EXPLORATION METHOD FOR DEEP REINFORCEMENT LEARNING](https://openreview.net/pdf?id=X0nrKAXu7g-) :droplet: :+1: 
+  
+  We present a practical exploration method to address the limitations of RLSVI and BootDQN. 
   
   
   
@@ -2667,6 +2681,12 @@ We use bi-level optimization to evolve SEs and RNs: the inner loop trains the RL
   
 + communicative partially-observable stochastic game (Comm-POSG) 
 
++  
+
+  :curly_loop: [TRUST REGION POLICY OPTIMISATION IN MULTI-AGENT REINFORCEMENT LEARNING](https://arxiv.org/pdf/2109.11251.pdf) :volcano: 
+
+  We extend the theory of trust region learning to MARL. Central to our findings are the multi-agent advantage decomposition lemma and the sequential policy update scheme. Based on these, we develop Heterogeneous-Agent Trust Region Policy Optimisation (HATPRO) and Heterogeneous-Agent Proximal Policy Optimisation (HAPPO) algorithms. 
+
 
 
 
@@ -2708,6 +2728,10 @@ we propose a novel algorithm, Geometric Value Iteration (GVI), that features a d
 :curly_loop: [Near Optimal Policy Optimization via REPS](https://openreview.net/pdf?id=ZEhDWKLTvt7) :volcano: :droplet: 
 
 Relative entropy policy search (REPS) 
+
+:curly_loop: [ON COVARIATE SHIFT OF LATENT CONFOUNDERS IN IMITATION AND REINFORCEMENT LEARNING](https://openreview.net/pdf?id=w01vBAcewNX) :volcano: :droplet:
+
+We consider the problem of using expert data with unobserved confounders for imitation and reinforcement learning. 
 
 
 
@@ -3006,6 +3030,8 @@ We propose Conservative and Adaptive Penalty (CAP), a model-based safe RL framew
   :curly_loop: [Unsupervised Learning of Compositional Energy Concepts](https://openreview.net/pdf?id=2RgFZHCrI0l) :fire: :fire: 
   
   We propose COMET, which discovers and represents concepts as separate energy functions, enabling us to represent both global concepts as well as objects under a unified framework. COMET discovers energy functions through recomposing the input image, which we find captures independent factors without additional supervision. 
+  
+  
   
   
   
