@@ -505,6 +505,10 @@ Meta-learner of Behavioral Similarities (AMBS): A pair of meta-learners is devel
 
   :curly_loop: [CURL: Contrastive Unsupervised Representations for Reinforcement Learning](https://arxiv.org/pdf/2004.04136.pdf) :fire: :volcano: :droplet:  ​ ​
 
+:curly_loop: [MASTERING VISUAL CONTINUOUS CONTROL: IMPROVED DATA-AUGMENTED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=_SJ-_yyes8) :fire:
+
+ DrQ-v2 builds on DrQ, an off-policy actor-critic approach that uses data augmentation to learn directly from pixels. 
+
   :curly_loop: [Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping via Randomized-to-Canonical Adaptation Networks](https://arxiv.org/pdf/1812.07252.pdf) :+1: :fire: 
 
   Our method learns to translate randomized rendered images into their equivalent non-randomized, canonical versions. This in turn allows for real images to also be translated into canonical sim images. 
@@ -1321,6 +1325,10 @@ We review recent advances based on joint and dynamic importance predictor estima
   
   :curly_loop: [Dueling RL: Reinforcement Learning with Trajectory Preferences](https://arxiv.org/pdf/2111.04850.pdf) 
   
+  :curly_loop: [SURF: SEMI-SUPERVISED REWARD LEARNING WITH DATA AUGMENTATION FOR FEEDBACK-EFFICIENT PREFERENCE-BASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=TfhfZLQ2EJO) :no_mouth:
+  
+  We present SURF, a semi-supervised reward learning framework that utilizes a large amount of unlabeled samples with data augmentation, where we infer pseudo-labels of the unlabeled samples based on the confidence of the preference predictor. 
+  
   
   
    
@@ -1415,6 +1423,10 @@ We provide extensive theoretical and empirical analysis that illustrates how it 
 
 Pessimistic value iteration algorithm (PEVI): incorporates a penalty function (pessimism) into the value iteration algorithm. The penalty function simply flips the sign of the bonus function (optimism) for promoting exploration in online RL.  We decompose the suboptimality of any policy into three sources: the spurious correlation, intrinsic uncertainty, and optimization error. 
 
+:curly_loop: [PESSIMISTIC MODEL-BASED OFFLINE REINFORCEMENT LEARNING UNDER PARTIAL COVERAGE](https://openreview.net/pdf?id=tyrJsbKAe6) :volcano: 
+
+Constrained Pessimistic Policy Optimization (CPPO): We study model-based offline RL with function approximation under partial coverage. We show that for the model-based setting, realizability in function class and partial coverage together are enough to learn a policy that is comparable to any policies covered by the offline distribution. 
+
 :curly_loop: [Corruption-Robust Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06630.pdf) :confused: 
 
 :curly_loop: [Bellman-consistent Pessimism for Offline Reinforcement Learning](https://arxiv.org/pdf/2106.06926.pdf) :fire: :confused:
@@ -1430,6 +1442,10 @@ We show that a small modification to Bellman optimality and evaluation back-up t
 :curly_loop: [Provable Benefits of Actor-Critic Methods for Offline Reinforcement Learning](https://papers.nips.cc/paper/2021/file/713fd63d76c8a57b16fc433fb4ae718a-Paper.pdf) 
 
 Pessimistic Actor Critic for Learning without Exploration (PACLE) 
+
+:curly_loop: [WHEN SHOULD OFFLINE REINFORCEMENT LEARNING BE PREFERRED OVER BEHAVIORAL CLONING?](https://openreview.net/pdf?id=AP1MKT37rJ) :volcano: :volcano:
+
+under what environment and dataset conditions can an offline RL method outperform BC with an equal amount of expert data, even when BC is a natural choice?  [Should I Run Offline Reinforcement Learning or Behavioral Cloning?] 
 
 
 
@@ -2625,13 +2641,17 @@ The soft Q-learning loss gradient can be interpreted as a policy gradient term p
 
 We use this framework to introduce operator-based versions of well-known policy gradient methods. 
 
-:curly_loop: [MAXIMUM REWARD FORMULATION IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.03744.pdf) :droplet:
+:curly_loop: [MAXIMUM REWARD FORMULATION IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.03744.pdf) :droplet: 
 
 We formulate an objective function to maximize the expected maximum reward along a trajectory, derive a novel functional form of the Bellman equation, introduce the corresponding Bellman operators, and provide a proof of convergence.  
 
 :curly_loop: [Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement for Value Error](https://arxiv.org/pdf/2201.12417.pdf) :fire:
 
 The magnitude of the Bellman error is smaller for biased value functions due to cancellations caused from both sides of the Bellman equation. The relationship between Bellman error and value error is broken if the dataset is missing relevant transitions. 
+
+:curly_loop: [CONVERGENT AND EFFICIENT DEEP Q NETWORK ALGORITHM](https://openreview.net/pdf?id=OJm3HZuj4r7) :confused:
+
+We show that DQN can indeed diverge and cease to operate in realistic settings. we propose a convergent DQN (C-DQN) that is guaranteed to converge. 
 
 :curly_loop: [LEARNING SYNTHETIC ENVIRONMENTS AND REWARD NETWORKS FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2202.02790.pdf) :+1:
 
