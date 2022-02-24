@@ -487,6 +487,10 @@ We propose a new multi-stage RL agent, DARLA (DisentAngled Representation Learni
 
   :curly_loop: [DBC](https://zhuanlan.zhihu.com/p/157534599): [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf)  :boom: :boom: :boom:
 
+:curly_loop: [TASK-INDUCED REPRESENTATION LEARNING](https://openreview.net/pdf?id=OzyXtIZAzFv) :volcano:
+
+We formalize the problem of task-induced 11 representation learning (TARP), which aims to leverage such task information in offline experience from prior tasks for learning compact representations that focus 13 on modelling only task-relevant aspects. 
+
 :curly_loop: [LEARNING GENERALIZABLE REPRESENTATIONS FOR REINFORCEMENT LEARNING VIA ADAPTIVE METALEARNER OF BEHAVIORAL SIMILARITIES](https://openreview.net/pdf?id=zBOI9LFpESK)  :+1: :fire: 
 
 Meta-learner of Behavioral Similarities (AMBS): A pair of meta-learners is developed, one of which quantifies the reward similarity and the other of which quantifies dynamics similarity over the correspondingly decomposed embeddings. The meta-learners are self-learned to update the state embeddings by approximating two disjoint terms in on-policy bisimulation metric. 
@@ -642,6 +646,10 @@ We establish the theoretical foundations for the validity of training a rl agent
 We introduce a unified formalism for defining these topologies through the lens of metrics. We establish a hierarchy amongst these metrics and demonstrate their theoretical implications on the Markov Decision Process specifying the rl problem.  
 
 :curly_loop: [Environment Shaping in Reinforcement Learning using State Abstraction](https://arxiv.org/pdf/2006.13160.pdf) :sweat_drops: 
+
+:curly_loop: [A RELATIONAL INTERVENTION APPROACH FOR UNSUPERVISED DYNAMICS GENERALIZATION IN MODEL-BASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=YRq0ZUnzKoZ) :fire: :volcano: 
+
+Because environments are not labelled, the extracted information inevitably contains redundant information unrelated to the dynamics in transition segments and thus fails to maintain a crucial property of Z: Z should be similar in the same environment and dissimilar in different ones. we introduce an interventional prediction module to estimate the probability of two estimated zi , zj belonging to the same environment. 
 
 
 
@@ -953,6 +961,10 @@ RMA consists of two components: a base policy and an adaptation module. The comb
 
  State-Conservative Policy Optimization (SCPO) reduces the disturbance in transition dynamics to that in state space and then approximates it by a simple gradient-based regularizer. 
 
+:curly_loop: [LEARNING A SUBSPACE OF POLICIES FOR ONLINE ADAPTATION IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=4Muj-t_4o4) :no_mouth:
+
+ LoP does not need any particular tuning or definition of additional architectures to handle diversity, which is a critical aspect in the online adaptation setting where hyper-parameters tuning is impossible or at least very difficult. 
+
 
 
 :curly_loop: [ADAPT-TO-LEARN: POLICY TRANSFER IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ryeT10VKDH) :+1: :+1:  ​
@@ -1014,6 +1026,10 @@ The proposed theory deeply investigates the connection between any two cumulativ
 :curly_loop: [COPA: CERTIFYING ROBUST POLICIES FOR OFFLINE REINFORCEMENT LEARNING AGAINST POISONING ATTACKS](https://openreview.net/pdf?id=psh0oeMSBiF) :+1:
 
 We focus on certifying the robustness of offline RL in the presence of poisoning attacks, where a subset of training trajectories could be arbitrarily manipulated. We propose the first certification framework, COPA to certify the number of poisoning trajectories that can be tolerated regarding different certification criteria. 
+
+:curly_loop: [CROP: CERTIFYING ROBUST POLICIES FOR REINFORCEMENT LEARNING THROUGH FUNCTIONAL SMOOTHING](https://openreview.net/pdf?id=HOjLHrlZhmx) :fire: 
+
+We propose two particular types of robustness certification criteria: robustness of per-state actions and lower bound of cumulative rewards. 
 
  
 
@@ -1179,6 +1195,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   learning the grounded action transformation can be seen as an IfO problem; GARAT: learn an action transformation policy for transfer learning with dynamics mismatch.     we focus on the paradigm of simulator grounding, which modifies the source environment’s dynamics to more closely match the target environment dynamics using a relatively small amount of target environment data. 
 
+  :curly_loop: [HYAR: ADDRESSING DISCRETE-CONTINUOUS ACTION REINFORCEMENT LEARNING VIA HYBRID ACTION EPRESENTATION](https://openreview.net/pdf?id=64trBbOhdGU) 
+
+  We propose Hybrid Action Representation (HyAR) to learn a compact and decodable latent representation space for the original hybrid action space. 
+
   :curly_loop: [STATE ALIGNMENT-BASED IMITATION LEARNING](https://openreview.net/pdf?id=rylrdxHFDr) :+1: :fire:  ​
 
   Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. ifo 
@@ -1188,9 +1208,9 @@ Robust RL has shown that by considering the worst case scenario, robust policies
    ​By identifying parameterizations of the (discriminative) model of a policy with the (generative) energy function for state distributions, EDM yields a simple but effective solution that equivalently minimizes a divergence between the occupancy measure for the demonstrator and a model thereof for the imitator. 
 
   :curly_loop: [SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/pdf/1905.11108.pdf) :+1: :fire: :volcano:  ​
-
+  
   SQIL is equivalent to a variant of behavioral cloning (BC) that uses regularization to overcome state distribution shift. 
-
+  
   :curly_loop: [IQ-Learn: Inverse soft-Q Learning for Imitation](https://arxiv.org/pdf/2106.12142.pdf) :+1: :fire: :volcano: :droplet: 
   
   We introduce a method for dynamics-aware IL which avoids adversarial training by learning a single Q-function, implicitly representing both reward and policy.  
