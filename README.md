@@ -360,6 +360,10 @@ TOC
 
   the problem we are solving can be seen as the definition and discovery of lower-level policies that will lead to a robust hierarchical agent. 
 
+  :curly_loop: [CONSTRUCTING A GOOD BEHAVIOR BASIS FOR TRANSFER USING GENERALIZED POLICY UPDATES](https://openreview.net/pdf?id=7IWGzQ6gZ1D) :fire:
+
+  We show theoretically that, under certain assumptions, having access to a specific set of diverse policies, which we call a set of independent policies, can allow for instantaneously achieving high-level performance on all possible downstream tasks which are typically more complex than the ones on which the agent was trained. 
+
    ​
 
 + Acquiring Diverse Robot Skills via Maximum Entropy Deep Reinforcement Learning [Tuomas Haarnoja, UCB]  https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-176.pdf :fire: :boom: :sweat_drops: :sweat_drops: 
@@ -651,7 +655,9 @@ We introduce a unified formalism for defining these topologies through the lens 
 
 Because environments are not labelled, the extracted information inevitably contains redundant information unrelated to the dynamics in transition segments and thus fails to maintain a crucial property of Z: Z should be similar in the same environment and dissimilar in different ones. we introduce an interventional prediction module to estimate the probability of two estimated zi , zj belonging to the same environment. 
 
+:curly_loop: [Cross-Trajectory Representation Learning for Zero-Shot Generalization in RL](https://arxiv.org/pdf/2106.02193.pdf) :fire: 
 
+We propose Cross Trajectory Representation Learning (CTRL), a method that runs within an RL agent and conditions its encoder to recognize behavioral similarity in observations by applying a novel SSL objective to pairs of trajectories from the agent’s policies. 
 
 
 
