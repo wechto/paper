@@ -262,6 +262,10 @@ TOC
 
   Observing that the high-level agent operates at an abstract temporal scale, we propose a slowness objective to effectively learn the subgoal representation (i.e., the high-level action space). We provide a theoretical grounding for the slowness objective.  ​
   
+  :curly_loop: [ACTIVE HIERARCHICAL EXPLORATION WITH STABLE SUBGOAL REPRESENTATION LEARNING](https://openreview.net/pdf?id=sNuFKTMktcY) :+1:
+  
+  HESS: We propose a novel regularization that contributes to both stable and efficient subgoal representation learning. 
+  
 + meta 
 
   :curly_loop: [LEARNING TRANSFERABLE MOTOR SKILLS WITH HIERARCHICAL LATENT MIXTURE POLICIES](https://arxiv.org/pdf/2112.05062.pdf) :fire: 
@@ -1689,6 +1693,10 @@ OPAL: Given a database consisting of trajectories without reward labels, we quer
 
 We train a reward function on a pre-recorded dataset, use it to label the data and do offline RL. 
 
+:curly_loop: [LEARNING VALUE FUNCTIONS FROM UNDIRECTED STATE-ONLY EXPERIENCE](https://openreview.net/pdf?id=6Pe99Juo9gd) :fire:
+
+This paper tackles the problem of learning value functions from undirected state only experience (state transitions without action labels i.e. (s, s' , r) tuples). 
+
 :curly_loop: [Offline Inverse Reinforcement Learning](https://arxiv.org/pdf/2106.05068.pdf) 
 
 :curly_loop:  [Augmented World Models Facilitate Zero-Shot Dynamics Generalization From a Single Offline Environment](https://arxiv.org/pdf/2104.05632.pdf) :+1: :fire: :volcano: 
@@ -2080,6 +2088,10 @@ Hindsight Foresight Relabeling (HFR): We construct a relabeling distribution usi
 :curly_loop: [Experience Replay Optimization](https://arxiv.org/pdf/1906.08387.pdf) :+1: :fire: 
 
 Self-imitation; experience replay: we propose a novel experience replay optimization (ERO) framework which alternately updates two policies: the agent policy, and the replay policy. The agent is updated to maximize the cumulative reward based on the replayed data, while the replay policy is updated to provide the agent with the most useful experiences. 
+
+:curly_loop: [MODEL-AUGMENTED PRIORITIZED EXPERIENCE REPLAY](https://openreview.net/pdf?id=WuEiafqdy9H) :no_mouth:
+
+We propose a novel experience replay method, which we call model-augmented priority experience replay (MaPER), that employs new learnable features driven from components in model-based RL (MbRL) to calculate the scores on experiences. 
 
 :curly_loop: [Memory Augmented Policy Optimization for Program Synthesis and Semantic Parsing](https://arxiv.org/pdf/1807.02322.pdf) :+1:
 
@@ -2683,6 +2695,10 @@ We show that DQN can indeed diverge and cease to operate in realistic settings. 
 
 We use bi-level optimization to evolve SEs and RNs: the inner loop trains the RL agent, and the outer loop trains the parameters of the SE / RN via an evolution strategy.  
 
+:curly_loop: [IS HIGH VARIANCE UNAVOIDABLE IN RL? A CASE STUDY IN CONTINUOUS CONTROL](https://openreview.net/pdf?id=9xhgmsNVHu) 
+
+
+
 
 
 
@@ -2693,7 +2709,7 @@ We use bi-level optimization to evolve SEs and RNs: the inner loop trains the RL
 
   
 
-  
+   
 
 
 
@@ -2833,9 +2849,9 @@ The proposed algorithm, which we call the Learning Online with Guidance Offline 
 
 
 
+:curly_loop: [MIRROR DESCENT POLICY OPTIMIZATION](https://openreview.net/pdf?id=aBO5SvgSt1)  :+1: :fire: 
 
-
-
+We derive on-policy and off-policy variants of MDPO (mirror descent policy optimization), while emphasizing important design choices motivated by the existing theory of MD in RL. 
 
 
 
