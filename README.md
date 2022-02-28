@@ -533,6 +533,10 @@ Meta-learner of Behavioral Similarities (AMBS): A pair of meta-learners is devel
 
   employ self-supervised loss as an intrinsic reward, called Intrinsically Motivated Self-Supervised learning in Reinforcement learning (IM-SSR). *Decomposition and Interpretation of Contrastive Loss.*  
 
+:curly_loop: [INFORMATION PRIORITIZATION THROUGH EMPOWERMENT IN VISUAL MODEL-BASED RL](https://openreview.net/pdf?id=DfUjyyRW90) :+1: :fire:
+
+InfoPower: We propose a modified objective for model-based RL that, in combination with mutual information maximization, allows us to learn representations and dynamics for visual model-based RL without reconstruction in a way that explicitly prioritizes functionally relevant factors.  
+
   :curly_loop: [EMI: Exploration with Mutual Information](https://arxiv.org/pdf/1810.01176.pdf) :+1: 
 
   We propose EMI, which is an exploration method that constructs embedding representation of states and actions that does not rely on generative decoding of the full observation but extracts predictive signals that can be used to guide exploration based on forward prediction in the representation space. 
@@ -1199,6 +1203,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   Imitation Learning from Observation Alone (ILFO).  MobILE involves carefully trading off strategic exploration against imitation - this is achieved by integrating the idea of optimism in the face of uncertainty into the distribution matching imitation learning (IL) framework. 
 
+  :curly_loop: [IMITATION LEARNING FROM OBSERVATIONS UNDER TRANSITION MODEL DISPARITY](https://openreview.net/pdf?id=twv2QlJhXzo) :fire: :+1:
+
+  We consider ILO where the expert and the learner agents operate in different environments (dynamics). We propose an AILO that trains an intermediary policy in the learner environment and uses it as a surrogate expert for the learner. 
+
   
 
   :curly_loop: [An Imitation from Observation Approach to Transfer Learning with Dynamics Mismatch](https://papers.nips.cc/paper/2020/file/28f248e9279ac845995c4e9f8af35c2b-Paper.pdf) :+1: :fire: :volcano:  ​
@@ -1214,9 +1222,9 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. ifo 
 
   :curly_loop: [Strictly Batch Imitation Learning by Energy-based Distribution Matching](https://proceedings.neurips.cc//paper/2020/file/524f141e189d2a00968c3d48cadd4159-Paper.pdf) :fire: :boom: :sweat_drops:  ​
-
+  
    ​By identifying parameterizations of the (discriminative) model of a policy with the (generative) energy function for state distributions, EDM yields a simple but effective solution that equivalently minimizes a divergence between the occupancy measure for the demonstrator and a model thereof for the imitator. 
-
+  
   :curly_loop: [SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/pdf/1905.11108.pdf) :+1: :fire: :volcano:  ​
   
   SQIL is equivalent to a variant of behavioral cloning (BC) that uses regularization to overcome state distribution shift. 
@@ -1930,7 +1938,7 @@ Simply maximizing likelihood with a two-layer feedforward MLP is competitive wit
   an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
 :curly_loop: [RETHINKING GOAL-CONDITIONED SUPERVISED LEARNING AND ITS CONNECTION TO OFFLINE RL](https://openreview.net/pdf?id=KJztlfGPdwW) :fire: :+1: :volcano: 
 
-The proposed method is named Weighted GCSL (WGCSL), in which we introduce an advanced compound weight consisting of three parts (1) discounted weight for goal relabeling, (2) goal-conditioned exponential advantage weight, and (3) bestadvantage weight.  
+We propose Weighted GCSL (WGCSL), in which we introduce an advanced compound weight consisting of three parts (1) discounted weight for goal relabeling, (2) goal-conditioned exponential advantage weight, and (3) best advantage weight.  
 
   :curly_loop: [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) :+1: :fire: :volcano:  ​
 
@@ -2107,6 +2115,10 @@ We augment an RL agent with a retrieval process (parameterized as a neural netwo
 :curly_loop: [VARIATIONAL ORACLE GUIDING FOR REINFORCEMENT LEARNING](https://openreview.net/pdf?id=pjqqxepwoMy) :fire:
 
 Variational latent oracle guiding (VLOG) : An important but under-explored aspect is how to leverage oracle observation (the information that is invisible during online decision making, but is available during offline training) to facilitate learning.  
+
+:curly_loop: [WISH YOU WERE HERE: HINDSIGHT GOAL SELECTION FOR LONG-HORIZON DEXTEROUS MANIPULATION](https://openreview.net/pdf?id=FKp8-pIRo3y) :no_mouth:
+
+We extend hindsight relabelling mechanisms to guide exploration along task-specific distributions implied by a small set of successful demonstrations. 
 
 
 
@@ -2855,6 +2867,10 @@ The proposed algorithm, which we call the Learning Online with Guidance Offline 
 :curly_loop: [MIRROR DESCENT POLICY OPTIMIZATION](https://openreview.net/pdf?id=aBO5SvgSt1)  :+1: :fire: 
 
 We derive on-policy and off-policy variants of MDPO (mirror descent policy optimization), while emphasizing important design choices motivated by the existing theory of MD in RL. 
+
+:curly_loop: [BREGMAN GRADIENT POLICY OPTIMIZATION](https://openreview.net/pdf?id=ZU-zFnTum1N) :fire: :fire: 
+
+We propose a Bregman gradient policy optimization (BGPO) algorithm based on both the basic momentum technique and mirror descent iteration. 
 
 
 
