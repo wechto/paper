@@ -1928,6 +1928,9 @@ Simply maximizing likelihood with a two-layer feedforward MLP is competitive wit
   :curly_loop: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: :+1:  ​
 
   an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
+:curly_loop: [RETHINKING GOAL-CONDITIONED SUPERVISED LEARNING AND ITS CONNECTION TO OFFLINE RL](https://openreview.net/pdf?id=KJztlfGPdwW) :fire: :+1: :volcano: 
+
+The proposed method is named Weighted GCSL (WGCSL), in which we introduce an advanced compound weight consisting of three parts (1) discounted weight for goal relabeling, (2) goal-conditioned exponential advantage weight, and (3) bestadvantage weight.  
 
   :curly_loop: [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) :+1: :fire: :volcano:  ​
 
