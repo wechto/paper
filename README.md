@@ -1207,6 +1207,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   We consider ILO where the expert and the learner agents operate in different environments (dynamics). We propose an AILO that trains an intermediary policy in the learner environment and uses it as a surrogate expert for the learner. 
 
+  :curly_loop: [CROSS-DOMAIN IMITATION LEARNING VIA OPTIMAL TRANSPORT](https://openreview.net/pdf?id=xP3cPq2hQC) :fire:
+
+  We propose Gromov-Wasserstein Imitation Learning (GWIL), a method for cross-domain imitation that uses the Gromov Wasserstein distance to align and compare states between the different spaces of the agents. 
+
   
 
   :curly_loop: [An Imitation from Observation Approach to Transfer Learning with Dynamics Mismatch](https://papers.nips.cc/paper/2020/file/28f248e9279ac845995c4e9f8af35c2b-Paper.pdf) :+1: :fire: :volcano:  ​
@@ -1218,9 +1222,9 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   We propose Hybrid Action Representation (HyAR) to learn a compact and decodable latent representation space for the original hybrid action space. 
 
   :curly_loop: [STATE ALIGNMENT-BASED IMITATION LEARNING](https://openreview.net/pdf?id=rylrdxHFDr) :+1: :fire:  ​
-
+  
   Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. ifo 
-
+  
   :curly_loop: [Strictly Batch Imitation Learning by Energy-based Distribution Matching](https://proceedings.neurips.cc//paper/2020/file/524f141e189d2a00968c3d48cadd4159-Paper.pdf) :fire: :boom: :sweat_drops:  ​
   
    ​By identifying parameterizations of the (discriminative) model of a policy with the (generative) energy function for state distributions, EDM yields a simple but effective solution that equivalently minimizes a divergence between the occupancy measure for the demonstrator and a model thereof for the imitator. 
