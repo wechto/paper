@@ -1479,6 +1479,10 @@ We introduce the notion of Bellman-consistent pessimism for general function app
 
 We show that a small modification to Bellman optimality and evaluation back-up to take a more conservative update can have much stronger guarantees. In certain settings, they can find the approximately best policy within the state-action space explored by the batch data, without requiring a priori assumptions of concentrability. 
 
+:curly_loop: [Pessimistic Q-Learning for Offline Reinforcement Learning: Towards Optimal Sample Complexity](https://arxiv.org/pdf/2202.13890.pdf) :fire: :droplet:
+
+LCB-Q: We study a pessimistic variant of Q-learning in the context of finite-horizon Markov decision processes, and characterize its sample complexity under the single policy concentrability assumption which does not require the full coverage of the state-action space. 
+
 :curly_loop: [Towards Instance-Optimal Offline Reinforcement Learning with Pessimism](https://papers.nips.cc/paper/2021/file/212ab20dbdf4191cbcdcf015511783f4-Paper.pdf) 
 
 :curly_loop: [Provable Benefits of Actor-Critic Methods for Offline Reinforcement Learning](https://papers.nips.cc/paper/2021/file/713fd63d76c8a57b16fc433fb4ae718a-Paper.pdf) 
