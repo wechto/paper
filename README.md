@@ -206,6 +206,8 @@ TOC
 
   
 
+  
+
 + Unsupervised Meta-Learning for Reinforcement Learning https://arxiv.org/pdf/1806.04640.pdf [Abhishek Gupta, Benjamin Eysenbach, Chelsea Finn, Sergey Levine] :confused: :wink: 
 
   Meta-RL shifts the human burden from algorithm to task design. In contrast, our work deals with the RL setting, where the environment dynamics provides a rich inductive bias that our meta-learner can exploit. 
@@ -1407,6 +1409,8 @@ examples of such properties include: datasets generated via hand-designed contro
 
 :curly_loop: [d3rlpy: An Offline Deep Reinforcement Learning Library](https://arxiv.org/pdf/2111.03788.pdf) :volcano:
 
+:curly_loop: [A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems](https://arxiv.org/pdf/2203.01387.pdf) :droplet: 
+
  
 
 :curly_loop: [An Optimistic Perspective on Offline Reinforcement Learning](http://proceedings.mlr.press/v119/agarwal20c/agarwal20c.pdf) :+1:  ​
@@ -1481,7 +1485,7 @@ We show that a small modification to Bellman optimality and evaluation back-up t
 
 :curly_loop: [Pessimistic Q-Learning for Offline Reinforcement Learning: Towards Optimal Sample Complexity](https://arxiv.org/pdf/2202.13890.pdf) :fire: :droplet:
 
-LCB-Q: We study a pessimistic variant of Q-learning in the context of finite-horizon Markov decision processes, and characterize its sample complexity under the single policy concentrability assumption which does not require the full coverage of the state-action space. 
+LCB-Q (value iteration with lower confidence bounds): We study a pessimistic variant of Q-learning in the context of finite-horizon Markov decision processes, and characterize its sample complexity under the single policy concentrability assumption which does not require the full coverage of the state-action space. 
 
 :curly_loop: [Towards Instance-Optimal Offline Reinforcement Learning with Pessimism](https://papers.nips.cc/paper/2021/file/212ab20dbdf4191cbcdcf015511783f4-Paper.pdf) 
 
@@ -2127,6 +2131,12 @@ Variational latent oracle guiding (VLOG) : An important but under-explored aspec
 :curly_loop: [WISH YOU WERE HERE: HINDSIGHT GOAL SELECTION FOR LONG-HORIZON DEXTEROUS MANIPULATION](https://openreview.net/pdf?id=FKp8-pIRo3y) :no_mouth:
 
 We extend hindsight relabelling mechanisms to guide exploration along task-specific distributions implied by a small set of successful demonstrations. 
+
+:curly_loop: [Hindsight Task Relabelling: Experience Replay for Sparse Reward Meta-RL](https://arxiv.org/pdf/2112.00901.pdf) :no_mouth:
+
+HTR: we present a formulation of hindsight relabeling for meta-RL, which relabels experience during meta-training to enable learning to learn entirely using sparse reward. 
+
+
 
 
 
@@ -2901,6 +2911,12 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
 We propose Conservative and Adaptive Penalty (CAP), a model-based safe RL framework that accounts for potential modeling errors by capturing model uncertainty and adaptively exploiting it to balance the reward and the cost objectives. 
 
 
+
+Multi-Objective RL: 
+
+:curly_loop: [Offline Constrained Multi-Objective Reinforcement Learning via Pessimistic Dual Value Iteration](https://proceedings.neurips.cc/paper/2021/file/d5c8e1ab6fc0bfeb5f29aafa999cdb29-Paper.pdf) :fire:
+
+ 
 
 
 
