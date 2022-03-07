@@ -1487,6 +1487,10 @@ We show that a small modification to Bellman optimality and evaluation back-up t
 
 LCB-Q (value iteration with lower confidence bounds): We study a pessimistic variant of Q-learning in the context of finite-horizon Markov decision processes, and characterize its sample complexity under the single policy concentrability assumption which does not require the full coverage of the state-action space. 
 
+:curly_loop: [Policy Finetuning: Bridging Sample-Efficient Offline and Online Reinforcement Learning](https://arxiv.org/pdf/2106.04895.pdf) :fire: :droplet:
+
+This paper initiates the theoretical study of policy finetuning, that is, online RL where the learner has additional access to a “reference policy” \miu close to the optimal policy \pi⋆ in a certain sense. 
+
 :curly_loop: [Towards Instance-Optimal Offline Reinforcement Learning with Pessimism](https://papers.nips.cc/paper/2021/file/212ab20dbdf4191cbcdcf015511783f4-Paper.pdf) 
 
 :curly_loop: [Provable Benefits of Actor-Critic Methods for Offline Reinforcement Learning](https://papers.nips.cc/paper/2021/file/713fd63d76c8a57b16fc433fb4ae718a-Paper.pdf) 
@@ -1522,6 +1526,8 @@ We propose a practical and theoretically guaranteed algorithm SCORE that reduces
 :curly_loop: [Why so pessimistic? Estimating uncertainties for offline rl through ensembles, and why their independence matters](https://offline-rl-neurips.github.io/2021/pdf/51.pdf) :+1: 
 
 our proposed MSG algorithm advocates for using independently learned ensembles, without sharing of target values, and this import design decision is supported by empirical evidence. 
+
+
 
 
 
@@ -1650,6 +1656,10 @@ MAPLE tries to model all possible transition dynamics in the out-of-support regi
 :curly_loop: [Supported Policy Optimization for Offline Reinforcement Learning](https://arxiv.org/pdf/2202.06239.pdf) :no_mouth:
 
 We present Supported Policy OpTimization (SPOT), which is directly derived from the theoretical formalization of the density based support constraint. SPOT adopts a VAEbased density estimator to explicitly model the support set of behavior policy. 
+
+:curly_loop: [Weighted model estimation for offline model-based reinforcement learning](https://proceedings.neurips.cc/paper/2021/file/949694a5059302e7283073b502f094d7-Paper.pdf) :fire:
+
+This paper considers weighting with the state-action distribution ratio of offline data and simulated future data, which can be estimated relatively easily by standard density ratio estimation techniques for supervised learning. 
 
 
 
