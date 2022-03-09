@@ -539,6 +539,10 @@ Meta-learner of Behavioral Similarities (AMBS): A pair of meta-learners is devel
 
 InfoPower: We propose a modified objective for model-based RL that, in combination with mutual information maximization, allows us to learn representations and dynamics for visual model-based RL without reconstruction in a way that explicitly prioritizes functionally relevant factors.  
 
+:curly_loop: [PlayVirtual: Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning](https://proceedings.neurips.cc/paper/2021/file/2a38a4a9316c49e5a833517c45d31070-Paper.pdf) :+1:
+
+PlayVirtual predicts future states in a latent space based on the current state and action by a dynamics model and then predicts the previous states by a backward dynamics model, which forms a trajectory cycle. Based on this, we augment the actions to generate a large amount of virtual state-action trajectories. 
+
   :curly_loop: [EMI: Exploration with Mutual Information](https://arxiv.org/pdf/1810.01176.pdf) :+1: 
 
   We propose EMI, which is an exploration method that constructs embedding representation of states and actions that does not rely on generative decoding of the full observation but extracts predictive signals that can be used to guide exploration based on forward prediction in the representation space. 
@@ -1903,8 +1907,6 @@ Simply maximizing likelihood with a two-layer feedforward MLP is competitive wit
   
   
   
-  :curly_loop: [Reward Shifting for Optimistic Exploration and Conservative Exploitation](https://openreview.net/pdf?id=CNY9h3uyfiO) 
-  
   
   
    :curly_loop: [A RISK-SENSITIVE POLICY GRADIENT METHOD](https://openreview.net/pdf?id=9rKTy4oZAQt) 
@@ -2540,6 +2542,12 @@ GenTD:
 
 
 
+Model Selection: 
+
+:curly_loop: [Pessimistic Model Selection for Offline Deep Reinforcement Learning](https://arxiv.org/pdf/2111.14346.pdf) :fire: :droplet:
+
+We propose a pessimistic model selection (PMS) approach for offline DRL with a theoretical guarantee, which features a provably effective framework for finding the best policy among a set of candidate models.  
+
 
 
   :curly_loop: [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
@@ -2920,18 +2928,35 @@ SPACE: We propose an iterative policy optimization algorithm that alternates bet
 
 We propose Conservative and Adaptive Penalty (CAP), a model-based safe RL framework that accounts for potential modeling errors by capturing model uncertainty and adaptively exploiting it to balance the reward and the cost objectives. 
 
+:curly_loop: [Learning to be Safe: Deep RL with a Safety Critic](https://arxiv.org/pdf/2010.14603.pdf) :no_mouth: 
+
+We propose to learn how to be safe in one set of tasks and environments, and then use that learned intuition to constrain future behaviors when learning new, modified tasks.  
+
+:curly_loop: [CONSERVATIVE SAFETY CRITICS FOR EXPLORATION](https://arxiv.org/pdf/2010.14497.pdf) :fire: :volcano: :boom:
+
+CSC:  we target the problem of safe exploration in RL by learning a conservative safety estimate of environment states through a critic, and provably upper bound the likelihood of catastrophic failures at every training iteration. 
+
+:curly_loop: [Conservative Distributional Reinforcement Learning with Safety Constraints](https://arxiv.org/pdf/2201.07286.pdf) :fire: 
+
+We propose the CDMPO algorithm to solve safety-constrained RL problems. Our method incorporates a conservative exploration strategy as well as a conservative distribution function.  CSC + distributional RL + MPO + WAPID 
+
+:curly_loop: [CUP: A Conservative Update Policy Algorithm for Safe Reinforcement Learning](https://arxiv.org/pdf/2202.07565.pdf) :+1: :fire: :volcano: :boom: 
+
+(i) We provide a rigorous theoretical analysis to extend the surrogate functions to generalized advantage estimator (GAE). GAE significantly reduces variance empirically while maintaining a tolerable level of bias, which is an efficient step for us to design CUP; (ii) The proposed bounds are tighter than existing works, i.e., using the proposed bounds as surrogate functions are better local approximations to the objective and safety constraints. (iii) The proposed CUP provides a non-convex implementation via first-order optimizers, which does not depend on any convex approximation.  
+
+
+
 
 
 Multi-Objective RL: 
 
-:curly_loop: [Offline Constrained Multi-Objective Reinforcement Learning via Pessimistic Dual Value Iteration](https://proceedings.neurips.cc/paper/2021/file/d5c8e1ab6fc0bfeb5f29aafa999cdb29-Paper.pdf) :fire:
+:curly_loop: [Offline Constrained Multi-Objective Reinforcement Learning via Pessimistic Dual Value Iteration](https://proceedings.neurips.cc/paper/2021/file/d5c8e1ab6fc0bfeb5f29aafa999cdb29-Paper.pdf) :fire: 
 
  
 
 
 
   
-
 
 <a name="anchor-disrl"></a>   
 
