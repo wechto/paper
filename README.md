@@ -2944,6 +2944,28 @@ We propose the CDMPO algorithm to solve safety-constrained RL problems. Our meth
 
 (i) We provide a rigorous theoretical analysis to extend the surrogate functions to generalized advantage estimator (GAE). GAE significantly reduces variance empirically while maintaining a tolerable level of bias, which is an efficient step for us to design CUP; (ii) The proposed bounds are tighter than existing works, i.e., using the proposed bounds as surrogate functions are better local approximations to the objective and safety constraints. (iii) The proposed CUP provides a non-convex implementation via first-order optimizers, which does not depend on any convex approximation.  
 
+:curly_loop: [MESA: Offline Meta-RL for Safe Adaptation and Fault Tolerance](https://arxiv.org/pdf/2112.03575.pdf) :no_mouth: 
+
+We cast safe exploration as an offline metaRL problem, where the objective is to leverage examples of safe and unsafe behavior across a range of environments to quickly adapt learned risk measures to a new environment with previously unseen dynamics.  
+
+:curly_loop: [Safe Driving via Expert Guided Policy Optimization](https://proceedings.mlr.press/v164/peng22a/peng22a.pdf) :+1: :fire:
+
+We develop a novel EGPO method which integrates the guardian in the loop of reinforcement learning. The guardian is composed of an expert policy to generate demonstration and a switch function to decide when to intervene.  
+
+:curly_loop: [EFFICIENT LEARNING OF SAFE DRIVING POLICY VIA HUMAN-AI COPILOT OPTIMIZATION](https://arxiv.org/pdf/2202.10341.pdf) :fire: 
+
+ Human-AI Copilot Optimization (HACO): Human can take over the control and demonstrate to the agent how to avoid probably dangerous situations or trivial behaviors. 
+
+:curly_loop: [SAFER: DATA-EFFICIENT AND SAFE REINFORCEMENT LEARNING THROUGH SKILL ACQUISITION](https://arxiv.org/pdf/2202.04849.pdf) :fire: 
+
+We propose SAFEty skill pRiors, a behavioral prior learning algorithm that accelerates policy learning on complex control tasks, under safety constraints. Through principled contrastive training on safe and unsafe data, SAFER learns to extract a safety variable from offline data that encodes safety requirements, as well as the safe primitive skills over abstract actions in different scenarios. 
+
+:curly_loop: [Sim-to-Lab-to-Real: Safe Reinforcement Learning with Shielding and Generalization Guarantees](https://arxiv.org/pdf/2201.08355.pdf) :fire:
+
+We propose the Sim-to-Lab-to-Real framework that combines Hamilton-Jacobi reachability analysis and PAC-Bayes generalization guarantees to safely close the sim2real gap. Joint training of a performance and a backup policy in Sim training (1st stage) ensures safe exploration during Lab training (2nd stage).  
+
+
+
 
 
 
