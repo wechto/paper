@@ -3096,6 +3096,9 @@ Multi-Objective RL:
   
   we propose a method for disentangling a set of factors which are only partially labeled, as well as separating the complementary set of residual factors that are never explicitly specified.  ​
   
+  :curly_loop: [Recomposing the Reinforcement Learning Building Blocks with Hypernetworks](https://arxiv.org/pdf/2106.06842.pdf) :fire:
+  
+  To consider the interaction between the input variables, we suggest using a Hypernetwork architecture where a primary network determines the weights of a conditional dynamic network.  
 
 
 
