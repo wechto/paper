@@ -1959,14 +1959,30 @@ Simply maximizing likelihood with a two-layer feedforward MLP is competitive wit
 
   :curly_loop: [LEARNING TO REACH GOALS VIA ITERATED SUPERVISED LEARNING](https://openreview.net/pdf?id=rALA0Xo6yNJ) :no_mouth: :+1:  ​
 
-  an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch. 
+  GCSL: an agent continually relabels and imitates the trajectories it generates to progressively learn goal-reaching behaviors from scratch.  see more in RVS:  see more in https://www.youtube.com/watch?v=sVPm7zOrBxM&ab_channel=RAIL 
 :curly_loop: [RETHINKING GOAL-CONDITIONED SUPERVISED LEARNING AND ITS CONNECTION TO OFFLINE RL](https://openreview.net/pdf?id=KJztlfGPdwW) :fire: :+1: :volcano: 
 
 We propose Weighted GCSL (WGCSL), in which we introduce an advanced compound weight consisting of three parts (1) discounted weight for goal relabeling, (2) goal-conditioned exponential advantage weight, and (3) best advantage weight.  
 
+:curly_loop: [Learning Latent Plans from Play](https://arxiv.org/pdf/1903.01973.pdf) :fire: 
+
+Play-GCBC;  Play-LM;  To learn control from play, we introduce Play-LMP, a selfsupervised method that learns to organize play behaviors in a latent space, then reuse them at test time to achieve specific goals. 
+
   :curly_loop: [Reward-Conditioned Policies](https://arxiv.org/pdf/1912.13465.pdf) :+1: :fire: :volcano:  ​
 
   Non-expert trajectories collected from suboptimal policies can be viewed as optimal supervision, not for maximizing the reward, but for matching the reward of the given trajectory.  Any experience collected by an agent can be used as optimal supervision when conditioned on the quality of a policy. 
+
+:curly_loop: [Training Agents using Upside-Down Reinforcement Learning](https://arxiv.org/pdf/1912.02877.pdf) :fire: 
+
+UDRL: The goal of learning is no longer to maximize returns in expectation, but to learn to follow commands that may take various forms such as “achieve total reward R in next T time steps” or “reach state S in fewer than T time steps”. 
+
+:curly_loop: [DEEP IMITATIVE MODELS FOR FLEXIBLE INFERENCE, PLANNING, AND CONTROL](https://arxiv.org/pdf/1810.06544.pdf) 
+
+
+
+:curly_loop: [ViKiNG: Vision-Based Kilometer-Scale Navigation with Geographic Hints](https://arxiv.org/pdf/2202.11271.pdf) 
+
+
 
   :curly_loop: [Search on the Replay Buffer: Bridging Planning and Reinforcement Learning](https://arxiv.org/pdf/1906.05253.pdf) :fire: :+1:  ​ ​
 
