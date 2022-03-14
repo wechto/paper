@@ -1627,10 +1627,6 @@ MABE: By adaptive behavioral prior, we mean a policy that approximates the behav
 
 We propose using a gradient penalty regularizer for the offset term and demonstrate its equivalence to Fisher divergence regularization, suggesting connections to the score matching and generative energy-based model literature. 
 
-:curly_loop: [OFFLINE MODEL-BASED OPTIMIZATION VIA NORMALIZED MAXIMUM LIKELIHOOD ESTIMATION](https://arxiv.org/pdf/2102.07970.pdf) :volcano: :droplet: 
-
-we consider data-driven optimization problems where one must maximize a function given only queries at a fixed set of points. provides a principled approach to handling uncertainty and out-of-distribution inputs.
-
 :curly_loop: [Uncertainty Weighted Actor-Critic for Offline Reinforcement Learning](https://arxiv.org/pdf/2105.08140.pdf) :+1: :fire:  ​ ​
 
 UWAC: an algorithm that detects OOD state-action pairs and down-weights their contribution in the training objectives accordingly. 
@@ -1698,8 +1694,6 @@ we propose an uncertainty-based model-free offline RL method that effectively qu
 :curly_loop: [ROBUST OFFLINE REINFORCEMENT LEARNING FROM LOW-QUALITY DATA](https://openreview.net/pdf?id=uOjm_xqKEoX) :no_mouth:  
 
 AdaPT: we propose an Adaptive Policy constrainT (AdaPT) method, which allows effective exploration on out-ofdistribution actions by imposing an adaptive constraint on the learned policy. 
-
-:curly_loop: [RoMA: Robust Model Adaptation for Offline Model-based Optimization](https://openreview.net/pdf?id=VH0TRmnqUc) 
 
 
 
@@ -1776,6 +1770,30 @@ Simply maximizing likelihood with a two-layer feedforward MLP is competitive wit
 
 
 
+
+:o: Designs from Data: 
+
+:curly_loop: Designs from Data: Offline Black-Box Optimization via Conservative Training  [see here](https://bair.berkeley.edu/blog/2021/10/25/coms_mbo/)  
+
+:curly_loop: [OFFLINE MODEL-BASED OPTIMIZATION VIA NORMALIZED MAXIMUM LIKELIHOOD ESTIMATION](https://arxiv.org/pdf/2102.07970.pdf) :volcano: :droplet: 
+
+we consider data-driven optimization problems where one must maximize a function given only queries at a fixed set of points. provides a principled approach to handling uncertainty and out-of-distribution inputs.
+
+:curly_loop: [Model Inversion Networks for Model-Based Optimization](https://proceedings.neurips.cc/paper/2020/file/373e4c5d8edfa8b74fd4b6791d0cf6dc-Paper.pdf) :fire: 
+
+MINs: This work addresses data-driven optimization problems, where the goal is to find an input that maximizes an unknown score or reward function given access to a dataset of inputs with corresponding scores.  
+
+:curly_loop: [RoMA: Robust Model Adaptation for Offline Model-based Optimization](https://openreview.net/pdf?id=VH0TRmnqUc) :+1: 
+
+RoMA consists of two steps: (a) a pre-training strategy to robustly train the proxy model and (b) a novel adaptation procedure of the proxy model to have robust estimates for a specific set of candidate solutions. 
+
+:curly_loop: [Conservative Objective Models for Effective Offline Model-Based Optimization](http://proceedings.mlr.press/v139/trabucco21a/trabucco21a.pdf) :fire: :volcano: 
+
+COMs: We propose conservative objective models (COMs), a method that learns a model of the objective function which lower bounds the actual value of the ground-truth objective on outof-distribution inputs and uses it for optimization. 
+
+:curly_loop: [DATA-DRIVEN OFFLINE OPTIMIZATION FOR ARCHITECTING HARDWARE ACCELERATORS](https://arxiv.org/pdf/2110.11346.pdf) :+1:
+
+PRIME: we develop such a data-driven offline optimization method for designing hardware accelerators. PRIME learns a conservative, robust estimate of the desired cost function, utilizes infeasible points and optimizes the design against this estimate without any additional simulator queries during optimization. 
 
 
 
@@ -3181,6 +3199,8 @@ Multi-Objective RL:
   :curly_loop: [MAXIMIZING ENSEMBLE DIVERSITY IN DEEP REINFORCEMENT LEARNING](https://openreview.net/pdf?id=hjd-kcpDpf2) :+1:
   
   We describe Maximize Ensemble Diversity in Reinforcement Learning (MED-RL), a set of regularization methods inspired from the economics and consensus optimization to improve diversity in the ensemble based deep reinforcement learning methods by encouraging inequality between the networks during training.
+  
+  
   
   
   
