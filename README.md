@@ -1771,7 +1771,7 @@ Simply maximizing likelihood with a two-layer feedforward MLP is competitive wit
 
 
 
-:o: Designs from Data: 
+:o: Designs from Data | offline MBO 
 
 :curly_loop: Designs from Data: Offline Black-Box Optimization via Conservative Training  [see here](https://bair.berkeley.edu/blog/2021/10/25/coms_mbo/)  
 
