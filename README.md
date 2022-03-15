@@ -1619,6 +1619,10 @@ This framework consists of two steps: (a) learning a pessimistic MDP (P-MDP) usi
 
 This results in a conservative estimate of the value function for out-of-support state-action tuples, without requiring explicit uncertainty estimation. 
 
+:curly_loop: [DROMO: Distributionally Robust Offline Model-based Policy Optimization](https://arxiv.org/pdf/2109.07275.pdf) :fire: 
+
+To extend the basic idea of regularization without uncertainty quantification, we propose distributionally robust offline model-based policy optimization (DROMO), which leverages the ideas in distributionally robust optimization to penalize a broader range of out-of-distribution state-action pairs beyond the standard empirical out-of-distribution Q-value minimization. 
+
 :curly_loop: [Behavioral Priors and Dynamics Models: Improving Performance and Domain Transfer in Offline RL](https://arxiv.org/pdf/2106.09119.pdf)  :volcano:
 
 MABE: By adaptive behavioral prior, we mean a policy that approximates the behavior in the offline dataset while giving more importance to trajectories with high rewards.  
@@ -1911,6 +1915,10 @@ PRIME: we develop such a data-driven offline optimization method for designing h
   
   We present a practical exploration method to address the limitations of RLSVI and BootDQN. 
   
+  :curly_loop: [Rapid Exploration for Open-World Navigation with Latent Goal Models](https://arxiv.org/pdf/2104.05859.pdf) :+1: 
+  
+  RECON: We use an information bottleneck to regularize the learned policy, giving us (i) a compact visual representation of goals, (ii) improved generalization capabilities, and (iii) a mechanism for sampling feasible goals for exploration.  
+  
   
   
   :curly_loop: [Better Exploration with Optimistic Actor-Critic](https://arxiv.org/pdf/1910.12807.pdf) :+1: 
@@ -1938,6 +1946,8 @@ PRIME: we develop such a data-driven offline optimization method for designing h
   :curly_loop: [Tactical Optimism and Pessimism for Deep Reinforcement Learning](https://arxiv.org/pdf/2102.03765.pdf) :fire: 
   
   TOP: we propose the use of an adaptive approach in which the degree of optimism or pessimism is adjusted dynamically during training. As a consequence of this approach, the optimal degree of optimism can vary across tasks and over the course of a single training run as the model improves. 
+  
+  
 
 
 
@@ -1994,9 +2004,9 @@ Play-GCBC;  Play-LM;  To learn control from play, we introduce Play-LMP, a selfs
 
 UDRL: The goal of learning is no longer to maximize returns in expectation, but to learn to follow commands that may take various forms such as “achieve total reward R in next T time steps” or “reach state S in fewer than T time steps”. 
 
-:curly_loop: [DEEP IMITATIVE MODELS FOR FLEXIBLE INFERENCE, PLANNING, AND CONTROL](https://arxiv.org/pdf/1810.06544.pdf) 
+:curly_loop: [DEEP IMITATIVE MODELS FOR FLEXIBLE INFERENCE, PLANNING, AND CONTROL](https://arxiv.org/pdf/1810.06544.pdf) :+1: :fire: 
 
-d 
+We propose “Imitative Models” to combine the benefits of IL and goal-directed planning. Imitative Models are probabilistic predictive models of desirable behavior able to plan interpretable expert-like trajectories to achieve specified goals. 
 
 :curly_loop: [ViKiNG: Vision-Based Kilometer-Scale Navigation with Geographic Hints](https://arxiv.org/pdf/2202.11271.pdf) 
 
@@ -3093,8 +3103,14 @@ Multi-Objective RL:
   :curly_loop: [MODELING THE SECOND PLAYER IN DISTRIBUTIONALLY ROBUST OPTIMIZATION](https://openreview.net/pdf?id=ZDnzZrTqU9N) :+1: :fire:  ​ ​
 
   we argue instead for the use of neural generative models to characterize the worst-case distribution, allowing for more flexible and problem-specific selection of *the uncertainty set*. 
-  
+
   :curly_loop: [Wasserstein Distributionally Robust Optimization: Theory and Applications in Machine Learning](https://arxiv.org/pdf/1908.08729.pdf) 
+
+  
+
+  :curly_loop: [Variance-based regularization with convex objectives](https://arxiv.org/pdf/1610.02581.pdf) 
+
+  
 
 + Distribution shift; Robust; 
 
@@ -3353,8 +3369,6 @@ Multi-Objective RL:
   
   
 
-
-
 + BNN 
 
   :curly_loop: [Auto-Encoding Variational Bayes](https://www.ics.uci.edu/~welling/publications/papers/AEVB_ICLR14.pdf) :+1:  ​
@@ -3367,9 +3381,13 @@ Multi-Objective RL:
 
 
 
++ HyperNetworks 
 
+  :curly_loop: [HYPERNETWORKS](https://arxiv.org/pdf/1609.09106.pdf) :+1:  
 
+  
 
+  
 
 
 
