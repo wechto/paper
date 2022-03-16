@@ -3385,8 +3385,22 @@ Multi-Objective RL:
 
   :curly_loop: [HYPERNETWORKS](https://arxiv.org/pdf/1609.09106.pdf) :+1:  
 
-  
+  :curly_loop: [NEURAL ARCHITECTURE SEARCH WITH REINFORCEMENT LEARNING](https://arxiv.org/pdf/1611.01578.pdf) 
 
+  :curly_loop: [META-LEARNING WITH LATENT EMBEDDING OPTIMIZATION](https://arxiv.org/pdf/1807.05960.pdf) :fire: :volcano:
+
+  LEO: learning a data-dependent latent generative representation of model parameters, and performing gradient-based meta-learning in this low dimensional latent space. 
+
+  :curly_loop: [CONTINUAL LEARNING WITH HYPERNETWORKS](https://arxiv.org/pdf/1906.00695.pdf) :fire:
+
+  Instead of recalling the input-output relations of all previously seen data, task-conditioned hypernetworks only require rehearsing task-specific weight realizations, which can be maintained in memory using a simple regularizer. 
+  
+  
+  
+   
+  
+  
+  
   
 
 
