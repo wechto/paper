@@ -85,7 +85,11 @@ TOC
 
   The policy-gradient updates the policy parameters to optimize the sum of the extrinsic and intrinsic rewards, while simultaneously our method updates the intrinsic reward parameters to optimize the extrinsic rewards achieved by the policy.   
 
-  :curly_loop: [Adversarial Intrinsic Motivation for Reinforcement Learning](https://arxiv.org/pdf/2105.13345.pdf) :droplet: 
+  :curly_loop: [Adversarial Intrinsic Motivation for Reinforcement Learning](https://arxiv.org/pdf/2105.13345.pdf) :droplet:
+
+  :curly_loop: [Evaluating Agents without Rewards](https://arxiv.org/pdf/2012.11538.pdf) :no_mouth:
+
+  We retrospectively compute potential objectives on pre-collected datasets of agent behavior, rather than optimizing them online, and compare them by analyzing their correlations. 
 
   
 
@@ -2664,6 +2668,14 @@ We bring the key insight that a positive reward shifting leads to conservative e
 
 HuRL: We show how heuristic-guided RL induces a much shorter-horizon subproblem that provably solves the original task. Our framework can be viewed as a horizon-based regularization for controlling bias and variance in RL under a finite interaction budget. 
 
+:curly_loop: [Using a Logarithmic Mapping to Enable Lower Discount Factors in Reinforcement Learning](https://arxiv.org/pdf/1906.00572.pdf) 
+
+
+
+:curly_loop: [ORCHESTRATED VALUE MAPPING FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2203.07171.pdf) :fire:
+
+We present a general convergent class of reinforcement learning algorithms that is founded on two distinct principles: (1) mapping value estimates to a different space using arbitrary functions from a broad class, and (2) linearly decomposing the reward signal into multiple channels.  
+
  ​ ​
 
   
@@ -3391,9 +3403,17 @@ Multi-Objective RL:
 
   LEO: learning a data-dependent latent generative representation of model parameters, and performing gradient-based meta-learning in this low dimensional latent space. 
 
-  :curly_loop: [CONTINUAL LEARNING WITH HYPERNETWORKS](https://arxiv.org/pdf/1906.00695.pdf) :fire:
+  :curly_loop: [CONTINUAL LEARNING WITH HYPERNETWORKS](https://arxiv.org/pdf/1906.00695.pdf) :fire: 
 
   Instead of recalling the input-output relations of all previously seen data, task-conditioned hypernetworks only require rehearsing task-specific weight realizations, which can be maintained in memory using a simple regularizer. 
+  
+  :curly_loop: [Continual Model-Based Reinforcement Learning with Hypernetworks](https://meta-learn.github.io/2020/papers/52_paper.pdf) :+1:
+  
+  :curly_loop: [Hypernetwork-Based Augmentation](https://arxiv.org/pdf/2006.06320.pdf) :fire:
+  
+  We propose an efficient gradient-based search algorithm, called Hypernetwork-Based Augmentation (HBA), which simultaneously learns model parameters and augmentation hyperparameters in a single training. 
+  
+  
   
   
   
