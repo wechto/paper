@@ -2668,13 +2668,19 @@ We bring the key insight that a positive reward shifting leads to conservative e
 
 HuRL: We show how heuristic-guided RL induces a much shorter-horizon subproblem that provably solves the original task. Our framework can be viewed as a horizon-based regularization for controlling bias and variance in RL under a finite interaction budget. 
 
-:curly_loop: [Using a Logarithmic Mapping to Enable Lower Discount Factors in Reinforcement Learning](https://arxiv.org/pdf/1906.00572.pdf) 
+:curly_loop: [Using a Logarithmic Mapping to Enable Lower Discount Factors in Reinforcement Learning](https://arxiv.org/pdf/1906.00572.pdf) :fire: :droplet:
 
-
+Our results provide strong evidence for our hypothesis that large differences in action-gap sizes are detrimental to the performance of approximate RL.  
 
 :curly_loop: [ORCHESTRATED VALUE MAPPING FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2203.07171.pdf) :fire:
 
 We present a general convergent class of reinforcement learning algorithms that is founded on two distinct principles: (1) mapping value estimates to a different space using arbitrary functions from a broad class, and (2) linearly decomposing the reward signal into multiple channels.  
+
+:curly_loop: [Discount Factor as a Regularizer in Reinforcement Learning](http://proceedings.mlr.press/v119/amit20a/amit20a.pdf) :fire: :+1:
+
+We show an explicit equivalence between using a reduced discount factor and adding an explicit regularization term to the algorithm’s loss.  
+
+
 
  ​ ​
 
