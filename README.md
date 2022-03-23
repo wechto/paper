@@ -1143,6 +1143,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   
 
+  :curly_loop: [A Primer on Maximum Causal Entropy Inverse Reinforcement Learning](https://arxiv.org/pdf/2203.11409.pdf) :droplet:  
+
+  
+
   :curly_loop: [ADVERSARIAL IMITATION VIA VARIATIONAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/1809.06404.pdf) :+1: :fire: :droplet: 
 
   Our method simultaneously learns empowerment through variational information maximization along with the reward and policy under the adversarial learning formulation.  
@@ -1228,9 +1232,9 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   learning the grounded action transformation can be seen as an IfO problem; GARAT: learn an action transformation policy for transfer learning with dynamics mismatch.     we focus on the paradigm of simulator grounding, which modifies the source environment’s dynamics to more closely match the target environment dynamics using a relatively small amount of target environment data. 
 
   :curly_loop: [HYAR: ADDRESSING DISCRETE-CONTINUOUS ACTION REINFORCEMENT LEARNING VIA HYBRID ACTION EPRESENTATION](https://openreview.net/pdf?id=64trBbOhdGU) 
-
+  
   We propose Hybrid Action Representation (HyAR) to learn a compact and decodable latent representation space for the original hybrid action space. 
-
+  
   :curly_loop: [STATE ALIGNMENT-BASED IMITATION LEARNING](https://openreview.net/pdf?id=rylrdxHFDr) :+1: :fire:  ​
   
   Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. ifo 
@@ -1380,6 +1384,10 @@ We review recent advances based on joint and dynamic importance predictor estima
   :curly_loop: [SURF: SEMI-SUPERVISED REWARD LEARNING WITH DATA AUGMENTATION FOR FEEDBACK-EFFICIENT PREFERENCE-BASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=TfhfZLQ2EJO) :no_mouth:
   
   We present SURF, a semi-supervised reward learning framework that utilizes a large amount of unlabeled samples with data augmentation, where we infer pseudo-labels of the unlabeled samples based on the confidence of the preference predictor. 
+  
+  :curly_loop: [Teachable Reinforcement Learning via Advice Distillation](https://arxiv.org/pdf/2203.11197.pdf) :no_mouth:
+  
+  We propose a new supervision paradigm for interactive learning based on “teachable” decision-making systems that learn from structured advice provided by an external teacher.  
   
   
   
@@ -2888,6 +2896,10 @@ Yet, another estimate could be leveraged to bootstrap RL: the current policy. Ou
 
 Convex Conjugacy for KL and Entropy Regularization;  1) Mirror Descent MPI: SAC, Soft Q-learning; Softmax DQN, mellowmax policy, TRPO, MPO, DPP, CVI:droplet:;  2) Dual Averaging MPI:droplet::  
 
+:curly_loop: [Proximal Iteration for Deep Reinforcement Learning](https://arxiv.org/pdf/2112.05848.pdf) :fire:
+
+Our contribution is to employ Proximal Iteration for optimization in deep RL.  
+
 :curly_loop: [Theoretical Analysis of Efficiency and Robustness of Softmax and Gap-Increasing Operators in Reinforcement Learning](http://proceedings.mlr.press/v89/kozuno19a/kozuno19a.pdf) :+1: :droplet: 
 
 We propose and analyze conservative value iteration (CVI), which unifies value iteration, soft value iteration, advantage learning, and dynamic policy programming. 
@@ -3067,6 +3079,8 @@ Multi-Objective RL:
 ## Continual Learning 
 
   :curly_loop: [Continual Learning with Deep Generative Replay](https://papers.nips.cc/paper/6892-continual-learning-with-deep-generative-replay.pdf)  :droplet: :no_mouth:  
+
+We propose the Deep Generative Replay, a novel framework with a cooperative dual model architecture consisting of a deep generative model (“generator”) and a task solving model (“solver”).
 
   :curly_loop: online learning; regret :sweat_drops:  ​
 
