@@ -1279,6 +1279,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   
   LfO: FORM (“Future Observation Reward Model”) is derived from an inverse RL objective and imitates using a model of expert behavior learned by generative modelling of the expert’s observations, without needing ground truth actions.  
   
+  :curly_loop: [AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control](https://arxiv.org/pdf/2104.02180.pdf) :no_mouth:
+  
+  we presented an adversarial learning system for physics based character animation that enables characters to imitate diverse behaviors from large unstructured datasets, without the need for motion planners or other mechanisms for clip selection.  
+  
   
 
 :curly_loop: [Reinforced Imitation Learning by Free Energy Principle](https://arxiv.org/pdf/2107.11811.pdf) :droplet: 
@@ -1291,9 +1295,7 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
 This paper studies Distributionally Robust Imitation Learning (DROIL) and establishes a close connection between DROIL and Maximum Entropy Inverse Reinforcement Learning. 
 
-:curly_loop: [AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control](https://arxiv.org/pdf/2104.02180.pdf) 
 
-:curly_loop: [Implicit Behavioral Cloning](https://proceedings.mlr.press/v164/florence22a/florence22a.pdf) 
 
 
 
@@ -1792,6 +1794,10 @@ We propose Adversarially Trained Actor Critic (ATAC) based on a two-player Stack
 :curly_loop: [RVS: WHAT IS ESSENTIAL FOR OFFLINE RL VIA SUPERVISED LEARNING?](https://arxiv.org/pdf/2112.10751.pdf) :no_mouth:
 
 Simply maximizing likelihood with a two-layer feedforward MLP is competitive with state-of-the-art results of substantially more complex methods based on TD learning or sequence modeling with Transformers. Carefully choosing model capacity (e.g., via regularization or architecture) and choosing which information to condition on (e.g., goals or rewards) are critical for performance.  [THE ESSENTIAL ELEMENTS OF OFFLINE RL VIA SUPERVISED LEARNING](https://openreview.net/pdf?id=S874XAIpkR-)  
+
+:curly_loop: [Implicit Behavioral Cloning](https://arxiv.org/pdf/2109.00137.pdf) :fire: :volcano: :boom: 
+
+In this paper we showed that reformulating supervised imitation learning as a conditional energy-based modeling problem, with inference-time implicit regression, often greatly outperforms traditional explicit policy baselines. 
 
 
 
