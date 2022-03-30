@@ -2688,7 +2688,9 @@ We present a general convergent class of reinforcement learning algorithms that 
 
 We show an explicit equivalence between using a reduced discount factor and adding an explicit regularization term to the algorithm’s loss.  
 
+:curly_loop: [Learning to Score Behaviors for Guided Policy Optimization](https://arxiv.org/pdf/1906.04349.pdf) :fire: :droplet: 
 
+ We show that by utilizing the dual formulation of the WD, we can learn score functions over policy behaviors that can in turn be used to lead policy optimization towards (or away from) (un)desired behaviors. 
 
  ​ ​
 
