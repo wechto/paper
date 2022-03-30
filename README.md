@@ -1291,6 +1291,14 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
 This paper studies Distributionally Robust Imitation Learning (DROIL) and establishes a close connection between DROIL and Maximum Entropy Inverse Reinforcement Learning. 
 
+:curly_loop: [AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control](https://arxiv.org/pdf/2104.02180.pdf) 
+
+:curly_loop: [Implicit Behavioral Cloning](https://proceedings.mlr.press/v164/florence22a/florence22a.pdf) 
+
+
+
+
+
 
 
 :curly_loop: [TRAIL: NEAR-OPTIMAL IMITATION LEARNING WITH SUBOPTIMAL DATA](https://arxiv.org/pdf/2110.14770.pdf) :fire: :volcano:  
@@ -1388,6 +1396,12 @@ We review recent advances based on joint and dynamic importance predictor estima
   :curly_loop: [Teachable Reinforcement Learning via Advice Distillation](https://arxiv.org/pdf/2203.11197.pdf) :no_mouth:
   
   We propose a new supervision paradigm for interactive learning based on “teachable” decision-making systems that learn from structured advice provided by an external teacher.  
+  
+  
+  
+  :curly_loop: [ReIL: A Framework for Reinforced Intervention-based Imitation Learning](https://arxiv.org/pdf/2203.15390.pdf) :+1:
+  
+  We introduce Reinforced Interventionbased Learning (ReIL), a framework consisting of a general intervention-based learning algorithm and a multi-task imitation learning model aimed at enabling non-expert users to train agents in real environments with little supervision or fine tuning.  
   
   
   
