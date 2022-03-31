@@ -1711,6 +1711,8 @@ Soft Behavior-regularized Actor Critic (SBAC): we design a new behavior regulari
 
 
 
+
+
 :curly_loop: [Offline Reinforcement Learning with Pseudometric Learning](https://arxiv.org/pdf/2103.01948.pdf) :+1: :fire: :volcano:
 
  In the presence of function approximation, and under the assumption of limited coverage of the state-action space of the environment, it is necessary to enforce the policy to visit state-action pairs close to the support of logged transitions. In this work, we propose an iterative procedure to learn a pseudometric (closely related to bisimulation metrics) from logged transitions, and use it to define this notion of closeness.  
@@ -1741,9 +1743,13 @@ Gaussian process over policy values; Kernel; Active offline policy selection wit
 
 :curly_loop: [Offline Policy Selection under Uncertainty](https://arxiv.org/pdf/2012.06919.pdf) :sweat_drops:  ​
 
-:curly_loop: [Offline Learning from Demonstrations and Unlabeled Experience](https://arxiv.org/pdf/2011.13885.pdf) :no_mouth: :+1:  ​
+:curly_loop: [Offline Learning from Demonstrations and Unlabeled Experience](https://arxiv.org/pdf/2011.13885.pdf) :no_mouth: :+1: :fire: 
 
 We proposed offline reinforced imitation learning (ORIL) to enable learning from both demonstrations and a large unlabeled set of experiences without reward annotations.  
+
+:curly_loop: [Discriminator-Weighted Offline Imitation Learning from Suboptimal Demonstrations](https://openreview.net/pdf?id=XfK0p2TSIB) :fire: :volcano: :boom: 
+
+DWBC: We introduce an additional discriminator to distinguish expert and non-expert data, we propose a cooperation strategy to boost the performance of both tasks, this will result in a new policy learning objective and surprisingly, we find its equivalence to a generalized BC objective, where the outputs of discriminator serve as the weights of the BC loss function.
 
 :curly_loop: [Offline Preference-Based Apprenticeship Learning](https://arxiv.org/pdf/2107.09251.pdf) :+1:  ​
 
@@ -1799,7 +1805,9 @@ Simply maximizing likelihood with a two-layer feedforward MLP is competitive wit
 
 In this paper we showed that reformulating supervised imitation learning as a conditional energy-based modeling problem, with inference-time implicit regression, often greatly outperforms traditional explicit policy baselines. 
 
+:curly_loop: [Latent-Variable Advantage-Weighted Policy Optimization for Offline RL](https://arxiv.org/pdf/2203.08949.pdf) :no_mouth: 
 
+LAPO: we study an offline RL setup for learning from heterogeneous datasets where trajectories are collected using policies with different purposes, leading to a multi-modal data distribution. 
 
 
 
