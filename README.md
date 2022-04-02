@@ -677,6 +677,10 @@ Because environments are not labelled, the extracted information inevitably cont
 
 We propose Cross Trajectory Representation Learning (CTRL), a method that runs within an RL agent and conditions its encoder to recognize behavioral similarity in observations by applying a novel SSL objective to pairs of trajectories from the agent’s policies. 
 
+:curly_loop: [Bayesian Imitation Learning for End-to-End Mobile Manipulation](https://arxiv.org/pdf/2202.07600.pdf) :+1: 
+
+We show that using the Variational Information Bottleneck to regularize convolutional neural networks improves generalization to held-out domains and reduces the sim-to-real gap in a sensor-agnostic manner. As a side effect, the learned embeddings also provide useful estimates of model uncertainty for each sensor. 
+
 
 
 :curly_loop: [Control-Aware Representations for Model-based Reinforcement Learning](https://arxiv.org/pdf/2006.13408.pdf) :+1: :volcano: :boom: :boom: 
@@ -1245,7 +1249,7 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   
   :curly_loop: [SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/pdf/1905.11108.pdf) :+1: :fire: :volcano:  ​
   
-  SQIL is equivalent to a variant of behavioral cloning (BC) that uses regularization to overcome state distribution shift. 
+  SQIL is equivalent to a variant of behavioral cloning (BC) that uses regularization to overcome state distribution shift. We accomplish this by giving the agent a constant reward of r = +1 for matching the demonstrated action in a demonstrated state, and a constant reward of r = 0 for all other behavior. 
   
   :curly_loop: [IQ-Learn: Inverse soft-Q Learning for Imitation](https://arxiv.org/pdf/2106.12142.pdf) :+1: :fire: :volcano: :droplet: 
   
@@ -1299,9 +1303,13 @@ This paper studies Distributionally Robust Imitation Learning (DROIL) and establ
 
 
 
+:curly_loop: [Provable Representation Learning for Imitation Learning via Bi-level Optimization](https://arxiv.org/pdf/2002.10544.pdf) 
 
 
 
+:curly_loop: [Provable Representation Learning for Imitation with Contrastive Fourier Features](https://arxiv.org/pdf/2105.12272.pdf) :fire: :boom:
+
+We derive a representation learning objective that provides an upper bound on the performance difference between the target policy and a lowdimensional policy trained with max-likelihood, and this bound is tight regardless of whether the target policy itself exhibits low-dimensional structure. 
 
 :curly_loop: [TRAIL: NEAR-OPTIMAL IMITATION LEARNING WITH SUBOPTIMAL DATA](https://arxiv.org/pdf/2110.14770.pdf) :fire: :volcano:  
 
@@ -1325,7 +1333,7 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
 
   We show that simple quality-estimation approaches might fail due to compounding error, and fix this issue by jointly estimating both the quality and reward using a variational approach. 
   
-  :curly_loop: [BEHAVIORAL CLONING FROM NOISY DEMONSTRATION](https://openreview.net/pdf?id=zrT3HcsWSAt) :volcano: :sweat_drops: 
+  :curly_loop: [BEHAVIORAL CLONING FROM NOISY DEMONSTRATIONS](https://openreview.net/pdf?id=zrT3HcsWSAt) :volcano: :sweat_drops: 
   
   we propose an imitation learning algorithm to address the problem without any environment interactions and annotations associated with the non-optimal demonstrations. 
   
@@ -1808,6 +1816,10 @@ In this paper we showed that reformulating supervised imitation learning as a co
 :curly_loop: [Latent-Variable Advantage-Weighted Policy Optimization for Offline RL](https://arxiv.org/pdf/2203.08949.pdf) :no_mouth: 
 
 LAPO: we study an offline RL setup for learning from heterogeneous datasets where trajectories are collected using policies with different purposes, leading to a multi-modal data distribution. 
+
+:curly_loop: [Imitation Learning by Estimating Expertise of Demonstrators](https://arxiv.org/pdf/2202.01288.pdf) :fire: :volcano: 
+
+ILEED: We develop and optimize a joint model over a learned policy and expertise levels of the demonstrators. This enables our model to learn from the optimal behavior and filter out the suboptimal behavior of each demonstrator. 
 
 
 
@@ -2327,6 +2339,16 @@ The main idea is updating the most accurate prediction head to specialize each h
 :curly_loop: [Regularizing Model-Based Planning with Energy-Based Models](http://proceedings.mlr.press/v100/boney20a/boney20a.pdf) :+1: :fire: 
 
 We focus on planning with learned dynamics models and propose to regularize it using energy estimates of state transitions in the environment. ---> probabilistic ensembles with trajectory sampling (PETS), DAE regularization; 
+
+:curly_loop: [Model-Based Planning with Energy-Based Models](https://arxiv.org/pdf/1909.06878.pdf) :fire: 
+
+We show that energy-based models (EBMs) are a promising class of models to use for model-based planning. EBMs naturally support inference of intermediate states given start and goal state distributions.  
+
+:curly_loop: [Can Autonomous Vehicles Identify, Recover From, and Adapt to Distribution Shifts?](http://proceedings.mlr.press/v119/filos20a/filos20a.pdf) :+1:
+
+RIP: Our method can detect and recover from some distribution shifts, reducing the overconfident and catastrophic extrapolations in OOD scenes.  
+
+
 
 :curly_loop: [Regularizing Trajectory Optimization with Denoising Autoencoders](https://arxiv.org/pdf/1903.11981.pdf) :fire: 
 
@@ -3181,6 +3203,34 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   :curly_loop: [Variational Inference based on Robust Divergences](http://proceedings.mlr.press/v84/futami18a/futami18a.pdf) :+1: :droplet: 
 
   Maximum Likelihood Estimation and Its Robust Variants. density power divergence; the β-divergence. γ-divergence; 
+
++ Implicit learning
+
+  :curly_loop: [Generalization Bounded Implicit Learning of Nearly Discontinuous Functions](https://arxiv.org/pdf/2112.06881.pdf) :fire: :fire:
+
+  :curly_loop: [A Tutorial on Energy-Based Learning](http://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf) :volcano: :boom: 
+
+  Energy-Based Models (EBMs) capture dependencies between variables by associating a scalar energy to each configuration of the variables. Inference + Learning 
+
+  :curly_loop: [Implicit Generation and Modeling with Energy-Based Models](https://papers.nips.cc/paper/2019/file/378a063b8fdb1db941e34f4bde584c7d-Paper.pdf) :+1: 
+
+  We present an algorithm and techniques for training energy based models that scale to challenging high-dimensional domains. 
+
+  :curly_loop: [Compositional Visual Generation with Energy Based Models](https://arxiv.org/pdf/2004.06030.pdf) 
+
+  
+
+   
+
+  
+
+  
+
+   
+
+   
+
+
 
 + others 
 
