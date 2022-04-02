@@ -3218,6 +3218,12 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   :curly_loop: [Compositional Visual Generation with Energy Based Models](https://arxiv.org/pdf/2004.06030.pdf) 
 
+  :curly_loop: [Improved Contrastive Divergence Training of Energy-Based Model](https://arxiv.org/pdf/2012.01316.pdf) :fire: :volcano: 
+
+  We show that a gradient term neglected in the popular contrastive divergence formulation is both tractable to estimate and is important in avoiding training instabilities that previously limited applicability and scalability of energy-based models. 
+
+  :curly_loop: [How to Train Your Energy-Based Models](https://arxiv.org/pdf/2101.03288.pdf) :fire: 
+
   
 
    
