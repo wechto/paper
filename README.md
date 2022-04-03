@@ -2348,6 +2348,10 @@ We show that energy-based models (EBMs) are a promising class of models to use f
 
 RIP: Our method can detect and recover from some distribution shifts, reducing the overconfident and catastrophic extrapolations in OOD scenes.  
 
+:curly_loop: [Model-Based Reinforcement Learning via Latent-Space Collocation](http://proceedings.mlr.press/v139/rybkin21b/rybkin21b.pdf) 
+
+
+
 
 
 :curly_loop: [Regularizing Trajectory Optimization with Denoising Autoencoders](https://arxiv.org/pdf/1903.11981.pdf) :fire: 
@@ -3216,13 +3220,15 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   We present an algorithm and techniques for training energy based models that scale to challenging high-dimensional domains. 
 
-  :curly_loop: [Compositional Visual Generation with Energy Based Models](https://arxiv.org/pdf/2004.06030.pdf) 
+  :curly_loop: [Compositional Visual Generation with Energy Based Models](https://arxiv.org/pdf/2004.06030.pdf) :+1: 
 
   :curly_loop: [Improved Contrastive Divergence Training of Energy-Based Model](https://arxiv.org/pdf/2012.01316.pdf) :fire: :volcano: 
 
   We show that a gradient term neglected in the popular contrastive divergence formulation is both tractable to estimate and is important in avoiding training instabilities that previously limited applicability and scalability of energy-based models. 
 
-  :curly_loop: [How to Train Your Energy-Based Models](https://arxiv.org/pdf/2101.03288.pdf) :fire: 
+  :curly_loop: [How to Train Your Energy-Based Models](https://arxiv.org/pdf/2101.03288.pdf) :fire: :fire:
+
+  We start by explaining maximum likelihood training with Markov chain Monte Carlo (MCMC), and proceed to elaborate on MCMC-free approaches, including Score Matching (SM) and Noise Constrastive Estimation (NCE).  
 
   
 
