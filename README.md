@@ -2244,7 +2244,9 @@ We extend hindsight relabelling mechanisms to guide exploration along task-speci
 
 HTR: we present a formulation of hindsight relabeling for meta-RL, which relabels experience during meta-training to enable learning to learn entirely using sparse reward. 
 
+:curly_loop: [Remember and Forget for Experience Replay](http://proceedings.mlr.press/v97/novati19a/novati19a.pdf) 
 
+ReF-ER: 
 
 
 
@@ -2348,7 +2350,13 @@ We show that energy-based models (EBMs) are a promising class of models to use f
 
 RIP: Our method can detect and recover from some distribution shifts, reducing the overconfident and catastrophic extrapolations in OOD scenes.  
 
-:curly_loop: [Model-Based Reinforcement Learning via Latent-Space Collocation](http://proceedings.mlr.press/v139/rybkin21b/rybkin21b.pdf) 
+:curly_loop: [Model-Based Reinforcement Learning via Latent-Space Collocation](http://proceedings.mlr.press/v139/rybkin21b/rybkin21b.pdf) :fire:
+
+LatCo:  It is easier to solve long-horizon tasks by planning sequences of states rather than just actions, as the effects of actions greatly compound over time and are harder to optimize. 
+
+:curly_loop: [Reinforcement Learning with Action-Free Pre-Training from Videos](https://arxiv.org/pdf/2203.13880.pdf) 
+
+
 
 
 
