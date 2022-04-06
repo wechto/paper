@@ -38,6 +38,7 @@ TOC
   - [Distributional RL](#distributional-rl)
   - [Continual Learning](#continual-learning)
   - [Self-paced & Curriculum RL](#self-paced--curriculum-rl)
+  - [Quadruped](#quadruped) 
   - [Optimization](#optimization)
   - [Galaxy  None](#galaxy--forest)
   - [Aha](#aha)
@@ -2244,9 +2245,21 @@ We extend hindsight relabelling mechanisms to guide exploration along task-speci
 
 HTR: we present a formulation of hindsight relabeling for meta-RL, which relabels experience during meta-training to enable learning to learn entirely using sparse reward. 
 
-:curly_loop: [Remember and Forget for Experience Replay](http://proceedings.mlr.press/v97/novati19a/novati19a.pdf) 
+:curly_loop: [Remember and Forget for Experience Replay](http://proceedings.mlr.press/v97/novati19a/novati19a.pdf) :+1: 
 
-ReF-ER: 
+ReF-ER (1) skips gradients computed from experiences that are too unlikely with the current policy and (2) regulates policy changes within a trust region of the replayed behaviors.
+
+:curly_loop: [BENCHMARKING SAMPLE SELECTION STRATEGIES FOR BATCH REINFORCEMENT LEARNING](https://openreview.net/pdf?id=WxBFVNbDUT6) :+1:
+
+We compare six variants of PER (temporal-difference error, n-step return, self-imitation learning objective, pseudo-count, uncertainty, and likelihood) based on various heuristic priority metrics that focus on different aspects of the offline learning setting. 
+
+:curly_loop: [An Equivalence between Loss Functions and Non-Uniform Sampling in Experience Replay](https://proceedings.neurips.cc/paper/2020/file/a3bf6e4db673b6449c2f7d13ee6ec9c0-Paper.pdf) :fire:
+
+We show that any loss function evaluated with non-uniformly sampled data can be transformed into another uniformly sampled loss function with the same expected gradient.  
+
+
+
+ 
 
 
 
@@ -2637,6 +2650,10 @@ REPS:  it allows an exact policy update and may use data generated while followi
 :curly_loop: [SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning](http://proceedings.mlr.press/v139/lee21g/lee21g.pdf) :fire:  :+1: 
 
 SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman backups, which re-weight target Q-values based on uncertainty estimates from a Q-ensemble, and (b) an inference method that selects actions using the highest upper-confidence bounds for efficient exploration. [Rainbow]
+
+:curly_loop: [Revisiting Rainbow: Promoting more Insightful and Inclusive Deep Reinforcement Learning Research](http://proceedings.mlr.press/v139/ceron21a/ceron21a.pdf) 
+
+
 
 :curly_loop: [Explaining Off-Policy Actor-Critic From A Bias-Variance Perspective](https://arxiv.org/pdf/2110.02421.pdf) :confused:
 
@@ -3169,6 +3186,25 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   :curly_loop:[Learning with AMIGO: Adversarially Motivated Intrinsic Goals](https://arxiv.org/pdf/2006.12122.pdf) :+1:   [Lil'Log-Curriculum](https://lilianweng.github.io/lil-log/2020/01/29/curriculum-for-reinforcement-learning.html) :+1:  ​
 
 (Intrinsic motivation + Curriculum learning) 
+
+
+
+
+
+
+
+
+<a name="anchor-quadruped"></a>  
+## Quadruped 
++ Locomotion
+
+  :curly_loop: [Reinforcement Learning with Evolutionary Trajectory Generator: A General Approach for Quadrupedal Locomotion](https://arxiv.org/pdf/2109.06409.pdf) :fire: 
+
+  ETG-RL: Unlike prior methods that use a fixed trajectory generator, the generator continually optimizes the shape of the output trajectory for the given task, providing diversified motion priors to guide the policy learning. 
+
++ 
+
+
 
 
 
