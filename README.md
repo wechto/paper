@@ -92,6 +92,14 @@ TOC
 
   We retrospectively compute potential objectives on pre-collected datasets of agent behavior, rather than optimizing them online, and compare them by analyzing their correlations. 
 
+  :curly_loop: [LEARNING ALTRUISTIC BEHAVIOURS IN REINFORCEMENT LEARNING WITHOUT EXTERNAL REWARDS](https://openreview.net/pdf?id=KxbhdyiPHE) :fire: 
+
+  We propose an altruistic agent that learns to increase the choices another agent has by preferring to maximize the number of states that the other agent can reach in its future.  
+
+  :curly_loop: [Entropic Desired Dynamics for Intrinsic Control](https://proceedings.neurips.cc/paper/2021/file/5f7f02b7e4ade23430f345f954c938c1-Paper.pdf) :fire: 
+
+  EDDICT:  By situating these latent codes in a globally consistent coordinate system, we show that agents can reliably reach more states in the long term while still optimizing a local objective. 
+
   
 
 + SMiRL: Surprise Minimizing Reinforcement Learning in Dynamic Environments https://openreview.net/pdf?id=cPZOyoDloxl  :fire: :boom: :volcano: :boom: :fire: :droplet: 
@@ -872,6 +880,12 @@ Our method provides for training of robust policies, and supports an adversarial
 
 We have presented two new criteria for robustness, the Probabilistic and Noisy action Robust MDP, related each to real world scenarios of uncertainty and discussed the theoretical differences between both approaches.  
 
+:curly_loop: [Robust Policy Learning over Multiple Uncertainty Sets](https://arxiv.org/pdf/2202.07013.pdf) :droplet:
+
+ System Identification and Risk-Sensitive Adaptation (SIRSA):  
+
+
+
 
 
 :curly_loop: [∇Sim: DIFFERENTIABLE SIMULATION FOR SYSTEM IDENTIFICATION AND VISUOMOTOR CONTROL](https://arxiv.org/pdf/2104.02646.pdf) :+1: :droplet: 
@@ -1059,6 +1073,28 @@ We focus on certifying the robustness of offline RL in the presence of poisoning
 :curly_loop: [CROP: CERTIFYING ROBUST POLICIES FOR REINFORCEMENT LEARNING THROUGH FUNCTIONAL SMOOTHING](https://openreview.net/pdf?id=HOjLHrlZhmx) :fire: 
 
 We propose two particular types of robustness certification criteria: robustness of per-state actions and lower bound of cumulative rewards. 
+
+
+
+:curly_loop: [Multi-Task Reinforcement Learning without Interference](https://www.skillsworkshop.ai/uploads/1/2/1/5/121527312/multi-task.pdf) :fire:
+
+We develop a general approach that can change the multi-task optimization landscape to alleviate conflicting gradients across tasks, one architectural and one algorithmic, that prevent gradients for different tasks from interfering with one another. 
+
+:curly_loop: [Multi-Task Reinforcement Learning with Soft Modularization](https://proceedings.neurips.cc/paper/2020/file/32cfdce9631d8c7906e8e9d6e68b514b-Paper.pdf) :no_mouth:
+
+Given a base policy network, we design a routing network which estimates different routing strategies to reconfigure the base network for each task.  
+
+:curly_loop: [Multi-task Batch Reinforcement Learning with Metric Learning](https://proceedings.neurips.cc/paper/2020/file/4496bf24afe7fab6f046bf4923da8de6-Paper.pdf) :fire: 
+
+MBML: Because the different datasets may have state-action distributions with large divergence, the task inference module can learn to ignore the rewards and spuriously correlate only state-action pairs to the task identity, leading to poor test time performance. To robustify task inference, we propose a novel application of the triplet loss.  
+
+:curly_loop: [MULTI-BATCH REINFORCEMENT LEARNING VIA SAMPLE TRANSFER AND IMITATION LEARNING](https://openreview.net/pdf?id=KTF1h2XWKZA) :no_mouth: 
+
+BAIL+ and MBAIL 
+
+
+
+
 
  
 
@@ -1501,6 +1537,14 @@ CODAC:
 :curly_loop: [Conservative Data Sharing for Multi-Task Offline Reinforcement Learning](https://arxiv.org/pdf/2109.08128.pdf) :fire: :volcano: :boom:  
 
 Conservative data sharing (CDS): We develop a simple technique for data-sharing in multi-task offline RL that routes data based on the improvement over the task-specific data. 
+
+:curly_loop: [Data Sharing without Rewards in Multi-Task Offline Reinforcement Learning](https://openreview.net/pdf?id=c7SmcWAd74W) 
+
+Conservative unsupervised data sharing (CUDS): under a binary-reward assumption, simply utilizing data from other tasks with constant reward labels can not only provide substantial improvement over only using the single-task data and previously proposed success classifiers, but it can also reach comparable performance to baselines that take advantage of the oracle multi-task reward information. 
+
+:curly_loop: [Switch Trajectory Transformer with Distributional Value Approximation for Multi-Task Reinforcement Learning](https://arxiv.org/pdf/2203.07413.pdf) 
+
+
 
 :curly_loop: [How to Leverage Unlabeled Data in Offline Reinforcement Learning](https://arxiv.org/pdf/2202.01741.pdf) :fire: :volcano:
 
@@ -2651,7 +2695,7 @@ REPS:  it allows an exact policy update and may use data generated while followi
 
 SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman backups, which re-weight target Q-values based on uncertainty estimates from a Q-ensemble, and (b) an inference method that selects actions using the highest upper-confidence bounds for efficient exploration. [Rainbow]
 
-:curly_loop: [Revisiting Rainbow: Promoting more Insightful and Inclusive Deep Reinforcement Learning Research](http://proceedings.mlr.press/v139/ceron21a/ceron21a.pdf) 
+:curly_loop: [Revisiting Rainbow: Promoting more Insightful and Inclusive Deep Reinforcement Learning Research](http://proceedings.mlr.press/v139/ceron21a/ceron21a.pdf) :volcano: 
 
 
 
@@ -2715,6 +2759,10 @@ We propose a pessimistic model selection (PMS) approach for offline DRL with a t
 
 Our main contribution is a set of proofs showing that standard MaxEnt RL optimizes lower bounds on several possible robust objectives, reflecting a degree of robustness to changes in the dynamics and to certain changes in the reward. 
 
+:curly_loop: [Your Policy Regularizer is Secretly an Adversary](https://arxiv.org/pdf/2203.12592.pdf) :sweat_drops:
+
+ 
+
 :curly_loop: [Estimating Q(s, s') with Deep Deterministic Dynamics Gradients](https://arxiv.org/pdf/2002.09505.pdf) :+1: :fire:  
 
  We highlight the benefits of this approach in terms of value function transfer, learning within redundant action spaces, and learning off-policy from state observations generated by sub-optimal or completely random policies. 
@@ -2759,7 +2807,7 @@ HuRL: We show how heuristic-guided RL induces a much shorter-horizon subproblem 
 
 Our results provide strong evidence for our hypothesis that large differences in action-gap sizes are detrimental to the performance of approximate RL.  
 
-:curly_loop: [ORCHESTRATED VALUE MAPPING FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2203.07171.pdf) :fire:
+:curly_loop: [ORCHESTRATED VALUE MAPPING FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2203.07171.pdf) :fire: 
 
 We present a general convergent class of reinforcement learning algorithms that is founded on two distinct principles: (1) mapping value estimates to a different space using arbitrary functions from a broad class, and (2) linearly decomposing the reward signal into multiple channels.  
 
