@@ -1076,6 +1076,10 @@ We propose two particular types of robustness certification criteria: robustness
 
 
 
+
+
+:o: Multi-task 
+
 :curly_loop: [Multi-Task Reinforcement Learning without Interference](https://www.skillsworkshop.ai/uploads/1/2/1/5/121527312/multi-task.pdf) :fire:
 
 We develop a general approach that can change the multi-task optimization landscape to alleviate conflicting gradients across tasks, one architectural and one algorithmic, that prevent gradients for different tasks from interfering with one another. 
@@ -1091,6 +1095,16 @@ MBML: Because the different datasets may have state-action distributions with la
 :curly_loop: [MULTI-BATCH REINFORCEMENT LEARNING VIA SAMPLE TRANSFER AND IMITATION LEARNING](https://openreview.net/pdf?id=KTF1h2XWKZA) :no_mouth: 
 
 BAIL+ and MBAIL 
+
+:curly_loop: [Knowledge Transfer in Multi-Task Deep Reinforcement Learning for Continuous Control](https://proceedings.neurips.cc/paper/2020/file/acab0116c354964a558e65bdd07ff047-Paper.pdf) :no_mouth:
+
+KTM-DRL enables a single multi-task agent to leverage the offline knowledge transfer, the online learning, and the hierarchical experience replay for achieving expert-level performance in multiple different continuous control tasks. 
+
+:curly_loop: [Multi-Task Reinforcement Learning with Context-based Representations](http://proceedings.mlr.press/v139/sodhani21a/sodhani21a.pdf) :fire:
+
+CARE: We posit that an efficient approach to knowledge transfer is through the use of multiple context-dependent, composable representations shared across a family of tasks. Metadata can help to learn interpretable representations and provide the context to inform which representations to compose and how to compose them.  
+
+
 
 
 
