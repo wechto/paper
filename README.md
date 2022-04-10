@@ -1016,7 +1016,7 @@ New: [Adaptive Policy Transfer in Reinforcement Learning](https://arxiv.org/pdf/
 
 adapt the source policy to learn to solve a target task with significant **transition differences** and uncertainties.  
 
-:curly_loop: [Unsupervised Domain Adaptation with Dynamics Aware Rewards in Reinforcement Learning](https://arxiv.org/pdf/2110.12997.pdf) :fire: :volcano: 
+:curly_loop: [Unsupervised Domain Adaptation with Dynamics Aware Rewards in Reinforcement Learning](https://arxiv.org/pdf/2110.12997.pdf) :fire: :volcano:  
 
 DARS:  We propose an unsupervised domain adaptation method to identify and acquire skills across dynamics. We introduce a KL regularized objective to encourage emergence of skills, rewarding the agent for both discovering skills and aligning its behaviors respecting dynamics shifts. 
 
@@ -1104,7 +1104,17 @@ KTM-DRL enables a single multi-task agent to leverage the offline knowledge tran
 
 CARE: We posit that an efficient approach to knowledge transfer is through the use of multiple context-dependent, composable representations shared across a family of tasks. Metadata can help to learn interpretable representations and provide the context to inform which representations to compose and how to compose them.  
 
+:curly_loop: [CARL: A Benchmark for Contextual and Adaptive Reinforcement Learning](https://arxiv.org/pdf/2110.02102.pdf) :+1: 
 
+We propose CARL, a collection of well-known RL environments extended to contextual RL problems to study generalization. 
+
+:curly_loop: [Switch Trajectory Transformer with Distributional Value Approximation for Multi-Task Reinforcement Learning](https://arxiv.org/pdf/2203.07413.pdf) :no_mouth: 
+
+We propose SwitchTT, a multi-task extension to Trajectory Transformer but enhanced with two striking features: (i) exploiting a sparsely activated model to reduce computation cost in multitask offline model learning and (ii) adopting a distributional trajectory value estimator that improves policy performance, especially in sparse reward settings.  
+
+:curly_loop: [MULTI-CRITIC ACTOR LEARNING: TEACHING RL POLICIES TO ACT WITH STYLE](https://openreview.net/pdf?id=rJvY_5OzoI) :+1: 
+
+Multi-Critic Actor Learning (MultiCriticAL) proposes instead maintaining separate critics for each task being trained while training a single multi-task actor. 
 
 
 
@@ -2121,6 +2131,10 @@ We propose “Imitative Models” to combine the benefits of IL and goal-directe
 
 :curly_loop: [ViKiNG: Vision-Based Kilometer-Scale Navigation with Geographic Hints](https://arxiv.org/pdf/2202.11271.pdf) 
 
+:curly_loop: [Simplifying Deep Reinforcement Learning via Self-Supervision](https://arxiv.org/pdf/2106.05526.pdf) :no_mouth:
+
+SSRL:  We demonstrate that, without policy gradient or value estimation, an iterative procedure of “labeling” data and supervised regression is sufficient to drive stable policy improvement. 
+
 
 
   :curly_loop: [Search on the Replay Buffer: Bridging Planning and Reinforcement Learning](https://arxiv.org/pdf/1906.05253.pdf) :fire: :+1:  ​ ​
@@ -2833,6 +2847,10 @@ We show an explicit equivalence between using a reduced discount factor and addi
 
  We show that by utilizing the dual formulation of the WD, we can learn score functions over policy behaviors that can in turn be used to lead policy optimization towards (or away from) (un)desired behaviors. 
 
+:curly_loop: [Dual Policy Distillation](https://arxiv.org/pdf/2006.04061.pdf) :volcano:
+
+DPD: a student-student framework in which two learners operate on the same environment to explore different perspectives of the environment and extract knowledge from each other to enhance their learning. 
+
  ​ ​
 
   
@@ -3338,13 +3356,9 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   
 
-   
++ O 
 
-  
-
-  
-
-   
+  :curly_loop: 
 
    
 
@@ -3379,6 +3393,12 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   :curly_loop: [Recomposing the Reinforcement Learning Building Blocks with Hypernetworks](https://arxiv.org/pdf/2106.06842.pdf) :fire:
   
   To consider the interaction between the input variables, we suggest using a Hypernetwork architecture where a primary network determines the weights of a conditional dynamic network.  
+  
+  :curly_loop: [SUBJECTIVE LEARNING FOR OPEN-ENDED DATA](https://arxiv.org/pdf/2108.12113.pdf) :fire: 
+  
+  OSL: we present a novel supervised learning framework of learning from open-ended data, which is modeled as data implicitly sampled from multiple domains with the data in each domain obeying a domain-specific target function. 
+  
+  
 
 
 
