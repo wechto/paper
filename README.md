@@ -1890,6 +1890,10 @@ LAPO: we study an offline RL setup for learning from heterogeneous datasets wher
 
 ILEED: We develop and optimize a joint model over a learned policy and expertise levels of the demonstrators. This enables our model to learn from the optimal behavior and filter out the suboptimal behavior of each demonstrator. 
 
+:curly_loop: [AW-Opt: Learning Robotic Skills with Imitation and Reinforcement at Scale](https://proceedings.mlr.press/v164/lu22a/lu22a.pdf) :+1:
+
+Our aim is to test the scalability of prior IL + RL algorithms and devise a system based on detailed empirical experimentation that combines existing components in the most effective and scalable way.  
+
 
 
 
@@ -1919,6 +1923,8 @@ COMs: We propose conservative objective models (COMs), a method that learns a mo
 :curly_loop: [DATA-DRIVEN OFFLINE OPTIMIZATION FOR ARCHITECTING HARDWARE ACCELERATORS](https://arxiv.org/pdf/2110.11346.pdf) :+1:
 
 PRIME: we develop such a data-driven offline optimization method for designing hardware accelerators. PRIME learns a conservative, robust estimate of the desired cost function, utilizes infeasible points and optimizes the design against this estimate without any additional simulator queries during optimization. 
+
+
 
 
 
@@ -2439,9 +2445,9 @@ RIP: Our method can detect and recover from some distribution shifts, reducing t
 
 LatCo:  It is easier to solve long-horizon tasks by planning sequences of states rather than just actions, as the effects of actions greatly compound over time and are harder to optimize. 
 
-:curly_loop: [Reinforcement Learning with Action-Free Pre-Training from Videos](https://arxiv.org/pdf/2203.13880.pdf) 
+:curly_loop: [Reinforcement Learning with Action-Free Pre-Training from Videos](https://arxiv.org/pdf/2203.13880.pdf) :no_mouth: 
 
-
+APV: we pre-train an action-free latent video prediction model, and then utilize the pre-trained representations for efficiently learning actionconditional world models on unseen environments.
 
 
 
@@ -2850,6 +2856,12 @@ We show an explicit equivalence between using a reduced discount factor and addi
 :curly_loop: [Dual Policy Distillation](https://arxiv.org/pdf/2006.04061.pdf) :volcano:
 
 DPD: a student-student framework in which two learners operate on the same environment to explore different perspectives of the environment and extract knowledge from each other to enhance their learning. 
+
+:curly_loop: [Jump-Start Reinforcement Learning](https://arxiv.org/pdf/2204.02372.pdf) :volcano:
+
+JSRL: an algorithm that employs two policies to solve tasks: a guide-policy, and an exploration-policy. By using the guide-policy to form a curriculum of starting states for the exploration-policy, we are able to efficiently improve performance on a set of simulated robotic tasks. 
+
+:curly_loop: [Distilling Policy Distillation](http://proceedings.mlr.press/v89/czarnecki19a/czarnecki19a.pdf) 
 
  ​ ​
 
