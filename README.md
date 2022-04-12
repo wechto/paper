@@ -2865,9 +2865,9 @@ DPD: a student-student framework in which two learners operate on the same envir
 
 JSRL: an algorithm that employs two policies to solve tasks: a guide-policy, and an exploration-policy. By using the guide-policy to form a curriculum of starting states for the exploration-policy, we are able to efficiently improve performance on a set of simulated robotic tasks. 
 
-:curly_loop: [Distilling Policy Distillation](http://proceedings.mlr.press/v89/czarnecki19a/czarnecki19a.pdf) :volcano: 
+:curly_loop: [Distilling Policy Distillation](http://proceedings.mlr.press/v89/czarnecki19a/czarnecki19a.pdf) :volcano: :+1: 
 
- ​ ​
+We sought to highlight some of the strengths, weaknesses, and potential mathematical inconsistencies in different variants of distillation used for policy knowledge transfer in reinforcement learning. 
 
   
 
