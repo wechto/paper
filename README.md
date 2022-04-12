@@ -187,6 +187,10 @@ TOC
 
   MAML:  In our approach, the parameters of the model are explicitly trained such that a small number of gradient steps with a small amount of training data from a new task will produce good generalization performance on that task. 
 
+  :curly_loop: [BERT Learns to Teach: Knowledge Distillation with Meta Learning](https://arxiv.org/pdf/2106.04570.pdf) :volcano:
+
+  MetaDistill: We show the teacher network can learn to better transfer knowledge to the student network (i.e., learning to teach) with the feedback from the performance of the distilled student network in a meta learning framework. 	
+
   :curly_loop: [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](http://proceedings.mlr.press/v97/rakelly19a/rakelly19a.pdf) :fire: :fire: 
 
   PEARL: Current methods rely heavily on on-policy experience, limiting their sample efficiency. They also lack mechanisms to reason about task uncertainty when adapting to new tasks, limiting their effectiveness on sparse reward problems. We address these challenges by developing an offpolicy meta-RL algorithm that disentangles task inference and control. 
