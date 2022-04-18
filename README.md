@@ -1928,6 +1928,12 @@ COMs: We propose conservative objective models (COMs), a method that learns a mo
 
 PRIME: we develop such a data-driven offline optimization method for designing hardware accelerators. PRIME learns a conservative, robust estimate of the desired cost function, utilizes infeasible points and optimizes the design against this estimate without any additional simulator queries during optimization. 
 
+:curly_loop: [Conditioning by adaptive sampling for robust design](https://arxiv.org/pdf/1901.10060.pdf) :volcano:
+
+:curly_loop: [DESIGN-BENCH: BENCHMARKS FOR DATA-DRIVEN OFFLINE MODEL-BASED OPTIMIZATION](https://arxiv.org/pdf/2202.08450.pdf) :fire:
+
+Design-Bench, a benchmark for offline MBO with a unified evaluation protocol and reference implementations of recent methods. 
+
 
 
 
