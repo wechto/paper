@@ -25,22 +25,22 @@ TOC
   - [Mutual Information](#mutual-information)
   - [DR (Domain Randomization) & sim2real](#dr-domain-randomization--sim2real)
   - [Transfer: Generalization & Adaption (Dynamics)](#transfer-generalization--adaption-dynamics)
-  - [IRL](#irl) 
-  - [Offline RL](#offline-rl) 
-  - [Exploration](#exploration) 
-  - [Causal Inference](#causal-inference) 
-  - [Supervised RL & Goal-conditioned Policy](#supervised-rl--goal-conditioned-policy) 
-  - [Goal-relabeling & Self-imitation](#goal-relabeling--self-imitation) 
-  - [Model-based RL & world models](#model-based-rl--world-models) 
-  - [Training RL & Just Fast & Embedding? & OPE(DICE)](#training-rl--just-fast--embedding--opedice) 
+  - [IRL](#irl)
+  - [Offline RL](#offline-rl)
+  - [Exploration](#exploration)
+  - [Causal Inference](#causal-inference)
+  - [Supervised RL & Goal-conditioned Policy](#supervised-rl--goal-conditioned-policy)
+  - [Goal-relabeling & Self-imitation](#goal-relabeling--self-imitation)
+  - [Model-based RL & world models](#model-based-rl--world-models)
+  - [Training RL & Just Fast & Embedding? & OPE(DICE)](#training-rl--just-fast--embedding--opedice)
   - [MARL](#marl)
   - [Constrained RL](#constrained-rl)
   - [Distributional RL](#distributional-rl)
   - [Continual Learning](#continual-learning)
   - [Self-paced & Curriculum RL](#self-paced--curriculum-rl)
-  - [Quadruped](#quadruped) 
+  - [Quadruped](#quadruped)
   - [Optimization](#optimization)
-  - [Galaxy  None](#galaxy--forest)
+  - [Galaxy  Forest](#galaxy--forest)
   - [Aha](#aha)
     - [Alpha](#alpha)
     - [Blog & Corp. & Legend](#blog--corp--legend)
@@ -2677,6 +2677,8 @@ We take the first steps towards a universal off-policy estimator (UnO) that esti
 
   Incorporation of previous rollouts via importance sampling greatly improves data-efficiency, whilst stochastic optimization schemes facilitate the escape from local optima.  
 
+:curly_loop: [Off-Policy Policy Gradient with State Distribution Correction](https://arxiv.org/pdf/1904.08473.pdf) :droplet:  
+
   :curly_loop: [DualDICE: Behavior-Agnostic Estimation of Discounted Stationary Distribution Corrections](https://arxiv.org/pdf/1906.04733.pdf) :fire: :volcano: :boom: 
 
   Off-Policy Policy Evaluation (OPE) --->  Learning Stationary Distribution Corrections ---> Off-Policy Estimation with Multiple Unknown Behavior Policies. , DualDICE, for estimating the discounted stationary distribution corrections. 
@@ -3200,6 +3202,10 @@ We propose the CDMPO algorithm to solve safety-constrained RL problems. Our meth
 :curly_loop: [CUP: A Conservative Update Policy Algorithm for Safe Reinforcement Learning](https://arxiv.org/pdf/2202.07565.pdf) :+1: :fire: :volcano: :boom: 
 
 (i) We provide a rigorous theoretical analysis to extend the surrogate functions to generalized advantage estimator (GAE). GAE significantly reduces variance empirically while maintaining a tolerable level of bias, which is an efficient step for us to design CUP; (ii) The proposed bounds are tighter than existing works, i.e., using the proposed bounds as surrogate functions are better local approximations to the objective and safety constraints. (iii) The proposed CUP provides a non-convex implementation via first-order optimizers, which does not depend on any convex approximation.  
+
+:curly_loop: [A Review of Safe Reinforcement Learning: Methods,
+Theory and Applications](https://arxiv.org/pdf/2205.10330.pdf) 💦 
+
 
 :curly_loop: [MESA: Offline Meta-RL for Safe Adaptation and Fault Tolerance](https://arxiv.org/pdf/2112.03575.pdf) :no_mouth: 
 
