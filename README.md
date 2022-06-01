@@ -2744,6 +2744,10 @@ We use bi-level optimization to evolve SEs and RNs: the inner loop trains the RL
 
 We define the Termination Markov Decision Process (TerMDP), an extension of the MDP framework, in which episodes may be interrupted by an external non-Markovian observer. 
 
+🔹 [Truly Deterministic Policy Optimization](https://arxiv.org/pdf/2205.15379.pdf) :confused: :+1: 
+
+We proposed a deterministic policy gradient method (TDPO) based on the use of a deterministic Vine (DeVine) gradient estimator and the Wasserstein metric. We proved monotonic payoff guarantees for our method, and defined a novel surrogate for policy optimization. 
+
 <a name="anchor-marl"></a>
 
 ## MARL
@@ -3053,9 +3057,15 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   We start by explaining maximum likelihood training with Markov chain Monte Carlo (MCMC), and proceed to elaborate on MCMC-free approaches, including Score Matching (SM) and Noise Constrastive Estimation (NCE).  
 
-- O
+- Data Valuation 
 
-  🔹
+  🔹 [Data shapley: Equitable valuation of data for machine learning](https://proceedings.mlr.press/v97/ghorbani19c/ghorbani19c.pdf) 
+
+
+
+  🔹 [DATA VALUATION USING REINFORCEMENT LEARNING](https://arxiv.org/pdf/1909.11671.pdf) :fire: 
+
+  DVRL:  We train the data value estimator using a reinforcement signal of the reward obtained on a small validation set that reflects performance on the  target task. 
 
 - others
 
