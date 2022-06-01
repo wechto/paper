@@ -1734,9 +1734,9 @@ Our aim is to test the scalability of prior IL + RL algorithms and devise a syst
 
 We propose a new method, DOGE (Distance-sensitive Offline RL with better GEneralization). DOGE marries dataset geometry with deep function approximators in offline RL, and enables exploitation in generalizable OOD areas rather than strictly constraining policy within data distribution. 
 
-🔹 
-
-🔹 
+🔹 :small_blue_diamond: 
+🔹 :small_blue_diamond: 
+🔹 :small_blue_diamond: 
 
 
 :o: Designs from Data | offline MBO
@@ -2738,7 +2738,13 @@ We show that DQN can indeed diverge and cease to operate in realistic settings. 
 
 We use bi-level optimization to evolve SEs and RNs: the inner loop trains the RL agent, and the outer loop trains the parameters of the SE / RN via an evolution strategy.  
 
-🔹 [IS HIGH VARIANCE UNAVOIDABLE IN RL? A CASE STUDY IN CONTINUOUS CONTROL](https://openreview.net/pdf?id=9xhgmsNVHu)
+🔹 [IS HIGH VARIANCE UNAVOIDABLE IN RL? A CASE STUDY IN CONTINUOUS CONTROL](https://openreview.net/pdf?id=9xhgmsNVHu) 
+
+🔹 [Reinforcement Learning with a Terminator](https://arxiv.org/pdf/2205.15376.pdf) :fire: 🔥 
+
+We define the Termination Markov Decision Process (TerMDP), an extension
+of the MDP framework, in which episodes may be interrupted by an external
+non-Markovian observer. 
 
 <a name="anchor-marl"></a>
 
