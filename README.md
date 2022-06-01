@@ -2742,9 +2742,7 @@ We use bi-level optimization to evolve SEs and RNs: the inner loop trains the RL
 
 🔹 [Reinforcement Learning with a Terminator](https://arxiv.org/pdf/2205.15376.pdf) :fire: 🔥 
 
-We define the Termination Markov Decision Process (TerMDP), an extension
-of the MDP framework, in which episodes may be interrupted by an external
-non-Markovian observer. 
+We define the Termination Markov Decision Process (TerMDP), an extension of the MDP framework, in which episodes may be interrupted by an external non-Markovian observer. 
 
 <a name="anchor-marl"></a>
 
