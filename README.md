@@ -1105,7 +1105,7 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   🔹 [OFF-POLICY ADVERSARIAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2005.01138.pdf)
 
-  🔹 [A Primer on Maximum Causal Entropy Inverse Reinforcement Learning](https://arxiv.org/pdf/2203.11409.pdf) :droplet:  
+  🔹 [A Primer on Maximum Causal Entropy Inverse Reinforcement Learning](https://arxiv.org/pdf/2203.11409.pdf) :droplet:  💦 
 
   🔹 [ADVERSARIAL IMITATION VIA VARIATIONAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/1809.06404.pdf) :+1: :fire: :droplet:
 
@@ -1289,7 +1289,11 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
 
  🔹 [Rethinking Importance Weighting for Transfer Learning](https://arxiv.org/pdf/2112.10157.pdf) :volcano:
 
-We review recent advances based on joint and dynamic importance predictor estimation. Furthermore, we introduce a method of causal mechanism transfer that incorporates causal structure in TL.
+We review recent advances based on joint and dynamic importance predictor estimation. Furthermore, we introduce a method of causal mechanism transfer that incorporates causal structure in TL. 
+
+🔹 [Inverse Decision Modeling: Learning Interpretable Representations of Behavior](http://proceedings.mlr.press/v139/jarrett21a/jarrett21a.pdf) 🌋 
+
+
 
 - Meta IRL
 
@@ -1346,6 +1350,18 @@ We review recent advances based on joint and dynamic importance predictor estima
   🔹 [ReIL: A Framework for Reinforced Intervention-based Imitation Learning](https://arxiv.org/pdf/2203.15390.pdf) :+1:
   
   We introduce Reinforced Interventionbased Learning (ReIL), a framework consisting of a general intervention-based learning algorithm and a multi-task imitation learning model aimed at enabling non-expert users to train agents in real environments with little supervision or fine tuning.  
+
+- Reward Comparison 
+
+  🔹 [QUANTIFYING DIFFERENCES IN REWARD FUNCTIONS](https://arxiv.org/pdf/2006.13900.pdf) :fire: 🌋 
+
+  We introduce the Equivalent-Policy Invariant Comparison (EPIC) distance to quantify the difference between two reward functions directly, without a policy optimization step.
+  
+  🔹 [DYNAMICS-AWARE COMPARISON OF LEARNED REWARD FUNCTIONS](https://arxiv.org/pdf/2201.10081.pdf) :+1: 🌋 
+
+  DARD uses an approximate transition model of the environment to transform reward functions into a form that allows for comparisons that are invariant to reward shaping while only evaluating reward functions on transitions close to their training distribution. 
+
+
   
 <a name="anchor-offline "></a>
 
