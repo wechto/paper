@@ -1291,7 +1291,9 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
 
 We review recent advances based on joint and dynamic importance predictor estimation. Furthermore, we introduce a method of causal mechanism transfer that incorporates causal structure in TL. 
 
-🔹 [Inverse Decision Modeling: Learning Interpretable Representations of Behavior](http://proceedings.mlr.press/v139/jarrett21a/jarrett21a.pdf) 🌋 
+🔹 [Inverse Decision Modeling: Learning Interpretable Representations of Behavior](http://proceedings.mlr.press/v139/jarrett21a/jarrett21a.pdf) :fire: 🌋 
+
+We develop an expressive, unifying perspective on inverse decision modeling: a framework for learning parameterized representations of sequential decision behavior. 
 
 
 
@@ -1361,6 +1363,9 @@ We review recent advances based on joint and dynamic importance predictor estima
 
   DARD uses an approximate transition model of the environment to transform reward functions into a form that allows for comparisons that are invariant to reward shaping while only evaluating reward functions on transitions close to their training distribution. 
 
+  🔹 [Preprocessing Reward Functions for Interpretability](https://arxiv.org/pdf/2203.13553.pdf) :+1: 🔥 
+
+  We propose exploiting the intrinsic structure of reward functions by first preprocessing them into simpler but equivalent reward functions, which are then visualized. 
 
   
 <a name="anchor-offline "></a>
