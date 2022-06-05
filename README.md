@@ -1353,7 +1353,7 @@ We develop an expressive, unifying perspective on inverse decision modeling: a f
   
   We introduce Reinforced Interventionbased Learning (ReIL), a framework consisting of a general intervention-based learning algorithm and a multi-task imitation learning model aimed at enabling non-expert users to train agents in real environments with little supervision or fine tuning.  
 
-- Reward Comparison 
+- Reward Comparison; PBRS (potential-based reward shaping) 
 
   🔹 [QUANTIFYING DIFFERENCES IN REWARD FUNCTIONS](https://arxiv.org/pdf/2006.13900.pdf) :fire: 🌋 
 
@@ -1366,6 +1366,28 @@ We develop an expressive, unifying perspective on inverse decision modeling: a f
   🔹 [Preprocessing Reward Functions for Interpretability](https://arxiv.org/pdf/2203.13553.pdf) :+1: 🔥 
 
   We propose exploiting the intrinsic structure of reward functions by first preprocessing them into simpler but equivalent reward functions, which are then visualized. 
+
+  🔹 [Understanding Learned Reward Functions](https://arxiv.org/pdf/2012.05862.pdf) 😶 
+
+  We have explored the use of saliency maps and counterfactuals to understand learned reward functions.
+
+  🔹 [Explicable Reward Design for Reinforcement Learning Agents](https://machineteaching.mpi-sws.org/files/papers/neurips21_explicable-reward-design.pdf) 🌋 💧 
+
+  EXPRD allows us to appropriately balance informativeness and sparseness while guaranteeing that an optimal policy induced by the function belongs to a set of target policies. EXPRD builds upon an informativeness criterion that captures the (sub-)optimality of target policies at different time horizons from any given starting state.
+
+  🔹 [Automatic shaping and decomposition of reward functions](https://dspace.mit.edu/bitstream/handle/1721.1/35890/MIT-CSAIL-TR-2007-010.pdf?sequence=1&isAllowed=y) 
+
+  🔹 [Dynamic Potential-Based Reward Shaping](https://eprints.whiterose.ac.uk/75121/2/p433_devlin.pdf) :+1:
+
+  We have proven that a dynamic potential function can be used to shape an agent without altering its optimal policy. 
+
+  🔹 [Expressing Arbitrary Reward Functions as Potential-Based Advice](https://ai.vub.ac.be/sites/default/files/aaai-anna-draft_3.pdf) :fire: 
+
+  DPBA: Potential-based reward shaping is a way to provide the agent with a specific form of additional reward, with the guarantee of policy invariance. In this work we give a novel way to incorporate an arbitrary reward function with the same guarantee, by implicitly translating it into the specific form of dynamic advice potentials, which are maintained as an auxiliary value function learnt at the same time.
+
+  🔹 [Useful Policy Invariant Shaping from Arbitrary Advice](https://arxiv.org/pdf/2011.01297.pdf) :fire: :+1: 
+
+  PIES biases the agent’s policy toward the advice at the start of the learning, when the agent is the most in need of guidance. Over time, PIES gradually decays this bias to zero, ensuring policy invariance.
 
   
 <a name="anchor-offline "></a>
