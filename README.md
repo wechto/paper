@@ -249,6 +249,10 @@ TOC
 - LEARNING TEMPORAL ABSTRACTION WITH INFORMATION-THEORETIC CONSTRAINTS FOR HIERARCHICAL REINFORCEMENT LEARNING <https://openreview.net/pdf?id=HkeUDCNFPS> :fire: :+1:
 
   we maximize the mutual information between the latent variables and the state changes.
+
+  🔹 [Hierarchical Reinforcement Learning with Advantage-Based Auxiliary Rewards](https://proceedings.neurips.cc/paper/2019/file/81e74d678581a3bb7a720b019f4f1a93-Paper.pdf) :fire: 
+
+  HAAR: We propose an HRL framework which sets auxiliary rewards for low-level skill training based on the advantage function of the high-level policy.
   
 - learning representation
 
@@ -667,8 +671,12 @@ RPC: Our objective differs from prior work by compressing sequences of observati
 
 🔹 [Representation Gap in Deep Reinforcement Learning](https://arxiv.org/pdf/2205.14557.pdf) 🌋 
 
-We propose Policy Optimization from Preventing Representation Overlaps (POPRO), which regularizes the policy evaluation phase through differing the representation of action value
-function from its target. 
+We propose Policy Optimization from Preventing Representation Overlaps (POPRO), which regularizes the policy evaluation phase through differing the representation of action value function from its target. 
+
+🔹 [TRANSFER RL ACROSS OBSERVATION FEATURE SPACES VIA MODEL-BASED REGULARIZATION](https://arxiv.org/pdf/2201.00248.pdf) :fire: :fire: 
+
+We propose to learn a latent dynamics model in the source task and transfer
+the model to the target task to facilitate representation learning (+heoretical analysis). 
 
 <a name="anchor-MI"></a>
 
@@ -972,6 +980,10 @@ The developed approach harnesses auxiliary rewards to guide the exploration for 
 🔹 [LEARNING CROSS-DOMAIN CORRESPONDENCE FOR CONTROL WITH DYNAMICS CYCLE-CONSISTENCY](https://openreview.net/pdf?id=QIRlze3I6hX) :+1: :+1: :fire:
 
 In this paper, we propose to learn correspondence across such domains emphasizing on differing modalities (vision and internal state), physics parameters (mass and friction), and morphologies (number of limbs). Importantly, correspondences are learned using unpaired and randomly collected data from the two domains. We propose **dynamics cycles** that align dynamic robotic behavior across two domains using a cycle consistency constraint.  
+
+🔹 [Hierarchically Decoupled Imitation for Morphological Transfer](http://proceedings.mlr.press/v119/hejna20a/hejna20a.pdf) 😶 
+
+ incentivizing a complex agent’s low-level to imitate a simpler agent’s low-level significantly improves zero-shot high-level transfer; KL-regularized training of the high level stabilizes learning and prevents modecollapse.
 
 🔹 [Improving Generalization in Reinforcement Learning with Mixture Regularization](https://arxiv.org/pdf/2010.10814.pdf) :+1:  
 
@@ -1388,6 +1400,15 @@ We develop an expressive, unifying perspective on inverse decision modeling: a f
   🔹 [Useful Policy Invariant Shaping from Arbitrary Advice](https://arxiv.org/pdf/2011.01297.pdf) :fire: :+1: 
 
   PIES biases the agent’s policy toward the advice at the start of the learning, when the agent is the most in need of guidance. Over time, PIES gradually decays this bias to zero, ensuring policy invariance.
+
+  🔹 [Policy Transfer using Reward Shaping](https://ai.vub.ac.be/~tbrys/publications/Brys2015AAMAS.pdf) 👍 
+  
+  We presented a novel approach to policy transfer, encoding the transferred policy as a dynamic potential-based reward shaping function, benefiting from all the theory behind reward shaping.
+
+  🔹 [Reward prediction for representation learning and reward shaping](https://arxiv.org/pdf/2105.03172.pdf) :+1: 
+
+  Using our representation for preprocessing high-dimensional observations, as well as using the predictor for reward shaping.
+
 
   
 <a name="anchor-offline "></a>
@@ -2790,6 +2811,8 @@ We define the Termination Markov Decision Process (TerMDP), an extension of the 
 🔹 [Truly Deterministic Policy Optimization](https://arxiv.org/pdf/2205.15379.pdf) :confused: :+1: 
 
 We proposed a deterministic policy gradient method (TDPO) based on the use of a deterministic Vine (DeVine) gradient estimator and the Wasserstein metric. We proved monotonic payoff guarantees for our method, and defined a novel surrogate for policy optimization. 
+
+🔹 [Automated Reinforcement Learning (AutoRL): A Survey and Open Problems](https://arxiv.org/pdf/2201.03916.pdf) 💦 
 
 <a name="anchor-marl"></a>
 
