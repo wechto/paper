@@ -623,7 +623,9 @@ We establish the theoretical foundations for the validity of training a rl agent
 
 We introduce a unified formalism for defining these topologies through the lens of metrics. We establish a hierarchy amongst these metrics and demonstrate their theoretical implications on the Markov Decision Process specifying the rl problem.  
 
-🔹 [Environment Shaping in Reinforcement Learning using State Abstraction](https://arxiv.org/pdf/2006.13160.pdf) :sweat_drops:
+🔹 [Environment Shaping in Reinforcement Learning using State Abstraction](https://arxiv.org/pdf/2006.13160.pdf) :sweat_drops: 🌋 
+
+Our key idea is to compress the environment’s large state space with noisy signals to an abstracted space, and to use this abstraction in creating smoother and more effective feedback signals for the agent. We study the theoretical underpinnings of our abstractionbased environment shaping, and show that the agent’s policy learnt in the shaped environment preserves near-optimal behavior in the original environment.
 
 🔹 [A RELATIONAL INTERVENTION APPROACH FOR UNSUPERVISED DYNAMICS GENERALIZATION IN MODEL-BASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=YRq0ZUnzKoZ) :fire: :volcano:
 
@@ -2141,6 +2143,10 @@ We have developed a new method of learning different data manipulation schemes w
 🔹 [HINDSIGHT FORESIGHT RELABELING FOR META-REINFORCEMENT LEARNING](https://arxiv.org/pdf/2109.09031.pdf) :fire: :volcano:
 
 Hindsight Foresight Relabeling (HFR): We construct a relabeling distribution using the combination of hindsight, which is used to relabel trajectories using reward functions from the training task distribution, and foresight, which takes the relabeled trajectories and computes the utility of each trajectory for each task.
+
+🔹 [Generalized Hindsight for Reinforcement Learning](https://proceedings.neurips.cc/paper/2020/file/57e5cb96e22546001f1d6520ff11d9ba-Paper.pdf) :+1: 
+
+ Generalized Hindsight: an approximate inverse reinforcement learning technique for relabeling behaviors with the right tasks. 
 
 🔹 [GENERALIZED DECISION TRANSFORMER FOR OFFLINE HINDSIGHT INFORMATION MATCHING](https://arxiv.org/pdf/2111.10364.pdf) :+1: :fire:
 
