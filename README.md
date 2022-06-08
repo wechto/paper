@@ -1049,6 +1049,14 @@ Multi-Critic Actor Learning (MultiCriticAL) proposes instead maintaining separat
 
 🔹 [Evolution Gym: A Large-Scale Benchmark for Evolving Soft Robots](https://papers.nips.cc/paper/2021/file/118921efba23fc329e6560b27861f0c2-Paper.pdf) :fire:  
 
+🔹 [Beyond Tabula Rasa: Reincarnating Reinforcement Learning](https://arxiv.org/pdf/2206.01626.pdf) 🌋 
+
+As a step towards enabling reincarnating RL from any agent to any other agent, we focus on the specific setting of efficiently transferring an existing sub-optimal policy to a standalone valuebased RL agent. 
+
+🔹 [A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/pdf/1011.0686.pdf) :+1: :fire: 
+
+DAgger (Dataset Aggregation): trains a deterministic policy that achieves good performance guarantees under its induced distribution of states.
+
  <a name="anchor-ood"></a>
 
 :o: :o: :o: **Out-of-Distribution (OOD) Generalization**  [Modularity--->Generalization](https://zhuanlan.zhihu.com/p/137082457)
@@ -1254,6 +1262,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   🔹 [AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control](https://arxiv.org/pdf/2104.02180.pdf) :no_mouth:
   
   we presented an adversarial learning system for physics based character animation that enables characters to imitate diverse behaviors from large unstructured datasets, without the need for motion planners or other mechanisms for clip selection.  
+
+  🔹 [ARC - Actor Residual Critic for Adversarial Imitation Learning](https://arxiv.org/pdf/2206.02095.pdf) 😶
+
+  We leverage the differentiability property of the AIL reward function and formulate a class of Actor Residual Critic (ARC) RL algorithms that draw a parallel to the standard AC algorithms in RL and uses a residual critic, C function to approximate only the discounted future return (excluding the immediate reward). 
   
 🔹 [Reinforced Imitation Learning by Free Energy Principle](https://arxiv.org/pdf/2107.11811.pdf) :droplet:
 
@@ -1309,11 +1321,17 @@ We review recent advances based on joint and dynamic importance predictor estima
 
 We develop an expressive, unifying perspective on inverse decision modeling: a framework for learning parameterized representations of sequential decision behavior. 
 
+- Multiple-Intent
+  
+  🔹 [LiMIIRL: Lightweight Multiple-Intent Inverse Reinforcement Learning](https://arxiv.org/pdf/2106.01777.pdf) :fire: 
 
+  Multiple-Intent Inverse Reinforcement Learning (MI-IRL) seeks to find a reward function ensemble to rationalize demonstrations of different but unlabelled intents. Within the popular expectation maximization (EM) framework for learning probabilistic MI-IRL models, we present a warm-start strategy based on up-front clustering of the demonstrations in feature space.
 
 - Meta IRL
 
-  🔹 [Meta-Inverse Reinforcement Learning with Probabilistic Context Variables](https://arxiv.org/pdf/1909.09314.pdf)
+  🔹 [Meta-Inverse Reinforcement Learning with Probabilistic Context Variables](https://arxiv.org/pdf/1909.09314.pdf) :fire: 
+
+  PEMIRL: we propose a deep latent variable model that is capable of learning rewards from demonstrations of distinct but related tasks in an unsupervised way.
 
 - RL From Preferences
 
@@ -1637,6 +1655,10 @@ This framework consists of two steps: (a) learning a pessimistic MDP (P-MDP) usi
 
 This results in a conservative estimate of the value function for out-of-support state-action tuples, without requiring explicit uncertainty estimation.
 
+🔹 [HYBRID VALUE ESTIMATION FOR OFF-POLICY EVALUATION AND OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2206.02000.pdf) 🌋 
+
+We propose Hybrid Value Estimation (HVE) to perform a more accurate value function estimation in the offline setting. It automatically adjusts the step length parameter to get a bias-variance trade-off.
+
 🔹 [DROMO: Distributionally Robust Offline Model-based Policy Optimization](https://arxiv.org/pdf/2109.07275.pdf) :fire:
 
 To extend the basic idea of regularization without uncertainty quantification, we propose distributionally robust offline model-based policy optimization (DROMO), which leverages the ideas in distributionally robust optimization to penalize a broader range of out-of-distribution state-action pairs beyond the standard empirical out-of-distribution Q-value minimization.
@@ -1799,6 +1821,10 @@ Our aim is to test the scalability of prior IL + RL algorithms and devise a syst
 🔹 [Distance-Sensitive Offline Reinforcement Learning](https://arxiv.org/pdf/2205.11027.pdf) 👍 :fire: 🌋 
 
 We propose a new method, DOGE (Distance-sensitive Offline RL with better GEneralization). DOGE marries dataset geometry with deep function approximators in offline RL, and enables exploitation in generalizable OOD areas rather than strictly constraining policy within data distribution. 
+
+🔹 [RORL: Robust Offline Reinforcement Learning via Conservative Smoothing](https://arxiv.org/pdf/2206.02829.pdf) :+1: :fire: 
+
+We explicitly introduce regularization on the policy and the value function for states near the dataset and additional conservative value estimation on these OOD states.
 
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
@@ -2538,6 +2564,14 @@ We take the first steps towards a universal off-policy estimator (UnO) that esti
 
 Our algorithm, OptiDICE, directly estimates the stationary distribution corrections of the optimal policy and does not rely on policy-gradients, unlike previous offline RL algorithms.
 
+🔹 [SMODICE: Versatile Offline Imitation Learning via State Occupancy Matching](https://arxiv.org/pdf/2202.02433.pdf) 
+
+🔹 [DEMODICE: OFFLINE IMITATION LEARNING WITH SUPPLEMENTARY IMPERFECT DEMONSTRATIONS](https://openreview.net/pdf?id=BrPdX1bDZkQ) 
+
+🔹 [How Far I’ll Go: Offline Goal-Conditioned Reinforcement Learning via f-Advantage Regression](https://arxiv.org/pdf/2206.03023.pdf) 🌋
+
+Goal-conditioned f-Advantage Regression (GoFAR), a novel regressionbased offline GCRL algorithm derived from a state-occupancy matching perspective; the key intuition is that the goal-reaching task can be formulated as a stateoccupancy matching problem between a dynamics-abiding imitator agent and an expert agent that directly teleports to the goal.
+
   🔹 [Minimax Weight and Q-Function Learning for Off-Policy Evaluation](http://proceedings.mlr.press/v119/uehara20a/uehara20a.pdf) :fire: :droplet:  ​ ​
 
   Minimax Weight Learning (MWL); Minimax Q-Function Learning. Doubly Robust Extension and Sample Complexity of MWL & MQL.
@@ -3099,6 +3133,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   🔹 [Variance-based regularization with convex objectives](https://arxiv.org/pdf/1610.02581.pdf)
 
+  🔹 [Adaptive Regularization for Adversarial Training](https://arxiv.org/pdf/2206.03353.pdf) 🌋
+
+  we develop a new data-adaptive regularization algorithm for adversarial training called Anti-Robust Weighted Regularization (ARoW). (more methods: PGD-Training, TRADES, GAIR-AT, FAT, MMA)
+
 - Distribution shift; Robust;
 
   🔹 [Rethinking Importance Weighting for Deep Learning under Distribution Shift](https://arxiv.org/pdf/2006.04662.pdf) :confused:  ​
@@ -3260,6 +3298,12 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Unsupervised Learning of Compositional Energy Concepts](https://openreview.net/pdf?id=2RgFZHCrI0l) :fire: :fire:
   
   We propose COMET, which discovers and represents concepts as separate energy functions, enabling us to represent both global concepts as well as objects under a unified framework. COMET discovers energy functions through recomposing the input image, which we find captures independent factors without additional supervision.
+
+- Interpretation 
+  
+  🔹 [CONTRASTIVE EXPLANATIONS FOR REINFORCEMENT LEARNING VIA EMBEDDED SELF PREDICTIONS](https://openreview.net/pdf?id=Ud3DSz72nYR) :+1: 
+
+  We investigate a deep reinforcement learning (RL) architecture that supports explaining why a learned agent prefers one action over another.
   
 - Label Noise
   
