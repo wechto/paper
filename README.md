@@ -2122,6 +2122,10 @@ SSRL:  We demonstrate that, without policy gradient or value estimation, an iter
 
   This high-level policy predicts intermediate states halfway to the goal using the value function as a reachability metric. We don’t require the policy to reach these subgoals explicitly. Instead, we use them to define a prior policy, and incorporate this prior into a KL-constrained pi scheme to speed up and reg.
 
+  🔹 [Goal-Space Planning with Subgoal Models](https://arxiv.org/pdf/2206.02902.pdf) :+1: :fire: 
+
+  Goal-Space Planning (GSP): The key idea is to plan in a much smaller space of subgoals, and use these (high-level) subgoal values to update state values using subgoal-conditioned mode.
+
   🔹 [Discovering Generalizable Skills via Automated Generation of Diverse Tasks](https://arxiv.org/pdf/2106.13935.pdf) :no_mouth:
 
   As opposed to prior work on unsupervised discovery of skills which incentivizes the skills to produce different outcomes in the same environment, our method pairs each skill with a unique task produced by a trainable task generator. Procedural content generation (PCG).
