@@ -216,6 +216,10 @@ TOC
 
   We, rather, will **tolerate lossy representations** as long as they capture discriminative features useful for stimulus-reward association.  
 
+  🔹 [On the Effectiveness of Fine-tuning Versus Meta-reinforcement Learning](https://arxiv.org/pdf/2206.03271.pdf) 😶
+
+  Conclusion: multi-task pretraining with fine-tuning on new tasks performs equally as well, or better, than meta-RL.
+
 - Asymmetric Distribution Measure for Few-shot Learning <https://arxiv.org/pdf/2002.00153.pdf> :+1:
 
   feature representations and relation measure.
@@ -1266,6 +1270,8 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   🔹 [ARC - Actor Residual Critic for Adversarial Imitation Learning](https://arxiv.org/pdf/2206.02095.pdf) 😶
 
   We leverage the differentiability property of the AIL reward function and formulate a class of Actor Residual Critic (ARC) RL algorithms that draw a parallel to the standard AC algorithms in RL and uses a residual critic, C function to approximate only the discounted future return (excluding the immediate reward). 
+
+
   
 🔹 [Reinforced Imitation Learning by Free Energy Principle](https://arxiv.org/pdf/2107.11811.pdf) :droplet:
 
@@ -1681,7 +1687,7 @@ UWAC: an algorithm that detects OOD state-action pairs and down-weights their co
 
 By introducing the Expect-Max Q-Learning operator, we present a novel theoretical setup that takes into account the proposal distribution µ(a|s) and the number of action samples N, and hence more closely matches the resulting practical algorithm.
 
-🔹 [OFFLINE REINFORCEMENT LEARNING WITH IN-SAMPLE Q-LEARNING](<https://openreview.net/pdf?id=68n2s9ZJ> WF8) :fire: :fire:  
+🔹 [OFFLINE REINFORCEMENT LEARNING WITH IN-SAMPLE Q-LEARNING](https://openreview.net/pdf?id=68n2s9ZJWF8) :fire: :fire:  
 
 We presented implicit Q-Learning (IQL), a general algorithm for offline RL that completely avoids any queries to values of out-of-sample actions during training while still enabling multi-step dynamic programming.  Adopting Expectile regression. [old](https://arxiv.org/pdf/2110.06169.pdf)
 
@@ -1801,6 +1807,10 @@ We propose Adversarially Trained Actor Critic (ATAC) based on a two-player Stack
 
 Simply maximizing likelihood with a two-layer feedforward MLP is competitive with state-of-the-art results of substantially more complex methods based on TD learning or sequence modeling with Transformers. Carefully choosing model capacity (e.g., via regularization or architecture) and choosing which information to condition on (e.g., goals or rewards) are critical for performance.  [THE ESSENTIAL ELEMENTS OF OFFLINE RL VIA SUPERVISED LEARNING](https://openreview.net/pdf?id=S874XAIpkR-)  
 
+🔹 [When does return-conditioned supervised learning work for offline reinforcement learning?](https://arxiv.org/pdf/2206.01079.pdf) :fire:
+
+We find that RCSL (return-conditioned SL) returns the optimal policy under a set of assumptions that are stronger than those needed for the more traditional dynamic programming-based algorithms.
+
 🔹 [Implicit Behavioral Cloning](https://arxiv.org/pdf/2109.00137.pdf) :fire: :volcano: :boom:
 
 In this paper we showed that reformulating supervised imitation learning as a conditional energy-based modeling problem, with inference-time implicit regression, often greatly outperforms traditional explicit policy baselines.
@@ -1825,6 +1835,10 @@ We propose a new method, DOGE (Distance-sensitive Offline RL with better GEneral
 🔹 [RORL: Robust Offline Reinforcement Learning via Conservative Smoothing](https://arxiv.org/pdf/2206.02829.pdf) :+1: :fire: 
 
 We explicitly introduce regularization on the policy and the value function for states near the dataset and additional conservative value estimation on these OOD states.
+
+🔹 [On the Role of Discount Factor in Offline Reinforcement Learning](https://arxiv.org/pdf/2206.03383.pdf) :fire: :fire:
+
+This paper examines two distinct effects of discount factor in offline RL with theoretical analysis, namely the regularization effect and the pessimism effect.
 
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
@@ -2570,7 +2584,9 @@ Our algorithm, OptiDICE, directly estimates the stationary distribution correcti
 
 🔹 [SMODICE: Versatile Offline Imitation Learning via State Occupancy Matching](https://arxiv.org/pdf/2202.02433.pdf) 
 
-🔹 [DEMODICE: OFFLINE IMITATION LEARNING WITH SUPPLEMENTARY IMPERFECT DEMONSTRATIONS](https://openreview.net/pdf?id=BrPdX1bDZkQ) 
+🔹 [DEMODICE: OFFLINE IMITATION LEARNING WITH SUPPLEMENTARY IMPERFECT DEMONSTRATIONS](https://openreview.net/pdf?id=BrPdX1bDZkQ) 🌋 :fire: 👍
+
+An algorithm for offline IL from expert and imperfect demonstrations that achieves state-of-the-art performance on various offline IL tasks.
 
 🔹 [How Far I’ll Go: Offline Goal-Conditioned Reinforcement Learning via f-Advantage Regression](https://arxiv.org/pdf/2206.03023.pdf) 🌋
 
@@ -3005,6 +3021,14 @@ Our approach, called SPI with Baseline Bootstrapping (SPIBB), is inspired by the
 🔹 [Safe Policy Improvement with Soft Baseline Bootstrapping](https://arxiv.org/pdf/1907.05079.pdf) :+1: :fire: :volcano:
 
 Instead of binarily classifying the state-action pairs into two sets (the uncertain and the safe-to-train-on ones), we adopt a softer strategy that controls the error in the value estimates by constraining the policy change according to the local model uncertainty.
+
+🔹 [SPIBB-DQN: Safe batch reinforcement learning with function approximation](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/RLDM___SPIBB_DQN-2.pdf) 
+
+🔹 [Safe policy improvement with estimated baseline bootstrapping](https://arxiv.org/pdf/1909.05236.pdf) 
+
+🔹 [Incorporating Explicit Uncertainty Estimates into Deep Offline Reinforcement Learning](https://arxiv.org/pdf/2206.01085.pdf) :fire
+
+deep-SPIBB: Evaluation step regularization + Uncertainty.
 
 🔹 [Accelerating Safe Reinforcement Learning with Constraint-mismatched Baseline Policies](http://proceedings.mlr.press/v139/yang21i/yang21i.pdf) :fire: :volcano:
 
