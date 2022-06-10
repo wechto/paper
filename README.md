@@ -1242,6 +1242,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   🔹 [IMITATION LEARNING VIA OFF-POLICY DISTRIBUTION MATCHING](https://arxiv.org/pdf/1912.05032.pdf) :+1: :fire: :boom:  :volcano:  ​
   
   These prior distribution matching approaches possess two limitations (On-policy; Separate RL optimization).  ---> OFF-POLICY FORMULATION OF THE KL-DIVERGENCE. ---> VALUEDICE: IMITATION LEARNING WITH IMPLICIT REWARDS. (OPE)
+
+  🔹 [TRANSFERABLE REWARD LEARNING BY DYNAMICS-AGNOSTIC DISCRIMINATOR ENSEMBLE](https://arxiv.org/pdf/2206.00238.pdf) :fire:
+
+  DARL: learns a dynamics-agnostic discriminator on a latent space mapped from the original state-action space. To reduce the reliance of the discriminator on policies, the reward function is represented as an ensemble of the discriminators during training.
   
   🔹 [Imitation Learning from Observations by Minimizing Inverse Dynamics Disagreement](https://papers.nips.cc/paper/2019/file/ed3d2c21991e3bef5e069713af9fa6ca-Paper.pdf) :+1: :fire: :boom:  ​
   
@@ -1434,6 +1438,14 @@ We develop an expressive, unifying perspective on inverse decision modeling: a f
   🔹 [Reward prediction for representation learning and reward shaping](https://arxiv.org/pdf/2105.03172.pdf) :+1: 
 
   Using our representation for preprocessing high-dimensional observations, as well as using the predictor for reward shaping.
+
+- Inverse constrain learning (ICL)
+  
+  🔹 [Learning Soft Constraints From Constrained Expert Demonstrations](https://arxiv.org/pdf/2206.01311.pdf) :fire: 
+
+   We consider the setting where the reward function is given, and the constraints are unknown, and propose a method that is able to recoverthese constraints satisfactorily from the expert data.
+
+
 
 
   
@@ -3195,6 +3207,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   We start by explaining maximum likelihood training with Markov chain Monte Carlo (MCMC), and proceed to elaborate on MCMC-free approaches, including Score Matching (SM) and Noise Constrastive Estimation (NCE).  
 
+  🔹 [A UNIFIED CONTRASTIVE ENERGY-BASED MODEL FOR UNDERSTANDING THE GENERATIVE ABILITY OF ADVERSARIAL TRAINING](https://arxiv.org/pdf/2203.13455.pdf) 🌋 
+
+  CEM: the first probabilistic characterization of AT through a unified understanding of robustness and generative ability,  interprets unsupervised contrastive learning as animportant sampling of CEM.
+
 - Data Valuation 
 
   🔹 [Data shapley: Equitable valuation of data for machine learning](https://proceedings.mlr.press/v97/ghorbani19c/ghorbani19c.pdf) 
@@ -3370,6 +3386,7 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   We are primarily inspired by three observations: 1) In contrast to reducing label noise rates, increasing the noise rates is easy to implement; 2) Increasing a certain class of instances’ label noise to balance the noise rates (increasing-to-balancing) results in an easier learning problem; 3) Increasing-to-balancing improves fairness guarantees against label bias.
   
 - Semi-supervise; self-training
+  
   🔹 [TEMPORAL ENSEMBLING FOR SEMI-SUPERVISED LEARNING](https://openreview.net/pdf?id=BJ6oOfqge) :fire:
   
   We introduce self-ensembling, where we form a consensus prediction of the unknown labels using the outputs of the network-in-training on different epochs, and most importantly, under different regularization and input augmentation conditions.
@@ -3401,6 +3418,14 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   A UDA algorithm that judges the reliability of a target instance based on its predictive consistency under a committee of random image transformations.
   
   🔹 [Deep Co-Training with Task Decomposition for Semi-Supervised Domain Adaptation](https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Deep_Co-Training_With_Task_Decomposition_for_Semi-Supervised_Domain_Adaptation_ICCV_2021_paper.pdf)
+
+  🔹 [Debiased Contrastive Learning](https://proceedings.neurips.cc/paper/2020/file/63c3ddcc7b23daa1e42dc41f9a44a873-Paper.pdf) 🌋 
+
+  we develop a debiased contrastive objective that corrects for the sampling of same-label datapoints, even without knowledge of the true labels.
+
+  🔹 [Positive Unlabeled Contrastive Learning](https://arxiv.org/pdf/2206.01206.pdf) :fire: 
+
+  puNCE: that leverages the available explicit (from labeled samples) and implicit (from unlabeled samples) supervision to learn useful representations from positive unlabeled input data.
   
 - GAN
 
