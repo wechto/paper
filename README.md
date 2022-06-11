@@ -681,8 +681,12 @@ We propose Policy Optimization from Preventing Representation Overlaps (POPRO), 
 
 🔹 [TRANSFER RL ACROSS OBSERVATION FEATURE SPACES VIA MODEL-BASED REGULARIZATION](https://arxiv.org/pdf/2201.00248.pdf) :fire: :fire: 
 
-We propose to learn a latent dynamics model in the source task and transfer
-the model to the target task to facilitate representation learning (+heoretical analysis). 
+We propose to learn a latent dynamics model in the source task and transfer the model to the target task to facilitate representation learning (+heoretical analysis). 
+
+🔹 [Sample-Efficient Reinforcement Learning in the Presence of Exogenous Information](https://arxiv.org/pdf/2206.04282.pdf) :fire:
+
+ExoMDP: the state space admits an (unknown) factorization into a small controllable (or, endogenous) component and a large irrelevant (or, exogenous) component; the exogenous component is independent of the learner’s actions, but evolves in an arbitrary,
+temporally correlated fashion.
 
 <a name="anchor-MI"></a>
 
@@ -3426,6 +3430,19 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Positive Unlabeled Contrastive Learning](https://arxiv.org/pdf/2206.01206.pdf) :fire: 
 
   puNCE: that leverages the available explicit (from labeled samples) and implicit (from unlabeled samples) supervision to learn useful representations from positive unlabeled input data.
+
+- Uncertainty (Calibration)
+
+  🔹 [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://proceedings.neurips.cc/paper/2017/file/9ef2ed4b7fd2c810847ffa5fa85bce38-Paper.pdf) 🔥 
+
+  🔹 [Accurate Uncertainties for Deep Learning Using Calibrated Regression](https://arxiv.org/pdf/1807.00263.pdf) :fire:
+
+  🔹 [Calibrated Reliable Regression using Maximum Mean Discrepancy](https://arxiv.org/pdf/2006.10255.pdf) :+1:👍
+
+  We propose the calibrated regression method using the maximum mean discrepancy by minimizing the kernel embedding measure.
+
+
+  
   
 - GAN
 
