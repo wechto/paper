@@ -1791,6 +1791,30 @@ This paper tackles the problem of learning value functions from undirected state
 
 We augment a learned dynamics model with simple transformations that seek to capture potential changes in physical properties of the robot, leading to more robust policies.
 
+🔹 [SEMI-PARAMETRIC TOPOLOGICAL MEMORY FOR NAVIGATION](https://arxiv.org/pdf/1803.00653.pdf) 
+
+🔹 [Mapping State Space using Landmarks for Universal Goal Reaching](https://arxiv.org/pdf/1908.05451.pdf)
+
+🔹 [Search on the Replay Buffer: Bridging Planning and Reinforcement Learning](https://arxiv.org/pdf/1906.05253.pdf)
+
+🔹 [Hallucinative Topological Memory for Zero-Shot Visual Planning](https://arxiv.org/pdf/2002.12336.pdf)
+
+🔹 [Sparse Graphical Memory for Robust Planning](https://arxiv.org/pdf/2003.06417.pdf) 👍
+
+SGM: aggregates states according to a novel two-way consistency objective, adapting classic state aggregation criteria to goal-conditioned RL: two states are redundant when they are interchangeable both as goals and as starting states.
+
+🔹 [Plan2vec: Unsupervised Representation Learning by Latent Plans](https://arxiv.org/pdf/2005.03648.pdf) 😶
+
+Plan2vec constructs a weighted graph on an image dataset using near-neighbor distances, and then extrapolates this local metric to a global embedding by distilling path-integral over planned path. 
+
+🔹 [World Model as a Graph: Learning Latent Landmarks for Planning](https://arxiv.org/pdf/2011.12491.pdf) :+1:
+
+L3P: We devise a novel algorithm to learn latent landmarks that are scattered (in terms of reachability) across the goal space as the nodes on the graph. 
+
+🔹 [Value Memory Graph: A Graph-Structured World Model for Offline Reinforcement Learning](https://arxiv.org/pdf/2206.04384.pdf) :fire:
+
+VMG: we design a graph-structured world model in offline reinforcement learning by building a directed-graph-based Markov decision process (MDP) with rewards allocated to each directed edge as an abstraction of the original continuous environment.
+
 🔹 [GOAL-CONDITIONED BATCH REINFORCEMENT LEARNING FOR ROTATION INVARIANT LOCOMOTION](https://arxiv.org/pdf/2004.08356.pdf) :no_mouth:
 
 🔹 [Offline Meta-Reinforcement Learning for Industrial Insertion](https://arxiv.org/pdf/2110.04276.pdf) :no_mouth:
@@ -2241,6 +2265,10 @@ Self-imitation; experience replay: we propose a novel experience replay optimiza
 🔹 [MODEL-AUGMENTED PRIORITIZED EXPERIENCE REPLAY](https://openreview.net/pdf?id=WuEiafqdy9H) :no_mouth:
 
 We propose a novel experience replay method, which we call model-augmented priority experience replay (MaPER), that employs new learnable features driven from components in model-based RL (MbRL) to calculate the scores on experiences.
+
+🔹 [TOPOLOGICAL EXPERIENCE REPLAY](https://arxiv.org/pdf/2203.15845.pdf) :fire:
+
+  TER: If the data sampling strategy ignores the precision of Q-value estimate of the next state, it can lead to useless and often incorrect updates to the Q-values.
 
 🔹 [Memory Augmented Policy Optimization for Program Synthesis and Semantic Parsing](https://arxiv.org/pdf/1807.02322.pdf) :+1:
 
