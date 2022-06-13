@@ -1262,6 +1262,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   🔹 [Imitation Learning by State-Only Distribution Matching](https://arxiv.org/pdf/2202.04332.pdf) :fire: :fire:
   
   LfO: We propose a non-adversarial learning-from-observations approach, together with an interpretable convergence and performance metric.
+
+  🔹 [Plan Your Target and Learn Your Skills: Transferable State-Only Imitation Learning via Decoupled Policy Optimization](https://arxiv.org/pdf/2203.02214.pdf) :fire: 🌋 
+
+  We propose Decoupled Policy Optimization (DePO) for transferable state-only imitation learning, which decouples the state-to-action mapping policy into a state-to-state mapping state planner and a state-pair-to-action mapping inverse dynamics model.
   
   🔹 [IMITATION LEARNING BY REINFORCEMENT LEARNING](https://openreview.net/pdf?id=1zwleytEpYx) :fire: :fire:
   
@@ -2361,9 +2365,13 @@ We take a unifying view of this space of algorithms (off-policy learning algorit
 
    MBPO: we study the role of model usage in policy optimization both theoretically and empirically.
 
-🔹 [Visual Foresight: Model-based deep reinforcement learning for vision-based robotic control](https://arxiv.org/pdf/1812.00568.pdf) :+1:
+  🔹 [Visual Foresight: Model-based deep reinforcement learning for vision-based robotic control](https://arxiv.org/pdf/1812.00568.pdf) :+1:
 
-We presented an algorithm that leverages self-supervision from visual prediction to learn a deep dynamics model on images, and show how it can be embedded into a planning framework to solve a variety of robotic control tasks.
+  We presented an algorithm that leverages self-supervision from visual prediction to learn a deep dynamics model on images, and show how it can be embedded into a planning framework to solve a variety of robotic control tasks.
+
+  🔹 [LEARNING STATE REPRESENTATIONS VIA RETRACING IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=CLpxpXqqBV) :+1:
+
+  CCWM: a self-supervised instantiation of “learning via retracing” for joint representation learning and generative model learning under the model-based RL setting.
 
   🔹 [Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization](https://arxiv.org/pdf/2006.03647.pdf) :fire:  :volcano: :boom:
 
