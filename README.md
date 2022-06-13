@@ -1880,6 +1880,15 @@ We explicitly introduce regularization on the policy and the value function for 
 
 This paper examines two distinct effects of discount factor in offline RL with theoretical analysis, namely the regularization effect and the pessimism effect.
 
+🔹 [LEARNING PSEUDOMETRIC-BASED ACTION REPRESENTATIONS FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=naoQDOYsHnS) :fire: 🌋
+
+BMA: This paper proposes an action representation learning framework for offline RL based on a pseudometric, which measures both the behavioral relation and thedata-distributional relation between actions.
+
+🔹 [PLAS: Latent Action Space for Offline Reinforcement Learning](https://arxiv.org/pdf/2011.07213.pdf) :+1:
+
+We propose to simply learn the Policy in the
+Latent Action Space (PLAS) such that this requirement (OOD action) is naturally satisfied.
+
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
@@ -2268,7 +2277,7 @@ We propose a novel experience replay method, which we call model-augmented prior
 
 🔹 [TOPOLOGICAL EXPERIENCE REPLAY](https://arxiv.org/pdf/2203.15845.pdf) :fire:
 
-  TER: If the data sampling strategy ignores the precision of Q-value estimate of the next state, it can lead to useless and often incorrect updates to the Q-values.
+TER: If the data sampling strategy ignores the precision of Q-value estimate of the next state, it can lead to useless and often incorrect updates to the Q-values.
 
 🔹 [Memory Augmented Policy Optimization for Program Synthesis and Semantic Parsing](https://arxiv.org/pdf/1807.02322.pdf) :+1:
 
@@ -2439,6 +2448,14 @@ MBDP: Model-Based Double-dropout Planning (MBDP) consists of two kinds of dropou
 🔹 [Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models](https://arxiv.org/pdf/1805.12114.pdf) :+1:
 
 Employing uncertainty-aware dynamics models: we propose a new algorithm called probabilistic ensembles with trajectory sampling (PETS) that combines uncertainty-aware deep network dynamics models with sampling-based uncertainty propagation.
+
+🔹 [Plan Online, Learn Offline: Efficient Learning and Exploration via Model-Based Control](https://arxiv.org/pdf/1811.01848.pdf) :+1: :fire: 
+
+POLO utilizes a global value function approximation scheme, a local trajectory optimization subroutine, and an optimistic exploration scheme. 
+
+🔹 [Learning Off-Policy with Online Planning](https://arxiv.org/pdf/2008.10066.pdf) :fire: 🌋
+
+LOOP: We provide a theoretical analysis of this method, suggesting a tradeoff between model errors and value function errors and empirically demonstrate this tradeoff to be beneficial in deep reinforcement learning. H-step
 
 🔹 [Calibrated Model-Based Deep Reinforcement Learning](https://arxiv.org/pdf/1906.08312.pdf) :fire:
 
