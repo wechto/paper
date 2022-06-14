@@ -485,6 +485,10 @@ Meta-learner of Behavioral Similarities (AMBS): A pair of meta-learners is devel
 
   :hourglass:  :diamond_shape_with_a_dot_inside:  :diamond_shape_with_a_dot_inside:  :hourglass: ***Rep***resentation learning. :hourglass:  :diamond_shape_with_a_dot_inside:  :diamond_shape_with_a_dot_inside:  :hourglass:
 
+  🔹 [Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?](https://arxiv.org/pdf/2206.05266.pdf) :fire:
+
+  we fail to find a single self-supervised loss or a combination of multiple SSL methods that consistently improve RL under the existing joint learning framework with image augmentation.
+
   🔹 [CURL: Contrastive Unsupervised Representations for Reinforcement Learning](https://arxiv.org/pdf/2004.04136.pdf) :fire: :volcano: :droplet:  ​ ​
 
 🔹 [MASTERING VISUAL CONTINUOUS CONTROL: IMPROVED DATA-AUGMENTED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=_SJ-_yyes8) :fire:
@@ -1065,6 +1069,11 @@ As a step towards enabling reincarnating RL from any agent to any other agent, w
 
 DAgger (Dataset Aggregation): trains a deterministic policy that achieves good performance guarantees under its induced distribution of states.
 
+🔹 [Multifidelity Reinforcement Learning with Control Variates](https://arxiv.org/pdf/2206.05165.pdf) :fire:
+
+MFMCRL: a multifidelity estimator that exploits the cross-correlations between the low- and high-fidelity returns is proposed to reduce the variance in the estimation of the state-action
+value function.
+
  <a name="anchor-ood"></a>
 
 :o: :o: :o: **Out-of-Distribution (OOD) Generalization**  [Modularity--->Generalization](https://zhuanlan.zhihu.com/p/137082457)
@@ -1305,6 +1314,10 @@ We derive a representation learning objective that provides an upper bound on th
 
 TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present training objectives that use offline datasets to learn a factored transition model whose structure enables the extraction of a latent action space. Our theoretical analysis shows that the learned latent action space can boost the sample-efficiency of downstream imitation learning, effectively reducing the need for large near-optimal expert datasets through the use of auxiliary non-expert data.
 
+🔹 [Imitation Learning via Differentiable Physics](https://arxiv.org/pdf/2206.04873.pdf) :fire:
+
+ILD: incorporates the differentiable physics simulator as a physics prior into its computational graph for policy learning.
+
 - Adding Noise
 
   🔹 [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
@@ -1510,6 +1523,10 @@ BEAR: We identify bootstrapping error as a key source of instability in current 
   🔹 [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2006.04779.pdf) :+1: :fire: :volcano: :sweat_drops: :boom:
 
   conservative Q-learning (CQL), which aims to address these limitations by learning a conservative Q-function such that the expected value of a policy under this Q-function lower-bounds its true value.
+
+  🔹 [Mildly Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2206.04745.pdf) :+1: :fire: 🌋 
+
+  We propose Mildly Conservative Q-learning (MCQ), where OOD actions are actively trained by assigning them proper pseudo Q values. 
 
 🔹 [Constraints Penalized Q-Learning for Safe Offline Reinforcement Learning](https://arxiv.org/pdf/2107.09003.pdf) :+1: :fire: :volcano:
 
@@ -1927,6 +1944,8 @@ PRIME: we develop such a data-driven offline optimization method for designing h
 🔹 [DESIGN-BENCH: BENCHMARKS FOR DATA-DRIVEN OFFLINE MODEL-BASED OPTIMIZATION](https://arxiv.org/pdf/2202.08450.pdf) :fire:
 
 Design-Bench, a benchmark for offline MBO with a unified evaluation protocol and reference implementations of recent methods.
+
+🔹 [Challenges and Opportunities in Offline Reinforcement Learning from Visual Observations](https://arxiv.org/pdf/2206.04779.pdf) 
 
 <a name="anchor-exploration"></a>
 
