@@ -943,6 +943,15 @@ we recast the problem of generalization in RL as solving the induced partially o
 
 RMA consists of two components: a base policy and an adaptation module. The combination of these components enables the robot to adapt to novel situations in fractions of a second. RMA is trained completely in simulation without using any domain knowledge like reference trajectories or predefined foot trajectory generators and is deployed on the A1 robot without any fine-tuning.  
 
+🔹 [Fast Adaptation to New Environments via Policy-Dynamics Value Functions](https://arxiv.org/pdf/2007.02879.pdf) :fire: 
+
+PD-VF:  explicitly estimates the cumulative reward in a space of policies and environments.
+
+🔹 [PAnDR: Fast Adaptation to New Environments from Offline Experiences via Decoupling Policy and Environment Representations](https://arxiv.org/pdf/2204.02877.pdf) :fire: 👍 
+
+In offline phase, the environment representation and policy representation are learned
+through contrastive learning and policy recovery, respectively. The representations are further refined by mutual information optimization to make them more decoupled and complete.
+
 🔹 [Learning Robust Policy against Disturbance in Transition Dynamics via State-Conservative Policy Optimization](https://arxiv.org/pdf/2112.10513.pdf) :volcano:
 
  State-Conservative Policy Optimization (SCPO) reduces the disturbance in transition dynamics to that in state space and then approximates it by a simple gradient-based regularizer.
@@ -1174,6 +1183,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   We consider the Maximum Causal Entropy (MCE) IRL learner model and provide a tight upper bound on the learner’s performance degradation based on the `1-distance between the transition dynamics of the expert and the learner.
 
+  🔹 [XIRL: Cross-embodiment Inverse Reinforcement Learning](https://proceedings.mlr.press/v164/zakka22a/zakka22a.pdf) 
+
+  leverages temporal cycleconsistency constraints to learn deep visual embeddings that capture task progression from offline videos of demonstrations across multiple expert agents, each performing the same task differently due to embodiment differences. 
+
   🔹 [Deterministic and Discriminative Imitation (D2-Imitation): Revisiting Adversarial Imitation for Sample Efficiency](https://arxiv.org/pdf/2112.06054.pdf) :fire: :volcano:
 
   Deterministic and Discriminative Imitation (D2-Imitation) operates by first partitioning samples into two replay buffers and then learning a deterministic policy via off-policy reinforcement learning.
@@ -1352,6 +1365,14 @@ We review recent advances based on joint and dynamic importance predictor estima
 
 We develop an expressive, unifying perspective on inverse decision modeling: a framework for learning parameterized representations of sequential decision behavior. 
 
+🔹 [Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations](https://arxiv.org/pdf/1904.06387.pdf) :+1: 
+
+T-REX: a reward learning technique for high-dimensional tasks that can learn to extrapolate intent from suboptimal ranked demonstrations.
+
+🔹 [Better-than-Demonstrator Imitation Learning via Automatically-Ranked Demonstrations](https://arxiv.org/pdf/1907.03976.pdf)
+
+D-REX: a ranking-based reward learning algorithm that does not require ranked demonstrations, which injects noise into a policy learned through behavioral cloning to automatically generate ranked demonstrations.
+
 - Multiple-Intent
   
   🔹 [LiMIIRL: Lightweight Multiple-Intent Inverse Reinforcement Learning](https://arxiv.org/pdf/2106.01777.pdf) :fire: 
@@ -1363,6 +1384,12 @@ We develop an expressive, unifying perspective on inverse decision modeling: a f
   🔹 [Meta-Inverse Reinforcement Learning with Probabilistic Context Variables](https://arxiv.org/pdf/1909.09314.pdf) :fire: 
 
   PEMIRL: we propose a deep latent variable model that is capable of learning rewards from demonstrations of distinct but related tasks in an unsupervised way.
+
+- LfL 
+  
+  🔹 [Inverse Reinforcement Learning from a Gradient-based Learner](https://proceedings.neurips.cc/paper/2020/file/19aa6c6fb4ba9fcf39e893ff1fd5b5bd-Paper.pdf) 👍 :fire: 
+
+  LOGEL: the goal is to recover the reward function being optimized by an agent, given a sequence of policies produced during learning.
 
 - RL From Preferences
 
@@ -1910,6 +1937,8 @@ BMA: This paper proposes an action representation learning framework for offline
 We propose to simply learn the Policy in the
 Latent Action Space (PLAS) such that this requirement (OOD action) is naturally satisfied.
 
+🔹 [Challenges and Opportunities in Offline Reinforcement Learning from Visual Observations](https://arxiv.org/pdf/2206.04779.pdf) 
+
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
@@ -1945,7 +1974,8 @@ PRIME: we develop such a data-driven offline optimization method for designing h
 
 Design-Bench, a benchmark for offline MBO with a unified evaluation protocol and reference implementations of recent methods.
 
-🔹 [Challenges and Opportunities in Offline Reinforcement Learning from Visual Observations](https://arxiv.org/pdf/2206.04779.pdf) 
+
+
 
 <a name="anchor-exploration"></a>
 
@@ -2195,6 +2225,10 @@ SSRL:  We demonstrate that, without policy gradient or value estimation, an iter
   🔹 [Replacing Rewards with Examples: Example-Based Policy Search via Recursive Classification](https://arxiv.org/pdf/2103.12656.pdf) :volcano: :boom:
 
   we derive a method based on recursive classification that eschews auxiliary reward functions and instead directly learns a value function from transitions and successful outcomes.
+
+  🔹 [C-learning: Learning to achieve goals via recursive classification]
+
+  🔹 [Example-Based Offline Reinforcement Learning without Rewards](https://offline-rl-neurips.github.io/2021/pdf/53.pdf)
 
   🔹 [Outcome-Driven Reinforcement Learning via Variational Inference](https://arxiv.org/pdf/2104.10190.pdf) :+1: :fire: :droplet:
 
@@ -2462,6 +2496,8 @@ We propose to estimate not only the Q-values but also both the transition and th
 
 We propose a robust policy optimization approach, named MRPO, for improving both the average and worst-case performance of policies. We theoretically derived a lower bound for the worst-case performance of a given policy over all environments, and formulated an optimization problem to optimize the policy and sampling distribution together, subject to constraints that bounded the update step in policy optimization and statistical distance between the worst and average case environments.
 
+🔹 [Policy Gradient Method For Robust Reinforcement Learning](https://arxiv.org/pdf/2205.07344.pdf) 
+
 🔹 [Trust the Model When It Is Confident: Masked Model-based Actor-Critic](https://arxiv.org/pdf/2010.04893.pdf) :+1: :volcano:
 
 We derive a general performance bound for model-based RL and theoretically show that the divergence between the return in the model rollouts and that in the real environment can be reduced with restricted model usage.  
@@ -2529,6 +2565,10 @@ We propose a single objective for jointly training the model and the policy, suc
 🔹 [Model-Based Reinforcement Learning via Meta-Policy Optimization](https://arxiv.org/pdf/1809.05214.pdf) :fire: :volcano:
 
 MB-MPO: Using an ensemble of learned dynamic models, MB-MPO meta-learns a policy that can quickly adapt to any model in the ensemble with one policy gradient step, which foregoes the strong reliance on accurate learned dynamics models.  
+
+🔹 [A RELATIONAL INTERVENTION APPROACH FOR UNSUPERVISED DYNAMICS GENERALIZATION IN MODELBASED REINFORCEMENT LEARNING](https://arxiv.org/pdf/2206.04551.pdf) :+1: :fire: 
+
+We propose an intervention module to identify the probability of two estimated factors belonging to the same environment, and a relational head to cluster those estimated Zˆs are from the same environments with high probability, thus reducing the redundant information unrelated to the environment. 
 
 🔹 [Value-Aware Loss Function for Model-based Reinforcement Learning](http://proceedings.mlr.press/v54/farahmand17a/farahmand17a.pdf) :volcano:
 
@@ -3297,6 +3337,16 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   DVRL:  We train the data value estimator using a reinforcement signal of the reward obtained on a small validation set that reflects performance on the  target task. 
 
+  🔹 [Data Valuation for Offline Reinforcement Learning](https://arxiv.org/pdf/2205.09550.pdf) :fire: 
+
+  DVORL: allows us to identify relevant and high-quality transitions, improving the performance and transferability of policies learned by offline reinforcement learning algorithms.
+
+- IMOP, IOP: Inverse (Multiobjective) Optimization Problem 
+  
+  🔹 [Expert Learning through Generalized Inverse Multiobjective Optimization: Models, Insights, and Algorithms](http://proceedings.mlr.press/v119/dong20f/dong20f.pdf)
+
+
+
 - others
 
   🔹 [Structured Prediction with Partial Labelling through the Infimum Loss](http://proceedings.mlr.press/v119/cabannnes20a/cabannnes20a.pdf) :+1: :droplet:  ​ ​
@@ -3351,7 +3401,9 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   🔹 [Deep Kernel Density Estimation](https://zhuanlan.zhihu.com/p/73426787) (Maximum Likelihood, Neural Density Estimation (Auto Regressive Models + Normalizing Flows), Score Matching ([MRF](http://signal.ee.psu.edu/mrf.pdf)), Kernel Exponential Family ([RKHS](http://songcy.net/posts/story-of-basis-and-kernel-part-2/)), Deep Kernel);  
 
-  🔹
+  🔹 [Machine Theory of Mind](https://arxiv.org/pdf/1802.07740.pdf) 
+
+  ToM 
 
 - Self-Supervised Learning  [lil-log](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html) :sweat_drops: ;
 
@@ -3541,6 +3593,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Conflict-Averse Gradient Descent for Multi-task Learning](https://arxiv.org/pdf/2110.14048.pdf) :+1: :fire:
   
    CAGrad: minimizes the average loss function, while leveraging the worst local improvement of individual tasks to regularize the algorithm trajectory. CAGrad balances the objectives automatically and still provably converges to a minimum over the average loss.
+
+   🔹 [Mitigating Modality Collapse in Multimodal VAEs via Impartial Optimization](https://arxiv.org/pdf/2206.04496.pdf) :fire:
+
+  We show how to detect the sub-graphs in the computational graphs where gradients conflict (impartiality blocks), as well as how to leverage existing gradient-conflict solutions from multitask learning to mitigate modality collapse.
   
 - BNN
 
