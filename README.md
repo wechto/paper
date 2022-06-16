@@ -20,7 +20,7 @@ TOC
   - [Mutual Information](#mutual-information)
   - [DR (Domain Randomization) & sim2real](#dr-domain-randomization--sim2real)
   - [Transfer: Generalization & Adaption (Dynamics)](#transfer-generalization--adaption-dynamics)
-  - [IRL](#irl)
+  - [IL (IRL)](#il-irl)
   - [Offline RL](#offline-rl)
   - [Exploration](#exploration)
   - [Causal Inference](#causal-inference)
@@ -1133,7 +1133,7 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
 <a name="anchor-irl"></a>
 
-## IRL
+## IL (IRL)
 
 - [Inverse RL & Apprenticeship Learning](https://thegradient.pub/learning-from-humans-what-is-inverse-reinforcement-learning/#:~:text=Inverse%20reinforcement%20learning%20(IRL)%2C,the%20task%20of%20autonomous%20driving.), PPT-levine([1](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/f17docs/lecture_12_irl.pdf):+1: [2](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa12/slides/inverseRL.pdf)), Medium([1](https://towardsdatascience.com/inverse-reinforcement-learning-6453b7cdc90d) [2](https://medium.com/@jonathan_hui/rl-inverse-reinforcement-learning-56c739acfb5a)),
 
@@ -1305,6 +1305,9 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   We leverage the differentiability property of the AIL reward function and formulate a class of Actor Residual Critic (ARC) RL algorithms that draw a parallel to the standard AC algorithms in RL and uses a residual critic, C function to approximate only the discounted future return (excluding the immediate reward). 
 
+  🔹 [AUTO-ENCODING INVERSE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=OCgCYv7KGZe) 🌋 
+
+  AEIRL: utilizes the reconstruction error of an auto-encoder as the learning signal, which provides more information for optimizing policies, compared to the binary logistic loss.
 
   
 🔹 [Reinforced Imitation Learning by Free Energy Principle](https://arxiv.org/pdf/2107.11811.pdf) :droplet:
@@ -1331,6 +1334,14 @@ TRAIL (Transition-Reparametrized Actions for Imitation Learning): We present tra
 
 ILD: incorporates the differentiable physics simulator as a physics prior into its computational graph for policy learning.
 
+🔹 [Of Moments and Matching: A Game-Theoretic Framework for Closing the Imitation Gap](https://arxiv.org/pdf/2103.03236.pdf) 🌋 
+
+AdVIL, AdRIL, and DAeQuIL: 
+
+🔹 [Generalizable Imitation Learning from Observation via Inferring Goal Proximity](https://proceedings.neurips.cc/paper/2021/file/868b7df964b1af24c8c0a9e43a330c6a-Paper.pdf) :+1: :fire: 
+
+we learn a goal proximity function (task proress) and utilize it as a dense reward for policy learning. 
+
 - Adding Noise
 
   🔹 [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
@@ -1352,6 +1363,26 @@ ILD: incorporates the differentiable physics simulator as a physics prior into i
   🔹 [BEHAVIORAL CLONING FROM NOISY DEMONSTRATIONS](https://openreview.net/pdf?id=zrT3HcsWSAt) :volcano: :sweat_drops:
   
   we propose an imitation learning algorithm to address the problem without any environment interactions and annotations associated with the non-optimal demonstrations.
+
+  🔹 [Robust Imitation Learning from Corrupted Demonstrations](https://arxiv.org/pdf/2201.12594.pdf) :fire: 🌋
+
+  We propose a novel robust algorithm by minimizing a Median-of-Means (MOM) objective which guarantees the accurate estimation of policy, even in the presence of constant fraction of outliers.
+
+  🔹 [Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality](https://proceedings.neurips.cc/paper/2021/file/670e8a43b246801ca1eaca97b3e19189-Paper.pdf) :+1: :fire: 🌋 
+
+  CAIL: learns a well-performing policy from confidence-reweighted demonstrations, while using an outer loss to track the performance of our model and to learn the confidence.
+
+  🔹 [Imitation Learning by Estimating Expertise of Demonstrators](https://arxiv.org/pdf/2202.01288.pdf) :fire: :volcano:
+
+  ILEED: We develop and optimize a joint model over a learned policy and expertise levels of the demonstrators. This enables our model to learn from the optimal behavior and filter out the suboptimal behavior of each demonstrator.
+
+  🔹 [Learning to Weight Imperfect Demonstrations](http://proceedings.mlr.press/v139/wang21aa/wang21aa.pdf) 🌋 
+
+  We provide a rigorous mathematical analysis, presenting that the weights of demonstrations can be exactly determined by combining the discriminator and agent policy in GAIL.
+
+  🔹 [Robust Adversarial Imitation Learning via Adaptively-Selected Demonstrations](https://web.archive.org/web/20210812214931id_/https://www.ijcai.org/proceedings/2021/0434.pdf) :fire: 
+
+  SAIL: good demonstrations can be adaptively selected for training while bad demonstrations are abandoned. 
   
   🔹 [Policy Learning Using Weak Supervision](https://arxiv.org/pdf/2010.01748.pdf) :volcano: :fire:
   
@@ -1365,6 +1396,10 @@ We review recent advances based on joint and dynamic importance predictor estima
 
 We develop an expressive, unifying perspective on inverse decision modeling: a framework for learning parameterized representations of sequential decision behavior. 
 
+🔹 [DISCRIMINATOR-ACTOR-CRITIC: ADDRESSING SAMPLE INEFFICIENCY AND REWARD BIAS IN ADVERSARIAL IMITATION LEARNING](https://arxiv.org/pdf/1809.02925.pdf) :no_mouth: 
+
+DAC: To address reward bias, we propose a simple mechanism whereby the rewards for absorbing states are also learned; To improve sample efficiency, we perform off-policy training.
+
 🔹 [Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations](https://arxiv.org/pdf/1904.06387.pdf) :+1: 
 
 T-REX: a reward learning technique for high-dimensional tasks that can learn to extrapolate intent from suboptimal ranked demonstrations.
@@ -1372,6 +1407,14 @@ T-REX: a reward learning technique for high-dimensional tasks that can learn to 
 🔹 [Better-than-Demonstrator Imitation Learning via Automatically-Ranked Demonstrations](https://arxiv.org/pdf/1907.03976.pdf)
 
 D-REX: a ranking-based reward learning algorithm that does not require ranked demonstrations, which injects noise into a policy learned through behavioral cloning to automatically generate ranked demonstrations.
+
+🔹 [Safe Imitation Learning via Fast Bayesian Reward Inference from Preferences](https://arxiv.org/pdf/2002.09089.pdf) 
+
+🔹 [A Ranking Game for Imitation Learning](https://arxiv.org/pdf/2202.03481.pdf) :fire: :fire: 
+
+The rankinggame additionally affords a broader perspective of imitation, going beyond using only expert demonstrations, and utilizing rankings/preferences over suboptimal behaviors.
+
+
 
 - Multiple-Intent
   
@@ -1906,10 +1949,6 @@ In this paper we showed that reformulating supervised imitation learning as a co
 🔹 [Latent-Variable Advantage-Weighted Policy Optimization for Offline RL](https://arxiv.org/pdf/2203.08949.pdf) :no_mouth:
 
 LAPO: we study an offline RL setup for learning from heterogeneous datasets where trajectories are collected using policies with different purposes, leading to a multi-modal data distribution.
-
-🔹 [Imitation Learning by Estimating Expertise of Demonstrators](https://arxiv.org/pdf/2202.01288.pdf) :fire: :volcano:
-
-ILEED: We develop and optimize a joint model over a learned policy and expertise levels of the demonstrators. This enables our model to learn from the optimal behavior and filter out the suboptimal behavior of each demonstrator.
 
 🔹 [AW-Opt: Learning Robotic Skills with Imitation and Reinforcement at Scale](https://proceedings.mlr.press/v164/lu22a/lu22a.pdf) :+1:
 
@@ -2645,6 +2684,10 @@ i Cross-Entropy Method (CEM):
 <a name="anchor-trainingrl"></a>  
 
 ## Training RL & Just Fast & Embedding? & OPE(DICE)
+
+  🔹 [Reinforcement Learning: Theory and Algorithms](https://rltheorybook.github.io/rltheorybook_AJKS.pdf) 🌋 💦 
+
+
 
   🔹 [Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning](https://arxiv.org/pdf/1711.06782.pdf) :no_mouth:  ​
 
