@@ -182,6 +182,10 @@ TOC
 
   GMPS: We propose to learn a RL procedure in a federated way, where individual off-policy learners can solve the individual meta-training tasks, and then consolidate these solutions into a single meta-learner. Since the central meta-learner learns by imitating the solutions to the individual tasks, it can accommodate either the standard meta-RL problem setting, or a hybrid setting where some or all tasks are provided with example demonstrations.
 
+  🔹 [CoMPS: Continual Meta Policy Search](https://arxiv.org/pdf/2112.04467.pdf) :fire: 
+
+  CoMPS continuously repeats two subroutines: learning a new task using RL and using the experience from RL to perform completely offline meta-learning to prepare for subsequent task learning.
+
   🔹 [Bootstrapped Meta-Learning](https://arxiv.org/pdf/2109.04504.pdf) :fire: :volcano:
 
   We propose an algorithm that tackles these issues by letting the metalearner teach itself. The algorithm first bootstraps a target from the meta-learner, then optimises the meta-learner by minimising the distance to that target under a chosen (pseudo-)metric.
@@ -1414,6 +1418,25 @@ D-REX: a ranking-based reward learning algorithm that does not require ranked de
 
 The rankinggame additionally affords a broader perspective of imitation, going beyond using only expert demonstrations, and utilizing rankings/preferences over suboptimal behaviors.
 
+🔹 [Learning Multimodal Rewards from Rankings](https://proceedings.mlr.press/v164/myers22a/myers22a.pdf) :fire: 
+
+We formulate the multimodal reward learning as a mixture learning problem and develop a novel ranking-based learning approach, where the experts are only required to rank a given set of trajectories.
+
+🔹 [Semi-Supervised Imitation Learning of Team Policies from Suboptimal Demonstrations](https://arxiv.org/pdf/2205.02959.pdf) 
+
+BTIL: 
+
+🔹 [Learning Reward Functions from Scale Feedback](https://arxiv.org/pdf/2110.00284.pdf) :+1: 
+
+ Instead of a strict question on which of the two proposed trajectories the user prefers, we allow for more nuanced feedback using a slider bar.
+
+🔹 [Interactive Learning from Policy-Dependent Human Feedback](http://proceedings.mlr.press/v70/macglashan17a/macglashan17a.pdf) 
+
+🔹 [Towards Sample-efficient Apprenticeship Learning from Suboptimal Demonstration](https://arxiv.org/pdf/2110.04347.pdf) 
+
+
+🔹 [Show me the Way: Intrinsic Motivation from Demonstrations](https://arxiv.org/pdf/2006.12917.pdf) 
+
 
 
 - Multiple-Intent
@@ -1485,6 +1508,12 @@ The rankinggame additionally affords a broader perspective of imitation, going b
   🔹 [ReIL: A Framework for Reinforced Intervention-based Imitation Learning](https://arxiv.org/pdf/2203.15390.pdf) :+1:
   
   We introduce Reinforced Interventionbased Learning (ReIL), a framework consisting of a general intervention-based learning algorithm and a multi-task imitation learning model aimed at enabling non-expert users to train agents in real environments with little supervision or fine tuning.  
+
+  🔹 [Learning to summarize from human feedback](https://proceedings.neurips.cc/paper/2020/file/1f89885d556929e98d3ef9b86448f951-Paper.pdf) 😶 
+
+  🔹 [MORAL: Aligning AI with Human Norms through Multi-Objective Reinforced Active Learning](https://arxiv.org/pdf/2201.00012.pdf) 😶 
+
+   Through maintaining a distribution over scalarization weights, our approach is able to interactively tune a deep RL agent towards a variety of preferences, while eliminating the need for computing multiple policies. 
 
 - Reward Comparison; PBRS (potential-based reward shaping) 
 
