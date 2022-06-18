@@ -1155,6 +1155,14 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   AIRL: Part of the challenge is that IRL is an ill-defined problem, since there are many optimal policies that can explain a set of demonstrations, and many rewards that can explain an optimal policy. The maximum entropy (MaxEnt) IRL framework introduced by Ziebart et al. (2008) handles the former ambiguity, but the latter ambiguity means that IRL algorithms have difficulty distinguishing **the true reward functions from those shaped by the environment dynamics** (THE REWARD AMBIGUITY PROBLEM).  -- **DISENTANGLING REWARDS FROM DYNAMICS.**
 
+  🔹 [Adversarially Robust Imitation Learning](https://proceedings.mlr.press/v164/wang22d/wang22d.pdf) 🌋 
+
+  ARIL: physical attack; sensory attack. 
+
+  🔹 [Robust Imitation of Diverse Behaviors](https://proceedings.neurips.cc/paper/2017/file/044a23cadb567653eb51d4eb40acaa88-Paper.pdf) :fire: 
+
+   VAE+GAN: a new version of GAIL that (1) is much more robust than the purely-supervised controller, especially with few demonstrations, and (2) avoids mode collapse, capturing many diverse behaviors when GAIL on its own does not.
+
   🔹 [OFF-POLICY ADVERSARIAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2005.01138.pdf)
 
   🔹 [A Primer on Maximum Causal Entropy Inverse Reinforcement Learning](https://arxiv.org/pdf/2203.11409.pdf) :droplet:  💦 
@@ -1346,6 +1354,10 @@ AdVIL, AdRIL, and DAeQuIL:
 
 we learn a goal proximity function (task proress) and utilize it as a dense reward for policy learning. 
 
+🔹 [Show me the Way: Intrinsic Motivation from Demonstrations](https://arxiv.org/pdf/2006.12917.pdf) 😶 
+
+extracting an intrinsic bonus from the demonstrations.
+
 - Adding Noise
 
   🔹 [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
@@ -1362,7 +1374,7 @@ we learn a goal proximity function (task proress) and utilize it as a dense rewa
 
   🔹 [Variational Imitation Learning with Diverse-quality Demonstrations](http://proceedings.mlr.press/v119/tangkaratt20a/tangkaratt20a.pdf) :fire: :droplet:
 
-  We show that simple quality-estimation approaches might fail due to compounding error, and fix this issue by jointly estimating both the quality and reward using a variational approach.
+  VILD: We show that simple quality-estimation approaches might fail due to compounding error, and fix this issue by jointly estimating both the quality and reward using a variational approach.
   
   🔹 [BEHAVIORAL CLONING FROM NOISY DEMONSTRATIONS](https://openreview.net/pdf?id=zrT3HcsWSAt) :volcano: :sweat_drops:
   
@@ -1387,6 +1399,8 @@ we learn a goal proximity function (task proress) and utilize it as a dense rewa
   🔹 [Robust Adversarial Imitation Learning via Adaptively-Selected Demonstrations](https://web.archive.org/web/20210812214931id_/https://www.ijcai.org/proceedings/2021/0434.pdf) :fire: 
 
   SAIL: good demonstrations can be adaptively selected for training while bad demonstrations are abandoned. 
+
+
   
   🔹 [Policy Learning Using Weak Supervision](https://arxiv.org/pdf/2010.01748.pdf) :volcano: :fire:
   
@@ -1422,6 +1436,8 @@ The rankinggame additionally affords a broader perspective of imitation, going b
 
 We formulate the multimodal reward learning as a mixture learning problem and develop a novel ranking-based learning approach, where the experts are only required to rank a given set of trajectories.
 
+
+
 🔹 [Semi-Supervised Imitation Learning of Team Policies from Suboptimal Demonstrations](https://arxiv.org/pdf/2205.02959.pdf) 
 
 BTIL: 
@@ -1432,10 +1448,11 @@ BTIL:
 
 🔹 [Interactive Learning from Policy-Dependent Human Feedback](http://proceedings.mlr.press/v70/macglashan17a/macglashan17a.pdf) 
 
-🔹 [Towards Sample-efficient Apprenticeship Learning from Suboptimal Demonstration](https://arxiv.org/pdf/2110.04347.pdf) 
+COACH: 
 
+🔹 [Towards Sample-efficient Apprenticeship Learning from Suboptimal Demonstration](https://arxiv.org/pdf/2110.04347.pdf) 😶 
 
-🔹 [Show me the Way: Intrinsic Motivation from Demonstrations](https://arxiv.org/pdf/2006.12917.pdf) 
+SSRR, S3RR: noise-performance curve fitting --> regresses a reward function of trajectory states and actions. 
 
 
 
@@ -1966,6 +1983,10 @@ We propose Adversarially Trained Actor Critic (ATAC) based on a two-player Stack
 🔹 [RVS: WHAT IS ESSENTIAL FOR OFFLINE RL VIA SUPERVISED LEARNING?](https://arxiv.org/pdf/2112.10751.pdf) :no_mouth:
 
 Simply maximizing likelihood with a two-layer feedforward MLP is competitive with state-of-the-art results of substantially more complex methods based on TD learning or sequence modeling with Transformers. Carefully choosing model capacity (e.g., via regularization or architecture) and choosing which information to condition on (e.g., goals or rewards) are critical for performance.  [THE ESSENTIAL ELEMENTS OF OFFLINE RL VIA SUPERVISED LEARNING](https://openreview.net/pdf?id=S874XAIpkR-)  
+
+🔹 [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) :+1: :fire: 🌋 
+
+ instead of adding representation learning parts to an existing RL algorithm, we show (contrastive) representation learning methods can be cast as RL algorithms in their own right. 
 
 🔹 [When does return-conditioned supervised learning work for offline reinforcement learning?](https://arxiv.org/pdf/2206.01079.pdf) :fire:
 
