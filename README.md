@@ -131,6 +131,49 @@ TOC
   🔹 [Language as a Cognitive Tool to Imagine Goals in Curiosity-Driven Exploration](https://arxiv.org/pdf/2002.09253.pdf) :fire: :boom:  ​ ​
   
   We introduce IMAGINE, an intrinsically motivated deep reinforcement learning architecture that models this ability. Such imaginative agents, like children, benefit from the guidance of a social peer who provides language descriptions. To take advantage of goal imagination, agents must be able to leverage these descriptions to interpret their imagined out-of-distribution goals.
+
++ PBRL (Population Based); Quality-Diversity (QD); 
+  
+  🔹 [Effective Diversity in Population Based Reinforcement Learning](https://arxiv.org/pdf/2002.00632.pdf) 😶 
+
+  Diversity via Determinants (DvD)
+
+  🔹 [“Other-Play” for Zero-Shot Coordination](https://arxiv.org/pdf/2003.02979.pdf) 
+
+  zero-shot coordination: constructing AI agents that can coordinate with novel partners they have not seen before. Other-Play (OP) enhances self-play by looking for more robust strategies, exploiting the presence of known symmetries in the underlying problem.
+
+  🔹 [Trajectory Diversity for Zero-Shot Coordination](http://proceedings.mlr.press/v139/lupu21a/lupu21a.pdf) 
+
+  TrajeDi: a differentiable objective for generating diverse reinforcement learning policies.
+
+  🔹 [Illuminating search spaces by mapping elites](https://arxiv.org/pdf/1504.04909.pdf) 🌋 :fire: 
+
+  Multi-dimensional Archive of Phenotypic Elites (MAP-Elites) algorithm illuminates search spaces, allowing researchers to understand how interesting attributes of solutions combine to affect performance, either positively or, equally of interest, negatively.
+
+  🔹 [Differentiable Quality Diversity](https://proceedings.neurips.cc/paper/2021/file/532923f11ac97d3e7cb0130315b067dc-Paper.pdf) :+1: 
+
+  We present the differentiable quality diversity (DQD) problem, a special case of QD, where both the objective and measure functions are first order differentiable. 
+
+  🔹 [Diversity Policy Gradient for Sample Efficient Quality-Diversity Optimization](https://arxiv.org/pdf/2006.08505.pdf) :fire: 
+
+  qd-pg: The main contribution of this work is the introduction of a Diversity Policy Gradient (DPG) that exploits information at the time-step level to drive policies towards more diversity in a sample efficient manner.
+
+  🔹 [Discovering Diverse Nearly Optimal Policies with Successor Features](https://arxiv.org/pdf/2106.00669.pdf) :fire: :fire: 
+
+  we propose new explicit diversity rewards that aim to minimize the correlation between the Successor Features of the policies in the set.
+
+  🔹 [Continual Auxiliary Task Learning](https://proceedings.neurips.cc/paper/2021/file/68331ff0427b551b68e911eebe35233b-Paper.pdf) 🌋 
+
+  we investigate a reinforcement learning system designed to learn a collection of auxiliary tasks, with a behavior policy learning to take actions to improve those auxiliary predictions.
+
+  🔹 [Towards Unifying Behavioral and Response Diversity for Open-ended Learning in Zero-sum Games](https://proceedings.neurips.cc/paper/2021/file/07bba581a2dd8d098a3be0f683560643-Paper.pdf) 
+
+  🔹 [Understanding the Effect of Stochasticity in Policy Optimization](https://proceedings.neurips.cc/paper/2021/file/a12f69495f41bb3b637ba1b6238884d6-Paper.pdf) 
+
+  🔹 [CONTINUOUSLY DISCOVERING NOVEL STRATEGIES VIA REWARD-SWITCHING POLICY OPTIMIZATION](https://arxiv.org/pdf/2204.02246.pdf) 
+
+  
+
   
 <a name="anchor-metarl"></a>  
 
@@ -1814,6 +1857,10 @@ This framework consists of two steps: (a) learning a pessimistic MDP (P-MDP) usi
 
 This results in a conservative estimate of the value function for out-of-support state-action tuples, without requiring explicit uncertainty estimation.
 
+🔹 [Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning](https://arxiv.org/pdf/2206.07166.pdf) 🌋 :fire: 
+
+SDM-GAN: we regularize the undiscounted stationary distribution of the current policy towards the offline data during the policy optimization process.
+
 🔹 [HYBRID VALUE ESTIMATION FOR OFF-POLICY EVALUATION AND OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2206.02000.pdf) 🌋 
 
 We propose Hybrid Value Estimation (HVE) to perform a more accurate value function estimation in the offline setting. It automatically adjusts the step length parameter to get a bias-variance trade-off.
@@ -2183,6 +2230,10 @@ Design-Bench, a benchmark for offline MBO with a unified evaluation protocol and
   🔹 [Better Exploration with Optimistic Actor-Critic](https://arxiv.org/pdf/1910.12807.pdf) :+1:
   
   OAC: we Optimistic Actor Critic, which approximates a lower and upper confidence bound on the state-action value function. This allows us to apply the principle of optimism in the face of uncertainty to perform directed exploration using the upper bound while still using the lower bound to avoid overestimation.
+
+  🔹 [Tactical Optimism and Pessimism for Deep Reinforcement Learning](https://arxiv.org/pdf/2102.03765.pdf) :fire:
+  
+  TOP: we propose the use of an adaptive approach in which the degree of optimism or pessimism is adjusted dynamically during training. As a consequence of this approach, the optimal degree of optimism can vary across tasks and over the course of a single training run as the model improves.
   
   🔹 [Off-policy Reinforcement Learning with Optimistic Exploration and Distribution Correction](https://arxiv.org/pdf/2110.12081.pdf) :+1:
   
@@ -2198,9 +2249,7 @@ Design-Bench, a benchmark for offline MBO with a unified evaluation protocol and
   
    By maximizing Wasserstein distance, the agents equipped with different policies may drive themselves to enter different areas of state space and keep as “far” as possible from each other to earn greater diversity.
   
-  🔹 [Tactical Optimism and Pessimism for Deep Reinforcement Learning](https://arxiv.org/pdf/2102.03765.pdf) :fire:
   
-  TOP: we propose the use of an adaptive approach in which the degree of optimism or pessimism is adjusted dynamically during training. As a consequence of this approach, the optimal degree of optimism can vary across tasks and over the course of a single training run as the model improves.
   
 <a name="anchor-causual"></a>  
 
