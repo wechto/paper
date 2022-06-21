@@ -166,13 +166,17 @@ TOC
 
   we investigate a reinforcement learning system designed to learn a collection of auxiliary tasks, with a behavior policy learning to take actions to improve those auxiliary predictions.
 
-  🔹 [Towards Unifying Behavioral and Response Diversity for Open-ended Learning in Zero-sum Games](https://proceedings.neurips.cc/paper/2021/file/07bba581a2dd8d098a3be0f683560643-Paper.pdf) 
+  🔹 [Towards Unifying Behavioral and Response Diversity for Open-ended Learning in Zero-sum Games](https://proceedings.neurips.cc/paper/2021/file/07bba581a2dd8d098a3be0f683560643-Paper.pdf) 🌋 
 
-  🔹 [Understanding the Effect of Stochasticity in Policy Optimization](https://proceedings.neurips.cc/paper/2021/file/a12f69495f41bb3b637ba1b6238884d6-Paper.pdf) 
+  we summarize previous concepts of diversity and work towards offering a unified measure of diversity in multi-agent open-ended learning to include all elements in Markov games, based on both Behavioral Diversity (BD) and Response Diversity (RD).
 
-  🔹 [CONTINUOUSLY DISCOVERING NOVEL STRATEGIES VIA REWARD-SWITCHING POLICY OPTIMIZATION](https://arxiv.org/pdf/2204.02246.pdf) 
+  🔹 [CONTINUOUSLY DISCOVERING NOVEL STRATEGIES VIA REWARD-SWITCHING POLICY OPTIMIZATION](https://arxiv.org/pdf/2204.02246.pdf) :fire: 🌋 
 
-  🔹 
+  RSPO: When a sampled trajectory is sufficiently distinct, RSPO performs standard policy optimization with extrinsic rewards. For trajectories with high likelihood under existing policies, RSPO utilizes an intrinsic diversity reward to promote exploration.
+
+  🔹 [General Characterization of Agents by States they Visit](https://arxiv.org/pdf/2012.01244.pdf) :+1: 
+
+  Behavioural characterizations: adopt Gaussian mixture models (GMMs). 
 
   
 <a name="anchor-metarl"></a>  
@@ -2442,6 +2446,10 @@ Hindsight Foresight Relabeling (HFR): We construct a relabeling distribution usi
 
   🔹 [Hindsight](https://zhuanlan.zhihu.com/p/191639584)    [Curriculum-guided Hindsight Experience Replay](https://papers.nips.cc/paper/9425-curriculum-guided-hindsight-experience-replay.pdf)    [COMPETITIVE EXPERIENCE REPLAY](https://arxiv.org/pdf/1902.00528.pdf)  :fire:   [Energy-Based Hindsight Experience Prioritization](https://arxiv.org/pdf/1810.01363.pdf)    [DHER: HINDSIGHT EXPERIENCE REPLAY FOR DYNAMIC GOALS](https://openreview.net/pdf?id=Byf5-30qFX)
 
+  🔹 [Diversity-based Trajectory and Goal Selection with Hindsight Experience Replay](https://arxiv.org/pdf/2108.07887.pdf) :+1: 
+
+   DTGSH: 1) a diversity-based trajectory selection module to sample valuable trajectories for the further goal selection; 2) a diversity-based goal selection module to select transitions with diverse goal states from the previously selected trajectories.
+
   🔹 [Exploration via Hindsight Goal Generation](http://papers.nips.cc/paper/9502-exploration-via-hindsight-goal-generation.pdf) :+1:  :fire:  ​
 
   a novel algorithmic framework that generates valuable hindsight goals which are easy for an agent to achieve in the short term and are also potential for guiding the agent to reach the actual goal in the long term.  
@@ -3031,6 +3039,10 @@ We sought to highlight some of the strengths, weaknesses, and potential mathemat
   🔹 [Reinforcement Learning as One Big Sequence Modeling Problem](https://people.eecs.berkeley.edu/~janner/trajectory-transformer/files/trajectory-transformer.pdf) :+1: :fire: :droplet:  ​ ​ ​
 
   Addressing RL as a sequence modeling problem significantly simplifies a range of design decisions: we no longer require separate behavior policy constraints, as is common in prior work on offline model-free RL, and we no longer require ensembles or other epistemic uncertainty estimators, as is common in prior work on model-based RL.
+
+  🔹 [Bootstrapped Transformer for Offline Reinforcement Learning](https://arxiv.org/pdf/2206.08569.pdf) 😶 
+
+  Bootstrapped Transformer, which incorporates the idea of bootstrapping and leverages the learned model to self-generate more offline data to further boost the sequence model training.
 
   🔹 [On-Policy Deep Reinforcement Learning for the Average-Reward Criterion](https://arxiv.org/pdf/2106.07329.pdf) :+1: :fire:
 
