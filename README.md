@@ -174,6 +174,10 @@ TOC
 
   RSPO: When a sampled trajectory is sufficiently distinct, RSPO performs standard policy optimization with extrinsic rewards. For trajectories with high likelihood under existing policies, RSPO utilizes an intrinsic diversity reward to promote exploration.
 
+  🔹 [POPULATION-GUIDED PARALLEL POLICY SEARCH FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2001.02907.pdf) :fire: 🌋 
+
+  P3S: The key point is that the information of the best policy is fused in a soft manner by constructing an augmented loss function for policy update to enlarge the overall search region by the multiple learners. 
+
   🔹 [General Characterization of Agents by States they Visit](https://arxiv.org/pdf/2012.01244.pdf) :+1: 
 
   Behavioural characterizations: adopt Gaussian mixture models (GMMs). 
