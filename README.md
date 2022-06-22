@@ -178,6 +178,18 @@ TOC
 
   P3S: The key point is that the information of the best policy is fused in a soft manner by constructing an augmented loss function for policy update to enlarge the overall search region by the multiple learners. 
 
+  🔹 [Periodic Intra-Ensemble Knowledge Distillation for Reinforcement Learning](https://arxiv.org/pdf/2002.00149.pdf) 😶 
+
+   PIEKD is a learning framework that uses an ensemble of policies to act in the environment while periodically sharing knowledge amongst policies in the ensemble through knowledge distillation.
+
+   🔹 [Cooperative Heterogeneous Deep Reinforcement Learning](https://proceedings.neurips.cc/paper/2020/file/ca3a9be77f7e88708afb20c8cdf44b60-Paper.pdf) :fire:
+
+  CHDRL: Global agents are off-policy agents that can utilize experiences from the other agents. Local agents are either on-policy agents or population-based evolutionary algorithms (EAs) agents that can explore the local area effectively.
+
+  🔹 [Knowledge Distillation and Student-Teacher Learning for Visual Intelligence: A Review and New Outlooks](https://arxiv.org/pdf/2004.05937.pdf) 
+
+
+
   🔹 [General Characterization of Agents by States they Visit](https://arxiv.org/pdf/2012.01244.pdf) :+1: 
 
   Behavioural characterizations: adopt Gaussian mixture models (GMMs). 
@@ -1808,6 +1820,10 @@ We improved the behavior regularized offline RL by proposing a low-variance uppe
   🔹 [Offline Meta-Reinforcement Learning with Advantage Weighting](http://proceedings.mlr.press/v139/mitchell21a/mitchell21a.pdf) :fire:  ​
 
 Targeting the offline meta-RL setting, we propose Meta-Actor Critic with Advantage Weighting (MACAW), an optimization-based meta-learning algorithm that uses simple, supervised regression objectives for both the inner and outer loop of meta-training.
+
+  🔹 [Robust Task Representations for Offline Meta-Reinforcement Learning via Contrastive Learning](https://arxiv.org/pdf/2206.10442.pdf) :fire: :fire: 
+
+  CORRO: which decreases the influence of behavior policies on task representations while supporting tasks that differ in reward function and transition dynamics.
 
   🔹 [AWAC: Accelerating Online Reinforcement Learning with Offline Datasets](https://arxiv.org/pdf/2006.09359.pdf) :+1: :fire: :volcano:
 
@@ -3538,6 +3554,11 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [SUBJECTIVE LEARNING FOR OPEN-ENDED DATA](https://arxiv.org/pdf/2108.12113.pdf) :fire:
   
   OSL: we present a novel supervised learning framework of learning from open-ended data, which is modeled as data implicitly sampled from multiple domains with the data in each domain obeying a domain-specific target function.
+
+  🔹 [The State of Sparse Training in Deep Reinforcement Learning](https://arxiv.org/pdf/2206.10369.pdf) 
+
+  The State of Sparse Training in Deep Reinforcement Learning
+
   
 ## Galaxy  Forest  
 
