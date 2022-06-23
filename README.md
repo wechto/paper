@@ -3221,6 +3221,10 @@ We proposed a deterministic policy gradient method (TDPO) based on the use of a 
   🔹 [A Maximum Mutual Information Framework for Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2006.02732.pdf) :+1: :droplet:  ​ ​
   
   introducing a latent variable to induce nonzero mutual information between actions.
+
+  🔹 [MASER: Multi-Agent Reinforcement Learning with Subgoals Generated from Experience Replay Buffer](https://arxiv.org/pdf/2206.10607.pdf) :+1: 🔥 :fire: 
+
+  MASER automatically generates proper subgoals for multiple agents from the experience replay buffer by considering both individual Q-value and total Qvalue. MASER designs individual intrinsic reward for each agent based on actionable representation relevant to Q-learning. 
   
 - Learning Latent Representations
 
