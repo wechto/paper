@@ -3208,6 +3208,18 @@ We proposed a deterministic policy gradient method (TDPO) based on the use of a 
 
 - A Survey on Transfer Learning for Multiagent Reinforcement Learning Systems :+1: :sweat_drops:
 
+🔹 [Counterfactual Multi-Agent Policy Gradients](https://arxiv.org/pdf/1705.08926.pdf) :fire: 
+
+COMA: to address the challenges of multi-agent credit assignment, it uses a counterfactual baseline that marginalises out a single agent’s action, while keeping the other agents’ actions fixed.
+
+🔹 [Value-Decomposition Networks For Cooperative Multi-Agent Learning](https://arxiv.org/pdf/1706.05296.pdf)  :+1:
+
+VDN: aims to learn an optimal linear value decomposition from the team reward signal, by back-propagating the total Q gradient through deep neural networks representing the individual component value functions.
+
+🔹 [QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/1803.11485.pdf) :fire: 🌋 
+
+QMIX employs a network that estimates joint action-values as a complex non-linear combination of per-agent values that condition only on local observations.
+
 - INTRINSIC REWARD
 
   🔹 [Hierarchical Cooperative Multi-Agent Reinforcement Learning with Skill Discovery](https://arxiv.org/pdf/1912.03558.pdf) :fire: :+1:  ​ ​
