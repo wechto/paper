@@ -109,6 +109,10 @@ TOC
 
   It utilizes an ensemble of policies that are discovered during pretraining and moves the policy of the URL algorithm closer to its optimal prior.  
 
+  🔹 [WALK THE RANDOM WALK: LEARNING TO DISCOVER AND REACH GOALS WITHOUT SUPERVISION](https://arxiv.org/pdf/2206.11733.pdf) 😶 
+
+  We use random walk to train a reachability network that predicts the similarity between two states. This reachability network is then used in building goal memory containing past observations that are diverse and well-balanced. Finally, we train a goal-conditioned policy network with goals sampled from the goal memory and reward it by the reachability network and the goal memory.
+
 
 <a name="anchor-asp"></a>  
 
@@ -1217,6 +1221,14 @@ Robust RL has shown that by considering the worst case scenario, robust policies
   🔹 [Generative Adversarial Imitation Learning](https://arxiv.org/pdf/1606.03476.pdf) :fire: :volcano: :boom: :sweat_drops:  [zhihu](https://zhuanlan.zhihu.com/p/60327435) :droplet:  ​
 
   IRL is a dual of an occupancy measure matching problem; The induced optimal policy is the primal optimum.
+
+  🔹 [Visual Adversarial Imitation Learning using Variational Models](https://proceedings.neurips.cc/paper/2021/file/1796a48fa1968edd5c5d10d42c7b1813-Paper.pdf) :fire: 🌋 
+
+  V-MAIL:  learns a model of the environment, which serves as a strong self-supervision signal for visual representation learning and mitigates distribution shift by enabling synthetic on-policy rollouts using the model.
+
+  🔹 [Latent Policies for Adversarial Imitation Learning](https://arxiv.org/pdf/2206.11299.pdf) :fire: 
+
+  LAPAL: We use an action encoder-decoder model to obtain a low-dimensional latent action space and train a LAtent Policy using Adversarial imitation Learning (LAPAL).
 
   🔹 [LEARNING ROBUST REWARDS WITH ADVERSARIAL INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/1710.11248.pdf) :fire::volcano: :boom: :sweat_drops:
 
@@ -3199,6 +3211,10 @@ We define the Termination Markov Decision Process (TerMDP), an extension of the 
 We proposed a deterministic policy gradient method (TDPO) based on the use of a deterministic Vine (DeVine) gradient estimator and the Wasserstein metric. We proved monotonic payoff guarantees for our method, and defined a novel surrogate for policy optimization. 
 
 🔹 [Automated Reinforcement Learning (AutoRL): A Survey and Open Problems](https://arxiv.org/pdf/2201.03916.pdf) 💦 
+
+🔹 [CGAR: Critic Guided Action Redistribution in Reinforcement Leaning](https://arxiv.org/pdf/2206.11494.pdf) 😶
+
+ the Q value predicted by the critic is a better signal to redistribute the action originally sampled from the policy distribution predicted by the actor. 
 
 <a name="anchor-marl"></a>
 
