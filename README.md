@@ -198,6 +198,10 @@ TOC
 
   Behavioural characterizations: adopt Gaussian mixture models (GMMs). 
 
+  🔹 [Improving Policy Optimization with Generalist-Specialist Learning](http://ai.ucsd.edu/~haosu/Other_Doc/GSL.pdf) 😶 
+
+  GSL: we first train a generalist on all environment variations; when it fails to improve, we launch a large population of specialists with weights cloned from the generalist, each trained to master a selected small subset of variations. We finally resume the training of the generalist with auxiliary rewards induced by demonstrations of all specialists.
+
   
 <a name="anchor-metarl"></a>  
 
@@ -574,6 +578,12 @@ Meta-learner of Behavioral Similarities (AMBS): A pair of meta-learners is devel
 
   🔹 [Data-Efficient Reinforcement Learning with Self-Predictive Representations](https://arxiv.org/pdf/2007.05929.pdf) :fire: ​  ​ ​
 
+  SPR:
+
+  🔹 [Value-Consistent Representation Learning for Data-Efficient Reinforcement Learning](https://arxiv.org/pdf/2206.12542.pdf) :fire: :fire:
+
+  VCR: Instead of aligning this imagined state with a real state returned by the environment, VCR applies a Q-value head on both states and obtains two distributions of action values. Then a distance is computed and minimized to force the imagined state to produce a similar action value prediction as that by the real state.
+
   🔹 [Intrinsically Motivated Self-supervised Learning in Reinforcement Learning](https://arxiv.org/pdf/2106.13970.pdf) :+1: :fire:  ​
 
   employ self-supervised loss as an intrinsic reward, called Intrinsically Motivated Self-Supervised learning in Reinforcement learning (IM-SSR). *Decomposition and Interpretation of Contrastive Loss.*  
@@ -585,6 +595,10 @@ InfoPower: We propose a modified objective for model-based RL that, in combinati
 🔹 [PlayVirtual: Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning](https://proceedings.neurips.cc/paper/2021/file/2a38a4a9316c49e5a833517c45d31070-Paper.pdf) :+1:
 
 PlayVirtual predicts future states in a latent space based on the current state and action by a dynamics model and then predicts the previous states by a backward dynamics model, which forms a trajectory cycle. Based on this, we augment the actions to generate a large amount of virtual state-action trajectories.
+
+🔹 [Masked World Models for Visual Control](https://arxiv.org/pdf/2206.14244.pdf) 😶 
+
+We train an autoencoder with convolutional layers and vision transformers (ViT) to reconstruct pixels given masked convolutional features, and learn a latent dynamics model that operates on the representations from the autoencoder. Moreover, to encode task-relevant information, we introduce an auxiliary reward prediction objective for the autoencoder.
 
   🔹 [EMI: Exploration with Mutual Information](https://arxiv.org/pdf/1810.01176.pdf) :+1:
 
@@ -737,6 +751,8 @@ SOLAR: we present a method for learning representations that are suitable for it
 🔹 [DREAM TO CONTROL: LEARNING BEHAVIORS BY LATENT IMAGINATION](https://arxiv.org/pdf/1912.01603.pdf) :+1:
 
 Dreamer: (Learning long-horizon behaviors by latent imagination) predicting *both actions and state values*.  
+
+🔹 
 
 🔹 [PREDICTION, CONSISTENCY, CURVATURE: REPRESENTATION LEARNING FOR LOCALLY-LINEAR CONTROL](https://openreview.net/pdf?id=BJxG_0EtDS) :+1: :fire: :volcano:
 
@@ -946,6 +962,12 @@ RADIAL-RL: Construct an strict upper bound of the perturbed standard loss; Desig
   🔹 [Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers](https://openreview.net/pdf?id=eqBwg3AcIAK) :fire: :boom: :volcano: :droplet:  
 
   DARC: The main contribution of this work is an algorithm for domain adaptation to dynamics changes in RL, based on the idea of compensating for **differences in dynamics** by modifying the reward function. This algorithm does not need to estimate transition probabilities, but rather modifies the reward function using a pair of classifiers.
+
+  🔹 [DARA: DYNAMICS-AWARE REWARD AUGMENTATION IN OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2203.06662.pdf) :fire:
+
+  🔹 [When to Trust Your Simulator: Dynamics-Aware Hybrid Offline-and-Online Reinforcement Learning](https://arxiv.org/pdf/2206.13464.pdf) :fire: 
+
+  H2O introduces a dynamics-aware policy evaluation scheme, which adaptively penalizes the Q function learning on simulated stateaction pairs with large dynamics gaps, while also simultaneously allowing learning from a fixed real-world dataset.
 
   **Related work is good!** :+1:
 
@@ -2287,6 +2309,10 @@ Design-Bench, a benchmark for offline MBO with a unified evaluation protocol and
   
   OAC: we Optimistic Actor Critic, which approximates a lower and upper confidence bound on the state-action value function. This allows us to apply the principle of optimism in the face of uncertainty to perform directed exploration using the upper bound while still using the lower bound to avoid overestimation.
 
+  🔹 [Guided Exploration in Reinforcement Learning via Monte Carlo Critic Optimization](https://arxiv.org/pdf/2206.12674.pdf) 😶 
+
+  An ensemble of Monte Carlo Critics that provides exploratory direction is presented as a controller.
+
   🔹 [Tactical Optimism and Pessimism for Deep Reinforcement Learning](https://arxiv.org/pdf/2102.03765.pdf) :fire:
   
   TOP: we propose the use of an adaptive approach in which the degree of optimism or pessimism is adjusted dynamically during training. As a consequence of this approach, the optimal degree of optimism can vary across tasks and over the course of a single training run as the model improves.
@@ -3215,6 +3241,10 @@ We proposed a deterministic policy gradient method (TDPO) based on the use of a 
 🔹 [CGAR: Critic Guided Action Redistribution in Reinforcement Leaning](https://arxiv.org/pdf/2206.11494.pdf) 😶
 
  the Q value predicted by the critic is a better signal to redistribute the action originally sampled from the policy distribution predicted by the actor. 
+
+🔹 [Value Function Decomposition for Iterative Design of Reinforcement Learning Agents](https://arxiv.org/pdf/2206.13901.pdf) 😶
+
+SAC-D: We also introduce decomposition-based tools that exploit this information, including a new reward influence metric, which measures each reward component’s effect on agent decision-making. 
 
 <a name="anchor-marl"></a>
 
