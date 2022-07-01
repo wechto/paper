@@ -2392,6 +2392,14 @@ SSRL:  We demonstrate that, without policy gradient or value estimation, an iter
 
   combines the strengths of planning and reinforcement learning
 
+  🔹 [Phasic Self-Imitative Reduction for Sparse-Reward Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.12030.pdf) :fire: 🌋 
+
+  PAIR: In the online phase, we perform RL training and collect rollout data while in the offline phase, we perform SL on those successful trajectories from the dataset.
+
+  🔹 [SOLVING COMPOSITIONAL REINFORCEMENT LEARNING PROBLEMS VIA TASK REDUCTION](https://arxiv.org/pdf/2103.07607.pdf) :fire: 🌋 
+
+  SIR: Task reduction tackles a hard-to-solve task by actively reducing it to an easier task whose solution is known by the RL agent.
+
   🔹 [DYNAMICAL DISTANCE LEARNING FOR SEMI-SUPERVISED AND UNSUPERVISED SKILL DISCOVERY](https://arxiv.org/pdf/1907.08225.pdf)
 
   dynamical distances: a measure of the expected number of time steps to reach a given goal state from any other states
@@ -3121,6 +3129,12 @@ We sought to highlight some of the strengths, weaknesses, and potential mathemat
   🔹 [Reinforcement Learning as One Big Sequence Modeling Problem](https://people.eecs.berkeley.edu/~janner/trajectory-transformer/files/trajectory-transformer.pdf) :+1: :fire: :droplet:  ​ ​ ​
 
   Addressing RL as a sequence modeling problem significantly simplifies a range of design decisions: we no longer require separate behavior policy constraints, as is common in prior work on offline model-free RL, and we no longer require ensembles or other epistemic uncertainty estimators, as is common in prior work on model-based RL.
+
+  🔹 [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf) :fire: 🌋 
+
+  🔹 [Prompting Decision Transformer for Few-Shot Policy Generalization](https://arxiv.org/pdf/2206.13499.pdf) :fire: 🌋 
+
+  We propose a Prompt-based Decision Transformer (Prompt-DT), which leverages the sequential modeling ability of the Transformer architecture and the prompt framework to achieve few-shot adaptation in offline RL.
 
   🔹 [Bootstrapped Transformer for Offline Reinforcement Learning](https://arxiv.org/pdf/2206.08569.pdf) 😶 
 
