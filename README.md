@@ -202,13 +202,19 @@ TOC
 
   GSL: we first train a generalist on all environment variations; when it fails to improve, we launch a large population of specialists with weights cloned from the generalist, each trained to master a selected small subset of variations. We finally resume the training of the generalist with auxiliary rewards induced by demonstrations of all specialists.
 
-  🔹 [Diversity Can Be Transferred: Output Diversification for White- and Black-box Attacks](https://proceedings.neurips.cc/paper/2020/file/30da227c6b5b9e2482b6b221c711edfd-Paper.pdf) 
+  🔹 [Diversity Can Be Transferred: Output Diversification for White- and Black-box Attacks](https://proceedings.neurips.cc/paper/2020/file/30da227c6b5b9e2482b6b221c711edfd-Paper.pdf) :fire: 🌋 🌋 
 
-  🔹 [Diversity Matters When Learning From Ensembles](https://proceedings.neurips.cc/paper/2021/file/466473650870501e3600d9a1b4ee5d44-Paper.pdf) 
+  Output Diversified Sampling (ODS): a novel sampling strategy that attempts to maximize diversity in the target model’s outputs among the generated samples.
 
-  🔹 [Improving Ensemble Distillation With Weight Averaging and Diversifying Perturbation](https://arxiv.org/pdf/2206.15047.pdf) 
+  🔹 [Diversity Matters When Learning From Ensembles](https://proceedings.neurips.cc/paper/2021/file/466473650870501e3600d9a1b4ee5d44-Paper.pdf) :fire: 
 
-  
+  Our key assumption is that a distilled model should absorb as much function diversity inside the ensemble as possible.
+
+  🔹 [Improving Ensemble Distillation With Weight Averaging and Diversifying Perturbation](https://arxiv.org/pdf/2206.15047.pdf) :fire: 
+
+  we propose a weight averaging technique where a student with multiple subnetworks is trained to absorb the functional diversity of ensemble teachers, but then those subnetworks are properly averaged for inference, giving a single student network with no additional inference cost. We also propose a perturbation strategy that seeks inputs from which the diversities of teachers can be better transferred to the student.
+
+
 
   
 <a name="anchor-metarl"></a>  
@@ -2046,6 +2052,10 @@ We proposed offline reinforced imitation learning (ORIL) to enable learning from
 🔹 [Discriminator-Weighted Offline Imitation Learning from Suboptimal Demonstrations](https://openreview.net/pdf?id=XfK0p2TSIB) :fire: :volcano: :boom:
 
 DWBC: We introduce an additional discriminator to distinguish expert and non-expert data, we propose a cooperation strategy to boost the performance of both tasks, this will result in a new policy learning objective and surprisingly, we find its equivalence to a generalized BC objective, where the outputs of discriminator serve as the weights of the BC loss function.
+
+🔹 [Discriminator-Guided Model-Based Offline Imitation Learning](https://arxiv.org/pdf/2207.00244.pdf) :fire: 
+
+(DMIL) framework, which introduces a discriminator to simultaneously distinguish the dynamics correctness and suboptimality of model rollout data against real expert demonstrations.
 
 🔹 [Offline Preference-Based Apprenticeship Learning](https://arxiv.org/pdf/2107.09251.pdf) :+1:  ​
 
