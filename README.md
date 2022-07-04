@@ -202,6 +202,14 @@ TOC
 
   GSL: we first train a generalist on all environment variations; when it fails to improve, we launch a large population of specialists with weights cloned from the generalist, each trained to master a selected small subset of variations. We finally resume the training of the generalist with auxiliary rewards induced by demonstrations of all specialists.
 
+  🔹 [Diversity Can Be Transferred: Output Diversification for White- and Black-box Attacks](https://proceedings.neurips.cc/paper/2020/file/30da227c6b5b9e2482b6b221c711edfd-Paper.pdf) 
+
+  🔹 [Diversity Matters When Learning From Ensembles](https://proceedings.neurips.cc/paper/2021/file/466473650870501e3600d9a1b4ee5d44-Paper.pdf) 
+
+  🔹 [Improving Ensemble Distillation With Weight Averaging and Diversifying Perturbation](https://arxiv.org/pdf/2206.15047.pdf) 
+
+  
+
   
 <a name="anchor-metarl"></a>  
 
@@ -565,6 +573,10 @@ Meta-learner of Behavioral Similarities (AMBS): A pair of meta-learners is devel
   we fail to find a single self-supervised loss or a combination of multiple SSL methods that consistently improve RL under the existing joint learning framework with image augmentation.
 
   🔹 [CURL: Contrastive Unsupervised Representations for Reinforcement Learning](https://arxiv.org/pdf/2004.04136.pdf) :fire: :volcano: :droplet:  ​ ​
+
+  🔹 [Denoised MDPs: Learning World Models Better Than the World Itself](https://arxiv.org/pdf/2206.15477.pdf) :fire: 🌋 
+
+  This framework clarifies the kinds information (controllable and reward-relevant) removed by various prior work on representation learning in reinforcement learning (RL), and leads to our proposed approach of learning a Denoised MDP that explicitly factors out certain noise distractors.
 
 🔹 [MASTERING VISUAL CONTINUOUS CONTROL: IMPROVED DATA-AUGMENTED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=_SJ-_yyes8) :fire:
 
@@ -3658,6 +3670,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [The State of Sparse Training in Deep Reinforcement Learning](https://arxiv.org/pdf/2206.10369.pdf) 
 
   The State of Sparse Training in Deep Reinforcement Learning
+
+  🔹 [Learning Iterative Reasoning through Energy Minimization](https://arxiv.org/pdf/2206.15448.pdf) :fire: 
+
+  We train a neural network to parameterize an energy landscape over all outputs, and implement each step of the iterative reasoning as an energy minimization step to find a minimal energy solution.
 
   
 ## Galaxy  Forest  
