@@ -3932,6 +3932,18 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Hypernetwork-Based Augmentation](https://arxiv.org/pdf/2006.06320.pdf) :fire:
   
   We propose an efficient gradient-based search algorithm, called Hypernetwork-Based Augmentation (HBA), which simultaneously learns model parameters and augmentation hyperparameters in a single training.
+
+  🔹 [Goal-Conditioned Generators of Deep Policies](https://arxiv.org/pdf/2207.01570.pdf) :fire: 
+
+  Using context commands of the form “generate a policy that achieves a desired expected return,” our NN generators combine powerful exploration of parameter space with generalization across commands to iteratively find better and better policies.
+
+  🔹 [General Policy Evaluation and Improvement by Learning to Identify Few But Crucial States](https://arxiv.org/pdf/2207.01566.pdf) :fire: 
+
+  Here we combine the actor-critic architecture of ParameterBased Value Functions and the policy embedding of Policy Evaluation Networks to learn a single value function for evaluating (and thus helping to improve) any policy represented by a deep neural network (NN).
+
+  🔹 [Policy Evaluation Networks](https://arxiv.org/pdf/2002.11833.pdf) :fire: :+1: 
+
+  PVN: We introduced a network that can generalize in policy space, by taking policy fingerprints as inputs. These fingerprints are differentiable policy embeddings obtained by inspecting the policy’s behaviour in a set of key states.
   
 ## Aha
 
