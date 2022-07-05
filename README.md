@@ -2210,7 +2210,9 @@ PRIME: we develop such a data-driven offline optimization method for designing h
 
 Design-Bench, a benchmark for offline MBO with a unified evaluation protocol and reference implementations of recent methods.
 
+🔹 [User-Interactive Offline Reinforcement Learning](https://arxiv.org/pdf/2205.10629.pdf) :fire: :fire: 
 
+We propose an algorithm that allows the user to tune this hyperparameter (the proximity of the learned policy to the original policy) at runtime, thereby overcoming both of the above mentioned issues simultaneously.
 
 
 <a name="anchor-exploration"></a>
@@ -3860,6 +3862,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   puNCE: that leverages the available explicit (from labeled samples) and implicit (from unlabeled samples) supervision to learn useful representations from positive unlabeled input data.
 
+  🔹 [Boosting Few-Shot Learning With Adaptive Margin Loss](https://arxiv.org/pdf/2005.13826.pdf) :fire: 🌋 
+
+  This paper proposes an adaptive margin principle to improve the generalization ability of metric-based meta-learning approaches for few-shot learning problems.
+
 - Uncertainty (Calibration)
 
   🔹 [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://proceedings.neurips.cc/paper/2017/file/9ef2ed4b7fd2c810847ffa5fa85bce38-Paper.pdf) 🔥 
@@ -3944,6 +3950,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Policy Evaluation Networks](https://arxiv.org/pdf/2002.11833.pdf) :fire: :+1: 
 
   PVN: We introduced a network that can generalize in policy space, by taking policy fingerprints as inputs. These fingerprints are differentiable policy embeddings obtained by inspecting the policy’s behaviour in a set of key states.
+
+  🔹 [PARAMETER-BASED VALUE FUNCTIONS](https://arxiv.org/pdf/2006.09226.pdf) :fire: 
+
+  We introduce a class of value functions called Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. They can generalize across different policies.
   
 ## Aha
 
