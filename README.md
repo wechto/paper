@@ -2214,6 +2214,10 @@ Design-Bench, a benchmark for offline MBO with a unified evaluation protocol and
 
 We propose an algorithm that allows the user to tune this hyperparameter (the proximity of the learned policy to the original policy) at runtime, thereby overcoming both of the above mentioned issues simultaneously.
 
+🔹 [Comparing Model-free and Model-based Algorithms for Offline Reinforcement Learning](https://arxiv.org/pdf/2201.05433.pdf) 😶 
+
+We compare model-free, model-based, as well as hybrid offline RL approaches on various industrial benchmark (IB) datasets to test the algorithms in settings closer to real world problems, including complex noise and partially observable states.
+
 
 <a name="anchor-exploration"></a>
 
