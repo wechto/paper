@@ -2149,7 +2149,9 @@ LAPO: we study an offline RL setup for learning from heterogeneous datasets wher
 
 🔹 [AW-Opt: Learning Robotic Skills with Imitation and Reinforcement at Scale](https://proceedings.mlr.press/v164/lu22a/lu22a.pdf) :+1:
 
-Our aim is to test the scalability of prior IL + RL algorithms and devise a system based on detailed empirical experimentation that combines existing components in the most effective and scalable way.  
+Our aim is to test the scalability of prior IL + RL algorithms and devise a system based on detailed empirical experimentation that combines existing components in the most effective and scalable way.
+
+🔹 [Offline RL Policies Should be Trained to be Adaptive](https://arxiv.org/pdf/2207.02200.pdf) :fire: 🌋 
 
 
 🔹 [Distance-Sensitive Offline Reinforcement Learning](https://arxiv.org/pdf/2205.11027.pdf) 👍 :fire: 🌋 
