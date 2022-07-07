@@ -2011,7 +2011,7 @@ This paper considers weighting with the state-action distribution ratio of offli
 
 BOPAH: Unlike prior work where this trade-off is controlled by hand-tuned hyperparameters (in a generalized KL-regularized RL framework), we propose a novel batch reinforcement learning approach, batch optimization of policy and hyperparameter (BOPAH), that uses a gradient-based optimization of the hyperparameter using held-out data.
 
-🔹 [OFFLINE REINFORCEMENT LEARNING WITH VALU-EBASED EPISODIC MEMORY](https://arxiv.org/pdf/2110.09796.pdf) :volcano: :droplet:
+🔹 [OFFLINE REINFORCEMENT LEARNING WITH VALU-EBASED EPISODIC MEMORY](https://arxiv.org/pdf/2110.09796.pdf) :volcano: :droplet: :fire: 
 
 We present a new offline V -learning method, EVL (expectile V -learning), and a novel offline RL framework, VEM (Value-based Episodic Memory). EVL learns the value function through the trade-offs between imitation learning and optimal value learning. VEM uses a memory-based planning scheme to enhance advantage estimation and conduct policy learning in a regression manner.
 
@@ -2153,6 +2153,7 @@ Our aim is to test the scalability of prior IL + RL algorithms and devise a syst
 
 🔹 [Offline RL Policies Should be Trained to be Adaptive](https://arxiv.org/pdf/2207.02200.pdf) :fire: 🌋 
 
+APE-V: optimal policies for offline RL must be adaptive, depending not just on the current state but rather all the transitions seen so far during evaluation.
 
 🔹 [Distance-Sensitive Offline Reinforcement Learning](https://arxiv.org/pdf/2205.11027.pdf) 👍 :fire: 🌋 
 
@@ -2383,6 +2384,11 @@ We compare model-free, model-based, as well as hybrid offline RL approaches on v
   
   propose a solution to combat it through targeted interventions—either environment interaction or expert queries—to determine the correct causal model.
 
+- cv
+  
+  🔹 [OoD-Bench: Quantifying and Understanding Two Dimensions of Out-of-Distribution Generalization](https://arxiv.org/pdf/2106.03721.pdf) :fire: 🌋 
+
+  Evaluate OoD generalization algorithms comprehensively on two types of datasets, one dominated by diversity shift and the other dominated by correlation shift.
  ​
 
 <a name="anchor-supervised"></a>  <a name="anchor-goalcon"></a>  
