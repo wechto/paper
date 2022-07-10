@@ -3637,6 +3637,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   CEM: the first probabilistic characterization of AT through a unified understanding of robustness and generative ability,  interprets unsupervised contrastive learning as animportant sampling of CEM.
 
+  🔹 [YOUR CLASSIFIER IS SECRETLY AN ENERGY BASED MODEL AND YOU SHOULD TREAT IT LIKE ONE](https://arxiv.org/pdf/1912.03263.pdf) :fire: 🌋 
+
+  We propose to reinterpret a standard discriminative classifier of p(y|x) as an energy based model for the joint distribution p(x, y). 
+
 - Data Valuation 
 
   🔹 [Data shapley: Equitable valuation of data for machine learning](https://proceedings.mlr.press/v97/ghorbani19c/ghorbani19c.pdf) 
