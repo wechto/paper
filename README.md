@@ -797,6 +797,10 @@ We propose to learn a latent dynamics model in the source task and transfer the 
 ExoMDP: the state space admits an (unknown) factorization into a small controllable (or, endogenous) component and a large irrelevant (or, exogenous) component; the exogenous component is independent of the learner’s actions, but evolves in an arbitrary,
 temporally correlated fashion.
 
+🔹 [Stabilizing Off-Policy Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2207.00986.pdf) 🌋 
+
+A-LIX: 
+
 <a name="anchor-MI"></a>
 
 ## Mutual Information  
@@ -1982,6 +1986,10 @@ UWAC: an algorithm that detects OOD state-action pairs and down-weights their co
 🔹 [EMaQ: Expected-Max Q-Learning Operator for Simple Yet Effective Offline and Online RL](http://proceedings.mlr.press/v139/ghasemipour21a/ghasemipour21a.pdf) :fire: :volcano: :droplet:
 
 By introducing the Expect-Max Q-Learning operator, we present a novel theoretical setup that takes into account the proposal distribution µ(a|s) and the number of action samples N, and hence more closely matches the resulting practical algorithm.
+
+🔹 [Lyapunov Density Models: Constraining Distribution Shift in Learning-Based Control](https://arxiv.org/pdf/2206.10524.pdf) :fire: 🌋 
+
+We presented Lyapunov density models (LDMs), a tool that can ensure that an agent remains within the distribution of the training data.
 
 🔹 [OFFLINE REINFORCEMENT LEARNING WITH IN-SAMPLE Q-LEARNING](https://openreview.net/pdf?id=68n2s9ZJWF8) :fire: :fire:  
 
@@ -3702,6 +3710,14 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Learning Iterative Reasoning through Energy Minimization](https://arxiv.org/pdf/2206.15448.pdf) :fire: 
 
   We train a neural network to parameterize an energy landscape over all outputs, and implement each step of the iterative reasoning as an energy minimization step to find a minimal energy solution.
+
++ Distillation 
+  
+  🔹 [Policy Distillation with Selective Input Gradient Regularization for Efficient Interpretability](https://arxiv.org/pdf/2205.08685.pdf) 🔥
+
+  We propose an approach of Distillation with selective Input Gradient Regularization (DIGR) which uses policy distillation and input gradient regularization to produce new policies that achieve both high interpretability and computation efficiency in generating saliency maps. 
+
+
 
   
 ## Galaxy  Forest  
