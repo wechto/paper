@@ -178,6 +178,10 @@ TOC
 
   RSPO: When a sampled trajectory is sufficiently distinct, RSPO performs standard policy optimization with extrinsic rewards. For trajectories with high likelihood under existing policies, RSPO utilizes an intrinsic diversity reward to promote exploration.
 
+  🔹 [DGPO: Discovering Multiple Strategies with Diversity-Guided Policy Optimization](https://arxiv.org/pdf/2207.05631.pdf) :fire: 
+
+  we formalize our algorithm as the combination of a diversity-constrained optimization problem and an extrinsic-reward constrained optimization problem. 
+
   🔹 [POPULATION-GUIDED PARALLEL POLICY SEARCH FOR REINFORCEMENT LEARNING](https://arxiv.org/pdf/2001.02907.pdf) :fire: 🌋 
 
   P3S: The key point is that the information of the best policy is fused in a soft manner by constructing an augmented loss function for policy update to enlarge the overall search region by the multiple learners. 
@@ -801,6 +805,10 @@ temporally correlated fashion.
 
 A-LIX: 
 
+🔹 [Temporal Disentanglement of Representations for Improved Generalisation in Reinforcement Learning](https://arxiv.org/pdf/2207.05480.pdf) :+1: 
+
+we introduce TEmporal Disentanglement (TED), a self-supervised auxiliary task that leads to disentangled representations using the sequential nature of RL observations.
+
 <a name="anchor-MI"></a>
 
 ## Mutual Information  
@@ -878,6 +886,10 @@ VIPS: Our method establishes information-geometric trust regions to ensure effic
 EIM: we present a new algorithm called Expected Information Maximization (EIM) for computing the I-projection solely based on samples for general latent variable models.
 
 🔹 [An Information-theoretic Approach to Distribution Shifts](https://openreview.net/pdf?id=GrZmKDYCp6H) :droplet:
+
+🔹 [An Asymmetric Contrastive Loss for Handling Imbalanced Datasets](https://arxiv.org/pdf/2207.07080.pdf) :fire: 🌋 
+
+we propose the asymmetric focal contrastive loss (AFCL) as a further generalization of both ACL and focal contrastive loss (FCL). 
 
 <a name="anchor-DR"></a>  <a name="anchor-sim2real"></a>  
 
@@ -1721,6 +1733,9 @@ SSRR, S3RR: noise-performance curve fitting --> regresses a reward function of t
 
    We consider the setting where the reward function is given, and the constraints are unknown, and propose a method that is able to recoverthese constraints satisfactorily from the expert data.
 
+- Delayed reward 
+  
+  🔹 
 
 
 
@@ -2266,6 +2281,10 @@ We compare model-free, model-based, as well as hybrid offline RL approaches on v
 
   a self supervised reinforcement learning agent that tackles both these challenges through a new approach to self-supervised exploration and fast adaptation to new tasks, which need not be known during exploration.  **unlike prior methods which retrospectively compute the novelty of observations after the agent has already reached them**, our agent acts efficiently by leveraging planning to seek out expected future novelty.  
 
+  🔹 [BYOL-Explore: Exploration by Bootstrapped Prediction](https://arxiv.org/pdf/2206.08332.pdf) :fire: 
+
+  BYOL-Explore learns a world representation, the world dynamics, and an exploration policy alltogether by optimizing a single prediction loss in the latent space with no additional auxiliary objective.
+
   🔹 [Efficient Exploration via State Marginal Matching](https://arxiv.org/pdf/1906.05274.pdf) :fire: :volcano: :droplet:  :boom:  ​
 
   our work unifies prior exploration methods as performing approximate distribution matching, and explains how state distribution matching can be performed properly
@@ -2518,6 +2537,10 @@ SSRL:  We demonstrate that, without policy gradient or value estimation, an iter
 
   Goal-Space Planning (GSP): The key idea is to plan in a much smaller space of subgoals, and use these (high-level) subgoal values to update state values using subgoal-conditioned mode.
 
+  🔹 [Goal-Space Planning with Subgoal Models](https://arxiv.org/pdf/2206.02902.pdf) :fire: 🌋  
+
+  constraining background planning to a set of (abstract) subgoals and learning only local, subgoal-conditioned models. 
+
   🔹 [Discovering Generalizable Skills via Automated Generation of Diverse Tasks](https://arxiv.org/pdf/2106.13935.pdf) :no_mouth:
 
   As opposed to prior work on unsupervised discovery of skills which incentivizes the skills to produce different outcomes in the same environment, our method pairs each skill with a unique task produced by a trainable task generator. Procedural content generation (PCG).
@@ -2599,6 +2622,10 @@ Hindsight Foresight Relabeling (HFR): We construct a relabeling distribution usi
   🔹 [Policy Continuation with Hindsight Inverse Dynamics](https://papers.nips.cc/paper/2019/file/3891b14b5d8cce2fdd8dcdb4ded28f6d-Paper.pdf) :+1: :fire:  ​ ​
 
   This approach learns from Hindsight Inverse Dynamics based on Hindsight Experience Replay.  
+
+  🔹 [USHER: Unbiased Sampling for Hindsight Experience Replay](https://arxiv.org/pdf/2207.01115.pdf) :fire: 🌋 
+
+  We propose an asymptotically unbiased importance-sampling-based algorithm to address this problem without sacrificing performance on deterministic environments.
 
 🔹 [Experience Replay Optimization](https://arxiv.org/pdf/1906.08387.pdf) :+1: :fire:
 
@@ -2837,6 +2864,10 @@ Our approach trains a discriminative model to assess the quality of sampled tran
 🔹 [Variational Model-based Policy Optimization](https://arxiv.org/pdf/2006.05443.pdf) :+1: :fire:  :volcano:  :droplet:  
 
 Jointly learn and improve model and policy using a universal objective function: We propose model-based and model-free policy iteration (actor-critic) style algorithms for the E-step and show how the variational distribution learned by them can be used to optimize the M-step in a fully model-based fashion.
+
+🔹 [Model-Based Reinforcement Learning via Imagination with Derived Memory](https://openreview.net/pdf?id=jeATherHHGj) :fire: 
+
+IDM: It enables the agent to learn policy from enriched diverse imagination with prediction-reliability weight, thus improving sample efficiency and policy robustness
 
 🔹 [MISMATCHED NO MORE: JOINT MODEL-POLICY OPTIMIZATION FOR MODEL-BASED RL](https://arxiv.org/pdf/2110.02758.pdf) :fire:  :fire:
 
@@ -3304,6 +3335,8 @@ We proposed a deterministic policy gradient method (TDPO) based on the use of a 
 
 SAC-D: We also introduce decomposition-based tools that exploit this information, including a new reward influence metric, which measures each reward component’s effect on agent decision-making. 
 
+🔹 [Emphatic Algorithms for Deep Reinforcement Learning](https://arxiv.org/pdf/2106.11779.pdf) :fire: 
+
 <a name="anchor-marl"></a>
 
 ## MARL
@@ -3550,6 +3583,14 @@ Multi-Objective RL:
 We propose the Deep Generative Replay, a novel framework with a cooperative dual model architecture consisting of a deep generative model (“generator”) and a task solving model (“solver”).
 
   🔹 online learning; regret :sweat_drops:  ​
+
+  🔹 [RESET-FREE LIFELONG LEARNING WITH SKILL-SPACE PLANNING](https://arxiv.org/pdf/2012.03548.pdf) :fire: 
+
+  We propose Lifelong Skill Planning (LiSP), an algorithmic framework for non-episodic lifelong RL based on planning in an abstract space of higher-order skills. We learn the skills in an unsupervised manner using intrinsic rewards and plan over the learned skills using a learned dynamics model.
+
+  🔹 [Don’t Start From Scratch: Leveraging Prior Data to Automate Robotic Reinforcement Learning](https://arxiv.org/pdf/2207.04703.pdf) :+1: 
+
+  Our main contribution is demonstrating that incorporating prior data into a reinforcement learning system simultaneously addresses several key challenges in real-world robotic RL: sample-efficiency, zero-shot generalization, and autonomous non-episodic learning. 
 
 <a name="anchor-selfpaced"></a>   <a name="anchor-curriculum"></a>
 
