@@ -1774,6 +1774,11 @@ To enhance generalization in the offline setting, we present Random Ensemble Mix
 
 We propose such a formulation for deployment-efficient RL (DE-RL) from an “optimization with constraints” perspective: we are interested in exploring an MDP and obtaining a near-optimal policy within minimal deployment complexity, whereas in each deployment the policy can sample a large batch of data.
 
+
+🔹 [MUSBO: Model-based Uncertainty Regularized and Sample Efficient Batch Optimization for Deployment Constrained Reinforcement Learning](https://arxiv.org/pdf/2102.11448.pdf) :fire: :+1: 
+
+Our framework discovers novel and high quality samples for each deployment to enable efficient data collection. During each offline training session, we bootstrap the policy update by quantifying the amount of uncertainty within our collected data.
+
   🔹 [BENCHMARKS FOR DEEP OFF-POLICY EVALUATION](https://openreview.net/pdf?id=kWSeGEeHvF8) :+1:
 
   🔹 [KEEP DOING WHAT WORKED: BEHAVIOR MODELLING PRIORS FOR OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2002.08396.pdf) :+1: :fire: :boom:
@@ -1903,6 +1908,14 @@ We improved the behavior regularized offline RL by proposing a low-variance uppe
   🔹 [Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](https://arxiv.org/pdf/2107.00591.pdf) :no_mouth:  
 
   we observe that state-action distribution shift may lead to severe bootstrap error during fine-tuning, which destroys the good initial policy obtained via offline RL.
+
+  🔹 [Experience Replay with Likelihood-free Importance Weights](https://proceedings.mlr.press/v168/sinha22a/sinha22a.pdf) 
+
+
+
+  🔹 [MOORe: Model-based Offline-to-Online Reinforcement Learning](https://arxiv.org/pdf/2201.10070.pdf) :fire: 
+
+  employs a prioritized sampling scheme that can dynamically adjust the offline and online data for smooth and efficient online adaptation of the policy. 
 
   🔹 [Offline Meta-Reinforcement Learning with Online Self-Supervision](https://arxiv.org/pdf/2107.03974.pdf) :+1: :fire:
 
@@ -3336,6 +3349,12 @@ We proposed a deterministic policy gradient method (TDPO) based on the use of a 
 SAC-D: We also introduce decomposition-based tools that exploit this information, including a new reward influence metric, which measures each reward component’s effect on agent decision-making. 
 
 🔹 [Emphatic Algorithms for Deep Reinforcement Learning](https://arxiv.org/pdf/2106.11779.pdf) :fire: 
+
+
+
+🔹 [Gradient Temporal-Difference Learning with Regularized Corrections](https://arxiv.org/pdf/2007.00611.pdf) :fire: 
+
+
 
 <a name="anchor-marl"></a>
 
