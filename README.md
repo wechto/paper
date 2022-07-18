@@ -2970,6 +2970,10 @@ i Cross-Entropy Method (CEM):
 
   🔹 [REPRESENTATION BALANCING OFFLINE MODEL-BASED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=QpNz8r_Ri2Y) :droplet:  ​
 
+  🔹 [Skill-based Model-based Reinforcement Learning](https://arxiv.org/pdf/2207.07560.pdf) 👍
+
+  SkiMo: that enables planning in the skill space using a skill dynamics model, which directly predicts the skill outcomes, rather than predicting all small details in the intermediate states, step by step.
+
 <a name="anchor-trainingrl"></a>  
 
 ## Training RL & Just Fast & Embedding? & OPE(DICE)
@@ -3047,6 +3051,10 @@ Our algorithm, OptiDICE, directly estimates the stationary distribution correcti
 🔹 [DEMODICE: OFFLINE IMITATION LEARNING WITH SUPPLEMENTARY IMPERFECT DEMONSTRATIONS](https://openreview.net/pdf?id=BrPdX1bDZkQ) 🌋 :fire: 👍
 
 An algorithm for offline IL from expert and imperfect demonstrations that achieves state-of-the-art performance on various offline IL tasks.
+
+🔹 [A Deep Reinforcement Learning Approach to Marginalized Importance Sampling with the Successor Representation](http://proceedings.mlr.press/v139/fujimoto21a/fujimoto21a.pdf) :fire: :fire: 
+
+We bridge the gap between MIS and deep RL  by observing that the density ratio can be computed from the successor representation of the target policy. The successor representation can be trained through deep RL methodology and decouples the reward optimization from the dynamics of the environment, making the resulting algorithm stable and applicable to high-dimensional domains.
 
 🔹 [How Far I’ll Go: Offline Goal-Conditioned Reinforcement Learning via f-Advantage Regression](https://arxiv.org/pdf/2206.03023.pdf) 🌋
 
@@ -3746,6 +3754,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Discriminator Contrastive Divergence: Semi-Amortized Generative Modeling by Exploring Energy of the Discriminator​](https://arxiv.org/pdf/2004.01704.pdf) 👍 :fire: 
 
   DCD: Compared to standard GANs, where the generator is directly utilized to obtain new samples, our method proposes a semi-amortized generation procedure where the samples are produced with the generator’s output as an initial state. 
+
+  🔹 [DISCRIMINATOR REJECTION SAMPLING](https://arxiv.org/pdf/1810.06758.pdf) :fire: 
+
+  We ask if the information retained in the weights of the discriminator at the end of the training procedure can be used to “improve” the generator.
   
   🔹 [On Symmetric Losses for Learning from Corrupted Labels](https://arxiv.org/pdf/1901.09314.pdf) :fire: :droplet:
   
