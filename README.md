@@ -3366,7 +3366,9 @@ SAC-D: We also introduce decomposition-based tools that exploit this information
 
 🔹 [Gradient Temporal-Difference Learning with Regularized Corrections](https://arxiv.org/pdf/2007.00611.pdf) :fire: 
 
+🔹 [The Primacy Bias in Deep Reinforcement Learning](https://arxiv.org/pdf/2205.07802.pdf) :fire: 
 
+"Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won’t come in."
 
 <a name="anchor-marl"></a>
 
