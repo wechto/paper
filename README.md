@@ -6,7 +6,7 @@
 
 Recommendation: :+1: :fire: :volcano: :boom:
 
-To-Do (Reading) List: :droplet: :sweat_drops:
+To-Do (Reading) List: :droplet: :sweat_drops: [并没有说水的意思😐🙏] 
 
 TOC  
 
@@ -1909,9 +1909,9 @@ We improved the behavior regularized offline RL by proposing a low-variance uppe
 
   we observe that state-action distribution shift may lead to severe bootstrap error during fine-tuning, which destroys the good initial policy obtained via offline RL.
 
-  🔹 [Experience Replay with Likelihood-free Importance Weights](https://proceedings.mlr.press/v168/sinha22a/sinha22a.pdf) 
+  🔹 [Experience Replay with Likelihood-free Importance Weights](https://proceedings.mlr.press/v168/sinha22a/sinha22a.pdf) :fire: 🌋 
 
-
+  To balance bias (from off-policy experiences) and variance (from on-policy experiences), we use a likelihood-free density ratio estimator between onpolicy and off-policy experiences, and use the learned ratios as the prioritization weights.
 
   🔹 [MOORe: Model-based Offline-to-Online Reinforcement Learning](https://arxiv.org/pdf/2201.10070.pdf) :fire: 
 
@@ -2256,6 +2256,10 @@ We propose an algorithm that allows the user to tune this hyperparameter (the pr
 🔹 [Comparing Model-free and Model-based Algorithms for Offline Reinforcement Learning](https://arxiv.org/pdf/2201.05433.pdf) 😶 
 
 We compare model-free, model-based, as well as hybrid offline RL approaches on various industrial benchmark (IB) datasets to test the algorithms in settings closer to real world problems, including complex noise and partially observable states.
+
+🔹 [Autofocused oracles for model-based design](https://proceedings.neurips.cc/paper/2020/file/972cda1e62b72640cb7ac702714a115f-Paper.pdf) :fire: :fire: 
+
+we now reformulate the MBD problem as a non-zero-sum game, which suggests an algorithmic strategy for iteratively updating the oracle within any MBO algorithm
 
 
 <a name="anchor-exploration"></a>
@@ -3737,7 +3741,11 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   
   we propose an new training objective where we additionally optimize over a set of importance weights over the generated samples. By suitably constraining the feasible set of importance weights, we obtain a family of objectives which includes and generalizes the original f-GAN and WGAN objectives.
   
-  🔹 [f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization](https://papers.nips.cc/paper/2016/file/cedebb6e872f539bef8c3f919874e9d7-Paper.pdf) :+1: :fire:  ​ ​
+  🔹 [f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization](https://papers.nips.cc/paper/2016/file/cedebb6e872f539bef8c3f919874e9d7-Paper.pdf) :+1: :fire:  
+  
+  🔹 [Discriminator Contrastive Divergence: Semi-Amortized Generative Modeling by Exploring Energy of the Discriminator​](https://arxiv.org/pdf/2004.01704.pdf) 👍 :fire: 
+
+  DCD: Compared to standard GANs, where the generator is directly utilized to obtain new samples, our method proposes a semi-amortized generation procedure where the samples are produced with the generator’s output as an initial state. 
   
   🔹 [On Symmetric Losses for Learning from Corrupted Labels](https://arxiv.org/pdf/1901.09314.pdf) :fire: :droplet:
   
@@ -3770,6 +3778,14 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Learning Iterative Reasoning through Energy Minimization](https://arxiv.org/pdf/2206.15448.pdf) :fire: 
 
   We train a neural network to parameterize an energy landscape over all outputs, and implement each step of the iterative reasoning as an energy minimization step to find a minimal energy solution.
+
+  🔹 [Bias Correction of Learned Generative Models using Likelihood-Free Importance Weighting](https://proceedings.neurips.cc/paper/2019/file/d76d8deea9c19cc9aaf2237d2bf2f785-Paper.pdf) :fire: 🌋 
+
+  A standard technique to correct this bias is importance sampling, where samples from the model are weighted by the likelihood ratio under model and true distributions. When the likelihood ratio is unknown, it can be estimated by training a probabilistic classifier to distinguish samples from the two distributions. 
+
+  🔹 [Telescoping Density-Ratio Estimation](https://proceedings.neurips.cc/paper/2020/file/33d3b157ddc0896addfb22fa2a519097-Paper.pdf) :+1: 
+
+  we introduce a new framework, telescoping density-ratio estimation (TRE), that enables the estimation of ratios between highly dissimilar densities in high-dimensional spaces.
 
 + Distillation 
   
