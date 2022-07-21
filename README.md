@@ -556,7 +556,15 @@ In this paper, we propose a theoretically motivated framework that dynamically w
 
 We propose a new multi-stage RL agent, DARLA (DisentAngled Representation Learning Agent), which learns to see before learning to act. DARLA’s vision is based on learning a disentangled representation of the observed environment. Once DARLA can see, it is able to acquire source policies that are robust to many domain shifts - even with no access to the target domain.
 
+
+
   🔹 [DBC](https://zhuanlan.zhihu.com/p/157534599): [Learning Invariant Representations for Reinforcement Learning without Reconstruction](https://arxiv.org/pdf/2006.10742.pdf)  :boom: :boom: :boom:
+
+  Our method trains encoders such that distances in latent space equal bisimulation distances in state space. PSM: r(s,a) ---> pi(a|s)
+
+  🔹 [Towards Robust Bisimulation Metric Learning](https://arxiv.org/pdf/2110.14096.pdf) 🌋 :boom: 
+
+  we generalize value function approximation bounds for on-policy bisimulation metrics to non-optimal policies and approximate environment dynamics. Our theoretical results help us identify embedding pathologies that may occur in practical use. In particular, we find that these issues stem from an underconstrained dynamics model and an unstable dependence of the embedding norm on the reward signal in environments with sparse rewards.
 
 🔹 [TASK-INDUCED REPRESENTATION LEARNING](https://openreview.net/pdf?id=OzyXtIZAzFv) :volcano:
 
@@ -591,6 +599,10 @@ Meta-learner of Behavioral Similarities (AMBS): A pair of meta-learners is devel
 🔹 [MASTERING VISUAL CONTINUOUS CONTROL: IMPROVED DATA-AUGMENTED REINFORCEMENT LEARNING](https://openreview.net/pdf?id=_SJ-_yyes8) :fire:
 
  DrQ-v2 builds on DrQ, an off-policy actor-critic approach that uses data augmentation to learn directly from pixels.
+
+ 🔹 [Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation](https://arxiv.org/pdf/2107.00644.pdf) :+1: 
+
+ By only applying augmentation in Q-value estimation of the current state, without augmenting Q-targets used for bootstrapping, SVEA circumvents erroneous bootstrapping caused by data augmentation. 
 
   🔹 [Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping via Randomized-to-Canonical Adaptation Networks](https://arxiv.org/pdf/1812.07252.pdf) :+1: :fire:
 
@@ -774,7 +786,9 @@ SOLAR: we present a method for learning representations that are suitable for it
 
 Dreamer: (Learning long-horizon behaviors by latent imagination) predicting *both actions and state values*.  
 
-🔹 
+🔹 [Learning Task Informed Abstractions](http://proceedings.mlr.press/v139/fu21b/fu21b.pdf) 😶 
+
+Task Informed Abstractions (TIA) that explicitly separates rewardcorrelated visual features from distractors.
 
 🔹 [PREDICTION, CONSISTENCY, CURVATURE: REPRESENTATION LEARNING FOR LOCALLY-LINEAR CONTROL](https://openreview.net/pdf?id=BJxG_0EtDS) :+1: :fire: :volcano:
 
@@ -803,7 +817,7 @@ temporally correlated fashion.
 
 🔹 [Stabilizing Off-Policy Deep Reinforcement Learning from Pixels](https://arxiv.org/pdf/2207.00986.pdf) 🌋 
 
-A-LIX: 
+A-LIX: [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/caf1a3dfb505ffed0d024130f58c5cfa_BpJWwwI.png) 
 
 🔹 [Temporal Disentanglement of Representations for Improved Generalisation in Reinforcement Learning](https://arxiv.org/pdf/2207.05480.pdf) :+1: 
 
@@ -1159,6 +1173,10 @@ We focus on certifying the robustness of offline RL in the presence of poisoning
 
 We propose two particular types of robustness certification criteria: robustness of per-state actions and lower bound of cumulative rewards.
 
+🔹 [Learning Action Translator for Meta Reinforcement Learning on Sparse-Reward Tasks](https://arxiv.org/pdf/2207.09071.pdf) :fire: :fire: 
+
+MCAT: we propose to learn an action translator among multiple training tasks. The objective function forces the translated action to behave on the target task similarly to the source action on the source task. We consider the policy transfer for any pair of source and target tasks in the training task distribution.
+
 :o: Multi-task
 
 🔹 [Multi-Task Reinforcement Learning without Interference](https://www.skillsworkshop.ai/uploads/1/2/1/5/121527312/multi-task.pdf) :fire:
@@ -1211,8 +1229,7 @@ DAgger (Dataset Aggregation): trains a deterministic policy that achieves good p
 
 🔹 [Multifidelity Reinforcement Learning with Control Variates](https://arxiv.org/pdf/2206.05165.pdf) :fire:
 
-MFMCRL: a multifidelity estimator that exploits the cross-correlations between the low- and high-fidelity returns is proposed to reduce the variance in the estimation of the state-action
-value function.
+MFMCRL: a multifidelity estimator that exploits the cross-correlations between the low- and high-fidelity returns is proposed to reduce the variance in the estimation of the state-action value function.
 
  <a name="anchor-ood"></a>
 
@@ -1813,7 +1830,9 @@ CODAC:
 
 🔹 [OFFLINE REINFORCEMENT LEARNING HANDS-ON](https://arxiv.org/pdf/2011.14379.pdf)
 
-🔹 [Supervised Off-Policy Ranking](https://arxiv.org/pdf/2107.01360.pdf)
+🔹 [Supervised Off-Policy Ranking](https://arxiv.org/pdf/2107.01360.pdf) :+1: 
+
+SOPR: aims to rank a set of target policies based on supervised learning by leveraging off-policy data and policies with known performance. [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/eb46c61f91aab8c2b002b288485fc118_Cjgm5dl.png) 
 
 🔹 [Conservative Data Sharing for Multi-Task Offline Reinforcement Learning](https://arxiv.org/pdf/2109.08128.pdf) :fire: :volcano: :boom:  
 
@@ -1987,7 +2006,7 @@ This results in a conservative estimate of the value function for out-of-support
 
 🔹 [Regularizing a Model-based Policy Stationary Distribution to Stabilize Offline Reinforcement Learning](https://arxiv.org/pdf/2206.07166.pdf) 🌋 :fire: 
 
-SDM-GAN: we regularize the undiscounted stationary distribution of the current policy towards the offline data during the policy optimization process.
+SDM-GAN: we regularize the undiscounted stationary distribution of the current policy towards the offline data during the policy optimization process. [[ppt]](https://icml.cc/media/icml-2022/Slides/18409.pdf) 
 
 🔹 [HYBRID VALUE ESTIMATION FOR OFF-POLICY EVALUATION AND OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2206.02000.pdf) 🌋 
 
@@ -2085,7 +2104,7 @@ Gaussian process over policy values; Kernel; Active offline policy selection wit
 
 We proposed offline reinforced imitation learning (ORIL) to enable learning from both demonstrations and a large unlabeled set of experiences without reward annotations.  
 
-🔹 [Discriminator-Weighted Offline Imitation Learning from Suboptimal Demonstrations](https://openreview.net/pdf?id=XfK0p2TSIB) :fire: :volcano: :boom:
+🔹 [Discriminator-Weighted Offline Imitation Learning from Suboptimal Demonstrations](https://proceedings.mlr.press/v162/xu22l/xu22l.pdf) :fire: :volcano: :boom:
 
 DWBC: We introduce an additional discriminator to distinguish expert and non-expert data, we propose a cooperation strategy to boost the performance of both tasks, this will result in a new policy learning objective and surprisingly, we find its equivalence to a generalized BC objective, where the outputs of discriminator serve as the weights of the BC loss function.
 
@@ -2213,6 +2232,12 @@ We propose to simply learn the Policy in the
 Latent Action Space (PLAS) such that this requirement (OOD action) is naturally satisfied.
 
 🔹 [Challenges and Opportunities in Offline Reinforcement Learning from Visual Observations](https://arxiv.org/pdf/2206.04779.pdf) 
+
+🔹 [Back to the Manifold: Recovering from Out-of-Distribution States](https://arxiv.org/pdf/2207.08673.pdf) :fire: 🌋 
+
+We alleviate the distributional shift at the deployment time by introducing a recovery policy that brings the agent back to the training manifold whenever it steps out of the in-distribution states, e.g., due to an external perturbation.
+
+
 
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
@@ -2586,6 +2611,10 @@ we introduce the concept of cumulative accessibility functions, which measure th
 
 Frame the learning of the goal-conditioned policies as expectation maximization: the E-step corresponds to planning an optimal sequence of waypoints using graph search, while the M-step aims to learn a goal-conditioned policy to reach those waypoints.
 
+🔹 [Bisimulation Makes Analogies in Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2204.13060.pdf) :fire: 🌋 
+
+ We propose a new form of state abstraction called goal-conditioned bisimulation that captures functional equivariance, allowing for the reuse of skills to achieve new goals.
+
 ++DATA++
 
 🔹 [Connecting the Dots Between MLE and RL for Sequence Prediction](https://arxiv.org/pdf/1811.09740.pdf) :+1:  
@@ -2821,6 +2850,8 @@ We propose to estimate not only the Q-values but also both the transition and th
 We propose a robust policy optimization approach, named MRPO, for improving both the average and worst-case performance of policies. We theoretically derived a lower bound for the worst-case performance of a given policy over all environments, and formulated an optimization problem to optimize the policy and sampling distribution together, subject to constraints that bounded the update step in policy optimization and statistical distance between the worst and average case environments.
 
 🔹 [Policy Gradient Method For Robust Reinforcement Learning](https://arxiv.org/pdf/2205.07344.pdf) 
+
+[[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/93db85ed909c13838ff95ccfa94cebd9.png) 
 
 🔹 [Trust the Model When It Is Confident: Masked Model-based Actor-Critic](https://arxiv.org/pdf/2010.04893.pdf) :+1: :volcano:
 
@@ -3370,6 +3401,10 @@ SAC-D: We also introduce decomposition-based tools that exploit this information
 
 "Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won’t come in."
 
+🔹 [Memory-Constrained Policy Optimization](https://arxiv.org/pdf/2204.09315.pdf) 😶 
+
+In addition to using the proximity of one single old policy as the first trust region as done by prior works, we propose to form a second trust region through the construction of another virtual policy that represents a wide range of past policies.
+
 <a name="anchor-marl"></a>
 
 ## MARL
@@ -3433,6 +3468,10 @@ using the conditional entropy of the joint state-action distributions as regular
 🔹 [A Theory of Regularized Markov Decision Processes](https://arxiv.org/pdf/1901.11275.pdf) :+1::volcano: :boom: :droplet:
 
 We have introduced a general theory of regularized MDPs, where the usual Bellman evaluation operator is modified by either a fixed convex function or a Bregman divergence between consecutive policies. We shown how many (variations of) existing algorithms could be derived from this general algorithmic scheme, and also analyzed and discussed the related propagation of errors.
+
+🔹 [Mirror Learning: A Unifying Framework of Policy Optimisation](https://proceedings.mlr.press/v162/grudzien22a/grudzien22a.pdf) :+1: 😶 
+
+we introduce a novel theoretical framework, named Mirror Learning, which provides theoretical guarantees to a large class of algorithms, including TRPO and PPO.
 
 🔹 [Munchausen Reinforcement Learning](https://arxiv.org/pdf/2007.14430.pdf) :+1: ​ :fire:  :volcano: :droplet:
 
@@ -3589,9 +3628,17 @@ We propose SAFEty skill pRiors, a behavioral prior learning algorithm that accel
 
 We propose the Sim-to-Lab-to-Real framework that combines Hamilton-Jacobi reachability analysis and PAC-Bayes generalization guarantees to safely close the sim2real gap. Joint training of a performance and a backup policy in Sim training (1st stage) ensures safe exploration during Lab training (2nd stage).  
 
+🔹 [Reachability Constrained Reinforcement Learning](https://arxiv.org/pdf/2205.07536.pdf) 🌋 
+
+ this paper proposes the reachability CRL (RCRL) method by using reachability analysis to establish the novel self-consistency condition and characterize the feasible sets. The feasible sets are represented by the safety value function. 
+
 Multi-Objective RL:
 
 🔹 [Offline Constrained Multi-Objective Reinforcement Learning via Pessimistic Dual Value Iteration](https://proceedings.neurips.cc/paper/2021/file/d5c8e1ab6fc0bfeb5f29aafa999cdb29-Paper.pdf) :fire:
+
+🔹 [Optimistic Linear Support and Successor Features as a Basis for Optimal Policy Transfer](https://proceedings.mlr.press/v162/alegre22a/alegre22a.pdf) :fire: :fire: 
+
+We showed that any transfer learning problem within the SF framework can be mapped into an equivalent problem of learning multiple policies in MORL under linear preferences. We then introduced a novel SF-based extension of the OLS algorithm (SFOLS) to iteratively construct a set of policies whose SFs form a CCS. [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/da0dba87d95286d836e37ca60ab1e734_LY3UWtT.png) 
 
 <a name="anchor-disrl"></a>
 
@@ -3651,7 +3698,11 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   ETG-RL: Unlike prior methods that use a fixed trajectory generator, the generator continually optimizes the shape of the output trajectory for the given task, providing diversified motion priors to guide the policy learning.
 
--
+  🔹 [REvolveR: Continuous Evolutionary Models for Robot-to-robot Policy Transfer](https://proceedings.mlr.press/v162/liu22p/liu22p.pdf) 😶 
+
+  [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/33e8075e9970de0cfea955afd4644bb2_CuGkecl.png) 
+
+- 
 
 <a name="anchor-optimization"></a>  
 
