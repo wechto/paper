@@ -1463,7 +1463,7 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 
   🔹 [Plan Your Target and Learn Your Skills: Transferable State-Only Imitation Learning via Decoupled Policy Optimization](https://arxiv.org/pdf/2203.02214.pdf) :fire: 🌋 
 
-  We propose Decoupled Policy Optimization (DePO) for transferable state-only imitation learning, which decouples the state-to-action mapping policy into a state-to-state mapping state planner and a state-pair-to-action mapping inverse dynamics model.
+  We propose Decoupled Policy Optimization (DePO) for transferable state-only imitation learning, which decouples the state-to-action mapping policy into a state-to-state mapping state planner and a state-pair-to-action mapping inverse dynamics model. [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/3b8a614226a953a8cd9526fca6fe9ba5.png) 
   
   🔹 [IMITATION LEARNING BY REINFORCEMENT LEARNING](https://openreview.net/pdf?id=1zwleytEpYx) :fire: :fire:
   
@@ -3404,6 +3404,18 @@ SAC-D: We also introduce decomposition-based tools that exploit this information
 🔹 [Memory-Constrained Policy Optimization](https://arxiv.org/pdf/2204.09315.pdf) 😶 
 
 In addition to using the proximity of one single old policy as the first trust region as done by prior works, we propose to form a second trust region through the construction of another virtual policy that represents a wide range of past policies.
+
+🔹 [A Temporal-Difference Approach to Policy Gradient Estimation](https://arxiv.org/pdf/2202.02396.pdf) :fire: 🌋 
+
+TDRC: By using temporaldifference updates of the gradient critic from an off-policy data stream, we develop the first estimator that side-steps the distribution shift issue in a model-free way. [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/f516dfb84b9051ed85b89cdc3a8ab7f5.png) 
+
+🔹 [gamma-models: Generative Temporal Difference Learning for Infinite-Horizon Prediction](https://arxiv.org/pdf/2010.14496.pdf) :fire: 🌋 :boom: 
+
+Our goal is to make long-horizon predictions without the need to repeatedly apply a single-step model. 
+
+🔹 [Generalised Policy Improvement with Geometric Policy Composition](https://proceedings.mlr.press/v162/thakoor22a/thakoor22a.pdf) 
+
+
 
 <a name="anchor-marl"></a>
 
