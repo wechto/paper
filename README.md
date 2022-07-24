@@ -3413,7 +3413,11 @@ TDRC: By using temporaldifference updates of the gradient critic from an off-pol
 
 Our goal is to make long-horizon predictions without the need to repeatedly apply a single-step model. 
 
-🔹 [Generalised Policy Improvement with Geometric Policy Composition](https://proceedings.mlr.press/v162/thakoor22a/thakoor22a.pdf) 
+🔹 [Generalised Policy Improvement with Geometric Policy Composition](https://proceedings.mlr.press/v162/thakoor22a/thakoor22a.pdf) 🌋 💧 
+
+GGPI: 
+
+🔹 [Taylor Expansions of Discount Factors](http://proceedings.mlr.press/v139/tang21b/tang21b.pdf) 
 
 
 
