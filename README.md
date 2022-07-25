@@ -3417,9 +3417,17 @@ Our goal is to make long-horizon predictions without the need to repeatedly appl
 
 GGPI: 
 
-🔹 [Taylor Expansions of Discount Factors](http://proceedings.mlr.press/v139/tang21b/tang21b.pdf) 
+🔹 [Taylor Expansions of Discount Factors](http://proceedings.mlr.press/v139/tang21b/tang21b.pdf) 🌋 💧 
 
+We study the effect that this discrepancy of discount factors has during learning, and discover a family of objectives that interpolate value functions of two distinct discount factors. 
 
+🔹 [Learning Retrospective Knowledge with Reverse Reinforcement Learning](https://proceedings.neurips.cc/paper/2020/file/e6cbc650cd5798a05dfd0f51d14cde5c-Paper.pdf) 
+
+Since such questions (how much fuel do we expect a car to have given it is at B at time t?) emphasize the influence of possible past events on the present, we refer to their answers as retrospective knowledge. We show how to represent retrospective knowledge with Reverse GVFs, which are trained via Reverse RL. [see GenTD] 
+
+🔹 [A Generalized Bootstrap Target for Value-Learning, Efficiently Combining Value and Feature Predictions](https://www.aaai.org/AAAI22Papers/AAAI-12966.GX-ChenA.pdf) :fire: 
+
+We focus on bootstrapping targets used when estimating value functions, and propose a new backup target, the lambda-return mixture, which implicitly combines value-predictive knowledge (used by TD methods) with (successor) feature-predictive knowledge—with a parameter ⌘ capturing how much to rely on each.
 
 <a name="anchor-marl"></a>
 
