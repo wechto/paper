@@ -3427,7 +3427,13 @@ Since such questions (how much fuel do we expect a car to have given it is at B 
 
 🔹 [A Generalized Bootstrap Target for Value-Learning, Efficiently Combining Value and Feature Predictions](https://www.aaai.org/AAAI22Papers/AAAI-12966.GX-ChenA.pdf) :fire: 
 
-We focus on bootstrapping targets used when estimating value functions, and propose a new backup target, the lambda-return mixture, which implicitly combines value-predictive knowledge (used by TD methods) with (successor) feature-predictive knowledge—with a parameter ⌘ capturing how much to rely on each.
+We focus on bootstrapping targets used when estimating value functions, and propose a new backup target, the lambda-return mixture, which implicitly combines value-predictive knowledge (used by TD methods) with (successor) feature-predictive knowledge—with a parameter lambda capturing how much to rely on each.
+
+🔹 [A Deeper Look at Discounting Mismatch in Actor-Critic Algorithms](https://arxiv.org/pdf/2010.01069.pdf) :fire: 
+
+We then propose to interpret the discounting in the critic in terms of a bias-variance-representation trade-off and provide supporting empirical results. In the second scenario, we consider optimizing a discounted objective (gamma < 1) and propose to interpret the omission of the discounting in the actor update from an auxiliary task perspective and provide supporting empirical results.
+
+
 
 <a name="anchor-marl"></a>
 
@@ -3797,6 +3803,12 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [YOUR CLASSIFIER IS SECRETLY AN ENERGY BASED MODEL AND YOU SHOULD TREAT IT LIKE ONE](https://arxiv.org/pdf/1912.03263.pdf) :fire: 🌋 
 
   We propose to reinterpret a standard discriminative classifier of p(y|x) as an energy based model for the joint distribution p(x, y). 
+
+- Difussion 
+  
+  🔹 [Denoising Diffusion Probabilistic Models](https://arxiv.org/pdf/2006.11239.pdf) 🌋 
+
+  🔹 [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) :fire: 
 
 - Data Valuation 
 
