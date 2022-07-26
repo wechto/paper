@@ -3804,11 +3804,37 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   We propose to reinterpret a standard discriminative classifier of p(y|x) as an energy based model for the joint distribution p(x, y). 
 
-- Difussion 
+- Diffussion 
+
+  🔹 [Sliced Score Matching: A Scalable Approach to Density and Score Estimation](http://proceedings.mlr.press/v115/song20a/song20a.pdf) :fire: 
+
+   We show this difficulty (computing the Hessian of logdensity functions) can be mitigated by projecting the scores onto random vectors before comparing them.
+
+  🔹 [Generative Modeling by Estimating Gradients of the Data Distribution](https://proceedings.neurips.cc/paper/2019/file/3001ef257407d5a371a96dcd947c7d93-Paper.pdf) :fire: 
+
+  NCSN: we perturb the data with different levels of Gaussian noise, and jointly estimate the corresponding scores, i.e., the vector fields of gradients of the perturbed data distribution for all noise levels. For sampling, we propose an annealed Langevin dynamics where we use gradients corresponding to gradually decreasing noise levels as the sampling process gets closer to the data manifold.
   
-  🔹 [Denoising Diffusion Probabilistic Models](https://arxiv.org/pdf/2006.11239.pdf) 🌋 
+  🔹 [Improved Techniques for Training Score-Based Generative Models](https://proceedings.neurips.cc/paper/2020/file/92c3b916311a5517d9290576e3ea37ad-Paper.pdf) :+1: 
+
+  🔹 [Denoising Diffusion Probabilistic Models](https://arxiv.org/pdf/2006.11239.pdf) :fire: 🌋 :boom: 
+
+  Our best results are obtained by training on a weighted variational bound designed according to a novel connection between diffusion probabilistic models and denoising score matching with Langevin dynamics, and our models naturally admit a progressive lossy decompression scheme that can be interpreted as a generalization of autoregressive decoding. 
+
+  🔹 [Improved Denoising Diffusion Probabilistic Models](http://proceedings.mlr.press/v139/nichol21a/nichol21a.pdf) :+1: 
+
+  🔹 [SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS](https://arxiv.org/pdf/2011.13456.pdf) 🌋 
+
+  Using SED, encapsulates previous approaches in score-based generative modeling and diffusion probabilistic modeling, allowing for new sampling procedures and new modeling capabilities.
+
+  🔹 [Score-based Generative Modeling in Latent Space](https://proceedings.neurips.cc/paper/2021/file/5dca4c6b9e244d24a30b4c45601d9720-Paper.pdf) 
+
+  🔹 [Back to the Source: Diffusion-Driven Test-Time Adaptation](https://arxiv.org/pdf/2207.03442.pdf) :+1: 🔥
+
+  We instead update the target data, by projecting all test inputs toward the source domain with a generative diffusion model. Our diffusion-driven adaptation method, DDA, shares its models for classification and generation across all domains.
 
   🔹 [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) :fire: 
+
+
 
 - Data Valuation 
 
