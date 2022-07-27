@@ -2979,6 +2979,10 @@ our approach allows for greater robustness under model misspecification or distr
 
 AutoMBPO: we aim to investigate how to appropriately schedule these hyperparameters, i.e., real data ratio, model training frequency, policy training iteration, and rollout length, to achieve optimal performance of Dyna-style MBRL algorithms.
 
+🔹 [Live in the Moment: Learning Dynamics Model Adapted to Evolving Policy](https://arxiv.org/pdf/2207.12141.pdf) :+1: 
+
+Policy-adaptation Model-based Actor-Critic (PMAC), which learns a policy-adapted dynamics model based on a policy-adaptation mechanism. This mechanism dynamically adjusts the historical policy mixture distribution to ensure the learned model can continually adapt to the state-action visitation distribution of the evolving policy.
+
 :o: Zero-Order Trajectory Optimizers / Planning
 
 🔹 [Sample-efficient Cross-Entropy Method for Real-time Planning](https://arxiv.org/pdf/2008.06389.pdf) :droplet:
@@ -3920,7 +3924,9 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   We propose an approach of Distillation with selective Input Gradient Regularization (DIGR) which uses policy distillation and input gradient regularization to produce new policies that achieve both high interpretability and computation efficiency in generating saliency maps. 
 
+  🔹 [Gradient-based Bi-level Optimization for Deep Learning: A Survey](https://arxiv.org/pdf/2207.11719.pdf) :+1: :fire: 🌋 :boom: :boom: 
 
+   Bi-level optimization embeds one problem within another and the gradient-based category solves the outer level task by computing the hypergradient. 
 
   
 ## Galaxy  Forest  
