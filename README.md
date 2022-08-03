@@ -4019,6 +4019,14 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   
   We propose COMET, which discovers and represents concepts as separate energy functions, enabling us to represent both global concepts as well as objects under a unified framework. COMET discovers energy functions through recomposing the input image, which we find captures independent factors without additional supervision.
 
+  🔹 [LEARNING A LATENT SEARCH SPACE FOR ROUTING PROBLEMS USING VARIATIONAL AUTOENCODERS](https://openreview.net/pdf?id=90JprVrJBO) :+1: :fire: 
+
+  CVAE-Opt: This paper proposes a learning based approach for solving combinatorial optimization problems such as routine using continuous optimizers. The key idea is to learn a continuous latent space via conditional VAE to represent solutions and perform search in this latent space for new problems at the test-time.
+
+  🔹 [Learning to Solve Vehicle Routing Problems: A Survey](https://arxiv.org/pdf/2205.02453.pdf) :+1: 
+
+  
+
 - Interpretation 
   
   🔹 [CONTRASTIVE EXPLANATIONS FOR REINFORCEMENT LEARNING VIA EMBEDDED SELF PREDICTIONS](https://openreview.net/pdf?id=Ud3DSz72nYR) :+1: 
