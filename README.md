@@ -1231,6 +1231,12 @@ DAgger (Dataset Aggregation): trains a deterministic policy that achieves good p
 
 MFMCRL: a multifidelity estimator that exploits the cross-correlations between the low- and high-fidelity returns is proposed to reduce the variance in the estimation of the state-action value function.
 
+🔹 [Robust Trajectory Prediction against Adversarial Attacks](https://arxiv.org/pdf/2208.00094.pdf) :+1: 
+
+we propose an adversarial training framework with three main components, including (1) a deterministic attack for the inner maximization process of the adversarial training, (2) additional regularization terms for stable outer minimization of adversarial training, and (3) a domain-specific augmentation strategy to achieve a better performance trade-off on clean and adversarial data.
+
+
+
  <a name="anchor-ood"></a>
 
 :o: :o: :o: **Out-of-Distribution (OOD) Generalization**  [Modularity--->Generalization](https://zhuanlan.zhihu.com/p/137082457)
@@ -2197,6 +2203,10 @@ We find that RCSL (return-conditioned SL) returns the optimal policy under a set
 🔹 [Implicit Behavioral Cloning](https://arxiv.org/pdf/2109.00137.pdf) :fire: :volcano: :boom:
 
 In this paper we showed that reformulating supervised imitation learning as a conditional energy-based modeling problem, with inference-time implicit regression, often greatly outperforms traditional explicit policy baselines.
+
+🔹 [Implicit Two-Tower Policies](https://arxiv.org/pdf/2208.01191.pdf) :+1: 
+
+Implicit Two-Tower (ITT) policies, where the actions are chosen based on the attention scores of their learnable latent representations with those of the input states.
 
 🔹 [Latent-Variable Advantage-Weighted Policy Optimization for Offline RL](https://arxiv.org/pdf/2203.08949.pdf) :no_mouth:
 
@@ -4025,7 +4035,11 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   🔹 [Learning to Solve Vehicle Routing Problems: A Survey](https://arxiv.org/pdf/2205.02453.pdf) :+1: 
 
-  
+  🔹 [Time Series Forecasting Models Copy the Past: How to Mitigate](https://arxiv.org/pdf/2207.13441.pdf) :+1: :fire: 🌋 
+
+  In the presence of noise and uncertainty, neural network models tend to replicate the last observed value of the time series, thus limiting their applicability to real-world data. We also propose a regularization term penalizing the replication of previously seen values.
+
+
 
 - Interpretation 
   
