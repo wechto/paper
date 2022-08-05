@@ -361,11 +361,23 @@ TOC
   
   HESS: We propose a novel regularization that contributes to both stable and efficient subgoal representation learning.
   
-- meta
+- meta; skills
 
   🔹 [LEARNING TRANSFERABLE MOTOR SKILLS WITH HIERARCHICAL LATENT MIXTURE POLICIES](https://arxiv.org/pdf/2112.05062.pdf) :fire:
 
   our method exploits a three-level hierarchy of both discrete and continuous latent variables, to capture a set of high-level behaviours while allowing for variance in how they are executed.  
+
+  🔹 [Hierarchical Planning Through Goal-Conditioned Offline Reinforcement Learning](https://arxiv.org/pdf/2205.11790.pdf) :fire: 
+
+  HiGoC: The low-level policy is trained via offline RL. We improve the offline training to deal with out-of-distribution goals by a perturbed goal sampling process. The high-level planner selects intermediate sub-goals by taking advantages of model-based planning methods.
+
+  🔹 [Example-Driven Model-Based Reinforcement Learning for Solving Long-Horizon Visuomotor Tasks](https://arxiv.org/pdf/2109.10312.pdf) :+1: :fire: 
+
+  EMBR learns and plans using a learned model, critic, and success classifier, where the success classifier serves both as a reward function for RL and as a grounding mechanism to continuously detect if the robot should retry a skill when unsuccessful or under perturbations.
+
+  🔹 [Planning to Practice: Efficient Online Fine-Tuning by Composing Goals in Latent Space](https://arxiv.org/pdf/2205.08129.pdf) :+1: 
+
+  PTP: first, a high-level planner that sets intermediate subgoals using conditional subgoal generators in the latent space for a lowlevel model-free policy. second, a hybrid approach which first pre-trains both the conditional subgoal generator and the policy on previously collected data through offline reinforcement learning, and then fine-tunes the policy via online.
 
 ## SKILLS
 
@@ -822,6 +834,13 @@ A-LIX: [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/caf1a3dfb505ffed0
 🔹 [Temporal Disentanglement of Representations for Improved Generalisation in Reinforcement Learning](https://arxiv.org/pdf/2207.05480.pdf) :+1: 
 
 we introduce TEmporal Disentanglement (TED), a self-supervised auxiliary task that leads to disentangled representations using the sequential nature of RL observations.
+
+🔹 [R3M: A Universal Visual Representation for Robot Manipulation](https://arxiv.org/pdf/2203.12601.pdf) 
+
+We study how visual representations pre-trained on diverse human video data can enable data-efficient learning of downstream robotic manipulation tasks.
+
+
+
 
 <a name="anchor-MI"></a>
 
@@ -2249,6 +2268,8 @@ We alleviate the distributional shift at the deployment time by introducing a re
 
 
 
+
+
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
@@ -2509,7 +2530,7 @@ SSRL:  We demonstrate that, without policy gradient or value estimation, an iter
 
   🔹 [Phasic Self-Imitative Reduction for Sparse-Reward Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.12030.pdf) :fire: 🌋 
 
-  PAIR: In the online phase, we perform RL training and collect rollout data while in the offline phase, we perform SL on those successful trajectories from the dataset.
+  PAIR: In the online phase, we perform RL training and collect rollout data while in the offline phase, we perform SL on those successful trajectories from the dataset. Task reduction.
 
   🔹 [SOLVING COMPOSITIONAL REINFORCEMENT LEARNING PROBLEMS VIA TASK REDUCTION](https://arxiv.org/pdf/2103.07607.pdf) :fire: 🌋 
 
@@ -3407,13 +3428,19 @@ SAC-D: We also introduce decomposition-based tools that exploit this information
 
 🔹 [Emphatic Algorithms for Deep Reinforcement Learning](https://arxiv.org/pdf/2106.11779.pdf) :fire: 
 
+🔹 [Off-Policy Evaluation for Large Action Spaces via Embeddings](https://arxiv.org/pdf/2202.06317.pdf) 
+
+we propose a new OPE estimator that leverages marginalized importance weights when action embeddings provide structure in the action space. [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/6da9003b743b65f4c0ccd295cc484e57.png) 
+
+
+
 
 
 🔹 [Gradient Temporal-Difference Learning with Regularized Corrections](https://arxiv.org/pdf/2007.00611.pdf) :fire: 
 
 🔹 [The Primacy Bias in Deep Reinforcement Learning](https://arxiv.org/pdf/2205.07802.pdf) :fire: 
 
-"Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won’t come in."
+"Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won’t come in." [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/007d4a1214289aea09b9759ae1324e96.png)
 
 🔹 [Memory-Constrained Policy Optimization](https://arxiv.org/pdf/2204.09315.pdf) 😶 
 
@@ -3446,6 +3473,10 @@ We focus on bootstrapping targets used when estimating value functions, and prop
 🔹 [A Deeper Look at Discounting Mismatch in Actor-Critic Algorithms](https://arxiv.org/pdf/2010.01069.pdf) :fire: 
 
 We then propose to interpret the discounting in the critic in terms of a bias-variance-representation trade-off and provide supporting empirical results. In the second scenario, we consider optimizing a discounted objective (gamma < 1) and propose to interpret the omission of the discounting in the actor update from an auxiliary task perspective and provide supporting empirical results.
+
+🔹 [An Analytical Update Rule for General Policy Optimization](https://proceedings.mlr.press/v162/li22d/li22d.pdf) :+1: :fire: :fire: 
+
+The contributions of this paper include: (1) a new theoretical result that tightens existing bounds for local policy search using trust-region methods; (2) a closed-form update rule for general stochastic policies with monotonic improvement guarantee; [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/e1ab840a08f6e72d3baf13622bef60ad.png)
 
 
 
@@ -3649,6 +3680,10 @@ We propose the CDMPO algorithm to solve safety-constrained RL problems. Our meth
 
 (i) We provide a rigorous theoretical analysis to extend the surrogate functions to generalized advantage estimator (GAE). GAE significantly reduces variance empirically while maintaining a tolerable level of bias, which is an efficient step for us to design CUP; (ii) The proposed bounds are tighter than existing works, i.e., using the proposed bounds as surrogate functions are better local approximations to the objective and safety constraints. (iii) The proposed CUP provides a non-convex implementation via first-order optimizers, which does not depend on any convex approximation.  
 
+🔹 [Constrained Variational Policy Optimization for Safe Reinforcement Learning](https://proceedings.mlr.press/v162/liu22b/liu22b.pdf) :fire: 💧 
+
+CVPO: [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/f4a331b7a22d1b237565d8813a34d8ac.png)
+
 🔹 [A Review of Safe Reinforcement Learning: Methods,
 Theory and Applications](https://arxiv.org/pdf/2205.10330.pdf) 💦
 
@@ -3715,6 +3750,14 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Don’t Start From Scratch: Leveraging Prior Data to Automate Robotic Reinforcement Learning](https://arxiv.org/pdf/2207.04703.pdf) :+1: 
 
   Our main contribution is demonstrating that incorporating prior data into a reinforcement learning system simultaneously addresses several key challenges in real-world robotic RL: sample-efficiency, zero-shot generalization, and autonomous non-episodic learning. 
+
+  🔹 [A State-Distribution Matching Approach to Non-Episodic Reinforcement Learning](https://arxiv.org/pdf/2205.05212.pdf) :+1: :fire: 
+
+  Assuming access to a few demonstrations, we propose a new method, MEDAL, that trains the backward policy to match the state distribution in the provided demonstrations. [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/41f860e3b7f548abc1f8b812059137bf.png)
+
+  🔹 [You Only Live Once: Single-Life Reinforcement Learning via Learned Reward Shaping](https://openreview.net/pdf?id=weR4H5eEpv) :fire: 🌋 
+
+  SLRL. (QWALE) that addresses the dearth of supervision by employing a distribution matching strategy that leverages the agent’s prior experience as guidance in novel situations.
 
 <a name="anchor-selfpaced"></a>   <a name="anchor-curriculum"></a>
 
