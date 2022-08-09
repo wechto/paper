@@ -2930,6 +2930,10 @@ We derive a lower bound of the expected return, which inspires a bound maximizat
 
 We propose to additionally construct a backward dynamics model to reduce the reliance on accuracy in forward model predictions: Bidirectional Model-based Policy Optimization (BMPO) to utilize both the forward model and backward model to generate short branched rollouts for policy optimization.  
 
+🔹 [Backward Imitation and Forward Reinforcement Learning via Bi-directional Model Rollouts](https://arxiv.org/pdf/2208.02434.pdf) 
+
+
+
 🔹 [Self-Consistent Models and Values](https://openreview.net/pdf?id=x2rdRAx3QF) :fire:  
 
 We investigate a way of augmenting model-based RL, by additionally encouraging a learned model and value function to be jointly self-consistent.
@@ -3490,6 +3494,10 @@ The contributions of this paper include: (1) a new theoretical result that tight
 
 With the aim of increasing the field’s confidence in reported results with a handful of runs, we advocate for reporting interval estimates of aggregate performance and propose performance profiles to account for the variability in results, as well as present more robust and efficient aggregate metrics, such as interquartile mean scores, to achieve small uncertainty in results. [[rilable]](https://github.com/google-research/rliable)
 
+🔹 [Safe Policy Improvement Approaches and their Limitations](https://arxiv.org/pdf/2208.00724.pdf) 
+
+
+
 <a name="anchor-marl"></a>
 
 ## MARL
@@ -3840,6 +3848,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Variational Inference based on Robust Divergences](http://proceedings.mlr.press/v84/futami18a/futami18a.pdf) :+1: :droplet:
 
   Maximum Likelihood Estimation and Its Robust Variants. density power divergence; the β-divergence. γ-divergence;
+
+  🔹 [A New Kind of Adversarial Example](https://arxiv.org/pdf/2208.02430.pdf) 👍 
+
+   we consider the opposite which is adversarial examples that can fool a human but not a model
 
 - Implicit learning
 
