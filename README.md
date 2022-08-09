@@ -1308,6 +1308,10 @@ MMI can be problematic because it picks up spurious correlations between the inp
 
 Robust RL has shown that by considering the worst case scenario, robust policies can be overly conservative. Soft-Robust Actor Critic (SR-AC) learns an optimal policy with respect to a distribution over an uncertainty set and stays robust to model uncertainty but avoids the conservativeness of robust strategies.
 
+🔹 [A Game-Theoretic Perspective of Generalization in Reinforcement Learning](https://arxiv.org/pdf/2208.03650.pdf) :fire: :fire:
+
+We propose a game-theoretic framework for the generalization in reinforcement learning, named GiRL, where an RL agent is trained against an adversary over a set of tasks, where the adversary can manipulate the distributions over tasks within a given threshold.
+
 <a name="anchor-irl"></a>
 
 ## IL (IRL)
@@ -3484,7 +3488,7 @@ The contributions of this paper include: (1) a new theoretical result that tight
 
 🔹 [Deep Reinforcement Learning at the Edge of the Statistical Precipice](https://arxiv.org/pdf/2108.13264.pdf) :fire: 🌋
 
-With the aim of increasing the field’s confidence in reported results with a handful of runs, we advocate for reporting interval estimates of aggregate performance and propose performance profiles to account for the variability in results, as well as present more robust and efficient aggregate metrics, such as interquartile mean scores, to achieve small uncertainty in results.
+With the aim of increasing the field’s confidence in reported results with a handful of runs, we advocate for reporting interval estimates of aggregate performance and propose performance profiles to account for the variability in results, as well as present more robust and efficient aggregate metrics, such as interquartile mean scores, to achieve small uncertainty in results. [[rilable]](https://github.com/google-research/rliable)
 
 <a name="anchor-marl"></a>
 
