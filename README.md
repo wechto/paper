@@ -1196,6 +1196,10 @@ We propose two particular types of robustness certification criteria: robustness
 
 MCAT: we propose to learn an action translator among multiple training tasks. The objective function forces the translated action to behave on the target task similarly to the source action on the source task. We consider the policy transfer for any pair of source and target tasks in the training task distribution.
 
+🔹 [AACC: Asymmetric Actor-Critic in Contextual Reinforcement Learning](https://arxiv.org/pdf/2208.02376.pdf) :fire: 
+
+the critic is trained with environmental factors and observation while the actor only gets the observation as input.
+
 :o: Multi-task
 
 🔹 [Multi-Task Reinforcement Learning without Interference](https://www.skillsworkshop.ai/uploads/1/2/1/5/121527312/multi-task.pdf) :fire:
@@ -3478,7 +3482,9 @@ We then propose to interpret the discounting in the critic in terms of a bias-va
 
 The contributions of this paper include: (1) a new theoretical result that tightens existing bounds for local policy search using trust-region methods; (2) a closed-form update rule for general stochastic policies with monotonic improvement guarantee; [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/e1ab840a08f6e72d3baf13622bef60ad.png)
 
+🔹 [Deep Reinforcement Learning at the Edge of the Statistical Precipice](https://arxiv.org/pdf/2108.13264.pdf) :fire: 🌋
 
+With the aim of increasing the field’s confidence in reported results with a handful of runs, we advocate for reporting interval estimates of aggregate performance and propose performance profiles to account for the variability in results, as well as present more robust and efficient aggregate metrics, such as interquartile mean scores, to achieve small uncertainty in results.
 
 <a name="anchor-marl"></a>
 
