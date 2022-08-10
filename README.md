@@ -1655,7 +1655,9 @@ COACH:
 
 SSRR, S3RR: noise-performance curve fitting --> regresses a reward function of trajectory states and actions. 
 
+🔹 [BASIS FOR INTENTIONS: EFFICIENT INVERSE REINFORCEMENT LEARNING USING PAST EXPERIENCE](https://arxiv.org/pdf/2208.04919.pdf) :fire: 🌋 
 
+BASIS, which leverages multi-task RL pre-training and successor features to allow an agent to build a strong basis for intentions that spans the space of possible goals in a given domain.
 
 - Multiple-Intent
   
@@ -2930,9 +2932,9 @@ We derive a lower bound of the expected return, which inspires a bound maximizat
 
 We propose to additionally construct a backward dynamics model to reduce the reliance on accuracy in forward model predictions: Bidirectional Model-based Policy Optimization (BMPO) to utilize both the forward model and backward model to generate short branched rollouts for policy optimization.  
 
-🔹 [Backward Imitation and Forward Reinforcement Learning via Bi-directional Model Rollouts](https://arxiv.org/pdf/2208.02434.pdf) 
+🔹 [Backward Imitation and Forward Reinforcement Learning via Bi-directional Model Rollouts](https://arxiv.org/pdf/2208.02434.pdf) :fire:
 
-
+BIFRL: the agent treats backward rollout traces as expert demonstrations for the imitation of excellent behaviors, and then collects forward rollout transitions for policy reinforcement.
 
 🔹 [Self-Consistent Models and Values](https://openreview.net/pdf?id=x2rdRAx3QF) :fire:  
 
@@ -4104,7 +4106,13 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   In the presence of noise and uncertainty, neural network models tend to replicate the last observed value of the time series, thus limiting their applicability to real-world data. We also propose a regularization term penalizing the replication of previously seen values.
 
+  🔹 [Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation](https://arxiv.org/pdf/2106.04399.pdf) :fire: 🌋
 
+  GFlowNet: based on a view of the generative process as a flow network, making it possible to handle the tricky case where different trajectories can yield the same final state, e.g., there are many ways to sequentially add atoms to generate some molecular graph.
+
+  🔹 [Biological Sequence Design with GFlowNets](https://arxiv.org/pdf/2203.04115.pdf) :fire: 
+
+  We also propose a scheme to incorporate existing labeled datasets of candidates, in addition to a reward function, to speed up learning in GFlowNets.
 
 - Interpretation 
   
