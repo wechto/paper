@@ -1008,7 +1008,9 @@ RADIAL-RL: Construct an strict upper bound of the perturbed standard loss; Desig
 
 🔹 [Robust Deep Reinforcement Learning through Bootstrapped Opportunistic Curriculum](https://arxiv.org/pdf/2206.10057.pdf) 💧 
 
- 
+🔹 [Robust Reinforcement Learning using Offline Data](https://arxiv.org/pdf/2208.05129.pdf) :fire: 👍
+
+This poses challenges in offline data collection, optimization over the models, and unbiased estimation. In this work, we propose a systematic approach to overcome these challenges, resulting in our RFQI algorithm.
  
  ​
 
@@ -1089,7 +1091,11 @@ We show that by leveraging reference motion data, a single learning-based approa
 
 🔹 [RMA: Rapid Motor Adaptation for Legged Robots](https://arxiv.org/pdf/2107.04034.pdf) :+1:  
 
-The robot achieves this high success rate despite never having seen unstable or sinking ground, obstructive vegetation or stairs during training. All deployment results are with the same policy without any simulation calibration, or real-world fine-tuning.  ​ ​ ​
+The robot achieves this high success rate despite never having seen unstable or sinking ground, obstructive vegetation or stairs during training. All deployment results are with the same policy without any simulation calibration, or real-world fine-tuning.  ​ ​ 
+
+🔹 [A System for General In-Hand Object Re-Orientation](https://openreview.net/pdf?id=7uSBJDoP7tY) 👍 
+
+We present a simple model-free framework (teacher-student distillation) that can learn to reorient objects with both the hand facing upwards and downwards.​ + DAgger
 
 🔹 [LEARNING VISION-GUIDED QUADRUPEDAL LOCOMOTION END-TO-END WITH CROSS-MODAL TRANSFORMERS](https://arxiv.org/pdf/2107.03996.pdf) :fire:
 
@@ -3132,6 +3138,10 @@ Our algorithm, OptiDICE, directly estimates the stationary distribution correcti
 
 An algorithm for offline IL from expert and imperfect demonstrations that achieves state-of-the-art performance on various offline IL tasks.
 
+🔹 [OFF-POLICY CORRECTION FOR ACTOR-CRITIC ALGORITHMS IN DEEP REINFORCEMENT LEARNING](https://arxiv.org/pdf/2208.00755.pdf) 😶 
+
+AC-Off-POC: Through a novel discrepancy measure computed by the agent’s most recent action decisions on the states of the randomly sampled batch of transitions, the approach does not require actual or estimated action probabilities for any policy and offers an adequate one-step importance sampling.
+
 🔹 [A Deep Reinforcement Learning Approach to Marginalized Importance Sampling with the Successor Representation](http://proceedings.mlr.press/v139/fujimoto21a/fujimoto21a.pdf) :fire: :fire: 
 
 We bridge the gap between MIS and deep RL  by observing that the density ratio can be computed from the successor representation of the target policy. The successor representation can be trained through deep RL methodology and decouples the reward optimization from the dynamics of the environment, making the resulting algorithm stable and applicable to high-dimensional domains.
@@ -3498,7 +3508,7 @@ With the aim of increasing the field’s confidence in reported results with a h
 
 🔹 [Safe Policy Improvement Approaches and their Limitations](https://arxiv.org/pdf/2208.00724.pdf) 
 
-
+SPIBB
 
 <a name="anchor-marl"></a>
 
