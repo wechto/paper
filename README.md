@@ -1665,6 +1665,10 @@ SSRR, S3RR: noise-performance curve fitting --> regresses a reward function of t
 
 BASIS, which leverages multi-task RL pre-training and successor features to allow an agent to build a strong basis for intentions that spans the space of possible goals in a given domain.
 
+🔹 [Task-Relevant Adversarial Imitation Learning](https://arxiv.org/pdf/1910.01077.pdf) :fire: :fire: 
+
+TRAIL proposes to constrain the GAIL discriminator such that it is not able to distinguish between certain, preselected expert and agent observations which do not contain task behavior.
+
 - Multiple-Intent
   
   🔹 [LiMIIRL: Lightweight Multiple-Intent Inverse Reinforcement Learning](https://arxiv.org/pdf/2106.01777.pdf) :fire: 
@@ -3280,7 +3284,7 @@ Hyperparameter Optimisation on the Fly (HOOF): The main idea is to use existing 
 
 We bring the key insight that a positive reward shifting leads to conservative exploitation, while a negative reward shifting leads to curiosity-driven exploration.
 
-🔹 [Heuristic-Guided Reinforcement Learning](https://arxiv.org/pdf/2106.02757.pdf) :fire:
+🔹 [Heuristic-Guided Reinforcement Learning](https://arxiv.org/pdf/2106.02757.pdf) :fire: 🌋 
 
 HuRL: We show how heuristic-guided RL induces a much shorter-horizon subproblem that provably solves the original task. Our framework can be viewed as a horizon-based regularization for controlling bias and variance in RL under a finite interaction budget.
 
