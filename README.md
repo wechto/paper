@@ -1665,6 +1665,14 @@ SSRR, S3RR: noise-performance curve fitting --> regresses a reward function of t
 
 BASIS, which leverages multi-task RL pre-training and successor features to allow an agent to build a strong basis for intentions that spans the space of possible goals in a given domain.
 
+🔹 [POSITIVE-UNLABELED REWARD LEARNING](https://arxiv.org/pdf/1911.00459.pdf) :fire: 🌋 
+
+PURL: we connect these two classes of reward learning methods (GAIL, SL) to positiveunlabeled (PU) learning, and we show that by applying a large-scale PU learning algorithm to the reward learning problem, we can address both the reward underand over-estimation problems simultaneously.
+
+🔹 [Combating False Negatives in Adversarial Imitation Learning](https://arxiv.org/pdf/2002.00412.pdf) :+1: 
+
+Fake Conditioning
+
 🔹 [Task-Relevant Adversarial Imitation Learning](https://arxiv.org/pdf/1910.01077.pdf) :fire: :fire: 
 
 TRAIL proposes to constrain the GAIL discriminator such that it is not able to distinguish between certain, preselected expert and agent observations which do not contain task behavior.
