@@ -2233,7 +2233,7 @@ PessORL: penalize high values at unseen states in the dataset, and to cancel the
 
 🔹 [Adversarially Trained Actor Critic for Offline Reinforcement Learning](https://arxiv.org/pdf/2202.02446.pdf) :fire: :volcano:
 
-We propose Adversarially Trained Actor Critic (ATAC) based on a two-player Stackelberg game framing of offline RL: A policy actor competes against an adversarially trained value critic, who finds data-consistent scenarios where the actor is inferior to the data-collection behavior policy. [robust policy improvement]
+We propose Adversarially Trained Actor Critic (ATAC) based on a two-player Stackelberg game framing of offline RL: A policy actor competes against an adversarially trained value critic, who finds data-consistent scenarios where the actor is inferior to the data-collection behavior policy. [robust policy improvement] [[POSTER]](https://icml.cc/media/PosterPDFs/ICML%202022/69dd2eff9b6a421d5ce262b093bdab23.png) 
 
 🔹 [RVS: WHAT IS ESSENTIAL FOR OFFLINE RL VIA SUPERVISED LEARNING?](https://arxiv.org/pdf/2112.10751.pdf) :no_mouth:
 
@@ -3522,6 +3522,10 @@ With the aim of increasing the field’s confidence in reported results with a h
 
 SPIBB
 
+🔹 [BSAC: Bayesian Strategy Network Based Soft Actor-Critic in Deep Reinforcement Learning](https://arxiv.org/pdf/2208.06033.pdf) 😶 
+
+(BSAC) model by organizing several sub-policies as a joint policy
+
 <a name="anchor-marl"></a>
 
 ## MARL
@@ -3937,7 +3941,9 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   🔹 [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) :fire: 
 
+  🔹 [Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning](https://arxiv.org/pdf/2208.06193.pdf) :fire: 
 
+  we propose Diffusion-QL that utilizes a conditional diffusion model as a highly expressive policy class for behavior cloning and policy regularization.
 
 - Data Valuation 
 
@@ -4258,6 +4264,8 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Pareto Domain Adaptation](https://openreview.net/pdf?id=frgb7FsKWs3) :volcano:
   
   To reach a desirable solution on the target domain, we design a surrogate loss mimicking target classification. To improve target-prediction accuracy to support the mimicking, we propose a target-prediction refining mechanism which exploits domain labels via Bayes’ theorem.
+
+  🔹 [PARETO POLICY POOL FOR MODEL-BASED OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf/811177d23b2117fa0be0cc22952e7c1e3325bf59.pdf) 
   
   🔹 [Conflict-Averse Gradient Descent for Multi-task Learning](https://arxiv.org/pdf/2110.14048.pdf) :+1: :fire:
   
