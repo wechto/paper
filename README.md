@@ -441,6 +441,10 @@ TOC
 
   CompILE can successfully discover sub-tasks and their boundaries in an imitation learning setting.
 
+  🔹 [Bayesian Nonparametrics for Offline Skill Discovery](https://proceedings.mlr.press/v162/villecroze22a/villecroze22a.pdf) :fire:
+
+   We propose a method for offline learning of options (a particular skill framework) exploiting advances in variational inference and continuous relaxations.
+
   🔹 [Strategic Attentive Writer for Learning Macro-Actions](http://papers.nips.cc/paper/6414-strategic-attentive-writer-for-learning-macro-actions.pdf) :no_mouth:  ​
 
   🔹[Synthesizing Programs for Images using Reinforced Adversarial Learning](https://arxiv.org/pdf/1804.01118.pdf) :no_mouth: RL render RENDERS  ​
@@ -667,6 +671,10 @@ We train an autoencoder with convolutional layers and vision transformers (ViT) 
   🔹 [SELF-SUPERVISED POLICY ADAPTATION DURING DEPLOYMENT](https://arxiv.org/pdf/2007.04309.pdf) :+1: :fire:  ​
 
   test time training  [TTT](https://arxiv.org/pdf/1909.13231.pdf)         Our work explores the use of self-supervision to allow the policy to continue training after deployment without using any rewards.
+
+  🔹 [MEMO: Test Time Robustness via Adaptation and Augmentation](https://arxiv.org/pdf/2110.09506.pdf) :fire: 
+
+  MEMO:when presented with a test example, perform different data augmentations on the data point, and then adapt (all of) the model parameters by minimizing the entropy of the model’s average, or marginal, output distribution across the augmentations. Intuitively, this objective encourages the model to make the same prediction across different augmentations, thus enforcing the invariances encoded in these augmentations, while also maintaining confidence in its predictions.
 
   🔹 [What Makes for Good Views for Contrastive Learning?](https://arxiv.org/pdf/2005.10243.pdf) :+1:  :fire: :boom: :volcano:
 
@@ -3805,6 +3813,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   SLRL. (QWALE) that addresses the dearth of supervision by employing a distribution matching strategy that leverages the agent’s prior experience as guidance in novel situations.
 
+  🔹 [FULLY ONLINE META-LEARNING WITHOUT TASK BOUNDARIES](https://arxiv.org/pdf/2202.00263.pdf) :fire: 
+
+  we propose a Fully Online MetaLearning (FOML) algorithm, which does not require any ground truth knowledge about the task boundaries and stays fully online without resetting back to pre-trained weights.
+
 <a name="anchor-selfpaced"></a>   <a name="anchor-curriculum"></a>
 
 ## Self-paced & Curriculum RL
@@ -4022,6 +4034,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Telescoping Density-Ratio Estimation](https://proceedings.neurips.cc/paper/2020/file/33d3b157ddc0896addfb22fa2a519097-Paper.pdf) :+1: 
 
   we introduce a new framework, telescoping density-ratio estimation (TRE), that enables the estimation of ratios between highly dissimilar densities in high-dimensional spaces.
+
+  🔹 [Distribution Augmentation for Generative Modeling](http://proceedings.mlr.press/v119/jun20a/jun20a.pdf) :+1:
+
+  DisAug: Our approach applies augmentation functions to data and, importantly, conditions the generative model on the specific function used. 
 
 + Distillation 
   
