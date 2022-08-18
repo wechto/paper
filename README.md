@@ -847,6 +847,9 @@ we introduce TEmporal Disentanglement (TED), a self-supervised auxiliary task th
 
 We study how visual representations pre-trained on diverse human video data can enable data-efficient learning of downstream robotic manipulation tasks.
 
+🔹 [PsiPhi-Learning: Reinforcement Learning with Demonstrations using Successor Features and Inverse Temporal Difference Learning](http://proceedings.mlr.press/v139/filos21a/filos21a.pdf) :fire: 🌋 
+
+We propose a multi-task inverse reinforcement learning (IRL) algorithm, called inverse temporal difference learning (ITD), that learns shared state features, alongside peragent successor features and preference vectors, purely from demonstrations without reward labels. We further ... 
 
 
 
@@ -1046,7 +1049,9 @@ This poses challenges in offline data collection, optimization over the models, 
 
   H2O introduces a dynamics-aware policy evaluation scheme, which adaptively penalizes the Q function learning on simulated stateaction pairs with large dynamics gaps, while also simultaneously allowing learning from a fixed real-world dataset.
 
-  **Related work is good!** :+1:
+  🔹 [TARGETED ENVIRONMENT DESIGN FROM OFFLINE DATA](https://openreview.net/pdf?id=Is5Hpwg2R-h) 👍 :fire: 
+
+  OTED: which automatically learns a distribution over simulator parameters to match a provided offline dataset, and then uses the learned simulator to train an RL agent in standard online fashion.
 
 - general domain adaption (DA) =  importance weighting + domain-agnostic features
 
@@ -1472,9 +1477,9 @@ We propose a game-theoretic framework for the generalization in reinforcement le
   
   Consider an imitation learning problem that the imitator and the expert have different dynamics models. The state alignment comes from both local and global perspectives and we combine them into a reinforcement learning framework by a regularized policy update objective. ifo
   
-  🔹 [Strictly Batch Imitation Learning by Energy-based Distribution Matching](https://proceedings.neurips.cc//paper/2020/file/524f141e189d2a00968c3d48cadd4159-Paper.pdf) :fire: :boom: :sweat_drops:  ​
+  🔹 [Strictly Batch Imitation Learning by Energy-based Distribution Matching](https://proceedings.neurips.cc//paper/2020/file/524f141e189d2a00968c3d48cadd4159-Paper.pdf) :fire: :boom: :sweat_drops: 🌋 
   
-   ​By identifying parameterizations of the (discriminative) model of a policy with the (generative) energy function for state distributions, EDM yields a simple but effective solution that equivalently minimizes a divergence between the occupancy measure for the demonstrator and a model thereof for the imitator.
+  EDM: ​By identifying parameterizations of the (discriminative) model of a policy with the (generative) energy function for state distributions, EDM yields a simple but effective solution that equivalently minimizes a divergence between the occupancy measure for the demonstrator and a model thereof for the imitator.
   
   🔹 [SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards](https://arxiv.org/pdf/1905.11108.pdf) :+1: :fire: :volcano:  ​
   
@@ -1491,6 +1496,10 @@ We propose a game-theoretic framework for the generalization in reinforcement le
   🔹 [IMITATION LEARNING VIA OFF-POLICY DISTRIBUTION MATCHING](https://arxiv.org/pdf/1912.05032.pdf) :+1: :fire: :boom:  :volcano:  ​
   
   These prior distribution matching approaches possess two limitations (On-policy; Separate RL optimization).  ---> OFF-POLICY FORMULATION OF THE KL-DIVERGENCE. ---> VALUEDICE: IMITATION LEARNING WITH IMPLICIT REWARDS. (OPE)
+
+  🔹 [SCALABLE BAYESIAN INVERSE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2102.06483.pdf) :fire: 💧 
+
+  AVRIL: jointly learning an approximate posterior distribution over the reward that scales to arbitrarily complicated state spaces alongside an appropriate policy in a completely offline manner through a variational approach to said latent reward.
 
   🔹 [TRANSFERABLE REWARD LEARNING BY DYNAMICS-AGNOSTIC DISCRIMINATOR ENSEMBLE](https://arxiv.org/pdf/2206.00238.pdf) :fire:
 
@@ -2302,7 +2311,9 @@ Latent Action Space (PLAS) such that this requirement (OOD action) is naturally 
 
 We alleviate the distributional shift at the deployment time by introducing a recovery policy that brings the agent back to the training manifold whenever it steps out of the in-distribution states, e.g., due to an external perturbation.
 
+🔹 [State Deviation Correction for Offline Reinforcement Learning](https://www.aaai.org/AAAI22Papers/AAAI-1798.ZhangH.pdf) 🔥
 
+SDC: We first perturb the states sampled from the logged dataset, then simulate noisy next states on the basis of a dynamics model and the policy. We then train the policy to minimize the distances between the noisy next states and the offline dataset.
 
 
 
