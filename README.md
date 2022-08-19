@@ -3597,6 +3597,10 @@ QMIX employs a network that estimates joint action-values as a complex non-linea
 
   We extend the theory of trust region learning to MARL. Central to our findings are the multi-agent advantage decomposition lemma and the sequential policy update scheme. Based on these, we develop Heterogeneous-Agent Trust Region Policy Optimisation (HATPRO) and Heterogeneous-Agent Proximal Policy Optimisation (HAPPO) algorithms.
 
+  🔹 [Beyond Rewards: a Hierarchical Perspective on Offline Multiagent Behavioral Analysis](https://arxiv.org/pdf/2206.09046.pdf) :+1: :fire: 
+
+   MOHBA: We introduce a model-agnostic method for discovery of behavior clusters in multiagent domains, using variational inference to learn a hierarchy of behaviors at the joint and local agent levels.
+
 <a name="anchor-constrainedrl"></a>  
 
 ## Constrained RL
@@ -4302,7 +4306,7 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   We show how to detect the sub-graphs in the computational graphs where gradients conflict (impartiality blocks), as well as how to leverage existing gradient-conflict solutions from multitask learning to mitigate modality collapse.
   
-- BNN
+- BNN; BO; 
 
   🔹 [Auto-Encoding Variational Bayes](https://www.ics.uci.edu/~welling/publications/papers/AEVB_ICLR14.pdf) :+1:  ​
 
@@ -4311,6 +4315,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   we develop an approximate Bayesian inference scheme based on posterior regularisation, wherein unlabelled target data are used as “pseudo-labels” of model confidence that are used to regularise the model’s loss on labelled source data.
 
   🔹 [Understanding Uncertainty in Bayesian Deep Learning](https://arxiv.org/pdf/2106.13055.pdf) :sweat_drops:
+
+  🔹 [Bayesian Optimization Augmented with Actively Elicited Expert Knowledge](https://arxiv.org/pdf/2208.08742.pdf) :fire: 
+
+  we tackle the problem of incorporating expert knowledge into BO (PBNN), with the goal of further accelerating the optimization.
 
 - HyperNetworks
 
