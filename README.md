@@ -1157,6 +1157,10 @@ DARS:  We propose an unsupervised domain adaptation method to identify and acqui
 
 Our key idea of optimized probing for accelerated latent variable inference is to train a dedicated probe policy πϕ(a|s) to generate a dataset D of short trajectories at the beginning of all training episodes, such that the VAE’s performance on D is optimized.  
 
+🔹 [VARIBAD: A VERY GOOD METHOD FOR BAYES-ADAPTIVE DEEP RL VIA META-LEARNING](https://arxiv.org/pdf/1910.08348.pdf) :fire: 🌋 
+
+we introduce variational Bayes-Adaptive Deep RL (variBAD), a way to meta-learn to perform approximate inference in an unknown environment, and incorporate task uncertainty directly during action selection. 
+
 🔹 [Dynamical Variational Autoencoders: A Comprehensive Review](https://arxiv.org/pdf/2008.12595.pdf) :sweat_drops: :sweat_drops:  ​ ​
 
 🔹 [Dynamics Generalization via Information Bottleneck in Deep Reinforcement Learning](https://arxiv.org/pdf/2008.00614.pdf)​ :fire:  ​ ​
@@ -1646,11 +1650,31 @@ DAC: To address reward bias, we propose a simple mechanism whereby the rewards f
 
 T-REX: a reward learning technique for high-dimensional tasks that can learn to extrapolate intent from suboptimal ranked demonstrations.
 
-🔹 [Better-than-Demonstrator Imitation Learning via Automatically-Ranked Demonstrations](https://arxiv.org/pdf/1907.03976.pdf)
+🔹 [Better-than-Demonstrator Imitation Learning via Automatically-Ranked Demonstrations](https://arxiv.org/pdf/1907.03976.pdf) :+1: 
 
 D-REX: a ranking-based reward learning algorithm that does not require ranked demonstrations, which injects noise into a policy learned through behavioral cloning to automatically generate ranked demonstrations.
 
-🔹 [Safe Imitation Learning via Fast Bayesian Reward Inference from Preferences](https://arxiv.org/pdf/2002.09089.pdf) 
+🔹 [DART: Noise Injection for Robust Imitation Learning](https://arxiv.org/pdf/1703.09327.pdf) :fire: 
+
+We propose an off-policy approach that injects noise into the supervisor’s policy while demonstrating. This forces the supervisor to demonstrate how to recover from errors. We propose a new algorithm, DART (Disturbances for Augmenting Robot Trajectories), that collects demonstrations with injected noise, and optimizes the noise level to approximate the error of the robot’s trained policy during data collection.
+
+🔹 [Bayesian Inverse Reinforcement Learning](https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-416.pdf) 
+
+🔹 [Deep Bayesian Reward Learning from Preferences](https://arxiv.org/pdf/1912.04472.pdf) 
+
+B-REX: Our approach uses successor feature representations and preferences over demonstrations to efficiently generate samples from the posterior distribution over the demonstrator’s reward function without requiring an MDP solver.
+
+🔹 [Safe Imitation Learning via Fast Bayesian Reward Inference from Preferences](https://arxiv.org/pdf/2002.09089.pdf) :fire: 
+
+ Bayesian REX (B-REX)
+
+🔹 [Asking Easy Questions: A User-Friendly Approach to Active Reward Learning](https://arxiv.org/pdf/1910.04365.pdf) :fire: :+1: 
+
+we explore an information gain formulation for optimally selecting questions that naturally account for the human’s ability to answer. Our approach identifies questions that optimize the trade-off between robot and human uncertainty, and determines when these questions become redundant or costly. + Volume Removal Solution
+
+
+
+
 
 🔹 [A Ranking Game for Imitation Learning](https://arxiv.org/pdf/2202.03481.pdf) :fire: :fire: 
 
@@ -2364,6 +2388,21 @@ We compare model-free, model-based, as well as hybrid offline RL approaches on v
 
 we now reformulate the MBD problem as a non-zero-sum game, which suggests an algorithmic strategy for iteratively updating the oracle within any MBO algorithm
 
+🔹 [The Challenges of Exploration for Offline Reinforcement Learning](https://arxiv.org/pdf/2201.11861.pdf) 😶 
+
+With Explore2Offline, we propose to evaluate the quality of collected data by transferring the collected data and inferring policies with reward relabelling and standard offline RL algorithms
+
+🔹 [RISK-AVERSE OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2102.05371.pdf) :+1: :fire: 
+
+we present the Offline RiskAverse Actor-Critic (O-RAAC), a model-free RL algorithm that is able to learn risk-averse policies in a fully offline setting.
+
+🔹 [REVISITING DESIGN CHOICES IN OFFLINE MODEL-BASED REINFORCEMENT LEARNING](https://arxiv.org/pdf/2110.04135.pdf) :fire: 
+
+we compare these heuristics (for model uncertainty), and design novel protocols to investigate their interaction with other hyperparameters, such as the number of models, or imaginary rollout horizon. Using these insights, we show that selecting these key hyperparameters using Bayesian Optimization produces superior configurations.
+
+
+
+
 
 <a name="anchor-exploration"></a>
 
@@ -2508,8 +2547,14 @@ we now reformulate the MBD problem as a non-zero-sum game, which suggests an alg
   🔹 [Wasserstein Unsupervised Reinforcement Learning](https://arxiv.org/pdf/2110.07940.pdf) :+1:
   
    By maximizing Wasserstein distance, the agents equipped with different policies may drive themselves to enter different areas of state space and keep as “far” as possible from each other to earn greater diversity.
+
+  🔹 [Towards Effective Context for Meta-Reinforcement Learning: an Approach based on Contrastive Learning](https://arxiv.org/pdf/2009.13891.pdf) :fire: 
   
-  
+  we propose a novel Meta-RL framework called CCM (Contrastive learning augmented Context-based Meta-RL). We first focus on the contrastive nature behind different tasks and leverage it to train a compact and sufficient context encoder. Further, we train a separate exploration policy and theoretically derive a new information-gain-based objective which aims to collect informative trajectories in a few steps.
+
+  🔹 [Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices](http://proceedings.mlr.press/v139/liu21s/liu21s.pdf) :fire: 🌋 
+
+  DREAM: We learn an exploitation policy without the need for exploration, by conditioning on a learned representation of the problem ID, which provides task-relevant information. We apply an information bottleneck to this representation to encourage discarding of any information not required by the exploitation policy (i.e., task-irrelevant information). Then, we learn an exploration policy to only discover task-relevant information by training it to produce trajectories containing the same information as the learned ID representation. 
   
 <a name="anchor-causual"></a>  
 
@@ -2560,6 +2605,14 @@ Play-GCBC;  Play-LM;  To learn control from play, we introduce Play-LMP, a selfs
 🔹 [Training Agents using Upside-Down Reinforcement Learning](https://arxiv.org/pdf/1912.02877.pdf) :fire:
 
 UDRL: The goal of learning is no longer to maximize returns in expectation, but to learn to follow commands that may take various forms such as “achieve total reward R in next T time steps” or “reach state S in fewer than T time steps”.
+
+🔹 [All You Need Is Supervised Learning: From Imitation Learning to Meta-RL With Upside Down RL](https://arxiv.org/pdf/2202.11960.pdf) :+1: 
+
+Given the increased interest in the RL-as-SL paradigm, this work aims to construct a more general purpose agent/learning algorithm, but with more concrete implementation details and links to existing RL concepts than prior work.
+
+🔹 [Hierarchical Reinforcement Learning With Timed Subgoals](https://proceedings.neurips.cc/paper/2021/file/b59c21a078fde074a6750e91ed19fb21-Paper.pdf) 
+
+
 
 🔹 [DEEP IMITATIVE MODELS FOR FLEXIBLE INFERENCE, PLANNING, AND CONTROL](https://arxiv.org/pdf/1810.06544.pdf) :+1: :fire:
 
@@ -2691,7 +2744,11 @@ Frame the learning of the goal-conditioned policies as expectation maximization:
 
 🔹 [Bisimulation Makes Analogies in Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2204.13060.pdf) :fire: 🌋 
 
- We propose a new form of state abstraction called goal-conditioned bisimulation that captures functional equivariance, allowing for the reuse of skills to achieve new goals.
+We propose a new form of state abstraction called goal-conditioned bisimulation that captures functional equivariance, allowing for the reuse of skills to achieve new goals.
+
+🔹 [Goal-Conditioned Q-Learning as Knowledge Distillation](https://arxiv.org/pdf/2208.13298.pdf) :fire: 🌋 
+
+ReenGAGE: the current Q-value function and the target Qvalue estimate are both functions of the goal, and we would like to train the Q-value function to match its target for all goals. 
 
 ++DATA++
 
@@ -3545,6 +3602,19 @@ SPIBB
 
 (BSAC) model by organizing several sub-policies as a joint policy
 
+🔹 [Collect & Infer - a fresh look at data-efficient Reinforcement Learning](https://proceedings.mlr.press/v164/riedmiller22a/riedmiller22a.pdf) :+1: 
+
+Collect and Infer, which explicitly models RL as two separate but interconnected processes,
+concerned with data collection and knowledge inference respectively.
+
+🔹 [A DATASET PERSPECTIVE ON OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2111.04714.pdf) :+1: :fire: 
+
+we define characteristics of behavioral policies as exploratory for yielding high expected information in their interaction with the Markov Decision Process (MDP) and as exploitative for having high expected return. [Understanding the Effects of Dataset Characteristics on Offline Reinforcement Learning](https://offline-rl-neurips.github.io/2021/pdf/12.pdf) 
+
+🔹 [Distributional Actor-Critic Ensemble for Uncertainty-Aware Continuous Control](https://arxiv.org/pdf/2207.13730.pdf) :fire: 
+
+UA-DDPG:  It exploits epistemic uncertainty to accelerate exploration and aleatoric uncertainty to learn a risk-sensitive policy (also known as risk-averse RL, safe RL, and conservative RL).
+
 <a name="anchor-marl"></a>
 
 ## MARL
@@ -3780,6 +3850,10 @@ We propose the Sim-to-Lab-to-Real framework that combines Hamilton-Jacobi reacha
 
  this paper proposes the reachability CRL (RCRL) method by using reachability analysis to establish the novel self-consistency condition and characterize the feasible sets. The feasible sets are represented by the safety value function. 
 
+ 🔹 [Robust psi-Divergence MDPs](https://arxiv.org/pdf/2205.14202.pdf) :fire: 
+
+ we develop a novel solution framework for robust MDPs with s-rectangular ambiguity sets that decomposes the problem into a sequence of robust Bellman updates and simplex projections.
+
 Multi-Objective RL:
 
 🔹 [Offline Constrained Multi-Objective Reinforcement Learning via Pessimistic Dual Value Iteration](https://proceedings.neurips.cc/paper/2021/file/d5c8e1ab6fc0bfeb5f29aafa999cdb29-Paper.pdf) :fire:
@@ -3956,9 +4030,19 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   🔹 [Improved Denoising Diffusion Probabilistic Models](http://proceedings.mlr.press/v139/nichol21a/nichol21a.pdf) :+1: 
 
-  🔹 [SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS](https://arxiv.org/pdf/2011.13456.pdf) 🌋 
+  🔹 [SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS](https://arxiv.org/pdf/2011.13456.pdf) 🌋 :fire: 
 
   Using SED, encapsulates previous approaches in score-based generative modeling and diffusion probabilistic modeling, allowing for new sampling procedures and new modeling capabilities.
+
+  🔹 [A Connection Between Score Matching and Denoising Autoencoders](http://www.iro.umontreal.ca/~vincentp/Publications/smdae_techreport.pdf) :fire: 
+
+  🔹 [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/pdf/2208.11970.pdf) :+1: :fire: 🌋 :boom: :boom: 
+
+  Understanding Diffusion Models: A Unified Perspective
+
+  🔹 [Conditional Image Generation with Score-Based Diffusion Models](https://arxiv.org/pdf/2111.13606.pdf) 🔥
+
+  CMDE: we introduce a multi-speed diffusion framework, which leads to a new estimator for the conditional score.
 
   🔹 [Score-based Generative Modeling in Latent Space](https://proceedings.neurips.cc/paper/2021/file/5dca4c6b9e244d24a30b4c45601d9720-Paper.pdf) 
 
@@ -3971,6 +4055,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning](https://arxiv.org/pdf/2208.06193.pdf) :fire: 
 
   we propose Diffusion-QL that utilizes a conditional diffusion model as a highly expressive policy class for behavior cloning and policy regularization.
+
+  🔹 [A Regularized Implicit Policy for Offline Reinforcement Learning](https://arxiv.org/pdf/2202.09673.pdf) :no_mouth: 
+
+  We further propose a simple modification to the classical policy-matching methods for regularizing with respect to the dual form of the Jensen–Shannon divergence and the integral probability metrics.
 
 - Data Valuation 
 
@@ -3989,6 +4077,31 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 - IMOP, IOP: Inverse (Multiobjective) Optimization Problem 
   
   🔹 [Expert Learning through Generalized Inverse Multiobjective Optimization: Models, Insights, and Algorithms](http://proceedings.mlr.press/v119/dong20f/dong20f.pdf)
+
+
+- Action Learning
+  
+  🔹 [Active inference: demystified and compared](https://arxiv.org/pdf/1909.10863.pdf) :fire: 🌋 
+
+  an accessible overview of the discretestate formulation of active inference, highlighting natural behaviors in active inference that are generally engineered in reinforcement learning;
+
+  🔹 [Active inference, Bayesian optimal design, and expected utility](https://arxiv.org/ftp/arxiv/papers/2110/2110.04074.pdf) :fire: 
+
+  When removing prior outcomes preferences from expected free energy, active inference reduces to optimal Bayesian design, i.e., information gain maximization. Conversely, active inference reduces to Bayesian decision theory in the absence of ambiguity and relative risk, i.e., expected utility maximization.
+
+  🔹 [DEEP ACTIVE INFERENCE AS VARIATIONAL POLICY GRADIENTS](https://arxiv.org/pdf/1907.03876.pdf) 
+
+  
+
+  🔹 [Deep active inference agents using Monte-Carlo methods](https://proceedings.neurips.cc/paper/2020/file/865dfbde8a344b44095495f3591f7407-Paper.pdf) 
+
+  🔹 [Prior Preference Learning from Experts: Designing a Reward with Active Inference](https://arxiv.org/pdf/2101.08937.pdf) 
+
+  🔹 [Exploration and preference satisfaction trade-off in reward-free learning](https://arxiv.org/pdf/2106.04316.pdf) 
+
+  🔹 [Active Inference in Robotics and Artificial Agents: Survey and Challenges](https://arxiv.org/pdf/2112.01871.pdf) 
+
+
 
 
 
@@ -4054,6 +4167,14 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   DisAug: Our approach applies augmentation functions to data and, importantly, conditions the generative model on the specific function used. 
 
+  🔹 [ON HARD EPISODES IN META-LEARNING](https://arxiv.org/pdf/2110.11190.pdf) :fire: 
+
+  Different episodes, however, may vary in hardness and quality leading to a wide gap in the meta-learner’s performance across episodes. We investigate various properties of hard episodes and highlight their connection to catastrophic forgetting during meta-training. 
+
+  🔹 [Data Augmentation for Meta-Learning](http://proceedings.mlr.press/v139/ni21a/ni21a.pdf) 😶 
+
+  We systematically dissect the meta-learning pipeline and investigate the distinct ways in which data augmentation can be integrated at both the image and class levels.
+
 + Distillation 
   
   🔹 [Policy Distillation with Selective Input Gradient Regularization for Efficient Interpretability](https://arxiv.org/pdf/2205.08685.pdf) 🔥
@@ -4063,6 +4184,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Gradient-based Bi-level Optimization for Deep Learning: A Survey](https://arxiv.org/pdf/2207.11719.pdf) :+1: :fire: 🌋 :boom: :boom: 
 
    Bi-level optimization embeds one problem within another and the gradient-based category solves the outer level task by computing the hypergradient. 
+
+   🔹 [Perspectives on Incorporating Expert Feedback into Model Updates](https://arxiv.org/pdf/2205.06905.pdf) 
+
+   we consider how to capture interactions between practitioners and experts systematically. We devise a taxonomy to match expert feedback types with practitioner updates. A practitioner may receive feedback from an expert at the observationor domain-level, and convert this feedback into updates to the dataset, loss function, or parameter space.
 
   
 ## Galaxy  Forest  
