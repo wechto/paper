@@ -113,6 +113,19 @@ TOC
 
   We use random walk to train a reachability network that predicts the similarity between two states. This reachability network is then used in building goal memory containing past observations that are diverse and well-balanced. Finally, we train a goal-conditioned policy network with goals sampled from the goal memory and reward it by the reachability network and the goal memory.
 
+  🔹 [BRAXLINES: Fast and Interactive Toolkit for RL-driven Behavior Engineering beyond Reward Maximization](https://arxiv.org/pdf/2110.04686.pdf) 😶 
+
+  we introduce BRAXLINES, a toolkit for fast and interactive RL-driven behavior generation beyond simple reward maximization that includes COMPOSER, a programmatic API for generating continuous control environments, and set of stable and well-tested baselines for two families of algorithms –mutual information maximization (MI-MAX) and divergence minimization (D-MIN)– supporting unsupervised skill learning and distribution sketching as other modes of behavior specification.
+
+  🔹 [pen-Ended Reinforcement Learning with Neural Reward Functions](https://arxiv.org/pdf/2202.08266.pdf) 😶 
+
+   We propose a different approach that uses reward functions encoded by neural networks. These are trained iteratively to reward more complex behavior.
+
+   🔹 [URLB: Unsupervised Reinforcement Learning Benchmark](https://arxiv.org/pdf/2110.15191.pdf) 😶 
+
+  URLB consists of two phases: reward-free pre-training and downstream task adaptation with extrinsic rewards.
+
+
 
 <a name="anchor-asp"></a>  
 
@@ -158,6 +171,10 @@ TOC
 
   We present the differentiable quality diversity (DQD) problem, a special case of QD, where both the objective and measure functions are first order differentiable. 
 
+  🔹 [Accelerated Quality-Diversity through Massive Parallelism](https://arxiv.org/pdf/2202.01258.pdf) 😶
+
+  We show that QD algorithms are ideal candidates to take advantage of progress in hardware acceleration. We demonstrate that QD algorithms can scale with massive parallelism to be run at interactive timescales without any significant effect on the performance.
+
   🔹 [Diversity Policy Gradient for Sample Efficient Quality-Diversity Optimization](https://arxiv.org/pdf/2006.08505.pdf) :fire: 
 
   qd-pg: The main contribution of this work is the introduction of a Diversity Policy Gradient (DPG) that exploits information at the time-step level to drive policies towards more diversity in a sample efficient manner.
@@ -195,7 +212,6 @@ TOC
   CHDRL: Global agents are off-policy agents that can utilize experiences from the other agents. Local agents are either on-policy agents or population-based evolutionary algorithms (EAs) agents that can explore the local area effectively.
 
   🔹 [Knowledge Distillation and Student-Teacher Learning for Visual Intelligence: A Review and New Outlooks](https://arxiv.org/pdf/2004.05937.pdf) 
-
 
 
   🔹 [General Characterization of Agents by States they Visit](https://arxiv.org/pdf/2012.01244.pdf) :+1: 
@@ -672,6 +688,10 @@ We train an autoencoder with convolutional layers and vision transformers (ViT) 
 
   test time training  [TTT](https://arxiv.org/pdf/1909.13231.pdf)         Our work explores the use of self-supervision to allow the policy to continue training after deployment without using any rewards.
 
+  🔹 [Test-Time Training with Masked Autoencoders](https://arxiv.org/pdf/2209.07522.pdf) :fire: 
+
+  Test-time training adapts to a new test distribution on the fly by optimizing a model for each test input using self-supervision. In this paper, we use masked autoencoders for this one-sample learning problem.
+
   🔹 [MEMO: Test Time Robustness via Adaptation and Augmentation](https://arxiv.org/pdf/2110.09506.pdf) :fire: 
 
   MEMO:when presented with a test example, perform different data augmentations on the data point, and then adapt (all of) the model parameters by minimizing the entropy of the model’s average, or marginal, output distribution across the augmentations. Intuitively, this objective encourages the model to make the same prediction across different augmentations, thus enforcing the invariances encoded in these augmentations, while also maintaining confidence in its predictions.
@@ -850,6 +870,27 @@ We study how visual representations pre-trained on diverse human video data can 
 🔹 [PsiPhi-Learning: Reinforcement Learning with Demonstrations using Successor Features and Inverse Temporal Difference Learning](http://proceedings.mlr.press/v139/filos21a/filos21a.pdf) :fire: 🌋 
 
 We propose a multi-task inverse reinforcement learning (IRL) algorithm, called inverse temporal difference learning (ITD), that learns shared state features, alongside peragent successor features and preference vectors, purely from demonstrations without reward labels. We further ... 
+
+🔹 [LOOK WHERE YOU LOOK! SALIENCY-GUIDED Q-NETWORKS FOR VISUAL RL TASKS](https://arxiv.org/pdf/2209.09203.pdf) :fire: 🌋 
+
+SGQN: a good visual policy should be able to identify which pixels are important for its decision, and preserve this identification of important sources of information across images.
+
+🔹 [Improving Deep Learning Interpretability by Saliency Guided Training](https://arxiv.org/pdf/2111.14338.pdf) :fire: 🌋 
+
+Saliency Guided Training: Our saliency guided training procedure iteratively masks features with small and potentially noisy gradients while maximizing the similarity of model outputs for both masked and unmasked inputs.
+
+🔹 [Saliency Guided Adversarial Training for Learning Generalizable Features with Applications to Medical Imaging Classification System](https://arxiv.org/pdf/2209.04326.pdf) :fire:
+
+We hypothesize that adversarial training can eliminate shortcut features whereas saliency guided training can filter out non-relevant features; both are nuisance features accounting for the performance degradation on OOD test sets.
+
+
+🔹 [VISFIS: Visual Feature Importance Supervision with Right-for-the-Right-Reason Objectives](https://arxiv.org/pdf/2206.11212.pdf) :fire: 🌋 
+
+VISFIS:  (1) accurate predictions given limited but sufficient information (Sufficiency); (2) max-entropy predictions given no important information (Uncertainty); (3) invariance of predictions to changes in unimportant features (Invariance); and (4) alignment between model FI explanations and human FI explanations (Plausibility). 
+
+🔹 [Concept Embedding Models](https://arxiv.org/pdf/2209.09056.pdf) :+1: 
+
+CEM: we propose Concept Embedding Models, a novel family of concept bottleneck models which goes beyond the current accuracy-vs-interpretability trade-off by learning interpretable highdimensional concept representations.
 
 
 
@@ -1052,6 +1093,10 @@ This poses challenges in offline data collection, optimization over the models, 
   🔹 [TARGETED ENVIRONMENT DESIGN FROM OFFLINE DATA](https://openreview.net/pdf?id=Is5Hpwg2R-h) 👍 :fire: 
 
   OTED: which automatically learns a distribution over simulator parameters to match a provided offline dataset, and then uses the learned simulator to train an RL agent in standard online fashion.
+
+  🔹 [Learning MDPs from Features: Predict-Then-Optimize for Sequential Decision Problems by Reinforcement Learning](https://proceedings.neurips.cc/paper/2021/file/49e863b146f3b5470ee222ee84669b1c-Paper.pdf) :fire: 
+
+  This paper considers learning a predictive model to address the missing parameters in sequential decision problems.
 
 - general domain adaption (DA) =  importance weighting + domain-agnostic features
 
@@ -1334,6 +1379,10 @@ Robust RL has shown that by considering the worst case scenario, robust policies
 🔹 [A Game-Theoretic Perspective of Generalization in Reinforcement Learning](https://arxiv.org/pdf/2208.03650.pdf) :fire: :fire:
 
 We propose a game-theoretic framework for the generalization in reinforcement learning, named GiRL, where an RL agent is trained against an adversary over a set of tasks, where the adversary can manipulate the distributions over tasks within a given threshold.
+
+🔹 [UNSUPERVISED TASK CLUSTERING FOR MULTI-TASK REINFORCEMENT LEARNING](https://openreview.net/pdf?id=4K_NaDAHc0d) :+1: :fire: 
+
+EM-Task-Clustering: We propose a general approach to automatically cluster together similar tasks during training. Our method, inspired by the expectation-maximization algorithm, succeeds at finding clusters of related tasks and uses these to improve sample complexity.
 
 <a name="anchor-irl"></a>
 
@@ -2400,7 +2449,9 @@ we present the Offline RiskAverse Actor-Critic (O-RAAC), a model-free RL algorit
 
 we compare these heuristics (for model uncertainty), and design novel protocols to investigate their interaction with other hyperparameters, such as the number of models, or imaginary rollout horizon. Using these insights, we show that selecting these key hyperparameters using Bayesian Optimization produces superior configurations.
 
+🔹 [Latent Plans for Task-Agnostic Offline Reinforcement Learning](https://arxiv.org/pdf/2209.08959.pdf) :+1: 
 
+TACO-RL: we combine a low-level policy that learns latent skills via imitation learning and a high-level policy learned from offline reinforcement learning for skill-chaining the latent behavior priors. 
 
 
 
@@ -2555,6 +2606,14 @@ we compare these heuristics (for model uncertainty), and design novel protocols 
   🔹 [Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices](http://proceedings.mlr.press/v139/liu21s/liu21s.pdf) :fire: 🌋 
 
   DREAM: We learn an exploitation policy without the need for exploration, by conditioning on a learned representation of the problem ID, which provides task-relevant information. We apply an information bottleneck to this representation to encourage discarding of any information not required by the exploitation policy (i.e., task-irrelevant information). Then, we learn an exploration policy to only discover task-relevant information by training it to produce trajectories containing the same information as the learned ID representation. 
+
+  🔹 [MetaCURE: Meta Reinforcement Learning with Empowerment-Driven Exploration](http://proceedings.mlr.press/v139/zhang21w/zhang21w.pdf) :fire: 
+
+  We explicitly model the problem of exploration policy learning, and propose a novel empowerment-driven exploration objective, which aims at maximizing agent’s information gain about the current task. 
+
+  🔹 [REWARDING EPISODIC VISITATION DISCREPANCY FOR EXPLORATION IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/2209.08842.pdf) 😶 
+
+  REVD provides intrinsic rewards by evaluating the Renyi divergence-based visitation discrepancy between episodes.
   
 <a name="anchor-causual"></a>  
 
@@ -3148,6 +3207,15 @@ i Cross-Entropy Method (CEM):
 
   SkiMo: that enables planning in the skill space using a skill dynamics model, which directly predicts the skill outcomes, rather than predicting all small details in the intermediate states, step by step.
 
+  🔹 [MODEL-BASED REINFORCEMENT LEARNING WITH MULTI-STEP PLAN VALUE ESTIMATION](https://arxiv.org/pdf/2209.05530.pdf) 😶 
+
+  MPPVE: We employ the multi-step plan value estimation, which evaluates the expected discounted return after executing a sequence of action plans at a given state, and updates the policy by directly computing the multi-step policy gradient via plan value estimation.
+
+  🔹 [Conservative Dual Policy Optimization for Efficient Model-Based Reinforcement Learning](https://arxiv.org/pdf/2209.07676.pdf) 💧 
+
+
+
+
 <a name="anchor-trainingrl"></a>  
 
 ## Training RL & Just Fast & Embedding? & OPE(DICE)
@@ -3276,6 +3344,10 @@ SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman back
 
 🔹 [Revisiting Rainbow: Promoting more Insightful and Inclusive Deep Reinforcement Learning Research](http://proceedings.mlr.press/v139/ceron21a/ceron21a.pdf) :volcano:
 
+🔸 [Reducing Variance in Temporal-Difference Value Estimation via Ensemble of Deep Networks](https://arxiv.org/pdf/2209.07670.pdf) :fire: 
+
+we propose MeanQ, a simple ensemble method that estimates target values as ensemble means.
+
 🔹 [Explaining Off-Policy Actor-Critic From A Bias-Variance Perspective](https://arxiv.org/pdf/2110.02421.pdf) :confused:
 
 To understand an off-policy actor-critic algorithm, we show the policy evaluation error on the expected distribution of transitions decomposes into the Bellman error, the bias from policy mismatch, and the variance from sampling.  
@@ -3367,6 +3439,10 @@ Hyperparameter Optimisation on the Fly (HOOF): The main idea is to use existing 
 🔹 [REWARD SHIFTING FOR OPTIMISTIC EXPLORATION AND CONSERVATIVE EXPLOITATION](https://openreview.net/pdf?id=CNY9h3uyfiO) :no_mouth:
 
 We bring the key insight that a positive reward shifting leads to conservative exploitation, while a negative reward shifting leads to curiosity-driven exploration.
+
+🔹 [Exploiting Reward Shifting in Value-Based Deep RL](https://arxiv.org/pdf/2209.07288.pdf) 
+
+U
 
 🔹 [Heuristic-Guided Reinforcement Learning](https://arxiv.org/pdf/2106.02757.pdf) :fire: 🌋 
 
@@ -3615,6 +3691,10 @@ we define characteristics of behavioral policies as exploratory for yielding hig
 
 UA-DDPG:  It exploits epistemic uncertainty to accelerate exploration and aleatoric uncertainty to learn a risk-sensitive policy (also known as risk-averse RL, safe RL, and conservative RL).
 
+🔹 [On the Reuse Bias in Off-Policy Reinforcement Learning](https://arxiv.org/pdf/2209.07074.pdf) :fire: 🌋 
+
+BIRIS: We further provide a high-probability upper bound of the Reuse Bias, and show that controlling one term of the upper bound can control the Reuse Bias by introducing the concept of stability for off-policy algorithms
+
 <a name="anchor-marl"></a>
 
 ## MARL
@@ -3714,6 +3794,10 @@ we propose a novel algorithm, Geometric Value Iteration (GVI), that features a d
 🔹 [Near Optimal Policy Optimization via REPS](https://openreview.net/pdf?id=ZEhDWKLTvt7) :volcano: :droplet:
 
 Relative entropy policy search (REPS)
+
+🔹 [On Pathologies in KL-Regularized Reinforcement Learning from Expert Demonstrations](https://proceedings.neurips.cc/paper/2021/file/eecca5b6365d9607ee5a9d336962c534-Paper.pdf) :fire: 💧 
+
+we show that KL-regularized reinforcement learning with behavioral reference policies derived from expert demonstrations can suffer from pathological training dynamics that can lead to slow, unstable, and suboptimal online learning.
 
 🔹 [ON COVARIATE SHIFT OF LATENT CONFOUNDERS IN IMITATION AND REINFORCEMENT LEARNING](https://openreview.net/pdf?id=w01vBAcewNX) :volcano: :droplet:
 
@@ -3815,7 +3899,7 @@ CSC:  we target the problem of safe exploration in RL by learning a conservative
 
 We propose the CDMPO algorithm to solve safety-constrained RL problems. Our method incorporates a conservative exploration strategy as well as a conservative distribution function.  CSC + distributional RL + MPO + WAPID
 
-🔹 [CUP: A Conservative Update Policy Algorithm for Safe Reinforcement Learning](https://arxiv.org/pdf/2202.07565.pdf) :+1: :fire: :volcano: :boom:
+🔹 [CUP: A Conservative Update Policy Algorithm for Safe Reinforcement Learning](https://arxiv.org/pdf/2209.07089.pdf) :+1: :fire: :volcano: :boom:
 
 (i) We provide a rigorous theoretical analysis to extend the surrogate functions to generalized advantage estimator (GAE). GAE significantly reduces variance empirically while maintaining a tolerable level of bias, which is an efficient step for us to design CUP; (ii) The proposed bounds are tighter than existing works, i.e., using the proposed bounds as surrogate functions are better local approximations to the objective and safety constraints. (iii) The proposed CUP provides a non-convex implementation via first-order optimizers, which does not depend on any convex approximation.  
 
@@ -3905,6 +3989,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [FULLY ONLINE META-LEARNING WITHOUT TASK BOUNDARIES](https://arxiv.org/pdf/2202.00263.pdf) :fire: 
 
   we propose a Fully Online MetaLearning (FOML) algorithm, which does not require any ground truth knowledge about the task boundaries and stays fully online without resetting back to pre-trained weights.
+
+  🔹 [Learn the Time to Learn: Replay Scheduling in Continual Learning](https://arxiv.org/pdf/2209.08660.pdf) :+1:
+
+  Storing historical data is cheap in many real-world applications, yet replaying all historical data would be prohibited due to processing time constraints. In such settings, we propose learning the time to learn for a continual learning system, in which we learn replay schedules over which tasks to replay at different time steps. 
 
 <a name="anchor-selfpaced"></a>   <a name="anchor-curriculum"></a>
 
@@ -4044,11 +4132,50 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   CMDE: we introduce a multi-speed diffusion framework, which leads to a new estimator for the conditional score.
 
-  🔹 [Score-based Generative Modeling in Latent Space](https://proceedings.neurips.cc/paper/2021/file/5dca4c6b9e244d24a30b4c45601d9720-Paper.pdf) 
+  🔹 [Score-based Generative Modeling in Latent Space](https://proceedings.neurips.cc/paper/2021/file/5dca4c6b9e244d24a30b4c45601d9720-Paper.pdf) :fire: 🌋 
+
+  Latent Score-based Generative Model (LSGM)
+
+
+  🔹 [D2C: Diffusion-Decoding Models for Few-Shot Conditional Generation](https://arxiv.org/pdf/2106.06819.pdf) :fire: 
+
+  D2C uses a learned diffusion-based prior over the latent representations to improve generation and contrastive selfsupervised learning to improve representation quality.
+
+  🔹 [Resolving Label Uncertainty with Implicit Posterior Models](https://arxiv.org/pdf/2202.14000.pdf) :+1: :fire: 🌋 :boom: 
+
+  We propose a method for jointly inferring labels across a collection of data samples, where each sample consists of an observation and a prior belief about the label.
+
+  🔹 [Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space](https://arxiv.org/pdf/1612.00005.pdf) :+1: :fire: 
+
+  PPGNs are composed of 1) a generator network G that is capable of drawing a wide range of image types and 2) a replaceable “condition” network C that tells the generator what to draw. 
+
+  🔹 [Toward Multimodal Image-to-Image Translation](https://proceedings.neurips.cc/paper/2017/file/819f46e52c25763a55cc642422644317-Paper.pdf) :+1: 
+
+  we aim to model a distribution of possible outputs in a conditional generative modeling setting. The ambiguity of the mapping is distilled in a low-dimensional latent vector, which can be randomly sampled at test time. A generator learns to map the given input, combined with this latent code, to the output.
+
+  🔹 [LATENT CONSTRAINTS: LEARNING TO GENERATE CONDITIONALLY FROM UNCONDITIONAL GENERATIVE MODELS](https://arxiv.org/pdf/1711.05772.pdf) :fire: 
+
+  By post-hoc learning latent constraints, value functions that identify regions in latent space that generate outputs with desired attributes, we can conditionally sample from these regions with gradient-based optimization or amortized actor functions.
+
+  🔹 [Conditioning by adaptive sampling for robust design](http://proceedings.mlr.press/v97/brookes19a/brookes19a.pdf) 🌋 💧 MBO
+
+   we propose a method to solve this problem (data far from the training distribution) that uses model-based adaptive sampling to estimate a distribution over the design space, conditioned on the desired properties. + diffusion? 
 
   🔹 [Back to the Source: Diffusion-Driven Test-Time Adaptation](https://arxiv.org/pdf/2207.03442.pdf) :+1: 🔥
 
   We instead update the target data, by projecting all test inputs toward the source domain with a generative diffusion model. Our diffusion-driven adaptation method, DDA, shares its models for classification and generation across all domains.
+
+  🔹 [Let us Build Bridges: Understanding and Extending Diffusion Generative Models](https://arxiv.org/pdf/2208.14699.pdf) 😕
+
+  By viewing diffusion models as latent variable models with unobserved diffusion trajectories and applying maximum likelihood estimation (MLE) with latent trajectories imputed from an auxiliary distribution, we show that both the model construction and the imputation of latent trajectories amount to constructing diffusion bridge processes that achieve deterministic values and constraints at end point, for which we provide a systematic study and a suit of tools.
+
+  🔹 [CLASSIFIER-FREE DIFFUSION GUIDANCE](https://arxiv.org/pdf/2207.12598.pdf) :fire: 
+
+  We jointly train a conditional and an unconditional diffusion model, and we combine the resulting conditional and unconditional score estimates to attain a trade-off between sample quality and diversity similar to that obtained using classifier guidance.
+
+  🔹 [LEARNING ENERGY-BASED MODELS BY DIFFUSION RECOVERY LIKELIHOOD](https://arxiv.org/pdf/2012.08125.pdf) 👍 🔥 
+
+   Each EBM is trained with recovery likelihood, which maximizes the conditional probability of the data at a certain noise level given their noisy versions at a higher noise level. Optimizing recovery likelihood is more tractable than marginal likelihood, as sampling from the conditional distributions is much easier than sampling from the marginal distributions.
 
   🔹 [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/pdf/2205.09991.pdf) :fire: 
 
@@ -4089,11 +4216,11 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   When removing prior outcomes preferences from expected free energy, active inference reduces to optimal Bayesian design, i.e., information gain maximization. Conversely, active inference reduces to Bayesian decision theory in the absence of ambiguity and relative risk, i.e., expected utility maximization.
 
-  🔹 [DEEP ACTIVE INFERENCE AS VARIATIONAL POLICY GRADIENTS](https://arxiv.org/pdf/1907.03876.pdf) 
+  🔹 [DEEP ACTIVE INFERENCE AS VARIATIONAL POLICY GRADIENTS](https://arxiv.org/pdf/1907.03876.pdf) :fire: 
 
-  
+  🔹 [Deep active inference agents using Monte-Carlo methods](https://proceedings.neurips.cc/paper/2020/file/865dfbde8a344b44095495f3591f7407-Paper.pdf) 🔥
 
-  🔹 [Deep active inference agents using Monte-Carlo methods](https://proceedings.neurips.cc/paper/2020/file/865dfbde8a344b44095495f3591f7407-Paper.pdf) 
+  we present a neural architecture for building deep active inference agents operating in complex, continuous statespaces using multiple forms of Monte-Carlo (MC) sampling.
 
   🔹 [Prior Preference Learning from Experts: Designing a Reward with Active Inference](https://arxiv.org/pdf/2101.08937.pdf) 
 
@@ -4162,6 +4289,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Telescoping Density-Ratio Estimation](https://proceedings.neurips.cc/paper/2020/file/33d3b157ddc0896addfb22fa2a519097-Paper.pdf) :+1: 
 
   we introduce a new framework, telescoping density-ratio estimation (TRE), that enables the estimation of ratios between highly dissimilar densities in high-dimensional spaces.
+  
+  🔹 [Adaptive Multi-stage Density Ratio Estimation for Learning Latent Space Energy-based Model](https://arxiv.org/pdf/2209.08739.pdf) :fire: 
+
+  we develop the adaptive multi-stage density ratio estimation which breaks the estimation into multiple stages and learn different stages of density ratio sequentially and adaptively. The latent prior model can be gradually learned using ratio estimated in previous stage so that the final latent space EBM prior can be naturally formed by product of ratios in different stages.
 
   🔹 [Distribution Augmentation for Generative Modeling](http://proceedings.mlr.press/v119/jun20a/jun20a.pdf) :+1:
 
@@ -4174,6 +4305,12 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Data Augmentation for Meta-Learning](http://proceedings.mlr.press/v139/ni21a/ni21a.pdf) 😶 
 
   We systematically dissect the meta-learning pipeline and investigate the distinct ways in which data augmentation can be integrated at both the image and class levels.
+
+  🔹 [UNIFORM PRIORS FOR DATA-EFFICIENT TRANSFER](https://arxiv.org/pdf/2006.16524.pdf) 😶 
+
+  features that are most transferable have high uniformity in the embedding space and propose a uniformity regularization scheme that encourages better transfer and feature reuse. 
+
+  
 
 + Distillation 
   
@@ -4385,6 +4522,14 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Boosting Few-Shot Learning With Adaptive Margin Loss](https://arxiv.org/pdf/2005.13826.pdf) :fire: 🌋 
 
   This paper proposes an adaptive margin principle to improve the generalization ability of metric-based meta-learning approaches for few-shot learning problems.
+
+  🔹 [INFONCE IS A VARIATIONAL AUTOENCODER](https://arxiv.org/pdf/2107.02495.pdf) :fire: 
+
+  the self-supervised variational autoencoder (SSVAE)
+
+  🔹 [Learning to Drop Out: An Adversarial Approach to Training Sequence VAEs](https://arxiv.org/pdf/2209.12590.pdf) :fire: 
+
+  training sequence VAEs is challenging: autoregressive decoders can often explain the data without utilizing the latent space, known as posterior collapse
 
 - Uncertainty (Calibration)
 
