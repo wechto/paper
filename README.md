@@ -349,6 +349,11 @@ TOC
 
   Our method is based on a simple insight: we recognize that dynamics models can be adapted efficiently and consistently with off-policy data, more easily than policies and value functions. These dynamics models can then be used to continue training policies and value functions for out-of-distribution tasks without using meta-reinforcement learning at all, by generating synthetic experience for the new task.
 
+  🔹 [Distributionally Adaptive Meta Reinforcement Learning](https://arxiv.org/pdf/2210.03104.pdf) :fire: 
+
+  DiAMetR: Our framework centers on an adaptive approach to distributional robustness that trains a population of meta-policies to be robust to varying levels of distribution shift. When evaluated on a potentially shifted test-time distribution of tasks, this allows us to choose the meta-policy with the most appropriate level of robustness, and use it to perform fast adaptation.
+
+
 <a name="anchor-HRL"></a>  
 
 ## HRL
@@ -483,7 +488,9 @@ TOC
 
   We show theoretically that, under certain assumptions, having access to a specific set of diverse policies, which we call a set of independent policies, can allow for instantaneously achieving high-level performance on all possible downstream tasks which are typically more complex than the ones on which the agent was trained.
 
-   ​
+  🔹 [ASPiRe: Adaptive Skill Priors for Reinforcement Learning](https://arxiv.org/pdf/2209.15205.pdf) :fire: :fire: 
+
+  ASPiRe includes Adaptive Weight Module (AWM) that learns to infer an adaptive weight assignment between different skill priors and uses them to guide policy learning for downstream tasks via weighted Kullback-Leibler divergences.
 
 - Acquiring Diverse Robot Skills via Maximum Entropy Deep Reinforcement Learning [Tuomas Haarnoja, UCB]  <https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-176.pdf> :fire: :boom: :sweat_drops: :sweat_drops:
 
@@ -891,6 +898,10 @@ VISFIS:  (1) accurate predictions given limited but sufficient information (Suff
 🔹 [Concept Embedding Models](https://arxiv.org/pdf/2209.09056.pdf) :+1: 
 
 CEM: we propose Concept Embedding Models, a novel family of concept bottleneck models which goes beyond the current accuracy-vs-interpretability trade-off by learning interpretable highdimensional concept representations.
+
+🔹 [Invariance Through Latent Alignment](https://arxiv.org/pdf/2112.08526.pdf) :fire: 
+
+ ILA performs unsupervised adaptation at deployment-time by matching the distribution of latent features on the target domain to the agent’s prior experience, without relying on paired data.
 
 
 
@@ -2211,7 +2222,7 @@ BOPAH: Unlike prior work where this trade-off is controlled by hand-tuned hyperp
 
 🔹 [OFFLINE REINFORCEMENT LEARNING WITH VALU-EBASED EPISODIC MEMORY](https://arxiv.org/pdf/2110.09796.pdf) :volcano: :droplet: :fire: 
 
-We present a new offline V -learning method, EVL (expectile V -learning), and a novel offline RL framework, VEM (Value-based Episodic Memory). EVL learns the value function through the trade-offs between imitation learning and optimal value learning. VEM uses a memory-based planning scheme to enhance advantage estimation and conduct policy learning in a regression manner.
+We present a new offline V -learning method, EVL (expectile V -learning), and a novel offline RL framework, VEM (Value-based Episodic Memory). EVL learns the value function through the trade-offs between imitation learning and optimal value learning. VEM uses a memory-based planning scheme to enhance advantage estimation and conduct policy learning in a regression manner. IQL 
 
 🔹 [Offline Reinforcement Learning with Soft Behavior Regularization](https://arxiv.org/pdf/2110.07395.pdf) :fire: :volcano:
 
@@ -2379,6 +2390,13 @@ We propose to simply learn the Policy in the
 Latent Action Space (PLAS) such that this requirement (OOD action) is naturally satisfied.
 
 🔹 [Challenges and Opportunities in Offline Reinforcement Learning from Visual Observations](https://arxiv.org/pdf/2206.04779.pdf) 
+
+🔹 [S2P: State-conditioned Image Synthesis for Data Augmentation in Offline Reinforcement Learning](https://arxiv.org/pdf/2209.15256.pdf) :+1: 
+
+we firstly propose a generative model, S2P (State2Pixel), which synthesizes the raw pixel
+of the agent from its corresponding state. It enables bridging the gap between the
+state and the image domain in RL algorithms, and virtually exploring unseen image
+distribution via model-based transition in the state space.
 
 🔹 [Back to the Manifold: Recovering from Out-of-Distribution States](https://arxiv.org/pdf/2207.08673.pdf) :fire: 🌋 
 
@@ -2847,6 +2865,10 @@ Hindsight Foresight Relabeling (HFR): We construct a relabeling distribution usi
 
   a novel algorithmic framework that generates valuable hindsight goals which are easy for an agent to achieve in the short term and are also potential for guiding the agent to reach the actual goal in the long term.  
 
+  🔹 [UNDERSTANDING HINDSIGHT GOAL RELABELING REQUIRES RETHINKING DIVERGENCE MINIMIZATION](https://arxiv.org/pdf/2209.13046.pdf) :+1: :fire: 🌋 💧 
+
+  we develop a unified objective for goal-reaching that explains such a connection, from which we can derive goal-conditioned supervised learning (GCSL) and the reward function in hindsight experience replay (HER) from first principles.
+
   🔹 [CURIOUS: Intrinsically Motivated Modular Multi-Goal Reinforcement Learning](https://arxiv.org/pdf/1810.06284.pdf) :+1:  ​
 
   This paper proposes CURIOUS, an algorithm that leverages 1) a modular Universal Value Function Approximator with hindsight learning to achieve a diversity of goals of different kinds within a unique policy and 2) an automated curriculum learning mechanism that biases the attention of the agent towards goals maximizing the absolute learning progress.  
@@ -3213,7 +3235,11 @@ i Cross-Entropy Method (CEM):
 
   🔹 [Conservative Dual Policy Optimization for Efficient Model-Based Reinforcement Learning](https://arxiv.org/pdf/2209.07676.pdf) 💧 
 
+  CDPO: 
 
+  🔹 [Double Check Your State Before Trusting It: Confidence-Aware Bidirectional Offline Model-Based Imagination](https://arxiv.org/pdf/2206.07989.pdf) :no_mouth: 
+
+  CABI: generates reliable samples and can be combined with any model-free offline RL method
 
 
 <a name="anchor-trainingrl"></a>  
@@ -3492,7 +3518,7 @@ We sought to highlight some of the strengths, weaknesses, and potential mathemat
 
   🔹 [Bootstrapped Transformer for Offline Reinforcement Learning](https://arxiv.org/pdf/2206.08569.pdf) 😶 
 
-  Bootstrapped Transformer, which incorporates the idea of bootstrapping and leverages the learned model to self-generate more offline data to further boost the sequence model training.
+  Bootstrapped Transformer, which incorporates the idea of bootstrapping and leverages the learned model to self-generate more offline data to further boost the sequence model training. CABI (Double Check Your State Before Trusting It)
 
   🔹 [On-Policy Deep Reinforcement Learning for the Average-Reward Criterion](https://arxiv.org/pdf/2106.07329.pdf) :+1: :fire:
 
@@ -4183,9 +4209,19 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   we propose Diffusion-QL that utilizes a conditional diffusion model as a highly expressive policy class for behavior cloning and policy regularization.
 
+  🔹 [OFFLINE REINFORCEMENT LEARNING VIA HIGHFIDELITY GENERATIVE BEHAVIOR MODELING](https://arxiv.org/pdf/2209.14548.pdf) :fire: 
+
+  we adopt a generative approach by decoupling the learned policy into two parts: an expressive generative behavior model (diffusion model) and an action evaluation model (Q-value of behavior policy).
+
   🔹 [A Regularized Implicit Policy for Offline Reinforcement Learning](https://arxiv.org/pdf/2202.09673.pdf) :no_mouth: 
 
   We further propose a simple modification to the classical policy-matching methods for regularizing with respect to the dual form of the Jensen–Shannon divergence and the integral probability metrics.
+
+  🔹 [IMAGEN VIDEO: HIGH DEFINITION VIDEO GENERATION WITH DIFFUSION MODELS](https://arxiv.org/pdf/2210.02303.pdf) :fire: 
+
+   Given a text prompt, Imagen Video generates high definition videos using a base video generation model and a sequence of interleaved spatial and temporal video super-resolution models.
+
+
 
 - Data Valuation 
 
@@ -4531,6 +4567,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   training sequence VAEs is challenging: autoregressive decoders can often explain the data without utilizing the latent space, known as posterior collapse
 
+  🔹 [SIMPER: SIMPLE SELF-SUPERVISED LEARNING OF PERIODIC TARGETS](https://arxiv.org/pdf/2210.03115.pdf) :fire: :fire: 
+
+  We present SimPer, a simple contrastive SSL regime for learning periodic information in data. To exploit the periodic inductive bias, SimPer introduces customized augmentations, feature similarity measures, and a generalized contrastive loss for learning efficient and robust periodic representations.
+
 - Uncertainty (Calibration)
 
   🔹 [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://proceedings.neurips.cc/paper/2017/file/9ef2ed4b7fd2c810847ffa5fa85bce38-Paper.pdf) 🔥 
@@ -4625,6 +4665,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [PARAMETER-BASED VALUE FUNCTIONS](https://arxiv.org/pdf/2006.09226.pdf) :fire: 
 
   We introduce a class of value functions called Parameter-Based Value Functions (PBVFs) whose inputs include the policy parameters. They can generalize across different policies.
+
+  🔹 [LEARNING TO LEARN WITH GENERATIVE MODELS OF NEURAL NETWORK CHECKPOINTS](https://arxiv.org/pdf/2209.12892.pdf) :+1: 
+
+  Our model is a conditional diffusion transformer that, given an initial input parameter vector and a prompted loss, error, or return, predicts the distribution over parameter updates that achieve the desired metric.
   
 ## Aha
 
