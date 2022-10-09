@@ -903,6 +903,15 @@ CEM: we propose Concept Embedding Models, a novel family of concept bottleneck m
 
  ILA performs unsupervised adaptation at deployment-time by matching the distribution of latent features on the target domain to the agent’s prior experience, without relying on paired data.
 
+🔹 [Does Zero-Shot Reinforcement Learning Exist?](https://arxiv.org/pdf/2209.14935.pdf) :fire: 🌋 💧 
+
+Strategies for approximate zero-shot RL have been suggested using successor features (SFs) or forward-backward (FB) representations, but testing has been limited.
+
+🔹 [Learning Successor States and Goal-Dependent Values: A Mathematical Viewpoint](https://arxiv.org/pdf/2101.07123.pdf) 💧 
+
+🔹 [Learning One Representation to Optimize All Rewards](https://arxiv.org/pdf/2103.07945.pdf) :fire: 🌋 :boom: 
+
+We introduce the forward-backward (FB) representation of the dynamics of a reward-free Markov decision process. It provides explicit near-optimal policies for any reward specified a posteriori.
 
 
 <a name="anchor-MI"></a>
@@ -2471,7 +2480,9 @@ we compare these heuristics (for model uncertainty), and design novel protocols 
 
 TACO-RL: we combine a low-level policy that learns latent skills via imitation learning and a high-level policy learned from offline reinforcement learning for skill-chaining the latent behavior priors. 
 
+🔹 [DR3: VALUE-BASED DEEP REINFORCEMENT LEARNING REQUIRES EXPLICIT REGULARIZATION](https://arxiv.org/pdf/2112.04716.pdf) :+1: :fire: 🌋 :boom: 
 
+Our theoretical analysis shows that when existing models of implicit regularization are applied to temporal difference learning, the resulting derived regularizer favors degenerate solutions with excessive “aliasing”.
 
 <a name="anchor-exploration"></a>
 
@@ -4221,7 +4232,9 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
    Given a text prompt, Imagen Video generates high definition videos using a base video generation model and a sequence of interleaved spatial and temporal video super-resolution models.
 
+  🔹 [ANALYZING DIFFUSION AS SERIAL REPRODUCTION](https://arxiv.org/pdf/2209.14821.pdf) :fire: 💧 
 
+  By identifying a correspondence between diffusion models and a well-known paradigm in cognitive science known as serial reproduction, whereby human agents iteratively observe and reproduce stimuli from memory, we show how the aforementioned properties (weak sensitivity to the choice of noise family and the role of adequate scheduling of noise levels) of diffusion models can be explained as a natural consequence of this correspondence.
 
 - Data Valuation 
 
