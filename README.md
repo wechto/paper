@@ -2347,7 +2347,11 @@ We propose Adversarially Trained Actor Critic (ATAC) based on a two-player Stack
 
 🔹 [RVS: WHAT IS ESSENTIAL FOR OFFLINE RL VIA SUPERVISED LEARNING?](https://arxiv.org/pdf/2112.10751.pdf) :no_mouth:
 
-Simply maximizing likelihood with a two-layer feedforward MLP is competitive with state-of-the-art results of substantially more complex methods based on TD learning or sequence modeling with Transformers. Carefully choosing model capacity (e.g., via regularization or architecture) and choosing which information to condition on (e.g., goals or rewards) are critical for performance.  [THE ESSENTIAL ELEMENTS OF OFFLINE RL VIA SUPERVISED LEARNING](https://openreview.net/pdf?id=S874XAIpkR-)  
+Simply maximizing likelihood with a two-layer feedforward MLP is competitive with state-of-the-art results of substantially more complex methods based on TD learning or sequence modeling with Transformers. Carefully choosing model capacity (e.g., via regularization or architecture) and choosing which information to condition on (e.g., goals or rewards) are critical for performance.  [THE ESSENTIAL ELEMENTS OF OFFLINE RL VIA SUPERVISED LEARNING](https://openreview.net/pdf?id=S874XAIpkR-) 
+
+🔹 [IMPLICIT OFFLINE REINFORCEMENT LEARNING VIA SUPERVISED LEARNING](https://openreview.net/pdf?id=egaddkwMOd3) :no_mouth: 
+
+IRvS: Implicit Behavior Cloning
 
 🔹 [Contrastive Learning as Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2206.07568.pdf) :+1: :fire: 🌋 
 
@@ -2483,6 +2487,24 @@ TACO-RL: we combine a low-level policy that learns latent skills via imitation l
 🔹 [DR3: VALUE-BASED DEEP REINFORCEMENT LEARNING REQUIRES EXPLICIT REGULARIZATION](https://arxiv.org/pdf/2112.04716.pdf) :+1: :fire: 🌋 :boom: 
 
 Our theoretical analysis shows that when existing models of implicit regularization are applied to temporal difference learning, the resulting derived regularizer favors degenerate solutions with excessive “aliasing”.
+
+🔹 [ACTOR-CRITIC ALIGNMENT FOR OFFLINE-TO-ONLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=z70d8UBFDKF) :+1: 
+
+ACA: discarding Q-values learned offline as a means to combat distribution shift in offline2online RL
+
+🔹 [OFFLINE REINFORCEMENT LEARNING WITH CLOSEDFORM POLICY IMPROVEMENT OPERATORS](https://openreview.net/pdf?id=1usJZBGNrZ) :+1: :fire: 
+
+CFPI: the behavior constraint naturally motivates the use of first-order Taylor approximation, leading to a linear approximation of the policy objective.
+
+🔹 [CONTEXTUAL TRANSFORMER FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=7pl0FRiS0Td) :fire: 
+
+we explore how prompts can help sequencemodeling based offline-RL algorithms --> extend the framework
+to the Meta-RL setting and propose Contextual Meta Transformer (CMT).
+
+🔹 [ACQL: AN ADAPTIVE CONSERVATIVE Q-LEARNING FRAMEWORK FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=o_HqtIc-oF) :+1: :fire: :fire: 
+
+ two weight functions, corresponding to the out-of-distribution (OOD) actions and actions in the dataset, are introduced to adaptively shape the Q-function.
+
 
 <a name="anchor-exploration"></a>
 
