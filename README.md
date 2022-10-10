@@ -2011,6 +2011,10 @@ Conservative unsupervised data sharing (CUDS): under a binary-reward assumption,
 
 We provide extensive theoretical and empirical analysis that illustrates how it trades off reward bias, sample complexity and distributional shift, often leading to good results. We characterize conditions under which this simple strategy is effective, and further show that extending it with a simple reweighting approach can further alleviate the bias introduced by using incorrect reward labels.
 
+🔹 [PROVABLE UNSUPERVISED DATA SHARING FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=MTTPLcwvqTt) :fire: 🌋 
+
+PDS utilizes additional penalties upon the reward function learned from labeled data to avoid potential overestimation of the reward. 
+
 🔹 [Is Pessimism Provably Efficient for Offline RL?](http://proceedings.mlr.press/v139/jin21e/jin21e.pdf) :fire: :volcano: :fire:
 
 Pessimistic value iteration algorithm (PEVI): incorporates a penalty function (pessimism) into the value iteration algorithm. The penalty function simply flips the sign of the bonus function (optimism) for promoting exploration in online RL.  We decompose the suboptimality of any policy into three sources: the spurious correlation, intrinsic uncertainty, and optimization error.
@@ -2399,8 +2403,11 @@ BMA: This paper proposes an action representation learning framework for offline
 
 🔹 [PLAS: Latent Action Space for Offline Reinforcement Learning](https://arxiv.org/pdf/2011.07213.pdf) :+1:
 
-We propose to simply learn the Policy in the
-Latent Action Space (PLAS) such that this requirement (OOD action) is naturally satisfied.
+We propose to simply learn the Policy in the Latent Action Space (PLAS) such that this requirement (OOD action) is naturally satisfied.
+
+🔹 [LET OFFLINE RL FLOW: TRAINING CONSERVATIVE AGENTS IN THE LATENT SPACE OF NORMALIZING FLOWS](https://openreview.net/pdf?id=1Wo0vqaZ8WJ) :no_mouth: 
+
+CNF: we build upon recent works on learning policies in latent action spaces and use a special form of Normalizing Flows for constructing a generative model, which we use as a conservative action encoder. diffusion + RL
 
 🔹 [Challenges and Opportunities in Offline Reinforcement Learning from Visual Observations](https://arxiv.org/pdf/2206.04779.pdf) 
 
@@ -2410,6 +2417,10 @@ we firstly propose a generative model, S2P (State2Pixel), which synthesizes the 
 of the agent from its corresponding state. It enables bridging the gap between the
 state and the image domain in RL algorithms, and virtually exploring unseen image
 distribution via model-based transition in the state space.
+
+🔹 [AGENT-CONTROLLER REPRESENTATIONS: PRINCIPLED OFFLINE RL WITH RICH EXOGENOUS INFORMATION](https://openreview.net/pdf?id=gLl0fZQo6Vu) 🔥
+
+we propose to use multi-step inverse models, which have seen a great deal of interest in the RL theory community, to learn Agent-Controller Representations for Offline-RL (ACRO).
 
 🔹 [Back to the Manifold: Recovering from Out-of-Distribution States](https://arxiv.org/pdf/2207.08673.pdf) :fire: 🌋 
 
@@ -2460,6 +2471,10 @@ Design-Bench, a benchmark for offline MBO with a unified evaluation protocol and
 
 We propose an algorithm that allows the user to tune this hyperparameter (the proximity of the learned policy to the original policy) at runtime, thereby overcoming both of the above mentioned issues simultaneously.
 
+🔹 [CONFIDENCE-CONDITIONED VALUE FUNCTIONS FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=Zeb5mTuqT5) 
+
+CCVL: We derive a new form of a Bellman backup that simultaneously learns Q-values for any degree of confidence with high probability. By conditioning on confidence, our value functions enable adaptive strategies during online evaluation by controlling for confidence level using the history of observations thus far.
+
 🔹 [Comparing Model-free and Model-based Algorithms for Offline Reinforcement Learning](https://arxiv.org/pdf/2201.05433.pdf) 😶 
 
 We compare model-free, model-based, as well as hybrid offline RL approaches on various industrial benchmark (IB) datasets to test the algorithms in settings closer to real world problems, including complex noise and partially observable states.
@@ -2467,6 +2482,11 @@ We compare model-free, model-based, as well as hybrid offline RL approaches on v
 🔹 [Autofocused oracles for model-based design](https://proceedings.neurips.cc/paper/2020/file/972cda1e62b72640cb7ac702714a115f-Paper.pdf) :fire: :fire: 
 
 we now reformulate the MBD problem as a non-zero-sum game, which suggests an algorithmic strategy for iteratively updating the oracle within any MBO algorithm
+
+🔹 :small_blue_diamond: 
+🔹 :small_blue_diamond: 
+🔹 :small_blue_diamond: 
+
 
 🔹 [The Challenges of Exploration for Offline Reinforcement Learning](https://arxiv.org/pdf/2201.11861.pdf) 😶 
 
@@ -2498,12 +2518,55 @@ CFPI: the behavior constraint naturally motivates the use of first-order Taylor 
 
 🔹 [CONTEXTUAL TRANSFORMER FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=7pl0FRiS0Td) :fire: 
 
-we explore how prompts can help sequencemodeling based offline-RL algorithms --> extend the framework
-to the Meta-RL setting and propose Contextual Meta Transformer (CMT).
+we explore how prompts can help sequencemodeling based offline-RL algorithms --> extend the framework to the Meta-RL setting and propose Contextual Meta Transformer (CMT).
 
 🔹 [ACQL: AN ADAPTIVE CONSERVATIVE Q-LEARNING FRAMEWORK FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=o_HqtIc-oF) :+1: :fire: :fire: 
 
  two weight functions, corresponding to the out-of-distribution (OOD) actions and actions in the dataset, are introduced to adaptively shape the Q-function.
+
+ 🔹 [ENTROPY-REGULARIZED MODEL-BASED OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=bBBA-8ELXcF) :+1: :fire: 🌋 
+
+  EMO: we devised a hybrid loss function to minimize the negative log-likelihood of the model on the distribution of the offline data while maximizing the entropy in the areas that the support of data is none or minimal.
+
+🔹 [OPTIMAL TRANSPORT FOR OFFLINE IMITATION LEARNING](https://openreview.net/pdf?id=MhuFzFsrfvH) 😶 
+
+OTR’s key idea is to use optimal transport to compute an optimal alignment between an unlabeled trajectory in the dataset and an expert demonstration to obtain a similarity  measure that can be interpreted as a reward, which can then be used by an offline RL algorithm to learn the policy. 
+
+🔹 [MIND THE GAP: OFFLINE POLICY OPTIMIZATION FOR IMPERFECT REWARDS](https://openreview.net/pdf?id=WumysvcMvV6) :fire: 🌋
+
+RGM:  the upper layer optimizes a reward correction term that performs state-action visitation distribution matching w.r.t. a small set of expert data; and the lower layer solves a pessimistic RL problem with the corrected rewards. DICE 
+
+🔹 [OFFLINE IMITATION LEARNING BY CONTROLLING THE EFFECTIVE PLANNING HORIZON](https://openreview.net/pdf?id=TZixgYj-oqI) :fire: 💧 
+
+IGI: we analyze the effect of controlling the discount factor on offline IL and motivate that the discount factor can take a role of a regularizer to prevent the sampling error of the supplementary dataset from hurting the performance.
+
+🔹 [MUTUAL INFORMATION REGULARIZED OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ygYXtbb3og3) :+1: :fire: 
+
+MISA constructs lower bounds of mutual information parameterized by the policy and Q-values. We show that optimizing this lower bound is equivalent to maximizing the likelihood of a one-step improved policy on the offline dataset. 
+
+🔹 [ON THE IMPORTANCE OF THE POLICY STRUCTURE IN OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=EJPWfoJRba) :no_mouth: :+1: 
+
+V2AE (Value-Weighted Variational Auto-Encoder): The V2AE algorithm can be interpreted as an approach that divides the state-action space by learning the discrete latent variable and learns the corresponding sub-policies in each region. 
+
+🔹 [THE CHALLENGES OF EXPLORATION FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=oKTl_-4qLJ) 😶 
+
+With Explore2Offline, we propose to evaluate the quality of collected data by transferring the collected data and inferring policies with reward relabelling and standard offline RL  algorithms.
+
+🔹 [CURIOSITY-DRIVEN UNSUPERVISED DATA COLLECTION FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=At0BdxvACds) 😶 
+
+CUDC: 
+
+🔹 [DISCOVERING GENERALIZABLE MULTI-AGENT COORDINATION SKILLS FROM MULTI-TASK OFFLINE DATA](https://openreview.net/pdf?id=53FyUAdP7d) :+1:
+
+ODIS:  first extracts task-invariant coordination skills from offline multi-task data and learns to delineate different agent behaviors with the discovered coordination skills. Then we train a coordination policy to choose optimal coordination skills with the centralized training and decentralized execution paradigm. 
+
+🔹 [SKILL DISCOVERY DECISION TRANSFORMER](https://openreview.net/pdf?id=mb7PtrUbHa) 😶 
+
+We proposed Skill DT, a variant of Generalized DT, to explore the capabilities of offline skill discovery with sequence modelling.
+
+🔹 [HARNESSING MIXED OFFLINE REINFORCEMENT LEARNING DATASETS VIA TRAJECTORY WEIGHTING](https://openreview.net/pdf?id=OhUAblg27z) 
+
+
 
 
 <a name="anchor-exploration"></a>
@@ -4083,7 +4146,11 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/33e8075e9970de0cfea955afd4644bb2_CuGkecl.png) 
 
-- 
+- RR
+  
+  🔹 [BENCHMARKING OFFLINE REINFORCEMENT LEARNING ON REAL-ROBOT HARDWARE](https://openreview.net/pdf?id=3k5CUGDLNdd) 💧 
+
+
 
 <a name="anchor-optimization"></a>  
 
