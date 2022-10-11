@@ -2001,6 +2001,10 @@ SOPR: aims to rank a set of target policies based on supervised learning by leve
 
 Conservative data sharing (CDS): We develop a simple technique for data-sharing in multi-task offline RL that routes data based on the improvement over the task-specific data.
 
+🔹 [UNCERTAINTY-BASED MULTI-TASK DATA SHARING FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=u1Vj68CJZP) :fire: :fire: 🌋 
+
+UTDS: suboptimality gap of UTDS is related to the expected uncertainty of the shared dataset. (CDS)
+
 🔹 [Data Sharing without Rewards in Multi-Task Offline Reinforcement Learning](https://openreview.net/pdf?id=c7SmcWAd74W)
 
 Conservative unsupervised data sharing (CUDS): under a binary-reward assumption, simply utilizing data from other tasks with constant reward labels can not only provide substantial improvement over only using the single-task data and previously proposed success classifiers, but it can also reach comparable performance to baselines that take advantage of the oracle multi-task reward information.
@@ -2418,6 +2422,10 @@ of the agent from its corresponding state. It enables bridging the gap between t
 state and the image domain in RL algorithms, and virtually exploring unseen image
 distribution via model-based transition in the state space.
 
+🔹 [BEHAVIOR PRIOR REPRESENTATION LEARNING FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=hQ4K9Bf4G2B) :fire: 💧 
+
+BPR: we first learn a state representation by mimicking actions from the dataset, and then train a policy on top of the fixed representation, using any off-the-shelf Offline RL algorithm.
+
 🔹 [AGENT-CONTROLLER REPRESENTATIONS: PRINCIPLED OFFLINE RL WITH RICH EXOGENOUS INFORMATION](https://openreview.net/pdf?id=gLl0fZQo6Vu) 🔥
 
 we propose to use multi-step inverse models, which have seen a great deal of interest in the RL theory community, to learn Agent-Controller Representations for Offline-RL (ACRO).
@@ -2564,7 +2572,64 @@ ODIS:  first extracts task-invariant coordination skills from offline multi-task
 
 We proposed Skill DT, a variant of Generalized DT, to explore the capabilities of offline skill discovery with sequence modelling.
 
-🔹 [HARNESSING MIXED OFFLINE REINFORCEMENT LEARNING DATASETS VIA TRAJECTORY WEIGHTING](https://openreview.net/pdf?id=OhUAblg27z) 
+🔹 [HARNESSING MIXED OFFLINE REINFORCEMENT LEARNING DATASETS VIA TRAJECTORY WEIGHTING](https://openreview.net/pdf?id=OhUAblg27z) :no_mouth: :+1: 
+
+We show that state-of-the-art offline RL algorithms are overly constrained in mixed datasets with high RPSV (return positive-sided varianc) and under-utilize the minority data.
+
+🔹 [EFFICIENT OFFLINE POLICY OPTIMIZATION WITH A LEARNED MODEL](https://openreview.net/pdf?id=Yt-yM-JbYFO) :fire: 
+
+ROSMO: Instead of planning with the expensive MCTS, we use the learned model to construct an advantage estimation based on a one-step rollout. Policy improvements are towards the direction that maximizes the estimated advantage with regularization of the dataset. (MuZero Unplugged)
+
+🔹 [CONSERWEIGHTIVE BEHAVIORAL CLONING FOR RELIABLE OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=q2vsXnsjNB_) :no_mouth: 
+
+ConserWeightive Behavioral Cloning (CWBC): trajectory weighting and conservative regularization.
+
+🔹 [TAMING POLICY CONSTRAINED OFFLINE REINFORCEMENT LEARNING FOR NON-EXPERT DEMONSTRATIONS](https://openreview.net/pdf?id=zMVCSe945x) :fire: 🌋 
+
+we first introduce gradient penalty over the learned value function to tackle the exploding Q-function gradients induced by the failed closeness constraint on non-expert states. + critic weighted constraint relaxation.
+
+🔹 [POLICY EXPANSION FOR BRIDGING OFFLINE-TOONLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=-Y34L45JR6z) :+1: :fire: 
+
+PEX: After learning the offline policy, we use it as one candidate policy in a policy set, and further learn another policy that will be responsible for further learning as an expansion to the policy set. The two policies will be composed in an adaptive manner for interacting with the environment.
+
+🔹 [WHEN DATA GEOMETRY MEETS DEEP FUNCTION: GENERALIZING OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=lMO7TC7cuuh) :fire: 🌋 
+
+DOGE marries dataset geometry with deep function approximators in offline RL, and enables exploitation in generalizable OOD areas rather than strictly constraining policy within data distribution.
+
+🔹 [THE IN-SAMPLE SOFTMAX FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=u-RuvyDYqCM) :fire: :fire:
+
+In-Sample Actor-Critic: POLICY OPTIMIZATION USING THE IN-SAMPLE SOFTMAX
+
+🔹 [IN-SAMPLE ACTOR CRITIC FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=dfDv0WU853R) :fire: 
+
+In-sample Actor Critic (IAC): conduct in-sample learning by sampling-importance resampling.
+
+🔹 [OFFLINE Q-LEARNING ON DIVERSE MULTI-TASK DATA BOTH SCALES AND GENERALIZES](https://openreview.net/pdf?id=4-k7kUavAj)
+
+This work shows that offline Q-learning can scale to high-capacity models trained on large, diverse datasets.
+
+🔹 [PRE-TRAINING FOR ROBOTS: LEVERAGING DIVERSE MULTITASK DATA VIA OFFLINE RL](https://openreview.net/pdf?id=lVdvYoIxsXm) 
+
+ PTR: a framework based on offline RL that attempts to effectively learn new tasks by combining pre-training on existing robotic datasets with rapid fine-tuning on a new task.
+
+🔹 [DEEP AUTOREGRESSIVE DENSITY NETS VS NEURAL ENSEMBLES FOR MODEL-BASED OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=gvOSQjGTtxj) 
+
+we ask what are the best dynamic system models, estimating their own uncertainty, for conservativism-based MBRL algorithm
+
+🔹 [SPARSE Q-LEARNING: OFFLINE REINFORCEMENT LEARNING WITH IMPLICIT VALUE REGULARIZATION](https://openreview.net/pdf?id=ueYYgo2pSSU) :+1: :fire: 🌋 :boom: 
+
+Implicit Value Regularization (IVR) framework + Sparse Q-learning (SQL). 
+
+🔹 [IS CONDITIONAL GENERATIVE MODELING ALL YOU NEED FOR DECISION-MAKING?](https://openreview.net/pdf?id=sP1fo2K9DFG) :no_mouth: 
+
+Decision Diffuser: a conditional generative model for sequential decision making.
+
+🔹 [SPRINT: SCALABLE SEMANTIC POLICY PRETRAINING VIA LANGUAGE INSTRUCTION RELABELING](https://openreview.net/pdf?id=tDG-zrQ8S1Q) :no_mouth: 
+
+🔹 [PSEUDOMETRIC GUIDED ONLINE QUERY AND UPDATE FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=gTph9AD_gx1) 
+
+
+
 
 
 
