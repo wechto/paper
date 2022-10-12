@@ -1110,6 +1110,10 @@ This poses challenges in offline data collection, optimization over the models, 
 
   H2O introduces a dynamics-aware policy evaluation scheme, which adaptively penalizes the Q function learning on simulated stateaction pairs with large dynamics gaps, while also simultaneously allowing learning from a fixed real-world dataset.
 
+  🔹 [DOMAIN TRANSFER WITH LARGE DYNAMICS SHIFT IN OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=2SXIFDczAJG) :+1: 
+
+  the source data will play two roles. One is to serve as augmentation data by compensating for the difference in dynamics with modified reward. Another is to form prior knowledge for the behaviour policy to collect a small amount of new data in the target domain safely and efficiently.
+
   🔹 [TARGETED ENVIRONMENT DESIGN FROM OFFLINE DATA](https://openreview.net/pdf?id=Is5Hpwg2R-h) 👍 :fire: 
 
   OTED: which automatically learns a distribution over simulator parameters to match a provided offline dataset, and then uses the learned simulator to train an RL agent in standard online fashion.
@@ -1321,6 +1325,10 @@ We propose CARL, a collection of well-known RL environments extended to contextu
 🔹 [Switch Trajectory Transformer with Distributional Value Approximation for Multi-Task Reinforcement Learning](https://arxiv.org/pdf/2203.07413.pdf) :no_mouth:  
 
 We propose SwitchTT, a multi-task extension to Trajectory Transformer but enhanced with two striking features: (i) exploiting a sparsely activated model to reduce computation cost in multitask offline model learning and (ii) adopting a distributional trajectory value estimator that improves policy performance, especially in sparse reward settings.  
+
+🔹 [Efficient Planning in a Compact Latent Action Space](https://arxiv.org/pdf/2208.10291.pdf) :no_mouth: 
+
+TAP avoids planning step-by-step in a high-dimensional continuous action space but instead looks for the optimal latent code sequences by beam search.
 
 🔹 [MULTI-CRITIC ACTOR LEARNING: TEACHING RL POLICIES TO ACT WITH STYLE](https://openreview.net/pdf?id=rJvY_5OzoI) :+1:  
 
@@ -2528,6 +2536,17 @@ CFPI: the behavior constraint naturally motivates the use of first-order Taylor 
 
 we explore how prompts can help sequencemodeling based offline-RL algorithms --> extend the framework to the Meta-RL setting and propose Contextual Meta Transformer (CMT).
 
+🔹 [HYPER-DECISION TRANSFORMER FOR EFFICIENT ONLINE POLICY ADAPTATION](https://openreview.net/pdf?id=AatUEvC-Wjv) :no_mouth: 
+
+HDT: augment the base DT with an adaptation module, whose parameters are initialized by a hyper-network. When encountering unseen tasks, the hyper-network takes a handful of demonstrations as inputs and initializes the adaptation module accordingly.
+
+🔹 [FROM PLAY TO POLICY: CONDITIONAL BEHAVIOR GENERATION FROM UNCURATED ROBOT DATA](https://openreview.net/pdf?id=c7rM7F7jQjN) :no_mouth: 
+
+ Conditional Behavior Transformers (C-BeT), a method that combines the multi-modal generation ability of Behavior Transformer with future-conditioned goal specification.
+
+
+
+
 🔹 [ACQL: AN ADAPTIVE CONSERVATIVE Q-LEARNING FRAMEWORK FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=o_HqtIc-oF) :+1: :fire: :fire: 
 
  two weight functions, corresponding to the out-of-distribution (OOD) actions and actions in the dataset, are introduced to adaptively shape the Q-function.
@@ -2620,13 +2639,58 @@ we ask what are the best dynamic system models, estimating their own uncertainty
 
 Implicit Value Regularization (IVR) framework + Sparse Q-learning (SQL). 
 
+🔹 [EXTREME Q-LEARNING: MAXENT RL WITHOUT ENTROPY](https://openreview.net/pdf?id=SJ0Lde3tRL) 🌋 💧 
+
+Using EVT, we derive our Extreme Q-Learning framework and consequently online and offline MaxEnt Q-learning algorithms, that do not explicitly require access to a policy or its entropy. 
+
 🔹 [IS CONDITIONAL GENERATIVE MODELING ALL YOU NEED FOR DECISION-MAKING?](https://openreview.net/pdf?id=sP1fo2K9DFG) :no_mouth: 
 
 Decision Diffuser: a conditional generative model for sequential decision making.
 
 🔹 [SPRINT: SCALABLE SEMANTIC POLICY PRETRAINING VIA LANGUAGE INSTRUCTION RELABELING](https://openreview.net/pdf?id=tDG-zrQ8S1Q) :no_mouth: 
 
-🔹 [PSEUDOMETRIC GUIDED ONLINE QUERY AND UPDATE FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=gTph9AD_gx1) 
+🔹 [PSEUDOMETRIC GUIDED ONLINE QUERY AND UPDATE FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=gTph9AD_gx1) :fire: 
+
+ PGO2 has a structural design between the Q-neural network and the Siamese network, which guarantees simultaneous Q-network updating and pseudometric learning, promoting Q-network fine-tuning. In the inference phase, PGO2 solves convex optimizations to identify optimal query actions.
+
+🔹 [LIGHTWEIGHT UNCERTAINTY FOR OFFLINE REINFORCEMENT LEARNING VIA BAYESIAN POSTERIOR](https://openreview.net/pdf?id=55Eet8WGJTv) :fire: 
+
+we propose a lightweight uncertainty quantifier based on approximate Bayesian inference in the last layer of the Q-network, which estimates the Bayesian posterior with minimal parameters in addition to the ordinary Q-network. Moreover, to avoid mode collapse in OOD samples and improve diversity in the Q-posterior, we introduce a repulsive force for OOD predictions in training.
+
+🔹 [Q-ENSEMBLE FOR OFFLINE RL: DON’T SCALE THE ENSEMBLE, SCALE THE BATCH SIZE](https://openreview.net/pdf?id=V5NFgHyNBI8) 
+
+🔹 [EFFECTIVE OFFLINE REINFORCEMENT LEARNING VIA CONSERVATIVE STATE VALUE ESTIMATION](https://openreview.net/pdf?id=aySB6rDo0z) 
+
+CSVE: 
+
+🔹 [CONTRASTIVE VALUE LEARNING: IMPLICIT MODELS FOR SIMPLE OFFLINE RL](https://openreview.net/pdf?id=XRPcmvMFFe) :fire: 🌋 :boom: 
+
+CVL: learn a different type of model for offline RL, a model which (1) will not require predicting high-dimensional observations and (2) can be directly used to estimate Q-values without requiring either model-based rollouts or model-free temporal difference learning.
+
+🔹 [FINE-TUNING OFFLINE POLICIES WITH OPTIMISTIC ACTION SELECTION](https://openreview.net/pdf?id=2x8EKbGU51k) :fire: 
+
+O3F: A key insight of our method is that we collect optimistic data without changing the training objective. To collect such exploratory data, we aim to use the knowledge embedded in the Q-function to direct exploration, i.e., selecting actions that are estimated to be better than the ones given by the policy.
+
+🔹 [SEMI-SUPERVISED OFFLINE REINFORCEMENT LEARNING WITH ACTION-FREE TRAJECTORIES](https://openreview.net/pdf?id=6OxI4WqGr6) :no_mouth: 
+
+SS-ORL contains three simple and scalable steps: (1) train a multi-transition inverse dynamics model on labelled data, which predicts actions based on transition sequences, (2) fill in proxy-actions for unlabelled data, and finally (3) train an offline RL agent on the combined dataset.
+
+🔹 [A CONNECTION BETWEEN ONE-STEP RL AND CRITIC REGULARIZATION IN REINFORCEMENT LEARNING](https://openreview.net/pdf?id=ceOdspvoaEA) :+1: :fire: 🌋 :boom:
+
+applying a multi-step critic regularization method with a regularization coefficient of 1 yields the same policy as one-step RL.
+
+🔹 [DICHOTOMY OF CONTROL: SEPARATING WHAT YOU CAN CONTROL FROM WHAT YOU CANNOT](https://openreview.net/pdf?id=DEGjDDV22pI) :fire:
+
+DoC: conditioning the policy on a latent variable representation of the future, and designing a mutual information constraint that removes any information from the latent variable associated with randomness in the environment.
+
+🔹 [TOWARDS UNIVERSAL VISUAL REWARD AND REPRESENTATION VIA VALUE-IMPLICIT PRE-TRAINING](https://openreview.net/pdf?id=YJ7o2wetJ2) 
+
+
+
+
+
+
+
 
 
 
@@ -3401,6 +3465,18 @@ i Cross-Entropy Method (CEM):
   🔹 [Double Check Your State Before Trusting It: Confidence-Aware Bidirectional Offline Model-Based Imagination](https://arxiv.org/pdf/2206.07989.pdf) :no_mouth: 
 
   CABI: generates reliable samples and can be combined with any model-free offline RL method
+
+  🔹 [VARIATIONAL LATENT BRANCHING MODEL FOR OFF-POLICY EVALUATION](https://openreview.net/pdf?id=3VFQfAG3vwi) :no_mouth: 
+
+  VLBM:  try to accurately capture the dynamics underlying environments from offline training data that provide limited coverage of the state and action space; for model-based OPE 
+
+  🔹 [LATENT VARIABLE REPRESENTATION FOR REINFORCEMENT LEARNING](https://openreview.net/pdf?id=mQpmZVzXK1h) 💧
+
+  LV-Rep
+
+
+
+
 
 
 <a name="anchor-trainingrl"></a>  
@@ -4377,6 +4453,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [OFFLINE REINFORCEMENT LEARNING VIA HIGHFIDELITY GENERATIVE BEHAVIOR MODELING](https://arxiv.org/pdf/2209.14548.pdf) :fire: 
 
   we adopt a generative approach by decoupling the learned policy into two parts: an expressive generative behavior model (diffusion model) and an action evaluation model (Q-value of behavior policy).
+
+  🔹 [KNOW YOUR BOUNDARIES: THE ADVANTAGE OF EXPLICIT BEHAVIORAL CLONING IN OFFLINE RL](https://openreview.net/pdf?id=MT2l4ziaxeE) 
+
+  ARQ: utilizing a score-based generative model for behavior cloning.
 
   🔹 [A Regularized Implicit Policy for Offline Reinforcement Learning](https://arxiv.org/pdf/2202.09673.pdf) :no_mouth: 
 
