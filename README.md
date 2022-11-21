@@ -1684,6 +1684,10 @@ we learn a goal proximity function (task proress) and utilize it as a dense rewa
 
 extracting an intrinsic bonus from the demonstrations.
 
+🔹 [Out-of-Dynamics Imitation Learning from Multimodal Demonstrations](https://arxiv.org/pdf/2211.06839.pdf) :fire: 
+
+OOD-IL enables imitation learning to utilize demonstrations from a wide range of demonstrators but introduces a new challenge: some demonstrations cannot be achieved by the imitator due to the different dynamics. develop a better transferability measurement. 
+
 - Adding Noise
 
   🔹 [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
@@ -1891,6 +1895,11 @@ TRAIL proposes to constrain the GAIL discriminator such that it is not able to d
   🔹 [MORAL: Aligning AI with Human Norms through Multi-Objective Reinforced Active Learning](https://arxiv.org/pdf/2201.00012.pdf) 😶 
 
    Through maintaining a distribution over scalarization weights, our approach is able to interactively tune a deep RL agent towards a variety of preferences, while eliminating the need for computing multiple policies. 
+
+  🔹 [Rewards Encoding Environment Dynamics Improves Preference-based Reinforcement Learning](https://arxiv.org/pdf/2211.06527.pdf) :+1: 
+
+  REED: iterates between encoding environment dynamics in a state-action representation via a self-supervised temporal consistency task, and bootstrapping the preference-based reward function from the state-action representation.
+
 
 - Reward Comparison; PBRS (potential-based reward shaping) 
 
@@ -2475,6 +2484,10 @@ SDC: We first perturb the states sampled from the logged dataset, then simulate 
 🔹 [A Policy-Guided Imitation Approach for Offline Reinforcement Learning](https://arxiv.org/pdf/2210.08323.pdf) :fire: :fire: 
 
 POR: During training, the guide-policy and execute-policy are learned using only data from the dataset, in a supervised and decoupled manner. During evaluation, the guide-policy guides the execute-policy by telling where it should go so that the reward can be maximized.
+
+🔹 [OFFLINE REINFORCEMENT LEARNING WITH ADAPTIVE BEHAVIOR REGULARIZATION](https://arxiv.org/pdf/2211.08251.pdf) :fire: 🌋 
+
+ABR enables the policy to adaptively adjust its optimization objective between cloning and improving over the policy used to generate the dataset. 
 
 
 🔹 :small_blue_diamond: 
@@ -4679,7 +4692,12 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   features that are most transferable have high uniformity in the embedding space and propose a uniformity regularization scheme that encourages better transfer and feature reuse. 
 
-  
+  🔹 [Instance-based Learning for Knowledge Base Completion](https://arxiv.org/pdf/2211.06807.pdf) :fire: 🌋 
+
+  a new method for knowledge base completion (KBC): instance-based learning (IBL) 
+
+
+
 
 + Distillation 
   
