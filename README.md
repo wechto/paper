@@ -11,34 +11,34 @@ To-Do (Reading) List: :droplet: :sweat_drops: [并没有说水的意思😐🙏]
 TOC  
 
 - [READING LIST](#reading-list)
-  - [Emp. & ASP](#emp--asp)
+  - [Emp. \& ASP](#emp--asp)
   - [Meta-RL](#meta-rl)
   - [HRL](#hrl)
   - [SKILLS](#skills)
   - [Control as Inference](#control-as-inference)
   - [State Abstraction, Representation Learning](#state-abstraction-representation-learning)
   - [Mutual Information](#mutual-information)
-  - [DR (Domain Randomization) & sim2real](#dr-domain-randomization--sim2real)
-  - [Transfer: Generalization & Adaption (Dynamics)](#transfer-generalization--adaption-dynamics)
+  - [DR (Domain Randomization) \& sim2real](#dr-domain-randomization--sim2real)
+  - [Transfer: Generalization \& Adaption (Dynamics)](#transfer-generalization--adaption-dynamics)
   - [IL (IRL)](#il-irl)
   - [Offline RL](#offline-rl)
   - [Exploration](#exploration)
   - [Causal Inference](#causal-inference)
-  - [Supervised RL & Goal-conditioned Policy](#supervised-rl--goal-conditioned-policy)
-  - [Goal-relabeling & Self-imitation](#goal-relabeling--self-imitation)
-  - [Model-based RL & world models](#model-based-rl--world-models)
-  - [Training RL & Just Fast & Embedding? & OPE(DICE)](#training-rl--just-fast--embedding--opedice)
+  - [Supervised RL \& Goal-conditioned Policy](#supervised-rl--goal-conditioned-policy)
+  - [Goal-relabeling \& Self-imitation](#goal-relabeling--self-imitation)
+  - [Model-based RL \& world models](#model-based-rl--world-models)
+  - [Training RL \& Just Fast \& Embedding? \& OPE(DICE)](#training-rl--just-fast--embedding--opedice)
   - [MARL](#marl)
   - [Constrained RL](#constrained-rl)
   - [Distributional RL](#distributional-rl)
   - [Continual Learning](#continual-learning)
-  - [Self-paced & Curriculum RL](#self-paced--curriculum-rl)
+  - [Self-paced \& Curriculum RL](#self-paced--curriculum-rl)
   - [Quadruped](#quadruped)
   - [Optimization](#optimization)
   - [Galaxy  Forest](#galaxy--forest)
   - [Aha](#aha)
     - [Alpha](#alpha)
-    - [Blog & Corp. & Legend](#blog--corp--legend)
+    - [Blog \& Corp. \& Legend](#blog--corp--legend)
 
 <a name="anchor-emp"></a>  
 
@@ -329,6 +329,10 @@ TOC
 
   Conclusion: multi-task pretraining with fine-tuning on new tasks performs equally as well, or better, than meta-RL.
 
+  🔹 [Enhanced Meta Reinforcement Learning using Demonstrations in Sparse Reward Environments](https://arxiv.org/pdf/2209.13048.pdf) :fire: 
+
+  (EMRLD) that combines RL-based policy improvement and behavior cloning from demonstrations for task-specific adaptation.
+
 - Asymmetric Distribution Measure for Few-shot Learning <https://arxiv.org/pdf/2002.00153.pdf> :+1:
 
   feature representations and relation measure.
@@ -527,6 +531,14 @@ TOC
   🔹 [Unsupervised Reinforcement Learning in Multiple Environments](https://arxiv.org/pdf/2112.08746.pdf) :+1:
   
   we foster an exploration strategy that is sensitive to the most adverse cases within the class. Hence, we cast the exploration problem as the maximization of the mean of a critical percentile of the state visitation entropy induced by the exploration strategy over the class of environments.  
+
+  🔹 [CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery](https://arxiv.org/pdf/2202.00161.pdf) :no_mouth: 
+
+  CIC utilizes contrastive learning between state-transitions and skills to learn behavior embeddings and maximizes the entropy of these embeddings as an intrinsic reward to encourage behavioral diversity.
+
+  🔹 [SKILL-BASED REINFORCEMENT LEARNING WITH INTRINSIC REWARD MATCHING](https://arxiv.org/pdf/2210.07426.pdf) :fire: :no_mouth: 
+
+  Intrinsic Reward Matching (IRM): We propose to leverage the skill discriminator to match the intrinsic and downstream task rewards and determine the optimal skill for an unseen task without environment samples, consequently finetuning with greater sample-efficiency.
   
 <a name="anchor-inference"></a>
 
@@ -912,6 +924,15 @@ Strategies for approximate zero-shot RL have been suggested using successor feat
 🔹 [Learning One Representation to Optimize All Rewards](https://arxiv.org/pdf/2103.07945.pdf) :fire: 🌋 :boom: 
 
 We introduce the forward-backward (FB) representation of the dynamics of a reward-free Markov decision process. It provides explicit near-optimal policies for any reward specified a posteriori.
+
+🔹 [TOWARDS UNIVERSAL VISUAL REWARD AND REPRESENTATION VIA VALUE-IMPLICIT PRE-TRAINING](https://openreview.net/pdf?id=YJ7o2wetJ2) :+1: :fire: 🌋 :boom: 💧 
+
+Value-Implicit Pre-training (VIP), a self-supervised pre-trained visual representation capable of generating dense and smooth reward functions for unseen robotic tasks.
+
+🔹 [VRL3: A Data-Driven Framework for Visual Deep Reinforcement Learning](https://arxiv.org/pdf/2202.10324.pdf) 💧 
+
+
+
 
 
 <a name="anchor-MI"></a>
@@ -2291,6 +2312,10 @@ DWBC: We introduce an additional discriminator to distinguish expert and non-exp
 
 (DMIL) framework, which introduces a discriminator to simultaneously distinguish the dynamics correctness and suboptimality of model rollout data against real expert demonstrations.
 
+🔹 [CLARE: CONSERVATIVE MODEL-BASED REWARD LEARNING FOR OFFLINE INVERSE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=5aT4ganOd98) 🌋 💧 
+
+solves offline IRL efficiently via integrating ‘conservatism’ into a learned reward function and utilizing an estimated dynamics model.
+
 🔹 [Offline Preference-Based Apprenticeship Learning](https://arxiv.org/pdf/2107.09251.pdf) :+1:  ​
 
 OPAL: Given a database consisting of trajectories without reward labels, we query an expert for preference labels over trajectory segments from the database, learn a reward function from preferences, and then perform offline RL using rewards provided by the learned reward function.
@@ -2446,6 +2471,10 @@ We alleviate the distributional shift at the deployment time by introducing a re
 
 SDC: We first perturb the states sampled from the logged dataset, then simulate noisy next states on the basis of a dynamics model and the policy. We then train the policy to minimize the distances between the noisy next states and the offline dataset.
 
+
+🔹 [A Policy-Guided Imitation Approach for Offline Reinforcement Learning](https://arxiv.org/pdf/2210.08323.pdf) :fire: :fire: 
+
+POR: During training, the guide-policy and execute-policy are learned using only data from the dataset, in a supervised and decoupled manner. During evaluation, the guide-policy guides the execute-policy by telling where it should go so that the reward can be maximized.
 
 
 🔹 :small_blue_diamond: 
@@ -2683,7 +2712,21 @@ applying a multi-step critic regularization method with a regularization coeffic
 
 DoC: conditioning the policy on a latent variable representation of the future, and designing a mutual information constraint that removes any information from the latent variable associated with randomness in the environment.
 
-🔹 [TOWARDS UNIVERSAL VISUAL REWARD AND REPRESENTATION VIA VALUE-IMPLICIT PRE-TRAINING](https://openreview.net/pdf?id=YJ7o2wetJ2) 
+🔹 [CORRECTING DATA DISTRIBUTION MISMATCH IN OFFLINE META-REINFORCEMENT LEARNING WITH FEWSHOT ONLINE ADAPTATION](https://openreview.net/pdf?id=Dk7tsv9fkF) 🌋 💧 
+
+GCC: To align adaptation context with the meta-training distribution, GCC utilizes greedy task inference, which diversely samples “task hypotheses” and selects a hypothesis with the highest return to update the belief
+
+🔹 [OFFLINE REINFORCEMENT LEARNING FROM HETEROSKEDASTIC DATA VIA SUPPORT CONSTRAINTS](https://openreview.net/pdf?id=Rg1LG7wtd2D) :+1: 🌋 :fire: 
+
+CQL (ReDS): the learned policy should be free to choose per state how closely to follow the behavior policy to maximize long-term return, as long as the learned policy stays within the support of the behavior policy.
+
+🔹 [OFFLINE REINFORCEMENT LEARNING VIA WEIGHTED f-DIVERGENCE](https://openreview.net/pdf?id=vJVIUTwohv) :fire: :fire: 
+
+DICE: we presented DICE via weighted f-divergence, a framework to control the degree of regularization on each state-action by adopting weight k to f-divergence.
+
+
+
+
 
 
 
@@ -2857,6 +2900,14 @@ DoC: conditioning the policy on a latent variable representation of the future, 
   🔹 [REWARDING EPISODIC VISITATION DISCREPANCY FOR EXPLORATION IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/2209.08842.pdf) 😶 
 
   REVD provides intrinsic rewards by evaluating the Renyi divergence-based visitation discrepancy between episodes.
+
+  🔹 [Redeeming Intrinsic Rewards via Constrained Optimization](https://arxiv.org/pdf/2211.07627.pdf) :fire: :fire: 
+
+  EIPO: automatically tunes the importance of the intrinsic reward: it suppresses the intrinsic reward when exploration is unnecessary and increases it when exploration is required. 
+
+
+
+
   
 <a name="anchor-causual"></a>  
 
@@ -3043,6 +3094,10 @@ we introduce the concept of cumulative accessibility functions, which measure th
 🔹 [C-PLANNING: AN AUTOMATIC CURRICULUM FOR LEARNING GOAL-REACHING TASKS](https://arxiv.org/pdf/2110.12080.pdf) :fire:
 
 Frame the learning of the goal-conditioned policies as expectation maximization: the E-step corresponds to planning an optimal sequence of waypoints using graph search, while the M-step aims to learn a goal-conditioned policy to reach those waypoints.
+
+🔹 [Imitating Past Successes can be Very Suboptimal](https://arxiv.org/pdf/2206.03378.pdf) :+1: :fire: 🌋 
+
+we prove that existing outcome-conditioned imitation learning methods do not necessarily improve the policy; rather, in some settings they can decrease the expected reward. Nonetheless, we show that a simple modification results in a method that does guarantee policy improvement, under some assumptions. 
 
 🔹 [Bisimulation Makes Analogies in Goal-Conditioned Reinforcement Learning](https://arxiv.org/pdf/2204.13060.pdf) :fire: 🌋 
 
@@ -3428,6 +3483,17 @@ AutoMBPO: we aim to investigate how to appropriately schedule these hyperparamet
 
 Policy-adaptation Model-based Actor-Critic (PMAC), which learns a policy-adapted dynamics model based on a policy-adaptation mechanism. This mechanism dynamically adjusts the historical policy mixture distribution to ensure the learned model can continually adapt to the state-action visitation distribution of the evolving policy.
 
+🔹 [When to Update Your Model: Constrained Model-based Reinforcement Learning](https://arxiv.org/pdf/2210.08349.pdf) :fire: 🌋 💧 
+
+CMLO:  learning models from a dynamically-varying number of explorations benefit the eventual returns
+
+🔹 [Model-based Safe Deep Reinforcement Learning via a Constrained Proximal Policy Optimization Algorithm](https://arxiv.org/pdf/2210.07573.pdf) 
+
+We use an ensemble of neural networks with different initializations to tackle epistemic and aleatoric uncertainty issues faced during environment model learning. 
+
+
+
+
 :o: Zero-Order Trajectory Optimizers / Planning
 
 🔹 [Sample-efficient Cross-Entropy Method for Real-time Planning](https://arxiv.org/pdf/2008.06389.pdf) :droplet:
@@ -3470,10 +3536,15 @@ i Cross-Entropy Method (CEM):
 
   VLBM:  try to accurately capture the dynamics underlying environments from offline training data that provide limited coverage of the state and action space; for model-based OPE 
 
+  🔹 [CONSERVATIVE BAYESIAN MODEL-BASED VALUE EXPANSION FOR OFFLINE POLICY OPTIMIZATION](https://openreview.net/pdf?id=dNqxZgyjcYA) :fire: 🌋 
+
+  CBOP: that trades off model-free and model-based estimates during the policy evaluation step according to their epistemic uncertainties, and facilitates conservatism by taking a lower bound on the Bayesian posterior value estimate
+
   🔹 [LATENT VARIABLE REPRESENTATION FOR REINFORCEMENT LEARNING](https://openreview.net/pdf?id=mQpmZVzXK1h) 💧
 
   LV-Rep
 
+  🔹 [PESSIMISTIC MODEL-BASED ACTOR-CRITIC FOR OFFLINE REINFORCEMENT LEARNING: THEORY AND ALGORITHMS](https://openreview.net/pdf?id=VQfSsOTrLIy) 💧 
 
 
 
@@ -3822,7 +3893,6 @@ we propose to learn what to model in a way that can directly help value predicti
 DPI: We present and analyze Dual Policy Iteration—a framework that alternatively computes a non-reactive policy via more advanced and systematic search, and updates a reactive policy via imitating the non-reactive one. [MPO, AWR]
 
 🔹 [Regret Minimization for Partially Observable Deep Reinforcement Learning](http://proceedings.mlr.press/v80/jin18c/jin18c.pdf) :confused:
-
  ​
 
  🔹 [THE IMPORTANCE OF PESSIMISM IN FIXED-DATASET POLICY OPTIMIZATION](https://arxiv.org/pdf/2009.06799.pdf)  :volcano: :boom:  :ghost:  :sweat_drops:  ​
@@ -3883,9 +3953,13 @@ SAC-D: We also introduce decomposition-based tools that exploit this information
 
 we propose a new OPE estimator that leverages marginalized importance weights when action embeddings provide structure in the action space. [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/6da9003b743b65f4c0ccd295cc484e57.png) 
 
+🔹 [PerSim: Data-efficient Offline Reinforcement Learning with Heterogeneous Agents via Personalized Simulators](https://arxiv.org/pdf/2102.06961.pdf) :fire: 
 
+ a model-based offline RL approach which first learns a personalized simulator for each agent by collectively using the historical trajectories across all agents, prior to learning a policy.
 
+🔹 [Value Function Decomposition for Iterative Design of Reinforcement Learning Agents](https://arxiv.org/pdf/2206.13901.pdf) :fire: 
 
+we introduce SAC-D, a variant of soft actor-critic (SAC) adapted for value decomposition.
 
 🔹 [Gradient Temporal-Difference Learning with Regularized Corrections](https://arxiv.org/pdf/2007.00611.pdf) :fire: 
 
@@ -3958,6 +4032,10 @@ UA-DDPG:  It exploits epistemic uncertainty to accelerate exploration and aleato
 
 BIRIS: We further provide a high-probability upper bound of the Reuse Bias, and show that controlling one term of the upper bound can control the Reuse Bias by introducing the concept of stability for off-policy algorithms
 
+🔹 [Reinforcement Learning with a Terminator](https://arxiv.org/pdf/2205.15376.pdf) :fire: :fire: 
+
+We define the Termination Markov Decision Process (TerMDP), an extension of the MDP framework, in which episodes may be interrupted by an external non-Markovian observer
+
 <a name="anchor-marl"></a>
 
 ## MARL
@@ -4013,6 +4091,14 @@ QMIX employs a network that estimates joint action-values as a complex non-linea
   🔹 [Beyond Rewards: a Hierarchical Perspective on Offline Multiagent Behavioral Analysis](https://arxiv.org/pdf/2206.09046.pdf) :+1: :fire: 
 
    MOHBA: We introduce a model-agnostic method for discovery of behavior clusters in multiagent domains, using variational inference to learn a hierarchy of behaviors at the joint and local agent levels.
+
+🔹 [Discovered Policy Optimisation](https://arxiv.org/pdf/2210.05639.pdf) :fire: 
+
+we explore the Mirror Learning space by meta-learning a “drift” function. We refer to the result as Learnt Policy Optimisation (LPO). By analysing LPO we gain original insights into policy optimisation which we use to formulate a novel, closed-form RL algorithm, Discovered Policy Optimisation (DPO).
+
+
+
+
 
 <a name="anchor-constrainedrl"></a>  
 
@@ -4818,6 +4904,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   We present SimPer, a simple contrastive SSL regime for learning periodic information in data. To exploit the periodic inductive bias, SimPer introduces customized augmentations, feature similarity measures, and a generalized contrastive loss for learning efficient and robust periodic representations.
 
+  🔹 [THE HIDDEN UNIFORM CLUSTER PRIOR IN SELF-SUPERVISED LEARNING](https://arxiv.org/pdf/2210.07277.pdf) :fire: :fire: 
+
+  By moving away from conventional uniformity priors (in self-suprevised learning) and instead preferring power-law distributed feature clusters, we show that one can improve the quality of the learned representations on real-world class-imbalanced datasets.
+
 - Uncertainty (Calibration)
 
   🔹 [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://proceedings.neurips.cc/paper/2017/file/9ef2ed4b7fd2c810847ffa5fa85bce38-Paper.pdf) 🔥 
@@ -4896,6 +4986,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Hypernetwork-Based Augmentation](https://arxiv.org/pdf/2006.06320.pdf) :fire:
   
   We propose an efficient gradient-based search algorithm, called Hypernetwork-Based Augmentation (HBA), which simultaneously learns model parameters and augmentation hyperparameters in a single training.
+
+  🔹 [Hypernetworks in Meta-Reinforcement Learning](https://arxiv.org/pdf/2210.11348.pdf) :fire: 
+
+  We 1) show that hypernetwork initialization is also a critical factor in meta-RL, and that naive initializations yield poor performance; 2) propose a novel hypernetwork initialization scheme that matches or exceeds the performance of a state-of-the-art approach proposed for supervised settings, as well as being simpler and more general.
 
   🔹 [Goal-Conditioned Generators of Deep Policies](https://arxiv.org/pdf/2207.01570.pdf) :fire: 
 
