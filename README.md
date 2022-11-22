@@ -35,7 +35,7 @@ TOC
   - [Self-paced \& Curriculum RL](#self-paced--curriculum-rl)
   - [Quadruped](#quadruped)
   - [Optimization](#optimization)
-  - [Galaxy  Forest](#galaxy--forest)
+  - [Galaxy Forest](#galaxy-forest)
   - [Aha](#aha)
     - [Alpha](#alpha)
     - [Blog \& Corp. \& Legend](#blog--corp--legend)
@@ -539,6 +539,13 @@ TOC
   🔹 [SKILL-BASED REINFORCEMENT LEARNING WITH INTRINSIC REWARD MATCHING](https://arxiv.org/pdf/2210.07426.pdf) :fire: :no_mouth: 
 
   Intrinsic Reward Matching (IRM): We propose to leverage the skill discriminator to match the intrinsic and downstream task rewards and determine the optimal skill for an unseen task without environment samples, consequently finetuning with greater sample-efficiency.
+
+  🔹 [Residual Skill Policies: Learning an Adaptable Skill-based Action Space for Reinforcement Learning for Robotics](https://arxiv.org/pdf/2211.02231.pdf) :fire: 
+
+  ReSkill: accelerating exploration in the skill space using state-conditioned generative models to directly bias the high-level agent towards only sampling skills relevant to a given state based on prior experience. 
+
+
+
   
 <a name="anchor-inference"></a>
 
@@ -2431,6 +2438,10 @@ Our aim is to test the scalability of prior IL + RL algorithms and devise a syst
 
 APE-V: optimal policies for offline RL must be adaptive, depending not just on the current state but rather all the transitions seen so far during evaluation.
 
+🔹 [Deconfounded Imitation Learning](https://arxiv.org/pdf/2211.02667.pdf) :fire: 
+
+We then introduce an algorithm for deconfounded imitation learning, which trains an inference model jointly with a latent-conditional policy. At test time, the agent alternates between updating its belief over the latent and acting under the belief.
+
 🔹 [Distance-Sensitive Offline Reinforcement Learning](https://arxiv.org/pdf/2205.11027.pdf) 👍 :fire: 🌋 
 
 We propose a new method, DOGE (Distance-sensitive Offline RL with better GEneralization). DOGE marries dataset geometry with deep function approximators in offline RL, and enables exploitation in generalizable OOD areas rather than strictly constraining policy within data distribution. 
@@ -2485,9 +2496,13 @@ SDC: We first perturb the states sampled from the logged dataset, then simulate 
 
 POR: During training, the guide-policy and execute-policy are learned using only data from the dataset, in a supervised and decoupled manner. During evaluation, the guide-policy guides the execute-policy by telling where it should go so that the reward can be maximized.
 
-🔹 [OFFLINE REINFORCEMENT LEARNING WITH ADAPTIVE BEHAVIOR REGULARIZATION](https://arxiv.org/pdf/2211.08251.pdf) :fire: 🌋 
+🔹 [OFFLINE REINFORCEMENT LEARNING WITH ADAPTIVE BEHAVIOR REGULARIZATION](https://arxiv.org/pdf/2211.08251.pdf) :fire: 🌋 :boom: 
 
-ABR enables the policy to adaptively adjust its optimization objective between cloning and improving over the policy used to generate the dataset. 
+ABR: a novel offline RL algorithm that achieves an adaptive balance between cloning and improving over the behavior policy. By simply adding a sample-based regularizer to the Bellman backup, we construct an adaptively regularized objective for the policy improvement, which implicitly estimates the probability density of the behavior policy. 
+
+🔹 [Dual Generator Offline Reinforcement Learning](https://arxiv.org/pdf/2211.01471.pdf) :fire: 🌋 
+
+DASCO: training two generators: one that maximizes return, with the other capturing the “remainder” of the data distribution in the offline dataset, such that the mixture of the two is close to the behavior policy.
 
 
 🔹 :small_blue_diamond: 
@@ -4696,6 +4711,13 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   a new method for knowledge base completion (KBC): instance-based learning (IBL) 
 
+  🔹 [Dataset Distillation by Matching Training Trajectories](https://arxiv.org/pdf/2203.11932.pdf) :fire: 
+
+  MTT: we propose a new formulation that optimizes our distilled data to guide networks to a similar state as those trained on real data across many training steps.
+
+  🔹 [Dataset Distillation via Factorization](https://arxiv.org/pdf/2210.16774.pdf) :+1: 
+
+  HaBa: we further introduce a pair of adversarial contrastive constraints on the resultant hallucination networks and bases, which increase the diversity of generated images and inject more discriminant information into the factorization. 
 
 
 
@@ -4714,7 +4736,7 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
    we consider how to capture interactions between practitioners and experts systematically. We devise a taxonomy to match expert feedback types with practitioner updates. A practitioner may receive feedback from an expert at the observationor domain-level, and convert this feedback into updates to the dataset, loss function, or parameter space.
 
   
-## Galaxy  Forest  
+## Galaxy Forest 
 
 ​ :milky_way: :snowflake: :cyclone: :ocean: :volcano: :earth_africa: :earth_americas: :earth_asia: :book: :dart: :gem: :lemon: :headphones: :pushpin: :artificial_satellite: :satellite: :rocket: :stars: :sunrise_over_mountains: :triangular_flag_on_post: :beer: :tea: :date: :golf: :hourglass: :camera: :pager: :balloon: :trophy: :apple: :rice: ​
 
