@@ -357,6 +357,12 @@ TOC
 
   DiAMetR: Our framework centers on an adaptive approach to distributional robustness that trains a population of meta-policies to be robust to varying levels of distribution shift. When evaluated on a potentially shifted test-time distribution of tasks, this allows us to choose the meta-policy with the most appropriate level of robustness, and use it to perform fast adaptation.
 
+🔹 [PaCo: Parameter-Compositional Multi-Task Reinforcement Learning](https://arxiv.org/pdf/2210.11653.pdf) :fire: 
+
+A policy subspace represented by a set of parameters is learned. Policies for all the single tasks lie in this subspace and can be composed by interpolating with the learned set. 
+
+
+
 
 <a name="anchor-HRL"></a>  
 
@@ -2468,6 +2474,10 @@ CNF: we build upon recent works on learning policies in latent action spaces and
 
 🔹 [Challenges and Opportunities in Offline Reinforcement Learning from Visual Observations](https://arxiv.org/pdf/2206.04779.pdf) 
 
+🔹 [BEHAVIOR PRIOR REPRESENTATION LEARNING FOR OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2211.00863.pdf) :fire: 
+
+BPR: we first learn a state representation by mimicking actions from the dataset, and then train a policy on top of the fixed representation, using any off-the-shelf Offline RL algorithm.
+
 🔹 [S2P: State-conditioned Image Synthesis for Data Augmentation in Offline Reinforcement Learning](https://arxiv.org/pdf/2209.15256.pdf) :+1: 
 
 we firstly propose a generative model, S2P (State2Pixel), which synthesizes the raw pixel
@@ -3264,6 +3274,11 @@ We take a unifying view of this space of algorithms (off-policy learning algorit
   🔹 [QUANTIFYING DIFFERENCES IN REWARD FUNCTIONS](https://openreview.net/pdf?id=LwEQnp6CYev) :volcano: :sweat_drops:  ​ ​
 
   we introduce the Equivalent-Policy Invariant Comparison (EPIC) distance to quantify the difference between two reward functions directly, **without training a policy**. We prove EPIC is invariant on an equivalence class of reward functions that always induce the same optimal policy.
+
+🔹 [IN-CONTEXT REINFORCEMENT LEARNING WITH ALGORITHM DISTILLATION](https://arxiv.org/pdf/2210.14215.pdf) :fire: :fire: 
+
+We propose Algorithm Distillation (AD), a method for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model.
+
 
 <a name="anchor-modelbasedrl"></a>  
 
