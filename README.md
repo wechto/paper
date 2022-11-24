@@ -1326,6 +1326,13 @@ MCAT: we propose to learn an action translator among multiple training tasks. Th
 
 the critic is trained with environmental factors and observation while the actor only gets the observation as input.
 
+🔹 [Max-Min Off-Policy Actor-Critic Method Focusing on Worst-Case Robustness to Model Misspecification](https://arxiv.org/pdf/2211.03413.pdf) :fire: 
+
+Max-Min Twin Delayed Deep Deterministic Policy Gradient algorithm (M2TD3), which solves a max-min optimization problem using a simultaneous gradient ascent descent approach.
+
+
+
+
 :o: Multi-task
 
 🔹 [Multi-Task Reinforcement Learning without Interference](https://www.skillsworkshop.ai/uploads/1/2/1/5/121527312/multi-task.pdf) :fire:
@@ -1832,6 +1839,20 @@ Fake Conditioning
 🔹 [Task-Relevant Adversarial Imitation Learning](https://arxiv.org/pdf/1910.01077.pdf) :fire: :fire: 
 
 TRAIL proposes to constrain the GAIL discriminator such that it is not able to distinguish between certain, preselected expert and agent observations which do not contain task behavior.
+
+🔹 [Environment Design for Inverse Reinforcement Learning](https://arxiv.org/pdf/2210.14972.pdf) :fire: :fire: 
+
+We formalise a framework for this environment design process in which learner and expert repeatedly interact, and construct algorithms that actively seek information about the rewards by carefully curating environments for the human to demonstrate the task in.
+
+🔹 [Reward Identification in Inverse Reinforcement Learning](http://proceedings.mlr.press/v139/kim21c/kim21c.pdf) 
+
+
+
+🔹 [Identifiability in inverse reinforcement learning](https://arxiv.org/pdf/2106.03498.pdf) 
+
+
+
+
 
 - Multiple-Intent
   
@@ -2566,6 +2587,12 @@ We compare model-free, model-based, as well as hybrid offline RL approaches on v
 
 we now reformulate the MBD problem as a non-zero-sum game, which suggests an algorithmic strategy for iteratively updating the oracle within any MBO algorithm
 
+🔹 [Data-Driven Offline Decision-Making via Invariant Representation Learning](https://arxiv.org/pdf/2211.11349.pdf) :fire: 🌋 
+
+IOM: our approach for addressing distributional shift by enforcing invariance between the learned representations of the training dataset and optimized decisions.
+
+
+
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
 🔹 :small_blue_diamond: 
@@ -2762,7 +2789,9 @@ CQL (ReDS): the learned policy should be free to choose per state how closely to
 
 DICE: we presented DICE via weighted f-divergence, a framework to control the degree of regularization on each state-action by adopting weight k to f-divergence.
 
+🔹 [Adaptive Behavior Cloning Regularization for Stable Offline-to-Online Reinforcement Learning](https://arxiv.org/pdf/2210.13846.pdf) :no_mouth: 
 
+We propose to adaptively weigh the behavior cloning loss during online fine-tuning based on the agent’s performance and training stability. 
 
 
 
@@ -4078,6 +4107,12 @@ BIRIS: We further provide a high-probability upper bound of the Reuse Bias, and 
 🔹 [Reinforcement Learning with a Terminator](https://arxiv.org/pdf/2205.15376.pdf) :fire: :fire: 
 
 We define the Termination Markov Decision Process (TerMDP), an extension of the MDP framework, in which episodes may be interrupted by an external non-Markovian observer
+
+🔹 [Low-Rank Modular Reinforcement Learning via Muscle Synergy](https://arxiv.org/pdf/2210.15479.pdf) :fire:
+
+SOLAR: exploits the redundant nature of DoF in robot control. Actuators are grouped into synergies by an unsupervised learning method, and a synergy action is learned to control multiple actuators in synchrony. In this way, we achieve a low-rank control at the synergy level. 
+
+
 
 <a name="anchor-marl"></a>
 
