@@ -2587,7 +2587,7 @@ We compare model-free, model-based, as well as hybrid offline RL approaches on v
 
 we now reformulate the MBD problem as a non-zero-sum game, which suggests an algorithmic strategy for iteratively updating the oracle within any MBO algorithm
 
-🔹 [Data-Driven Offline Decision-Making via Invariant Representation Learning](https://arxiv.org/pdf/2211.11349.pdf) :fire: 🌋 
+🔹 [Data-Driven Offline Decision-Making via Invariant Representation Learning](https://arxiv.org/pdf/2211.11349.pdf) :fire: 🌋 :boom: 
 
 IOM: our approach for addressing distributional shift by enforcing invariance between the learned representations of the training dataset and optimized decisions.
 
