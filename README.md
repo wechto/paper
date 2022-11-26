@@ -2743,6 +2743,10 @@ Decision Diffuser: a conditional generative model for sequential decision making
 
 🔹 [SPRINT: SCALABLE SEMANTIC POLICY PRETRAINING VIA LANGUAGE INSTRUCTION RELABELING](https://openreview.net/pdf?id=tDG-zrQ8S1Q) :no_mouth: 
 
+🔹 [Robotic Skill Acquisition via Instruction Augmentation with Vision-Language Models](https://arxiv.org/pdf/2211.11736.pdf) :fire: 
+
+DIAL: we utilize semi-supervised language labels leveraging the semantic understanding of CLIP to propagate knowledge onto large datasets of unlabelled demonstration data and then train language-conditioned policies on the augmented datasets.
+
 🔹 [PSEUDOMETRIC GUIDED ONLINE QUERY AND UPDATE FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=gTph9AD_gx1) :fire: 
 
  PGO2 has a structural design between the Q-neural network and the Siamese network, which guarantees simultaneous Q-network updating and pseudometric learning, promoting Q-network fine-tuning. In the inference phase, PGO2 solves convex optimizations to identify optimal query actions.
@@ -2793,7 +2797,9 @@ DICE: we presented DICE via weighted f-divergence, a framework to control the de
 
 We propose to adaptively weigh the behavior cloning loss during online fine-tuning based on the agent’s performance and training stability. 
 
+🔹 [UniMASK: Unified Inference in Sequential Decision Problems](https://arxiv.org/pdf/2211.10869.pdf) :fire: 
 
+We show that a single UniMASK model is often capable of carrying out many tasks with performance similar to or better than single-task models. 
 
 
 
@@ -3307,6 +3313,8 @@ We take a unifying view of this space of algorithms (off-policy learning algorit
 🔹 [IN-CONTEXT REINFORCEMENT LEARNING WITH ALGORITHM DISTILLATION](https://arxiv.org/pdf/2210.14215.pdf) :fire: :fire: 
 
 We propose Algorithm Distillation (AD), a method for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model.
+
+
 
 
 <a name="anchor-modelbasedrl"></a>  
