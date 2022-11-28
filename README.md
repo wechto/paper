@@ -234,6 +234,10 @@ TOC
 
   we propose a weight averaging technique where a student with multiple subnetworks is trained to absorb the functional diversity of ensemble teachers, but then those subnetworks are properly averaged for inference, giving a single student network with no additional inference cost. We also propose a perturbation strategy that seeks inputs from which the diversities of teachers can be better transferred to the student.
 
+  🔹 [Efficient Exploration using Model-Based Quality-Diversity with Gradients](https://arxiv.org/pdf/2211.12610.pdf) :fire: 
+
+  DA-QD-ext and GDA-QD:  extends existing QD methods to use gradients for efficient exploitation and leverage perturbations in imagination for efficient exploration. 
+
 
 
   
@@ -1395,7 +1399,14 @@ MFMCRL: a multifidelity estimator that exploits the cross-correlations between t
 
 we propose an adversarial training framework with three main components, including (1) a deterministic attack for the inner maximization process of the adversarial training, (2) additional regularization terms for stable outer minimization of adversarial training, and (3) a domain-specific augmentation strategy to achieve a better performance trade-off on clean and adversarial data.
 
+🔹 [Model-based Trajectory Stitching for Improved Offline Reinforcement Learning](https://arxiv.org/pdf/2211.11603.pdf) :fire: 
 
+TS: A stitching event consists of a transition between a pair of observed states through a synthetic and highly probable action.
+
+🔹 [BATS: Best Action Trajectory Stitching](https://arxiv.org/pdf/2204.12026.pdf) :fire: 
+
+BATS: we narrow the pool of candidate stitches to those that are both
+feasible and impactful. 
 
  <a name="anchor-ood"></a>
 
@@ -2327,7 +2338,11 @@ Reverse Offline Model-based Imagination (ROMI): We learn a reverse dynamics mode
 
 🔹 [Uncertainty-Based Offline Reinforcement Learning with Diversified Q-Ensemble](https://arxiv.org/pdf/2110.01548.pdf) :+1: :fire:
 
-we propose an uncertainty-based model-free offline RL method that effectively quantifies the uncertainty of the Q-value estimates by an ensemble of Q-function networks and does not require any estimation or sampling of the data distribution.
+SAC-N: we propose an uncertainty-based model-free offline RL method that effectively quantifies the uncertainty of the Q-value estimates by an ensemble of Q-function networks and does not require any estimation or sampling of the data distribution.
+
+🔹 [Q-Ensemble for Offline RL: Don’t Scale the Ensemble, Scale the Batch Size](https://arxiv.org/pdf/2211.11092.pdf) 
+
+
 
 🔹 [ROBUST OFFLINE REINFORCEMENT LEARNING FROM LOW-QUALITY DATA](https://openreview.net/pdf?id=uOjm_xqKEoX) :no_mouth:  
 
@@ -2591,6 +2606,13 @@ we now reformulate the MBD problem as a non-zero-sum game, which suggests an alg
 
 IOM: our approach for addressing distributional shift by enforcing invariance between the learned representations of the training dataset and optimized decisions.
 
+🔹 [Let Offline RL Flow: Training Conservative Agents in the Latent Space of Normalizing Flows](https://arxiv.org/pdf/2211.11096.pdf) 
+
+CNF: we build upon recent works on learning policies (PLAS) in latent action spaces and use a special form of Normalizing Flows for constructing a generative model, which we use as a conservative action encoder. 
+
+🔹 [Towards good validation metrics for generative models in offline model-based optimisation](https://arxiv.org/pdf/2211.10747.pdf) :+1:  
+
+we propose a principled evaluation framework for model-based optimisation to measure how well a generative model can extrapolate.
 
 
 🔹 :small_blue_diamond: 
