@@ -2759,7 +2759,7 @@ Implicit Value Regularization (IVR) framework + Sparse Q-learning (SQL).
 
 Using EVT, we derive our Extreme Q-Learning framework and consequently online and offline MaxEnt Q-learning algorithms, that do not explicitly require access to a policy or its entropy. 
 
-🔹 [IS CONDITIONAL GENERATIVE MODELING ALL YOU NEED FOR DECISION-MAKING?](https://openreview.net/pdf?id=sP1fo2K9DFG) :no_mouth: 
+🔹 [IS CONDITIONAL GENERATIVE MODELING ALL YOU NEED FOR DECISION-MAKING?](https://arxiv.org/pdf/2211.15657.pdf) :no_mouth: 
 
 Decision Diffuser: a conditional generative model for sequential decision making.
 
@@ -3526,6 +3526,10 @@ IDM: It enables the agent to learn policy from enriched diverse imagination with
 🔹 [MISMATCHED NO MORE: JOINT MODEL-POLICY OPTIMIZATION FOR MODEL-BASED RL](https://arxiv.org/pdf/2110.02758.pdf) :fire:  :fire:
 
 We propose a single objective for jointly training the model and the policy, such that updates to either component increases a lower bound on expected return.
+
+🔹 [Operator Splitting Value Iteration](https://arxiv.org/pdf/2211.13937.pdf) :fire: 🌋 :boom: 
+
+Inspired by the splitting approach in numerical linear algebra, we introduce Operator Splitting Value Iteration (OS-VI) for both Policy Evaluation and Control problems. OS-VI achieves a much faster convergence rate when the model is accurate enough. 
 
 🔹 [Model-Based Reinforcement Learning via Meta-Policy Optimization](https://arxiv.org/pdf/1809.05214.pdf) :fire: :volcano:
 
