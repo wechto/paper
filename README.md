@@ -816,7 +816,7 @@ We proved which state-action abstractions are guaranteed to preserve representat
 
 🔹 [Cross-Trajectory Representation Learning for Zero-Shot Generalization in RL](https://arxiv.org/pdf/2106.02193.pdf) :confused: :droplet:
 
-We posit that a superior encoder for zero-shot generalization in RL can be trained by using solely an auxiliary SSL objective if the training process encourages the encoder to map behaviorally similar observations to similar representations.
+CTRL: We posit that a superior encoder for zero-shot generalization in RL can be trained by using solely an auxiliary SSL objective if the training process encourages the encoder to map behaviorally similar observations to similar representations.
 
 🔹 [Jointly-Learned State-Action Embedding for Efficient Reinforcement Learning](https://arxiv.org/pdf/2010.04444.pdf) :no_mouth:
 
@@ -3000,6 +3000,10 @@ We show that a single UniMASK model is often capable of carrying out many tasks 
 
   EIPO: automatically tunes the importance of the intrinsic reward: it suppresses the intrinsic reward when exploration is unnecessary and increases it when exploration is required. 
 
+  🔹 [Curiosity in Hindsight](https://arxiv.org/pdf/2211.10515.pdf) :fire: 🌋 
+
+  BYOL-Hindsight: Our key idea is to learn representations of the future that capture precisely the unpredictable aspects of each outcome—not any more, not any less—which we use as additional input for predictions, such that intrinsic rewards do vanish in the limit. 
+
 
 
 
@@ -3593,7 +3597,13 @@ CMLO:  learning models from a dynamically-varying number of explorations benefit
 
 We use an ensemble of neural networks with different initializations to tackle epistemic and aleatoric uncertainty issues faced during environment model learning. 
 
+🔹 [DREAMERPRO: RECONSTRUCTION-FREE MODEL-BASED REINFORCEMENT LEARNING WITH PROTOTYPICAL REPRESENTATIONS](https://arxiv.org/pdf/2110.14565.pdf) 
 
+combining the prototypical representation learning with temporal dynamics learning.
+
+🔹 [PROTOTYPICAL CONTEXT-AWARE DYNAMICS GENERALIZATION FOR HIGH-DIMENSIONAL MODEL-BASED REINFORCEMENT LEARNING](https://arxiv.org/pdf/2211.12774.pdf) :fire: 
+
+ProtoCAD: extracts useful contextual information with the help of the prototypes clustered over batch and benefits model-based RL in two folds: 1) It utilizes a temporally consistent prototypical regularizer; 2) A context representation is designed and can significantly improve the dynamics generalization ability. 
 
 
 :o: Zero-Order Trajectory Optimizers / Planning
@@ -4142,6 +4152,10 @@ We define the Termination Markov Decision Process (TerMDP), an extension of the 
 
 SOLAR: exploits the redundant nature of DoF in robot control. Actuators are grouped into synergies by an unsupervised learning method, and a synergy action is learned to control multiple actuators in synchrony. In this way, we achieve a low-rank control at the synergy level. 
 
+🔹 [INAPPLICABLE ACTIONS LEARNING FOR KNOWLEDGE TRANSFER IN REINFORCEMENT LEARNING](https://arxiv.org/pdf/2211.15589.pdf) :fire: 
+
+SDAS-MDP: Knowing this information (inapplicable actions) can help reduce the sample complexity of RL algorithms by masking the inapplicable actions from the policy distribution to only explore actions relevant to finding an optimal policy.
+
 
 
 <a name="anchor-marl"></a>
@@ -4664,6 +4678,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
 
   By identifying a correspondence between diffusion models and a well-known paradigm in cognitive science known as serial reproduction, whereby human agents iteratively observe and reproduce stimuli from memory, we show how the aforementioned properties (weak sensitivity to the choice of noise family and the role of adequate scheduling of noise levels) of diffusion models can be explained as a natural consequence of this correspondence.
 
+  🔹 [Parallel Diffusion Models of Operator and Image for Blind Inverse Problems](https://arxiv.org/pdf/2211.10656.pdf) :fire: 
+
+  BlindDPS: a framework for solving blind inverse problems by jointly estimating the parameters of the forward measurement operator and the image to be reconstructed.
+
 - Data Valuation 
 
   🔹 [Data shapley: Equitable valuation of data for machine learning](https://proceedings.mlr.press/v97/ghorbani19c/ghorbani19c.pdf) 
@@ -4698,6 +4716,10 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹 [Deep active inference agents using Monte-Carlo methods](https://proceedings.neurips.cc/paper/2020/file/865dfbde8a344b44095495f3591f7407-Paper.pdf) 🔥
 
   we present a neural architecture for building deep active inference agents operating in complex, continuous statespaces using multiple forms of Monte-Carlo (MC) sampling.
+
+  🔹 [Efficient Meta Reinforcement Learning for Preference-based Fast Adaptation](https://arxiv.org/pdf/2211.10861.pdf) :fire: :fire: 
+
+  ANOLE: The agent can adapt to new tasks by querying human’s preference between behavior trajectories instead of using per-step numeric rewards. By extending techniques from information theory, our approach can design query sequences to maximize the information gain from human interactions while tolerating the inherent error of non-expert human oracle. 
 
   🔹 [Prior Preference Learning from Experts: Designing a Reward with Active Inference](https://arxiv.org/pdf/2101.08937.pdf) 
 
