@@ -238,7 +238,11 @@ TOC
 
   DA-QD-ext and GDA-QD:  extends existing QD methods to use gradients for efficient exploitation and leverage perturbations in imagination for efficient exploration. 
 
+  🔹 [DISCOVERING UNSUPERVISED BEHAVIOURS FROM FULL-STATE TRAJECTORIES](https://arxiv.org/pdf/2211.15451.pdf) :+1: 
 
+  AURORA: a Quality-Diversity algorithm that autonomously finds behavioural characterisations. 
+
+  
 
   
 <a name="anchor-metarl"></a>  
@@ -1408,6 +1412,14 @@ TS: A stitching event consists of a transition between a pair of observed states
 BATS: we narrow the pool of candidate stitches to those that are both
 feasible and impactful. 
 
+🔹 [TRANSFER RL VIA THE UNDO MAPS FORMALISM](https://arxiv.org/pdf/2211.14469.pdf) :fire: 
+
+TvD: characterizing the discrepancy in environments by means of (potentially complex) transformation between their state spaces, and thus posing the problem of transfer as learning to undo this transformation.
+
+🔹 [Provably Sample-Efficient RL with Side Information about Latent Dynamics](https://arxiv.org/pdf/2205.14237.pdf) 
+
+TASID: 
+
  <a name="anchor-ood"></a>
 
 :o: :o: :o: **Out-of-Distribution (OOD) Generalization**  [Modularity--->Generalization](https://zhuanlan.zhihu.com/p/137082457)
@@ -2250,6 +2262,10 @@ The core idea is to subtract a prediction-based exploration bonus from the rewar
 
 we propose to modify the existing model-based RL methods by applying them with rewards artificially penalized by the uncertainty of the dynamics. We theoretically show that the algorithm maximizes a lower bound of the policy’s return under the true MDP. We also characterize the trade-off between the gain and risk of leaving the support of the batch data.
 
+🔹 [Domain Generalization for Robust Model-Based Offline Reinforcement Learning](https://arxiv.org/pdf/2211.14827.pdf) :no_mouth: 
+
+DIMORL: Since different demonstrators induce different data distributions, we show that this can be naturally framed as a domain generalization problem, with each demonstrator corresponding to a different domain.
+
 🔹 [MOReL: Model-Based Offline Reinforcement Learning](https://arxiv.org/pdf/2005.05951.pdf) :volcano: :boom: :droplet:  
 
 This framework consists of two steps: (a) learning a pessimistic MDP (P-MDP) using the offline dataset; (b) learning a near-optimal policy in this P-MDP.
@@ -3004,6 +3020,10 @@ We show that a single UniMASK model is often capable of carrying out many tasks 
 
   BYOL-Hindsight: Our key idea is to learn representations of the future that capture precisely the unpredictable aspects of each outcome—not any more, not any less—which we use as additional input for predictions, such that intrinsic rewards do vanish in the limit. 
 
+  🔹 [CIM: Constrained Intrinsic Motivation for Sparse-Reward Continuous Control](https://arxiv.org/pdf/2211.15205.pdf) :fire: 
+
+  CIM:  leverage readily attainable task priors to construct a constrained intrinsic objective, and at the same time, exploit the Lagrangian method to adaptively balance the intrinsic and extrinsic  bjectives via a simultaneous-maximization framework.
+
 
 
 
@@ -3752,6 +3772,10 @@ AC-Off-POC: Through a novel discrepancy measure computed by the agent’s most r
 
 We bridge the gap between MIS and deep RL  by observing that the density ratio can be computed from the successor representation of the target policy. The successor representation can be trained through deep RL methodology and decouples the reward optimization from the dynamics of the environment, making the resulting algorithm stable and applicable to high-dimensional domains.
 
+🔹 [Policy-Adaptive Estimator Selection for Off-Policy Evaluation](https://arxiv.org/pdf/2211.13904.pdf) :fire: :fire: 
+
+ PAS-IF: synthesizes appropriate subpopulations by minimizing the squared distance between the importance ratio induced by the true evaluation policy and that induced by the pseudo evaluation policy (in OPE), which we call the importance fitting step.
+
 🔹 [How Far I’ll Go: Offline Goal-Conditioned Reinforcement Learning via f-Advantage Regression](https://arxiv.org/pdf/2206.03023.pdf) 🌋
 
 Goal-conditioned f-Advantage Regression (GoFAR), a novel regressionbased offline GCRL algorithm derived from a state-occupancy matching perspective; the key intuition is that the goal-reaching task can be formulated as a stateoccupancy matching problem between a dynamics-abiding imitator agent and an expert agent that directly teleports to the goal.
@@ -3935,6 +3959,10 @@ We sought to highlight some of the strengths, weaknesses, and potential mathemat
   Addressing RL as a sequence modeling problem significantly simplifies a range of design decisions: we no longer require separate behavior policy constraints, as is common in prior work on offline model-free RL, and we no longer require ensembles or other epistemic uncertainty estimators, as is common in prior work on model-based RL.
 
   🔹 [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf) :fire: 🌋 
+
+  🔹 [How Crucial is Transformer in Decision Transformer?](https://arxiv.org/pdf/2211.14655.pdf) :no_mouth: 
+
+  These results suggest that the strength of the Decision Transformer for continuous control tasks may lie in the overall sequential modeling architecture and not in the Transformer per se.
 
   🔹 [Prompting Decision Transformer for Few-Shot Policy Generalization](https://arxiv.org/pdf/2206.13499.pdf) :fire: 🌋 
 
@@ -4484,6 +4512,14 @@ We propose the Deep Generative Replay, a novel framework with a cooperative dual
   🔹[Learning with AMIGO: Adversarially Motivated Intrinsic Goals](https://arxiv.org/pdf/2006.12122.pdf) :+1:   [Lil'Log-Curriculum](https://lilianweng.github.io/lil-log/2020/01/29/curriculum-for-reinforcement-learning.html) :+1:  ​
 
 (Intrinsic motivation + Curriculum learning)
+
+🔹 [Information Directed Reward Learning for Reinforcement Learning](https://arxiv.org/pdf/2102.12466.pdf) :fire: 🌋 :boom: 
+
+IDRL: uses a Bayesian model of the reward and selects queries that maximize the information gain about the difference in return between plausibly optimal policies. 
+
+🔹 [Actively Learning Costly Reward Functions for Reinforcement Learning](https://arxiv.org/pdf/2211.13260.pdf) :no_mouth: 
+
+ACRL, an extension to standard reinforcement learning methods in the context of (computationally) expensive rewards, which models the reward of given applications using machine learning models.
 
 <a name="anchor-quadruped"></a>  
 
