@@ -5109,6 +5109,32 @@ ACRL, an extension to standard reinforcement learning methods in the context of 
 
   This submission proposes to analyze the most popular variations of conditional GANs (ACGAN, ProjGAN, ContraGAN) under a unified, energy-based, formulation (ECGAN).
 
+  🔹 [Why Are Conditional Generative Models Better Than Unconditional Ones?](https://arxiv.org/pdf/2212.00362.pdf) :no_mouth: 
+
+  we propose self-conditioned diffusion models (SCDM), which is trained conditioned on indices clustered by the k-means algorithm on the features extracted by a model pre-trained in a self-supervised manner. 
+
+  🔹 [Partition-Guided GANs](https://arxiv.org/pdf/2104.00816.pdf) :fire: 
+
+  We break down learning complex high dimensional distributions to simpler sub-tasks, supporting diverse data samples. Our solution relies on designing a partitioner that breaks the space into smaller regions, each having a simpler distribution, and training a different generator for each partition. 
+
+  🔹 [Self-labeled Conditional GANs](https://arxiv.org/pdf/2012.02162.pdf) :fire: :fire: 
+
+  we propose Self-labeled Conditional GANs(slcGANs) that learn to assign labels to the images automatically by incorporating an additional clustering network (infoGAN).
+
+  🔹 [Instance-Conditioned GAN](https://arxiv.org/pdf/2109.05070.pdf) :fire: 🌋 
+
+  We partition the data manifold into a mixture of overlapping neighborhoods described by a datapoint and its nearest neighbors, and introduce a model, called instance-conditioned GAN (IC-GAN), which learns the distribution around each datapoint.
+
+  🔹 [Self-Guided Diffusion Models](https://openreview.net/forum?id=Gzmyu-Baq0) :fire: 
+
+  By leveraging a feature extraction function and a self-annotation function, our method provides guidance signals at various image granularities: from the level of holistic images to object boxes and even segmentation masks.
+
+  🔹 [A Unified Generative Adversarial Network Training via Self-Labeling and Self-Attention](https://arxiv.org/pdf/2106.09914.pdf) :fire: :+1: 
+
+  We exploit the assumption that neural network generators can be trained more easily to map nearby latent vectors to data with semantic similarities, than across separate categories. We use generated data samples and their corresponding artificial conditioning labels to train a classifier. The classifier is then used to self-label real data.
+
+  🔹 
+
 <a name="anchor-pareto"></a>
 
 - Pareto
@@ -5192,6 +5218,10 @@ ACRL, an extension to standard reinforcement learning methods in the context of 
   🔹 [LEARNING TO LEARN WITH GENERATIVE MODELS OF NEURAL NETWORK CHECKPOINTS](https://arxiv.org/pdf/2209.12892.pdf) :+1: 
 
   Our model is a conditional diffusion transformer that, given an initial input parameter vector and a prompted loss, error, or return, predicts the distribution over parameter updates that achieve the desired metric.
+
+  🔹 [Hypernetworks for Zero-shot Transfer in Reinforcement Learning](https://arxiv.org/pdf/2211.15457.pdf) :no_mouth: 
+
+   Our technical approach is based upon viewing each RL algorithm as a mapping from the MDP specifics to the near-optimal value function and policy and seek to approximate it with a hypernetwork that can generate near-optimal value functions and policies, given the parameters of the MDP. 
   
 ## Aha
 
