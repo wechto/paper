@@ -1731,6 +1731,14 @@ extracting an intrinsic bonus from the demonstrations.
 
 OOD-IL enables imitation learning to utilize demonstrations from a wide range of demonstrators but introduces a new challenge: some demonstrations cannot be achieved by the imitator due to the different dynamics. develop a better transferability measurement. 
 
+🔹 [Imitating Latent Policies from Observation](https://arxiv.org/pdf/1805.07914.pdf) :fire: 🌋 :boom: 
+
+ILPO: We introduce a method that characterizes the causal effects of latent actions on observations while simultaneously predicting their likelihood. We then outline an action alignment procedure that leverages a small amount of environment interactions to determine a mapping between the latent and real-world actions. 
+
+
+
+
+
 - Adding Noise
 
   🔹 [Learning from Suboptimal Demonstration via Self-Supervised Reward Regression](https://arxiv.org/pdf/2010.11723.pdf) :+1: :fire:  
@@ -2644,6 +2652,10 @@ With Explore2Offline, we propose to evaluate the quality of collected data by tr
 
 we present the Offline RiskAverse Actor-Critic (O-RAAC), a model-free RL algorithm that is able to learn risk-averse policies in a fully offline setting.
 
+🔹 [One Risk to Rule Them All: A Risk-Sensitive Perspective on Model-Based Offline Reinforcement Learning](https://arxiv.org/pdf/2212.00124.pdf) 
+
+
+
 🔹 [REVISITING DESIGN CHOICES IN OFFLINE MODEL-BASED REINFORCEMENT LEARNING](https://arxiv.org/pdf/2110.04135.pdf) :fire: 
 
 we compare these heuristics (for model uncertainty), and design novel protocols to investigate their interaction with other hyperparameters, such as the number of models, or imaginary rollout horizon. Using these insights, we show that selecting these key hyperparameters using Bayesian Optimization produces superior configurations.
@@ -2839,9 +2851,13 @@ We propose to adaptively weigh the behavior cloning loss during online fine-tuni
 
 We show that a single UniMASK model is often capable of carrying out many tasks with performance similar to or better than single-task models. 
 
+🔹 [OFFLINE REINFORCEMENT LEARNING WITH CLOSEDFORM POLICY IMPROVEMENT OPERATORS](https://arxiv.org/pdf/2211.15956.pdf) :fire: :+1: 
 
+The behavior constraint naturally motivates the use of first-order Taylor approximation, leading to a linear approximation of the policy objective. As practical datasets are usually collected by heterogeneous policies, we model the behavior policies as a Gaussian Mixture, giving rise to a closed-form policy improvement operator.
 
+🔹 [STATE-AWARE PROXIMAL PESSIMISTIC ALGORITHMS FOR OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2211.15065.pdf) 💧 
 
+State-Aware Conservative Q-Learning (SA-CQL): 
 
 
 
@@ -4767,7 +4783,9 @@ ACRL, an extension to standard reinforcement learning methods in the context of 
 
   🔹 [Active Inference in Robotics and Artificial Agents: Survey and Challenges](https://arxiv.org/pdf/2112.01871.pdf) 
 
+  🔹 [Learning Human Objectives by Evaluating Hypothetical Behavior](https://arxiv.org/pdf/1912.05652.pdf) :fire: :fire: 
 
+  reward query synthesis via trajectory optimization (ReQueST): an algorithm that synthesizes hypothetical behaviors in order to safely and efficiently train neural network reward models in environments with high-dimensional, continuous states. 
 
 
 
@@ -5090,7 +5108,7 @@ ACRL, an extension to standard reinforcement learning methods in the context of 
 
   By moving away from conventional uniformity priors (in self-suprevised learning) and instead preferring power-law distributed feature clusters, we show that one can improve the quality of the learned representations on real-world class-imbalanced datasets.
 
-- Uncertainty (Calibration)
+- Uncertainty (Calibration); OOD; 
 
   🔹 [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://proceedings.neurips.cc/paper/2017/file/9ef2ed4b7fd2c810847ffa5fa85bce38-Paper.pdf) 🔥 
 
@@ -5100,6 +5118,21 @@ ACRL, an extension to standard reinforcement learning methods in the context of 
 
   We propose the calibrated regression method using the maximum mean discrepancy by minimizing the kernel embedding measure.
 
+  🔹 [Likelihood Regret: An Out-of-Distribution Detection Score For Variational Auto-encoder](https://proceedings.nips.cc/paper/2020/file/eddea82ad2755b24c4e168c5fc2ebd40-Paper.pdf) :fire: 🌋 
+
+  The Likelihood Regret of a single input can be interpreted as the log ratio between its likelihood obtained by the posterior distribution optimized individually for that input and the likelihood approximated by the VAE.
+
+  🔹 [Likelihood Ratios for Out-of-Distribution Detection](https://arxiv.org/pdf/1906.02845.pdf) :fire: :fire: 
+
+  We propose a likelihood ratio method for deep generative models which effectively corrects for these confounding background statistics (using a background model).
+
+  🔹 [INPUT COMPLEXITY AND OUT-OF-DISTRIBUTION DETECTION WITH LIKELIHOOD-BASED GENERATIVE MODELS](https://arxiv.org/pdf/1909.11480.pdf) 🌋 
+
+  We use an estimate of input complexity to derive an efficient and parameter-free OOD score, which can be seen as a likelihood-ratio, akin to Bayesian model comparison.
+
+  🔹 [Hierarchical VAEs Know What They Don’t Know](http://proceedings.mlr.press/v139/havtorn21a/havtorn21a.pdf) 🌋 💧 
+
+  HVAE; BIVA: a likelihood-ratio based score for OOD detection and define it to explicitly ensure that data must be in-distribution across all feature levels to be regarded in-distribution.
 
   
   
