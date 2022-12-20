@@ -4613,6 +4613,26 @@ ACRL, an extension to standard reinforcement learning methods in the context of 
   
   🔹 [BENCHMARKING OFFLINE REINFORCEMENT LEARNING ON REAL-ROBOT HARDWARE](https://openreview.net/pdf?id=3k5CUGDLNdd) 💧 
 
+- Place 
+  
+  🔹 [MaskPlace: Fast Chip Placement via Reinforced Visual Representation Learning](https://openreview.net/pdf?id=T2DBbSh6_uY) :fire: :fire: 
+
+  MaskPlace recasts placement as a problem of learning pixellevel visual representation to comprehensively describe millions of modules on a chip, enabling placement in a high-resolution canvas and a large action space.
+
+  🔹 [DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement](https://www.cerc.utexas.edu/utda/publications/C252.pdf) :no-mouth: 
+
+  casting the analytical placement problem equivalently to training a neural network. 
+
+  🔹 [On Joint Learning for Solving Placement and Routing in Chip Design](https://arxiv.org/pdf/2111.00234.pdf) :fire: 
+
+  DeepPR. One key design in our (reinforcement) learning paradigm involves a multi-view embedding model to encode both global graph level and local node level information of the input macros.
+
+  🔹 [The Policy-gradient Placement and Generative Routing Neural Networks for Chip Design](https://openreview.net/pdf?id=uNYqDfPEDD8) :fire: 
+
+  PRNet: 
+
+  🔹 [Chip Placement with Deep Reinforcement Learning](https://arxiv.org/pdf/2004.10746.pdf) 👍 
+
 
 
 <a name="anchor-optimization"></a>  
