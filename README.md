@@ -952,7 +952,9 @@ Value-Implicit Pre-training (VIP), a self-supervised pre-trained visual represen
 
 🔹 [VRL3: A Data-Driven Framework for Visual Deep Reinforcement Learning](https://arxiv.org/pdf/2202.10324.pdf) 💧 
 
+🔹 [CLOUD: Contrastive Learning of Unsupervised Dynamics](https://proceedings.mlr.press/v155/wang21c/wang21c.pdf) :+1: 
 
+CLOUD: we train a forward dynamics model and an inverse dynamics model in the feature space of states and actions with data collected from random exploration. 
 
 
 
@@ -1476,6 +1478,10 @@ We propose a game-theoretic framework for the generalization in reinforcement le
 
 EM-Task-Clustering: We propose a general approach to automatically cluster together similar tasks during training. Our method, inspired by the expectation-maximization algorithm, succeeds at finding clusters of related tasks and uses these to improve sample complexity.
 
+🔹 [Learning Dynamics and Generalization in Reinforcement Learning](https://arxiv.org/pdf/2206.02126.pdf) :fire: 
+
+TD learning dynamics discourage interference, and that while this may have a beneficial effect on stability during training, it can reduce the ability of the network to generalize to new observations. 
+
 <a name="anchor-irl"></a>
 
 ## IL (IRL)
@@ -1602,9 +1608,18 @@ EM-Task-Clustering: We propose a general approach to automatically cluster toget
 
   Imitation Learning from Observation Alone (ILFO).  MobILE involves carefully trading off strategic exploration against imitation - this is achieved by integrating the idea of optimism in the face of uncertainty into the distribution matching imitation learning (IL) framework.
 
-  🔹 [IMITATION LEARNING FROM OBSERVATIONS UNDER TRANSITION MODEL DISPARITY](https://openreview.net/pdf?id=twv2QlJhXzo) :fire: :+1:
+  🔹 [IMITATION LEARNING FROM OBSERVATIONS UNDER TRANSITION MODEL DISPARITY](https://openreview.net/pdf?id=twv2QlJhXzo) :fire: :+1: :fire: 
 
-  We consider ILO where the expert and the learner agents operate in different environments (dynamics). We propose an AILO that trains an intermediary policy in the learner environment and uses it as a surrogate expert for the learner.
+  AILO: We consider ILO where the expert and the learner agents operate in different environments (dynamics). We propose an AILO that trains an intermediary policy in the learner environment and uses it as a surrogate expert for the learner.
+
+  🔹 [Robust Learning from Observation with Model Misspecification](https://arxiv.org/pdf/2202.06003.pdf) :fire: 🌋 
+
+  Robust-GAILfO:  We discuss how our method addresses the dynamics mismatch issue by exploiting the equivalence between the robust MDP formulation and the twoplayer Markov game. 
+
+  🔹 [Learn what matters: cross-domain imitation learning with task-relevant embeddings](https://arxiv.org/pdf/2209.12093.pdf) :fire: 🌋 
+
+  UDIL: unsupervised cross-domain adversarial imitation learning. We jointly train the learner agent’s policy and learn a mapping between the learner and expert domains with adversarial training. We effect this by using a mutual information criterion to find an embedding of the expert’s state space that contains task-relevant information and is invariant to domain specifics.
+
 
   🔹 [CROSS-DOMAIN IMITATION LEARNING VIA OPTIMAL TRANSPORT](https://openreview.net/pdf?id=xP3cPq2hQC) :fire:
 
@@ -1734,6 +1749,41 @@ OOD-IL enables imitation learning to utilize demonstrations from a wide range of
 🔹 [Imitating Latent Policies from Observation](https://arxiv.org/pdf/1805.07914.pdf) :fire: 🌋 :boom: 
 
 ILPO: We introduce a method that characterizes the causal effects of latent actions on observations while simultaneously predicting their likelihood. We then outline an action alignment procedure that leverages a small amount of environment interactions to determine a mapping between the latent and real-world actions. 
+
+🔹 [Latent Policies for Adversarial Imitation Learning](https://arxiv.org/pdf/2206.11299.pdf) :+1: 
+
+We use an action encoder-decoder model to obtain a low-dimensional latent action space and train a LAtent Policy using Adversarial imitation Learning (LAPAL). 
+
+🔹 [A Ranking Game for Imitation Learning](https://arxiv.org/pdf/2202.03481.pdf) 
+
+🔹 [Recent Advances in Imitation Learning from Observation](https://arxiv.org/pdf/1905.13566.pdf) 
+
+🔹 [PREFERENCES IMPLICIT IN THE STATE OF THE WORLD](https://arxiv.org/pdf/1902.04198.pdf) :fire: 💧 
+
+RLSP: we identify the state of the world at initialization as a source of information about human preferences. Second, we leverage this insight to derive an algorithm, Reward Learning by Simulating the Past (RLSP), which infers reward from initial state based on a Maximum Causal Entropy. 
+
+🔹 [Population-Guided Imitation Learning](https://openreview.net/pdf?id=WHgT00Ev8H) :+1: 
+
+🔹 [Towards Learning to Imitate from a Single Video Demonstration](https://arxiv.org/pdf/1901.07186.pdf) :+1: :fire: 
+
+using contrastive training to learn a reward function comparing an agent’s behaviour with a single demonstration.
+
+🔹 [Concurrent Training Improves the Performance of Behavioral Cloning from Observation](https://arxiv.org/pdf/2008.01205.pdf) :fire: 
+
+BCO* (behavioral cloning from observation) 
+
+🔹 [Identifiability and Generalizability from Multiple Experts in Inverse Reinforcement Learning](https://arxiv.org/pdf/2209.10974.pdf) 
+
+Reward Identifiability 
+
+🔹 [Improving Policy Learning via Language Dynamics Distillation](https://arxiv.org/pdf/2210.00066.pdf) 
+
+LDD: pretrains a model to predict environment dynamics given demonstrations with language descriptions, and then fine-tunes these language-aware pretrained representations via reinforcement learning. 
+
+🔹 [LEARNING CONTROL BY ITERATIVE INVERSION](https://arxiv.org/pdf/2211.01724.pdf) :fire: 
+
+Iterative Inversion (IT-IN): Our input is a set of demonstrations of desired behavior, given as video embeddings of trajectories (without actions), and our method iteratively learns to imitate trajectories generated by the current policy, perturbed by random exploration noise. 
+
 
 
 
@@ -3063,6 +3113,14 @@ State-Aware Conservative Q-Learning (SA-CQL):
   🔹 [Causal Confusion in Imitation Learning](https://arxiv.org/pdf/1905.11979.pdf) :+1: :droplet:
   
   propose a solution to combat it through targeted interventions—either environment interaction or expert queries—to determine the correct causal model.
+
+  🔹 [Sample-Efficient Reinforcement Learning via Counterfactual-Based Data Augmentation](https://arxiv.org/pdf/2012.09092.pdf) :fire: :fire: 
+
+  CTRL: To address the issues of mechanism heterogeneity and related data scarcity, we propose a data-efficient RL algorithm that exploits structural causal models (SCMs) to model the state dynamics, which are estimated by leveraging both commonalities and differences across subjects.
+
+  🔹 [Causal Dynamics Learning for Task-Independent State Abstraction](https://arxiv.org/pdf/2206.13452.pdf) :fire: 
+
+  CDL: first learns a theoretically proved causal dynamics model that removes unnecessary dependencies between state variables and the action, thus generalizing well to unseen states. A state abstraction can then be derived from the learned dynamics. 
 
 - cv
   
