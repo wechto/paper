@@ -4958,6 +4958,10 @@ ACRL, an extension to standard reinforcement learning methods in the context of 
   HaBa: we further introduce a pair of adversarial contrastive constraints on the resultant hallucination networks and bases, which increase the diversity of generated images and inject more discriminant information into the factorization. 
 
 
+  🔹 [RETHINKING SKIP CONNECTION MODEL AS A LEARNABLE MARKOV CHAIN](https://arxiv.org/pdf/2209.15278.pdf) :fire: 🌋 
+
+  we introduce the conception of a learnable Markov chain for the residual-like model, and propose a simple routine of penal connection to boost the model performance and alleviate the model degradation in deep depth as well. 
+
 
 + Distillation 
   
