@@ -956,6 +956,10 @@ Value-Implicit Pre-training (VIP), a self-supervised pre-trained visual represen
 
 CLOUD: we train a forward dynamics model and an inverse dynamics model in the feature space of states and actions with data collected from random exploration. 
 
+🔹 [Object-Category Aware Reinforcement Learning](https://arxiv.org/pdf/2210.07802.pdf) :fire: :+1: 
+
+OCARL consists of three parts: (1) category-aware unsupervised object discover (category-aware UOD) module, (2) object-category aware perception (OCAP), and (3) object-centric modular reasoning (OCMR) module.
+
 
 
 <a name="anchor-MI"></a>
@@ -2623,6 +2627,18 @@ ABR: a novel offline RL algorithm that achieves an adaptive balance between clon
 🔹 [Dual Generator Offline Reinforcement Learning](https://arxiv.org/pdf/2211.01471.pdf) :fire: 🌋 
 
 DASCO: training two generators: one that maximizes return, with the other capturing the “remainder” of the data distribution in the offline dataset, such that the mixture of the two is close to the behavior policy.
+
+🔹 [Boosting Offline Reinforcement Learning via Data Rebalancing](https://arxiv.org/pdf/2210.09241.pdf) 😶 
+
+ReD (Return-based Data Rebalance) 
+
+🔹 [Robust Imitation of a Few Demonstrations with a Backwards Model](https://arxiv.org/pdf/2210.09337.pdf) :fire: 
+
+BMIL: We train a generative backwards dynamics model and generate short imagined trajectories from states in the demonstrations. By imitating both demonstrations and these model rollouts, the agent learns the demonstrated paths and how to get back onto these paths.
+
+🔹 [FROM PLAY TO POLICY: CONDITIONAL BEHAVIOR GENERATION FROM UNCURATED ROBOT DATA](https://arxiv.org/pdf/2210.10047.pdf) 
+
+
 
 
 🔹 :small_blue_diamond: 
@@ -4609,6 +4625,10 @@ ACRL, an extension to standard reinforcement learning methods in the context of 
 
   [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/33e8075e9970de0cfea955afd4644bb2_CuGkecl.png) 
 
+  🔹 [Deep Whole-Body Control: Learning a Unified Policy for Manipulation and Locomotion](https://arxiv.org/pdf/2210.10044.pdf) 
+
+
+
 - RR
   
   🔹 [BENCHMARKING OFFLINE REINFORCEMENT LEARNING ON REAL-ROBOT HARDWARE](https://openreview.net/pdf?id=3k5CUGDLNdd) 💧 
@@ -4961,6 +4981,10 @@ ACRL, an extension to standard reinforcement learning methods in the context of 
   🔹 [RETHINKING SKIP CONNECTION MODEL AS A LEARNABLE MARKOV CHAIN](https://arxiv.org/pdf/2209.15278.pdf) :fire: 🌋 
 
   we introduce the conception of a learnable Markov chain for the residual-like model, and propose a simple routine of penal connection to boost the model performance and alleviate the model degradation in deep depth as well. 
+
+  🔹 [DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature](https://arxiv.org/pdf/2301.11305.pdf) :+1: 
+
+  we first demonstrate that text sampled from an LLM tends to occupy negative curvature regions of the model’s log probability function.
 
 
 + Distillation 
