@@ -3741,6 +3741,10 @@ combining the prototypical representation learning with temporal dynamics learni
 
 ProtoCAD: extracts useful contextual information with the help of the prototypes clustered over batch and benefits model-based RL in two folds: 1) It utilizes a temporally consistent prototypical regularizer; 2) A context representation is designed and can significantly improve the dynamics generalization ability. 
 
+🔹 [IS MODEL ENSEMBLE NECESSARY? MODEL-BASED RL VIA A SINGLE MODEL WITH LIPSCHITZ REGULARIZED VALUE FUNCTION](https://arxiv.org/pdf/2302.01244.pdf) 
+
+We hypothesize that the key functionality of the probabilistic dynamics model ensemble is to regularize the Lipschitz condition of the value function using generated samples. 
+
 
 :o: Zero-Order Trajectory Optimizers / Planning
 
@@ -3959,6 +3963,10 @@ Model Selection:
 🔹 [Pessimistic Model Selection for Offline Deep Reinforcement Learning](https://arxiv.org/pdf/2111.14346.pdf) :fire: :droplet:
 
 We propose a pessimistic model selection (PMS) approach for offline DRL with a theoretical guarantee, which features a provably effective framework for finding the best policy among a set of candidate models.  
+
+🔹 [REVISITING BELLMAN ERRORS FOR OFFLINE MODEL SELECTION](https://arxiv.org/pdf/2302.00141.pdf) :fire: 
+
+Supervised Bellman Validation (SBV) 
 
   🔹 [PARAMETER-BASED VALUE FUNCTIONS](https://openreview.net/pdf?id=tV6oBfuyLTQ) :+1:  ​
 
