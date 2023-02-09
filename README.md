@@ -558,6 +558,9 @@ A policy subspace represented by a set of parameters is learned. Policies for al
 
   ReSkill: accelerating exploration in the skill space using state-conditioned generative models to directly bias the high-level agent towards only sampling skills relevant to a given state based on prior experience. 
 
+🔹 [Where To Start? Transferring Simple Skills to Complex Environments](https://arxiv.org/pdf/2212.06111.pdf) :fire: 
+
+we introduce an affordance model based on a graph representation of an environment, which is optimised during deployment to find suitable robot configurations to start a skill from, such that the skill can be executed without any collisions. 
 
 
   
@@ -1896,7 +1899,9 @@ B-REX: Our approach uses successor feature representations and preferences over 
 
 we explore an information gain formulation for optimally selecting questions that naturally account for the human’s ability to answer. Our approach identifies questions that optimize the trade-off between robot and human uncertainty, and determines when these questions become redundant or costly. + Volume Removal Solution
 
+🔹 [Few-Shot Preference Learning for Human-in-the-Loop RL](https://arxiv.org/pdf/2212.03363.pdf) :fire: :fire: 
 
+We pre-train preference models on prior task data and quickly adapt them for new tasks using only a handful of queries. 
 
 
 
@@ -2656,6 +2661,10 @@ BMIL: We train a generative backwards dynamics model and generate short imagined
 🔹 [FROM PLAY TO POLICY: CONDITIONAL BEHAVIOR GENERATION FROM UNCURATED ROBOT DATA](https://arxiv.org/pdf/2210.10047.pdf) :fire: 
 
 we present Conditional Behavior Transformers (C-BeT), a method that combines the multi-modal generation ability of Behavior Transformer with future-conditioned goal specification.
+
+🔹 [CONFIDENCE-CONDITIONED VALUE FUNCTIONS FOR OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2212.04607.pdf) :fire: 🌋 :boom: 
+
+CCVL:  we propose learning value functions that additionally condition on the degree of conservatism, which we dub confidence-conditioned value functions. We derive a new form of a Bellman backup that simultaneously learns Q-values for any degree of confidence with high probability. 
 
 
 
@@ -4577,6 +4586,17 @@ Multi-Objective RL:
 🔹 [Optimistic Linear Support and Successor Features as a Basis for Optimal Policy Transfer](https://proceedings.mlr.press/v162/alegre22a/alegre22a.pdf) :fire: :fire: 
 
 We showed that any transfer learning problem within the SF framework can be mapped into an equivalent problem of learning multiple policies in MORL under linear preferences. We then introduced a novel SF-based extension of the OLS algorithm (SFOLS) to iteratively construct a set of policies whose SFs form a CCS. [[poster]](https://icml.cc/media/PosterPDFs/ICML%202022/da0dba87d95286d836e37ca60ab1e734_LY3UWtT.png) 
+
+🔹 [Q-PENSIEVE: BOOSTING SAMPLE EFFICIENCY OF MULTI-OBJECTIVE RL THROUGH MEMORY SHARING OF Q-SNAPSHOTS](https://arxiv.org/pdf/2212.03117.pdf) :fire: :+1: 
+
+we propose Q-Pensieve, a policy improvement scheme that stores a collection of Q-snapshots to jointly determine the policy update direction and thereby enables data sharing at the policy level.
+
+🔹 [A Generalized Algorithm for Multi-Objective Reinforcement Learning and Policy Adaptation](https://arxiv.org/pdf/1908.08342.pdf) :fire: 🌋 :boom:  
+
+Envelope MOQ-Learning: We propose a generalized version of the Bellman equation to learn a single parametric representation for optimal policies over the space of all possible preferences. 
+
+
+
 
 🔹 [Trust Region Policy Optimization with Optimal Transport Discrepancies: Duality and Algorithm for Continuous Actions](https://arxiv.org/pdf/2210.11137.pdf) 😕 
 
