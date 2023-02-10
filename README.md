@@ -2654,6 +2654,10 @@ DASCO: training two generators: one that maximizes return, with the other captur
 
 ReD (Return-based Data Rebalance) 
 
+🔹 [Behaviour Discriminator: A Simple Data Filtering Method to Improve Offline Policy Learning](https://arxiv.org/pdf/2301.11734.pdf) :no_mouth:  
+
+We propose a behaviour discriminator (BD) concept, a novel and simple data filtering approach based on semisupervised learning, which can accurately discern expert data from a mixed-quality dataset. 
+
 🔹 [Robust Imitation of a Few Demonstrations with a Backwards Model](https://arxiv.org/pdf/2210.09337.pdf) :fire: 
 
 BMIL: We train a generative backwards dynamics model and generate short imagined trajectories from states in the demonstrations. By imitating both demonstrations and these model rollouts, the agent learns the demonstrated paths and how to get back onto these paths.
@@ -2665,6 +2669,8 @@ we present Conditional Behavior Transformers (C-BeT), a method that combines the
 🔹 [CONFIDENCE-CONDITIONED VALUE FUNCTIONS FOR OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2212.04607.pdf) :fire: 🌋 :boom: 
 
 CCVL:  we propose learning value functions that additionally condition on the degree of conservatism, which we dub confidence-conditioned value functions. We derive a new form of a Bellman backup that simultaneously learns Q-values for any degree of confidence with high probability. 
+
+🔹 [Designing an Offline Reinforcement Learning Objective from Scratch](https://arxiv.org/pdf/2301.12842.pdf) 
 
 
 
@@ -4594,6 +4600,11 @@ we propose Q-Pensieve, a policy improvement scheme that stores a collection of Q
 🔹 [A Generalized Algorithm for Multi-Objective Reinforcement Learning and Policy Adaptation](https://arxiv.org/pdf/1908.08342.pdf) :fire: 🌋 :boom:  
 
 Envelope MOQ-Learning: We propose a generalized version of the Bellman equation to learn a single parametric representation for optimal policies over the space of all possible preferences. 
+
+🔹 [PD-MORL: PREFERENCE-DRIVEN MULTIOBJECTIVE REINFORCEMENT LEARNING ALGORITHM](https://arxiv.org/pdf/2208.07914.pdf) :fire: 🌋 
+
+We observe that the preference vectors have similar directional angles to the corresponding vectorized Q-values for a given state. Using the insight, we utilize the cosine similarity between the preference vector and vectorized Q-values in the Bellman’s optimality operator to guide the training.
+
 
 
 
