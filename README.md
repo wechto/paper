@@ -2041,6 +2041,10 @@ We formalise a framework for this environment design process in which learner an
 
   REED: iterates between encoding environment dynamics in a state-action representation via a self-supervised temporal consistency task, and bootstrapping the preference-based reward function from the state-action representation.
 
+  🔹 [Reinforcement Learning from Diverse Human Preferences](https://arxiv.org/pdf/2301.11774.pdf) 🌋 
+
+  The key idea is to stabilize reward learning through regularization and correction in a latent space. To ensure temporal consistency, a strong constraint is imposed on the reward model that forces its latent space to be close to the prior distribution.
+
 
 - Reward Comparison; PBRS (potential-based reward shaping) 
 
@@ -2301,6 +2305,10 @@ Targeting the offline meta-RL setting, we propose Meta-Actor Critic with Advanta
   🔹 [AWAC: Accelerating Online Reinforcement Learning with Offline Datasets](https://arxiv.org/pdf/2006.09359.pdf) :+1: :fire: :volcano:
 
   we systematically analyze why this problem (offline + online) is so challenging, and propose an algorithm that combines sample efficient dynamic programming with maximum likelihood policy updates, providing a simple and effective framework that is able to leverage large amounts of offline data and then quickly perform online fine-tuning of RL policies.
+
+  🔹 [Guiding Online Reinforcement Learning with Action-Free Offline Pretraining](https://arxiv.org/pdf/2301.12876.pdf) :no_mouth: 
+
+  AF-Guide consists of an Action-Free Decision Transformer (AFDT) implementing a variant of Upside-Down Reinforcement Learning. It learns to plan the next states from the offline dataset, and a Guided Soft Actor-Critic (Guided SAC) that learns online with guidance from AFDT.
 
   🔹 [Critic Regularized Regression](https://arxiv.org/pdf/2006.15134.pdf) :+1: :fire: :volcano:  ​ ​
 
@@ -2670,7 +2678,9 @@ we present Conditional Behavior Transformers (C-BeT), a method that combines the
 
 CCVL:  we propose learning value functions that additionally condition on the degree of conservatism, which we dub confidence-conditioned value functions. We derive a new form of a Bellman backup that simultaneously learns Q-values for any degree of confidence with high probability. 
 
-🔹 [Designing an Offline Reinforcement Learning Objective from Scratch](https://arxiv.org/pdf/2301.12842.pdf) 
+🔹 [Designing an Offline Reinforcement Learning Objective from Scratch](https://arxiv.org/pdf/2301.12842.pdf) :fire: 🌋  
+
+DOS: We leverage the contrastive learning framework to design a scoring metric that gives high scores to policies that imitate the actions yielding relatively high returns while avoiding those yielding relatively low returns.
 
 
 
@@ -4326,6 +4336,10 @@ SDAS-MDP: Knowing this information (inapplicable actions) can help reduce the sa
 🔹 [Rethinking Value Function Learning for Generalization in Reinforcement Learning](https://arxiv.org/pdf/2210.09960.pdf) :no_mouth: 
 
 Dynamics-aware Delayed-Critic Policy Gradient (DDCPG): a policy gradient algorithm that implicitly penalizes value estimates by optimizing the value network less frequently with more training data than the policy network.
+
+🔹 [VARIATIONAL LATENT BRANCHING MODEL FOR OFF-POLICY EVALUATION](https://arxiv.org/pdf/2301.12056.pdf) :+1: :fire: 
+
+VLBM leverages and extends the variational inference framework with the recurrent state alignment (RSA), which is designed to capture as much information underlying the limited training data, by smoothing out the information flow between the variational (encoding) and generative (decoding) part of VLBM. Moreover, we also introduce the branching architecture to improve the model’s robustness against randomly initialized model weights.
 
 
 
