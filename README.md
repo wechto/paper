@@ -1655,6 +1655,10 @@ TD learning dynamics discourage interference, and that while this may have a ben
   🔹 [IQ-Learn: Inverse soft-Q Learning for Imitation](https://arxiv.org/pdf/2106.12142.pdf) :+1: :fire: :volcano: :droplet:
   
   We introduce a method for dynamics-aware IL which avoids adversarial training by learning a single Q-function, implicitly representing both reward and policy.  
+
+  🔹 [LS-IQ: IMPLICIT REWARD REGULARIZATION FOR INVERSE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=o3Q4m8jg4BR) 
+
+
   
   🔹 [Boosted and Reward-regularized Classification for Apprenticeship Learning](https://www.cristal.univ-lille.fr/~pietquin/pdf/AAMAS_2014_BPMGOP.pdf) :fire:  ​ ​
   
@@ -1807,6 +1811,8 @@ MD-AIRL:
 
 Skill-Augmented Imitation Learning with prior Retrieval (SAILOR) 
 
+
+🔹 [LS-IQ: IMPLICIT REWARD REGULARIZATION FOR INVERSE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=o3Q4m8jg4BR) 
 
 
 
@@ -2722,7 +2728,7 @@ Design-Bench, a benchmark for offline MBO with a unified evaluation protocol and
 
 🔹 [User-Interactive Offline Reinforcement Learning](https://arxiv.org/pdf/2205.10629.pdf) :fire: :fire: 
 
-We propose an algorithm that allows the user to tune this hyperparameter (the proximity of the learned policy to the original policy) at runtime, thereby overcoming both of the above mentioned issues simultaneously.
+LION: We propose an algorithm that allows the user to tune this hyperparameter (the proximity of the learned policy to the original policy) at runtime, thereby overcoming both of the above mentioned issues simultaneously.
 
 🔹 [CONFIDENCE-CONDITIONED VALUE FUNCTIONS FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=Zeb5mTuqT5) 
 
@@ -2960,6 +2966,10 @@ DICE: we presented DICE via weighted f-divergence, a framework to control the de
 
 We propose to adaptively weigh the behavior cloning loss during online fine-tuning based on the agent’s performance and training stability. 
 
+🔹 [HYBRID RL: USING BOTH OFFLINE AND ONLINE DATA CAN MAKE RL EFFICIENT](https://openreview.net/pdf?id=yyBis80iUuU) :fire: 
+
+Hybrid Q-Learning or Hy-Q: we prove that the algorithm is both computationally and statistically efficient whenever the offline dataset supports a high-quality policy and the environment has bounded bilinear rank. 
+
 🔹 [UniMASK: Unified Inference in Sequential Decision Problems](https://arxiv.org/pdf/2211.10869.pdf) :fire: 
 
 We show that a single UniMASK model is often capable of carrying out many tasks with performance similar to or better than single-task models. 
@@ -2971,6 +2981,11 @@ The behavior constraint naturally motivates the use of first-order Taylor approx
 🔹 [STATE-AWARE PROXIMAL PESSIMISTIC ALGORITHMS FOR OFFLINE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2211.15065.pdf) 💧 
 
 State-Aware Conservative Q-Learning (SA-CQL): 
+
+🔹 [IN-SAMPLE ACTOR CRITIC FOR OFFLINE REINFORCEMENT LEARNING](https://openreview.net/pdf?id=dfDv0WU853R) :fire: 
+
+IAC: utilizes sampling-importance resampling to execute in-sample policy evaluation. IAC only uses the target Q-values of the actions in the dataset to evaluate the trained policy, thus avoiding extrapolation error. 
+
 
 
 
@@ -3823,7 +3838,11 @@ i Cross-Entropy Method (CEM):
 
   🔹 [PESSIMISTIC MODEL-BASED ACTOR-CRITIC FOR OFFLINE REINFORCEMENT LEARNING: THEORY AND ALGORITHMS](https://openreview.net/pdf?id=VQfSsOTrLIy) 💧 
 
+  🔹 [MODEM: ACCELERATING VISUAL MODEL-BASED REINFORCEMENT LEARNING WITH DEMONSTRATIONS](https://openreview.net/pdf?id=JdTnc9gjVfJ) :fire: 
 
+  We identify key ingredients for leveraging demonstrations in model learning – policy pretraining, targeted exploration, and oversampling of demonstration data – which forms the three phases of our model-based RL framework. 
+
+  
 
 
 
