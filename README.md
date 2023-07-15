@@ -33,6 +33,7 @@ TOC
   - [Distributional RL](#distributional-rl)
   - [Continual Learning](#continual-learning)
   - [Self-paced \& Curriculum RL](#self-paced--curriculum-rl)
+  - [Foundation models](#foundation-models)
   - [Quadruped](#quadruped)
   - [Optimization](#optimization)
   - [Galaxy Forest](#galaxy-forest)
@@ -4719,6 +4720,15 @@ IDRL: uses a Bayesian model of the reward and selects queries that maximize the 
 ACRL, an extension to standard reinforcement learning methods in the context of (computationally) expensive rewards, which models the reward of given applications using machine learning models.
 
 <a name="anchor-quadruped"></a>  
+
+## Foundation models 
+
+🔹 [Human-Timescale Adaptation in an Open-Ended Task Space](https://arxiv.org/pdf/2301.07608.pdf) :fire: 🌋 
+
+AdA: Adaptation emerges from three ingredients: (1) meta-reinforcement learning across a vast, smooth and diverse task distribution, (2) a policy parameterised as a large-scale attention-based memory architecture, and (3) an effective automated curriculum that prioritises tasks at the frontier of an agent’s capabilities. 
+
+
+
 
 ## Quadruped
 
