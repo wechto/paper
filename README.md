@@ -2988,6 +2988,10 @@ State-Aware Conservative Q-Learning (SA-CQL):
 IAC: utilizes sampling-importance resampling to execute in-sample policy evaluation. IAC only uses the target Q-values of the actions in the dataset to evaluate the trained policy, thus avoiding extrapolation error. 
 
 
+🔹 [Future-conditioned Unsupervised Pretraining for Decision Transformer](https://arxiv.org/pdf/2305.16683.pdf) :fire: 🌋 
+
+PDT: this feature can be easily incorporated into a return-conditioned framework for online finetuning, by assigning return values to possible futures and sampling future embeddings based on their respective values. 
+
 
 
 
@@ -4726,6 +4730,27 @@ ACRL, an extension to standard reinforcement learning methods in the context of 
 🔹 [Human-Timescale Adaptation in an Open-Ended Task Space](https://arxiv.org/pdf/2301.07608.pdf) :fire: 🌋 
 
 AdA: Adaptation emerges from three ingredients: (1) meta-reinforcement learning across a vast, smooth and diverse task distribution, (2) a policy parameterised as a large-scale attention-based memory architecture, and (3) an effective automated curriculum that prioritises tasks at the frontier of an agent’s capabilities. 
+
+
+
+
+
+
+🔹 [VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models](https://arxiv.org/pdf/2307.05973.pdf) :fire: :fire: 
+
+VOXPOSER extracts language-conditioned affordances and constraints from LLMs and grounds them to the perceptual space using VLMs, using a code interface and without additional training to either component. 
+
+🔹 [RoCo: Dialectic Multi-Robot Collaboration with Large Language Models](https://arxiv.org/pdf/2307.04738.pdf) :fire: 
+
+🔹 [REWARD DESIGN WITH LANGUAGE MODELS](https://arxiv.org/pdf/2303.00001.pdf) :fire: 
+
+🔹 [GPT-4 Technical Report](https://arxiv.org/pdf/2303.08774.pdf) 
+
+🔹 [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://arxiv.org/pdf/2204.01691.pdf) 
+
+🔹 [Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards](https://arxiv.org/pdf/2306.04488.pdf) 
+
+🔹 [Language to Rewards for Robotic Skill Synthesis](https://arxiv.org/pdf/2306.08647.pdf) 
 
 
 
